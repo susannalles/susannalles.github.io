@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>2. Principios XML</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    </head>
+    <body>
+        <div class="top-menu">
+            <ul>
+                <li>Tema: ¿Qué es la TEI y qué aplicaciones prácticas tiene? <ul class="indent">
+                    <li><a href="1.1.html">1.1. Cuestiones generales</a></li>
+                    <li><a href="1.2.html">1.2. Historia y organización</a></li>
+                    <li><a href="1.3.html">1.3. Campos de aplicación</a></li>
+                </ul>
+                </li>
+                
+                <li>Tema 2: Extensible Markup Language <ul class="indent">
+                    <li><a href="2.1.html">2.1. Principios fundamentales de XML</a></li>
+                    <li><a href="2.2.html">2.2. Reglas y conceptos generales </a></li>
+                    <li><a href="2.3.html">2.3. Estructura de un documento XML</a></li>
+                    <li><a href="2.4.html">2.4. Los esquemas</a></li>
+                    <li><a href="2.5.html">2.5. Conceptos "válido" y "bien formado"</a></li>
+                    <li><a href="2.6.html">2.6. Conclusiones</a></li>
+                </ul></li>
+                
+                <li>Tema 3: Estructura básica de un documento TEI <ul class="indent">
+                    <li><a href="3.1.html">3.0. Visión de conjunto</a></li>
+                    <li><a href="3.1.html#P1">3.1. Encabezado</a></li>
+                    <li><a href="3.1.html#P2">3.2. El cuerpo del documento</a></li>
+                    <li><a href="3.1.html#P3">3.3. Divisiones</a></li>
+                </ul></li>
+                
+                <li>Tema 4: Elementos generales de un documento TEI<ul class="indent">
+                    <li><a href="4.1.html">4.1. Párrafos y puntuación</a></li>
+                    <li><a href="4.1.html#P2">4.2. Elementos tipográficos</a></li>
+                    <li><a href="4.1.html#P3">4.3. Nombres, números, fechas</a></li>
+                    <li><a href="4.1.html#P4">4.4. Listas</a></li>
+                    <li><a href="4.1.html#P5">4.5. Otros elementos</a></li>
+                </ul></li>
+                
+                <li>Tema 5: Las guías directrices y su manejo<ul class="indent">
+                    <li><a href="5.1.html">5.1. Presentación </a></li>
+                    <li><a href="5.1.html#P2">5.2. Estructura y formatos de publicación </a></li>
+                    <li><a href="5.1.html#P3">5.3. Materiales y recursos relacionados </a></li>
+                </ul></li>
+                
+                <li>Tema 6: Tipologías textuales <ul class="indent">
+                    <li><a href="6.1.html">6.1. Prosa</a></li>
+                    <li><a href="6.2.html">6.2. Poesía</a></li>
+                    <li><a href="6.3.html">6.3. Drama</a></li>
+                </ul></li>
+                
+                <li>Tema 7: Personalización TEI <ul class="indent">
+                    <li><a href="7.1.html">7.1. Principios fundamentales del esquema</a></li>
+                    <li><a href="7.2.html">7.2. ROMA</a></li>
+                </ul></li>
+                
+                <li>Tema 8: La función del documento ODD<ul class="indent">
+                    <li><a href="8.1.html">8.1. Importancia y papel central</a></li>
+                    <li><a href="8.1.html#P2">8.2. Herramientas</a></li>
+                    <li><a href="8.1.html#P3">8.3. Recursos</a></li>
+                </ul></li>
+                
+            </ul>
+        </div>
+        
+        <div class="contenido"><h1>Tema 2: Principios fundamentales de XML (4)</h1>
+        <h2>4. Los esquemas</h2>
+        <p align="justify">Los esquemas constituyen, en general, un fichero diferente, de esta
+            manera podemos referirnos a él desde múltiples documentos XML. Su función principal es
+            la de establecer y definir los requisitos que debe respetar el documento XML. La
+            referencia al esquema aparece en el prólogo del documento XML (después de la declaración
+            XML y antes del elemento raíz):</p>
+        <blockquote>
+            <blockquote>
+                <p><span class="code">&lt;?xml version=&quot;1.0&quot;
+                        encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;<br /> &lt;!DOCTYPE
+                        curso SYSTEM &quot;ejemplo-2-DTD.dtd&quot;&gt;<br /> &lt;curso&gt; ....
+                        &lt;/curso&gt;</span></p>
+            </blockquote>
+        </blockquote>
+        <p align="justify">Un esquema establece la serie de elementos, sus nombres y los atributos
+            que estos podrán contener; además, establece de qué manera se podrán anidar los unos con
+            los otros. El parser que debe validar el documento compara el marcado XML con el esquema
+            y recoge aquellos puntos en que el documento difiere de sus reglas. Algunos parsers si
+            encuentran defectos, rechazarán el documento, otros no, depende de las reglas que
+            establezca el mismo. Todas las reglas, a parte obviamente de aquellas que pertenecen a
+            la buena formación de cualquier documento XML, deben declararse en el esquema, de no ser
+            así el documento será “inválido”. </p>
+        <p align="justify">Hay diferentes tipos de esquema: </p>
+        <ul>
+            <li><a href="http://en.wikipedia.org/wiki/Document_type_definition" target="_blank"
+                    >DTD</a> (Document Type Definition): es el modelo más utilizado en el mundo de
+                la informática pero no en cambio en el campo de TEI, pues es menos flexible que
+                otros modelos. En el fichero <a href="/o/10015224">ejemplo-2-DTD.dtd</a>
+                encontraréis una muestra de una sencilla DTD comentada y que acompaña el fichero XML
+                    <a href="/o/10015222">ejemplo-2.xml</a>. </li>
+            <li><a href="http://www.w3.org/XML/Schema" target="_blank">Esquemas W3C</a>: se trata de
+                esquemas expresados en XML, publicados por el W3C en 2001 (2ª ed. 2004): <br /></li>
+            <li><a href="http://www.relaxng.org" target="_blank">Esquemas RelaxNG</a>: este tipo de
+                esquemas también se expresan en XML y son los más utilizados en el campo de TEI;
+                será, por tanto, con el que nosotros trabajaremos. En 2003 se constituyeron como una
+                norma ISO/IEC 19757-2, actualizada en 2008. <br /></li>
+            <li>Existen otros esquemas también utilizados como Schematron, Hook, Examplotron, pero
+                que no tendremos ocasión de estudiar en este curso.</li>
+        </ul>
+        <p align="justify">En cualquier caso, una regla de oro es que el formato esté bien
+            documentado. Debe haber un esquema para nuestro proyecto y debe estar bien comentado.
+            Además, debería haber más documentación escrita para complementarlo, como una especie de
+            manual de marcado (no concebido como sustitución de la documentación formal del esquema,
+            sino como un complemento).</p>
+        <h3 align="center"><a href="2.3.html">&lt; &lt; Anterior</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="2.5.html">Siguiente &gt; &gt;</a></h3></div>
+        
+    </body>
+</html>

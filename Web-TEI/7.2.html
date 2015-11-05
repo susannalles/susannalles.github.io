@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>7. Personalización</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css" />
+    </head>
+    <body>
+        <div class="top-menu">
+            <ul>
+                <li>Tema: ¿Qué es la TEI y qué aplicaciones prácticas tiene? <ul class="indent">
+                    <li><a href="1.1.html">1.1. Cuestiones generales</a></li>
+                    <li><a href="1.2.html">1.2. Historia y organización</a></li>
+                    <li><a href="1.3.html">1.3. Campos de aplicación</a></li>
+                </ul>
+                </li>
+                
+                <li>Tema 2: Extensible Markup Language <ul class="indent">
+                    <li><a href="2.1.html">2.1. Principios fundamentales de XML</a></li>
+                    <li><a href="2.2.html">2.2. Reglas y conceptos generales </a></li>
+                    <li><a href="2.3.html">2.3. Estructura de un documento XML</a></li>
+                    <li><a href="2.4.html">2.4. Los esquemas</a></li>
+                    <li><a href="2.5.html">2.5. Conceptos "válido" y "bien formado"</a></li>
+                    <li><a href="2.6.html">2.6. Conclusiones</a></li>
+                </ul></li>
+                
+                <li>Tema 3: Estructura básica de un documento TEI <ul class="indent">
+                    <li><a href="3.1.html">3.0. Visión de conjunto</a></li>
+                    <li><a href="3.1.html#P1">3.1. Encabezado</a></li>
+                    <li><a href="3.1.html#P2">3.2. El cuerpo del documento</a></li>
+                    <li><a href="3.1.html#P3">3.3. Divisiones</a></li>
+                </ul></li>
+                
+                <li>Tema 4: Elementos generales de un documento TEI<ul class="indent">
+                    <li><a href="4.1.html">4.1. Párrafos y puntuación</a></li>
+                    <li><a href="4.1.html#P2">4.2. Elementos tipográficos</a></li>
+                    <li><a href="4.1.html#P3">4.3. Nombres, números, fechas</a></li>
+                    <li><a href="4.1.html#P4">4.4. Listas</a></li>
+                    <li><a href="4.1.html#P5">4.5. Otros elementos</a></li>
+                </ul></li>
+                
+                <li>Tema 5: Las guías directrices y su manejo<ul class="indent">
+                    <li><a href="5.1.html">5.1. Presentación </a></li>
+                    <li><a href="5.1.html#P2">5.2. Estructura y formatos de publicación </a></li>
+                    <li><a href="5.1.html#P3">5.3. Materiales y recursos relacionados </a></li>
+                </ul></li>
+                
+                <li>Tema 6: Tipologías textuales <ul class="indent">
+                    <li><a href="6.1.html">6.1. Prosa</a></li>
+                    <li><a href="6.2.html">6.2. Poesía</a></li>
+                    <li><a href="6.3.html">6.3. Drama</a></li>
+                </ul></li>
+                
+                <li>Tema 7: Personalización TEI <ul class="indent">
+                    <li><a href="7.1.html">7.1. Principios fundamentales del esquema</a></li>
+                    <li><a href="7.2.html">7.2. ROMA</a></li>
+                </ul></li>
+                
+                <li>Tema 8: La función del documento ODD<ul class="indent">
+                    <li><a href="8.1.html">8.1. Importancia y papel central</a></li>
+                    <li><a href="8.1.html#P2">8.2. Herramientas</a></li>
+                    <li><a href="8.1.html#P3">8.3. Recursos</a></li>
+                </ul></li>
+                
+            </ul>
+        </div>
+        
+        <div class="contenido"> <h1>Tema 7: Personalización TEI (2)</h1>
+        <h2>5. Aplicación Roma y cómo construir un esquema</h2> 
+        <p>La sintaxis de los esquemas puede parecer complicada a simple vista, pero
+            el esquema Relax NG realmente es el más sencillo y podríamos crearlo y modificarlo a
+            mano. Aún así, el consorcio TEI pone a nuestra disposición una plataforma, llamada Roma,
+            para la creación y la manipulación de un esquema a nuestra medida.</p>
+        <p>En este apartado vamos a ver cómo funciona Roma y cómo construir un esquema a nuestra
+            medida. </p>
+        <p>Hay dos opciones a la hora de construir un esquema: </p>
+        <ul>
+            <li>Elegir un esquema ya creado por la comunidad TEI, como puede ser la ya mencionada
+                versión mínima, llamada TEI Lite, o la que incluye todos los elementos TEI All,
+                ambas utilizadas ya en nuestros ejercicios. En este <a
+                    href="http://www.tei-c.org/Guidelines/Customization/" target="_blank">enlace
+                </a>encontraréis los diferentes modelos. El programa oXygen tambié contiene estos
+                esquemas.</li>
+            <li>Crear un nuevo modelo a partir de la aplicación <a href="http://www.tei-c.org/Roma/"
+                    target="_blank">Roma</a>. <a
+                    href="http://www.tei-c.org/Guidelines/Customization/use_roma.xml"
+                    target="_blank">Aquí</a> encontraréis las indicaciones ofrecidas por el
+                Consorcio TEI. </li>
+        </ul>
+       
+        <p>Esta es la interfaz de inicio de la plataforma ROMA:</p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/01.png" /></p>
+        <p>Las opciones disponibles son las siguientes: </p>
+        <ul>
+            <li><em>Build up</em>: Construir un modelo personalizado a partir de una versión mínima
+                con sólo los cuatro módulos obligatorios. El proceso consiste en añadir módulos y
+                personalizar los elementos y atributos. </li>
+            <li><em>Reduce</em>: Construir un modelo personalizado a partir una versión máxima con
+                todos los módulos TEI. El proceso consiste en eliminar módulos y elementos y
+                atributos.</li>
+            <li><em>Create a new customization starting from a template</em>: Crear un modelo a
+                partir de una de las plantillas propuestas por TEI. </li>
+            <li><em>Use or modify an existing TEI-defined customization</em>: Crear un modelo a
+                partir de la modificación del modelo TEI Lite. </li>
+            <li><em>Upload a customization</em>: Sección para subir a la plataforma un modelo ya
+                existente en forma de documento ODD. </li>
+        </ul>
+        <p> </p>
+        <p>Elegiremos la primera opción <em>Build up</em>, es decir, crearemos un esquema a partir
+            de una versión mínima que sólo contiene los módulos obligatorios. La siguiente pantalla
+            corresponde a los metadatos:</p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/02.png" /><br />
+        </p>
+        <p>En este caso las opciones que se nos ofrecen son las siguientes: </p>
+        <ul>
+            <li><em>Title</em></li>
+                       <li><em>Filename</em></li>
+            
+            <li><em>Namespace for new elements</em></li>
+            
+            <li><em>Prefix for TEI pattern names in schema</em></li>
+            
+            <li><em>Language</em></li>
+            
+            <li><em>Author name</em></li>
+            
+            <li><em>Description</em></li>
+        </ul>
+        <p> </p>
+        <p>Cambiemos las informaciones por defecto por las nuestras y seleccionemos como lengua de
+            la interfície el &quot;Español&quot;:</p>
+        <p>
+            <img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/03.png" /></p>
+        <p>Y guardamos el esquema, clicando al botón rojo “Save”.</p>
+        <p align="justify">Fijaros que lo único que ha cambiado es el nombre de nuestro esquema que
+            en lugar de llamarse “My extension TEI”, ahora tiene el nombre que le hemos dado “Mi
+            primer esquema&quot;:</p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/04.png" />
+        </p>
+        <p>Veamos ahora las otras opciones: </p>
+        <ul>
+            <li><em>Nuevo</em></li>
+            
+            <li><em>Lengua</em></li>
+            
+            <li><em>Módulos</em></li>
+            
+            <li><em>Añadir elemento</em></li>
+            
+            <li><em>Cambiar clase</em></li>
+            
+            <li><em>Esquema</em></li>
+            
+            <li><em>Documentación</em></li>
+            
+            <li><em>Guardar configuración personal</em></li>
+        </ul>
+        <p><strong>A) Nuevo</strong>: retrocede a la pantalla de inicio </p>
+        <p><strong>B) Personalizar</strong>: corresponde a la pantalla donde hemos creado el el
+            título y los otros metadatos del esquema.</p>
+        <p align="justify"><strong>C) Lengua</strong>: En este apartado tenemos la posibilidad de
+            elegir entre diferentes lenguas, ello nos proporcionará una documentación de los
+            elementos en la lengua escogida (siempre que exista una traducción). En nuestro caso,
+            podemos escoger “Español”, aunque debemos tener en cuenta que la más actualizada y
+            completa es la versión en inglés (Ya habéis visto en las <em>Guías directrices </em>como
+            no todos los elementos y secciones están traducidas al español).</p>
+        <p align="justify"><strong>D) Módulos</strong>: esta es una de las pantallas más
+            importantes, pues es aquí donde elegiremos qué módulos vamos a incluir en nuestro
+            esquema: </p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/05.png" />
+        </p>
+        <p>Como veis, la columna de la izquierda contiene todos y cada uno de los
+            módulos TEI, mientras que el de la derecha recoge sólo los obligatorios: <span
+                class="code">core, tei, header, textstructure</span>. A
+            partir de aquí, debemos saber a qué módulos pertenecen los fenómenos textuales que
+            queremos codificar. Por lo general, si trabajamos con textos teatrales, tendremos que
+            incluir el módulo <span class="code">drama</span>, si trabajamos
+            con poesía el módulo <span class="code">verse</span>, si
+            trabajamos con diccionarios el módulo <span class="code"
+                >dictionaries</span>, etc. </p>
+        <p>Podemos acceder a cada uno de los módulos y ver todos los elementos que contiene. Por
+            ejemplo, si accedemos al módulo <span class="code"
+                >textcrit</span>, observamos la lista completa:</p>
+        <p>
+            <img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/07.png" /><br /></p>
+        <p align="justify">Una vez al interno de los módulos podemos “Excluir” aquellos elementos
+            que no necesitemos para nuestra codificación. En lo que concierne al “Nombre” conviene
+            dejarlo tal y como está para no provocar confusiones con el sistema estándar TEI de
+            nombres de elementos, es decir, si cambiamos, por ejemplo, <span
+                class="code">&lt;app&gt;</span> por <span
+                class="code">&lt;aparato&gt;</span>, la etiqueta en nuestro
+            documento XML-TEI aparecería como <span class="code"
+                >&lt;aparato&gt;</span> y no como <span class="code"
+                >&lt;app&gt;</span>. Además, tenemos la posibilidad de modificar los atributos,
+            manteniendo los que nos interesan y suprimiendo los que no necesitamos. </p>
+        <p align="justify">Al interior de cada uno de los elementos, tenemos la posibilidad de
+            detallar ulteriormente la “Descripción” de ese elemento. Dicha descripción es la que
+            aparecerá en el apartado correspondiente de la documentación. Por ejemplo, retomemos el
+            elemento <span class="code">&lt;app&gt;</span> e imaginemos que queremos encuadrarlo en nuestro proyecto, de
+            manera que sea útil a las personas que eleborarán la codificación, o incluso, para
+            nostros mismos.</p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/7.1.png" />
+        </p>
+        <p align="justify">Supongamos que queremos hacer la edición crítica de una obra lírica del
+            siglo de Oro. Para ello, en primer lugar, deberemos seleccionar los módulos que nos
+            interesen, en este caso, <span class="code">textcrit</span> y <span class="code">verse</span>. Pero también podemos prever que codificaremos
+            los nombres de los personajes y los diferentes lugares que aparecen en el texto, en ese
+            caso incluimos: <span class="code">namesdates</span>.</p>
+        <p>Una vez añadidos los diferentes módulos que nos intereses obtendremos en
+            la columna de la derecha los módulos seleccionados: </p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/06.png" /><br /></p>
+        <p><strong>E) Añadir elemento</strong>: A continuación, podríamos pasar a la
+            pestaña “Añadir elemento”, en el caso que quisiéramos crear un nuevo elemento que no nos
+            proporciona TEI; para ello, tendríamos que adjudicarle una clase de modelo y una clase
+            de atributos. Esta práctica debe evitarse en línea de máxima a no ser que sea
+            estrictamente necesario.</p>
+        <p><strong>F) Cambiar clase</strong>: Lo mismo sucede con esta pestaña;
+            podría darse el caso que un determinado elemento no tuviera los atributos que
+            necesitamos, en tal caso, podríamos modificarlos y añadir de nuevos en esta sección.</p>
+        <p><strong>G) Esquema</strong>: esta sección permite escoger el tipo de
+            esquema que queremos: DTD, W3C, RelaxNG, etc. </p>
+        <p>Este es uno de los momentos cruciales, pues aquí es donde podremos obtener un esquema en
+            el formato que deseemos. Las opciones que se nos ofrecen son las siguientes: </p>
+        <ul>
+            <li>Relax NG schema (compact syntax) .rnc</li>
+            <li>Relax NG schema (XML syntax) .rng</li>
+            <li>ISO Schematron</li>
+            <li>Schematron</li>
+            <li>W3C Schema .xsd</li>
+            <li>DTD .dtd </li>
+        </ul>
+        <p> </p>
+        <p> Escogeremos la opción Relax NG schema (XML syntax) y pulsaremos “Generate”; acto seguido
+            se nos descargará el esquema que hemos elaborado:</p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/08.png" />
+        </p>
+        <p align="justify"><strong>H) Documentación</strong>: Permite escoger que tipo de formato se
+            prefiere para la documentación del esquema. Tenemos la posibilidad de bajarnos en único
+            documento la descripción de cada uno de los elementos y atributos elegidos en nuestro
+            esquema según las Guías directrices. Los formatos pueden ser: </p>
+        <ul>
+            <li>HTML web page</li>
+            <li>PDF</li>
+            <li>TEI Lite</li>
+            <li>TEI ODD</li>
+        </ul>
+        <p> </p>
+        <p>La opción más útil es la HTML, pues nos generará un simple documento HTML donde tendremos
+            todos los elementos y atributos incluidos en nuestro esquema para poder consultarlos
+            fácilmente en forma de página web:</p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/10.png" />
+        </p>
+        <p align="justify"><strong>I) Guardar configuración personal</strong>: Esta pantalla también
+            es de vital importancia porqué es la que genera el fichero ODD que veremos en el
+            siguiente y último tema. En pocas palabras, se trata de un fichero XML que recoge todas
+            las características del esquema personalizado y permite rehacerlo cuantas veces lo
+            deseemos, conservando las modificaciones hechas.</p>
+        <p align="justify"><strong>J) Sanity Checker</strong> Permite comprobar las decisiones
+            hechas para tu personalización. Normalmente, si no has incluido nuevos elementos o
+            eliminado partes esenciales, suele dar positivo.</p>
+        
+        <h3 align="center"><a href="7.1.html">&lt; &lt; Anterior</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="8.1.html">Siguiente &gt; &gt;
+            </a></h3></div>
+    </body>
+</html>

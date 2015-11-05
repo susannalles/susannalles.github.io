@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>7. Personalización</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css" />
+    </head>
+    <body>
+        <div class="top-menu">
+            <ul>
+                <li>Tema: ¿Qué es la TEI y qué aplicaciones prácticas tiene? <ul class="indent">
+                    <li><a href="1.1.html">1.1. Cuestiones generales</a></li>
+                    <li><a href="1.2.html">1.2. Historia y organización</a></li>
+                    <li><a href="1.3.html">1.3. Campos de aplicación</a></li>
+                </ul>
+                </li>
+                
+                <li>Tema 2: Extensible Markup Language <ul class="indent">
+                    <li><a href="2.1.html">2.1. Principios fundamentales de XML</a></li>
+                    <li><a href="2.2.html">2.2. Reglas y conceptos generales </a></li>
+                    <li><a href="2.3.html">2.3. Estructura de un documento XML</a></li>
+                    <li><a href="2.4.html">2.4. Los esquemas</a></li>
+                    <li><a href="2.5.html">2.5. Conceptos "válido" y "bien formado"</a></li>
+                    <li><a href="2.6.html">2.6. Conclusiones</a></li>
+                </ul></li>
+                
+                <li>Tema 3: Estructura básica de un documento TEI <ul class="indent">
+                    <li><a href="3.1.html">3.0. Visión de conjunto</a></li>
+                    <li><a href="3.1.html#P1">3.1. Encabezado</a></li>
+                    <li><a href="3.1.html#P2">3.2. El cuerpo del documento</a></li>
+                    <li><a href="3.1.html#P3">3.3. Divisiones</a></li>
+                </ul></li>
+                
+                <li>Tema 4: Elementos generales de un documento TEI<ul class="indent">
+                    <li><a href="4.1.html">4.1. Párrafos y puntuación</a></li>
+                    <li><a href="4.1.html#P2">4.2. Elementos tipográficos</a></li>
+                    <li><a href="4.1.html#P3">4.3. Nombres, números, fechas</a></li>
+                    <li><a href="4.1.html#P4">4.4. Listas</a></li>
+                    <li><a href="4.1.html#P5">4.5. Otros elementos</a></li>
+                </ul></li>
+                
+                <li>Tema 5: Las guías directrices y su manejo<ul class="indent">
+                    <li><a href="5.1.html">5.1. Presentación </a></li>
+                    <li><a href="5.1.html#P2">5.2. Estructura y formatos de publicación </a></li>
+                    <li><a href="5.1.html#P3">5.3. Materiales y recursos relacionados </a></li>
+                </ul></li>
+                
+                <li>Tema 6: Tipologías textuales <ul class="indent">
+                    <li><a href="6.1.html">6.1. Prosa</a></li>
+                    <li><a href="6.2.html">6.2. Poesía</a></li>
+                    <li><a href="6.3.html">6.3. Drama</a></li>
+                </ul></li>
+                
+                <li>Tema 7: Personalización TEI <ul class="indent">
+                    <li><a href="7.1.html">7.1. Principios fundamentales del esquema</a></li>
+                    <li><a href="7.2.html">7.2. ROMA</a></li>
+                </ul></li>
+                
+                <li>Tema 8: La función del documento ODD<ul class="indent">
+                    <li><a href="8.1.html">8.1. Importancia y papel central</a></li>
+                    <li><a href="8.1.html#P2">8.2. Herramientas</a></li>
+                    <li><a href="8.1.html#P3">8.3. Recursos</a></li>
+                </ul></li>
+                
+            </ul>
+        </div>
+        <div class="contenido"> <h1>Tema 7: Personalización TEI (1)</h1>
+        <p>En este tema veremos cómo llevar a cabo la personalización de un documento TEI a través
+            de esquemas. Para ello, presentaremos de manera general la función del esquema al
+            interno de los proyectos de edición digital en TEI, centrándonos en el lenguaje Relax
+            NG. En fin, presentaremos la aplicación online Roma, que facilita la personalización de
+            los esquemas que acompañan los documentos XML-TEI. </p>
+        <h2>1. Principios fundamentales del esquema</h2>
+        <p>Para trabajar con un documento XML y aplicar un tipo concreto de marcado debemos tener un
+            modelo de trabajo; una especie de guía que nos indique de qué modo debemos proceder para
+            codificar ese texto, de manera que si interviene más de una persona, todas lleven cabo
+            un marcado homogéneo.</p>
+        <p>Para ello, necesitamos asociar nuestro documento XML con un esquema que sirve justamente
+            para establecer el tipo de marcado que podemos aplicar a un documento XML. Los esquemas
+            son ficheros autónomos que se asocian al fichero XML-TEI en su prólogo, de la siguiente
+            manera: </p>
+        <blockquote>
+            <blockquote>
+                <span class="code"><span style="color: #0058ff;">&lt;?xml version=&quot;1.0&quot;
+                        encoding=&quot;UTF-8&quot;?&gt;</span><br /><span style="color: #ff4c4c;"
+                        >&lt;?xml-model
+                        href=&quot;http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/teilite.rng&quot;
+                        schematypens=&quot;http://relaxng.org/ns/structure/1.0&quot;?&gt;</span><br /><span
+                        style="color: #0058ff;">&lt;TEI
+                        xmlns=&quot;http://www.tei-c.org/ns/1.0&quot;&gt;<br />...<br />&lt;/TEI&gt;</span></span>
+            </blockquote>
+        </blockquote>
+        <p>En el programa oXygen, para cambiar el esquema y asociar uno nuevo debemos ir a Document
+            &gt; Schema &gt; Associate Schema; obviamente puede también hacerse de manera
+            manual.</p>
+        <p>Los esquemas, como vimos en el Tema 2, son los responsables de la validación de nuestro
+            documento. Recordad que una cuestión es el estar bien formado, según las normas del
+            lenguaje XML, y la otra ser válido, según las normas de un esquema. </p>
+        <p>En general, los proyectos de edición digital no necesitan los 21 módulos ni todos los 505
+            elementos de las Guías directrices, de manera que es conveniente restringir y concretar
+            lo más posible el esquema. Por otro lado, hay que tener también en cuenta que
+            eventualmente TEI puede no ofrecer el elemento idóneo para marcar un determinado
+            fenómeno o estructura que sí aparece en vuestro texto; en dicho caso, se podrían crear
+            otros elementos y atributos, pero se recomienda no abusar de este método y utilizarlo
+            con mucho cuidado, pues obtendríamos un esquema no conforme a las Guías directrices. </p>
+        <p>Un esquema establece la representación formal de los elementos y atributos cuyo uso se
+            permitirá en el documento a codificar. Así, por ejemplo, establece cuál será el elemento
+            raíz del documento, los nombres de los elementos utilizados, los nombres y los tipos de
+            datos (cadena de caracteres, números, etc.), las reglas sobre cómo los elementos deben
+            anidarse, e incluso, a veces, los valores por defecto de los atributos. </p>
+        <p>Un esquema, pues, especifica la estructura y la nomenclatura de nuestro fichero; la
+            semántica de los elementos, por otro lado, queda como siempre relegada a las Guías
+            directrices TEI. </p>
+        <h2>2. Tipos de esquemas</h2>
+        <p>Un modelo de codificación en XML se construye a partir de una sintaxis concreta que se
+            establece en lo que llamamos esquemas. Existen diferentes tipos de esquema, como vimos
+            en el Tema 2, entre los cuales encontramos:</p>
+        <ul>
+            <li><strong>DTD</strong>: responde a las siglas “Document Type Definition” y se definió
+                al interno de la norma del lenguaje XML 1.0. Permite definir una lista de los
+                elementos de un documento (nombre y modelo de contenido), los atributos (por nombre,
+                tipo y categoría) y las entidades. En el campo de TEI ya no suele usarse, por
+                considerarse demasiado rígida y ofrecer poco flexibilidad. Un tutorial simple está
+                disponible en <a target="_blank" href="http://www.w3schools.com/dtd/">W3Schools DTD
+                    Tutorial</a>.</li>
+            <li><strong>W3C esquema</strong>: fueron propuestos por el W3C y los primeros en
+                expresarse en XML. Se aprobó en mayo de 2001 y una segunda edición se publicó en
+                octubre 2004, dividida en tres partes: <a target="_blank"
+                    href="http://www.w3.org/TR/xmlschema-0/">XML Schema Part 0</a>; <a
+                    target="_blank" href="http://www.w3.org/TR/xmlschema-1/">Part 1: Structures</a>;
+                    <a target="_blank" href="http://www.w3.org/TR/xmlschema-2/">Part 2:
+                    Datatypes</a>. Un tutorial simple está disponible en <a target="_blank"
+                    href="http://www.w3schools.com/schema/">W3Schools XML Scheme Tutorial</a>. </li>
+            <li><a target="_blank" href="http://www.relaxng.org/"><strong>Relax NG</strong></a>: en
+                2003 se estableció como norma <a target="_blank"
+                    href="http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=52348"
+                    >ISO/IEC 19757-2</a>, actualizada en 2008. Este es el más utilizado por la
+                comunidad TEI. </li>
+        </ul>
+        <p>Aquí encontraréis un artículo de E. Van der Vlist donde se comparan los tres tipos de
+            esquema: E. Van der Vlist, «<a href="http://www.xml.com/lpt/a/884" target="_blank"
+                >Comparing XML Schema Languages</a>» (12 Diciembre 2001), <em>XML.com&nbsp;</em>
+        </p>
+        <h2>3. El esquema Relax NG</h2>
+        <p>Al trabajar con XML-TEI, lo más habitual es el uso de esquemas Relax NG, pues son los que
+            permiten más granularidad y flexibilidad. Relax NG responde a las siglas: <em>REgular
+                LAnguage for XML Next Generation</em> y su especificación fue publicada por el
+            Consortium OASIS el 3 de diciembre de 2001. Poco después, en 2003, se convirtió en norma
+            ISO (ISO/IEC 19757-2:2003) y en 2008 hubo una nueva publicación que remplazaba la
+            segunda: <a target="_blank"
+                href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=52348"
+                >ISO/IEC 19757-2:2008</a>
+            <em>Document Schema Definition Language (DSDL) – Part 2: Regular grammar-based
+                validation – RELAX NG</em>. </p>
+        <p>Relax NG se expresa en XML y es relativamente sencillo y fácil de aprender. A diferencia
+            de las DTD, por ejemplo, admite espacios de nombre y por tanto la capacidad de trabajar
+            con uno o con varios. Para una lista más detallada de las ventajas, véase <a
+                href="https://www.oasis-open.org/committees/relax-ng/charter.php">aquí</a>. </p>
+        <p>Este tipo de esquema propone una determinada estructura para cada una de las instancias
+            XML, proponiendo un modelo concreto de contenido tanto de los elementos como de los
+            atributos. Al interno del esquema, todos los elementos deben ser definidos. Para dar una
+            idea general del tipo de gramática utilizada, veamos por ejemplo de qué manera Relax NG
+            indicaría que el elemento raíz de un documento TEI puede ser doble: </p>
+        <blockquote>
+            <blockquote>
+                <span class="code"><span style="color: #0058ff;"
+                        >&lt;start&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;choice&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;ref
+                        name=&quot;tei_TEI&quot;/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;ref
+                        name=&quot;tei_teiCorpus&quot;/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/choice&gt;<br />&lt;/start&gt;</span></span>
+            </blockquote>
+        </blockquote>
+        <p>El elemento <span class="code">&lt;start&gt;</span> indica el elemento raíz, mientras que
+                <span class="code">&lt;choice&gt;</span> indica las opciones de anidación al interno
+            de esa etiqueta. A continuación, deberíamos definir a su vez los elemento <span
+                class="code">&lt;TEI&gt;</span> y <span class="code">&lt;teiCorpus&gt; </span>(de
+            otra manera el esquema no estaría bien formado). <br /><br />Tomemos otro ejemplo, el
+            elemento <span class="code">&lt;text&gt;</span> tal y como aparece definido en el
+            esquema Relax NG según las <em>Guías Directrices</em> de TEI: </p>
+        <blockquote>
+            <blockquote>
+                <span class="code">
+                    <span style="color: #0058ff;">&lt;define
+                        name=&quot;tei_text&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;element
+                    name=&quot;text&quot;&gt;</span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &lt;!-- Aquí aparece la documentación que concierne al elemento: --&gt;<br />
+                    <span style="color: #0058ff;">&lt;a:documentation
+                        xmlns:a=&quot;http://relaxng.org/ns/compatibility/annotations/1.0&quot;&gt;contiene
+                        un único texto de cualquier tipo, sea este unitario o combinado, p.ej. un
+                        texto en verso o teatral, una recopilación de ensayos, una novela, un
+                        diccionario, o una fragmento de corpus. [4. 15.1.
+                        ]&lt;/a:documentation&gt;</span><br />&lt;!-- Al interior de &lt;text&gt;
+                    podemos encontrar un grupo de elementos: --&gt;<br />
+                    <span style="color: #0058ff;"
+                        >&lt;group&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;zeroOrMore&gt;</span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &lt;!-- En este punto pueden aparecer ninguna o múltiples veces una serie de
+                    elementos permitidos en cualquier punto de un documento XML-TEI. Véase la lista
+                    aquí: http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-model.global.html --&gt;<br />
+                    <span style="color: #0058ff;">&lt;ref
+                        name=&quot;tei_model.global&quot;/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/zeroOrMore&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;optional&gt;</span><br />&lt;!-- Opcionalmente podemos tener un elemento
+                    &lt;front&gt; al interno de &lt;text&gt; --&gt;<br />
+                    <span style="color: #0003ff;">&lt;ref
+                        name=&quot;tei_front&quot;/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;zeroOrMore&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;ref
+                        name=&quot;tei_model.global&quot;/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/zeroOrMore&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/optional&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;choice&gt;</span><br />&lt;!-- Debemos elegir entre incluir un elemento
+                    &lt;body&gt; o un elemento &lt;group&gt; --&gt;<br />
+                    <span style="color: #0058ff;">&lt;ref
+                        name=&quot;tei_body&quot;/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;ref
+                        name=&quot;tei_group&quot;/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/choice&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;zeroOrMore&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;ref
+                        name=&quot;tei_model.global&quot;/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/zeroOrMore&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;optional&gt;</span><br />&lt;!-- Opcionalmente podemos tener un elemento
+                    &lt;back&gt; al interno de &lt;text&gt; --&gt;<br />
+                    <span style="color: #0058ff;">&lt;ref
+                        name=&quot;tei_back&quot;/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;zeroOrMore&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;ref
+                        name=&quot;tei_model.global&quot;/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/zeroOrMore&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/optional&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/group&gt;</span><br />&lt;!-- Aquí la lista de los tipos de atributos
+                    que puede contener el elemento &lt;text&gt; --&gt;<br />
+                    <span style="color: #0058ff;">&lt;ref
+                        name=&quot;tei_att.global.attributes&quot;/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;ref
+                        name=&quot;tei_att.declaring.attributes&quot;/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;ref
+                        name=&quot;tei_att.typed.attributes&quot;/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;empty/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/element&gt;<br />&nbsp;&nbsp;
+                &lt;/define&gt;</span></span><br /><br /></blockquote>
+        </blockquote>
+        <p><strong>Recursos:</strong><br />- Aquí podréis ver el esquema Relax NG Lite que proponen
+            la <em>Guías directrices</em>: <a target="_blank"
+                href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng"
+                >http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng</a> Lo
+            podéis abrir con el programa oXygen y intentar entender la estructura (File &gt; Open
+            URL &gt; Pegad la URL en “File URL” y pulsar “OK”). <br /><br /><strong>Algunas lecturas
+                y tutoriales: </strong><br />- Eric van der Vlist, <em>Relax NG</em>, O’Reilly &amp;
+            Associates, 2003. <a target="_blank"
+                href="http://books.xmlschemata.org/relaxng/page2.html">Acceso al libro en versión
+                digital</a>.<br />- OASIS Consortium, <a target="_blank"
+                href="http://relaxng.org/tutorial-20011203.html"><em>Relax NG Tutorial</em></a>
+            (Committee Specification 3 December 2001).<br />- E. Van der Vlist, «<a target="_blank"
+                href="http://www.xml.com/pub/a/2002/01/23/relaxng.html%20">Relax NG, Compared</a>»
+            (23 Enero 2002), <em>XML.com </em><br />
+        </p>
+        <h2>4. Utilidad </h2>
+        <p>Para llevar a cabo un proyecto de edición digital y de marcado XML-TEI es indispensable
+            tener un esquema creado a nuestra medida. El esquema es el que nos permite establecer
+            qué tipo de elementos necesitamos para marcar determinados fenómenos textuales, para
+            poder localizarlos y procesarlos posteriormente. También supone que podamos establecer
+            los atributos, los valores e incluso el orden de todos ellos.</p><p>Normalmente en un
+            proyecto hay múltiples personas trabajando en la codificación, por lo que es muy
+            importante que todos codifiquen de la misma manera y con los mismos procedimientos y
+            elementos. </p><p>Para la creación de un esquema el proceso siempre es el mismo. Tal y
+            como vimos en el Tema 1, la condición indispensable es que analicemos el texto y que
+            definamos qué elementos aparecen en el mismo, tanto cuestiones estructurales, como
+            semánticas. Una vez hemos elaborado la lista de fenómenos que nos gustaría codificar,
+            deberemos encontrar la manera de expresarlo según las Guías directrices y elaborar
+            nuestro esquema Relax NG propio.</p>
+        <h3 align="center"><a href="6.3.html">&lt; &lt; Anterior</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="7.2.html">Siguiente &gt; &gt;
+            </a></h3></div>
+    </body>
+</html>

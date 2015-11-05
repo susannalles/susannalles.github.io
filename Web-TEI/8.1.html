@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>8. ODD</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css" />
+    </head>
+    <body>
+        <div class="top-menu">
+            <ul>
+                <li>Tema: ¿Qué es la TEI y qué aplicaciones prácticas tiene? <ul class="indent">
+                    <li><a href="1.1.html">1.1. Cuestiones generales</a></li>
+                    <li><a href="1.2.html">1.2. Historia y organización</a></li>
+                    <li><a href="1.3.html">1.3. Campos de aplicación</a></li>
+                </ul>
+                </li>
+                
+                <li>Tema 2: Extensible Markup Language <ul class="indent">
+                    <li><a href="2.1.html">2.1. Principios fundamentales de XML</a></li>
+                    <li><a href="2.2.html">2.2. Reglas y conceptos generales </a></li>
+                    <li><a href="2.3.html">2.3. Estructura de un documento XML</a></li>
+                    <li><a href="2.4.html">2.4. Los esquemas</a></li>
+                    <li><a href="2.5.html">2.5. Conceptos "válido" y "bien formado"</a></li>
+                    <li><a href="2.6.html">2.6. Conclusiones</a></li>
+                </ul></li>
+                
+                <li>Tema 3: Estructura básica de un documento TEI <ul class="indent">
+                    <li><a href="3.1.html">3.0. Visión de conjunto</a></li>
+                    <li><a href="3.1.html#P1">3.1. Encabezado</a></li>
+                    <li><a href="3.1.html#P2">3.2. El cuerpo del documento</a></li>
+                    <li><a href="3.1.html#P3">3.3. Divisiones</a></li>
+                </ul></li>
+                
+                <li>Tema 4: Elementos generales de un documento TEI<ul class="indent">
+                    <li><a href="4.1.html">4.1. Párrafos y puntuación</a></li>
+                    <li><a href="4.1.html#P2">4.2. Elementos tipográficos</a></li>
+                    <li><a href="4.1.html#P3">4.3. Nombres, números, fechas</a></li>
+                    <li><a href="4.1.html#P4">4.4. Listas</a></li>
+                    <li><a href="4.1.html#P5">4.5. Otros elementos</a></li>
+                </ul></li>
+                
+                <li>Tema 5: Las guías directrices y su manejo<ul class="indent">
+                    <li><a href="5.1.html">5.1. Presentación </a></li>
+                    <li><a href="5.1.html#P2">5.2. Estructura y formatos de publicación </a></li>
+                    <li><a href="5.1.html#P3">5.3. Materiales y recursos relacionados </a></li>
+                </ul></li>
+                
+                <li>Tema 6: Tipologías textuales <ul class="indent">
+                    <li><a href="6.1.html">6.1. Prosa</a></li>
+                    <li><a href="6.2.html">6.2. Poesía</a></li>
+                    <li><a href="6.3.html">6.3. Drama</a></li>
+                </ul></li>
+                
+                <li>Tema 7: Personalización TEI <ul class="indent">
+                    <li><a href="7.1.html">7.1. Principios fundamentales del esquema</a></li>
+                    <li><a href="7.2.html">7.2. ROMA</a></li>
+                </ul></li>
+                
+                <li>Tema 8: La función del documento ODD<ul class="indent">
+                    <li><a href="8.1.html">8.1. Importancia y papel central</a></li>
+                    <li><a href="8.1.html#P2">8.2. Herramientas</a></li>
+                    <li><a href="8.1.html#P3">8.3. Recursos</a></li>
+                </ul></li>
+                
+            </ul>
+        </div>
+        
+       <div class="contenido"> <h1>Tema 8. La función del documento ODD: One Document Does it all</h1>
+        
+        <p>En este último tema, veremos en qué consiste un documento ODD (<em>One Document Does it
+                All</em>) y cuál es su función al interno de un proyecto de codificación TEI.</p>
+        <h2>1. Importancia y papel central del documento ODD</h2>
+        <p>Como hemos visto a lo largo de los temas anteriores, el sistema de
+            codificación TEI consiste en una lista de módulos que contienen una serie de elementos
+            con sus especificaciones. A su vez, cada uno de los elementos TEI tiene un nombre
+            “estándar” o canónico (como pueden ser <span class="code">p,
+                div, corr, sic,</span> etc.), una descripción de su función, la indicación del
+            modelo o clase al que pertenece, una definición de los atributos que puede contener, así
+            como una lista de ejemplos; esta es la estructura que, de hecho, vemos cada vez que
+            consultamos un elemento en las <em>Guías directrices</em>. </p>
+        <p>A parte de estas especificaciones generales, hemos visto como el esquema
+            TEI puede ser de diferentes tipos (DTD, esquema W3C, RelaxNG), personalizándolo según
+            nuestras necesidades. El más utilizado y del que nos hemos ocupado someramente en el
+            tema anterior ha sido el esquema RelaxNG. Estos esquemas tienen como función recoger
+            todas las referencias a los módulos, elementos, etc. que establece el modelo general de
+            TEI; además, tenemos la posibilidad de personalizar estos esquemas, modificando módulos,
+            elementos, atributos o clases, etc. </p>
+        <p align="justify">En todo este engranado, hay una última etapa que es de vital importancia,
+            y esto es, el documento ODD que es el que conservará todas y cada una de las
+            modificaciones y de las singularidades o especificaciones de nuestro esquema. </p>
+        <p align="justify">El documento ODD responde a las siglas <em>One Document Does it All
+            </em>y consiste en un fichero XML-TEI. A partir de este fichero podremos general el
+            esquema en diferentes lenguajes y recuperar la documentación de nuestro proyecto.</p>
+        <p align="justify">Veamos cuales son las prestaciones que nos ofrece el documento ODD: </p>
+        <ul>
+            <li>El documento ODD es el único que nos permitirá recuperar nuestro esquema
+                personalizado. Es muy importante tener en cuenta que un esquema (RelaxNG o otros
+                tipos) NO puede subirse a la aplicación ROMA, y por tanto si lo hemos modificado no
+                habrá manera de recuperar las informaciones que hayamos añadido. Por ejemplo,
+                imaginemos que hemos definido una nueva semántica para algunos de los elementos TEI,
+                eliminado elementos y definido valores por defecto en los atributos. Pues bien,
+                todas estas informaciones solo serán recuperables si, al finalizar la
+                personalización, creamos el documento ODD. En la aplicación ROMA solo pueden subirse
+                los documentos ODD, no aceptará ni esquemas ni ficheros XML-TEI codificados.</li>
+            <li>En cualquier proyecto de edición, especialmente en las primeras etapas, es normal
+                modificar el esquema de codificación, de manera que cada vez que lo modifiquemos
+                deberemos crear también un documento ODD que será el responsable de generarnos el
+                esquema deseado.</li>
+            <li>El documento ODD también nos permitirá generar, además de los esquemas, una nueva
+                documentación tal y como la habremos redactado para nuestro proyecto.</li>
+            <li>En fin, el documento ODD es la pieza clave para poder difundir y compartir nuestro
+                esquema de codificación. No solo con la comunidad TEI, sino también entre los mismos
+                miembros de un equipo. </li>
+        </ul>
+        <h2 id="P2">2. Herramientas para su creación y manipulación </h2>
+        <p>Pasemos ahora a ver cómo podemos crear y manipular un documento ODD con
+            la aplicación Roma. Obviamente podríamos crearlo a mano, si conocemos bien la sintaxis a
+            utilizar, tal y como ocurría con los esquemas, pero la práctica habitual es el uso de
+            Roma que ya habéis tenido ocasión de utilizar. </p>
+        <p>Para que toméis una primera toma de contacto con un fichero ODD os
+            recomiendo que creéis uno con vuestro programa oXygen, siguiendo estos pasos: </p>
+        <p align="center">File &gt; New &gt; Framework templates &gt; TEI ODD &gt; ODD [TEI ODD]
+            &gt; Create</p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/01ODD.png" />
+        </p>
+        <p>Como podéis observar, se trata de un fichero XML-TEI normal con el
+            prólogo XML, un elemento raíz <span class="code">&lt;TEI&gt;</span>, al interior del cual tenemos un <span class="code">&lt;teiheader&gt;</span> con los
+            diferentes metadatos, y un elemento <span class="code">&lt;text&gt;</span> que contiene a su vez el <span class="code">&lt;body&gt;</span>. Ahora bien, los
+                        elementos que aparecen a continuación son nuevos:
+            </p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/02ODD.png" />
+        </p>
+        <p>El elemento <span class="code"
+                >&lt;schemaSpec&gt;</span> responde a <em>Schema Specification</em>, es decir,
+            señala el tipo de esquema que debe reconstruir, indicando además el elemento raíz a
+            través del atributo <span class="code">@start</span>.</p>
+        <p>A continuación lista los diferentes módulos que el esquema resultante
+            deberá contener. Como podéis ver, se trata sólo de los módulos obligatorios: <span
+                class="code">header, core, tei</span> y <span
+                class="code">textstructure</span>.</p>
+        <p>De hecho, esta sería el mismo resultado que si, en la aplicación Roma, creáramos un
+            esquema mínimo. Hagamos la prueba: </p>
+        <p><strong>1)</strong> Id a la aplicación Roma y cread un esquema a partir del modelo
+            mínimo:</p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/03ODD.png" />
+        </p>
+        <p><strong>2) </strong>Cambiad los metadatos esenciales en la pestaña “Personalizar”:</p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/04ODD.png" />
+        </p>
+        <p><strong>3)</strong> Si ahora quisiéramos general un esquema RelaxNG,
+            iríamos a la pestaña “Esquema”, si quisiéramos obtener la documentación relativa a ese
+            esquema, seleccionaríamos la pestaña “Documentación”. Ahora lo que nos interesa es crear
+            el documento ODD, por lo que iremos a “Guardar configuración personal”: </p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/05ODD.png" />
+        </p>
+        <p>Al pulsar, se descargará de manera automática el fichero ODD, que si
+            abrimos con el programa oXygen, veremos que contiene la misma estructura y los mismos
+            módulos obligatorios; además de la descripción que añadimos en la pestaña “Personalizar”
+            se reflejan en el documento obtenido:</p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/06ODD.png" />
+        </p>
+        <p> </p>
+        <ul>
+            <li><span class="code">schemaSpec</span> es la definición formal del esquema TEI.</li>
+            <li><span class="code">@ident</span>: contiene el identificador que corresponde al nombre del fichero que le hemos
+                consignado. </li>
+            <li><span class="code">@docLang</span>: indica la lengua de la documentación, en nuestro caso el español <span class="code">es</span>. </li>
+            <li><span class="code">@prefix</span>: <span class="code">tei_</span> es el prefijo que se utilizará para todas las definiciones de los
+                casos TEI. </li>
+            <li><span class="code">@key</span>: es el responsable de llamar a los identificadores de los módulos y todo el
+                contenido que hay en ellos.</li>
+        </ul>
+        <p> En resumen, una personalización mínima de TEI, registrada en un
+            documento ODD, contendrá siempre los módulos obligatorios. De ser de otra manera, ya no
+            sería un fichero TEI, sino otra cosa; y cada uno de esos módulos, incluye a su vez una
+            lista de elementos y atributos predefinidos. </p>
+        <p>Hagamos otra prueba, retomando nuestro fichero ODD que hemos creado y siguiendo estos
+            pasos:</p>
+        <p align="justify"><strong>1) </strong>En la página principal de Roma, escoged la opción
+            &quot;Upload Customization&quot; y elegid vuestro fichero creado con Roma: </p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/07ODD.png" />
+        </p>
+        <p><strong>2)</strong> Como podéis ver, hemos recuperado las informaciones que habíamos
+            introducido:</p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/08ODD.png" />
+        </p>
+        <p><strong>3)</strong> Ahora vayamos a la pestaña de “Módulos” y añadamos el módulo <span
+                class="code">verse</span>: </p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/09ODD.png" />
+        </p>
+        <p><strong>4) </strong>Seleccionemos ahora el módulo <span
+                class="code">verse</span>, eliminemos los elementos <span
+                class="code">&lt;metDecl&gt;</span> y <span
+                class="code">&lt;metSym&gt;</span> y guardemos los cambios: </p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/10ODD.png" />
+        </p>
+        <p><strong>5)</strong> Al interno del elemento <span class="code"
+                >&lt;caesura&gt;</span> haremos un solo cambio: ampliaremos la “Descripción”:</p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/11ODD.png" />
+        </p>
+        <p align="justify"><strong>6)</strong> Al interno del elemento <span
+                class="code">&lt;rhyme&gt;</span>, modificaremos los valores
+            de los atributos en la pestaña correspondiente “Modificación de atributos” y señalando
+            los valores en la casilla “Lista de valores”. En nuestro caso señalando el tipo de rima
+            en “consonante” o “asonante”, separados por comas y sin espacios: </p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/12ODD.png" />
+        </p>
+        <p align="justify"><strong>7)</strong> Si quisiéramos generar el esquema correspondiente
+            iríamos a la pestaña “Esquema” y seleccionaríamos el tipo de esquema deseado: </p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/13ODD.png" />
+        </p>
+        <p>Esta modificación nos simplificaría la tarea al codificar, preestableciendo nuestros
+            valores:</p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/14ODD.png" />
+        </p>
+        <p align="justify"><strong>8)</strong> Generemos finalmente el documento ODD, clicando en
+            “Guardar configuración personal” y abramos el documento con oXygen:</p>
+        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/15ODD.png" />
+        </p>
+        <p>Como vemos, el resultado es el total de los cambios realizados en nuestro esquema: </p>
+        <p> </p>
+        <ul>
+            <li>Se ha añadido el módulo <span class="code">verse</span>,
+                señalando los dos elementos que hemos eliminado. </li>
+            <li>Se recoge la nueva descripción del elemento <span
+                    class="code">&lt;caesura&gt;</span>.</li>
+            <li>Así como se añaden los valores al atributo <span
+                    class="code">@type </span>a través de una lista de
+                valores (<span class="code">&lt;valList&gt;</span>) y los
+                valores individuales (<span class="code"
+                    >&lt;valItem&gt;</span>).</li>
+        </ul>
+        
+        <p>A partir de ahora, cada vez que subamos este documento ODD a la
+            aplicación Roma recuperaremos el mismo esquema, conservando siempre las modificaciones
+            que hemos llevado a cabo. ¡Imaginaros cuanto tiempo nos llevaría modificar nuestro
+            esquema, si tuviéramos que incorporar toda la personalización cada vez que quisiéramos
+            realizar algún cambio!</p>
+        <h2 id="P3">3. Algunos recursos para aprender más: </h2>
+       
+        <ul>
+            <li><a href="http://www.tei-c.org/Guidelines/Customization/odds.xml" target="_blank"
+                    >Getting Started with P5 ODD</a></li>
+            <li><a href="http://wiki.tei-c.org/index.php/ODD" target="_blank">TEI ODD Wiki </a></li>
+            <li><a href="http://tei.it.ox.ac.uk/Talks/2011-06-18-odd/%20" target="_blank"
+                    >Understanding ODD</a>, digital.humanities@oxford (University of Oxford) </li>
+        </ul>
+        <h3 align="center"><a href="7.2.html">&lt; &lt; Anterior</a>
+           <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="7.1.html">Siguiente &gt; &gt;
+            </a>--></h3></div>
+    </body>
+</html>

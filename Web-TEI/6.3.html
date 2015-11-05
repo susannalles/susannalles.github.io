@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>6. Tipologías textuales</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css" />
+    </head>
+    <body>
+        <div class="top-menu">
+            <ul>
+                <li>Tema: ¿Qué es la TEI y qué aplicaciones prácticas tiene? <ul class="indent">
+                    <li><a href="1.1.html">1.1. Cuestiones generales</a></li>
+                    <li><a href="1.2.html">1.2. Historia y organización</a></li>
+                    <li><a href="1.3.html">1.3. Campos de aplicación</a></li>
+                </ul>
+                </li>
+                
+                <li>Tema 2: Extensible Markup Language <ul class="indent">
+                    <li><a href="2.1.html">2.1. Principios fundamentales de XML</a></li>
+                    <li><a href="2.2.html">2.2. Reglas y conceptos generales </a></li>
+                    <li><a href="2.3.html">2.3. Estructura de un documento XML</a></li>
+                    <li><a href="2.4.html">2.4. Los esquemas</a></li>
+                    <li><a href="2.5.html">2.5. Conceptos "válido" y "bien formado"</a></li>
+                    <li><a href="2.6.html">2.6. Conclusiones</a></li>
+                </ul></li>
+                
+                <li>Tema 3: Estructura básica de un documento TEI <ul class="indent">
+                    <li><a href="3.1.html">3.0. Visión de conjunto</a></li>
+                    <li><a href="3.1.html#P1">3.1. Encabezado</a></li>
+                    <li><a href="3.1.html#P2">3.2. El cuerpo del documento</a></li>
+                    <li><a href="3.1.html#P3">3.3. Divisiones</a></li>
+                </ul></li>
+                
+                <li>Tema 4: Elementos generales de un documento TEI<ul class="indent">
+                    <li><a href="4.1.html">4.1. Párrafos y puntuación</a></li>
+                    <li><a href="4.1.html#P2">4.2. Elementos tipográficos</a></li>
+                    <li><a href="4.1.html#P3">4.3. Nombres, números, fechas</a></li>
+                    <li><a href="4.1.html#P4">4.4. Listas</a></li>
+                    <li><a href="4.1.html#P5">4.5. Otros elementos</a></li>
+                </ul></li>
+                
+                <li>Tema 5: Las guías directrices y su manejo<ul class="indent">
+                    <li><a href="5.1.html">5.1. Presentación </a></li>
+                    <li><a href="5.1.html#P2">5.2. Estructura y formatos de publicación </a></li>
+                    <li><a href="5.1.html#P3">5.3. Materiales y recursos relacionados </a></li>
+                </ul></li>
+                
+                <li>Tema 6: Tipologías textuales <ul class="indent">
+                    <li><a href="6.1.html">6.1. Prosa</a></li>
+                    <li><a href="6.2.html">6.2. Poesía</a></li>
+                    <li><a href="6.3.html">6.3. Drama</a></li>
+                </ul></li>
+                
+                <li>Tema 7: Personalización TEI <ul class="indent">
+                    <li><a href="7.1.html">7.1. Principios fundamentales del esquema</a></li>
+                    <li><a href="7.2.html">7.2. ROMA</a></li>
+                </ul></li>
+                
+                <li>Tema 8: La función del documento ODD<ul class="indent">
+                    <li><a href="8.1.html">8.1. Importancia y papel central</a></li>
+                    <li><a href="8.1.html#P2">8.2. Herramientas</a></li>
+                    <li><a href="8.1.html#P3">8.3. Recursos</a></li>
+                </ul></li>
+                
+            </ul>
+        </div>
+        <div class="contenido"> <h1>Tema 6: Tipologías textuales (3)</h1>
+        <h2>3. Tiplogías textuales: Drama </h2>
+        <p>Los textos dramáticos se caracterizan por tener una estructura más bien fija y unos
+            elementos recurrentes: actos, escenas, acotaciones, indicaciones escénicas, diálogos,
+            etc. </p>
+        <p>Las <em>Guías directrices</em>, al igual que sucedía con las obras en verso, dedica un
+            módulo específico a las obras dramática (véase <a
+                href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DR.html" target="_blank"
+                >7. Performance texts</a>), que os he dejado en formato pdf en el aula. </p>
+        <p>En primer lugar, es necesario crear la infraestructura general en la que acomodar el
+            texto. Tal y como hemos procedido en las otras ocasiones, se podría establecer una
+            división general para cada una de las escena y para cada uno de los actos o jornadas,
+            añadiendo un atributo <span class="code">@type</span> para definirlas:</p>
+        <blockquote>
+            <blockquote>
+                <span class="code"><span style="color: #0003ff;">&lt;div type=&quot;acto&quot;
+                        n=&quot;1&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;head&gt;</span>Acto Primero<span style="color: #0003ff;"
+                        >&lt;/head&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div
+                        type=&quot;escena&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;head&gt;</span>Escena I<span style="color: #0003ff;"
+                        >&lt;/head&gt;<br />&lt;!-- ...
+                        --&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/div&gt;<br />&lt;/div&gt;<br />&lt;div type=&quot;acto&quot;
+                        n=&quot;2&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;head&gt;</span>Acto Segundo<span style="color: #0003ff;"
+                        >&lt;/head&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div
+                        type=&quot;escena&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;head&gt;</span>Escena I<span style="color: #0003ff;"
+                        >&lt;/head&gt;<br />&lt;!-- ...
+                        --&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/div&gt;<br />&lt;/div&gt;</span></span><br />
+            </blockquote>
+        </blockquote>
+        <p>Cada una de las divisiones puede o no ir acompañado de un título, elemento aceptado en
+            todos los documentos TEI. </p>
+        <p>Para los diálogos se utilizan los elementos <a target="_blank"
+                href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-sp.html"><span
+                    class="code">&lt;sp&gt;</span></a> (<em>speech</em>) que están constituidos de
+            la persona que habla <a target="_blank"
+                href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-speaker.html"><span
+                    class="code">&lt;speaker&gt;</span></a> y del diálogo en sí, normalmente marcado
+            en un simple <span class="code">&lt;p&gt;</span>, aunque nada impediría que se utilizara
+                <span class="code">&lt;l&gt;</span> o <span class="code">&lt;lg&gt;</span>,
+            especialmente en aquellos casos en que se tratara de una versificación; o incluso podría
+            también utilizar el elemento <span class="code">&lt;seg&gt;</span>, pero en ningún caso
+            el texto podría ir directamente dentro del elemento <span class="code">&lt;sp&gt;</span>
+            sin estructurar. Un diálogo quedaría así: </p>
+        <blockquote>
+            <blockquote>
+                <span class="code"><span style="color: #0003ff;">&lt;sp
+                        who=&quot;#personaje1&quot;&gt;<br />&nbsp;&nbsp;&nbsp;
+                        &lt;speaker&gt;</span>Personaje 1<span style="color: #0003ff;"
+                        >&lt;/speaker&gt;<br />&nbsp;&nbsp;&nbsp; &lt;p&gt;</span>Diálogo<span
+                        style="color: #0003ff;">&lt;/p&gt;<br />&lt;/sp&gt;<br />&lt;sp
+                        who=&quot;#personaje2&quot;&gt;<br />&nbsp;&nbsp;&nbsp;
+                        &lt;speaker&gt;</span>Personaje 2<span style="color: #0003ff;"
+                        >&lt;/speaker&gt;<br /> &nbsp;&nbsp;&nbsp; &lt;p&gt;</span>Diálogo<span
+                        style="color: #0003ff;">&lt;/p&gt;<br />&lt;/sp&gt;</span></span>
+            </blockquote>
+        </blockquote>
+        <p>En lo que concierne los personajes es importante crear de antemano una lista de todos los
+            personajes que intervienen y otorgarles un identificador. Esta información puede
+            colocarse o bien en una <span class="code">&lt;div&gt;</span> creada a propósito, o bien
+            (más recomendable) en el elemento <span class="code">&lt;front&gt;</span>, que precede
+                el<span class="code"> &lt;body&gt;</span>. Allí podríamos incluir dicha lista
+            gracias al elemento <a target="_blank"
+                href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-castList.html"><span
+                    class="code">&lt;castlist&gt;</span></a>: </p>
+        <blockquote>
+            <blockquote>
+                <span class="code"><span style="color: #0003ff;"
+                        >&lt;front&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;castList&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;head&gt;</span>Personajes<span style="color: #0003ff;"
+                        >&lt;/head&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;castItem&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;role xml:id=&quot;#personaje1&quot;&gt;</span>Personaje 1<span
+                        style="color: #0003ff;"
+                        >&lt;/role&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;roleDesc&gt;</span>Descripción del personaje 2<span
+                        style="color: #0003ff;"
+                        >&lt;/roleDesc&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/castItem&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;castItem&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;role xml:id=&quot;#personaje2&quot;&gt;</span>Personaje 2<span
+                        style="color: #0003ff;"
+                        >&lt;/role&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;roleDesc&gt;</span>Descripción del personaje 2<span
+                        style="color: #0003ff;"
+                        >&lt;/roleDesc&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/castItem&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/castList&gt;<br />&lt;/front&gt;</span></span>
+            </blockquote>
+        </blockquote>
+        <p>De esta manera cada vez que un personaje hable se podrá marcar al interior de <span
+                class="code">&lt;sp&gt;</span> con el atributo <span class="code">@who</span>, para
+            que todas sus intervenciones sean fácilmente localizables. De hecho, se podría eliminar
+            la etiqueta <span class="code">&lt;speaker&gt;</span> y recuperar la abreviación del
+            personaje justamente a través del identificador que aparece como valor en el atributo
+                <span class="code">@who</span> al interior de <span class="code">&lt;sp&gt;</span>.
+            Es decir que podríamos expresar lo mismo de esta forma:</p>
+        <blockquote>
+            <blockquote>
+                <span class="code"><span style="color: #0003ff;">&lt;sp
+                        who=&quot;#personaje1&quot;&gt;<br />&nbsp;&nbsp;
+                        &lt;p&gt;</span>Diálogo<span style="color: #0003ff;"
+                        >&lt;/p&gt;<br />&lt;/sp&gt;<br /><br />&lt;sp
+                        who=&quot;#personaje2&quot;&gt;<br />&nbsp;&nbsp;
+                        &lt;p&gt;</span>Diálogo<span style="color: #0003ff;"
+                        >&lt;/p&gt;<br />&lt;/sp&gt;</span></span>
+            </blockquote>
+        </blockquote>
+        <p>Las indicaciones dramáticas o acotaciones, aquellas normalmente realizadas por el
+            dramaturgo, pueden incluirse al interior de un elemento <a
+                href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-stage.html"
+                target="_blank"><span class="code">&lt;stage&gt;</span></a>. También aquí se prevé
+            la opción de añadir un atributo <span class="code">@type</span> para caracterizar las
+            diferentes acotaciones o tipos de indicaciones, por ejemplo: </p>
+        <blockquote>
+            <blockquote>
+                <span class="code"><span style="color: #0003ff;">&lt;sp
+                        who=&quot;#personaje1&quot;&gt;<br /></span><span style="color: #0003ff;"
+                        >&nbsp;&nbsp; &lt;p&gt;</span>Diálogo<span style="color: #0003ff;"
+                        >&lt;/p&gt;</span><span style="color: #0003ff;"><br />
+                        &lt;/sp&gt;<br />&lt;sp who=&quot;#personaje2&quot;&gt;<br /></span><span
+                        style="color: #0003ff;">&nbsp;&nbsp; &lt;p&gt;</span>Diálogo<span
+                        style="color: #0003ff;">&lt;/p&gt;</span><span style="color: #0003ff;"
+                        ><br />&lt;/sp&gt;<br /></span><span style="color: #0003ff;">&lt;stage
+                        type=&quot;personajes&quot;&gt;</span>Descripción de los personajes que se
+                    encuentran en la escena.<span style="color: #0003ff;">&lt;/stage&gt;</span><span
+                        style="color: #0003ff;"><br /></span><span style="color: #0003ff;">&lt;stage
+                        type=&quot;decorado&quot;&gt;</span>Descripción del decorado en la
+                        escena.<span style="color: #0003ff;">&lt;/stage&gt;</span></span>
+            </blockquote>
+        </blockquote>
+        <p>Al interior del elemento <span class="code">&lt;stage&gt;</span> podemos utilizar otros
+            elementos que pueden sernos útiles en alguna ocasión como por ejemplo: </p>
+        <ul>
+            <li><a target="_blank"
+                    href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-move.html"><span
+                        class="code">&lt;move&gt;</span></a>: para indicar los movimientos de los
+                personajes. Podríamos incluso especificar los movimiento con el atributo <span
+                    class="code">@type</span>, que conlleva unos valores predifinidos por defecto de
+                entrada, salida y en escena: <span class="code">entrance</span> o <span class="code"
+                    >exit</span> y <span class="code">onStage</span>; así también podemos añadir el
+                atributo <span class="code">@who</span> para identificar fácilmente de qué personaje
+                se trata y <span class="code">@where</span> para señalar hacia dónde es el
+                movimiento. </li>
+            <li><a target="_blank"
+                    href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-sound.html"><span
+                        class="code">&lt;sound&gt;</span></a>: para describir fenómenos de sonido,
+                añadiendo si es necesario el atributo <span class="code">@type</span>.</li>
+            <li>
+                <a target="_blank"
+                    href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-view.html"><span
+                        class="code">&lt;view&gt;</span></a>: para describir el contexto visual de
+                una parte del escenario, tal y como lo debe visualizar el espectador.</li>
+            <li><a target="_blank"
+                    href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-camera.html"><span
+                        class="code">&lt;camera&gt;</span></a> para dar indicaciones al cámara en el
+                caso de grabaciones video, como películas. </li>
+            <li><span class="code"><a target="_blank"
+                        href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-caption.html"
+                        >&lt;caption&gt;</a>
+                </span>para recoger las palabras que deberán proyectarse en pantalla. </li>
+            <li><a target="_blank"
+                    href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-tech.html"><span
+                        class="code">&lt;tech&gt;</span></a> otras informaciones técnicas.</li>
+        </ul>
+        <p>En el aula encontraréis un ejemplo sencillo de codificación del inicio de una obra
+            dramática en verso de Lope de Vega, <em>Amar sin saber a quien</em>. Miraros la
+            reproducción digital que aparece en la <a target="_blank"
+                href="http://bib.cervantesvirtual.com/servlet/SirveObras/01260529543471504100035/p0000001.htm#I_0_"
+                >Biblioteca Cervantes Virtual</a>&nbsp; y confrontadla con la codificación que he
+            propuesto. <a target="_blank"
+                href="%20http://bib.cervantesvirtual.com/servlet/SirveObras/00363959755781806410046/ima0000.htm"
+                >Aquí</a> encontraréis también una edición digital en HTML. <br /></p>
+        <p>Como siempre os recomiendo que sigáis otros recursos, en este caso el <a target="_blank"
+                href="http://www.teibyexample.org/modules/TBED05v00.htm">Módulo 5 de TEI by
+                Sample</a> y, sobre todo, los <a target="_blank"
+                href="http://www.teibyexample.org/examples/TBED05v00.htm">ejemplos</a>. Así como la
+            consulta de las <a target="_blank"
+                href="%20http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DR.html"><em>Guías
+                    directrices</em></a>. </p>
+        <h3 align="center"><a href="6.2.html">&lt; &lt; Anterior</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="7.1.html">Siguiente &gt; &gt;
+            </a></h3></div>
+    </body>
+</html>

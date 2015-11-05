@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>6. Tipologías textuales</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css" />
+    </head>
+    <body>
+        <div class="top-menu">
+            <ul>
+                <li>Tema: ¿Qué es la TEI y qué aplicaciones prácticas tiene? <ul class="indent">
+                    <li><a href="1.1.html">1.1. Cuestiones generales</a></li>
+                    <li><a href="1.2.html">1.2. Historia y organización</a></li>
+                    <li><a href="1.3.html">1.3. Campos de aplicación</a></li>
+                </ul>
+                </li>
+                
+                <li>Tema 2: Extensible Markup Language <ul class="indent">
+                    <li><a href="2.1.html">2.1. Principios fundamentales de XML</a></li>
+                    <li><a href="2.2.html">2.2. Reglas y conceptos generales </a></li>
+                    <li><a href="2.3.html">2.3. Estructura de un documento XML</a></li>
+                    <li><a href="2.4.html">2.4. Los esquemas</a></li>
+                    <li><a href="2.5.html">2.5. Conceptos "válido" y "bien formado"</a></li>
+                    <li><a href="2.6.html">2.6. Conclusiones</a></li>
+                </ul></li>
+                
+                <li>Tema 3: Estructura básica de un documento TEI <ul class="indent">
+                    <li><a href="3.1.html">3.0. Visión de conjunto</a></li>
+                    <li><a href="3.1.html#P1">3.1. Encabezado</a></li>
+                    <li><a href="3.1.html#P2">3.2. El cuerpo del documento</a></li>
+                    <li><a href="3.1.html#P3">3.3. Divisiones</a></li>
+                </ul></li>
+                
+                <li>Tema 4: Elementos generales de un documento TEI<ul class="indent">
+                    <li><a href="4.1.html">4.1. Párrafos y puntuación</a></li>
+                    <li><a href="4.1.html#P2">4.2. Elementos tipográficos</a></li>
+                    <li><a href="4.1.html#P3">4.3. Nombres, números, fechas</a></li>
+                    <li><a href="4.1.html#P4">4.4. Listas</a></li>
+                    <li><a href="4.1.html#P5">4.5. Otros elementos</a></li>
+                </ul></li>
+                
+                <li>Tema 5: Las guías directrices y su manejo<ul class="indent">
+                    <li><a href="5.1.html">5.1. Presentación </a></li>
+                    <li><a href="5.1.html#P2">5.2. Estructura y formatos de publicación </a></li>
+                    <li><a href="5.1.html#P3">5.3. Materiales y recursos relacionados </a></li>
+                </ul></li>
+                
+                <li>Tema 6: Tipologías textuales <ul class="indent">
+                    <li><a href="6.1.html">6.1. Prosa</a></li>
+                    <li><a href="6.2.html">6.2. Poesía</a></li>
+                    <li><a href="6.3.html">6.3. Drama</a></li>
+                </ul></li>
+                
+                <li>Tema 7: Personalización TEI <ul class="indent">
+                    <li><a href="7.1.html">7.1. Principios fundamentales del esquema</a></li>
+                    <li><a href="7.2.html">7.2. ROMA</a></li>
+                </ul></li>
+                
+                <li>Tema 8: La función del documento ODD<ul class="indent">
+                    <li><a href="8.1.html">8.1. Importancia y papel central</a></li>
+                    <li><a href="8.1.html#P2">8.2. Herramientas</a></li>
+                    <li><a href="8.1.html#P3">8.3. Recursos</a></li>
+                </ul></li>
+                
+            </ul>
+        </div>
+        <div class="contenido"> <h1>Tema 6: Tipologías textuales (2)</h1>
+        <h2>2. Poesía</h2>
+        <p>Centrémonos ahora en los elementos básicos para codificar composiciones en verso. Tuvimos
+            ya ocasión de reflexionar sobre la codificación de un poema y es ahora el momento de
+            concretar el vocabulario propuesto por TEI.</p>
+        <p>Tomemos este soneto de Federico García Lorca: </p>
+        <blockquote>
+            <blockquote>
+                <p> Tengo miedo a perder la maravilla <br /> de tus ojos de estatua y el acento
+                    <br /> que de noche me pone en la mejilla <br /> la solitaria rosa de tu
+                    aliento. <br /><br /> Tengo pena de ser en esta orilla <br /> tronco sin ramas;
+                    y lo que más siento <br /> es no tener la flor, pulpa o arcilla, <br /> para el
+                    gusano de mi sufrimiento. <br /><br /> Si tú eres el tesoro oculto mío, <br />
+                    si eres mi cruz y mi dolor mojado, <br /> si soy el perro de tu señorío,
+                    <br /><br /> no me dejes perder lo que he ganado <br /> y decora las aguas de tu
+                    río <br /> con hojas de mi otoño enajenado.<br />
+                </p>
+            </blockquote>
+        </blockquote>
+        <p>La totalidad del poema suele contenerse en el elemento <a
+                href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-lg.html"
+                target="_blank"><span class="code">&lt;lg&gt;</span></a> (<em>line group</em>),
+            mientras que el título, una vez más, se sitúa al interior de un elemento <a
+                href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-head.html"
+                target="_blank"><span class="code">&lt;head&gt;</span></a>; cada uno de los versos
+            se codifica con el elemento que indica la línea: <a
+                href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-l.html"
+                target="_blank"><span class="code">&lt;l&gt;</span></a>. Así mismo, para marcar las
+            estrofas también se utiliza <span class="code">&lt;lg&gt;</span>, pues permite la
+            anidación de otros elementos idénticos en su interior.</p>
+        <p> El elemento <span class="code">&lt;lg&gt;</span> puede poseer una serie de atributos,
+            tanto a nivel de poema, como a nivel de estrofa, entre los cuales podemos destacar: </p>
+        <ul>
+            <li><span class="code">@type </span>para indicar de qué tipo de composición se
+                trata</li>
+            <li><span class="code">@rhyme</span> para indicar el tipo de rima de la estrofa</li>
+            <li><span class="code">@n </span>para señalar, por ejemplo, el número de estrofa</li>
+            <li><span class="code">@xml:id</span> para otorgar un identificador a cada verso</li>
+        </ul>
+        <p>También el verso (<span class="code">&lt;l&gt;</span>) puede tener sus atributos: </p>
+        <ul>
+            <li><span class="code">@n</span> para indicar el número del verso</li>
+            <li><span class="code">@rhyme</span> para indicar la rima del verso</li>
+            <li><span class="code">@xml:id</span> para otorgar un identificador a cada verso</li>
+        </ul>
+        <p>El vocabulario TEI prevé un elemento específico para codificar las rimas: <span
+                class="code">&lt;ryhme&gt;</span>; éste puede aparecer tanto a final de verso como
+            en su interior, donde sea que aparezca la rima:</p>
+        <blockquote><blockquote>
+                <span class="code">
+                    <span style="color: #0003ff;">&lt;lg type=&quot;cuarteto&quot;
+                        n=&quot;1&quot;&gt;<br />&nbsp;&nbsp; &lt;l n=&quot;1&quot;&gt;</span>Tengo
+                    miedo a perder la marav<span style="color: #0003ff;"
+                        >&lt;rhyme&gt;</span>illa<span style="color: #0003ff;"
+                        >&lt;/rhyme&gt;&lt;/l&gt;<br />&nbsp;&nbsp; &lt;l n=&quot;2&quot;&gt;</span>
+                    de tus ojos de estatua y el ac<span style="color: #0003ff;"
+                        >&lt;rhyme&gt;</span>ento<span style="color: #0003ff;">&lt;/rhyme&gt;
+                        &lt;/l&gt;<br />&nbsp;&nbsp; &lt;l n=&quot;3&quot;&gt; </span>que me pone de
+                    noche en la mej<span style="color: #0003ff;">&lt;rhyme&gt;</span>illa<span
+                        style="color: #0003ff;">&lt;/rhyme&gt; &lt;/l&gt;<br />&nbsp;&nbsp; &lt;l
+                        n=&quot;4&quot;&gt;</span>la solitaria rosa de tu ali<span
+                        style="color: #0003ff;">&lt;rhyme&gt;</span>ento<span
+                        style="color: #0003ff;"
+                    >&lt;/rhyme&gt;.&lt;/l&gt;<br />&lt;/lg&gt;</span></span>
+            </blockquote></blockquote>
+        <p>Además, el elemento <a
+                href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-rhyme.html"
+                target="_blank"><span class="code">&lt;rhyme&gt;</span></a> puede contener el
+            atributo <span class="code">@label</span> para señalar el tipo de rima, normalmente
+            indicado con un letra del alfabeto: <span class="code">marav&lt;rhyme
+                label=&quot;a&quot;&gt;illa&lt;/rhyme&gt;</span>.</p>
+        <p>Pero también puede indicarse en el interior del elemento <span class="code"
+                >&lt;div&gt;</span>, <span class="code">&lt;lg&gt;</span> e incluso <span
+                class="code">&lt;l&gt;</span>:</p>
+        <blockquote><blockquote>
+            <span class="code"><span style="color: #0003ff;">&lt;lg
+                        type=&quot;soneto&quot;
+                        rhyme=&quot;ababababcdcdcd&quot;&gt;<br />&nbsp;&nbsp;
+                    &lt;head&gt;</span>Soneto de la dulce queja<span style="color: #0003ff;"
+                        >&lt;/head&gt;<br />&nbsp;&nbsp; &lt;lg type=&quot;cuarteto&quot;
+                        n=&quot;1&quot;
+                        rhyme=&quot;abab&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;l
+                        n=&quot;1&quot; rhyme=&quot;a&quot;&gt;</span>Tengo miedo a perder la
+                        marav<span style="color: #0003ff;">&lt;rhyme&gt;</span>illa<span
+                        style="color: #0003ff;"
+                        >&lt;/rhyme&gt;&lt;/l&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;l
+                        n=&quot;2&quot; rhyme=&quot;b&quot;&gt;</span> de tus ojos de estatua y el
+                    ac<span style="color: #0003ff;"
+                            >&lt;rhyme&gt;</span>ento<span style="color: #0003ff;">&lt;/rhyme&gt;</span><span
+                        style="color: #0003ff;"> &lt;/l&gt;</span><br />
+                    <span style="color: #0003ff;">&lt;l n=&quot;3&quot;
+                        rhyme=&quot;a&quot;&gt;</span> que me pone de noche en la mej<span style="color: #0003ff;"
+                    >&lt;rhyme&gt;</span>illa<span style="color: #0003ff;">&lt;/rhyme&gt;</span>
+                <span
+                        style="color: #0003ff;">&lt;/l&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;l
+                        n=&quot;4&quot; rhyme=&quot;b&quot;&gt;</span>la solitaria rosa de tu
+                    ali<span style="color: #0003ff;"
+                            >&lt;rhyme&gt;</span>ento<span style="color: #0003ff;">&lt;/rhyme&gt;</span><span
+                        style="color: #0003ff;">.&lt;/l&gt;<br />&nbsp;&nbsp;
+                    &lt;/lg&gt;</span><span style="color: #0003ff;"><br />&nbsp;&nbsp; &lt;!-- más estrofas...
+                        --&gt;<br />&lt;lg&gt;</span></span></blockquote></blockquote>
+        <p>En el caso que apareciera el nombre el poema, podríamos codificar su
+            nombre en el interior del elemento <span class="code">&lt;signed&gt;</span>.</p>
+        <p>Si tuviéramos una serie de poemas, las estrategias a seguir podrían ser varias pero lo
+            más sencillo sería marcar cada poema independientemente en un elemento <span class="code">&lt;lg&gt;</span>:</p>
+        <blockquote><blockquote>
+            <span class="code"><span style="color: #0003ff;">&lt;div
+                        type=&quot;poemas&quot;&gt;<br />&nbsp; &lt;lg type=&quot;poema&quot;
+                        n=&quot;1&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;head&gt;</span>poema
+                        1<span style="color: #0003ff;"
+                        >&lt;/head&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;lg&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &lt;l&gt;</span>verso 1<span style="color: #0003ff;"
+                        >&lt;/l&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &lt;l&gt;</span>verso 2<span style="color: #0003ff;"
+                        >&lt;/l&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &lt;l&gt;</span>verso 3<span style="color: #0003ff;"
+                        >&lt;/l&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/lg&gt;<br />&nbsp;
+                        &lt;/lg&gt;<br />&nbsp; &lt;lg type=&quot;poema&quot;
+                        n=&quot;2&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;head&gt;</span>poema
+                        1<span style="color: #0003ff;">&lt;/head&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;lg&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &lt;l&gt;</span>verso 1<span style="color: #0003ff;"
+                        >&lt;/l&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &lt;l&gt;</span>verso 2<span style="color: #0003ff;"
+                        >&lt;/l&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &lt;l&gt;</span>verso 3<span style="color: #0003ff;"
+                        >&lt;/l&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;/lg&gt;<br />&nbsp;
+                        &lt;/lg&gt;<br />&nbsp; &lt;lg type=&quot;poema&quot;
+                        n=&quot;3&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;head&gt;</span>poema
+                        1<span style="color: #0003ff;">&lt;/head&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;lg&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &lt;l&gt;</span>verso 1<span style="color: #0003ff;"
+                        >&lt;/l&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &lt;l&gt;</span>verso 2<span style="color: #0003ff;"
+                        >&lt;/l&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &lt;l&gt;</span>verso 3<span style="color: #0003ff;"
+                        >&lt;/l&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt;/lg&gt;<br />&nbsp;&nbsp; &lt;/lg&gt;<br />&lt;/div&gt;
+                </span></span><br />
+        </blockquote></blockquote>
+       
+        <p>Una propuesta de marcado la encontraréis en el documento publicado en el aula con el
+            nombre de: <a href="">ejemplo_poema_1.xml</a></p>
+        <p>Existen muchos otros elementos relacionados con las composiciones
+            métricas, para más detalles os remito al módulo
+            correspondiente, <span class="code"><a target="_blank"
+                href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/VE.html">verse</a></span>. Así también, para completar esta sección, os dejo el
+            enlace del <a
+                href="http://www.remetca.uned.es/index.php?option=com_content&amp;view=article&amp;id=130:taller-de-xml-tei-text-encoding-initiative-aplicado-al-estudio-de-la-poesia-medieval-castellana&amp;catid=89&amp;Itemid=515&amp;lang=es"
+                target="_blank">Taller de XML-TEI aplicado al estudio de la poesía castellana
+                medieval</a> tuvo lugar en la UNED el noviembre de 2014. Se trata de una presentación
+            general sobre TEI y el marcado de textos métricos, y una amplia sección dedicada a la
+            codificación de los textos que forman parte del proyecto ReMetCa. <a target="_blank"
+                href="http://canal.uned.es/teleacto/415.html">Aquí</a> encontraréis los dos vídeos y
+                <a target="_blank"
+                href="https://www.dropbox.com/sh/emgg10hmrvrtumr/AACRzblyxABPfNIWS5DPvw2Xa?dl=0%20"
+                >aquí</a> los ficheros en el Dropbox del taller. <br /></p>
+        <h3 align="center"><a href="6.1.html">&lt; &lt; Anterior</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="6.3.html">Siguiente &gt;
+            &gt;</a></h3></div>
+    </body>
+</html>
