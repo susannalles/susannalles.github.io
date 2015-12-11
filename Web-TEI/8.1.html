@@ -7,6 +7,8 @@
     <body>
         <div class="top-menu">
             <ul>
+                <li style="font-size:large;">Introducción a la edición digital de Textos: TEI-XML
+                    (Susanna Allés Torrent)</li>
                 <li>Tema: ¿Qué es la TEI y qué aplicaciones prácticas tiene? <ul class="indent">
                     <li><a href="1.1.html">1.1. Cuestiones generales</a></li>
                     <li><a href="1.2.html">1.2. Historia y organización</a></li>
@@ -60,8 +62,17 @@
                     <li><a href="8.1.html#P2">8.2. Herramientas</a></li>
                     <li><a href="8.1.html#P3">8.3. Recursos</a></li>
                 </ul></li>
+                <li><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img id="cc"
+                    alt="Creative Commons License" style="border-width:0"
+                    src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"
+                /></a><br />This work is licensed under a <a rel="license"
+                    href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                    Attribution-NonCommercial 4.0 International License</a>. <br/>Susanna Allés
+                    Torrent, <i>Introducción a la edición digital de Textos: TEI-XML</i>, 2015.</li>
+                
                 
             </ul>
+            <br /><br /><br />
         </div>
         
        <div class="contenido"> <h1>Tema 8. La función del documento ODD: One Document Does it all</h1>
@@ -120,14 +131,14 @@
             recomiendo que creéis uno con vuestro programa oXygen, siguiendo estos pasos: </p>
         <p align="center">File &gt; New &gt; Framework templates &gt; TEI ODD &gt; ODD [TEI ODD]
             &gt; Create</p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/01ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/01ODD.png" />
         </p>
         <p>Como podéis observar, se trata de un fichero XML-TEI normal con el
             prólogo XML, un elemento raíz <span class="code">&lt;TEI&gt;</span>, al interior del cual tenemos un <span class="code">&lt;teiheader&gt;</span> con los
             diferentes metadatos, y un elemento <span class="code">&lt;text&gt;</span> que contiene a su vez el <span class="code">&lt;body&gt;</span>. Ahora bien, los
                         elementos que aparecen a continuación son nuevos:
             </p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/02ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/02ODD.png" />
         </p>
         <p>El elemento <span class="code"
                 >&lt;schemaSpec&gt;</span> responde a <em>Schema Specification</em>, es decir,
@@ -141,22 +152,22 @@
             esquema mínimo. Hagamos la prueba: </p>
         <p><strong>1)</strong> Id a la aplicación Roma y cread un esquema a partir del modelo
             mínimo:</p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/03ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/03ODD.png" />
         </p>
         <p><strong>2) </strong>Cambiad los metadatos esenciales en la pestaña “Personalizar”:</p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/04ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/04ODD.png" />
         </p>
         <p><strong>3)</strong> Si ahora quisiéramos general un esquema RelaxNG,
             iríamos a la pestaña “Esquema”, si quisiéramos obtener la documentación relativa a ese
             esquema, seleccionaríamos la pestaña “Documentación”. Ahora lo que nos interesa es crear
             el documento ODD, por lo que iremos a “Guardar configuración personal”: </p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/05ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/05ODD.png" />
         </p>
         <p>Al pulsar, se descargará de manera automática el fichero ODD, que si
             abrimos con el programa oXygen, veremos que contiene la misma estructura y los mismos
             módulos obligatorios; además de la descripción que añadimos en la pestaña “Personalizar”
             se reflejan en el documento obtenido:</p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/06ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/06ODD.png" />
         </p>
         <p> </p>
         <ul>
@@ -177,44 +188,44 @@
             pasos:</p>
         <p align="justify"><strong>1) </strong>En la página principal de Roma, escoged la opción
             &quot;Upload Customization&quot; y elegid vuestro fichero creado con Roma: </p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/07ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/07ODD.png" />
         </p>
         <p><strong>2)</strong> Como podéis ver, hemos recuperado las informaciones que habíamos
             introducido:</p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/08ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/08ODD.png" />
         </p>
         <p><strong>3)</strong> Ahora vayamos a la pestaña de “Módulos” y añadamos el módulo <span
                 class="code">verse</span>: </p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/09ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/09ODD.png" />
         </p>
         <p><strong>4) </strong>Seleccionemos ahora el módulo <span
                 class="code">verse</span>, eliminemos los elementos <span
                 class="code">&lt;metDecl&gt;</span> y <span
                 class="code">&lt;metSym&gt;</span> y guardemos los cambios: </p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/10ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/10ODD.png" />
         </p>
         <p><strong>5)</strong> Al interno del elemento <span class="code"
                 >&lt;caesura&gt;</span> haremos un solo cambio: ampliaremos la “Descripción”:</p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/11ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/11ODD.png" />
         </p>
         <p align="justify"><strong>6)</strong> Al interno del elemento <span
                 class="code">&lt;rhyme&gt;</span>, modificaremos los valores
             de los atributos en la pestaña correspondiente “Modificación de atributos” y señalando
             los valores en la casilla “Lista de valores”. En nuestro caso señalando el tipo de rima
             en “consonante” o “asonante”, separados por comas y sin espacios: </p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/12ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/12ODD.png" />
         </p>
         <p align="justify"><strong>7)</strong> Si quisiéramos generar el esquema correspondiente
             iríamos a la pestaña “Esquema” y seleccionaríamos el tipo de esquema deseado: </p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/13ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/13ODD.png" />
         </p>
         <p>Esta modificación nos simplificaría la tarea al codificar, preestableciendo nuestros
             valores:</p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/14ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/14ODD.png" />
         </p>
         <p align="justify"><strong>8)</strong> Generemos finalmente el documento ODD, clicando en
             “Guardar configuración personal” y abramos el documento con oXygen:</p>
-        <p><img alt="" border="1" align="middle" src="http://dh-laic.com/susanna/img/15ODD.png" />
+        <p><img alt="" border="1" align="middle" src="img/15ODD.png" />
         </p>
         <p>Como vemos, el resultado es el total de los cambios realizados en nuestro esquema: </p>
         <p> </p>

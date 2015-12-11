@@ -27,9 +27,12 @@ h3{
 }
 
 img{
-    border-radius:20px;
-    border:2px solid #cc6699;
-
+    /*border-radius:20px;
+    border:2px solid #cc6699;*/
+}
+#cc{
+   border-radius:0;
+    border:0 solid #ffffff; 
 }
 .content{
     margin:25px;
@@ -55,6 +58,8 @@ a{
     text-align:left;
     overflow:scroll;
     height:100%;
+    
+   
 }
 
 .top-menu ul{
@@ -64,6 +69,7 @@ a{
     overflow:hidden;
     color:#6699cc;
     font-size:13px;
+    
 }
 .top-menu ul a{
     color:#090603;
