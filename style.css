@@ -25,8 +25,26 @@ h2{
     margin:0 0 20px;
 }
 
+h2 a{
+    font-size:20px;
+    line-height:1.1;
+    color:#222;
+    margin:0 0 20px;
+}
+
+h3{
+    font-size:17px;
+    line-height:1.1;
+    color:#222;
+    margin:0 0 20px 30px;
+   
+}
 .ul{
     margin-left:30px;
+}
+
+li{
+    margin-bottom:10px;
 }
 #menu{
     position:fixed;
@@ -39,12 +57,17 @@ h2{
 #menu p{
 
 }
+td{
+    padding:4px;
+    font-size:14px;
+    text-align:justify;
+}
 a{
     text-decoration:none;
     color:#39C;
 }
 #contenido{
-margin-top:50px;
+    margin-top:50px;
     padding:5px;
     width:600px;
     margin-left:400px;
