@@ -1,0 +1,124 @@
+﻿html,
+body{
+/*  font-family: 'Libre Baskerville', serif;*/
+font-family: 'Tinos', serif;
+    word-spacing:0.2em;
+    background-color:#FFFFFF;
+    line-height:22px;
+    font-size:1.1em;
+}
+
+#Header{
+    background-image:url(img/banner4.png);
+    background-color:#186641;
+    background-repeat:no-repeat;
+    height:110px;
+    margin:-10px -8px 0px -10px;
+}
+
+img{
+    margin-left:0px;
+}
+h2{
+    font-size:28px;
+}
+#content{
+    display:block;
+    background-color:#ffffff;
+    height:100%;
+}
+.infos{
+    width:90%;
+    height:44px;
+    font-size:0.9em;
+    margin-top:15px;
+    padding:5px;
+}
+
+.menu{
+    height:18px;
+    font-size:small;
+    padding:0px;
+    margin-top:5px;
+}
+
+li{
+    display:inline;
+    width:30px;
+    margin-right:4px;
+    font-size:1.2em;
+}
+
+li a{
+    text-decoration:none;
+    font-size:small;
+}
+
+#left1{
+    width:48%;
+    height:600px;
+    float:left;
+    padding:3px;
+    margin-top:1px;
+    font-size:0.9em;
+}
+#left2{
+    width:95%;
+    height:95%;
+    /*float:left;*/
+    padding:6px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    margin-top:10px;
+    border:2px solid #1a1a1a;
+}
+
+#right1{
+    width:48%;
+    height:600px;
+    float:right;
+    padding:3px;
+    margin-top:-53px;/*higher*/
+    font-size:0.9em;
+}
+#right2{
+    width:95%;
+    height:95%;
+    /*    float:right;*/
+    padding:6px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    margin-top:10px;
+    border:2px solid #1a1a1a;
+}
+
+#center{
+    margin-top:20px;
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.title{
+    color:#660000;
+    border:solid;
+    padding:4px;
+    margin:4px;
+}
+a{
+    color:black;
+    font-weight:bold;
+}
+
+p img{
+    width:13px;
+    height:13px;
+    border:solid 0.5px;
+    margin:4px;
+}
+.autor{
+    color:#ffffff;
+    font-size:12px;
+    float:right;
+    margin-top:130px;
+    margin-right:10px;
+}
