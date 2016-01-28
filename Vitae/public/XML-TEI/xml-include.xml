@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prova include</title>
+        <author ref="#SAT">Susanna Allés Torrent</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Information de la publication</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information sur la source</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p></p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Title</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Information about the source</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <!-- ici éventuellement le texte d'une introduction rapide au projet -->
+       <div>
+         <!--  <linkGrp targFunc="transcription spanishTranslation">
+            <link targets="#ita_p_165_1 #esp_p_165_1"/>
+            <link targets="#ita_p_167_1 #esp_p_167_1"/>
+            <link targets="#ita_p_169_1 #esp_p_169_1"/>
+            
+          </linkGrp>-->
+        </div>
+      </body>
+    </text>
+  </TEI>
+  
+  <xi:include href="VHannibalisLAT.xml" parse="xml"/>
+  <xi:include href="VHannibalisCAST.xml" parse="xml"/>
+  <!-- FC inclure les autres fichiers -->
+  
+</teiCorpus>

@@ -1,0 +1,440 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vitae Illustrium Virorum</title>
+   <!-- <link rel="stylesheet" href="../public/css/normalize.css">-->
+      <link rel="stylesheet" href="../public/css/foundation.css">
+ 
+   <!-- <link href="style.css" rel="stylesheet" />-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script language="javascript">
+    $(document).ready(function() {
+      $('.pagination li a').click(function(e) {
+                var id = $(this).attr('href');
+        id = id.replace('#l','');
+        $.ajax({  
+          type: "POST",  
+          url: "public/script/transf.php",  
+          data: { section: id },  
+          success: function(response) { 
+            var arr = response.split('##');
+            $('#panel_left').html(arr[0]);   
+            $('#panel_right').html(arr[1]);        
+          }  
+        });   
+            });     
+        });
+    </script>
+
+  </head>
+  <body>
+
+    <!-- HEADER & BUTTONS -->
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>
+          <a href="index.html"
+            style="text-decoration: none; color: black;">Vitae Illustrium Virorum</a>
+        </h1>
+        <!-- MENU -->
+        <a href="index.html" class="small radius button">About</a>
+        <a href="edition.html" class="small radius button">Edition/ Manuscript</a>
+      </div>
+    </div>
+
+    <!-- INFO -->
+    <div class="row">
+      <div class="large-12 columns">
+        <p>Technical description about what is doing this page. </p>
+        
+      </div>
+    </div>
+
+    <!-- ROW WITH THE CHAPTER NUMBERS -->
+    <div class="row">
+      <div class="large-12 columns">
+<!--        
+        <label>Section
+          <select id="mySelect"
+            onchange="if(this.options[this.selectedIndex].value != ''){window.top.location.href=this.options[this.selectedIndex].value}">
+            <option value="0"> </option>
+            <option value="VH-1.html">1</option></a>
+            <option value="VH-2.html">2</option>
+            <option value="VH-3.html">3</option>
+            <option value="VH-4.html">4</option>
+          </select>
+        </label>-->
+        
+        <ul class="pagination text-center" role="navigation" aria-label="Pagination">
+          <li>
+            <a href="VH-1.html">1</a>
+          </li>
+          <li>
+            <a href="VH-2.html">2</a>
+          </li>
+          <li>
+            <a href="VH-3.html">3</a>
+          </li>
+          <li>
+            <a href="VH-4.html">4</a>
+          </li>
+          <li>
+            <a href="VH-5.html">5</a>
+          </li>
+          <li>
+            <a href="VH-6.html">6</a>
+          </li>
+          <li>
+            <a href="VH-7.html">7</a>
+          </li>
+          <li>
+            <a href="VH-8.html">8</a>
+          </li>
+          <li>
+            <a href="VH-9.html">9</a>
+          </li>
+          <li>
+            <a href="VH-10.html">10</a>
+          </li>
+          <li>
+            <a href="VH-11.html">11</a>
+          </li>
+          <li>
+            <a href="VH-12.html">12</a>
+          </li>
+          <li>
+            <a href="VH-13.html">13</a>
+          </li>
+          <li>
+            <a href="VH-14.html">14</a>
+          </li>
+          <li>
+            <a href="VH-15.html">15</a>
+          </li>
+          <li>
+            <a href="VH-16.html">16</a>
+          </li>
+          <li>
+            <a href="VH-17.html">17</a>
+          </li>
+          <li>
+            <a href="VH-18.html">18</a>
+          </li>
+          <li>
+            <a href="VH-19.html">19</a>
+          </li>
+          <li>
+            <a href="VH-20.html">20</a>
+          </li>
+          <li>
+            <a href="VH-21.html">21</a>
+          </li>
+          <li>
+            <a href="VH-22.html">22</a>
+          </li>
+          <li>
+            <a href="VH-23.html">23</a>
+          </li>
+          <li>
+            <a href="VH-24.html">24</a>
+          </li>
+          <li>
+            <a href="VH-25.html">25</a>
+          </li>
+          <li>
+            <a href="VH-26.html">26</a>
+          </li>
+          <li>
+            <a href="VH-27.html">27</a>
+          </li>
+          <li>
+            <a href="VH-28.html">28</a>
+          </li>
+          <li>
+            <a href="VH-29.html">29</a>
+          </li>
+          <li>
+            <a href="VH-30.html">30</a>
+          </li>
+          <li>
+            <a href="VH-31.html">31</a>
+          </li>
+          <li>
+            <a href="VH-32.html">32</a>
+          </li>
+          <li>
+            <a href="VH-33.html">33</a>
+          </li>
+          <li>
+            <a href="VH-34.html">34</a>
+          </li>
+          <li>
+            <a href="VH-35.html">35</a>
+          </li>
+          <li>
+            <a href="VH-36.html">36</a>
+          </li>
+          <li>
+            <a href="VH-37.html">37</a>
+          </li>
+          <li>
+            <a href="VH-38.html">38</a>
+          </li>
+          <li>
+            <a href="VH-39.html">39</a>
+          </li>
+          <li>
+            <a href="VH-40.html">40</a>
+          </li>
+          <li>
+            <a href="VH-41.html">41</a>
+          </li>
+          <li>
+            <a href="VH-42.html">42</a>
+          </li>
+          <li>
+            <a href="VH-43.html">43</a>
+          </li>
+          <li>
+            <a href="VH-44.html">44</a>
+          </li>
+          <li>
+            <a href="VH-45.html">45</a>
+          </li>
+          <li>
+            <a href="VH-46.html">46</a>
+          </li>
+          <li>
+            <a href="VH-47.html">47</a>
+          </li>
+          <li>
+            <a href="VH-48.html">48</a>
+          </li>
+          <li>
+            <a href="VH-49.html">49</a>
+          </li>
+          <li>
+            <a href="VH-50.html">50</a>
+          </li>
+          <li>
+            <a href="VH-51.html">51</a>
+          </li>
+          <li>
+            <a href="VH-52.html">52</a>
+          </li>
+          <li>
+            <a href="VH-53.html">53</a>
+          </li>
+          <li>
+            <a href="VH-54.html">54</a>
+          </li>
+          <li>
+            <a href="VH-55.html">55</a>
+          </li>
+          <li>
+            <a href="VH-56.html">56</a>
+          </li>
+          <li>
+            <a href="VH-57.html">57</a>
+          </li>
+          <li>
+            <a href="VH-58.html">58</a>
+          </li>
+          <li>
+            <a href="VH-59.html">59</a>
+          </li>
+          <li>
+            <a href="VH-60.html">60</a>
+          </li>
+          <li>
+            <a href="VH-61.html">61</a>
+          </li>
+          <li>
+            <a href="VH-62.html">62</a>
+          </li>
+          <li>
+            <a href="VH-63.html">63</a>
+          </li>
+          <li>
+            <a href="VH-64.html">64</a>
+          </li>
+          <li>
+            <a href="VH-65.html">65</a>
+          </li>
+          <li>
+            <a href="VH-66.html">66</a>
+          </li>
+          <li>
+            <a href="VH-67.html">67</a>
+          </li>
+          <li>
+            <a href="VH-68.html">68</a>
+          </li>
+          <li>
+            <a href="VH-69.html">69</a>
+          </li>
+          <li>
+            <a href="VH-70.html">70</a>
+          </li>
+          <li>
+            <a href="VH-71.html">71</a>
+          </li>
+          <li>
+            <a href="VH-72.html">72</a>
+          </li>
+          <li>
+            <a href="VH-73.html">73</a>
+          </li>
+          <li>
+            <a href="VH-74.html">74</a>
+          </li>
+          <li>
+            <a href="VH-75.html">75</a>
+          </li>
+          <li>
+            <a href="VH-76.html">76</a>
+          </li>
+          <li>
+            <a href="VH-77.html">77</a>
+          </li>
+          <li>
+            <a href="VH-78.html">78</a>
+          </li>
+          <li>
+            <a href="VH-79.html">79</a>
+          </li>
+          <li>
+            <a href="VH-80.html">80</a>
+          </li>
+          <li>
+            <a href="VH-81.html">81</a>
+          </li>
+          <li>
+            <a href="VH-82.html">82</a>
+          </li>
+          <li>
+            <a href="VH-83.html">83</a>
+          </li>
+          <li>
+            <a href="VH-84.html">84</a>
+          </li>
+          <li>
+            <a href="VH-85.html">85</a>
+          </li>
+          <li>
+            <a href="VH-86.html">86</a>
+          </li>
+          <li>
+            <a href="VH-87.html">87</a>
+          </li>
+          <li>
+            <a href="VH-88.html">88</a>
+          </li>
+          <li>
+            <a href="VH-89.html">89</a>
+          </li>
+          <li>
+            <a href="VH-90.html">90</a>
+          </li>
+          <li>
+            <a href="VH-91.html">91</a>
+          </li>
+          <li>
+            <a href="VH-92.html">92</a>
+          </li>
+          <li>
+            <a href="VH-93.html">93</a>
+          </li>
+          <li>
+            <a href="VH-94.html">94</a>
+          </li>
+          <li>
+            <a href="VH-95.html">95</a>
+          </li>
+          <li>
+            <a href="VH-96.html">96</a>
+          </li>
+        </ul>
+      </div>
+
+      <!--<div class="large-6 columns">
+        
+        <ul class="pagination">
+          <li>
+            <a href="#l1">1</a>
+          </li>
+          <li>
+            <a href="#l2">2</a>
+          </li>
+          <li>
+            <a href="#l3">3</a>
+          </li>
+          <li>
+            <a href="#l4">4</a>
+          </li>
+          <li>
+            <a href="#l5">5</a>
+          </li>
+          <li>
+            <a href="#l6">6</a>
+          </li>
+          <li>
+            <a href="#l7">7</a>
+          </li>
+          <li>
+            <a href="#l8">8</a>
+          </li>
+          <li>
+            <a href="#l9">9</a>
+          </li>
+          <li>
+            <a href="#l10">10</a>
+          </li>
+          <li>
+            <a href="#l12">12</a>
+          </li>
+          <li>
+            <a href="#l13">13</a>
+          </li>
+        </ul>
+      </div>-->
+    </div>
+
+    <!-- EDITION ROW -->
+    <div class="row">
+      <div class="large-6 columns">
+        <div class="panel">
+          <div id="panel_left">
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="large-6 columns">
+        <div class="panel">
+          <div id="panel_right">
+            
+77.1 Pero él, recogidas todas las fuerças
+  que le quedavan en Ytalia, después de tantas batallas y çibdades tomadas por fuerça, con
+  ánimo no vencido sostovo por aquel tiempo la guerra y lo que a qualquier ombre deve
+  paracer cosa maravillosa, o por auctoridad o por prudencia, tovo tan concorde el
+  exército aduzido de españoles, africanos y galos y mesclado de otras gentes, que nunca
+  una pequeñita discordia militar ovo en sus reales; 2 y nunca los romanos, que
+  ya avían recobrado a Sicilia y a Sardinia
+  y a las Españas, podieron rematar este enemigo en Ytalia o
+  sacarle d’ella antes que embiassen en África a Publio Cornelio
+  Scipión, que, faziendo guerra a los carthagineses desde çerca,
+  puso en tan grand peligro a Carthago, que luego por necessidad
+  los costriñió [178v,a] revocar de Ytalia a
+    Hanníbal.
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
