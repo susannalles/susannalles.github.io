@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="VHS.css"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[VIDA DE ANÍBAL, TRADUCIDA POR ALFONSO DE PALENCIA]</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="trad">
+        <div type="title">
+          <p>Plutarcho philósopho escrivió en griego la vida del ylustre varón
+              <persName>Hanníbal</persName>; bolviola en latín Donato de Acciayolo florentino y el
+            cronista Alfonso de Palencia la traduxo en romançe castellano.</p>
+        </div>
+        <div xml:id="e1" type="section" n="1">
+          <p><pb facs="img/1491/165v.png"/><num xml:id="e1.1" corresp="#l1.1">1.1</num> Si se repite
+            la memoria de la Primera Guerra Púnica que los <name type="gens">carthagineses</name>
+            fizieron con el <name type="gens">pueblo romano</name>, nos occurrirán muchos capitanes
+            que, aviendo conseguido gloria de sus fazañas, dexaron a sus successores honrosa fama.
+              <num>2</num> Mas ninguno hay de los capitanes carthagineses que los griegos y latinos
+            scriptores más ensalçen que a <persName>Hamílcar</persName>, padre de
+              <persName>Hanníbal</persName>, renombrado <name type="surname">Barcha</name>, varón,
+            sin dubda, principal y muy enseñado en el exercito militar como podiera aver algún otro
+            en aquella edad. <num>3</num> Aqueste, más luengamente que la razón quería, sostovo
+            primero en <placeName>Sicilia</placeName> el ímpeto de los <name type="gens"
+              >romanos</name>, que avían induzido muchas pérdidas y rompimientos a su república
+            carthaginesa. <num>4</num> Después, en la guerra africana, quando los guerreros soldados
+            se levantaron con escándalo y posieron la cosa pública de los <name type="gens"
+              >carthagineses</name> en extremo peligro, él apagó tan strenuamente aquel fuego, que
+            por sentençia de todos es juzgado aver sido conservada la patria en aquel tiempo por
+            obra de un solo <persName>Hamílcar</persName>. <num>5</num> Después d'esto, en
+              <placeName>España</placeName> embiado con capitanía quando se cuenta aver levado
+            consigo a <persName>Hanníbal</persName> mochacho, fechas muchas cosas dignas de memoria,
+            al cabo en el noveno año después de venido en aquella provincia, murió peleando
+            fuertemente contra los <name type="gens">vetheones</name>.</p>
+        </div>
+
+        <div xml:id="e2" type="section" n="2">
+          <p><num xml:id="e2.1" corresp="#l2.1">2.1</num> Muerto Hamílcar, su yerno Hasdrúbal, que
+            los carthagineses con favor del vando barchino prefirieron al exército, tovo la
+            capitanía quasi ocho años. El qual fizo venir en España a Hanníbal no mucho tiempo
+            después de la muerte del padre, aunque lo contradizían los principales del otro vando, y
+            llamolo porque, segund avía començado1 en la vida del padre2 a ser enseñado en las artes
+            de la guerra, assí aún entonçes, en edad más robusta, se diesse a los peligros y
+            trabajos y a todos officios militares. <num>2</num> Y comoquier que desd'el comienço la
+            memoria del padre no poco le pudo aprovechar para ganar favor en el exército, pero dende
+            a poco su obra e ingenio fue tal, que los viejos guerreros, dexado el deseo de los otros
+            capitanes en su ánimo, anteposieron para sí aqueste, y pensaron que le deviessen
+            mayormente eligir por su capitán. <num>3</num> Porque todas cosas que pareçían deverse
+            cobdiciar para ser en lo avenidero grand capitán, abondosamente las vían en
+              <persName>Hanníbal</persName>. Tenía prompto el consejo para las singulares y loables
+            fazañas, y al consejo no le faltava industria nin osadía; <num>4</num> y al varón de
+            ánimo invincible no espantavan peligros nin algunos trabajos del cuerpo, que suelen
+            retardar a todos los otros y retraerlos de las cosas que fazer se devan velar,
+            apressurar y fazer todas las cosas que parecían dignas de valiente guerrero o de
+            singular capitán. <num>5</num> Usando <persName>Hanníbal</persName> d'estas artes,
+            militó tres años so capitanía de Hasdrúbal, en el qual tiempo, de tal manera pudo
+            aquistar el amigable favor de todo el exército, que luego, después de la muerte de
+            Hasdrúbal, con muy grand consentimiento de los guerreros fue declarado capitán del
+            exército<!--3-->.</p>
+        </div>
+
+        <div xml:id="e3" type="section" n="3">
+          <p><num xml:id="e3.1" corresp="#l3.1">3.1</num> Tengo sabido aquesto del nascimiento de
+              <persName>Hanníbal</persName>: Sábese que era de nueve años quando el padre le aduxo
+            en España, y desde aquel tiempo fasta la muerte de Hasdrúbal, segund es auctor Polibio,
+            se cuentan dies y siete años. <num>2</num> Y desd'el día que
+              <persName>Hanníbal</persName> reçibió el exército y la administración de toda la cosa
+            pública, no interpuso luenga tardança a todo su pensar en començar guerra contra el
+            pueblo romano, segund que ya mucho antes lo tenía propuesto en su ánimo. <num>3</num> Ca
+            primero estava indignado contra los romanos quasi común con todos los carthagineses,
+            porque avían perdido a Sicilia y a Sardinia. Juntávase con esto la enemistad particular
+            y quasi hereditaria reçebida de <persName>Hamílcar</persName> su padre, que ningún otro
+            de los capitanes carthagineses fuera más enemigo al nombre romano. <num>4</num> Es
+            puesto en memoria que sacrificando <persName>Hamílcar</persName> en el tiempo que él
+            aparejava para passar en España estriñió con firme juramento a
+              <persName>Hanníbal</persName>, que aún era mochacho, para que, siendo de edad líçita
+            de lo emprender, luego se mostrasse enemigo del pueblo romano. <num>5</num> Y la memoria
+            d'esto y áspera recordación, como una ymagen de la enemistad del padre se ponía ante los
+            ojos del mançebo y pungía su ánimo para aparejar siempre lo que pertenecía a la
+            destruyción del Imperio romano. <num>6</num> Allende d'esto, el vando barchino no
+            cansava de le incitar a aguijar de continuo que aquistasse grand poderío y favores con
+            las armas y capitanía. <num>7</num> Aquestas causas, assí públicas como particulares,
+            que exhortavan a <persName>Hanníbal</persName> para emprender guerra con los romanos,
+            fizieron qu'el mançebo feroce tomasse occasión de innovar los negocios de la tal
+            materia.</p>
+        </div>
+        <div xml:id="e4" type="section" n="4">
+          <p><num xml:id="e4.1" corresp="#l4.1">4.1</num> Eran en España por aquel tiempo los
+            saguntinos quasi medianos dexados en libertad por derecho de la pleytesía entre los
+            términos de los romanos y de los carthagineses. Y estos saguntinos después se llegaron
+            en todo a los romanos y refirmada la compañía eran avidos por muy leales honradores del
+            imperio romano. <num>2</num> Por ende <persName>Hanníbal</persName> propuso en su ánimo
+            que no podría fazerse otra cosa más oportuna para incitar la yra de los romanos y el
+            fuego que él mucho deseava encender, que affligir a los saguntinos con armas y con
+            guerra. <num>3</num> Mas antes que de manifiesto fuesse contra los compañeros del pueblo
+            romano, determinó yr con la hueste contra los olcadas y los otros allende de Hebro. Y
+            compelidos a se le dar, fallaría alguna causa de dañar a Sagunto, tal que podiesse
+            pareçer fazerse no tanto por acuerdo primero pensado, como porque los saguntinos
+            travassen la guerra. <num>4</num> Assí que, ya primero compelida la gente de los olcadas
+            que se le diesse, luego fue contra los vasceos y taloles los campos y tomoles por fuerça
+            muchos pueblos y tomó assí mesmo a Hermandica y a Arboloca, çibdades muy ricas; y
+            posiera debaxo de su poderío ya quasi toda la comarca, <num>5</num> quando muchos
+            fuydizos de Hermandica unos a otros entre sí se confirmaron y fizieron conjuración
+            contra los carthagineses, y costriñieron a ello toda la muchedumbre y llegaron a su
+            compañía los desterrados de los olcadas; <num>6</num> y desdende, con exhortaciones
+            fizieron que los carpentanos que comarcavan con ellos de común consejo salteassen a
+              <persName>Hanníbal</persName>, en bolviendo, sin él pensar tal cosa. <num>7</num> De
+            ligero los pueblos, cobdiciosos de guerra y lastimados de rezientes injuros acordados en
+            esta sentencia, tomaron armas y, juntada muy grand muchedumbre (ca sobre çient mill eran
+            los que se juntaron), salieron çerca del río Tago contra <persName>Hanníbal</persName>,
+            que tornava de los vasceos; <num>8</num> y en viéndolos assí de súbito, detoviéronse las
+            señas de los carthagineses y ovo en toda la hueste encaminada pavor y rebuelta. Y non se
+            dubda que aquel día los carthagineses reçebieran muy grand rompimiento, si, assí
+            conmovidos a temor por la venida rebatada de los enemigos y cargados de robo, venieran a
+            las manos con gentes muy feroces. <num>9</num> Pero el próvido capitán
+              <persName>Hanníbal</persName>, considerando estas cosas, acordó sobreseer en la
+            batalla, y puso allí su real. Y en la noche seguiente, con el mayor silencio que él
+            pudo, fizo que sus compañas passassen el río, y dexó vazío de toda defensa el logar
+            çercano por donde podían passar ligeramente los enemigos, en parte fingiendo que avía
+            miedo, y en parte porque, dada aquella occasión, podiesse atraer a los bárbaros que
+            passassen el río. <num>10</num> Nin la opinión y acuerdo para engañar al enemigo salió
+            baldía al varón, que sin debate fue ventajoso en astucia a todos los capitanes de su
+            edad. Porque los bárbaros naturalmente feroces y que confiavan mucho allende de lo que
+            les cumplía de su muchedumbre, pensando que los carthagineses yvan espantados, a grand
+            priessa se lançaron al agua. <num>11</num> Y los carthagineses, primero con la gente de
+            cavallo suya y luego con toda la hueste, dieron en ellos desordenados y rebueltos antes
+            que del todo oviessen passado el río; y después de muerto grand número d'ellos fizieron
+            fuyr a todos los otros.</p>
+        </div>
+        <div xml:id="e5" type="section" n="5">
+          <p><num xml:id="e5.1" corresp="#l5.1">5.1</num> Después d'esta victoria todos los pueblos
+            allende Hebro se dieron a los carthagineses sino los saguntinos, los quales aunque vían
+            cómo <persName>Hanníbal</persName> les estava sobre las çervizes, mas, teniendo
+            confiança en la compañía del pueblo romano, pensaron que se podrían defender, y embiaron
+            a grand priessa sus embaxadores a Roma que fiziessen saber al senado en quánto grand
+            peligro estavan sus cosas y para que pediessen ayuda contra el muy áspero enemigo, que
+            ya sin dubda les venía a fazer fuerça. <num>2</num> Escassamente los embaxadores de los
+            saguntinos eran partidos de España para yr a Roma, quando <persName>Hanníbal</persName>,
+            ya de manifiesto para romper guerra, vino sobre Sagunto con todas las compañas a çercar
+            la çibdad y la combatir. <num>3</num> Aquesto sabido en Roma, discutieron en el senado
+            sobre la injuria de los compañeros, y los padres determinaron con acuerdo de mansedumbre
+            embiar a Publio Valerio Flacco y a Quinto Fabio Pamphilo que fuessen a
+              <persName>Hanníbal</persName> a que se bolviesse de sobre Sagunto y que, si no
+            obedeciesse a este requirimiento, mandáronles yr a Carthago y que por vigor de la
+            pleytesía demandassen al mesmo capitán que le avía corrompido.</p>
+        </div>
+        <div xml:id="e6" type="section" n="6">
+          <p><num xml:id="e6.1" corresp="#l6.1">6.1</num> Cuenta Polybio que
+              <persName>Hanníbal</persName>, oýdos aquestos embaxadores, les dio vanas respuestas.
+            Livio, al contrario, escrive que nin fueron oýdos nin reçebidos en el real. Mas ambos
+            concuerdan en esto diziendo como venieron en España y desdende passaron en África y
+            llegaron a Carthago y exposieron la mensajería de los padres, y dizen que fallaron tan
+            contrario el vando Barchino, que, menospreciados y desechados, se bolvieron a Roma sin
+            fazer algo de aquello por qué yvan. </p>
+        </div>
+        <div xml:id="e7" type="section" n="7">
+          <p><num xml:id="e7.1" corresp="#l7.1">7.1</num> Avía, en todo, entre los del senado de los
+            carthagineses, dos vandos, de los quales el uno ovo comienço desde
+              <persName>Hamílcar</persName>, renombrado Barcha, que como por heredad veniera al fijo
+              <persName>Hanníbal</persName>, y de nuevo avía cresçido aquel vando en tantos favores
+            que, assí en casa como fuera de la çibdad, en todas las cosas que se avían de determinar
+            se avía por soberano. <num>2</num> Era el principal del otro vando Hanno, varón grave y
+            de grand dignidad en la república, pero más egregio o señalado en la toga que en armas.
+              <num>3</num> Aqueste, quando los embaxadores romanos venieron a Cartago a querellarse
+            de la injuria de los compañeros, dizen que fue solo él, que, repugnando quasi todo el
+            senado a sus dichos, juzgava que la pleytesía se devía guardar al pueblo romano y les
+            amonestava que se guardassen de la guerra que traería extrema destruyción a su patria.
+              <num>4</num> Y si en esto los carthagineses quisieran mirar no solamente el ánimo de
+            Hannón, quanto considerar su consejo, y antes lo quisieran oýr por auctor de la paz que
+            de la guerra, ovieran dado más sancto consejo a sý mesmos y a su cosa pública.
+              <num>5</num> Mas seguiendo ellos para tantos males el furor y cobdiçia de aquel
+            mançebo, que después redundaron en sus cabeças, dieron a ello occasión desde entonçes.
+              <num>6</num> Por ende conviene de razón a los varones sabios y muy buenos governadores
+            de la república que en las cosas humanas miren más el fin qu'el comienço, y que, primero
+            que vengan a las armas o a la rotura de las guerras, experimenten guiar todas las cosas
+            por consejo.</p>
+        </div>
+        <div xml:id="e8" type="section" n="8">
+          <p><num xml:id="e8.1" corresp="#l8.1">8.1</num> Los saguntinos en el mesmo tiempo que
+              <persName>Hanníbal</persName> les puso çerco, viendo que la guerra se les fazía contra
+            derecho y contra el dever, sostuvieron muchos meses con ánimos endurezidos y enemigables
+            el çerco. <num>2</num> A la postre, sobrepujando el enemigo en muchedumbre de gente (ca
+            se cree tener allí en armas çiento y çinquenta mill ombres), quando ya en la mayor parte
+            los muros eran derribados, quesieron más atender la destruyçión de la çibdad que venir
+            en poder del muy áspero enemigo. <num>3</num> Hay auctores que dizen ser tomada Sagunto
+            a ocho meses después que fue començada a combatir. Y a esto no pareçe que Livio
+            consienta, nin que assigne otro çierto tiempo de aquel çerco en medio. <num>4</num> Pero
+            la toma forçosa d'esta muy rica çibdad fue en muchas cosas en el comienço grande ayuda a
+            la empresa de <persName>Hanníbal</persName>, ca pudo retener en fe algunas çibdades que
+            él temía aver de faltar al imperio de los carthagineses, por el exemplo del perdimiento
+            de Sagunto; <num>5</num> Y pudo confirmar los ánimos de los guerreros enriqueçido el
+            exército con muy grande robo que allí ovieron, y él embió a Carthago joyas preciosas de
+            los despojos<!--4--> de los saguntinos con que pudo fazer que los principales çibdadanos
+            le fuessen obligados y esto viessen prestos para la guerra que entendía fazer contra el
+            pueblo romano, no solamente en España, segund que muchos entonçes pensavan, mas aún en
+            Italia como él lo tenía en voluntad.</p>
+        </div>
+        <div xml:id="e9" type="section" n="9">
+          <p><num xml:id="e9.1" corresp="#l9.1">9.1</num> En tanto, venidos a Roma, los embaxadores
+            romanos, recontaron las vanas respuestas que les dieran y quasi en el mesmo tiempo llegó
+            la nueva de la destruyçción de Sagunto; y el pueblo romano començó tarde arrepentirse
+            por no aver socorrido en tan extremo peligro a la república de los compañeros que les
+            demandavan ayuda. <num>2</num> Assí que la plebe y los padres, conmovidos por
+            misericordia increýble y juntamente encendidos en saña, mandaron que los cónsules por
+            suerte reçebiessen las provinçias. Cupo por suerte España a Publio Cornelio, y África a
+            Tito Sempronio, a quien cupo Sicilia; Estos dos eran entonçe cónsules<!--5-->
+            <num>3</num> y embiaron por embaxadores a Carthago varones principales de la çibdad, los
+            quales después de luenga disputaçión del derecho de la pleytesía, quando ya ovieron
+            derramado semientes de la contienda avenidera, quasi en el acatamiento de todos y con
+            grand rigor ofreciessen la guerra; respondieron los carthagineses no con menor osadía
+            que ellos la acceptavan, pero con mal consejo, segund qu'el mesmo negoçio y el fin de la
+            guerra después lo declaró.</p>
+        </div>
+        <div xml:id="e10" type="section" n="10">
+          <p><num xml:id="e10.1" corresp="#l10.1">10.1</num> Y <persName>Hanníbal</persName>, quando
+            ovo conosçido todo lo que en el senado de los carthagineses era negociado, pensado ser
+            ya tiempo que segund desd'el comienço tenía propuesto, fuesse a Ytalia; con grande
+            estudio aparejava las cosas necessarias, fizo llegar flota, començó a reçebir consigo
+            ayudas de las çibdades muy leales y mandó que todas las compañas se juntassen en
+            Carthagine la Nueva. <num>2</num> Después d'esto fue él a Cádiz, y ante todas cosas
+            determinó ser cosa muy provechosa guarneçer a África y a España de oportunas guardas,
+            porque, mientra él yva en Ytalia, no dexasse a los romanos aquellas tierras vazías de
+            toda guarnición. <num>3</num> Assí que primero embió en África mill y dozientos de
+            cavallo y treze mill peones de los de España. Allende d'esto fizo juntar a su
+            llamamiento quatro mill peones de África para el amparo de Carthago y quiso juntamente
+            aver rehenes y guerreros. <num>4</num> Prefirió a España a su hermano Hasdrúbal y dexole
+            armada por mar de cinquenta naves y fasta dos mill de cavallo y fasta doze mill peones.
+              <num>5</num> Y con estas guarniciones refirmó ambas provinçias, no porque pensasse ser
+            bastantes aquellas cosas contra el poderío de los romanos si la difficultad y peso de la
+            guerra se oviesse de sostener en España o en África, mas porque cuydava ser assaz para
+            arredrar de los términos y fronteras a los enemigos, mientra que él por el camino de la
+            tierra yva a passar y fazer guerra en Ytalia.</p>
+        </div>
+        <div xml:id="joder"><p>joder</p></div>
+      </div>
+    </body>
+  </text>
+</TEI>

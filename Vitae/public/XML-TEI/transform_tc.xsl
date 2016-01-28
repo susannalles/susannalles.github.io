@@ -11,19 +11,21 @@
 
     <xsl:template match="tei:div">
         <xsl:variable name="sect_id" select="substring-after(@xml:id, 'l')"/>
-        <xsl:result-document method="html" encoding="utf-8" href="../../VH/VH-{$sect_id}.md">
+        <xsl:result-document method="text" encoding="utf-8" href="../../VH/VH-{$sect_id}.md">
             <xsl:text>---</xsl:text>
             <xsl:text>&#10;</xsl:text>
             <xsl:text>layout: edition</xsl:text>
             <xsl:text>&#10;</xsl:text>
             <xsl:text>panel_left:  |</xsl:text>
-            <xsl:copy-of select="."/>
+            <xsl:text>&#10;</xsl:text>
+            <xsl:copy-of select="."/>            
             <xsl:text>&#10;</xsl:text>
             <xsl:text>&#10;</xsl:text>
             <xsl:text>panel_right:  |</xsl:text>
             <xsl:text>&#10;</xsl:text>
             <xsl:copy-of
                 select="following::tei:div[@type = 'section'][starts-with(@xml:id, 'e')][@xml:id = concat('e', $sect_id)]"/>
+            
             <xsl:text>&#10;</xsl:text>
             <xsl:text>&#10;</xsl:text>
             <xsl:text>---</xsl:text>
