@@ -1,0 +1,8 @@
+highlighter: true
+markdown: kramdown
+url: http://susannalles.github.io/Vitae/
+permalink: none
+
+# Required if you want to move pages into a a separate directory
+# not working at the moment for some reason
+include: ['_manuscripts/']
