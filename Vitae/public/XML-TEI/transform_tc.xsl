@@ -3,7 +3,7 @@
     exclude-result-prefixes="tei">
 
     <xsl:template match="/">
-        <!--<xsl:apply-templates select="//tei:div[@type = 'section'][starts-with(@xml:id, 'l')]"/>-->
+        <xsl:apply-templates select="//tei:div[@type = 'section'][starts-with(@xml:id, 'l')]"/>
     </xsl:template>
 
 <!-- This is working fine -->
@@ -17,8 +17,8 @@
             <xsl:text>&#10;</xsl:text>
             <xsl:text>panel_left:  |</xsl:text>
             <xsl:text>&#10;</xsl:text>
-            <xsl:copy-of select="."/> 
-            
+            <!--<xsl:copy-of select="."/> -->
+            <xsl:apply-templates></xsl:apply-templates>
            <xsl:text>&#10;</xsl:text>
             <xsl:text>&#10;</xsl:text>
             <xsl:text>panel_right:  |</xsl:text>
@@ -59,6 +59,12 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
+    
+    <!--<xsl:template match="tei:num">
+        <xsl:text>**</xsl:text>
+        <xsl:apply-templates></xsl:apply-templates>
+        <xsl:text>**</xsl:text>
+    </xsl:template>-->
 
     <xsl:template match="tei:pb">
         <xsl:element name="a">

@@ -1174,7 +1174,7 @@ button, .button {
   padding-left: 2rem;
   font-size: 1rem;
   background-color: #2ba6cb;
-  border-color: #2285a2;
+  border-color: #2285a2;  
   color: white;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {

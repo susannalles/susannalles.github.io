@@ -9,4 +9,7 @@ Note that we assemble the transcription dynamically using TEI, YAML, and CSS. Th
 
 [Vitae Hannibalis - Vita de Scipión](VH/VH-1.html)
 
+<img src="public/images/1478/1478.jpg">
+<img src="public/images/1491/1491.jpg">
+
 
