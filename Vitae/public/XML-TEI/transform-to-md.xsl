@@ -43,7 +43,8 @@
 
     <xsl:template match="tei:pb">
         <a href="{@facs}" target="new">
-            <img src="{@facs}"/>
+            <!--<img src="{@facs}"/>-->
+            <img src="../public/images/1491/1491.jpg"/>
         </a>
     </xsl:template>
 

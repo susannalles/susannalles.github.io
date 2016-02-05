@@ -6,6 +6,7 @@
         <xsl:apply-templates select="//tei:div[@type = 'section'][starts-with(@xml:id, 'l')]"/>
     </xsl:template>
 
+<<<<<<< HEAD
 <!-- This is working fine -->
    <!-- <xsl:template match="//tei:div[@type = 'section'][starts-with(@xml:id, 'l')]">-->
     <xsl:template match="tei:div">
@@ -20,16 +21,37 @@
             <!--<xsl:copy-of select="."/> -->
             <xsl:apply-templates></xsl:apply-templates>
            <xsl:text>&#10;</xsl:text>
+=======
+
+
+
+    <xsl:template match="tei:div">
+        <xsl:variable name="sect_id" select="substring-after(@xml:id, 'l')"/>
+        <xsl:result-document method="text" encoding="utf-8" href="../../VH/VH-{$sect_id}.md">
+            <xsl:text>---</xsl:text>
+            <xsl:text>&#10;</xsl:text>
+            <xsl:text>layout: edition</xsl:text>
+            <xsl:text>&#10;</xsl:text>
+            <xsl:text>panel_left:  |</xsl:text>
+            <xsl:text>&#10;</xsl:text>
+            <xsl:copy-of select="."/>            
+            <xsl:text>&#10;</xsl:text>
+>>>>>>> a35a4d955ea29ff70e9e3aa94ee07fd0b5ea6908
             <xsl:text>&#10;</xsl:text>
             <xsl:text>panel_right:  |</xsl:text>
             <xsl:text>&#10;</xsl:text>
             <xsl:copy-of
+<<<<<<< HEAD
                 select="following::tei:div[@type = 'section'][starts-with(@xml:id, 'e')][@xml:id = concat('e', $sect_id)]"/>           
+=======
+                select="following::tei:div[@type = 'section'][starts-with(@xml:id, 'e')][@xml:id = concat('e', $sect_id)]"/>
+>>>>>>> a35a4d955ea29ff70e9e3aa94ee07fd0b5ea6908
             
             <xsl:text>&#10;</xsl:text>
             <xsl:text>&#10;</xsl:text>
             <xsl:text>---</xsl:text>
             <xsl:text>&#10;</xsl:text>
+<<<<<<< HEAD
             <xsl:text>&#10;</xsl:text> Technical Description 
 
         </xsl:result-document>  
@@ -42,6 +64,17 @@
 
 
 <!-- All this is not working  -->
+=======
+            <xsl:text>&#10;</xsl:text> Technical Description </xsl:result-document>     
+    </xsl:template>
+
+    <xsl:template match="tei:div" mode="copyxml">
+        <xsl:copy/>
+    </xsl:template>
+
+
+
+>>>>>>> a35a4d955ea29ff70e9e3aa94ee07fd0b5ea6908
     <xsl:template match="tei:p">
         <p>
             <xsl:apply-templates/>
@@ -59,12 +92,15 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
+<<<<<<< HEAD
     
     <!--<xsl:template match="tei:num">
         <xsl:text>**</xsl:text>
         <xsl:apply-templates></xsl:apply-templates>
         <xsl:text>**</xsl:text>
     </xsl:template>-->
+=======
+>>>>>>> a35a4d955ea29ff70e9e3aa94ee07fd0b5ea6908
 
     <xsl:template match="tei:pb">
         <xsl:element name="a">
