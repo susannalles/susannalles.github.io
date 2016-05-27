@@ -51,6 +51,9 @@
   
   <xi:include href="VHannibalisLAT.xml" parse="xml"/>
   <xi:include href="VHannibalisCAST.xml" parse="xml"/>
+  <!--<xi:include href="VScipionisLAT.xml" parse="xml"/>
+  <xi:include href="VScipionisCAST.xml" parse="xml"/>-->
+
   <!-- FC inclure les autres fichiers -->
   
 </teiCorpus>

@@ -43,7 +43,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -3274,15 +3274,16 @@ th.hide-for-touch {
  /*AFEGIT MEU*/
  .pagination {
   margin-left: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 0.2rem; }
   .pagination::before, .pagination::after {
     content: ' ';
     display: table; }
   .pagination::after {
     clear: both; }
   .pagination li {
-    font-size: 0.875rem;
-    margin-right: 0.0625rem;
+    /*font-size: 0.875rem;*/
+     font-size: 0.700rem;
+    /*margin-right: 0.0625rem;*/
     display: none;
     border-radius: 0; }
     .pagination li:last-child, .pagination li:first-child {
@@ -3294,7 +3295,8 @@ th.hide-for-touch {
   .pagination button {
     color: #0a0a0a;
     display: block;
-    padding: 0.1875rem 0.625rem;
+   /* padding: 0.1875rem 0.625rem;*/
+    padding: 0.1000rem 0.400rem;
     border-radius: 0; }
     .pagination a:hover,
     .pagination button:hover {

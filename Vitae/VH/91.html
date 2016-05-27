@@ -1,0 +1,416 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vitae Illustrium Virorum</title>
+    <!-- <link rel="stylesheet" href="../public/css/normalize.css">-->
+    <link rel="stylesheet" href="../public/css/foundation.css" />
+    <link rel="stylesheet" href="../public/css/transform.css" />
+
+    <!-- <link href="style.css" rel="stylesheet" />-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script language="javascript">
+    $(document).ready(function() {
+      $('.pagination li a').click(function(e) {
+                var id = $(this).attr('href');
+        id = id.replace('#l','');
+        $.ajax({  
+          type: "POST",  
+          url: "public/script/transf.php",  
+          data: { section: id },  
+          success: function(response) { 
+            var arr = response.split('##');
+            $('#panel_left').html(arr[0]);   
+            $('#panel_right').html(arr[1]);        
+          }  
+        });   
+            });     
+        });
+    </script>
+
+  </head>
+  <body>
+
+    <!-- HEADER & BUTTONS -->
+    <div class="row">
+      <div class="large-12 columns">
+        <h2>
+          <a href="http://susannalles.github.io/Vitae/index.html">Vitae Illustrium Virorum</a>
+        </h2>
+        <!-- MENU -->
+        <ul class="button-group">
+          <li>
+            <a href="../index.html" class="tiny button">About</a>
+          </li>
+          <li>
+            <a href="../edition.html" class="tiny button">Edition</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- INFO -->
+    <div class="row">
+      <div class="large-12 columns">
+        <!-- <p>Technical description about what is doing this page. </p>-->
+        <div class="titulo"><!-- Life title--> Vida de Hanníbal </div>
+      </div>
+    </div>
+
+    <!-- ROW WITH THE CHAPTER NUMBERS -->
+    <div class="row">
+      <div class="large-12 columns">
+        <ul class="pagination text-left" role="navigation" aria-label="Pagination">
+       
+        		<li><a href="1.html">1</a></li><li><a href="2.html">2</a></li><li><a href="3.html">3</a></li><li><a href="4.html">4</a></li><li><a href="5.html">5</a></li><li><a href="6.html">6</a></li><li><a href="7.html">7</a></li><li><a href="8.html">8</a></li><li><a href="9.html">9</a></li><li><a href="10.html">10</a></li><li><a href="11.html">11</a></li><li><a href="12.html">12</a></li><li><a href="13.html">13</a></li><li><a href="14.html">14</a></li><li><a href="15.html">15</a></li><li><a href="16.html">16</a></li><li><a href="17.html">17</a></li><li><a href="18.html">18</a></li><li><a href="19.html">19</a></li><li><a href="20.html">20</a></li><li><a href="21.html">21</a></li><li><a href="22.html">22</a></li><li><a href="23.html">23</a></li><li><a href="24.html">24</a></li><li><a href="25.html">25</a></li><li><a href="26.html">26</a></li><li><a href="27.html">27</a></li><li><a href="28.html">28</a></li><li><a href="29.html">29</a></li><li><a href="30.html">30</a></li><li><a href="31.html">31</a></li><li><a href="32.html">32</a></li><li><a href="33.html">33</a></li><li><a href="34.html">34</a></li><li><a href="35.html">35</a></li><li><a href="36.html">36</a></li><li><a href="37.html">37</a></li><li><a href="38.html">38</a></li><li><a href="39.html">39</a></li><li><a href="40.html">40</a></li><li><a href="41.html">41</a></li><li><a href="42.html">42</a></li><li><a href="43.html">43</a></li><li><a href="44.html">44</a></li><li><a href="45.html">45</a></li><li><a href="46.html">46</a></li><li><a href="47.html">47</a></li><li><a href="48.html">48</a></li><li><a href="49.html">49</a></li><li><a href="50.html">50</a></li><li><a href="51.html">51</a></li><li><a href="52.html">52</a></li><li><a href="53.html">53</a></li><li><a href="54.html">54</a></li><li><a href="55.html">55</a></li><li><a href="56.html">56</a></li><li><a href="57.html">57</a></li><li><a href="58.html">58</a></li><li><a href="59.html">59</a></li><li><a href="60.html">60</a></li><li><a href="61.html">61</a></li><li><a href="62.html">62</a></li><li><a href="63.html">63</a></li><li><a href="64.html">64</a></li><li><a href="65.html">65</a></li><li><a href="66.html">66</a></li><li><a href="67.html">67</a></li><li><a href="68.html">68</a></li><li><a href="69.html">69</a></li><li><a href="70.html">70</a></li><li><a href="71.html">71</a></li><li><a href="72.html">72</a></li><li><a href="73.html">73</a></li><li><a href="74.html">74</a></li><li><a href="75.html">75</a></li><li><a href="76.html">76</a></li><li><a href="77.html">77</a></li><li><a href="78.html">78</a></li><li><a href="79.html">79</a></li><li><a href="80.html">80</a></li><li><a href="81.html">81</a></li><li><a href="82.html">82</a></li><li><a href="83.html">83</a></li><li><a href="84.html">84</a></li><li><a href="85.html">85</a></li><li><a href="86.html">86</a></li><li><a href="87.html">87</a></li><li><a href="88.html">88</a></li><li><a href="89.html">89</a></li><li><a href="90.html">90</a></li><li><a href="91.html">91</a></li><li><a href="92.html">92</a></li><li><a href="93.html">93</a></li><li><a href="94.html">94</a></li><li><a href="95.html">95</a></li><li><a href="96.html">96</a></li>
+        
+         <!-- <li>
+            <a href="1.html">1</a>
+          </li>
+          <li>
+            <a href="2.html">2</a>
+          </li>
+          <li>
+            <a href="3.html">3</a>
+          </li>
+          <li>
+            <a href="4.html">4</a>
+          </li>
+          <li>
+            <a href="5.html">5</a>
+          </li>
+          <li>
+            <a href="6.html">6</a>
+          </li>
+          <li>
+            <a href="7.html">7</a>
+          </li>
+          <li>
+            <a href="8.html">8</a>
+          </li>
+          <li>
+            <a href="9.html">9</a>
+          </li>
+          <li>
+            <a href="10.html">10</a>
+          </li>
+          <li>
+            <a href="11.html">11</a>
+          </li>
+          <li>
+            <a href="12.html">12</a>
+          </li>
+          <li>
+            <a href="13.html">13</a>
+          </li>
+          <li>
+            <a href="14.html">14</a>
+          </li>
+          <li>
+            <a href="15.html">15</a>
+          </li>
+          <li>
+            <a href="16.html">16</a>
+          </li>
+          <li>
+            <a href="17.html">17</a>
+          </li>
+          <li>
+            <a href="18.html">18</a>
+          </li>
+          <li>
+            <a href="19.html">19</a>
+          </li>
+          <li>
+            <a href="20.html">20</a>
+          </li>
+          <li>
+            <a href="21.html">21</a>
+          </li>
+          <li>
+            <a href="22.html">22</a>
+          </li>
+          <li>
+            <a href="23.html">23</a>
+          </li>
+          <li>
+            <a href="24.html">24</a>
+          </li>
+          <li>
+            <a href="25.html">25</a>
+          </li>
+          <li>
+            <a href="26.html">26</a>
+          </li>
+          <li>
+            <a href="27.html">27</a>
+          </li>
+          <li>
+            <a href="28.html">28</a>
+          </li>
+          <li>
+            <a href="29.html">29</a>
+          </li>
+          <li>
+            <a href="30.html">30</a>
+          </li>
+          <li>
+            <a href="31.html">31</a>
+          </li>
+          <li>
+            <a href="32.html">32</a>
+          </li>
+          <li>
+            <a href="33.html">33</a>
+          </li>
+          <li>
+            <a href="34.html">34</a>
+          </li>
+          <li>
+            <a href="35.html">35</a>
+          </li>
+          <li>
+            <a href="36.html">36</a>
+          </li>
+          <li>
+            <a href="37.html">37</a>
+          </li>
+          <li>
+            <a href="38.html">38</a>
+          </li>
+          <li>
+            <a href="39.html">39</a>
+          </li>
+          <li>
+            <a href="40.html">40</a>
+          </li>
+          <li>
+            <a href="41.html">41</a>
+          </li>
+          <li>
+            <a href="42.html">42</a>
+          </li>
+          <li>
+            <a href="43.html">43</a>
+          </li>
+          <li>
+            <a href="44.html">44</a>
+          </li>
+          <li>
+            <a href="45.html">45</a>
+          </li>
+          <li>
+            <a href="46.html">46</a>
+          </li>
+          <li>
+            <a href="47.html">47</a>
+          </li>
+          <li>
+            <a href="48.html">48</a>
+          </li>
+          <li>
+            <a href="49.html">49</a>
+          </li>
+          <li>
+            <a href="50.html">50</a>
+          </li>
+          <li>
+            <a href="51.html">51</a>
+          </li>
+          <li>
+            <a href="52.html">52</a>
+          </li>
+          <li>
+            <a href="53.html">53</a>
+          </li>
+          <li>
+            <a href="54.html">54</a>
+          </li>
+          <li>
+            <a href="55.html">55</a>
+          </li>
+          <li>
+            <a href="56.html">56</a>
+          </li>
+          <li>
+            <a href="57.html">57</a>
+          </li>
+          <li>
+            <a href="58.html">58</a>
+          </li>
+          <li>
+            <a href="59.html">59</a>
+          </li>
+          <li>
+            <a href="60.html">60</a>
+          </li>
+          <li>
+            <a href="61.html">61</a>
+          </li>
+          <li>
+            <a href="62.html">62</a>
+          </li>
+          <li>
+            <a href="63.html">63</a>
+          </li>
+          <li>
+            <a href="64.html">64</a>
+          </li>
+          <li>
+            <a href="65.html">65</a>
+          </li>
+          <li>
+            <a href="66.html">66</a>
+          </li>
+          <li>
+            <a href="67.html">67</a>
+          </li>
+          <li>
+            <a href="68.html">68</a>
+          </li>
+          <li>
+            <a href="69.html">69</a>
+          </li>
+          <li>
+            <a href="70.html">70</a>
+          </li>
+          <li>
+            <a href="71.html">71</a>
+          </li>
+          <li>
+            <a href="72.html">72</a>
+          </li>
+          <li>
+            <a href="73.html">73</a>
+          </li>
+          <li>
+            <a href="74.html">74</a>
+          </li>
+          <li>
+            <a href="75.html">75</a>
+          </li>
+          <li>
+            <a href="76.html">76</a>
+          </li>
+          <li>
+            <a href="77.html">77</a>
+          </li>
+          <li>
+            <a href="78.html">78</a>
+          </li>
+          <li>
+            <a href="79.html">79</a>
+          </li>
+          <li>
+            <a href="80.html">80</a>
+          </li>
+          <li>
+            <a href="81.html">81</a>
+          </li>
+          <li>
+            <a href="82.html">82</a>
+          </li>
+          <li>
+            <a href="83.html">83</a>
+          </li>
+          <li>
+            <a href="84.html">84</a>
+          </li>
+          <li>
+            <a href="85.html">85</a>
+          </li>
+          <li>
+            <a href="86.html">86</a>
+          </li>
+          <li>
+            <a href="87.html">87</a>
+          </li>
+          <li>
+            <a href="88.html">88</a>
+          </li>
+          <li>
+            <a href="89.html">89</a>
+          </li>
+          <li>
+            <a href="90.html">90</a>
+          </li>
+          <li>
+            <a href="91.html">91</a>
+          </li>
+          <li>
+            <a href="92.html">92</a>
+          </li>
+          <li>
+            <a href="93.html">93</a>
+          </li>
+          <li>
+            <a href="94.html">94</a>
+          </li>
+          <li>
+            <a href="95.html">95</a>
+          </li>
+          <li>
+            <a href="96.html">96</a>
+          </li>-->
+        </ul>
+      </div>
+    </div>
+
+    <!-- EDITION ROW -->
+    <div class="row">
+      <div class="large-6 columns">
+        <div class="panel">
+          <div id="panel_left"> 
+<p><span class="seg">91.1</span> Sunt qui uicto Antiocho in Cretam
+  profectum ad Cortynos Hannibalem dicunt, ibique extemplo uulgatum esse eum magnam uim
+  auri argentique secum ferre. Ex quo ueritum ne Cretenses sibi manus iniicerent, tale
+  remedium inuenisse ad periculum euitandum. <span class="seg">2</span> Amphoras plumbo aurato refertas
+  in templo Dianae collocari iussit, simulans se earum ueluti thesauri sui maximam curam
+  solicitudinemque habere. Ex altera parte statuas aeneas quas pecunia impleuerat, domi
+  abiecit. Dum illi templum custodiunt, ne amphorae se insciis auferantur, interim
+  Hannibal uelis in altum datis in Bithyniam profugit. <span class="seg">3</span> Est autem in Bithynia
+  uicus iuxta littus maris, quem incolae regionis Libyssam appellant, de quo uulgatum
+  carmen circumferri solitum aiunt: «Corpus Hannibalis Libyssa tumulabit terra». Eo in
+  loco diuersabatur Poenus non inerti quidem ocio uitam agens, sed in nautis equis ac
+  militibus exercendis studium adhibens.</p>
+ </div>
+        </div>
+      </div>
+
+      <div class="large-6 columns">
+        <div class="panel">
+          <div id="panel_right"> 
+<p><span class="seg">91.1</span> Hay quien diga que, vencido Anthíoco,
+    <span class="persName">Hanníbal</span> se fue en Creta a los cortynos y que allí luego fue
+  divulgado que traýa consigo grand suma de oro y de plata. Y temiendo que los cretenses
+  por esto <a href="../public/images/1491/180v.png" target="new"><img class="facs" src="../public/images/1491/1491.jpg"/></a>[180v,b] le echassen la mano, dizen que falló tal remedio
+  para evitar el peligro: <span class="seg">2</span> Mandó poner en el templo de Diana cántaros llenos
+  de plomo sobre dorado, fingiendo ser muy solícito y tener grand cuydado de la guarda de
+  las vasijas del tesoro. Y de la otra parte, puso en casa estatuas de
+  metal llenas de dinero. Y mientra que ellos guardavan el templo, que no sacassen dende
+  cosa33 sin su sabidoría d’ellos, <span class="persName">Hanníbal</span> fizo vela y fuese a
+  Bithinia. <span class="seg">3</span> Hay en Bithinia un barrio o pequeño pueblo junto a la ribera del
+  mar que los moradores de aquella comarca llaman Libyssa, del qual hay versos divulgados
+  que suelen contar en diversas partes: «La tierra Libyssa dio sepulcro al cuerpo de
+    <span class="persName">Hanníbal</span>». En aquel logar fazía morada
+    <span class="persName">Hanníbal</span> sin passar la vida ociosa, mas ponía estudio en disponer
+  los marineros y en exercitar su gente y tratar cavallos.</p>
+ </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-6 columns">
+        <div class="panel"> </div>
+      </div>
+
+      <div class="large-6 columns">
+        <div class="panel"> </div>
+      </div>
+    </div>
+
+  </body>
+</html>

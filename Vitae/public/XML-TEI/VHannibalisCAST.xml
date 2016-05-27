@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="VHS.css"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+<!--<?xml-stylesheet type="text/css" href="VHS.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>[VIDA DE ANÍBAL, TRADUCIDA POR ALFONSO DE PALENCIA]</title>
+        <title type="cast">[VIDA DE ANÍBAL, TRADUCIDA POR ALFONSO DE PALENCIA]</title>
       </titleStmt>
       <publicationStmt>
         <p>Columbia University</p>
@@ -18,7 +17,9 @@
   </teiHeader>
   <text>
     <body>
-      <div xml:id="trad">
+      
+      <div xml:id="tradVH">
+        
         <div type="title">
           <p><persName>Plutarcho</persName>
             <choice>
@@ -50,7 +51,7 @@
               <num>2</num> Mas ninguno hay de los capitanes <name type="gens">carthagineses</name>
             que los griegos y latinos scriptores más ensalçen que a <persName>Hamílcar</persName>,
             padre de <persName>Hanníbal</persName>, renombrado <name type="surname">Barcha</name>,
-            varón, sin dubda, principal y muy enseñado en el exercito militar como podiera aver
+            varón, sin dubda, principal y muy enseñado en el exercito militar como <damage ></damage>podiera aver
             algún otro en aquella edad. <num>3</num> Aqueste, más luengamente que la razón quería,
             sostovo primero en <placeName>Sicilia</placeName> el ímpeto de los <name type="gens"
               >romanos</name>, que avían induzido muchas pérdidas y rompimientos a su república

@@ -1,11 +1,27 @@
-﻿.seg{
-    font-weight: bold;
-    color: #2BA6CB;
+﻿@import url(https://fonts.googleapis.com/css?family=Eagle+Lake);
+h2{
+    font-family:'Eagle Lake', cursive;
+
+}
+.titulo{
+    font-family:'Eagle Lake', cursive;
+    font-size:20px;
+    text-align:center;
+    margin-top:-10px;
+}
+
+.seg{
+    font-weight:bold;
+    color:#2BA6CB;
 }
 p{
     text-align:justify;
 }
 
 .persName{
-    font-weight: bold;
+    font-weight:bold;
+}
+
+.facs{
+    margin-right:3px;
 }
