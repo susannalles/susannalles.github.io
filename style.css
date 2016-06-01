@@ -58,10 +58,16 @@ li{
     font-weight:400;
     margin-right:30px;
     padding:5px;
-    /*    background-color:purple;*/
+       /* background-color:purple;*/
 }
 #menu p{
 
+}
+.sub_menu{
+    list-style-type:none;
+    font-size:20px;
+    line-height:1.1;
+    color:#222;
 }
 td{
     padding:4px;

@@ -17,9 +17,9 @@
   </teiHeader>
   <text>
     <body>
-      
+
       <div xml:id="tradVH">
-        
+
         <div type="title">
           <p><persName>Plutarcho</persName>
             <choice>
@@ -44,26 +44,31 @@
               Palencia</persName> la traduxo en romançe castellano.</p>
         </div>
         <div xml:id="e1" type="section" n="1">
-          <p><pb facs="../public/images/1491/165v.png"/><num xml:id="e1.1" corresp="#l1.1">1.1</num> Si se repite la
-            memoria de la Primera Guerra Púnica que los <name type="gens">carthagineses</name>
-            fizieron con el <name type="gens">pueblo romano</name>, nos occurrirán muchos capitanes
-            que, aviendo conseguido gloria de sus fazañas, dexaron a sus successores honrosa fama.
-              <num>2</num> Mas ninguno hay de los capitanes <name type="gens">carthagineses</name>
-            que los griegos y latinos scriptores más ensalçen que a <persName>Hamílcar</persName>,
-            padre de <persName>Hanníbal</persName>, renombrado <name type="surname">Barcha</name>,
-            varón, sin dubda, principal y muy enseñado en el exercito militar como <damage ></damage>podiera aver
-            algún otro en aquella edad. <num>3</num> Aqueste, más luengamente que la razón quería,
-            sostovo primero en <placeName>Sicilia</placeName> el ímpeto de los <name type="gens"
-              >romanos</name>, que avían induzido muchas pérdidas y rompimientos a su república
-            carthaginesa. <num>4</num> Después, en la guerra africana, quando los guerreros soldados
-            se levantaron con escándalo y posieron la cosa pública de los <name type="gens"
-              >carthagineses</name> en extremo peligro, él apagó tan strenuamente aquel fuego, que
-            por sentençia de todos es juzgado aver sido conservada la patria en aquel tiempo por
-            obra de un solo <persName>Hamílcar</persName>. <num>5</num> Después d'esto, en
-              <placeName>España</placeName> embiado con capitanía quando se cuenta aver levado
-            consigo a <persName>Hanníbal</persName> mochacho, fechas muchas cosas dignas de memoria,
-            al cabo en el noveno año después de venido en aquella provincia, murió peleando
-            fuertemente contra los <name type="gens">vetheones</name>.</p>
+          <p><pb facs="../public/images/1491/165v.png"/><num xml:id="e1.1" corresp="#l1.1">1.1</num>
+            Si se repite la memoria de la Primera Guerra Púnica que los <name type="gens"
+              >carthagineses</name> fizieron con el <name type="gens">pueblo romano</name>, nos
+            occurrirán muchos capitanes que, aviendo conseguido gloria de sus fazañas, dexaron a sus
+            successores honrosa fama. <num>2</num> Mas ninguno hay de los capitanes <name
+              type="gens">carthagineses</name> que los griegos y latinos scriptores más ensalçen que
+            a <persName>Hamílcar</persName>, padre de <persName>Hanníbal</persName>, renombrado
+              <name type="surname">Barcha</name>, varón, sin dubda, principal y muy enseñado en el
+            exercito militar como <damage/>podiera aver algún otro en aquella edad. <num>3</num>
+            Aqueste, más luengamente <app>
+              <lem>que</lem>
+              <rdg>qua</rdg>
+            </app> la razón quería, sostovo primero en <placeName>Sicilia</placeName> el ímpeto de
+            los <name type="gens">romanos</name>, que avían induzido muchas pérdidas y rompimientos
+            a su república carthaginesa. <num>4</num> Después, en la guerra africana, quando los
+            guerreros soldados se levantaron con escándalo y posieron la <app>
+              <lem>cosa</lem>
+              <rdg>casa</rdg>
+            </app> pública de los <name type="gens">carthagineses</name> en extremo peligro, él
+            apagó tan strenuamente aquel fuego, que por sentençia de todos es juzgado aver sido
+            conservada la patria en aquel tiempo por obra de un solo <persName>Hamílcar</persName>.
+              <num>5</num> Después d'esto, en <placeName>España</placeName> embiado con capitanía
+            quando se cuenta aver levado consigo a <persName>Hanníbal</persName> mochacho, fechas
+            muchas cosas dignas de memoria, al cabo en el noveno año después de venido en aquella
+            provincia, murió peleando fuertemente contra los <name type="gens">vetheones</name>.</p>
         </div>
 
         <div xml:id="e2" type="section" n="2">
@@ -72,25 +77,27 @@
             favor del vando barchino prefirieron al exército, tovo la capitanía quasi ocho años. El
             qual fizo venir en <placeName>España</placeName> a <persName>Hanníbal</persName> no
             mucho tiempo después de la muerte del padre, aunque lo contradizían los principales del
-            otro vando, y llamolo porque, segund avía començado<note>1</note> en la vida del
-              padre<note>2</note> a ser enseñado en las artes de la guerra, assí aún entonçes, en
-            edad más robusta, se diesse a los peligros y trabajos y a todos officios militares.
-              <num>2</num> Y comoquier que desd'el comienço la memoria del padre no poco le pudo
-            aprovechar para ganar favor en el exército, pero dende a poco su obra e ingenio fue tal,
-            que los viejos guerreros, dexado el deseo de los otros capitanes en su ánimo,
-            anteposieron para sí aqueste, y pensaron que le deviessen mayormente eligir por su
-            capitán. <num>3</num> Porque todas cosas que pareçían deverse cobdiciar para ser en lo
-            avenidero grand capitán, abondosamente las vían en <persName>Hanníbal</persName>. Tenía
-            prompto el consejo para las singulares y loables fazañas, y al consejo no le faltava
-            industria nin osadía; <num>4</num> y al varón de ánimo invincible no espantavan peligros
-            nin algunos trabajos del cuerpo, que suelen retardar a todos los otros y retraerlos de
-            las cosas que fazer se devan velar, apressurar y fazer todas las cosas que parecían
-            dignas de valiente guerrero o de singular capitán. <num>5</num> Usando
+            otro vando, y llamolo porque, segund avía començado<note n="1">P. omite el lat.
+                <foreign>puer</foreign></note> en la vida del padre<note n="2">padre: en lugar del
+              lat. <foreign>Hamilchare</foreign></note> a ser enseñado en las artes de la guerra,
+            assí aún entonçes, en edad más robusta, se diesse a los peligros y trabajos y a todos
+            officios militares. <num>2</num> Y comoquier que desd'el comienço la memoria del padre
+            no poco le pudo aprovechar para ganar favor en el exército, pero dende a poco su obra e
+            ingenio fue tal, que los viejos guerreros, dexado el deseo de los otros capitanes en su
+            ánimo, anteposieron para sí aqueste, y pensaron que le deviessen mayormente eligir por
+            su capitán. <num>3</num> Porque todas cosas que pareçían deverse cobdiciar para ser en
+            lo avenidero grand capitán, abondosamente las vían en <persName>Hanníbal</persName>.
+            Tenía prompto el consejo para las singulares y loables fazañas, y al consejo no le
+            faltava industria nin osadía; <num>4</num> y al varón de ánimo invincible no espantavan
+            peligros nin algunos trabajos del cuerpo, que suelen retardar a todos los otros y
+            retraerlos de las cosas que fazer se devan velar, apressurar y fazer todas las cosas que
+            parecían dignas de valiente guerrero o de singular capitán. <num>5</num> Usando
               <persName>Hanníbal</persName> d'estas artes, militó tres años so capitanía de
               <persName>Hasdrúbal</persName>, en el qual tiempo, de tal manera pudo aquistar el
             amigable favor de todo el exército, que luego, después de la muerte de
               <persName>Hasdrúbal</persName>, con muy grand consentimiento de los guerreros fue
-            declarado capitán del exército<!--3-->.</p>
+            declarado capitán del exército<note n="3">P. omite quam praerogatiuam ... controuersia
+              comprobauit ... [3.1.] Sex et uiginti ... exercitu declaratus.</note>.</p>
         </div>
 
         <div xml:id="e3" type="section" n="3">
@@ -136,24 +143,26 @@
               <placeName>Sagunto</placeName> , tal que podiesse pareçer fazerse no tanto por acuerdo
             primero pensado, como porque los <name type="gens">saguntinos</name> travassen la
             guerra. <num>4</num> Assí que, ya primero compelida la gente de los <name type="gens"
-              >olcadas</name> que se le diesse, luego fue contra los <name type="gens"
-              >vasceos</name> y <name type="gens">taloles</name> los campos y tomoles por fuerça
-            muchos pueblos y tomó assí mesmo a <placeName>Hermandica</placeName> y a
-              <placeName>Arboloca</placeName>, çibdades muy ricas; y posiera debaxo de su poderío ya
-            quasi toda la comarca, <num>5</num> quando muchos fuydizos de
-              <placeName>Hermandica</placeName> unos a otros entre sí se confirmaron y fizieron
-            conjuración contra los <name type="gens">carthagineses</name>, y costriñieron a ello
-            toda la muchedumbre y llegaron a su compañía los desterrados de los olcadas;
-              <num>6</num> y desdende, con exhortaciones fizieron que los carpentanos que comarcavan
-            con ellos de común consejo salteassen a <persName>Hanníbal</persName>, en bolviendo, sin
-            él pensar tal cosa. <num>7</num> De ligero los pueblos, cobdiciosos de guerra y
-            lastimados de rezientes injuros acordados en esta sentencia, tomaron armas y, juntada
-            muy grand muchedumbre (ca sobre çient mill eran los que se juntaron), salieron çerca del
-            río Tago contra <persName>Hanníbal</persName>, que tornava de los vasceos; <num>8</num>
-            y en viéndolos assí de súbito, detoviéronse las señas de los <name type="gens"
-              >carthagineses</name> y ovo en toda la hueste encaminada pavor y rebuelta. Y non se
-            dubda que aquel día los <name type="gens">carthagineses</name> reçebieran muy grand
-            rompimiento, si, assí conmovidos a temor por la venida rebatada de los enemigos y
+              >olcadas</name> que se le diesse, luego fue <app>
+              <lem>contra</lem>
+              <rdg>conra</rdg>
+            </app> los <name type="gens">vasceos</name> y <name type="gens">taloles</name> los
+            campos y tomoles por fuerça muchos pueblos y tomó assí mesmo a
+              <placeName>Hermandica</placeName> y a <placeName>Arboloca</placeName>, çibdades muy
+            ricas; y posiera debaxo de su poderío ya quasi toda la comarca, <num>5</num> quando
+            muchos fuydizos de <placeName>Hermandica</placeName> unos a otros entre sí se
+            confirmaron y fizieron conjuración contra los <name type="gens">carthagineses</name>, y
+            costriñieron a ello toda la muchedumbre y llegaron a su compañía los desterrados de los
+            olcadas; <num>6</num> y desdende, con exhortaciones fizieron que los carpentanos que
+            comarcavan con ellos de común consejo salteassen a <persName>Hanníbal</persName>, en
+            bolviendo, sin él pensar tal cosa. <num>7</num> De ligero los pueblos, cobdiciosos de
+            guerra y lastimados de rezientes injuros acordados en esta sentencia, tomaron armas y,
+            juntada muy grand muchedumbre (ca sobre çient mill eran los que se juntaron), salieron
+            çerca del río Tago contra <persName>Hanníbal</persName>, que tornava de los vasceos;
+              <num>8</num> y en viéndolos assí de súbito, detoviéronse las señas de los <name
+              type="gens">carthagineses</name> y ovo en toda la hueste encaminada pavor y rebuelta.
+            Y non se dubda que aquel día los <name type="gens">carthagineses</name> reçebieran muy
+            grand rompimiento, si, assí conmovidos a temor por la venida rebatada de los enemigos y
             cargados de robo, venieran a las manos con gentes muy feroces. <num>9</num> Pero el
             próvido capitán <persName>Hanníbal</persName>, considerando estas cosas, acordó
             sobreseer en la batalla, y puso allí su real. Y en la noche seguiente, con el mayor
@@ -176,8 +185,10 @@
               type="gens">saguntinos</name>, los quales aunque vían cómo
               <persName>Hanníbal</persName> les estava sobre las çervizes, mas, teniendo confiança
             en la compañía del pueblo romano, pensaron que se podrían defender, y embiaron a grand
-            priessa sus embaxadores a <placeName>Roma</placeName> que fiziessen saber al senado en
-            quánto grand peligro estavan sus cosas y para que pediessen ayuda contra el muy áspero
+            priessa sus embaxadores a <placeName>Roma</placeName> que fiziessen saber al senado en <app>
+              <lem>quánto</lem>
+              <rdg>quando</rdg>
+            </app> grand peligro estavan sus cosas y para que pediessen ayuda contra el muy áspero
             enemigo, que ya sin dubda les venía a fazer fuerça. <num>2</num> Escassamente los
             embaxadores de los <name type="gens">saguntinos</name> eran partidos de
               <placeName>España</placeName> para yr a <placeName>Roma</placeName>, quando
@@ -242,10 +253,11 @@
             exemplo del perdimiento de <placeName>Sagunto</placeName> ; <num>5</num> Y pudo
             confirmar los ánimos de los guerreros enriqueçido el exército con muy grande robo que
             allí ovieron, y él embió a <placeName>Carthago</placeName> joyas preciosas de los
-            despojos<!--4--> de los <name type="gens">saguntinos</name> con que pudo fazer que los
-            principales çibdadanos le fuessen obligados y esto viessen prestos para la guerra que
-            entendía fazer contra el pueblo romano, no solamente en <placeName>España</placeName>,
-            segund que muchos entonçes pensavan, mas aún en Italia como él lo tenía en voluntad.</p>
+              despojos<note n="4">joyas: traducción del lat. <foreign>munera</foreign>.</note> de
+            los <name type="gens">saguntinos</name> con que pudo fazer que los principales
+            çibdadanos le fuessen obligados y esto viessen prestos para la guerra que entendía fazer
+            contra el pueblo romano, no solamente en <placeName>España</placeName>, segund que
+            muchos entonçes pensavan, mas aún en Italia como él lo tenía en voluntad.</p>
         </div>
         <div xml:id="e9" type="section" n="9">
           <p><num xml:id="e9.1" corresp="#l9.1">9.1</num> En tanto, venidos a
@@ -257,7 +269,9 @@
             misericordia increýble y juntamente encendidos en saña, mandaron que los cónsules por
             suerte reçebiessen las provinçias. Cupo por suerte <placeName>España</placeName> a
             Publio Cornelio, y <placeName>África</placeName> a Tito Sempronio, a quien cupo
-              <placeName>Sicilia</placeName>; Estos dos eran entonçe cónsules<!--5-->
+              <placeName>Sicilia</placeName>; Estos dos eran entonçe cónsules<note n="5">a quien ...
+              cónsules: una traducción más exacta hubiera sido 'Estos, de hecho, eran los cónsules,
+              cuando [Sempronio] pasó a Sicilia'.</note>
             <num>3</num> y embiaron por embaxadores a <placeName>Carthago</placeName> varones
             principales de la çibdad, los quales después de luenga disputaçión del derecho de la
             pleytesía, quando ya ovieron derramado semientes de la contienda avenidera, quasi en el
@@ -293,21 +307,21 @@
           <p><num xml:id="e11.1" corresp="#l11.1">11.1</num> Otrosí tenía sabido qu’el pueblo
             carthaginés, segund la grandeza de su imperio, ligeramente podía quando quisiesse
             aparejar nuevas compañas, y, no sólo rehazer en casa el exército si menester fuesse, mas
-            aun embiar en Ytalia gente <pb facs="../public/images/1491/167v.png"/>[167v,b] fresca para suplir lo que
-            faltasse, <num>2</num> pues que avían echado de sobre sus cervizes guerra tan grave y
-            tan peligrosa como les fiziera la saña de los soldados, y primero siendo capitán
-              <persName>Hamílcar</persName>, y desdende <persName>Hasdrúbal</persName>, y a la
-            postre capitaneando <persName>Hanníbal</persName>, uno tras otro siempre vencedores,
-              <num>3</num> de tal manera avían acrescentado el imperio púnico o carthaginés, que en
-            el tiempo quando <persName>Hanníbal</persName> vino en <placeName>Ytalia</placeName> sus
-            favores y poderío a la luenga y a la larga estavan extendidos. <num>4</num> Ca toda la
-            costa o ribera de <placeName>África</placeName> junta a nuestro mar desde las aras de
-            los philenos, no lexanas de la grand Syrte, fasta las columnas de Hércules, donde hay
-            longura de dos mill passos en el estrecho; y, passado aquel mar tan angosto que passa
-            entre <placeName>África</placeName> y <placeName>Europa</placeName>, tenían los <name
-              type="gens">carthagineses</name> quasi toda <placeName>España</placeName> fasta el
-              <placeName>monte Pyreneo</placeName> que divide aquella provincia de la provincia de
-              <placeName>Galia</placeName>.</p>
+            aun embiar en Ytalia gente <pb facs="../public/images/1491/167v.png"/>[167v,b] fresca
+            para suplir lo que faltasse, <num>2</num> pues que avían echado de sobre sus cervizes
+            guerra tan grave y tan peligrosa como les fiziera la saña de los soldados, y primero
+            siendo capitán <persName>Hamílcar</persName>, y desdende <persName>Hasdrúbal</persName>,
+            y a la postre capitaneando <persName>Hanníbal</persName>, uno tras otro siempre
+            vencedores, <num>3</num> de tal manera avían acrescentado el imperio púnico o
+            carthaginés, que en el tiempo quando <persName>Hanníbal</persName> vino en
+              <placeName>Ytalia</placeName> sus favores y poderío a la luenga y a la larga estavan
+            extendidos. <num>4</num> Ca toda la costa o ribera de <placeName>África</placeName>
+            junta a nuestro mar desde las aras de los philenos, no lexanas de la grand Syrte, fasta
+            las columnas de Hércules, donde hay longura de dos mill passos en el estrecho; y,
+            passado aquel mar tan angosto que passa entre <placeName>África</placeName> y
+              <placeName>Europa</placeName>, tenían los <name type="gens">carthagineses</name> quasi
+            toda <placeName>España</placeName> fasta el <placeName>monte Pyreneo</placeName> que
+            divide aquella provincia de la provincia de <placeName>Galia</placeName>.</p>
         </div>
         <div xml:id="e12" type="section" n="12">
           <p><num xml:id="e12.1" corresp="#l12.1">12.1</num> Aquestas cosas d’esta manera dispuestas
@@ -322,53 +336,61 @@
         </div>
         <div xml:id="e13" type="section" n="13">
           <p><num xml:id="e13.1" corresp="#l13.1">13.1</num> Otro día seguiente, moviendo de
-              <placeName>Carthagine</placeName> junto a la costa del mar<note>6</note>, fue fasta el
-              <placeName>Hebro</placeName>. Hay quien diga que en la noche luego çercana apareçió a
-              <persName>Hanníbal</persName> por visión en sueños un mançebo de maravillosa fermosura
-            que le exhortó primero le seguiesse en la yda para <placeName>Ytalia</placeName> como a
-            guía. <num>2</num> Y luego después le apareçió una serpiente con grande estruendo y tan
-            grande que se fallarían pocas de tanta grandeza, <pb/>[168r,a] y, deseando saber qué
-            significasse aquella sierpe, pareçiole oýr que era la destruyción de Ytalia.
-              <num>3</num> Ni es de maravillar que correspondiessen los intentos cuydados y
-            pensamientos vehementes a las cosas que él, velando, pensava siempre para la guerra de
-            Ytalia, y que dende proçediessen algunas species que de noche parían los tales
-            pensamientos, que ante sí traýan algunas vezes semejança de victoria, y otras vezes de
-            matança y de incendio y de otras tribulaciones de la guerra. <num>4</num> Algunas vezes,
-            segund dize <persName>el Orador</persName>, se faze que nuestros sermones y pensamientos
-            paren alguna cosa en el sueño tal, como <persName>Ennio</persName> escrivió de
-              <persName>Homero</persName> que él muy muchas vezes mientra velava solía pensar y
-            fablar.</p>
+              <placeName>Carthagine</placeName> junto a la costa del mar<note n="6">la costa del
+              mar: interpretación correcta del término lat. erróneo
+            <foreign>horam</foreign>.</note>, fue fasta el <placeName>Hebro</placeName>. Hay quien
+            diga que en la noche luego çercana apareçió a <persName>Hanníbal</persName> por visión
+            en sueños un mançebo de maravillosa fermosura que le exhortó primero le seguiesse en la
+            yda para <placeName>Ytalia</placeName> como a guía. <num>2</num> Y luego después le
+            apareçió una serpiente con grande estruendo y tan grande que se fallarían pocas de tanta
+            grandeza, <pb/>[168r,a] y, deseando saber qué significasse aquella sierpe, pareçiole oýr
+            que era la destruyción de Ytalia. <num>3</num> Ni es de maravillar que correspondiessen
+            los intentos cuydados y pensamientos vehementes a las cosas que él, velando, pensava
+            siempre para la guerra de Ytalia, y que dende proçediessen algunas species que de noche
+            parían los tales pensamientos, que ante sí traýan algunas vezes semejança de victoria, y
+            otras vezes de matança y de incendio y de otras tribulaciones de la guerra. <num>4</num>
+            Algunas vezes, segund dize <persName>el Orador</persName>, se faze que nuestros sermones
+            y pensamientos paren alguna cosa en el sueño tal, como <persName>Ennio</persName>
+            escrivió de <persName>Homero</persName> que él muy muchas vezes mientra velava solía
+            pensar y fablar.</p>
         </div>
         <div xml:id="e14" type="section" n="14">
           <p><num xml:id="e14.1" corresp="#l14.1">14.1</num>
             <persName>Hanníbal</persName> ya passadas las alturas del
             <placeName>Pyreneo</placeName>, atraýdos a su amistad con muchos dones los ánimos de los
             galos, llegó en pocos días al <placeName>Rhódano</placeName>. <num>2</num> El
-              <placeName>Rhódano</placeName> es río grande<note>7</note> que comiença levantarse non
-            lexos de las fuentes del <placeName>Istro</placeName> o <placeName>Danubio</placeName> y
-            del <placeName>Rheno</placeName>; y dende, quasi a ochoçientos estadios, se mete en el
+              <placeName>Rhódano</placeName> es río grande<note n="7">río grande: traducción del
+              lat. <foreign>amnis</foreign>.</note> que comiença levantarse non lexos de las fuentes
+            del <placeName>Istro</placeName> o <placeName>Danubio</placeName> y del
+              <placeName>Rheno</placeName>; y dende, quasi a ochoçientos estadios, se mete en el
               <placeName>lago Lemano</placeName> y sale d’él faza el occidente y, bolviendo, passa
-            por las <placeName>Galias</placeName>, y assí, por entrar en el <placeName>río
-              Araris</placeName> como por se le llegar otros ríos, creçe mucho en aguas; al cabo,
-            entre los volcas y cavares, por muchas cabeças entra en el mar. <num>3</num> La gente de
-            los volcas en aquel tiempo morava çerca de ambas riberas del Rhódano y era muy abundante
-            de ombres y muy rica entre las gentes gálicas. <num>4</num> Aquestos en la primera
-            venida de <persName>Hanníbal</persName> passaron el río y detoviéronse ende en la ribera
-            por vedar el passaje a los <name type="gens">carthagineses</name>. Ca, apaziguados ya
-            todos los otros galos, no pudo <persName>Hanníbal</persName> compelir a éstos con miedo
-            ni aquistarlos con dádivas para que quesiessen más provar la amistad de los <name
-              type="gens">carthagineses</name> que la fuerça. <pb/>[168r,b] <num>5</num> Assí que
-            él, cuydando que con el tal enemigo se devía aver engañosamente, mandó a
+            por las <placeName>Galias</placeName>, y assí, por entrar <app>
+              <lem>en el río</lem>
+              <rdg>enel el rio</rdg>
+            </app>
+            <placeName>Araris</placeName> como por se le llegar otros ríos, creçe mucho en aguas; al
+            cabo, entre los volcas y cavares, por muchas cabeças entra en el mar. <num>3</num> La
+            gente de los volcas en aquel tiempo morava çerca de ambas riberas del Rhódano y era muy
+            abundante de ombres y muy rica entre las gentes gálicas. <num>4</num> Aquestos en la
+            primera venida de <persName>Hanníbal</persName> passaron el río y detoviéronse ende en
+            la ribera por vedar el passaje a los <name type="gens">carthagineses</name>. Ca,
+            apaziguados ya todos los otros galos, no pudo <persName>Hanníbal</persName> compelir a
+            éstos con miedo ni aquistarlos con dádivas para que quesiessen más provar la amistad de
+            los <name type="gens">carthagineses</name> que la fuerça. <pb/>[168r,b] <num>5</num>
+            Assí que él, cuydando que con el tal enemigo se devía aver engañosamente, mandó a
               <persName>Hannón</persName>, fijo de <persName>Bomílcar</persName>, que passasse el
-            Rhódano escondidamente y con una parte de las compañas acometa a los galos mientra que
-            d’esto estavan descuydados. <num>6</num>
+            Rhódano escondidamente y con una parte de <app>
+              <lem>las</lem>
+              <rdg>los</rdg>
+            </app> compañas acometa a los galos mientra que d’esto estavan descuydados. <num>6</num>
             <persName>Hannón</persName>, segund le fue mandado, yendo rodeando, passó el río por
             dónde le pareçió mejor passaje, y dio buelta con sus compañas y llegó primero al real de
             los enemigos que le podiessen ellos veer o conosçer lo que se fazía. <num>7</num> Los
             galos, oyendo grita a las espaldas, como no tenían espaçio de aver consejo, nin de tomar
             las armas, y ya <persName>Hanníbal</persName> estava a la fruente con muchos navíos
             aparejados para passar, de súbito se partieron del real y, quanto más podieron yr
-            corriendo, començaron a fuyr.<note>8</note>
+            corriendo, començaron a fuyr.<note n="8">P. omite el lat. <foreign>in
+                praecipitem</foreign>.</note>
             <num>8</num> D’esta manera, echados los enemigos de la ribera contraria, passaron el río
             en salvo todas las otras compañas de los <name type="gens">carthagineses</name>. </p>
         </div>
@@ -466,17 +488,21 @@
               <num>2</num> Al fin los romanos, por ser ferido el cónsul, y los cavalleros númidas
             poco a poco los rodeavan a las espaldas, fueron constriñidos retraerse passo a passo
             amparando al cónsul fasta que se recogieron en el real. <num>3</num> Hay quien escriva
-            que su fijo, renombrado después Africano, que entonçe començava tener barba, conservó al
-            padre Cornelio. La qual loança aunque sea muy grande en tan reziente y tierna edad, pero
-            no pareçe ajena de verdad, nin de las muy claras fazañas que después puso en obra.
-              <num>4</num> Scipión pudo en esta pelea conosçer por experiençia quánto el enemigo le
-            tenía ventaja en gente de cavallo. Por ende, determinó yrse a aquellos logares en que
+            que su fijo, renombrado después Africano, que entonçe començava tener barba, <app>
+              <lem>conservó</lem>
+              <rdg>conserno</rdg>
+            </app> al padre Cornelio. La qual loança aunque sea muy grande en tan reziente y tierna
+            edad, pero no pareçe ajena de verdad, nin de las muy claras fazañas que después puso en
+            obra. <num>4</num> Scipión pudo en esta pelea conosçer por experiençia quánto el enemigo
+            le tenía ventaja en gente de cavallo. Por ende, determinó yrse a aquellos logares en que
             sus peones estoviessen más seguros y peleassen más a su provecho. <num>5</num> Assí que
             la noche seguiente, con el mayor silençio que pudo, fue passar el Pado con todo el
-            exérçito y fuele aposentar en el campo Plaçentino. Poco después llegó ende Tiberio
-            Sempronio Luengo, llamado por letras del senado desde <placeName>Sicilia</placeName>
-            para que ambos cónsules de común capitanía y de común consejo administrassen la cosa
-            pública.</p>
+            exérçito y fuele aposentar en el campo Plaçentino. Poco después llegó ende <app>
+              <lem>Tiberio</lem>
+              <rdg>Tibero</rdg>
+            </app> Sempronio Luengo, llamado por letras del senado desde
+              <placeName>Sicilia</placeName> para que ambos cónsules de común capitanía y de común
+            consejo administrassen la cosa pública.</p>
         </div>
         <div xml:id="e21" type="section" n="21">
           <p><num xml:id="e21.1" corresp="#l21.1">21.1</num> Otrosí <pb/>[169r,b]
@@ -501,10 +527,12 @@
             fazaña, determinó de pelear, comoquier que el collega o compañero lo tachava y dava
             bozes diziendo que ninguna cosa se podía fazer más fuera de tiempo que poner en peligro
             la suma y estado de la república teniendo allí por contrarios quasi todos los galos.
-              <num>3</num> Las differençias d’estos cónsules por espías se denunciavan a
-              <persName>Hanníbal</persName>, y, sabidas, luego el cauteloso capitán mandó a su
-            hermano Magón que se posiesse con escogida compaña en un logar que él avía fallado entre
-            ambos <pb/>[169v,a] los reales, vestido de todas partes de çarçales y de spinos.
+              <num>3</num> Las differençias d’estos cónsules por espías se <app>
+              <lem>denunciavan</lem>
+              <rdg>dennnciavan</rdg>
+            </app> a <persName>Hanníbal</persName>, y, sabidas, luego el cauteloso capitán mandó a
+            su hermano Magón que se posiesse con escogida compaña en un logar que él avía fallado
+            entre ambos <pb/>[169v,a] los reales, vestido de todas partes de çarçales y de spinos.
               <num>4</num> Y dio cargo a los cavalleros númidas que arremetiessen al real de los
             romanos y açomassen al enemigo para le enridar a batalla. <num>5</num> En tanto, él fue
             sacando su gente y puso la az en orden y fizo qu’el exérçito comiesse y beviesse,
@@ -526,25 +554,32 @@
             la neçessidad del tiempo, para cometer la batalla con el enemigo ya antes aparejado a la
             venidera lid. <num>4</num> Estava ya ende presente con sus compañas ordenadas
               <persName>Hanníbal</persName> para gozar de la presente occasión de la contienda, la
-            qual se començó primero entre los de ligera armadura y después entre los de cavallo,
-            pero los cavalleros romanos, no podiendo sofrir el embate de los enemigos, de ligero se
-            retraxeron. <num>5</num> Y desdende, <pb/>[169v,b] las legiones arremetieron con tan
-            grand contienda y con tan aparejados ánimos para pelear, que mostraron poder resistir si
+            qual se començó <app>
+              <lem>primero</lem>
+              <rdg>prmero</rdg>
+            </app> entre los de ligera armadura y después entre los de cavallo, pero los cavalleros
+            romanos, no podiendo sofrir el embate de los enemigos, de ligero se retraxeron.
+              <num>5</num> Y desdende, <pb/>[169v,b] las legiones arremetieron con tan grand
+            contienda y con tan aparejados ánimos para pelear, que mostraron poder resistir si
             ovieran de lidiar con los otros peones sólos. Mas de la una parte ponían espanto los
-              elefantes<note>9</note> y de la otra apretavan los peones agramente contra los cuerpos
-            que para pelear estavan atormentados de fambre y de frío. <num>6</num> De manera que los
-            romanos sofrieron más aquesta difficultad y peso de los daños çircunstantes con los
-            ánimos que con las fuerças, y continuaron la pelea fasta que Magón, salido de la çelada
-            con grita y con estruendo, arremetió contra los que d’esto no temieran y la az mediana
-            de los <name type="gens">carthagineses</name>, por mandado de
-              <persName>Hanníbal</persName>, arremetió contra los çenomanos. <num>7</num> Entonçes,
-            començando a fuyr los ayudadores, fueron quebrantados los ánimos de los romanos ca,
-            segund se dize, fasta diez mill peones de los romanos rompieron por medio de los
-            enemigos y se fueron a Plazençia, y de los que yvan fuyendo de las otras compañas, grand
-            parte mataron los <name type="gens">carthagineses</name>. <num>8</num> Con todo, pudo
-            escapar el cónsul Sempronio de las manos de los enemigos con soberano peligro, y la
-            victoria que ovieron los <name type="gens">carthagineses</name> no fue sin sangre,
-            porque perdieron muchos de los suyos y quasi todos los elefantes.</p>
+              elefantes<note n="9">P. omite el sujeto lat. <foreign>equites</foreign>.</note> y de
+            la otra apretavan los peones agramente contra los cuerpos que para pelear estavan
+            atormentados de fambre y de frío. <num>6</num> De manera que los romanos sofrieron más
+            aquesta difficultad y peso de los daños çircunstantes con los ánimos que con las
+            fuerças, y continuaron la pelea fasta que Magón, salido de la çelada con grita y con
+            estruendo, arremetió contra los que d’esto no temieran y la az mediana de los <name
+              type="gens">carthagineses</name>, por mandado de <persName>Hanníbal</persName>,
+            arremetió contra los çenomanos. <num>7</num> Entonçes, començando a fuyr los ayudadores,
+            fueron quebrantados los ánimos de los romanos ca, segund se dize, fasta diez mill peones
+            de los romanos rompieron por medio de los enemigos y se fueron a Plazençia, y de los que
+            yvan fuyendo de las otras compañas, grand parte mataron los <name type="gens"
+              >carthagineses</name>. <num>8</num> Con todo, pudo escapar el cónsul Sempronio de las
+            manos de los enemigos con soberano peligro, y la victoria que ovieron los <name
+              type="gens"><app>
+                <lem>carthagineses</lem>
+                <rdg>Carthagines</rdg>
+              </app></name> no fue sin sangre, porque perdieron muchos de los suyos y quasi todos
+            los elefantes.</p>
         </div>
         <div xml:id="e24" type="section" n="24">
           <p><num xml:id="e24.1" corresp="#l24.1">24.1</num> Después d’esta batalla
@@ -552,32 +587,38 @@
             y con fuego, y tomó algunos logares y rompió y fizo fuyr con poca gente gran muchedumbre
             de los moradores de aquella tierra que venían a pelear sin algund orden militar.
               <num>2</num> En la primavera, más presto de lo qu’el tiempo demandava, movió de los
-            aposentamientos del ynvierno para passar en Toscana<note>10</note>, y llegado a las
-            cumbres del Apenino, ya çerca del passaje, otra vez le fizo la tempestad <pb/>[170r,a]
-            tan fiera, que, repelido dende reduxiesse el exérçito en el campo de Placencia y,
-            passado breve espaçio, costriñido de muchas causas y assaz neçessarias, de nuevo, segund
-            que antes instituyera, pensó tornar a seguir su passaje. <num>3</num> Ca poco menos ya
-            rodeado de las asechanças de los galos, supo guardarse con cauteloso ingenio del peligro
-            de su cabeça, porque los galos, aviendo a mal que tan luengamente la guerra se fiziesse
-            en sus mesmos campos, buscavan manera de matar a <persName>Hanníbal</persName>, como a
-            cabeçera sola de toda aquella guerra. Y él, complido d’este peligro, pensava
+            aposentamientos del ynvierno para passar en Toscana<note n="10">Toscana: substitución
+              del topónimo lat. <foreign>Etruria</foreign>.</note>, y llegado a las cumbres del
+            Apenino, ya çerca del passaje, otra vez le fizo la tempestad <pb/>[170r,a] tan fiera,
+            que, repelido dende reduxiesse el exérçito en el campo de Placencia y, passado breve
+            espaçio, costriñido de muchas causas y assaz neçessarias, de nuevo, segund <app>
+              <lem>que</lem>
+              <rdg>qua</rdg>
+            </app> antes instituyera, pensó tornar a seguir su passaje. <num>3</num> Ca poco menos
+            ya rodeado de las asechanças de los galos, supo guardarse con cauteloso ingenio del
+            peligro de su cabeça, porque los galos, aviendo a mal que tan luengamente la guerra se
+            fiziesse en sus mesmos campos, buscavan manera de matar a <persName>Hanníbal</persName>,
+            como a cabeçera sola de toda aquella guerra. Y él, complido d’este peligro, pensava
             apressurarse en passar el exérçito a la otra provinçia.</p>
         </div>
         <div xml:id="e25" type="section" n="25">
           <p><num xml:id="e25.1" corresp="#l25.1">25.1</num> Llegávase a esto, que para la opinión
-            de las gentes y para la alegría de sus guerreros creýa ser muy provechoso que las
-            fuerças de los <name type="gens">carthagineses</name> pareçiessen tan grandes y tan
-            grande el ánimo del capitán, que osasse passar con la gente de armas en las tierras
-            çercanas a Roma. <num>2</num> Por ende, todas cosas postpuestas, movió el real y fue
-            passar las cumbres del Apenino por tierra de los lígures y aquella vía que va a las
-              paludes<note>11</note> del río de Arno y desçiende en Toscana en tiempo que por
-            aquellos días el río estava muy cresçido y las aguas se esparzían por todos los campos
-            d’enrededor de la ribera. <num>3</num> Assí que <persName>Hanníbal</persName>, levando
-            consigo tan grande exérçito, antes que saliesse de los logares paludosos no pudo
-            esquivar que no incurriesse grand pérdida de ombres y de bestias. <num>4</num> Y el
-            mesmo capitán, subido en un elephante solo que avía quedado de muchos, yva puesto en
-            alto, mas trabajando tantos días y tantas noches, con el destempramiento del ayre y el
-            no dormir ovo de perder el uno de sus ojos.</p>
+            de las gentes y para la alegría de sus guerreros creýa ser muy <app>
+              <lem>provechoso</lem>
+              <rdg>provochoso</rdg>
+            </app> que las fuerças de los <name type="gens">carthagineses</name> pareçiessen tan
+            grandes y tan grande el ánimo del capitán, que osasse passar con la gente de armas en
+            las tierras çercanas a Roma. <num>2</num> Por ende, todas cosas postpuestas, movió el
+            real y fue passar las cumbres del Apenino por tierra de los lígures y aquella vía que va
+            a las paludes<note n="11">P. omite el lat. <foreign>ac planiciem</foreign>.</note> del
+            río de Arno y desçiende en Toscana en tiempo que por aquellos días el río estava muy
+            cresçido y las aguas se esparzían por todos los campos d’enrededor de la ribera.
+              <num>3</num> Assí que <persName>Hanníbal</persName>, levando consigo tan grande
+            exérçito, antes que saliesse de los logares paludosos no pudo esquivar que no
+            incurriesse grand pérdida de ombres y de bestias. <num>4</num> Y el mesmo capitán,
+            subido en un elephante solo que avía quedado de muchos, yva puesto en alto, mas
+            trabajando tantos días y tantas noches, con el destempramiento del ayre y el no dormir
+            ovo de perder el uno de sus ojos.</p>
         </div>
         <div xml:id="e26" type="section" n="26">
           <p><num xml:id="e26.1" corresp="#l26.1">26.1</num> En tanto, Gayo Flamineo cónsul, tomado
@@ -586,10 +627,13 @@
             colega o compañero Gneo Servilio, se fue ascondidamente a la provinçia sin insignias y
             sin lictores. <num>2</num> La plebe avía mucho loado a este varón naturalmente feroçe, y
             favoreçíale demasiadamente, y con esto le avía fecho tanto más osado, que bien pareçía
-            aver él de fazer todas las cosas desacordadamente y sin buen consejo. <num>3</num> Lo
-            qual, luego que lo supo <persName>Hanníbal</persName>, determinó enridar el ánimo del
-            cónsul y trabajar en todas maneras cómo, antes que el otro cónsul su compañero se
-            juntasse con él, le atraxesse a pelear. </p>
+            aver él de fazer <app>
+              <lem>todas</lem>
+              <rdg>todos</rdg>
+            </app> las cosas desacordadamente y sin buen consejo. <num>3</num> Lo qual, luego que lo
+            supo <persName>Hanníbal</persName>, determinó enridar el ánimo del cónsul y trabajar en
+            todas maneras cómo, antes que el otro cónsul su compañero se juntasse con él, le
+            atraxesse a pelear. </p>
         </div>
 
         <div xml:id="e27" type="section" n="27">
@@ -611,28 +655,29 @@
           <p><num xml:id="e28.1" corresp="#l28.1">28.1</num> Flaminio sentiendo que se robavan y
             destruýan los campos de los compañeros, y los panes se talavan y se quemavan los
             edificios, súbitamente movió el real contra el acuerdo de todos los que juzgavan <pb
-              facs="../public/images/1491/170v.png"/>[170v,a] que devía atender al colega o compañero y dio priesa que la
-            gente se encaminasse al enemigo. <num>2</num> Ya llegado, en poniéndose el sol, a las
-            angosturas del lago de Transimeno, la gente, cansada del camino, estóvose en aquel logar
-            la noche. <num>3</num> El día seguiente, començando amaneçer, sin descobrir nin proveer
-            en cosa alguna, passó de la otra parte de la angostura. Y <persName>Hanníbal</persName>,
-            que, todas cosas antes aparejadas, atendía occasión de fazer su negoçio, quando vio que
-            el exérçito romano estava en el campo llano, dio a todos señal de arremeter.
-              <num>4</num> Entonçe los <name type="gens">carthagineses</name> de todas partes dieron
-            en los enemigos çercados del lago y de los montes, y no sólamente los acometieron por la
-            fruente, mas aun por las espaldas y por los lados. <num>5</num> Y al contrario, los
-            romanos, sin guardar orden alguno militar, començaron a pelear estibados y amontonados
-            en tiempo que la niebla les occupava la vista y lidiavan como en sombrío, de manera que
-            fue maravilla con qué esfuerço tan luengamente sofrieron la contienda estando çercados
-            de todas partes. <num>6</num> Ca sobre tres horas tan feroçemente pelearon, que muy
-            grand terremoto non lo podieran oýr los que lidiavan, nin la az de los romanos fue
-            primero desbaratada, que cundió por todos la fama como un cavallero nombrado Ducario
-            avía muerto al cónsul, que discurría por toda la az como volando de unas partes a otras.
-              <num>7</num> Entonçes los romanos, despojados del amparo del capitán y destituydos de
-            toda esperança, bolvieron las espaldas, y unos se encaminaron a los montes y otros al
-            lago, de los quales muchos fueron presos y muertos en la fuyda. De las compañas de los
-            romanos cayeron en aquella batalla fasta quinze mill ombres y fasta diez mill escaparon
-            dende por diversos caminos. <num>8</num> Otrosí dizen que <pb facs="../public/images/1491/170v.png"/>[170v,b]
+              facs="../public/images/1491/170v.png"/>[170v,a] que devía atender al colega o
+            compañero y dio priesa que la gente se encaminasse al enemigo. <num>2</num> Ya llegado,
+            en poniéndose el sol, a las angosturas del lago de Transimeno, la gente, cansada del
+            camino, estóvose en aquel logar la noche. <num>3</num> El día seguiente, començando
+            amaneçer, sin descobrir nin proveer en cosa alguna, passó de la otra parte de la
+            angostura. Y <persName>Hanníbal</persName>, que, todas cosas antes aparejadas, atendía
+            occasión de fazer su negoçio, quando vio que el exérçito romano estava en el campo
+            llano, dio a todos señal de arremeter. <num>4</num> Entonçe los <name type="gens"
+              >carthagineses</name> de todas partes dieron en los enemigos çercados del lago y de
+            los montes, y no sólamente los acometieron por la fruente, mas aun por las espaldas y
+            por los lados. <num>5</num> Y al contrario, los romanos, sin guardar orden alguno
+            militar, començaron a pelear estibados y amontonados en tiempo que la niebla les
+            occupava la vista y lidiavan como en sombrío, de manera que fue maravilla con qué
+            esfuerço tan luengamente sofrieron la contienda estando çercados de todas partes.
+              <num>6</num> Ca sobre tres horas tan feroçemente pelearon, que muy grand terremoto non
+            lo podieran oýr los que lidiavan, nin la az de los romanos fue primero desbaratada, que
+            cundió por todos la fama como un cavallero nombrado Ducario avía muerto al cónsul, que
+            discurría por toda la az como volando de unas partes a otras. <num>7</num> Entonçes los
+            romanos, despojados del amparo del capitán y destituydos de toda esperança, bolvieron
+            las espaldas, y unos se encaminaron a los montes y otros al lago, de los quales muchos
+            fueron presos y muertos en la fuyda. De las compañas de los romanos cayeron en aquella
+            batalla fasta quinze mill ombres y fasta diez mill escaparon dende por diversos caminos.
+              <num>8</num> Otrosí dizen que <pb facs="../public/images/1491/170v.png"/>[170v,b]
             fasta seys mill peones desd’el comienço de la pelea arremetieron a la estrechura del
             passo y se posieron en una altura de un otero, y que después, ya feneçida la batalla,
             los <name type="gens">carthagineses</name>, dada fe que serían seguros, los engañaron y
@@ -661,7 +706,8 @@
             de la çibdad a demandar cada uno y çertificarse de sus parientes y amigos. <num>3</num>
             Fue puesto en memoria aquesto, que estando dos mugeres en muy gran cuyta y con ánimos
             pendientes, oyendo que sus fijos morieran, los vieron venir a desora y súbitamente
-            expiraron con el grand <pb facs="../public/images/1491/171r.png"/>[171r,a] plazer que d’ello ovieron.</p>
+            expiraron con el grand <pb facs="../public/images/1491/171r.png"/>[171r,a] plazer que
+            d’ello ovieron.</p>
         </div>
         <div xml:id="e31" type="section" n="31">
           <p><num xml:id="e31.1" corresp="#l31.1">31.1</num> En el mesmo tiempo, embiava el cónsul
@@ -696,16 +742,16 @@
         </div>
         <div xml:id="e34" type="section" n="34">
           <p><num xml:id="e34.1" corresp="#l34.1">34.1</num> El dictador, seguiendo <pb
-            facs="../public/images/1491/171r.png"/>[171r,b] al enemigo, puso su real çerca de Arpos no lexos del
-            aposentamiento de los <name type="gens">carthagineses</name> con este acuerdo, que
-            deteniéndose y con tardança se alongasse la guerra, pues que la demasiada feroçidad de
-            los capitanes antepassados traxera en aquellos términos el estado romano y que no ser él
-            vençido del enemigo tantas vezes vençedor era vençer. Assí qu’el capitán mudado, todo lo
-            pudo mudar a desora. <num>2</num> Ca <persName>Hanníbal</persName> primero puso su gente
-            en az para pelear y, quando vio que Fabio estava quedo, taló toda la comarca, porque,
-            destruyendo los campos de los compañeros a ojo de los enemigos, enridasse al dictador a
-            emprender batalla. Nin por aquesto se movió más Fabio y tenía los suyos quedos en su
-            real. </p>
+              facs="../public/images/1491/171r.png"/>[171r,b] al enemigo, puso su real çerca de
+            Arpos no lexos del aposentamiento de los <name type="gens">carthagineses</name> con este
+            acuerdo, que deteniéndose y con tardança se alongasse la guerra, pues que la demasiada
+            feroçidad de los capitanes antepassados traxera en aquellos términos el estado romano y
+            que no ser él vençido del enemigo tantas vezes vençedor era vençer. Assí qu’el capitán
+            mudado, todo lo pudo mudar a desora. <num>2</num> Ca <persName>Hanníbal</persName>
+            primero puso su gente en az para pelear y, quando vio que Fabio estava quedo, taló toda
+            la comarca, porque, destruyendo los campos de los compañeros a ojo de los enemigos,
+            enridasse al dictador a emprender batalla. Nin por aquesto se movió más Fabio y tenía
+            los suyos quedos en su real. </p>
         </div>
         <div xml:id="e35" type="section" n="35">
           <p><num xml:id="e35.1" corresp="#l35.1">35.1</num>
@@ -722,39 +768,40 @@
             conosçido el error, mandó <persName>Hanníbal</persName> atormentar y matar cruelmente al
             que guiava. <num>4</num> Y, en tanto, usando Fabio de increýble paciencia, dexó al
             Carthaginés discurrir fasta que, occupado el monte Galicano y Casilino, pudo poner y
-            refirmar guarniçiones <pb facs="../public/images/1491/171v.png"/>[171v,a] de gente en los logares oportunos, de
-            manera qu’el exérçito carthaginés o púnico, quasi atajado, pareçió ser costriñido a
-            pereçer por mengua de mantenimientos o a fuyr feamente por escapar la vida; <num>5</num>
-            y assí fuera, sino que <persName>Hanníbal</persName> con agudo engaño, pensado para lo
-            que le cumplía, mandó a los suyos que, de lo robado por los campos y tenían
-            abondosamente en el real, le traxessen fasta dos mill bueyes y mandó que les atassen
-            manojos de leña seca a los cuernos y escogió varones ydóneos que en el comienço de la
-            noche ençendiessen los hazes menudos que tenían atados los bueyes en los cuernos y los
-            aguijassen fasta la subida de los montes. <num>6</num> Ninguna cosa se dexó de fazer de
-            lo mandado; agujados los bueyes, començaron sobir los montes con sus manojos ençendidos,
-            y las compañas poco a poco los seguían. Y los romanos, que mucho antes tenían occupados
-            los passos en lo alto con guarniçiones de gente, espantados de la novedad y pensando que
-            fuessen assechanças, súbitamente se partieron de los logares oportunos. <num>7</num>
-            Assí mesmo Fabio, que tenía sospecha de engaño púnico o carthaginés, no podiendo ser
-            certificado qué cosa fuesse aquello, detovo los suyos en el real. <num>8</num> En tanto,
-              <persName>Hanníbal</persName> pudo passar de la otra parte del monte no lexos de las
-            aguas suessanas por el logar que en este tiempo los moradores de aquella comarca llaman
-            la Torre de los Vaños; y, recogidas todas sus compañas, llegó en salvo al campo Albano
-            y, passado poco espaçio de tiempo, movió el real faza <placeName>Roma</placeName> quasi
-            por la vía derecha. <num>9</num> Mas después, buelto el camino, tornose en Apulia; ende
-            se apoderó de un grand pueblo llamado Glereno, logar sin dubda rico y abondoso de todo
-            abasteçimiento de las cosas neçessarias, y quiso allí tener la ynvernada.</p>
+            refirmar guarniçiones <pb facs="../public/images/1491/171v.png"/>[171v,a] de gente en
+            los logares oportunos, de manera qu’el exérçito carthaginés o púnico, quasi atajado,
+            pareçió ser costriñido a pereçer por mengua de mantenimientos o a fuyr feamente por
+            escapar la vida; <num>5</num> y assí fuera, sino que <persName>Hanníbal</persName> con
+            agudo engaño, pensado para lo que le cumplía, mandó a los suyos que, de lo robado por
+            los campos y tenían abondosamente en el real, le traxessen fasta dos mill bueyes y mandó
+            que les atassen manojos de leña seca a los cuernos y escogió varones ydóneos que en el
+            comienço de la noche ençendiessen los hazes menudos que tenían atados los bueyes en los
+            cuernos y los aguijassen fasta la subida de los montes. <num>6</num> Ninguna cosa se
+            dexó de fazer de lo mandado; agujados los bueyes, començaron sobir los montes con sus
+            manojos ençendidos, y las compañas poco a poco los seguían. Y los romanos, que mucho
+            antes tenían occupados los passos en lo alto con guarniçiones de gente, espantados de la
+            novedad y pensando que fuessen assechanças, súbitamente se partieron de los logares
+            oportunos. <num>7</num> Assí mesmo Fabio, que tenía sospecha de engaño púnico o
+            carthaginés, no podiendo ser certificado qué cosa fuesse aquello, detovo los suyos en el
+            real. <num>8</num> En tanto, <persName>Hanníbal</persName> pudo passar de la otra parte
+            del monte no lexos de las aguas suessanas por el logar que en este tiempo los moradores
+            de aquella comarca llaman la Torre de los Vaños; y, recogidas todas sus compañas, llegó
+            en salvo al campo Albano y, passado poco espaçio de tiempo, movió el real faza
+              <placeName>Roma</placeName> quasi por la vía derecha. <num>9</num> Mas después, buelto
+            el camino, tornose en Apulia; ende se apoderó de un grand pueblo llamado Glereno, logar
+            sin dubda rico y abondoso de todo abasteçimiento de las cosas neçessarias, y quiso allí
+            tener la ynvernada.</p>
         </div>
         <div xml:id="e36" type="section" n="36">
           <p><num xml:id="e36.1" corresp="#l36.1">36.1</num> Poco después le seguió el dictador, y
-            no <pb facs="../public/images/1491/171v.png"/>[171v,b] lexos del real de los <name type="gens"
-              >carthagineses</name> se aposentó en el campo Larinate, donde fue llamado para venir a
-              <placeName>Roma</placeName> a causa de la república, y aviéndose de partir prestamente
-            para allá, dixo al maestro de la cavallería que estoviesse quedo en el real y en manera
-            alguna no veniesse a las manos con los enemigos. <num>2</num> Ca, segund que desd’el
-            comienço proposiera en su ánimo, pensava d’esa manera perseverar después de no pelear en
-              batalla<note>12</note> provocando al enemigo, ni si el enemigo le provocasse venir con
-            él a las manos.</p>
+            no <pb facs="../public/images/1491/171v.png"/>[171v,b] lexos del real de los <name
+              type="gens">carthagineses</name> se aposentó en el campo Larinate, donde fue llamado
+            para venir a <placeName>Roma</placeName> a causa de la república, y aviéndose de partir
+            prestamente para allá, dixo al maestro de la cavallería que estoviesse quedo en el real
+            y en manera alguna no veniesse a las manos con los enemigos. <num>2</num> Ca, segund que
+            desd’el comienço proposiera en su ánimo, pensava d’esa manera perseverar después de no
+            pelear en batalla<note>12</note> provocando al enemigo, ni si el enemigo le provocasse
+            venir con él a las manos.</p>
         </div>
         <div xml:id="e37" type="section" n="37">
           <p><num xml:id="e37.1" corresp="#l37.1">37.1</num> Mas acaesçió que, después de su
@@ -776,22 +823,22 @@
             vezes vençedor, de ser tan arrogante como presumió Minutio sin lo consultar con su
             compañero yr un día a pelear y aduzir sus compañas en tal logar donde, atajadas con
             çelada que <persName>Hanníbal</persName> tenía puesta, segund la voluntad de los
-            enemigos, caýan en tierra los romanos y eran asperamente <pb facs="../public/images/1491/172r.png"/>[172r,a]
-            feridos y no tenían vía alguna por donde escapassen, si Fabio, teniendo más en memoria
-            la salud pública que la injuria reçebida, no socorriera en tiempo. <num>2</num> Ca,
-            sobreveniendo a la contienda con compañas rezientes, sin dubda pudo espantar a los <name
-              type="gens">carthagineses</name> y dio facultad a las legiones romanas que se
-            recogiessen en logar seguro. D’esto conseguió Fabio muy grand fama de virtud y de
-            prudençia, assí çerca de los suyos como çerca de los enemigos. Y cuentan que
-              <persName>Hanníbal</persName>, buelto a su real, dixo que él vençiera a Minucio, y
-            Fabio le avía vençido. <num>3</num> Y el mesmo Minucio, conosçida la prudençia del
-            varón, segund la sentençia de Hesíodo, vio que devía obedeçer al mejor y con todas sus
-            compañas vino al real de Fabio y, despuesto el magistrado con muy honoríficas palabras,
-            saludó a Fabio llamándole padre. Y aquel día fue muy mucho alegre a maravilla a todos
-            los guerreros romanos ende juntos y ambos exérçitos aposentados en sus aparejos para
-            invernar, después de luenga contienda, fueron criados nuevos cónsules Lucio Paulo Emilio
-            y Gayo Terencio Varró, ombre de baxa plebe que el viento popular avía ensalçado a ser
-            cónsul.</p>
+            enemigos, caýan en tierra los romanos y eran asperamente <pb
+              facs="../public/images/1491/172r.png"/>[172r,a] feridos y no tenían vía alguna por
+            donde escapassen, si Fabio, teniendo más en memoria la salud pública que la injuria
+            reçebida, no socorriera en tiempo. <num>2</num> Ca, sobreveniendo a la contienda con
+            compañas rezientes, sin dubda pudo espantar a los <name type="gens">carthagineses</name>
+            y dio facultad a las legiones romanas que se recogiessen en logar seguro. D’esto
+            conseguió Fabio muy grand fama de virtud y de prudençia, assí çerca de los suyos como
+            çerca de los enemigos. Y cuentan que <persName>Hanníbal</persName>, buelto a su real,
+            dixo que él vençiera a Minucio, y Fabio le avía vençido. <num>3</num> Y el mesmo
+            Minucio, conosçida la prudençia del varón, segund la sentençia de Hesíodo, vio que devía
+            obedeçer al mejor y con todas sus compañas vino al real de Fabio y, despuesto el
+            magistrado con muy honoríficas palabras, saludó a Fabio llamándole padre. Y aquel día
+            fue muy mucho alegre a maravilla a todos los guerreros romanos ende juntos y ambos
+            exérçitos aposentados en sus aparejos para invernar, después de luenga contienda, fueron
+            criados nuevos cónsules Lucio Paulo Emilio y Gayo Terencio Varró, ombre de baxa plebe
+            que el viento popular avía ensalçado a ser cónsul.</p>
         </div>
         <div xml:id="e39" type="section" n="39">
           <p><num xml:id="e39.1" corresp="#l39.1">39.1</num> A éstos se dio comissión que ellos, con
@@ -801,35 +848,36 @@
             diverso ingenio, assí guardavan diversa razón en administrar<note>13</note>. Lucio
             Paulo, varón prudente, acordándose de la arte y del consejo de Fabio, quería alongar la
             guerra y detener al enemigo y abstenerse de batalla. <num>3</num> Varro, al contrario,
-            estava lleno de furia y de osadía y buscava como peleassen, y dende a <pb facs="../public/images/1491/172r.png"
-            />[172r,b] poco espaçio se mostró con grand tribulaçión y perdimiento de la çibdad,
-            quánta differençia oviesse entre la modestia de Emilio y la presumpçión demasiada de
-            Varrón. <num>4</num> Ca <persName>Hanníbal</persName>, temiendo que por falta de
-            mantenimiento de pan se levantasse algund movimiento en el real, ydo de Glereno por
-            llegar a otros logares más calientes de Apulia, se aposentó con todas sus compañas junto
-            a Cannas; y seguiéndole los cónsules romanos, aposentáronse çerca d’él en dos reales, y
-            los unos de los otros estavan tan çercanos, que solo el río Aufido<note>14</note> los
-            despartia. <num>5</num> Aqueste sólo río, segund escriven algunos, divide en dos partes
-            el Apenino y nasçe de la parte que los montes penden al mar Inferior, que es el
-            Tyrrheno, y después da buelta a salir al mar Adriático. <num>6</num> Y Lucio Paulo,
-            viendo a <persName>Hanníbal</persName> que si morasse en tierra ajena no podría
-            luengamente sostener compañas de tan diversas gentes, perseverava en aquel acuerdo de
-            alargar la guerra; y judgava que éste un camino era para que vençiessen los romanos con
-            salud de la república, y que los enemigos pereçiessen; y que si a aquello mesmo podiesse
-            acabar con Terencio Varrón, se pareçía bien que, estando quedas las compañas de los
-            romanos, se podían quebrantar las fuerças y favores de <persName>Hanníbal</persName>.
-              <num>7</num> Mas aquel varón de ánimo no reposado, no sólamente no se movía por la
-            auctoridad de Emilio que le consejava con tanta prudençia, mas aun le increpava, y
-            regañando dizía y divulgava que, saliendo <persName>Hanníbal</persName> con az ordenada
-            para pelear, Emilio tenía a los romanos ociosos en el real.</p>
+            estava lleno de furia y de osadía y buscava como peleassen, y dende a <pb
+              facs="../public/images/1491/172r.png"/>[172r,b] poco espaçio se mostró con grand
+            tribulaçión y perdimiento de la çibdad, quánta differençia oviesse entre la modestia de
+            Emilio y la presumpçión demasiada de Varrón. <num>4</num> Ca
+              <persName>Hanníbal</persName>, temiendo que por falta de mantenimiento de pan se
+            levantasse algund movimiento en el real, ydo de Glereno por llegar a otros logares más
+            calientes de Apulia, se aposentó con todas sus compañas junto a Cannas; y seguiéndole
+            los cónsules romanos, aposentáronse çerca d’él en dos reales, y los unos de los otros
+            estavan tan çercanos, que solo el río Aufido<note>14</note> los despartia. <num>5</num>
+            Aqueste sólo río, segund escriven algunos, divide en dos partes el Apenino y nasçe de la
+            parte que los montes penden al mar Inferior, que es el Tyrrheno, y después da buelta a
+            salir al mar Adriático. <num>6</num> Y Lucio Paulo, viendo a
+              <persName>Hanníbal</persName> que si morasse en tierra ajena no podría luengamente
+            sostener compañas de tan diversas gentes, perseverava en aquel acuerdo de alargar la
+            guerra; y judgava que éste un camino era para que vençiessen los romanos con salud de la
+            república, y que los enemigos pereçiessen; y que si a aquello mesmo podiesse acabar con
+            Terencio Varrón, se pareçía bien que, estando quedas las compañas de los romanos, se
+            podían quebrantar las fuerças y favores de <persName>Hanníbal</persName>. <num>7</num>
+            Mas aquel varón de ánimo no reposado, no sólamente no se movía por la auctoridad de
+            Emilio que le consejava con tanta prudençia, mas aun le increpava, y regañando dizía y
+            divulgava que, saliendo <persName>Hanníbal</persName> con az ordenada para pelear,
+            Emilio tenía a los romanos ociosos en el real.</p>
         </div>
         <div xml:id="e40" type="section" n="40">
           <p><num xml:id="e40.1" corresp="#l40.1">40.1</num> Por ende, llegado el día en que le
             cabía el soberano cargo de capitanear, porque a días capitaneavan el uno un día y el
             otro el día seguiente<note>15</note>, en amaneçiendo, después de passado el río Aufido,
-            propuso Varrón <pb facs="../public/images/1491/172v.png"/>[172v,a] señal de pelear sin lo consultar con el
-            compañero, mas aun contra su voluntad, y le seguía de grado porque non podía
-            contradezirle. <num>2</num>
+            propuso Varrón <pb facs="../public/images/1491/172v.png"/>[172v,a] señal de pelear sin
+            lo consultar con el compañero, mas aun contra su voluntad, y le seguía de grado porque
+            non podía contradezirle. <num>2</num>
             <persName>Hanníbal</persName>, alegre por tener occasión de pelear, pues que vía que
             toda dilaçión le era contraria, passó sus compañas a aquella parte del río muy
             aparejadas y adornadas con todo linaje de armas. <num>3</num> Ca los muchos despojos de
@@ -851,11 +899,11 @@
             dieron occasión a los <name type="gens">carthagineses</name> que de cada parte los
             çerrassen con las puntas. <num>9</num> Y quinientos cavalleros que poco antes, con
             simulaçión de ser fuydizos, fueran amigablemente reçebidos por los cónsules y los avían
-            mandado estar entre los postrimeros de <pb facs="../public/images/1491/172v.png"/>[172v,b] la gente, quando les
-            pareçió tiempo de fazer el negoçio, mostráronse contrarios a las espaldas y de súbito
-            arremetieron contra los enemigos que d’esto estavan descuydados. Entonçes la az de los
-            romanos de toda parte muy turbada ovo de dar la victoria no dubdosa a los <name
-              type="gens">carthagineses</name>.</p>
+            mandado estar entre los postrimeros de <pb facs="../public/images/1491/172v.png"
+            />[172v,b] la gente, quando les pareçió tiempo de fazer el negoçio, mostráronse
+            contrarios a las espaldas y de súbito arremetieron contra los enemigos que d’esto
+            estavan descuydados. Entonçes la az de los romanos de toda parte muy turbada ovo de dar
+            la victoria no dubdosa a los <name type="gens">carthagineses</name>.</p>
         </div>
         <div xml:id="e41" type="section" n="41">
           <p><num xml:id="e41.1" corresp="#l41.1">41.1</num> Dizen ser muertos en aquella batalla,
@@ -883,18 +931,18 @@
         <div xml:id="e43" type="section" n="43">
           <p><num xml:id="e43.1" corresp="#l43.1">43.1</num> Aqueste fin ovo la batalla de Cannas, y
             muy prestamente llegada la nueva a Roma, comoquier que hinchió la çibdad de tristeza y
-            de llantos y de lucto, segund <pb facs="../public/images/1491/173.png"/>[173r,a] quería la razón. <num>2</num>
-            Pero el senado y el pueblo romano no solamente tovo cuydado de guardar la çibdad y
-            retener su dignidad en las adversidades, mas aun de reparar el exército, y fizo tomar
-            armas a los más mançebos; y no menospreçió a <placeName>Sicilia</placeName> y a
-              <placeName>España</placeName>, de manera que el que aquesto quisiere considerar, se
-            deve maravillar del grande ánimo y consejo como en aquella tribulación tovo el pueblo
-            romano y del orden que dio en tiempo de tantos trabajos. <num>3</num> Ca, dexadas las
-            pérdidas reçibidas en Tiçino y çerca de Trebia y de Transimeno, recresçió aquesta
-            postrera llaga con que del todo cayeron los favores del pueblo romano. <num>4</num> Las
-            quales cuytas ¿qué otra gente podiera sostoner? Pero sofriolas el pueblo romano y de tal
-            guisa las sostovo, que pareçió no faltar a la grandeza de los ánimos consejo, nin assí
-            mesmo industria para el consejo.</p>
+            de llantos y de lucto, segund <pb facs="../public/images/1491/173.png"/>[173r,a] quería
+            la razón. <num>2</num> Pero el senado y el pueblo romano no solamente tovo cuydado de
+            guardar la çibdad y retener su dignidad en las adversidades, mas aun de reparar el
+            exército, y fizo tomar armas a los más mançebos; y no menospreçió a
+              <placeName>Sicilia</placeName> y a <placeName>España</placeName>, de manera que el que
+            aquesto quisiere considerar, se deve maravillar del grande ánimo y consejo como en
+            aquella tribulación tovo el pueblo romano y del orden que dio en tiempo de tantos
+            trabajos. <num>3</num> Ca, dexadas las pérdidas reçibidas en Tiçino y çerca de Trebia y
+            de Transimeno, recresçió aquesta postrera llaga con que del todo cayeron los favores del
+            pueblo romano. <num>4</num> Las quales cuytas ¿qué otra gente podiera sostoner? Pero
+            sofriolas el pueblo romano y de tal guisa las sostovo, que pareçió no faltar a la
+            grandeza de los ánimos consejo, nin assí mesmo industria para el consejo.</p>
         </div>
         <div xml:id="e44" type="section" n="44">
           <p><num xml:id="e44.1" corresp="#l44.1">44.1</num> Y <persName>Hanníbal</persName>
@@ -910,11 +958,12 @@
               <num>3</num> Y es çierto que, segund dixo aquel Néstor çerca de Homero, no son
             conçebidas todas las cosas juntamente a los ombres. A los unos falta la arte del vençer,
             a los otros la presteza del concluyr, y assí mesmo a algunos falleçió el estudio del
-            conservar. <pb facs="../public/images/1491/173r.png"/>[173r,b] <num>4</num> Sabemos que Pyrrho, rey de los
-            epirotas, que fizo guerra al pueblo romano, fuesse muy principal capitán de guerra. Pero
-            es puesto en memoria que fue singular varón en aquistar señorío y poco apto en lo
-            conservar. De essa guisa devemos conosçer por las historias antiguas que algunos
-            alcançaron algunas cosas en las guerras dignas de loores y otras les fallecieron. </p>
+            conservar. <pb facs="../public/images/1491/173r.png"/>[173r,b] <num>4</num> Sabemos que
+            Pyrrho, rey de los epirotas, que fizo guerra al pueblo romano, fuesse muy principal
+            capitán de guerra. Pero es puesto en memoria que fue singular varón en aquistar señorío
+            y poco apto en lo conservar. De essa guisa devemos conosçer por las historias antiguas
+            que algunos alcançaron algunas cosas en las guerras dignas de loores y otras les
+            fallecieron. </p>
         </div>
         <div xml:id="e45" type="section" n="45">
           <p><num xml:id="e45.1" corresp="#l45.1">45.1</num> Después d’esta batalla avida en Cannas,
@@ -935,16 +984,17 @@
             çiñida de pueblos ylustres, ca a la costa del mar moran los suesanos y los cumanos y los
             napolitanos. En lo mediterráneo, a la parte de septentrión, los calentinos y los
             calenos. A oriente y a parte del mediodía, los daunos y los nolanos. Allende d’esto, el
-            <pb facs="../public/images/1491/173v.png"/>[173v,a] logar mesmo en que fue fundada Capua es naturalmente
-            guernecido de la una parte el mar y de la otra montes perpetuos que la ciñen.
-              <num>7</num> Assí que en aquel tiempo, siendo florecientes los capuanos, quando vieron
-            que en la batalla çerca de Cannas los romanos eran quasi del todo destruydos, de ligero,
-            segund las más vezes se faze, se inclinaron al vençedor, y no sólamente quesieron juntar
-            consigo en compañía al vençedor <persName>Hanníbal</persName>, mas aun le reçibieron
-            dentro de la çibdad con honor increýble. <num>8</num> Porque los çibdadanos speravan que
-            en el fin de la guerra ellos quedarían por más principales y más poderosos y ricos entre
-            los ytalianos. Y en esta manera la sperança y la opinión muchas vezes engaña a los
-            mortales en las cosas humanas.</p>
+              <pb facs="../public/images/1491/173v.png"/>[173v,a] logar mesmo en que fue fundada
+            Capua es naturalmente guernecido de la una parte el mar y de la otra montes perpetuos
+            que la ciñen. <num>7</num> Assí que en aquel tiempo, siendo florecientes los capuanos,
+            quando vieron que en la batalla çerca de Cannas los romanos eran quasi del todo
+            destruydos, de ligero, segund las más vezes se faze, se inclinaron al vençedor, y no
+            sólamente quesieron juntar consigo en compañía al vençedor
+            <persName>Hanníbal</persName>, mas aun le reçibieron dentro de la çibdad con honor
+            increýble. <num>8</num> Porque los çibdadanos speravan que en el fin de la guerra ellos
+            quedarían por más principales y más poderosos y ricos entre los ytalianos. Y en esta
+            manera la sperança y la opinión muchas vezes engaña a los mortales en las cosas
+            humanas.</p>
         </div>
         <div xml:id="e46" type="section" n="46">
           <p><num xml:id="e46.1" corresp="#l46.1">46.1</num> Venido <persName>Hanníbal</persName> a
@@ -960,21 +1010,22 @@
             Magio que pugnava porque se guardasse la compañía de los romanos, y tovo aquello Pacuvio
             por grand negocio. <num>4</num> Pero es cosa muy provechosa mirar quántos y quánd
             diversos peligros algunas vezes acaescen a los varones más principales, sin que los
-            ombres lo piensen. Ca aquel mançebo, aunque <pb facs="../public/images/1491/173v.png"/>[173v,b] segund la
-            simulaçión pareçía averse reconciliado a <persName>Hanníbal</persName>, pero attendía
-            occasión de le dañar; <num>5</num> y mientra el combite se festejava con razonamiento y
-            alegría de todos, aduxo al padre en la parte más secreta de la casa y exhortávale que
-            quisiesse juntamente consigo redemir con soberano benefiçio la gracia del pueblo romano
-            que avían perdido por grave pecado, y descubriole lo que tenía acordado y determinado en
-            su ánimo, de matar a <persName>Hanníbal</persName>, enemigo de su patria y de toda
-            Ytalia. <num>6</num> Pacuvio, que era varón de tanta auctoridad y padre de aquel fijo,
-            quedó muy espantado de lo que le dizía y, abraçado el mançebo, con mucho trabajo y con
-            muchas lágrimas a penas en fin pudo acabar con ruegos que, quitada la espada, dexasse en
-            su casa estar seguro el huésped. <num>7</num> Assí que <persName>Hanníbal</persName>,
-            venido desde los postrimeros fines de <placeName>España</placeName>, passado por tan
-            luengas tierras con tan gran hueste entre los tiros de los enemigos y librado de las
-            assechanças de los galos y de todo avía escapado, falleçió poco que un mançebo con su
-            mano no le matasse entre los manjares a la mesa.</p>
+            ombres lo piensen. Ca aquel mançebo, aunque <pb facs="../public/images/1491/173v.png"
+            />[173v,b] segund la simulaçión pareçía averse reconciliado a
+              <persName>Hanníbal</persName>, pero attendía occasión de le dañar; <num>5</num> y
+            mientra el combite se festejava con razonamiento y alegría de todos, aduxo al padre en
+            la parte más secreta de la casa y exhortávale que quisiesse juntamente consigo redemir
+            con soberano benefiçio la gracia del pueblo romano que avían perdido por grave pecado, y
+            descubriole lo que tenía acordado y determinado en su ánimo, de matar a
+              <persName>Hanníbal</persName>, enemigo de su patria y de toda Ytalia. <num>6</num>
+            Pacuvio, que era varón de tanta auctoridad y padre de aquel fijo, quedó muy espantado de
+            lo que le dizía y, abraçado el mançebo, con mucho trabajo y con muchas lágrimas a penas
+            en fin pudo acabar con ruegos que, quitada la espada, dexasse en su casa estar seguro el
+            huésped. <num>7</num> Assí que <persName>Hanníbal</persName>, venido desde los
+            postrimeros fines de <placeName>España</placeName>, passado por tan luengas tierras con
+            tan gran hueste entre los tiros de los enemigos y librado de las assechanças de los
+            galos y de todo avía escapado, falleçió poco que un mançebo con su mano no le matasse
+            entre los manjares a la mesa.</p>
         </div>
         <div xml:id="e47" type="section" n="47">
           <p><num xml:id="e47.1" corresp="#l47.1">47.1</num> Otro día diose a
@@ -987,10 +1038,10 @@
             por señor. <num>3</num> Y aun allende de otras cosas, demandando
               <persName>Hanníbal</persName> que le entregassen a Decio Magio, principal del otro
             vando contrario, no solamente por servil decreto el senado lo consentió, <num>4</num>
-            mas aun padeçió que a vista <pb facs="../public/images/1491/174r.png"/>[174r,a] del pueblo llevassen atado en
-            cadenas al real aquel varón por se acordar más de la antigua compañía y del dever de la
-            cosa pública como çibdadano affecçionado al bien que de se contentar de las gentes
-            bárbaras.</p>
+            mas aun padeçió que a vista <pb facs="../public/images/1491/174r.png"/>[174r,a] del
+            pueblo llevassen atado en cadenas al real aquel varón por se acordar más de la antigua
+            compañía y del dever de la cosa pública como çibdadano affecçionado al bien que de se
+            contentar de las gentes bárbaras.</p>
         </div>
         <div xml:id="e48" type="section" n="48">
           <p><num xml:id="e48.1" corresp="#l48.1">48.1</num> Mientra estas cosas se fazían en Capua,
@@ -1017,10 +1068,11 @@
             çibdadanos de su voluntad. Y su opinión non le saliera engañada si el pretor Marcelo,
             con su súbita venida en la çibdad, no reprimiera la muchedumbre que estava ganosa de la
             dar. <num>2</num> El qual Marcelo, llegados los enemigos al muro, fizo salir por tres
-            puertas gente <pb facs="../public/images/1491/174r.png"/>[174r,b] de los suyos, y dio en ellos de tal guisa que,
-            matando muchos, los fizo retraer al real. Aqueste es Marcelo, varón muy señalado en la
-            guerra y claro en la gloria militar, que primero con su grandeza de ánimo y de ingenio
-            enseñó a <persName>Hanníbal</persName> poder ser vençido.</p>
+            puertas gente <pb facs="../public/images/1491/174r.png"/>[174r,b] de los suyos, y dio en
+            ellos de tal guisa que, matando muchos, los fizo retraer al real. Aqueste es Marcelo,
+            varón muy señalado en la guerra y claro en la gloria militar, que primero con su
+            grandeza de ánimo y de ingenio enseñó a <persName>Hanníbal</persName> poder ser
+            vençido.</p>
         </div>
 
         <div xml:id="e50" type="section" n="50">
@@ -1043,8 +1095,8 @@
             capuanas que las cumbres de los Alpes y que los armados exércitos de los romanos;
               <num>5</num> y una ynvernada que se passó en floxedad y en terneza, pudo tanto abatir
             y apagar el vigor de los ánimos, que los guerreros salidos después al campo en el <pb
-              facs="../public/images/1491/174v.png"/>[174v,a] comienço del verano pareçían aver olvidado toda la virtud de
-            la guerra.</p>
+              facs="../public/images/1491/174v.png"/>[174v,a] comienço del verano pareçían aver
+            olvidado toda la virtud de la guerra.</p>
         </div>
         <div xml:id="e51" type="section" n="51">
           <p><num xml:id="e51.1" corresp="#l51.1">51.1</num> Passado el ynvierno, bolvió
@@ -1074,8 +1126,8 @@
               <num>4</num> Y tenían buscados en aquel tiempo muy ventajados capitanes, a Fabio
             Máximo y a Sempronio Graccho y a Marco Marcelo, varón digno de todo loor en la guerra,
             los quales tan espiertamente administravan la governación romana, que ya sentía
-            <persName>Hanníbal</persName> como tenía de guerrear con <pb facs="../public/images/1491/174v.png"/>[174v,b]
-            muy áspero y muy prudente enemigo.</p>
+              <persName>Hanníbal</persName> como tenía de guerrear con <pb
+              facs="../public/images/1491/174v.png"/>[174v,b] muy áspero y muy prudente enemigo.</p>
         </div>
         <div xml:id="e53" type="section" n="53">
           <p><num xml:id="e53.1" corresp="#l53.1">53.1</num> Lo primero, teniendo él çercada Cumas,
@@ -1105,9 +1157,10 @@
             sobrevenida a los capuanos,<note>21</note> que la vedó.<note>22</note>
             <num>3</num> Mas, discurriendo muchas y espessas vezes por el campo Neapolitano,
             ofreçiósele de nuevo esperança de tomar a Nola por trayción. Era allí en Nola, como en
-            muchas otras çibdades de Italia, diviso el <pb facs="../public/images/1491/175r.png"/>[175r,a] senado de la
-            plebe. La muchedumbre cobdiciosa de novedades favoreçía a <persName>Hanníbal</persName>,
-            y los más principales y mejores favorecían al pueblo romano.</p>
+            muchas otras çibdades de Italia, diviso el <pb facs="../public/images/1491/175r.png"
+            />[175r,a] senado de la plebe. La muchedumbre cobdiciosa de novedades favoreçía a
+              <persName>Hanníbal</persName>, y los más principales y mejores favorecían al pueblo
+            romano.</p>
         </div>
         <div xml:id="e55" type="section" n="55">
           <p><num xml:id="e55.1" corresp="#l55.1">55.1</num> Yendo <persName>Hanníbal</persName> a
@@ -1135,20 +1188,21 @@
         <div xml:id="e56" type="section" n="56">
           <p><num xml:id="e56.1" corresp="#l56.1">56.1</num> Los romanos retovieron solamente la
             fortaleza, la qual de tres partes quasi es çercada del mar y la una quarta parte tiene
-            llegada por tierra y guarnecíala <pb facs="../public/images/1491/175r.png"/>[175r,b] un muro con su cava.
-              <num>2</num> De aquella parte, en balde tentó <persName>Hanníbal</persName> tomarla
-            porque se defendía strenuamente, y él propuso impedir las entradas angostas del puerto
-            Tarentino, pensando que aquesta una sola fuesse la vía para que los romanos, no podiendo
-            aver mantenimientos, se le diessen. <num>3</num> Mas parecía obra
-              diffícile<note>23</note> porque los enemigos posseýan las çerraduras del puerto y las
-            naves estavan encerradas en aquel pequeño espaçio, que avían de ser çercadas las
-            salidas, y convenía sacarlas del puerto subiecto a la fortaleza y traerlas al mar
-            çercano. <num>4</num> Y ninguno se fallava entre los Tarentinos que traxesse en medio la
-            razón de explicar este negoçio, y solamente fue uno, <persName>Hanníbal</persName>,
-            aunque todos lo deseavan, que vio sacar las naves del puerto con pertrechos y que,
-            puestas planchas debaxo, por medio de la çibdad las podían traer al mar. <num>5</num>
-            Assí que, puesta diligencia de los ombres, dende a pocos días se levaron las naves al
-            alto mar y las posieron contra las entradas estrechas del puerto.</p>
+            llegada por tierra y guarnecíala <pb facs="../public/images/1491/175r.png"/>[175r,b] un
+            muro con su cava. <num>2</num> De aquella parte, en balde tentó
+              <persName>Hanníbal</persName> tomarla porque se defendía strenuamente, y él propuso
+            impedir las entradas angostas del puerto Tarentino, pensando que aquesta una sola fuesse
+            la vía para que los romanos, no podiendo aver mantenimientos, se le diessen.
+              <num>3</num> Mas parecía obra diffícile<note>23</note> porque los enemigos posseýan
+            las çerraduras del puerto y las naves estavan encerradas en aquel pequeño espaçio, que
+            avían de ser çercadas las salidas, y convenía sacarlas del puerto subiecto a la
+            fortaleza y traerlas al mar çercano. <num>4</num> Y ninguno se fallava entre los
+            Tarentinos que traxesse en medio la razón de explicar este negoçio, y solamente fue uno,
+              <persName>Hanníbal</persName>, aunque todos lo deseavan, que vio sacar las naves del
+            puerto con pertrechos y que, puestas planchas debaxo, por medio de la çibdad las podían
+            traer al mar. <num>5</num> Assí que, puesta diligencia de los ombres, dende a pocos días
+            se levaron las naves al alto mar y las posieron contra las entradas estrechas del
+            puerto.</p>
         </div>
         <div xml:id="e57" type="section" n="57">
           <p><num xml:id="e57.1" corresp="#l57.1">57.1</num>
@@ -1162,12 +1216,12 @@
             y los romanos, que no recusavan la batalla, de ambas partes salieron ganosos de pelear.
               <num>3</num> De manera que pareçía aver de fazerse allí una señalada cosa de armas si
             no despartiera el tal intento Sempronio Graccho, que en el mesmo tiempo aduzía consigo
-            en Campaña la gente que reçibiera de Gneo Cornelio que se perdiera <pb facs="../public/images/1491/175v.png"
-            />[175v,a] en Lucania. <num>4</num> Vistas desde lexos estas compañas ante conosciessen
-            quién fuesse el que venía, aterrecidos los romanos y no menos los <name type="gens"
-              >carthagineses</name>, bolvieron sus gentes al real. Después d’esto los cónsules, por
-            desviar de Capua a <persName>Hanníbal</persName>, partiéronse a diversas comarcas, el
-            uno se fue en Lucania y el otro a Cumas.</p>
+            en Campaña la gente que reçibiera de Gneo Cornelio que se perdiera <pb
+              facs="../public/images/1491/175v.png"/>[175v,a] en Lucania. <num>4</num> Vistas desde
+            lexos estas compañas ante conosciessen quién fuesse el que venía, aterrecidos los
+            romanos y no menos los <name type="gens">carthagineses</name>, bolvieron sus gentes al
+            real. Después d’esto los cónsules, por desviar de Capua a <persName>Hanníbal</persName>,
+            partiéronse a diversas comarcas, el uno se fue en Lucania y el otro a Cumas.</p>
         </div>
         <div xml:id="e58" type="section" n="58">
           <p><num xml:id="e58.1" corresp="#l58.1">58.1</num>
@@ -1192,13 +1246,13 @@
             de la çibdad; la más dura contienda fue contra <persName>Hanníbal</persName>, el qual,
             segund que otras muchas vezes, no menos aquel día se ovo en la batalla como muy áspero
             capitán y aún tentó si podiesse opprimir a los enemigos por algund engaño. <num>3</num>
-            Ca los suyos porfiando de <pb facs="../public/images/1491/175v.png"/>[175v,b] entrar en el real de los romanos,
-            embió uno enseñado en la lengua latina que a alta boz denunciasse a los romanos en
-            nombre de los cónsules, mandando que, pues el real era ya çerca de tomado, fuyessen a
-            los montes ende çercanos. <num>4</num> La boz assí súbita ligeramente podiera mover a
-            los oyentes, si los romanos, ya acostumbrados a los engaños púnicos, no conosçieran ser
-            engaño. Assí que, prestamente refirmando, se costriñieron al enemigo que se retraxesse y
-            se recogiesse en su real.</p>
+            Ca los suyos porfiando de <pb facs="../public/images/1491/175v.png"/>[175v,b] entrar en
+            el real de los romanos, embió uno enseñado en la lengua latina que a alta boz
+            denunciasse a los romanos en nombre de los cónsules, mandando que, pues el real era ya
+            çerca de tomado, fuyessen a los montes ende çercanos. <num>4</num> La boz assí súbita
+            ligeramente podiera mover a los oyentes, si los romanos, ya acostumbrados a los engaños
+            púnicos, no conosçieran ser engaño. Assí que, prestamente refirmando, se costriñieron al
+            enemigo que se retraxesse y se recogiesse en su real.</p>
         </div>
         <div xml:id="e60" type="section" n="60">
           <p><num xml:id="e60.1" corresp="#l60.1">60.1</num>
@@ -1220,10 +1274,11 @@
             romano. <num>3</num> Por ende, en cosa tan turbada, plógoles que Fulvio Flacco, uno de
             los capitanes romanos, se llamasse y veniesse de Capua, y los nuevos cónsules Sulpicio
             Galba y Cornelio Centimalo se aposentassen fuera de la çibdad; <num>4</num> Y Gayo
-            Calphurnio pretor toviesse la guarda del <pb facs="../public/images/1491/176r.png"/>[176r,a] Capitolio con muy
-            firme guarnición de gente, y que los çibdadanos que oviessen fasta entonçes tenido
-            soberanas dignidades, con su auctoridad y mandamiento apaziguassen y sosegassen los
-            ruydos o temores escandalosos que a desora recresciessen<note>26</note>.</p>
+            Calphurnio pretor toviesse la guarda del <pb facs="../public/images/1491/176r.png"
+            />[176r,a] Capitolio con muy firme guarnición de gente, y que los çibdadanos que
+            oviessen fasta entonçes tenido soberanas dignidades, con su auctoridad y mandamiento
+            apaziguassen y sosegassen los ruydos o temores escandalosos que a desora
+              recresciessen<note>26</note>.</p>
         </div>
         <div xml:id="e62" type="section" n="62">
           <p><num xml:id="e62.1" corresp="#l62.1">62.1</num>
@@ -1253,66 +1308,66 @@
         <div xml:id="e64" type="section" n="64">
           <p><num xml:id="e64.1" corresp="#l64.1">64.1</num> Mas acaesçió cosa mui digna de memoria,
             ca atendiendo ya en armas la señal de la contienda, a desora recresçió lluvia tan
-            rebatada <pb facs="../public/images/1491/176r.png"/>[176r,b] y tan rezia con terrible tempestad y con tanta
-            fuerça y aspereza, que cada una de las partes fue costriñida reduzir su gente al real.
-              <num>2</num> Luego otro día siguiente en que pareçía averse de pelear, pues aquel poco
-            tiempo se avía dilatado, salidos de nuevo y puestos en az los unos y los otros, se
-            levantó otra semejante tempestad de la del día passado, la qual no menos que la de antes
-            affligió assí a los romanos como a los <name type="gens">carthagineses</name> y los
-            compelió a olvidar la instante contienda para que solamente pensassen de se salvar y
-            fuyr. <num>3</num> Viendo <persName>Hanníbal</persName> estas cosas, dizen que se bolvió
-            a los suyos dando bozes que la una vez no tovo gana de aver a
-              <placeName>Roma</placeName> y aquesta otra vez no se le otorgava facultad para la
-            tomar. <num>4</num> Otrosí púsole turbación que, estando él con tantas compañas de
-            cavallo y de pie en tanta çercanía, apretando la çibdad, embiavan los romanos gente en
-              <placeName>España</placeName> para suplir el exército que allá tenían, y que supo como
-            el campo en que él se aposentó se compró por mayor preçio de lo que la razón de su valer
-            requería. Y d’esto indignado, el cambiador fizo mandar por pregón que se vendiessen las
-            boticas de los çibdadanos romanos que allí tenían. <num>5</num> Assí que después d’esto
-              <persName>Hanníbal</persName>, o considerando en su ánimo quand diffícile era tomar a
-              <placeName>Roma</placeName> por fuerça y combate, o temiendo la falta de los
-            mantemientos (ca él solamente veniera proveýdo por diez días), determinó mover el real
-            y, partido de allí, fuese aposentar al luco o selva sagrada de Feronia y fizo robar el
-            templo que dizen ser entonçes ende muy rico, y dende a poco fue camino a Abruço y de
-            Lucania. </p>
+            rebatada <pb facs="../public/images/1491/176r.png"/>[176r,b] y tan rezia con terrible
+            tempestad y con tanta fuerça y aspereza, que cada una de las partes fue costriñida
+            reduzir su gente al real. <num>2</num> Luego otro día siguiente en que pareçía averse de
+            pelear, pues aquel poco tiempo se avía dilatado, salidos de nuevo y puestos en az los
+            unos y los otros, se levantó otra semejante tempestad de la del día passado, la qual no
+            menos que la de antes affligió assí a los romanos como a los <name type="gens"
+              >carthagineses</name> y los compelió a olvidar la instante contienda para que
+            solamente pensassen de se salvar y fuyr. <num>3</num> Viendo
+              <persName>Hanníbal</persName> estas cosas, dizen que se bolvió a los suyos dando bozes
+            que la una vez no tovo gana de aver a <placeName>Roma</placeName> y aquesta otra vez no
+            se le otorgava facultad para la tomar. <num>4</num> Otrosí púsole turbación que, estando
+            él con tantas compañas de cavallo y de pie en tanta çercanía, apretando la çibdad,
+            embiavan los romanos gente en <placeName>España</placeName> para suplir el exército que
+            allá tenían, y que supo como el campo en que él se aposentó se compró por mayor preçio
+            de lo que la razón de su valer requería. Y d’esto indignado, el cambiador fizo mandar
+            por pregón que se vendiessen las boticas de los çibdadanos romanos que allí tenían.
+              <num>5</num> Assí que después d’esto <persName>Hanníbal</persName>, o considerando en
+            su ánimo quand diffícile era tomar a <placeName>Roma</placeName> por fuerça y combate, o
+            temiendo la falta de los mantemientos (ca él solamente veniera proveýdo por diez días),
+            determinó mover el real y, partido de allí, fuese aposentar al luco o selva sagrada de
+            Feronia y fizo robar el templo que dizen ser entonçes ende muy rico, y dende a poco fue
+            camino a Abruço y de Lucania. </p>
         </div>
         <div xml:id="e65" type="section" n="65">
           <p><num xml:id="e65.1" corresp="#l65.1">65.1</num> Aquesto quando lo sopieron los
             capuanos, desesperados de bien negociar las cosas de su estado, dieron la çibdad a los
-            romanos. D’esta manera, avida Capua y reduzida <pb facs="../public/images/1491/176v.png"/>[176v,a] en poder de
-            los romanos, induxo gran momento y gran deseo en todos los pueblos de Ytalia de innovar
-            las cosas. <num>2</num> Otrosí movió los ánimos de las gentes el mesmo enemigo
-              <persName>Hanníbal</persName>, que començó mandar que muchos logares que él no
-            entendía poder sostener y ampararse robassen y derribassen por mal consejo suyo. Porque
-            antes, aviendo vencido muchas vezes, dexava libres a muchos captivos sin rescate y con
-            aquella liberalidad atraxera las voluntades de muchos pueblos. <num>3</num> Y assí
-            entonces una su inhumana crueldad fue causa que muchas çibdades enojadas del señorío
-            púnico bolviessen en la de los romanos. En el número de las quales escriven que fue
-            Salapia, que por mano de Blaçio, principal del un vando, se dio al cónsul Marcelo y en
-            ella fue destroýda y quasi rematada con matança una ala de muy escogidos cavalleros que
-            ende estavan en guarniçión. <num>4</num> Aquesta es la çibdad en que algunos escriptores
-            dizen que <persName>Hanníbal</persName> tenía una amiga que mucho le captivava y, por
-            ello, accusan su destemprada cobdiçia. Hay otros que ensalçando la modestia d’este
-            capitán dizen que nin al comienço mientra fizo guerra en Ytalia, nin después que bolvió
-            en <placeName>África</placeName>, quiso jamás cenar recostado, nin bevió más de un
-            quartillo de vino. <num>5</num> Otros algunos historiadores se fallan que attribuyen a
-              <persName>Hanníbal</persName> la crueldad y el quebrantamiento de la fe y otros vicios
-            de aquella gente, mas ninguna mençión fazen de castidad o luxuria del tal varón.
-            Solamente dizen que tenía muger legítima natural de Castulón, que es noble logar en
-              <placeName>España</placeName> y, por la singular fe de los que en aquella çibdad
-            moravan, tenían con ellos los <name type="gens">carthagineses</name> principal amor y
-            confianza.</p>
+            romanos. D’esta manera, avida Capua y reduzida <pb facs="../public/images/1491/176v.png"
+            />[176v,a] en poder de los romanos, induxo gran momento y gran deseo en todos los
+            pueblos de Ytalia de innovar las cosas. <num>2</num> Otrosí movió los ánimos de las
+            gentes el mesmo enemigo <persName>Hanníbal</persName>, que començó mandar que muchos
+            logares que él no entendía poder sostener y ampararse robassen y derribassen por mal
+            consejo suyo. Porque antes, aviendo vencido muchas vezes, dexava libres a muchos
+            captivos sin rescate y con aquella liberalidad atraxera las voluntades de muchos
+            pueblos. <num>3</num> Y assí entonces una su inhumana crueldad fue causa que muchas
+            çibdades enojadas del señorío púnico bolviessen en la de los romanos. En el número de
+            las quales escriven que fue Salapia, que por mano de Blaçio, principal del un vando, se
+            dio al cónsul Marcelo y en ella fue destroýda y quasi rematada con matança una ala de
+            muy escogidos cavalleros que ende estavan en guarniçión. <num>4</num> Aquesta es la
+            çibdad en que algunos escriptores dizen que <persName>Hanníbal</persName> tenía una
+            amiga que mucho le captivava y, por ello, accusan su destemprada cobdiçia. Hay otros que
+            ensalçando la modestia d’este capitán dizen que nin al comienço mientra fizo guerra en
+            Ytalia, nin después que bolvió en <placeName>África</placeName>, quiso jamás cenar
+            recostado, nin bevió más de un quartillo de vino. <num>5</num> Otros algunos
+            historiadores se fallan que attribuyen a <persName>Hanníbal</persName> la crueldad y el
+            quebrantamiento de la fe y otros vicios de aquella gente, mas ninguna mençión fazen de
+            castidad o luxuria del tal varón. Solamente dizen que tenía muger legítima natural de
+            Castulón, que es noble logar en <placeName>España</placeName> y, por la singular fe de
+            los que en aquella çibdad moravan, tenían con ellos los <name type="gens"
+              >carthagineses</name> principal amor y confianza.</p>
         </div>
         <div xml:id="e66" type="section" n="66">
           <p><num xml:id="e66.1" corresp="#l66.1">66.1</num> Y segund avemos de suso mostrado,
-            <persName>Hanníbal</persName>, des que ovo perdido a Salapia, poco <pb facs="../public/images/1491/176v.png"
-            />[176v,b] después ovo de fallar occasión cómo los romanos reçebiessen otro muy maior
-            daño. <num>2</num> Ca por el mesmo tiempo Fulvio procónsul estava aposentado çerca de
-            Herdonea, atendiendo que sin alguna contienda podría aver la çibdad, mas sentiendo que
-            podría estar syn temor, pues que ningún enemigo le era çercano (porque
-              <persName>Hanníbal</persName> era ydo al campo de Abruço), era negligente en fazer
-            velar y en poner guardas y escuchas y en toda otra administraçión de la guerra y
-            acostumbrava floxedad indigna de capitán romano. <num>3</num> Y
+              <persName>Hanníbal</persName>, des que ovo perdido a Salapia, poco <pb
+              facs="../public/images/1491/176v.png"/>[176v,b] después ovo de fallar occasión cómo
+            los romanos reçebiessen otro muy maior daño. <num>2</num> Ca por el mesmo tiempo Fulvio
+            procónsul estava aposentado çerca de Herdonea, atendiendo que sin alguna contienda
+            podría aver la çibdad, mas sentiendo que podría estar syn temor, pues que ningún enemigo
+            le era çercano (porque <persName>Hanníbal</persName> era ydo al campo de Abruço), era
+            negligente en fazer velar y en poner guardas y escuchas y en toda otra administraçión de
+            la guerra y acostumbrava floxedad indigna de capitán romano. <num>3</num> Y
               <persName>Hanníbal</persName>, después que por occultas espías conosçió esta
             negligencia, pensó que no fuesse de dexar tal occasión de fazer bien el negoçio. Assí
             que, ydo en Apulia con compañas ahorradas, vino a Herdonea con tanta presteza, que le
@@ -1331,13 +1386,13 @@
             quiebra, aduxo el exército en el campo Lucano, do era <persName>Hanníbal</persName> ydo
             después de la victoria; y, puesto su real a vista de los enemigos, dende a poco se puso
             en orden de batalla, nin pensaron los <name type="gens">carthagineses</name> que
-            deviessen fuyr la pelea. <num>3</num> Assí que la batalla se cometió <pb facs="../public/images/1491/177r.png"
-            />[177r,a] luego con tan grand obstinatión de ánimos, que quasi con eguales fuerças
-            pelearon fasta el sol puesto y la noche pudo despartir la dubdosa victoria. <num>4</num>
-            Otro día los romanos, salidos otra vez ordenados en az, fizieron manifestar al enemigo
-            la confessión del temor. Ca <persName>Hanníbal</persName> tovo a los suyos dentro del
-            fossado de su real y en la noche seguiente, caminando en silencio con sus compañas, vino
-            en Apulia.</p>
+            deviessen fuyr la pelea. <num>3</num> Assí que la batalla se cometió <pb
+              facs="../public/images/1491/177r.png"/>[177r,a] luego con tan grand obstinatión de
+            ánimos, que quasi con eguales fuerças pelearon fasta el sol puesto y la noche pudo
+            despartir la dubdosa victoria. <num>4</num> Otro día los romanos, salidos otra vez
+            ordenados en az, fizieron manifestar al enemigo la confessión del temor. Ca
+              <persName>Hanníbal</persName> tovo a los suyos dentro del fossado de su real y en la
+            noche seguiente, caminando en silencio con sus compañas, vino en Apulia.</p>
         </div>
         <div xml:id="e68" type="section" n="68">
           <p><num xml:id="e68.1" corresp="#l68.1">68.1</num> Otrosí Marcelo, proseguiendo los passos
@@ -1361,18 +1416,18 @@
             primer día, pelearon quasi a la eguala cada una parte con esperança de vencer, fasta que
             los despartió la noche sin que inclinasse la victoria más a los unos que a los otros, y,
             assí como de acuerdo, cada una de las partes se reduxo a su real. <num>4</num> El
-            segundo <pb facs="../public/images/1491/177r.png"/>[177r,b] día levó ventaja <persName>Hanníbal</persName> y,
-            muertos çerca de dos mill y sietecientos de los enemigos, fizo bolver como fuyendo a las
-            otras compañas de los romanos. <num>5</num> El terçero día los romanos, cobdiciosos de
-            se limpiar de la infamia qu’el día de antes incurrieron por la quiebra recebida, primero
-            demandaron que querían pelear. Y Marcelo los puso en az, de la qual ferocidad de Marcelo
-            fue <persName>Hanníbal</persName> mucho maravillado, y escriven que dixo que tenía
-            contienda con varón que ni vencedor nin vencido podía reposar. <num>6</num> Luego fue
-            entre ellos más áspera y más dura batalla que alguna de las batallas. Ca los romanos se
-            trabajavan de emendar el daño reziente que recibieran. Y los <name type="gens"
-              >carthagineses</name> estavan indignados que entonces los vencidos se adelantassen a
-            provocar a los vencedores a pelear. <num>7</num> Al fin, los romanos, increpados y
-            amonestados por Marcelo que diessen obra como antes llegasse a
+            segundo <pb facs="../public/images/1491/177r.png"/>[177r,b] día levó ventaja
+              <persName>Hanníbal</persName> y, muertos çerca de dos mill y sietecientos de los
+            enemigos, fizo bolver como fuyendo a las otras compañas de los romanos. <num>5</num> El
+            terçero día los romanos, cobdiciosos de se limpiar de la infamia qu’el día de antes
+            incurrieron por la quiebra recebida, primero demandaron que querían pelear. Y Marcelo
+            los puso en az, de la qual ferocidad de Marcelo fue <persName>Hanníbal</persName> mucho
+            maravillado, y escriven que dixo que tenía contienda con varón que ni vencedor nin
+            vencido podía reposar. <num>6</num> Luego fue entre ellos más áspera y más dura batalla
+            que alguna de las batallas. Ca los romanos se trabajavan de emendar el daño reziente que
+            recibieran. Y los <name type="gens">carthagineses</name> estavan indignados que entonces
+            los vencidos se adelantassen a provocar a los vencedores a pelear. <num>7</num> Al fin,
+            los romanos, increpados y amonestados por Marcelo que diessen obra como antes llegasse a
               <placeName>Roma</placeName> la nueva de su victoria que de su primero daño, apretaron
             más agramente, no fizieron primero fin de pelear, fasta que, trasdoblada la pérdida de
             sus enemigos, los fizieron fuyr.</p>
@@ -1390,24 +1445,24 @@
             <persName>Hanníbal</persName>, no confiando que los podiesse resistir a la eguala en el
             campo, segund que antes muchas vezes, assí mesmo en aquel tiempo pensó poner todo su
             ingenio en tomar su enemigo por assechanças engañosas, pues no le podía vençer en pelea
-            del campo. <num>2</num> Mientra él tenía este pensamiento, <pb facs="../public/images/1491/177v.png"/>[177v,a]
-            ofreciósele mucho mayor occasión de fazer bien su negoçio de lo que él tenía pensado en
-            su osadía. Estava un otero silvestre entre medias de los dos reales de los <name
-              type="gens">carthagineses</name> y romanos, y debaxo de aquel otero estavan escondidas
-            por mandado de <persName>Hanníbal</persName> algunas manadas de Númidas, puestas en
-            logares oportunos para que si algunos de los enemigos se esparziessen por los campos los
-            atajassen. <num>3</num> De la otra parte, los cónsules, por commún boz y acuerdo de
-            todos, se movieron a mirar aquel otero qué tal era, porque, si menester fuesse, pareçía
-            que lo deviessen occupar, porque si ellos lo dexassen, non lo tomassen los enemigos, y
-            después estoviessen allí sobre sus çervizes. <num>4</num> Pero ante que determinassen
-            mover el exército por atalayar la natura del logar, salieron ambos del real e yendo allá
-            con pocos de cavallo más desacordadamente de lo que pertenecía a tan principales
-            varones, cayeron en las assechanças que les estavan aparejadas. <num>5</num> Assí que,
-            súbitamente atajados, no podieron salir rompiendo a la fruente por medio de los
-            enemigos, y por las espaldas le firían. De manera que, más por necessidad que por
-            consejo, començaron batallar. En la qual pelea, fue muerto Marcelo lidiando muy
-            valientemente y fue ferido Crispino, que a penas se pudo escapar de mano de los
-            enemigos, segund el poco espaçio que le davan.</p>
+            del campo. <num>2</num> Mientra él tenía este pensamiento, <pb
+              facs="../public/images/1491/177v.png"/>[177v,a] ofreciósele mucho mayor occasión de
+            fazer bien su negoçio de lo que él tenía pensado en su osadía. Estava un otero silvestre
+            entre medias de los dos reales de los <name type="gens">carthagineses</name> y romanos,
+            y debaxo de aquel otero estavan escondidas por mandado de <persName>Hanníbal</persName>
+            algunas manadas de Númidas, puestas en logares oportunos para que si algunos de los
+            enemigos se esparziessen por los campos los atajassen. <num>3</num> De la otra parte,
+            los cónsules, por commún boz y acuerdo de todos, se movieron a mirar aquel otero qué tal
+            era, porque, si menester fuesse, pareçía que lo deviessen occupar, porque si ellos lo
+            dexassen, non lo tomassen los enemigos, y después estoviessen allí sobre sus çervizes.
+              <num>4</num> Pero ante que determinassen mover el exército por atalayar la natura del
+            logar, salieron ambos del real e yendo allá con pocos de cavallo más desacordadamente de
+            lo que pertenecía a tan principales varones, cayeron en las assechanças que les estavan
+            aparejadas. <num>5</num> Assí que, súbitamente atajados, no podieron salir rompiendo a
+            la fruente por medio de los enemigos, y por las espaldas le firían. De manera que, más
+            por necessidad que por consejo, començaron batallar. En la qual pelea, fue muerto
+            Marcelo lidiando muy valientemente y fue ferido Crispino, que a penas se pudo escapar de
+            mano de los enemigos, segund el poco espaçio que le davan.</p>
         </div>
         <div xml:id="e72" type="section" n="72">
           <p><num xml:id="e72.1" corresp="#l72.1">72.1</num> Y <persName>Hanníbal</persName>,
@@ -1416,8 +1471,8 @@
             avía sido la pelea; <num>2</num> y allí fallado el cuerpo de Marçelo, fízole sepelir con
             muy grand honor. Donde se puede comprehender que tan grand valor se estima çerca de todo
             linaje de ombre la grandeza de ánimo y la exçellencia de la virtud, pues qu’el muy cruel
-            enemigo, <pb facs="../public/images/1491/177v.png"/>[177v,b] viendo muerto a tan prinçipal capitán, no padeçió
-            que su cuerpo careçiesse de sepultura honrosa.</p>
+            enemigo, <pb facs="../public/images/1491/177v.png"/>[177v,b] viendo muerto a tan
+            prinçipal capitán, no padeçió que su cuerpo careçiesse de sepultura honrosa.</p>
         </div>
         <div xml:id="e73" type="section" n="73">
           <p><num xml:id="e73.1" corresp="#l73.1">73.1</num> En tanto, los romanos, quando vieron
@@ -1446,8 +1501,8 @@
               <num>2</num> Los quales, partidas entre sí las compañas, fueron a sus provincias:
             Claudio en los salentinos y <persName>Livio</persName> en Galia, contra
               <persName>Hasdrúbal</persName> Barchino, el qual, ya passados los Alpes, dava priessa
-            <pb facs="../public/images/1491/178r.png"/>[178r,a] de se juntar con su hermano con muy crescidas compañas de
-            peones y cavalleros.</p>
+              <pb facs="../public/images/1491/178r.png"/>[178r,a] de se juntar con su hermano con
+            muy crescidas compañas de peones y cavalleros.</p>
         </div>
         <div xml:id="e75" type="section" n="75">
           <p><num xml:id="e75.1" corresp="#l75.1">75.1</num> Acaesçió en el mesmo tiempo estoviesse
@@ -1477,14 +1532,14 @@
           <p><num xml:id="e76.1" corresp="#l76.1">76.1</num> Y Claudio Nero, después d’esta tan
             memorable victoria, no con menor priessa que veniera bolvió a Venusia, y mandó soltar a
             unos que tenía captivos porque posiessen la cabeça de <persName>Hasdrúbal</persName>
-            <pb facs="../public/images/1491/178r.png"/>[178r,b] junto a la estancia de los enemigos, y que levassen a
-              <persName>Hanníbal</persName> nueva de tan grand cuyta y tribulación. <num>2</num> Ca
-            sábese no aver primero sabido <persName>Hanníbal</persName> lo que primero fuera
-            aparejado por consejos occultos y las cosas que en los días ante passados se fizieran.
-            En esto es de aver por maravilla que la grand solicitud de capitán tan cauteloso fuesse
-            engañada por Claudio, siendo tan pequeño intervallo entre ambos reales, y que primero
-            supiesse ser muerto su hermano con todas sus compañas, que sentiesse ser partido dende y
-            tornado al real el cónsul romano. <num>3</num>
+            <pb facs="../public/images/1491/178r.png"/>[178r,b] junto a la estancia de los enemigos,
+            y que levassen a <persName>Hanníbal</persName> nueva de tan grand cuyta y tribulación.
+              <num>2</num> Ca sábese no aver primero sabido <persName>Hanníbal</persName> lo que
+            primero fuera aparejado por consejos occultos y las cosas que en los días ante passados
+            se fizieran. En esto es de aver por maravilla que la grand solicitud de capitán tan
+            cauteloso fuesse engañada por Claudio, siendo tan pequeño intervallo entre ambos reales,
+            y que primero supiesse ser muerto su hermano con todas sus compañas, que sentiesse ser
+            partido dende y tornado al real el cónsul romano. <num>3</num>
             <persName>Hanníbal</persName>, lastimado d’esta llaga, non solamente pública mas suya
             propria, dixo que él ya conosçía el retorno desaventurado de las cosas de los <name
               type="gens">carthagineses</name>, y dende a poco se partió de allí y se fue al campo
@@ -1534,17 +1589,17 @@
             de Ytalia y avida assaz próspera navegatión, en pocos días arribó a Lepti, y, puestas
             todas las compañas en tierra, fue primero a Adrumento y dende a Zama. Y sabido el estado
             de las cosas carthaginesas, determinó ser más provechoso començar acuerdo de dar fin a
-            la guerra; <num>2</num> y plogole <pb facs="../public/images/1491/178v.png"/>[178v,b] embiar mensajería a
-            Scipión a le requerir que eligiesse algún logar en medio, para que entre ellos
-            fablassen, porque él quería comunicar con él cosas muy principales. <num>3</num> No es
-            del todo sabido si <persName>Hanníbal</persName> fizo aquesto por mandado del senado o
-            por su particular acuerdo. Pareció a Scipión que no tenía causa para refutar la fabla.
-              <num>4</num> Por ende, el día que entre sí acordaron, venieron a fablar los tan
-            honrados capitanes de tan poderosas gentes en campo descobierto cada uno d’ellos con un
-            solo intérprete, y por diversos pareçeres razonaron de la paz y de la guerra.
-              <num>5</num> Ca <persName>Hanníbal</persName> mayormente avía inclinado el ánimo a la
-            paz, porque mirava cómo los negocios de los <name type="gens">carthagineses</name> de
-            cada día empeoravan, aviendo perdido a <placeName>Sicilia</placeName>, y a
+            la guerra; <num>2</num> y plogole <pb facs="../public/images/1491/178v.png"/>[178v,b]
+            embiar mensajería a Scipión a le requerir que eligiesse algún logar en medio, para que
+            entre ellos fablassen, porque él quería comunicar con él cosas muy principales.
+              <num>3</num> No es del todo sabido si <persName>Hanníbal</persName> fizo aquesto por
+            mandado del senado o por su particular acuerdo. Pareció a Scipión que no tenía causa
+            para refutar la fabla. <num>4</num> Por ende, el día que entre sí acordaron, venieron a
+            fablar los tan honrados capitanes de tan poderosas gentes en campo descobierto cada uno
+            d’ellos con un solo intérprete, y por diversos pareçeres razonaron de la paz y de la
+            guerra. <num>5</num> Ca <persName>Hanníbal</persName> mayormente avía inclinado el ánimo
+            a la paz, porque mirava cómo los negocios de los <name type="gens">carthagineses</name>
+            de cada día empeoravan, aviendo perdido a <placeName>Sicilia</placeName>, y a
               <placeName>Sardinia</placeName> y las <placeName>Españas</placeName>, y transpassada
             la guerra desde Ytalia en <placeName>África</placeName>, y aviendo los romanos prendido
             a Siphace, rey muy poderoso. <num>6</num> Assí que la esperança de la salud de los <name
@@ -1559,7 +1614,8 @@
             de los consejos de la paz. <num>8</num> Assí que, después de luenga fabla de la una
             parte a la otra, partiéronse dende sin concluyr cosa alguna. Y no passó grand espaçio
             que se cometió aquella batalla memorable que ambos los capitanes entre sí ovieron çerca
-            de Zama, que fue muy mucho bienaventurada a <pb facs="../public/images/1491/179r.png"/>[179r,a] los romanos.</p>
+            de Zama, que fue muy mucho bienaventurada a <pb facs="../public/images/1491/179r.png"
+            />[179r,a] los romanos.</p>
         </div>
         <div xml:id="e80" type="section" n="80">
           <p><num xml:id="e80.1" corresp="#l80.1">80.1</num> En la primer arremetida los elephantes
@@ -1589,12 +1645,13 @@
             embaxadores que bolvieron a <placeName>Carthago</placeName> con las condiciones de la
             paz. <num>2</num> Dizen que un Gisgón, contradiziendo a la paz, dixo su parecer de
             renovar la guerra contra los romanos y que <persName>Hanníbal</persName>, indignado
-            porque en tal tiempo los ombres ignorantes <pb facs="../public/images/1491/179r.png"/>[179r,b] dizían tales
-              demasías<note>30</note>, derribó del logar soberano al que estava razonando;
-              <num>3</num> y, porqu’el tal negocio pareció a la muchedumbre ser osado e indigno de
-            çibdad libre, subió él en el púlpito y dixo que no convenía indignarse, pues él, no
-            aviendo estado en <placeName>Carthago</placeName> desde la primer puericia, y gastada
-            toda su edad en armas y en la guerra, no tenía sabidas las costumbres de la çibdad.</p>
+            porque en tal tiempo los ombres ignorantes <pb facs="../public/images/1491/179r.png"
+            />[179r,b] dizían tales demasías<note>30</note>, derribó del logar soberano al que
+            estava razonando; <num>3</num> y, porqu’el tal negocio pareció a la muchedumbre ser
+            osado e indigno de çibdad libre, subió él en el púlpito y dixo que no convenía
+            indignarse, pues él, no aviendo estado en <placeName>Carthago</placeName> desde la
+            primer puericia, y gastada toda su edad en armas y en la guerra, no tenía sabidas las
+            costumbres de la çibdad.</p>
         </div>
         <div xml:id="e82" type="section" n="82">
           <p><num xml:id="e82.1" corresp="#l82.1">82.1</num> Después d’esto, con tanta prudencia
@@ -1620,14 +1677,14 @@
             digan como <persName>Hanníbal</persName>, temiendo que a petición de Scipión gele
             entregassen, se partió fuyéndose en Asia luego que la contienda de la batalla se fizo
             mal. Mas si aquesto se fizo luego súbito o algund tiempo después de la pelea de Zama,
-            pensamos <pb facs="../public/images/1491/179v.png"/>[179v,a] no ser de mucha importancia pues assaz consta que,
-            los negocios venidos en desperación, se fue en Asia y, penado por destierro, vino a
-            Anthíoco. <num>2</num> Otrosí es fama no dubdosa qu’el rey le reçibió con hospitalidad
-            tan honrosa, que luego juntamente le puso en los consejos públicos y privados.
-              <num>3</num> Era el nombre de <persName>Hanníbal</persName> de grand gloria çerca de
-            todos y allende d’esto se llegava la commún ira y enemistad contra los romanos y muy
-            grand pungimiento o aguijón para incitar la guerra. <num>4</num> Por ende parecía que
-            llegasse a tiempo oportuno no sólamente para inflamar el ánimo del rey, mas aun para
+            pensamos <pb facs="../public/images/1491/179v.png"/>[179v,a] no ser de mucha importancia
+            pues assaz consta que, los negocios venidos en desperación, se fue en Asia y, penado por
+            destierro, vino a Anthíoco. <num>2</num> Otrosí es fama no dubdosa qu’el rey le reçibió
+            con hospitalidad tan honrosa, que luego juntamente le puso en los consejos públicos y
+            privados. <num>3</num> Era el nombre de <persName>Hanníbal</persName> de grand gloria
+            çerca de todos y allende d’esto se llegava la commún ira y enemistad contra los romanos
+            y muy grand pungimiento o aguijón para incitar la guerra. <num>4</num> Por ende parecía
+            que llegasse a tiempo oportuno no sólamente para inflamar el ánimo del rey, mas aun para
             abrir el camino de fazer la guerra contra los romanos; y dizían que solo era uno el
             camino si passassen las armas en Ytalia y se asoldadassen guerreros del linaje ytálico,
             con los quales solos la provincia vencedora de otras gentes podría ser vençida.
@@ -1647,14 +1704,14 @@
         <div xml:id="e84" type="section" n="84">
           <p><num xml:id="e84.1" corresp="#l84.1">84.1</num> D’esta manera
               <persName>Hanníbal</persName>, desterrado de su patria, por todo el çircuyto de las
-            tierras incitava guerra contra <pb facs="../public/images/1491/179v.png"/>[179v,b] los romanos; y aquestos sus
-            pensamientos ya parecían no ser vanos si Antíocho, segund avía començado, después le
-            diera más fe que a sus lisonjeros y vestidos de púrpura. <num>2</num> Mas la invidia que
-            las casas reales por la mayor parte crían, parió adversarios a
-              <persName>Hanníbal</persName>, los quales, temiendo que tan cauteloso capitán, si
-            aquistasse la gracia del rey con estos consejos, subiesse en muy alto grado de
-            auctoridad y poderío, contendían de le fazer sospechoso. <num>3</num> Assí mesmo, en el
-            mesmo tiempo acaesçió que Publio Villio, embaxador romano, vino a Épheso y ovo muchas
+            tierras incitava guerra contra <pb facs="../public/images/1491/179v.png"/>[179v,b] los
+            romanos; y aquestos sus pensamientos ya parecían no ser vanos si Antíocho, segund avía
+            començado, después le diera más fe que a sus lisonjeros y vestidos de púrpura.
+              <num>2</num> Mas la invidia que las casas reales por la mayor parte crían, parió
+            adversarios a <persName>Hanníbal</persName>, los quales, temiendo que tan cauteloso
+            capitán, si aquistasse la gracia del rey con estos consejos, subiesse en muy alto grado
+            de auctoridad y poderío, contendían de le fazer sospechoso. <num>3</num> Assí mesmo, en
+            el mesmo tiempo acaesçió que Publio Villio, embaxador romano, vino a Épheso y ovo muchas
             fablas con <persName>Hanníbal</persName>, donde resultó ligera facultad a los
             adversarios maldizientes de le acriminar, y nasció en el ánimo de Anthíoco tanta
             sospecha de la fe de <persName>Hanníbal</persName>, que del todo fue excludido del
@@ -1678,17 +1735,18 @@
           <p><num xml:id="e86.1" corresp="#l86.1">86.1</num> Después d’esto,
               <persName>Hanníbal</persName> falló occasión de fablar con Anthíoco y, repetiendo
             desde su primera puericia todas las cosas passadas, se pudo desculpar de <pb
-              facs="../public/images/1491/180r.png"/>[180r,a] tal manera declarando su enemistad contra los romanos, que
-            bolvió en la primera gracia y amistad del rey, que ya quasi tenía perdida. <num>2</num>
-            Assí qu’el rey tenía assentado en su voluntad embiar en Ytalia a éste por capitán con la
-            flota real, por experimentar el ánimo e ingenio del muy prestante varón y perpetuo
-            enemigo del pueblo romano, segund lo tenía creýdo. <num>3</num> Mas uno llamado Thoas,
-            príncipe de los Étholos, o por invidia o porque assí pensasse que se deviesse fazer, le
-            fue contrario y fizo mudar la voluntad del rey, y del todo pudo destruyr aquesta
-            deliberación que parecía induzir grande importancia para la guerra. <num>4</num> Ca
-            exhortó a Anthíoco que passasse en Grecia y él mesmo por sí fiziesse sus negocios y no
-            pareciesse que la gloria d’esta guerra se podía attribuyr a otri. El rey, dando fe a
-            esto, dende a poco passó en Grecia para incitar la guerra contra los romanos.</p>
+              facs="../public/images/1491/180r.png"/>[180r,a] tal manera declarando su enemistad
+            contra los romanos, que bolvió en la primera gracia y amistad del rey, que ya quasi
+            tenía perdida. <num>2</num> Assí qu’el rey tenía assentado en su voluntad embiar en
+            Ytalia a éste por capitán con la flota real, por experimentar el ánimo e ingenio del muy
+            prestante varón y perpetuo enemigo del pueblo romano, segund lo tenía creýdo.
+              <num>3</num> Mas uno llamado Thoas, príncipe de los Étholos, o por invidia o porque
+            assí pensasse que se deviesse fazer, le fue contrario y fizo mudar la voluntad del rey,
+            y del todo pudo destruyr aquesta deliberación que parecía induzir grande importancia
+            para la guerra. <num>4</num> Ca exhortó a Anthíoco que passasse en Grecia y él mesmo por
+            sí fiziesse sus negocios y no pareciesse que la gloria d’esta guerra se podía attribuyr
+            a otri. El rey, dando fe a esto, dende a poco passó en Grecia para incitar la guerra
+            contra los romanos.</p>
         </div>
         <div xml:id="e87" type="section" n="87">
           <p><num xml:id="e87.1" corresp="#l87.1">87.1</num> Y ende, después de passado no luengo
@@ -1731,17 +1789,18 @@
         <div xml:id="e89" type="section" n="89">
           <p><num xml:id="e89.1" corresp="#l89.1">89.1</num> Movido por la auctoridad de
               <persName>Hanníbal</persName>, Antíocho luego embió a Polixenida, ombre sagaz y
-            costumbrado a las <pb facs="../public/images/1491/180v.png"/>[180v,a] peleas marítimas, y mandole salir al
-            recuentro de la flota de los romanos que venía, y embió a <persName>Hanníbal</persName>
-            que fuesse a Siria y aparejasse gran fuerça de navíos. <num>2</num> Y dio la capitanía
-            d’esta a su flota al mesmo <persName>Hanníbal</persName> y a Apollonio, uno de sus
-            purpurados, los quales capitanes, oyendo que Polixenida avía peleado con los romanos y
-            no avía sido bien dichoso en ello, determinaron pelear con los rhodios, compañeros del
-            pueblo romano. <num>3</num> En aquella contienda, <persName>Hanníbal</persName>,
-            arremetiendo por la parte de la punta siniestra al capitán de los rhodios, Eudamo,
-            avíale atajado su nave pretoria y sin dubda tenía gran mejoría; los enemigos que en la
-            otra punta peleavan con Apollonio fiziéronle fuyr y volaron tan presto, que quitaron la
-            victoria ya quasi çierta de las manos de <persName>Hanníbal</persName>.</p>
+            costumbrado a las <pb facs="../public/images/1491/180v.png"/>[180v,a] peleas marítimas,
+            y mandole salir al recuentro de la flota de los romanos que venía, y embió a
+              <persName>Hanníbal</persName> que fuesse a Siria y aparejasse gran fuerça de navíos.
+              <num>2</num> Y dio la capitanía d’esta a su flota al mesmo
+              <persName>Hanníbal</persName> y a Apollonio, uno de sus purpurados, los quales
+            capitanes, oyendo que Polixenida avía peleado con los romanos y no avía sido bien
+            dichoso en ello, determinaron pelear con los rhodios, compañeros del pueblo romano.
+              <num>3</num> En aquella contienda, <persName>Hanníbal</persName>, arremetiendo por la
+            parte de la punta siniestra al capitán de los rhodios, Eudamo, avíale atajado su nave
+            pretoria y sin dubda tenía gran mejoría; los enemigos que en la otra punta peleavan con
+            Apollonio fiziéronle fuyr y volaron tan presto, que quitaron la victoria ya quasi çierta
+            de las manos de <persName>Hanníbal</persName>.</p>
         </div>
         <div xml:id="e90" type="section" n="90">
           <p><num xml:id="e90.1" corresp="#l90.1">90.1</num> Después d’esta pelea naval poco
@@ -1760,16 +1819,16 @@
           <p><num xml:id="e91.1" corresp="#l91.1">91.1</num> Hay quien diga que, vencido Anthíoco,
               <persName>Hanníbal</persName> se fue en Creta a los cortynos y que allí luego fue
             divulgado que traýa consigo grand suma de oro y de plata. Y temiendo que los cretenses
-            por esto <pb facs="../public/images/1491/180v.png"/>[180v,b] le echassen la mano, dizen que falló tal remedio
-            para evitar el peligro: <num>2</num> Mandó poner en el templo de Diana cántaros llenos
-            de plomo sobre dorado, fingiendo ser muy solícito y tener grand cuydado de la guarda de
-            las vasijas<note>32</note> del tesoro. Y de la otra parte, puso en casa estatuas de
-            metal llenas de dinero. Y mientra que ellos guardavan el templo, que no sacassen dende
-            cosa33 sin su sabidoría d’ellos, <persName>Hanníbal</persName> fizo vela y fuese a
-            Bithinia. <num>3</num> Hay en Bithinia un barrio o pequeño pueblo junto a la ribera del
-            mar que los moradores de aquella comarca llaman Libyssa, del qual hay versos divulgados
-            que suelen contar en diversas partes: «La tierra Libyssa dio sepulcro al cuerpo de
-              <persName>Hanníbal</persName>». En aquel logar fazía morada
+            por esto <pb facs="../public/images/1491/180v.png"/>[180v,b] le echassen la mano, dizen
+            que falló tal remedio para evitar el peligro: <num>2</num> Mandó poner en el templo de
+            Diana cántaros llenos de plomo sobre dorado, fingiendo ser muy solícito y tener grand
+            cuydado de la guarda de las vasijas<note>32</note> del tesoro. Y de la otra parte, puso
+            en casa estatuas de metal llenas de dinero. Y mientra que ellos guardavan el templo, que
+            no sacassen dende cosa33 sin su sabidoría d’ellos, <persName>Hanníbal</persName> fizo
+            vela y fuese a Bithinia. <num>3</num> Hay en Bithinia un barrio o pequeño pueblo junto a
+            la ribera del mar que los moradores de aquella comarca llaman Libyssa, del qual hay
+            versos divulgados que suelen contar en diversas partes: «La tierra Libyssa dio sepulcro
+            al cuerpo de <persName>Hanníbal</persName>». En aquel logar fazía morada
               <persName>Hanníbal</persName> sin passar la vida ociosa, mas ponía estudio en disponer
             los marineros y en exercitar su gente y tratar cavallos.</p>
         </div>
@@ -1786,9 +1845,9 @@
               <num>3</num> D’esta fazaña no fazen mentión los anales más antiguos, salvo Emilio y
             Trogo. La fe d’ello consiste çerca de los auctores. <num>4</num> Denunciadas las
             contiendas d’estos dos reyes en Roma, el senado embió por embaxador en Asia a Tito
-            Flaminio que por sus nobles fazañas en Grecia pudo <pb facs="../public/images/1491/181r.png"/>[181r,a] alcanzar
-            muy honrado nombre, para que, segund puedo entender por conjectura, assentasse la paz
-            entre los dos reyes.</p>
+            Flaminio que por sus nobles fazañas en Grecia pudo <pb
+              facs="../public/images/1491/181r.png"/>[181r,a] alcanzar muy honrado nombre, para que,
+            segund puedo entender por conjectura, assentasse la paz entre los dos reyes.</p>
         </div>
         <div xml:id="e93" type="section" n="93">
           <p><num xml:id="e93.1" corresp="#l93.1">93.1</num> Aqueste Flaminio, venido al rey Prusia,
@@ -1816,20 +1875,21 @@
             mandado un siervo suyo le apretó la garganta y otros escriven que bevió sangre de toro,
             segund que Clitharco Ystratocle fingen de Themístocle y que con aquel bebraje cayó
             muerto. <num>4</num> Mas <persName>Livio</persName> , muy mucho rico auctor de historia,
-            <pb facs="../public/images/1491/181r.png"/>[181r,b] escrive que <persName>Hanníbal</persName> demandó una
-            ponçoña que tenía él apparejada para semejantes casos y que, teniendo el vaso
-              d’ella<note>34</note> mortal en la mano para la bever, dixo: «Quitemos tan grand
-            cuydado a los romanos, pues que tanto deseo han tenido y al presente tienen de la muerte
-            de un viejo ya consumido». <num>5</num> Los padres romanos amonestaron a Pyrrho, rey de
-            los Epirotas, çercano a los muros de <placeName>Roma</placeName> con señas enemigables
-            que se guardasse de la ponçoña. Y éstos mesmos causaron que Prusia, huésped de
-              <persName>Hanníbal</persName>, puesta en olvido la dignidad real y la diestra que avía
-            juntado segurando a su hospedado <persName>Hanníbal</persName><note>35</note> le
-            entregasse malvadamente. <num>6</num> Assí que <persName>Hanníbal</persName>, dichas las
-            palabras suso contenidas, con muchas maldiçiones contra Prusia, se mató con aquella
-            ponçoña de edad de setenta años, segund fazen memoria algunos en sus escripturas. Y
-            dizen qu’el cuerpo del defuncto fue colocado en Libyssa en un sepulcro de marmor, en que
-            estava escripto: «Aquí está sepelido <persName>Hanníbal</persName>».</p>
+              <pb facs="../public/images/1491/181r.png"/>[181r,b] escrive que
+              <persName>Hanníbal</persName> demandó una ponçoña que tenía él apparejada para
+            semejantes casos y que, teniendo el vaso d’ella<note>34</note> mortal en la mano para la
+            bever, dixo: «Quitemos tan grand cuydado a los romanos, pues que tanto deseo han tenido
+            y al presente tienen de la muerte de un viejo ya consumido». <num>5</num> Los padres
+            romanos amonestaron a Pyrrho, rey de los Epirotas, çercano a los muros de
+              <placeName>Roma</placeName> con señas enemigables que se guardasse de la ponçoña. Y
+            éstos mesmos causaron que Prusia, huésped de <persName>Hanníbal</persName>, puesta en
+            olvido la dignidad real y la diestra que avía juntado segurando a su hospedado
+              <persName>Hanníbal</persName><note>35</note> le entregasse malvadamente. <num>6</num>
+            Assí que <persName>Hanníbal</persName>, dichas las palabras suso contenidas, con muchas
+            maldiçiones contra Prusia, se mató con aquella ponçoña de edad de setenta años, segund
+            fazen memoria algunos en sus escripturas. Y dizen qu’el cuerpo del defuncto fue colocado
+            en Libyssa en un sepulcro de marmor, en que estava escripto: «Aquí está sepelido
+              <persName>Hanníbal</persName>».</p>
         </div>
         <div xml:id="e95" type="section" n="95">
           <p><num xml:id="e95.1" corresp="#l95.1">95.1</num> Muchos<note>36</note> reprehendían a
@@ -1842,18 +1902,18 @@
             exercicio militar, con los quales aparejos pudo incitar a Prusia a las armas y commover
             y perturbar a Asia con nuevas guerras. <num>3</num> Ca por el mesmo tiempo eran tan
             extendidas las riquezas del reyno de Bithynia, que pareçía no se dever assí ligeramente
-            tener en poco, pues que en los tiempos sucedientes <pb facs="../public/images/1491/181v.png"/>[181v,a]
-            Mithridates, rey de Bithynia, luengamente con compañas navales y terrestres pudo fatigar
-            al pueblo romano y ovo osadía de pelear en batalla contra Luçio Lúcullo y contra Gneo
-            Pompeyo, tan prinçipales capitanes que tenían tan grandes exércitos. Aquello mesmo
-            podieran temer del rey Prusia, mayormente capitaneando <persName>Hanníbal</persName>.
-              <num>4</num> Assí que algunos piensan que la causa prinçipal porque Flaminio fue
-            embiado embaxador al rey Prusia, fue por tractar la muerte de
-              <persName>Hanníbal</persName> con secretos consejos. Con todo, se deve creer que
-            Quinto Flaminio andovo buscando aquesto no tanto por quitar de medio por la presente
-            muerte a <persName>Hanníbal</persName>, como a ombre que tan grandes daños y males avía
-            fecho a su república, como por lo traer bivo a Roma, estimándose provechoso al pueblo
-            romano y que él d’esto alcançaría grande honra.</p>
+            tener en poco, pues que en los tiempos sucedientes <pb
+              facs="../public/images/1491/181v.png"/>[181v,a] Mithridates, rey de Bithynia,
+            luengamente con compañas navales y terrestres pudo fatigar al pueblo romano y ovo osadía
+            de pelear en batalla contra Luçio Lúcullo y contra Gneo Pompeyo, tan prinçipales
+            capitanes que tenían tan grandes exércitos. Aquello mesmo podieran temer del rey Prusia,
+            mayormente capitaneando <persName>Hanníbal</persName>. <num>4</num> Assí que algunos
+            piensan que la causa prinçipal porque Flaminio fue embiado embaxador al rey Prusia, fue
+            por tractar la muerte de <persName>Hanníbal</persName> con secretos consejos. Con todo,
+            se deve creer que Quinto Flaminio andovo buscando aquesto no tanto por quitar de medio
+            por la presente muerte a <persName>Hanníbal</persName>, como a ombre que tan grandes
+            daños y males avía fecho a su república, como por lo traer bivo a Roma, estimándose
+            provechoso al pueblo romano y que él d’esto alcançaría grande honra.</p>
         </div>
         <div xml:id="e96" type="section" n="96">
           <p><num xml:id="e96.1" corresp="#l96.1">96.1</num> De tal linaje de muerte feneçió

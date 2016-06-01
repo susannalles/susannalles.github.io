@@ -21,18 +21,26 @@
       <div xml:id="origVH">
         <div type="title">
           <p>Hannibalis uiri illustris uita ex Plutarcho graeco in latinum per Donatum Acciaiolum
-            uersa.<!-- 1 --></p>
+              uersa.<note n="1">La edición utilizada por Palencia, impresa en Venecia en 1478 (v),
+              atribuyó erróneamente la autoría de las <title>Vitae Hannibalis et Scipionis</title>
+              al mismo Plutarco y consideró a Donato Acciaiuoli como el traductor.</note></p>
         </div>
         <div xml:id="l1" type="section" n="1">
           <p><pb facs="../public/images/1478/112r.jpg"/><num xml:id="l1.1" corresp="#e1.1">1.1</num>
-            Si primi punici belli, quod <name type="gens">carthaginenses</name> cum <name
-              type="gens">populo Romano</name> gessere, memoria repetatur, multi imperatores nobis
-            ocurrent, qui ex rebus gestis gloriam consecuti celebrem famam suis posteris
-            reliquerunt. <num>2</num> Sed ex poenorum ducibus nemo est, quem omnes graeci latinique
-            scriptores magis extollant, quam <persName>Hamilcharem</persName>
+            Si primi <app>
+              <lem>punici belli</lem>
+              <rdg wit="#P">belli punici</rdg>
+            </app>, quod <name type="gens">carthaginenses</name> cum <name type="gens">populo
+              Romano</name> gessere, memoria repetatur, multi imperatores nobis ocurrent, qui ex
+            rebus gestis gloriam consecuti celebrem famam suis posteris reliquerunt. <num>2</num>
+            Sed ex poenorum ducibus nemo est, quem omnes graeci latinique scriptores magis
+            extollant, quam <persName>Hamilcharem</persName>
             <persName>Hannibalis</persName> patrem cognomento <name type="surname">Barcham</name>
-            uirum sine dubio praestantem et rei militaris, ut in illa quisque aetate poterat,
-            peritissimum. <num>3</num> Is primum in <placeName>Sicilia</placeName>
+            uirum sine dubio praestantem et rei militaris, ut in illa <app>
+              <lem>quisque aetate</lem>
+              <rdg wit="#E #G #M #N #P #S #U #r #s">quisque esse etate</rdg>
+              <rdg wit="#W">quisquis etate esse</rdg>
+            </app> poterat, peritissimum. <num>3</num> Is primum in <placeName>Sicilia</placeName>
             <name type="gens">Romanorum</name> impetum, qui multas inflixerant suae reipublicae
             clades, diutius quam par erat sustinuit. <num>4</num> Deinde Aphrico bello cum
             mercenarii milites seditione facta rem <name type="gens">Carthaginensium</name> in
@@ -46,83 +54,133 @@
         <div xml:id="l2" type="section" n="2">
           <p><num xml:id="l2.1" corresp="#e2.1">2.1</num> Post Hamilcharis mortem, Hasdrubal eius
             gener, quem Carthaginenses fauente factione Barchina exercitui praefecerant, octo ferme
-            annos imperium obtinuit. Is Hannibalem non multo tempore post interitum patris
-            repugnantibus etiam alterius factionis principibus in Hispaniam uocauit, ut sicut antea
-            puer uiuente Hamilchare coeperat bellicis artibus erudiri, sic etiam tunc robustiore
-            aetate periculis laboribus ac omnibus officiis militaribus assuesceret. <num>2</num> At
-            uero etsi ab initio memoria patris non parum sibi in exercitu profuisset ad fauorem
-            conciliandum, paulo tamen postea sua opera atque ingenio factum est, ut ueteres milites
-            aliorum ducum desiderio deposito hunc sibi animo proponerent, quem praecipue imperatorem
-            deligendum putarent. <num>3</num> Omnia enim quae magno futuro duci expetenda esse
-            uidebantur, abunde Hannibali aderant. Quippe erat ei consilium ad egregia facinora
-            promptum, consilio autem neque industria neque audacia deerat. <num>4</num> Nulla
-            pericula nulla incommoda corporis quae caeteros remorari solent et a rebus gerendis
-            abducere, inuictum animi uirum terrebant, uigilare festinare cuncta obire<!-- 2 --> quae
-            aut strenuo milite aut egregio imperatore digna uidebantur. <num>5</num> His artibus
-            Hannibal sub Hasdrubale per triennium meruit, quo quidem tempore adeo totius exercitus
-            fauorem sibi conciliauit, ut statim post Hasdrubalis mortem ingenti militum consensu
-            imperator sit appellatus, quam praerogatiuam militarem fauente factione Barchina populus
-            Carthaginensis sine controuersia comprobauit.</p>
+            annos imperium obtinuit. Is <app>
+              <lem>Hannibalem</lem>
+              <rdg wit="#U">Hanibalis</rdg>
+            </app> non multo tempore post interitum patris repugnantibus etiam alterius factionis
+            principibus in Hispaniam uocauit, ut sicut antea puer uiuente Hamilchare coeperat
+            bellicis artibus erudiri, sic etiam tunc robustiore aetate periculis laboribus ac
+            omnibus officiis militaribus assuesceret. <num>2</num> At uero etsi ab initio memoria
+            patris non parum sibi in exercitu profuisset ad fauorem conciliandum, paulo tamen postea
+            sua opera atque ingenio factum est, ut ueteres milites aliorum ducum desiderio <app>
+              <lem>deposito</lem>
+              <rdg wit="#M"><del>deposito</del></rdg>
+            </app> hunc sibi animo proponerent, quem praecipue imperatorem <app>
+              <lem>deligendum</lem>
+              <rdg wit="#F #G #s">diligendum</rdg>
+            </app> putarent. <num>3</num> Omnia enim quae magno futuro duci expetenda esse
+            uidebantur, <app>
+              <lem>abunde</lem>
+              <rdg wit="#F #M #W">habunde</rdg>
+            </app> Hannibali aderant. Quippe erat ei consilium ad egregia facinora promptum,
+            consilio autem neque industria neque audacia deerat. <num>4</num> Nulla pericula nulla
+            incommoda corporis quae caeteros remorari solent et a rebus gerendis abducere, inuictum
+            animi uirum terrebant, uigilare festinare cuncta obire<note n="2">La puntuación del
+              original difiere: «...uirum terrebant. Vigilare festinare cuncta obire...» (v).
+            </note> quae aut strenuo milite aut egregio imperatore digna uidebantur. <num>5</num>
+            His artibus Hannibal sub Hasdrubale per triennium meruit, quo quidem tempore adeo totius
+            exercitus fauorem sibi conciliauit, ut statim post Hasdrubalis mortem ingenti militum
+            consensu imperator sit appellatus, quam praerogatiuam militarem fauente factione
+            Barchina populus Carthaginensis sine controuersia comprobauit.</p>
         </div>
         <div xml:id="l3" type="section" n="3">
           <p><num xml:id="l3.1" corresp="#e3.1">3.1</num> Sex et uiginti annos cum est imperator ab
             exercitu declatatus, Hannibalem natum comperio. Nouem enim annorum fuisse constat, cum
             eum pater in Hispaniam duxit atque ab eo tempore usque ad interitum Hasdrubalis auctore
-            Polibio septem et decem numerantur anni<!--3-->. <num>2</num> Verum ex quo die Hannibal
-            exercitum ac totius reipublicae administrationem suscepit non longam moram interponendam
-            putauit, quin populo Romano, quod multo ante animo agitauerat, bellum inferret.
-              <num>3</num> Nam erat ei indignatio primum aduersus Romanos ob Siciliam Sardiniamque
-            amissam cum omnibus Carthaginensibus pene communis. Accedebat deinde priuatum odium et
-            quasi haereditarium ab Hamilchare patre accaeptum, quo nemo alter ex Carthaginensium
-            ducibus nomini Romano fuerat infestior. <num>4</num> Traditum quoque memoriae est
-            Hamilcharem sacrificantem eo tempore quo in Hispaniam profectionem parabat, Hannibalem
-            admodum puerum iureiurando obstrinxisse, cum primum per aetatem liceret, populi Romani
-            fore inimicum, <num>5</num> cuius quidem rei memoria et acerba sane recordatio ueluti
-            quaedam paterni odii imago ante oculos iuuenis uersabatur animumque urgebat, ut ea
-            semper moliretur, quae ad euertendum Romanum Imperium pertinerent<!--4-->. <num>6</num>
-            Praeterea factio Barchina frequentibus stimulis eum incitare non desistebat, ut armis 20
-            et imperio opes quam maximas compararet. <num>7</num> Eae igitur tum publicae tum
-            priuatae causae cum Hannibalem hortarentur ad suscipiendum cum Romaniis bellum, ferox
-            iuuenis occasionem nouandarum rerum ex tali materia caepit.</p>
+            Polibio septem et decem numerantur anni<note n="3">Polibio III, 2; Livio XXI, 1</note>.
+              <num>2</num> Verum ex quo die Hannibal exercitum ac totius <app>
+              <lem>reipublicae</lem>
+              <rdg wit="#E #F #G #M #N #P #R #S #U #W #r #s">rei bellice</rdg>
+            </app> administrationem suscepit non longam moram interponendam putauit, quin populo
+            Romano, quod multo ante animo <app>
+              <lem>agitauerat</lem>
+              <rdg wit="#M">cogitauerat</rdg>
+            </app>, bellum inferret. <num>3</num> Nam erat ei indignatio primum aduersus Romanos ob
+            Siciliam Sardiniamque amissam cum omnibus Carthaginensibus pene communis. Accedebat
+            deinde priuatum odium et quasi haereditarium ab Hamilchare patre accaeptum, quo nemo
+            alter ex Carthaginensium ducibus nomini Romano fuerat infestior. <num>4</num> Traditum
+            quoque memoriae est Hamilcharem sacrificantem eo tempore quo in Hispaniam profectionem
+            parabat, Hannibalem admodum puerum iureiurando obstrinxisse, cum primum per aetatem
+            liceret, populi Romani fore inimicum, <num>5</num> cuius quidem rei memoria et acerba
+            sane recordatio ueluti quaedam paterni odii imago ante oculos iuuenis uersabatur
+            animumque urgebat, ut ea semper moliretur, quae ad euertendum Romanum Imperium
+              pertinerent<note n="4">Livio XXI, 1; Polibio III, 3; Nepote, Hann. I</note>.
+              <num>6</num> Praeterea factio Barchina frequentibus stimulis eum incitare non
+            desistebat, ut armis 20 et imperio opes quam maximas compararet. <num>7</num> Eae igitur
+            tum publicae tum priuatae causae cum Hannibalem hortarentur ad suscipiendum cum Romaniis
+            bellum, ferox iuuenis occasionem nouandarum rerum ex tali materia caepit.</p>
         </div>
         <div xml:id="l4" type="section" n="4">
           <p><num xml:id="l4.1" corresp="#e4.1">4.1</num> Erant in Hispania per id tempus Saguntini
             quasi medii inter Romanorum et Carthaginensium fines iure foederis in libertate relicti.
-            Hi postea se totos Romanis addixerant, initaque societate Romani imperii fidissimi
-            cultores habebantur. <num>2</num> Quare Hannibal constituit animo nihil opportunius
-            fieri posse ad eliciendam Romanorum iram ac incendium quod sibi optatissimum erat
-            concitandum quam Saguntinos armis belloque lacessere. <num>3</num> Sed priusquam socios
-            populi Romani aperte adoriretur, statuit in olcadas aliosque trans Hiberum populos
-            exercitum ducere ac iis ad deditionem compulsis aliquam Sagunto nocendi causam reperire,
-            qua non tam meditato consilio a se illatum, quam a Saguntinis contractum bellum uideri
-            posset. <num>4</num> Primum igitur Olcadum gente ad deditionem compulsa, Vacceos deinde
-            aggreditur, agros depopulatur, oppida per multa expugnat, Hermandicam et Arbocolam urbes
-            opulentissimas capit ac iam prope omnem regionem in potestatem redegerat, <num>5</num>
-            cum plaerique ab Hermandica profugi se inuicem confirmantes aduersus poenum coniurant,
-            multitudinem cogunt, exules Olcadum socios sibi adsciscunt; <num>6</num> deinde
-            persuadent Carpentanis, qui sibi finitimi erant, ut communi consilio poenum in reditu
-            suo nihil tale expectantem inuadant<!--5-->. <num>7</num> Facile in hanc sententiam
-            discedentes populi bellandi cupidi recentibusque iniuriis lacessiti arma capiunt, ac
-            ingenti multitudine coacta (Erant enim supra centum milia) Hannibalem redeuntem ex
-            Vacceis prope flumen Tagum adoriuntur. <num>8</num> Ad quorum conspectum subito
-            constitere Carthaginensium signa, totoque agmine pauor et trepidatio fuit. Nec ambigitur
-            quin poeni eo die insignem cladem accepturi essent, si repentino hostium aduentu commoti
-            praedaque onusti cum ferocissimis gentibus conseruissent manus. <num>9</num> Sed
-            prouidus imperator Hannibal haec animaduertens praelio supersedere statuit atque ibi
-            castra posuit. Proxima deinde nocte, quanto maxime silentio potuit, copiis amnem
-            traductis, locum ea parte qua transitus hosti facillimus dabatur, ab omni praesidio
-            uacuum reliquit, ut partim simulato metu, partim occasione oblata barbaros ad
-            transeundum flumen alliceret; <num>10</num> nec uirum, qui astutia omnes duces aetatis
-            suae sine controuersia superauit, opinio in decipiendo hoste consiliumque fefellit.
-            Barbari enim natura feroces multitudine quoque sua plus nimio fidentes, dum
-            Carthaginenses perterritos esse arbitrantur, magno impetu se in aquam proiiciunt.
-              <num>11</num> Hos incompositos implicatosque prius quam omnino flumen traiiciant,
-            equitibus primum, mox omnibus copiis aggrediuntur poeni magnoque eorum numero interfecto
-            reliquos in fugam uertunt<!--6-->.</p>
+            Hi postea se totos Romanis <app>
+              <lem>addixerant</lem>
+              <rdg wit="#G #P #s">addixerunt</rdg>
+            </app>, initaque societate Romani imperii fidissimi cultores habebantur. <num>2</num>
+            Quare Hannibal constituit animo nihil opportunius fieri posse ad eliciendam Romanorum
+            iram <app>
+              <lem>ac incendium</lem>
+              <rdg wit="#M"><del>ac incendium</del></rdg>
+            </app> quod sibi optatissimum erat concitandum quam Saguntinos armis belloque lacessere.
+              <num>3</num> Sed priusquam <app>
+              <lem>socios</lem>
+              <rdg wit="#G #r #s">socius</rdg>
+            </app> populi Romani aperte adoriretur, statuit in olcadas aliosque <app>
+              <lem>trans Hiberum</lem>
+              <rdg wit="#U">transhiberim</rdg>
+              <rdg wit="#E">trans Iberum</rdg>
+            </app> populos exercitum ducere ac iis ad deditionem compulsis aliquam Sagunto nocendi
+            causam reperire, qua non tam meditato consilio a se illatum, quam a Saguntinis
+            contractum bellum uideri <app>
+              <lem>posset</lem>
+              <rdg wit="#G #s">possit</rdg>
+            </app>. <num>4</num> Primum igitur Olcadum <app>
+              <lem>gente</lem>
+              <rdg wit="#U">agente</rdg>
+            </app> ad deditionem compulsa, Vacceos deinde aggreditur, agros depopulatur, oppida per
+            multa expugnat, Hermandicam et Arbocolam urbes opulentissimas capit ac iam <app>
+              <lem>prope omnem</lem>
+              <rdg wit="#F #W">omnem prope</rdg>
+            </app> regionem in potestatem redegerat, <num>5</num> cum plaerique ab Hermandica
+            profugi se inuicem confirmantes aduersus poenum coniurant, multitudinem cogunt, exules
+            Olcadum socios sibi adsciscunt; <num>6</num> deinde persuadent Carpentanis, qui sibi
+            finitimi erant, ut communi consilio poenum in reditu suo nihil tale expectantem
+              inuadant<note n="5">Livio XXI, 5.</note>. <num>7</num> Facile in hanc sententiam
+            discedentes populi bellandi cupidi <app>
+              <lem>recentibusque</lem>
+              <rdg wit="#A">discedentibusque</rdg>
+              <rdg wit="#M">recentibus</rdg>
+            </app> iniuriis lacessiti arma <app>
+              <lem>capiunt</lem>
+              <rdg wit="#U">cupiunt</rdg>
+            </app>, ac ingenti multitudine coacta (Erant enim supra centum milia) Hannibalem
+            redeuntem ex Vacceis prope flumen Tagum adoriuntur. <num>8</num> Ad quorum conspectum
+            subito constitere Carthaginensium signa, totoque agmine pauor et trepidatio fuit. Nec
+            ambigitur quin poeni eo die insignem cladem accepturi essent, si repentino hostium
+            aduentu commoti praedaque onusti cum ferocissimis gentibus <app>
+              <lem>conseruissent manus</lem>
+              <rdg wit="#F #W">manus conseruissent</rdg>
+            </app>. <num>9</num> Sed prouidus imperator Hannibal haec animaduertens praelio
+            supersedere statuit atque ibi castra posuit. Proxima deinde nocte, quanto maxime
+            silentio potuit, copiis amnem traductis, locum ea parte qua transitus hosti facillimus
+            dabatur, ab omni praesidio uacuum reliquit, ut partim simulato metu, partim occasione
+            oblata barbaros ad transeundum flumen alliceret; <num>10</num> nec uirum, qui astutia
+            omnes duces aetatis suae sine controuersia superauit, opinio in <app>
+              <lem>decipiendo</lem>
+              <rdg wit="#U">diripiendo</rdg>
+            </app> hoste consiliumque fefellit. Barbari enim natura feroces multitudine quoque sua
+            plus nimio fidentes, dum Carthaginenses perterritos esse arbitrantur, magno impetu se in
+            aquam proiiciunt. <num>11</num> Hos incompositos implicatosque prius quam omnino flumen
+            traiiciant, equitibus primum, mox omnibus copiis aggrediuntur poeni magnoque eorum
+            numero interfecto reliquos in fugam uertunt<note n="6">Livio XXI, 5, 6-17; Polibio III,
+              4.</note>.</p>
         </div>
         <div xml:id="l5" type="section" n="5">
-          <p><num xml:id="l5.1" corresp="#e5.1">5.1</num> Post hanc uictoriam cuncti trans Iberim
-            populi deditionem faciunt praeter Saguntinos, qui etsi Hannibalem suis ceruicibus
+          <p><num xml:id="l5.1" corresp="#e5.1">5.1</num> Post hanc uictoriam cuncti <app>
+              <lem>trans Iberim</lem>
+              <rdg wit="#E #U">transiberum</rdg>
+              <rdg wit="#F #G #M #N #P #R #S #W #r #s">trans Hiberum</rdg>
+            </app> populi deditionem faciunt praeter Saguntinos, qui etsi Hannibalem suis ceruicibus
             inminentem conspiciunt, tamen populi Romani societate confisi defensionem suscipiendam
             putant, Romam quam celerrime legatos mittunt, qui senatum doceant quanto in periculo res
             eorum sint et aduersus acerrimum hostem iam sibi uim haud dubie inferentem auxilium
@@ -131,92 +189,155 @@
             Saguntum accessit. <num>3</num> Quod ubi Romam nuntiatum est, agitatumque in senatu de
             sociorum iniuria, miti sententia decreuerunt patres, ut Publius Valerius Flaccus et
             Quintus Fabius Pamphilus ad Hannibalem mitterentur, ut a Sagunto recederet, qui si non
-            pareret, Carthaginem ire iussi sunt ad ducem ipsum pro uiolato foedere
-            deposcendum<!--7-->.</p>
+            pareret, Carthaginem ire iussi sunt ad ducem ipsum pro uiolato foedere deposcendum<note
+              n="7">Livio cita los nombres de los embajadores (Publio Valerio Flaco y Quinto Bebio
+              Tánfilo) en Liv. XXI, 6,2; así también Polibio: Plb. III, 4.</note>.</p>
         </div>
         <div xml:id="l6" type="section" n="6">
           <p><num xml:id="l6.1" corresp="#e6.1">6.1</num> Hos oratores auditos esse ab Hannibale
-            uanaque ab eo tulisse responsa Polibius refert. Liuius contra nec auditos nec in castra
-            admissos scribit8. Ambo tamen in eo conueniunt, quam primum in Hispaniam deinde in
-            Aphricam profectos Carthaginem uenisse tradunt, expositisque patrum mandatis sic
-            aduersam habuisse dicunt factionem Barchinam, ut neglecti despectique re infecta Romam
+            uanaque ab eo tulisse <app>
+              <lem>responsa</lem>
+              <rdg wit="#M"><del>responsa</del></rdg>
+            </app>
+            <app>
+              <lem>Polibius</lem>
+              <rdg wit="#G #s">Polipius</rdg>
+            </app> refert. Liuius contra nec auditos nec in castra admissos scribit<note n="8"
+              >Polibio III, 4; Livio XXI, 6, y también XXI, 9, 1-4.</note>. Ambo tamen in eo
+            conueniunt, quam primum in Hispaniam deinde in Aphricam profectos Carthaginem uenisse
+            tradunt, expositisque patrum mandatis sic <app>
+              <lem>aduersam</lem>
+              <rdg wit="#G #r #s">aduersum</rdg>
+            </app> habuisse dicunt factionem Barchinam, ut neglecti despectique re infecta Romam
             redirent.</p>
         </div>
         <div xml:id="l7" type="section" n="7">
           <p><num xml:id="l7.1" corresp="#e7.1">7.1</num> Erant omnino in senatu Carthaginensium
             factiones duae, quarum altera iam inde ab Hamilchare cognomento barcha intitium trahens
-            Hannibali filio quasi ex haereditate obuenerat, auctaque deinceps in tantas creuerat
-            opes, ut domi forisque in omni re decernenda superior haberetur. <num>2</num> Altera
-            uero principem habebat Hannonem uirum grauem summaeque in ea republica dignitatis, toga
-            tamen magis quam armis egregium. <num>3</num> Is ea tempestate qua legati Romanorum
-            Carthaginem uenerunt questum de sociorum iniuriis, solus fuisse traditur, qui omni prope
-            repugnante senatu foedus cum populo Romano seruandum censuit monuitque, ut ab eo
-            cauerent bello, quod extremam erat suae patriae perniciem allaturum<!--9-->.
-              <num>4</num> In quo si carthaginenses non tam animum Hannonis quam eius consilium
-            respicere uoluissent et pacis potius quam belli auctorem audiendum censuissent, sanctius
-            sibi suaeque reipublicae foret consultum. <num>5</num> At illi unius iuuenis seu furorem
-            seu cupiditatem secuti tantorum malorum, quae postea in sua capita redundarunt, ex eo
-            tempore occasionem dedere. <num>6</num> Quocirca sapientes uiros et optimos
-            rerumpublicarum gubernatores finem magis in rebus humanis quam initium spectari, et
-            priusquam ad arma bellaque prorumpant, experiri omnia consilio decet.</p>
+            Hannibali filio <app>
+              <lem>quasi ex haereditate</lem>
+              <rdg wit="U">quasi hereditate</rdg>
+            </app> obuenerat, auctaque deinceps in tantas creuerat opes, ut domi forisque in omni re
+            decernenda superior haberetur. <num>2</num> Altera uero principem habebat Hannonem uirum
+            grauem summaeque in ea <app>
+              <lem>republica</lem>
+              <rdg wit="#U">re</rdg>
+            </app> dignitatis, toga tamen magis quam armis egregium. <num>3</num> Is ea tempestate
+            qua legati Romanorum Carthaginem uenerunt questum de sociorum iniuriis, solus fuisse
+            traditur, qui omni prope repugnante senatu foedus cum populo Romano seruandum censuit
+            monuitque, ut ab eo cauerent bello, quod extremam erat suae patriae perniciem
+              allaturum<note n="9">En Livio XXI, 10, aparece también un <foreign>excursus</foreign>
+              sobre la opinión de Hannón.</note>. <num>4</num> In quo si carthaginenses non tam
+            animum Hannonis quam eius consilium respicere uoluissent et pacis potius quam belli
+            auctorem audiendum censuissent, sanctius sibi suaeque reipublicae foret consultum.
+              <num>5</num> At illi unius iuuenis seu furorem seu cupiditatem secuti tantorum
+            malorum, quae postea in sua capita redundarunt, ex eo tempore occasionem <app>
+              <lem>dedere</lem>
+              <rdg wit="#F #W">dederunt</rdg>
+            </app>. <num>6</num> Quocirca sapientes uiros et optimos <app>
+              <lem>rerum publicarum</lem>
+              <rdg wit="#F #W">rei publice</rdg>
+            </app> gubernatores finem magis in rebus humanis quam initium <app>
+              <lem>spectari</lem>
+              <rdg wit="#F #N #P #R #S #W">spectare</rdg>
+              <rdg wit="#U">pręstare</rdg>
+            </app>, et priusquam ad arma bellaque prorumpant, experiri omnia consilio decet.</p>
         </div>
         <div xml:id="l8" type="section" n="8">
           <p><num xml:id="l8.1" corresp="#e8.1">8.1</num> Caeterum Saguntini per id tempus quo ab
             Hannibale obsessi sunt, cum praeter ius fasque sibi bellum inferri uiderent, plures
             menses obstinatis animis obsidionem tulerunt. <num>2</num> Ad extremum multitudine
-            hominum superante poeno (ad centum enim et quinquaginta milia habuisse in armis
-            creditur)<!--10--> cum iam magna ex parte diruta moenia essent, excidium urbis expectare
-            maluerunt, quam in acerbissimi hostis potestatem uenire. <num>3</num> Octauo mense quam
-            coeptum oppugnari, captum Saguntum quidam auctores sunt11, quibus nec Liuius assentiri
-            uidetur nec aliud certum tempus obsidionis illius in medium afferre12. <num>4</num> At
-            uero expugnatio huius opulentissimae urbis coeptis Hannibalis multis in rebus adiumento
-            fuit. Nam ciuitates nonnullas quae punici imperii pertesae metum defectionis praebebant,
-            exemplo saguntinae cladis in fide retinuit, <num>5</num> militum animos confirmauit
-            ditato exercitu ingenti praeda, preciosa munera ex spoliis Saguntinorum Carthaginem
-            misit, quibus sibi primarios obligauit ciues paratioresque reddidit ad futurum bellum,
-            quod cum populo Romano non in Hispania (ut multi arbitrabantur) sed in Italia sibi erat
-            in animo gerere.</p>
+            hominum superante poeno (ad centum enim et quinquaginta milia <app>
+              <lem>habuisse in armis</lem>
+              <rdg wit="#F #W">in armis habuisse</rdg>
+            </app> creditur)<note n="10">Livio XXI, 8, 3.</note> cum iam magna ex parte diruta
+            moenia essent, excidium urbis expectare maluerunt, quam in acerbissimi hostis potestatem
+            uenire. <num>3</num> Octauo mense quam coeptum oppugnari, captum Saguntum quidam
+            auctores sunt<note n="11">Livio III, 4.</note>, quibus nec Liuius assentiri uidetur nec
+            aliud certum tempus obsidionis illius in medium afferre<note n="12">Livio XXI,
+              15.</note>. <num>4</num> At uero expugnatio huius opulentissimae urbis coeptis
+            Hannibalis multis in rebus adiumento fuit. Nam ciuitates nonnullas quae punici imperii
+            pertesae metum defectionis praebebant, exemplo saguntinae cladis in fide retinuit,
+              <num>5</num> militum animos confirmauit ditato exercitu ingenti praeda, preciosa
+            munera ex spoliis Saguntinorum Carthaginem misit, <app>
+              <lem>quibus sibi <app>
+                  <lem>primarios</lem>
+                  <rdg wit="#E">principes</rdg>
+                </app> obligauit ciues</lem>
+              <rdg wit="#F #M #N #P #R #S #U #W"><del>quibus sibi primarios obligauit
+                ciues</del></rdg>
+            </app> paratioresque reddidit ad futurum bellum, quod cum populo Romano non in Hispania
+            (ut multi arbitrabantur) sed in Italia sibi erat in animo gerere.</p>
         </div>
         <div xml:id="l9" type="section" n="9">
           <p><num xml:id="l9.1" corresp="#e9.1">9.1</num> Inter haec legati Romanorum cum in urbem a
             Carthagine rediissent, uana quae ibi accaeperant referentes responsa, et sub idem prope
             tempus excidium Saguntinum nuntiatum esset, sera tandem populum Romanum poenitentia
             caepit, quod labenti reipublicae sociorum opemque in extremo periculo postulanti non
-            subuenisset. <num>2</num> Ita plaebs patresque incredibili misericordia moti simul
-            indignatione accensi consules prouincias sortiri iubent Publio Cornelio Hispania, Tito
-            Sempronio Aphrica. Ii enim tum consules erant: cum Sicilia euenit.<!--13-->
-            <num>3</num> Legatos deinde Carthaginem mittunt, principes ciuitatis qui coram senatu
-            post longam disceptationem de foederum iure cum semina futurae contentionis quasi in
-            conspectum omnium effudissent, magnaque ferocitate obtulissent bellum, Carthaginenses
-            econtra non minore audacia oblatum suscepere, malo tamen consilio, ut postea res ipsa et
-            belli exitus declarauit.</p>
+            subuenisset. <num>2</num>
+            <app>
+              <lem>Ita</lem>
+              <rdg wit="#E #F #G #M #N #P #R #S #U #W #s">Itaque</rdg>
+            </app> plaebs patresque incredibili misericordia moti simul indignatione accensi
+            consules prouincias sortiri iubent Publio Cornelio Hispania, Tito Sempronio Aphrica. Ii
+            enim tum consules erant: cum Sicilia euenit<note n="13">Livio XXI, 17; Polibio III,
+              8.</note>. <num>3</num> Legatos deinde Carthaginem mittunt, principes ciuitatis qui
+            coram senatu post longam <app>
+              <lem>disceptationem</lem>
+              <rdg wit="#U">disceptatione</rdg>
+            </app> de foederum iure cum semina futurae contentionis quasi in conspectum omnium
+            effudissent, magnaque ferocitate obtulissent bellum, Carthaginenses econtra non minore
+            audacia oblatum suscepere, malo tamen consilio, ut postea res ipsa et belli exitus
+            declarauit.</p>
         </div>
         <div xml:id="l10" type="section" n="10">
           <p><num xml:id="l10.1" corresp="#e10.1">10.1</num> Verum Hannibal cognitis iis quae in
             senatu Carthaginensium acta erant, cum iam tempus esse arbitraretur, ut sicut ab initio
-            instituerat, Italiam peteret; res necessarias ingenti studio parat, classem instruit, ex
-            fidissimis ciuitatibus auxilia accersit, omnes copias Carthaginem Nouam conuenire iubet.
-              <num>2</num> Post haec Gades profectus ante omnia commodissimum esse statuit
-            opportunis custodiis Aphricam Hispaniamque munire, ne dum ipse in Italiam contendit,
-            uacuae ab omni praesidio Romanis relinquantur. <num>3</num> Itaque in Aphricam primum
-            mittit equites mille et ducentos, peditum ex Hispanis tredecim milia. Deinde ex diuersis
-            ciuitatibus Aphricae quattuor milia peditum euocat, quos Carthaginem tueri iubet,
-            obsides simul habiturus et milites. <num>4</num> Hispaniae autem praeficit Hasdrubalem
-            fratrem, eique reliquit .L. nauium classem et ad duo milia equitum, peditum uero ad
-            duodecim milia. <num>5</num> Atque iis praesidiis utranque prouinciam firmat, non quia
-            ea sufficere arbitretur aduersus Romanas opes, si moles belli aut in Hispania aut in
-            Aphrica sustinenda foret, sed quod haec satis esse existimet ad hostem suis finibus
-            arcendum, dum ipse terrestri itinere exercitum ducens bellum in Italiam transferat.</p>
+            instituerat, Italiam peteret; res necessarias ingenti studio parat, classem instruit, <app>
+              <lem>ex fidissimis ciuitatibus auxilia accersit</lem>
+              <rdg wit="#F #W">ex fidissimis ciuitatibus auxilia accersit<del/></rdg>
+            </app>, omnes copias Carthaginem Nouam conuenire iubet. <num>2</num> Post haec Gades
+            profectus ante omnia commodissimum esse statuit opportunis custodiis Aphricam
+            Hispaniamque munire, ne dum ipse in Italiam contendit, uacuae ab omni praesidio Romanis
+            relinquantur. <num>3</num>
+            <app>
+              <lem>Itaque in Aphricam primum</lem>
+              <rdg wit="#E #F #G #M #N #P #R #S #U #W #r #s">Itaque primum in Africam </rdg>
+            </app> mittit equites mille et ducentos, peditum ex <app>
+              <lem>Hispanis tredecim</lem>
+              <rdg wit="#F #P #U #W">hyspanis ad tredecim</rdg>
+              <rdg wit="#E #G #N S #s #r">hispanis ad tredecim</rdg>
+              <rdg wit="#R">hispanis ad xiii</rdg>
+            </app> milia. Deinde ex diuersis ciuitatibus Aphricae quattuor milia peditum euocat,
+            quos Carthaginem tueri iubet, obsides simul habiturus et milites. <num>4</num> Hispaniae
+            autem praeficit Hasdrubalem fratrem, eique <app>
+              <lem>reliquit</lem>
+              <rdg wit="#N">relinquit</rdg>
+            </app>
+            <app>
+              <lem>.L. nauium classem et ad duo milia</lem>
+              <rdg wit="#F #W">ad duo milia equitum, peditum uero ad duodecim milia, et quinquagenta
+                nauium classem</rdg>
+            </app> equitum, peditum uero ad duodecim milia. <num>5</num> Atque iis praesidiis
+            utranque prouinciam firmat, non quia ea sufficere arbitretur aduersus Romanas opes, si
+            moles belli aut in Hispania aut in Aphrica sustinenda foret, sed quod haec satis esse
+            existimet ad hostem suis finibus arcendum, dum ipse terrestri itinere exercitum ducens
+            bellum in Italiam transferat.</p>
         </div>
         <div xml:id="l11" type="section" n="11">
           <p><num xml:id="l11.1 " corresp="#e11.1 ">11.1</num> Sciebat praeterea populum
             Carthaginensem pro magnitudine imperii facile posse cum uellet nouas copias parare, nec
             solum reficere exercitum domi si opus esset, sed etiam supplementum sibi in Italiam
-            mittere. <num>2</num> Ex quo enim graue ac periculosum bellum mercenariorum indignatione
-            contractum a suis ceruicibus depulerant Hamilchare primum, deinde Hasdrubale, postremo
-            Hannibale duce continenter uictores, <num>3</num> ita Punicum imperium auxerant, ut ea
-            tempestate qua Hannibal in Italiam uenit, longe lateque eorum paterent opes.
-              <num>4</num> Nam omnem Aprhicae oram, quae nostro mari abluitur, tenebant. Ab aris
+            mittere. <num>2</num> Ex quo enim graue <app>
+              <lem>ac</lem>
+              <rdg wit="#F #W">et</rdg>
+            </app> periculosum bellum mercenariorum indignatione contractum a suis ceruicibus
+            depulerant Hamilchare primum, deinde Hasdrubale, postremo Hannibale duce continenter
+            uictores, <num>3</num> ita Punicum imperium <app>
+              <lem>auxerant</lem>
+              <rdg wit="#F #W">exauxerant</rdg>
+            </app>, ut ea tempestate qua Hannibal in Italiam uenit, longe lateque eorum paterent
+            opes. <num>4</num> Nam omnem Aprhicae oram, quae nostro mari abluitur, tenebant. Ab aris
             Philenorum haud multum distantibus a magna Syrte usque ad columnas Herculis continet ea
             longitudo duo milia passuum, transgressique paruum fretum, quod Aphricam Europamque
             interiacet, omni prope Hispania potiti erant usque ad Pyreneum montem, qui eam
@@ -232,41 +353,65 @@
         </div>
         <div xml:id="l13" type="section" n="13">
           <p><num xml:id="l13.1" corresp="#e13.1">13.1</num> Sequenti die a Cathagine mouens per
-            maritimam horam ad Iberum ducit. Sunt qui proxima nocte quiescenti Hannibali iuuenem
-            admirabili specie uisum in somnis tradunt, hortantem primo ut se ducem in Italiam
-            sequeretur. <num>2</num> Deinde cum magno strepitu serpentem apparuisse rarae
-            magnitudinis, cupientique scire quidnam id portenderet, uisum sibi audire uastitatem
-            Italiae esse. <num>3</num> Nec mirandum fuisset, si intentae Hannibalis curae
-            cogitationesque uehementes, quibus ille uigilans bellum Italicum agitabat, quasdam
-            nocturnas peperissent species. Nunc uictoriae nunc caedis et incendii aliarumque belli
-            calamitatum similitudinem prae se ferentes. <num>4</num> Fit enim interdum sicut Orator
-              inquit<note>14</note>, ut <pb facs="../public/images/1478/112r.jpg"/>[112r]
-            cogitationes sermonesque nostri pariant aliquid in somno tale, quale de Homero scribit
-            Ennius, de quo uidelicet saepissime uigilans solebat cogitare et loqui.</p>
+            maritimam <app>
+              <lem>horam</lem>
+              <rdg wit="#E #F #G #N #P #R #W #r #s">oram</rdg>
+            </app> ad <app>
+              <lem>Iberum</lem>
+              <rdg wit="#F #G #M #N #P #R #S #W #s"/>
+            </app> ducit. Sunt qui proxima nocte quiescenti Hannibali iuuenem admirabili specie
+            uisum in somnis tradunt, hortantem primo ut se ducem in Italiam sequeretur. <num>2</num>
+            Deinde cum magno strepitu serpentem apparuisse rarae magnitudinis, cupientique scire
+            quidnam id portenderet, uisum sibi audire uastitatem Italiae esse. <num>3</num> Nec
+            mirandum fuisset, si intentae Hannibalis curae cogitationesque uehementes, quibus ille
+            uigilans bellum Italicum agitabat, quasdam nocturnas peperissent species. Nunc uictoriae
+            nunc caedis et incendii aliarumque belli calamitatum similitudinem prae se ferentes.
+              <num>4</num> Fit enim interdum sicut Orator inquit<note n="14">Cicerón, Somn. VI, 5,
+              10.</note>, ut <pb facs="../public/images/1478/112r.jpg"/>[112r] cogitationes
+            sermonesque nostri pariant aliquid in somno tale, quale de Homero scribit Ennius, de quo
+            uidelicet saepissime uigilans solebat cogitare et loqui.</p>
         </div>
         <div xml:id="l14" type="section" n="14">
           <p><num xml:id="l14.1" corresp="#e14.1">14.1</num> Hannibal superatis Pyrenei iugis
             conciliatisque sibi multis donis Gallorum animis, paucis diebus ad Rhodanum uenit.
-              <num>2</num> Rhodanus amnis non longe ab Istre Rhenique fontibus surgens, octingentis
-            prope emensis stadiis in lacum Lemannum se condit, indeque egressus in occidentem se
-            uertens Gallias aliquamdiu dirimit, Ararisque et aliorum fluminum accessione non
-            mediocriter auctus, tandem inter Volcas et Cauares pluribus capitibus in mare
-              influit<note>15</note>. <num>3</num> Volcarum gens ea tempestate circa utranque ripam
-            colebat Rhodani, hominum abundantissima erat et inter Gallicas gentes opulentissima.
-              <num>4</num> Hi primo Hannibalis aduentu amnem transgressi constiterant in ripa
-            fluminis, ut Poenos transitu prohiberent. Nam caeteris pacatis Gallis hos neque donis
-            capere Hannibal, neque metu compellere potuit, ut amicitiam experiri quam uim
-            Carthaginensium mallent. <num>5</num> Igitur dolis cum tali hoste agendum ratus, Hannoni
-            Bomilcharis filio praecipit, ut occulte Rhodanum transmittat, et cum parte copiarum
-            Gallos nil tale opinantes adoriatur. <num>6</num> Is ut imperatum erat, longiore itinere
-            progressus, ubi commodissimum uisum est flumen traiicit, et circumductis copiis prius ad
-            hostium castra peruenit, quam plane ab his uideri aut quid rei gereretur cognosci
-            posset. <num>7</num> Galli clamore a tergo audito, cum neque consilii habendi neque arma
-            capiendi spatium daretur, et iam a fronte instaret Hannibal pluribus nauigiis ad
-            traiiciendum paratis, subito castris excessere, et quantum cursu ac uiribus efficere
-            potuerunt, se in praecipitem dederunt fugam. <num>8</num> Sic igitur ex aduersa ripa
-            hostibus pulsis reliquae Carthaginensium copiae incolumes
-            traducuntur<note>16</note>.</p>
+              <num>2</num> Rhodanus amnis non longe ab <app>
+              <lem>Istre</lem>
+              <rdg wit="E">istro</rdg>
+              <rdg wit="#F #R #S #U #W">histri</rdg>
+              <rdg wit="#G #s #r">histre</rdg>
+              <rdg wit="M">histro</rdg>
+              <rdg wit="N">istri</rdg>
+              <rdg wit="P">hystri</rdg>
+            </app>
+            <app>
+              <lem>Rhenique</lem>
+              <rdg wit="#G #S #r">Rhemique</rdg>
+            </app> fontibus surgens, octingentis prope emensis stadiis in lacum Lemannum se condit,
+            indeque egressus in occidentem se uertens Gallias aliquamdiu dirimit, Ararisque et
+            aliorum fluminum accessione non mediocriter auctus, tandem inter Volcas et Cauares
+            pluribus capitibus in mare influit<note n="15">Livio XXI, 26.</note>. <num>3</num>
+            Volcarum gens ea tempestate circa utranque ripam colebat Rhodani, hominum <app>
+              <lem>abundantissima</lem>
+              <rdg wit="#F #S #W">habundantissima</rdg>
+            </app> erat et inter Gallicas gentes opulentissima. <num>4</num> Hi primo Hannibalis
+            aduentu amnem transgressi constiterant in ripa fluminis, ut Poenos transitu prohiberent.
+            Nam caeteris pacatis Gallis hos neque donis capere Hannibal, neque metu compellere
+            potuit, ut amicitiam experiri quam uim Carthaginensium mallent. <num>5</num> Igitur
+            dolis cum tali hoste agendum ratus, Hannoni Bomilcharis filio praecipit, ut occulte
+            Rhodanum transmittat, et cum parte copiarum Gallos nil tale opinantes adoriatur.
+              <num>6</num> Is ut imperatum erat, longiore itinere progressus, ubi commodissimum
+            uisum est flumen traiicit, et circumductis copiis prius ad hostium castra peruenit, quam
+            plane ab his uideri aut quid rei gereretur cognosci posset. <num>7</num> Galli <app>
+              <lem>clamore a tergo</lem>
+              <rdg wit="#F #W">a tergo clamore</rdg>
+            </app> audito, cum neque consilii habendi neque arma capiendi spatium daretur, et iam a
+            fronte instaret Hannibal pluribus nauigiis ad traiiciendum <app>
+              <lem>paratis</lem>
+              <rdg wit="#E #F #G #M #N #R #S #U #W #r #s">paratus</rdg>
+            </app>, subito castris excessere, et quantum cursu ac uiribus efficere potuerunt, se in
+            praecipitem dederunt fugam. <num>8</num> Sic igitur ex aduersa ripa hostibus pulsis
+            reliquae Carthaginensium copiae incolumes traducuntur<note n="16">Livio XXI, 26; Polibio
+              III, 8.</note>.</p>
         </div>
         <div xml:id="l15" type="section" n="15">
           <p><num xml:id="l15.1" corresp="#e15.1">15.1</num> Interim crebri rumores de aduentu
@@ -280,71 +425,128 @@
         </div>
         <div xml:id="l16" type="section" n="16">
           <p><num xml:id="l16.1" corresp="#e16.1">16.1</num> Post haec Hannibal certior factus, quo
-            in loco Romanorum copiae essent, agitare secum coepit, praestaret nec coeptum iter in
-            Italiam prosequi, an aduersus praesentem consulem exercitum ducere et euentum totius rei
-            experiri. <num>2</num> Cum multae utrinque rationes occurrerent, tandem fluctuantem
-            animo Boiorum legati in eam partem traxerunt, ut omnibus rebus postpositis in Italiam
+            in loco <app>
+              <lem>Romanorum copiae</lem>
+              <rdg wit="#F">copie romanorum</rdg>
+            </app> essent, agitare secum coepit, praestaret <app>
+              <lem>nec</lem>
+              <rdg wit="#E #G #N #P #R #S #U #W #r #s">ne</rdg>
+            </app> coeptum iter in Italiam prosequi, an <app>
+              <lem>aduersus</lem>
+              <rdg wit="#F">aduersum</rdg>
+            </app> praesentem consulem exercitum ducere et <app>
+              <lem>euentum</lem>
+              <rdg wit="#F">aduentum</rdg>
+            </app> totius rei experiri. <num>2</num> Cum multae utrinque rationes occurrerent,
+            tandem fluctuantem <app>
+              <lem>animo</lem>
+              <rdg wit="#F"><del>animum</del><add>animo</add></rdg>
+              <rdg wit="#P">animum</rdg>
+            </app> Boiorum legati in eam partem traxerunt, ut omnibus rebus postpositis in Italiam
             contenderet. <num>3</num> Nam Boi iam ante Pyrenei transitum legatis Romanorum per
-            fraudem captis, Manlio praetore magna clade affecto solicitatis Insubribus ad Poenum
-            defecerant, ea praecipue causa indignati, quod Romani paulo ante Placentiam Cremonamque
-            colonias miserant<note>17</note>.</p>
+            fraudem captis, <app>
+              <lem>Manlio</lem>
+              <rdg wit="#U">Mallio</rdg>
+            </app> praetore magna clade affecto solicitatis <app>
+              <lem>Insubribus</lem>
+              <rdg wit="#G #P #S #U #W #s">in Subribus</rdg>
+            </app> ad Poenum defecerant, ea praecipue causa indignati, quod Romani paulo ante
+            Placentiam Cremonamque colonias miserant<note n="17">Livio XXI, 25.</note>.</p>
         </div>
         <div xml:id="l17" type="section" n="17">
           <p><num xml:id="l17.1" corresp="#e17.1">17.1</num> Itaque horum consiliis persuasus
             Hannibal castra mouit, et per ripam Rhodani aduerso flumine profectus paucis diebus
-            peruenit ad locum, quem Insulam Galli appellant<note>18</note>. Hanc Arar et Rhodanus
-            amnis ex diuersis montibus confluentes efficiunt, ibique nunc Lugdunium est celeberrima
-            Galliae urbs, quam longis postea temporibus a Planco Numatio conditam fuisse accepimus.
-              <num>2</num> Hinc profectus Hannibal regione Allobrogum ingreditur, discordiisque
-            duorum fratrum de regno inter se certantium sublatis par Castinorum et Vocontiorum fines
-            ad flumen Druentiam uenit. <num>3</num> Druentia oritur ex Alpibus et citato descendens
-            cursu in Rhodanum sese effundit et quia uada frequenter mutat, aegre pedibus transiri
-            potest. Eo tamen transmisso amne per aperta loca quantum facultas dari potuit exercitum
-            ducens, Alpes petit.</p>
+            peruenit ad locum, quem Insulam Galli appellant<note n="18">Polibio III, 10.</note>.
+            Hanc Arar et Rhodanus <app>
+              <lem>amnis</lem>
+              <rdg wit="#F #N #R #W">amnes</rdg>
+            </app> ex diuersis montibus confluentes efficiunt, <app>
+              <lem>ibique</lem>
+              <rdg wit="#U">ibi</rdg>
+            </app> nunc Lugdunium est celeberrima Galliae urbs, quam longis postea temporibus a
+            Planco <app>
+              <lem>Numatio</lem>
+              <rdg wit="#P #U">Numantio</rdg>
+              <rdg wit="#G">Numatico</rdg>
+              <rdg wit="#F #N #R #W">Numacio</rdg>
+            </app> conditam fuisse accepimus. <num>2</num> Hinc profectus Hannibal regione
+            Allobrogum ingreditur, discordiisque duorum fratrum de regno inter se certantium
+            sublatis par Castinorum et Vocontiorum fines ad flumen Druentiam uenit. <num>3</num>
+            Druentia oritur ex Alpibus et citato descendens cursu in Rhodanum sese effundit et quia
+            uada frequenter mutat, aegre pedibus transiri potest. Eo tamen transmisso amne per
+            aperta loca quantum facultas dari potuit exercitum ducens, Alpes petit.</p>
         </div>
         <div xml:id="l18" type="section" n="18">
           <p><num xml:id="l18.1" corresp="#e18.1">18.1</num> Verum in superandis Alpibus tot
             tantaque incommoda perpessum Hannibalem tradunt, ut quidam auctores aequales temporibus
             eius belli ex ipso Poeno audisse dicant, se supra .XXX. hominum milia maximumque
-            iumentorum numerum in transitu Alpium amisisse<note>19</note>. <num>2</num> Non solum
-            enim cum montanis incolis multotiens sibi pugnandum, sed etiam aduersus angustias
-            asperitatesque uiarum sic ei laborandum fuit, ut quibusdam locis per ingentia saxa igni
-            acetoque putrefacta sibi aperuerit iter. <num>3</num> Quintodecimo die superatis Alpibus
-            in agrum Taurinum descendit. Quo <pb facs="../public/images/1478/112v.jpg"/>[112v] mihi
-            uerisimilius uidetur per montem Genuae (sic enim uulgo appellant) qui ex altero latere
-            flumen Druentiam, ex altero exitum in Taurinos habet poenum transisse.</p>
+            iumentorum numerum in transitu Alpium amisisse<note n="19">Livio XXI, 36-38; Polibio
+              III, 9; Nepote, Hann. III.</note>. <num>2</num> Non solum enim cum montanis incolis
+            multotiens sibi pugnandum, sed etiam aduersus angustias asperitatesque uiarum sic ei
+            laborandum fuit, ut quibusdam locis per ingentia saxa igni acetoque putrefacta sibi
+            aperuerit iter. <num>3</num> Quintodecimo die superatis Alpibus in agrum Taurinum
+            descendit. Quo <pb facs="../public/images/1478/112v.jpg"/>[112v] mihi uerisimilius
+            uidetur per montem Genuae (sic enim uulgo appellant) qui ex altero latere flumen
+            Druentiam, ex altero exitum in Taurinos habet poenum transisse.</p>
         </div>
         <div xml:id="l19" type="section" n="19">
           <p><num xml:id="l19.1" corresp="#e19.1">19.1</num> Postquam in Italiam uentum est, quae
             aut quantae copiae Hannibali fuerint, quia diuersa auctores rettulere, difficile ad
             fidem est exacto affirmare numero. <num>2</num> Alii centum milia peditum .XX. equitum,
-            alii .XX. peditum .VI. equitum ex Aphris Hispanisque. Quidam uero Gallis Liguribusque
-            additis .LXXX. milia peditum .X. equitum fuisse scribunt. <num>3</num> Sed credere libet
-            neque ita magnum sibi fuisse numerum copiarum, ut asserunt primi, post tot emensa
-            terrarum spatia tantaque detrimenta accepta, neque ita exiguum, ut secundi uolunt, cum
-            maxime res quas postea gessit, menti occurrunt. <num>4</num> Qui uero mediam sequuntur
-            uiam probabiliora dicere uidentur, cum ex .LXX. milibus peditum, .X. milibus equitum,
-            quae ex Hispania mouit, magnam partem in Italiam duxerit, satisque constet confluxisse
-            ad eum ingentem multitudinem Ligurum Gallorumque, qui ea tempestate non minore odio in
-            Romanos quam Poeni ardebant.</p>
+            alii .XX. peditum <app>
+              <lem>.VI. equitum</lem>
+              <rdg wit="#F #W">equitum sex</rdg>
+            </app> ex Aphris Hispanisque. Quidam uero Gallis Liguribusque additis .LXXX. milia
+            peditum .X. equitum fuisse scribunt. <num>3</num> Sed credere libet neque <app>
+              <lem>ita</lem>
+              <rdg wit="#G #s"><del>ita</del></rdg>
+            </app> magnum sibi fuisse numerum copiarum, ut <app>
+              <lem>asserunt</lem>
+              <rdg wit="#G #r #s">asserant</rdg>
+            </app> primi, post tot emensa terrarum spatia tantaque detrimenta accepta, neque ita
+            exiguum, ut secundi uolunt, cum maxime res quas postea gessit, menti occurrunt.
+              <num>4</num> Qui uero mediam sequuntur uiam probabiliora dicere uidentur, cum ex .LXX.
+            milibus peditum, .X. milibus equitum, quae ex Hispania mouit, magnam partem in Italiam
+            duxerit, satisque constet confluxisse ad eum ingentem multitudinem Ligurum Gallorumque,
+            qui ea tempestate non minore odio in Romanos quam Poeni ardebant.</p>
         </div>
         <div xml:id="l20" type="section" n="20">
-          <p><num xml:id="l20.1" corresp="#e20.1">20.1</num> Cum ex Taurinis in agrum Insubrium
-            uenisset, Hannibal aduersum habuit Publium Cornelium Scipionem, qui a Massilia ingenti
-            celeritate in Italiam reuersus, Pado Ticinoque traiectis, haud procul ab hoste consedit,
-            breuique interiecto spatio ambo ii duces alter alterius castra speculatum profecti,
-            equestre praelium commiserunt, in quo aliquamdiu pari prope certamine dimicatum est. 2
-            Ad extremum Romani cum uulneratus esset consul et Numidae equites paulatim circumeundo a
-            tergo inminerent, pedem referre coacti sunt. Itaque sensim cedendo et consulem
-            protegendo, sese in castra recaeperunt. <num>3</num> Sunt qui ab Aphricano filio iam tum
-            pubescente seruatum patrem Cornelium scribunt. Quae quidem laus etsi maxima sit in tam
-            recenti teneraque aetate, non tamen a uero nec a praeclaris rebus quas postea gessit,
+          <p><num xml:id="l20.1" corresp="#e20.1">20.1</num> Cum ex Taurinis in agrum <app>
+              <lem>Insubrium</lem>
+              <rdg wit="#G #S #U #r #s">in Subrium</rdg>
+            </app> uenisset, Hannibal <app>
+              <lem>aduersum</lem>
+              <rdg wit="#U">aduersus</rdg>
+            </app> habuit Publium Cornelium Scipionem, qui a Massilia ingenti celeritate in Italiam
+            reuersus, Pado Ticinoque traiectis, haud procul ab hoste consedit, breuique interiecto
+            spatio ambo ii duces alter alterius castra <app>
+              <lem>speculatum</lem>
+              <rdg wit="#G #r #s">specularum</rdg>
+            </app> profecti, equestre praelium commiserunt, in quo aliquamdiu pari <app>
+              <lem>prope certamine</lem>
+              <rdg wit="#P #U">certamine prope</rdg>
+            </app> dimicatum est. <num>2</num> Ad extremum Romani cum uulneratus <app>
+              <lem>esset consul</lem>
+              <rdg wit="#F #W">consul esset</rdg>
+            </app> et Numidae equites paulatim circumeundo a tergo inminerent, pedem referre coacti
+            sunt. Itaque sensim cedendo et consulem protegendo, <app>
+              <lem>sese</lem>
+              <rdg wit="#E #F #G #M #N #P #R #S #U #W #r #s">se</rdg>
+            </app> in castra recaeperunt. <num>3</num> Sunt qui ab Aphricano filio iam tum
+            pubescente seruatum patrem Cornelium <app>
+              <lem>scribunt. Quae quidem laus etsi maxima sit in tam recenti</lem>
+              <rdg wit="#F"><del>scribunt. Quae quidem laus etsi maxima sit in tam
+                recenti</del></rdg>
+            </app> teneraque aetate, non tamen a uero nec a praeclaris rebus quas postea gessit,
             aliena uidetur. <num>4</num> Hoc praelio expertus Scipio quantum equitatu praeualeret
             hostis, statuit sibi ea loca petenda esse, in quibus pedestres copiae et consistere
-            tutius et dimicare commodius possent. <num>5</num> Itaque sequenti nocte quanto maxime
-            silentio potuit omni exercitu Padum traducto in agrum Placentinum contendit. Eodem uenit
-            paulo post T. Sempronius Longus litteris senatus ex Sicilia accersitus, ut ambo consules
-            communi imperio communique consilio rempublicam administrarent.</p>
+            tutius et dimicare commodius <app>
+              <lem>possent</lem>
+              <rdg wit="#G #r #s"><del>solum</del></rdg>
+            </app>. <num>5</num> Itaque sequenti nocte quanto maxime silentio potuit omni exercitu
+            Padum traducto in agrum Placentinum contendit. Eodem uenit paulo post T. Sempronius
+            Longus litteris senatus ex Sicilia accersitus, ut ambo consules communi imperio
+            communique consilio rempublicam administrarent.</p>
         </div>
         <div xml:id="l21" type="section" n="21">
           <p><num xml:id="l21.1" corresp="#e21.1">21.1</num> Hannibal etiam post equestrem pugnam
@@ -353,27 +555,44 @@
             cupiebat. <num>2</num> Non solum quia longam moram sustinere non poterat ob commeatus
             inopiam, sed etiam quia uerebatur infirmitatem Gallorum, qui et spem nouarum rerum et
             equestris uictoriae famam secuti, <num>3</num> ut facile in suam fidem atque amicitiam
-            concesserant, sic etiam leui momento fieri posse credebat, ut durante in suis sedibus
-            bello, odium a Romanis in se unum auctorem belli transferrent. Igitur omnibus modis
-            materiem quaerebat, unde occasio committendi praelii oriretur<note>20</note>. </p>
+            concesserant, <app>
+              <lem>sic</lem>
+              <rdg wit="#F">sed</rdg>
+              <rdg wit="#r">sit</rdg>
+            </app> etiam leui momento fieri posse credebat, ut durante in suis sedibus bello, odium
+            a Romanis in se unum auctorem belli transferrent. Igitur omnibus modis materiem
+            quaerebat, unde occasio committendi praelii oriretur<note n="20">Livio XXI, 55; Polibio
+              III, 13; Nepote, Hann. II.</note>. </p>
         </div>
         <div xml:id="l22" type="section" n="22">
           <p><num xml:id="l22.1" corresp="#e22.1">22.1</num> Accidit autem opportune per eos dies,
-            ut Sempronius consul nactus hostium agmen praeda graue palatumque per agros inuaderet in
-            fugamque coniiceret; atque ex ea re prospere gesta de euentu totius rei coniecturam
+            ut Sempronius consul nactus hostium agmen praeda <app>
+              <lem>graue</lem>
+              <rdg wit="#U">graui</rdg>
+            </app> palatumque per agros inuaderet <app>
+              <lem>in fugamque</lem>
+              <rdg wit="#U">infugique</rdg>
+            </app> coniiceret; atque ex ea re prospere gesta de euentu totius rei coniecturam
             faciens, in maximam spem ueniret uictoriae consequendae si iusta acie consereretur
             manus. <num>2</num> Quare priusquam Scipio conualesceret et noui consules crearentur,
-            alicuius praeclari facinoris edendi cupidus, in certamen prodire decreuit. Rem21
+            alicuius praeclari facinoris edendi cupidus, in certamen prodire decreuit. Rem<note
+              n="21">En U G S r s no hay puntuación fuerte: «decreuit rem improbante».</note>
             improbante collega clamanteque nihil intempestiuius agi posse, quam omnibus prope
             aduersantibus Gallis summam reipublicae in discrimen offerre. <num>3</num> Horum
             dissensiones per occultos exploratores deferebantur ad Poenum. Quibus cognitis callidus
             imperator extemplo locum inter utraque castra septum undique et uestitum uepribus et
-            dumetis inuenit, ibique Magonem fratrem cum delecta manu consistere iussit. <num>4</num>
-            Deinde equitibus Numidis negocium dedit, ut adirent Romana castra hostemque lacessentes
-            ad praelium excirent. <num>5 </num>Ipse interim reliquum exercitum cibo potuque refectum
-            in aciem deducit, ut in omnem occasionem gerendae rei intentus paratusque in armis
-            esset. <num>6</num> Sempronius consul ad primum tumultum Numidarum subito equitatum,
-            deinde sex milia peditum, postremo omnes copias ex castris educit.</p>
+            dumetis inuenit, ibique Magonem <app>
+              <lem>fratrem</lem>
+              <rdg wit="#G #s"><del>fratrem</del></rdg>
+            </app> cum <app>
+              <lem>delecta</lem>
+              <rdg wit="#G #s">dilecta</rdg>
+            </app> manu consistere iussit. <num>4</num> Deinde equitibus Numidis negocium dedit, ut
+            adirent Romana castra hostemque lacessentes ad praelium excirent. <num>5 </num>Ipse
+            interim reliquum exercitum cibo potuque refectum in aciem deducit, ut in omnem
+            occasionem gerendae rei intentus paratusque in armis esset. <num>6</num> Sempronius
+            consul ad primum tumultum Numidarum subito equitatum, deinde sex milia peditum, postremo
+            omnes copias ex castris educit.</p>
         </div>
         <div xml:id="l23" type="section" n="23">
           <p><num xml:id="l23.1" corresp="#e23.1">23.1</num> Erat autem brumae tempus et summa
@@ -393,10 +612,13 @@
             elephantique terrebant, hinc pedites instabant acriter pugnantes aduersus corpora fame
             frigoreque confecta. <num>6</num> Itaque magis animis quam uiribus hanc molem
             circunstantium incommodorum sustinentes Romani, pugnam extraxere, quousque Mago ex
-            insidiis exortus cum clamore ac tumultu incautos inuasit, et media Poenorum acies iussu
-            Hannibalis impetum in Cennomanos fecit. <num>7</num> Tunc fuga ab auxiliaribus caepta
-            Romanorum fraegit animos. Nam ad decem milia peditum ex Romano exercitu fuisse
-              dicuntur<note>22</note>, qui per medios erumpentes hostes se Placentiam contulere. Ex
+            insidiis exortus cum clamore <app>
+              <lem>ac</lem>
+              <rdg wit="#F #W">et</rdg>
+            </app> tumultu incautos inuasit, et media Poenorum acies iussu Hannibalis impetum in
+            Cennomanos fecit. <num>7</num> Tunc fuga ab auxiliaribus caepta Romanorum fraegit
+            animos. Nam ad decem milia peditum ex Romano exercitu fuisse dicuntur<note n="22">Livio
+              XXI, 56, 2-3.</note>, qui per medios erumpentes hostes se Placentiam contulere. Ex
             reliquis copiis fugientes persecuti maiorem partem conciderunt poeni. <num>8</num>
             Euasit tamen Sempronius consul summo periculo manibus hostium euitatis. Nec Poenis
             incruenta uictoria fuit, multis ex suis militibus ac omnibus prope elephantis
@@ -406,27 +628,47 @@
           <p><num xml:id="l24.1" corresp="#e24.1">24.1</num> Post hanc pugnam Hannibal per omnem
             regionem uagatus cuncta ferro ignique uastauit, oppida quaedam caepit ac ingentem
             multitudinem incolarum nullo ordine militari in certamen euntem parua manu fudit
-            fugauitque. <num>2</num> Vere primo maturius quam tempus postulabat ex hybernis mouens
-            cum in Hetruriam contenderet et prope Apoenini iuga saeua tempestate repulsus exercitum
-            in agrum Placentinum reduxit, breuique interiecto spatio cum multae necessariae urgerent
-            causae rursus eandem profectionem sicut instituerat, suscipiendam putauit. <num>3</num>
-            Nam Gallorum insidiis prope circunuentus, calliditate ingenii periculum capitis
-            euitauerat. Aegre enim ferentes Galli bellum in suis agris diutius consistere, unum
-            Hannibalem caput belli petebant. Quo periculo compulsus Poenus maturandum sibi atque in
-            aliam prouinciam omnem exercitum traducendum putabat.</p>
+            fugauitque. <num>2</num> Vere primo maturius quam <app>
+              <lem>tempus</lem>
+              <rdg wit="#P"><del>tempus</del></rdg>
+            </app>
+            <app>
+              <lem>postulabat</lem>
+              <rdg wit="#M">expostulabat</rdg>
+            </app> ex hybernis mouens cum in <app>
+              <lem>Hetruriam</lem>
+              <rdg wit="#F #M #P #S #U #W #r">Etruriam</rdg>
+              <rdg wit="#G #s">Eutruriam</rdg>
+            </app>
+            <app>
+              <lem>contenderet et prope</lem>
+              <rdg wit="#U">contenderet: prope</rdg>
+              <rdg wit="#F #M #N #P #R #S #W">contenderet prope</rdg>
+            </app> Apoenini iuga saeua tempestate repulsus exercitum in agrum Placentinum reduxit,
+            breuique interiecto spatio cum multae necessariae urgerent causae rursus eandem
+            profectionem sicut instituerat, suscipiendam putauit. <num>3</num> Nam Gallorum insidiis
+            prope circunuentus, calliditate ingenii periculum capitis euitauerat. Aegre enim
+            ferentes Galli bellum in suis agris diutius consistere, unum Hannibalem caput belli
+            petebant. Quo periculo compulsus Poenus maturandum sibi atque in aliam prouinciam omnem
+            exercitum traducendum putabat.</p>
         </div>
         <div xml:id="l25" type="section" n="25">
           <p><num xml:id="l25.1" corresp="#e25.1">25.1</num> Accedebat praeterea quod ad opinionem
             gentium et suorum militum alacritatem magni interesse arbitrabatur tantas uideri
-            Carthaginensium uires, tantum ducis animum, ut in propinquas Romanae urbi regiones arma
-            transferre auderet. <num>2</num> Quare postpositis omnibus rebus castra mouit,
-            superatisque Apoenini iugis per Ligures ea uia qua ad paludes ac planiciem fluminis Arni
-            est iter in Hetruriam descendit. Arnus uehementius excreuerat per eos dies, atque omnes
-            circumadiacentes campos aquis inundauerat. <num>3</num> Igitur Hannibal tantum exercitum
-            secum trahens priusquam e palustribus locis egrederetur, uitare non potuit quin ingentem
-            hominum ac iumentorum iacturam faceret. <num>4</num> Ipse quoque dux etsi elephanto, qui
-            unus superfuerat ex multis eminens ueheretur, plures tamen dies ac noctes aeris
-            intemperie uigiliisque confectus alterum amisit oculum.</p>
+            Carthaginensium uires, tantum ducis animum, ut in propinquas Romanae <app>
+              <lem>urbi</lem>
+              <rdg wit="#E #M #U">urbis</rdg>
+            </app> regiones arma transferre auderet. <num>2</num> Quare postpositis omnibus rebus
+            castra mouit, superatisque Apoenini iugis per Ligures ea uia qua ad paludes ac planiciem
+            fluminis Arni est iter in Hetruriam descendit. <app>
+              <lem>Arnus</lem>
+              <rdg wit="#G #r #s">Armis</rdg>
+            </app> uehementius excreuerat per eos dies, atque omnes circumadiacentes campos aquis
+            inundauerat. <num>3</num> Igitur Hannibal tantum exercitum secum trahens priusquam e
+            palustribus locis egrederetur, uitare non potuit quin ingentem hominum ac iumentorum
+            iacturam faceret. <num>4</num> Ipse quoque dux etsi elephanto, qui unus superfuerat ex
+            multis eminens ueheretur, plures tamen dies ac noctes aeris intemperie uigiliisque
+            confectus alterum amisit oculum.</p>
         </div>
         <div xml:id="l26" type="section" n="26">
           <p><num xml:id="l26.1" corresp="#e26.1">26.1</num> Inter haec Caius Flaminius consul
@@ -441,40 +683,74 @@
         <div xml:id="l27" type="section" n="27">
           <p><num xml:id="l27.1" corresp="#e27.1">27.1</num> Itaque castra mouens per agrum
             Fesulanum Arretinumque magno impetu uagatur, omnem regionem terroribus implet, cuncta
-            ferro ignique peruastat, nec prius populationibus aut incendiis finem facit, quam passim
-            uastatis agris ad montes Cortonenses atque inde ad Transimenum lacum peruenit. <pb
-              facs="../public/images/1478/113v.jpg"/>[113v] <num>2</num> Ibi locum contemplatus cum
-            capere insidiis hostem quaereret, prope angustam uiam, quae ad Transimenum ducit, sub
-            quibusdam tumulis equitatum locat, post montes leuem armaturam considere iubet.
-              <num>3</num> Ipse cum reliquis copiis in planiciem descendit suspicatus id quod
-            accidit, Romanum consulem non quieturum. <num>4</num> Homines enim furentes ingenio
-            facile ad 10 omnes machinas atque insidias hostium patent, saepeque salutaribus
-            consiliis spretis summam rerum in discrimen obiiciunt.</p>
+            ferro ignique peruastat, nec prius populationibus <app>
+              <lem>aut incendiis</lem>
+              <rdg wit="#F #W">incendisque</rdg>
+            </app> finem facit, quam passim uastatis agris ad montes Cortonenses atque inde ad
+            Transimenum lacum peruenit. <pb facs="../public/images/1478/113v.jpg"/>[113v]
+              <num>2</num> Ibi locum contemplatus cum capere insidiis hostem quaereret, prope
+            angustam uiam, quae ad Transimenum ducit, sub quibusdam tumulis equitatum locat, post
+            montes leuem armaturam considere iubet. <num>3</num> Ipse cum reliquis copiis in
+            planiciem descendit suspicatus id quod accidit, Romanum consulem non quieturum.
+              <num>4</num> Homines enim furentes ingenio facile ad 10 omnes machinas atque insidias
+            hostium patent, <app>
+              <lem>saepeque</lem>
+              <rdg wit="#R">seque</rdg>
+            </app> salutaribus consiliis spretis summam rerum in discrimen obiiciunt.</p>
         </div>
 
         <div xml:id="l28" type="section" n="28">
           <p><num xml:id="l28.1" corresp="#e28.1">28.1</num> Flaminius, ubi passim agros sociorum
             diripi, frumenta succidi, aedificia incendi sensit, subito contra omnium sententiam qui
             collegam expectandum censebant, castra mouit citatumque agmen ad hostem duxit.
-              <num>2</num> Cum occidente iam sole ad angustias Transimeni lacus peruenisset, eo in
-            loco constitit continenti itinere defessus miles. <num>3</num> Sequenti die sub primam
-            lucem nulla re antea explorata saltum transcendit. Hannibal uero qui omnibus antea
-            praeparatis occasionem expectabat gerendae rei, ubi in patentiorem campum Romanum
-            deductum cernit, dat omnibus inuadendi signum. <num>4</num> Tunc undique surgentes Poeni
-            hostem lacu et montibus clausum adoriuntur, nec solum a fronte, sed etiam a tergo et
-            lateribus instant. <num>5</num> Contra Romani nullo ordine militari praelium ineuntes
-            constipati conglobatique in nebula, quae omnium oculos occupauerat, ueluti in umbra
-            pugnant, ut mirandum fuerit, cum ab omni parte circumsepti tenerentur, quibus rebus
-            fraeti, tandiu pugnam distulerint. <num>6</num> Nam supra tres horas ita acriter
-            certatum constat, ut neque maximus terremotus eo tempore a pugnantibus auditus sit, nec
-            prius Romana inclinata acies, quam manu equitis cui Ducario nomen erat, consulem tota
-            acie uolitantem interfectum fama uulgauit. <num>7</num> Tunc Romani spoliati praesidio
-            ducis ac omni spe destituti terga uerterunt, alii montes alii lacum petentes, quorum
-            multi in fuga sunt comprehensi atque interfecti. Cecidere in ea pugna ex copiis
-            Romanorum ad .XV. milia hominum et ad .X. milia uariis itineribus euasere. <num>8</num>
-            Fuisse etiam dicuntur sex milia peditum qui ab initio pugnae impetu facto saltum
-            superarunt et in eminenti quodam tumulo constiterunt, postea uero finito praelio
-            accaepta a Poenis fide proditi fraudatique in uictoris potestatem uenerunt.</p>
+              <num>2</num> Cum occidente iam sole ad angustias <app>
+              <lem>Transimeni</lem>
+              <rdg wit="#·">Thransumeni</rdg>
+              <rdg wit="#G #r #s">Transmeni</rdg>
+            </app> lacus peruenisset, eo in loco constitit continenti itinere defessus miles.
+              <num>3</num> Sequenti die sub primam lucem nulla re antea explorata saltum
+            transcendit. Hannibal uero qui omnibus antea praeparatis occasionem expectabat gerendae
+            rei, ubi in patentiorem campum Romanum deductum cernit, dat omnibus inuadendi signum.
+              <num>4</num> Tunc undique <app>
+              <lem>surgentes</lem>
+              <rdg wit="#F #W">insurgentes</rdg>
+            </app> Poeni hostem lacu et montibus clausum adoriuntur, nec solum a fronte, sed etiam a
+            tergo et lateribus instant. <num>5</num> Contra Romani nullo ordine militari praelium
+            ineuntes constipati conglobatique in nebula, quae omnium oculos occupauerat, ueluti in
+            umbra <app>
+              <lem>pugnant</lem>
+              <rdg wit="#R">pugnauit</rdg>
+            </app>, ut mirandum <app>
+              <lem>fuerit</lem>
+              <rdg wit="#G #s">fuerat</rdg>
+            </app>, cum ab omni parte circumsepti tenerentur, quibus rebus fraeti, tandiu pugnam
+            distulerint. <num>6</num>
+            <app>
+              <lem>Nam supra tres</lem>
+              <rdg wit="#N"><del>Nam circa tres supra tres</del>
+                <add>Nam supra tres</add></rdg>
+            </app> horas ita acriter certatum constat, ut <app>
+              <lem>neque</lem>
+              <rdg wit="#M #F #N #P #R #S #W">nec</rdg>
+            </app> maximus terremotus eo tempore <app>
+              <lem>a pugnantibus</lem>
+              <rdg wit="#R #U">oppugnantibus</rdg>
+            </app> auditus sit, nec prius Romana <app>
+              <lem>inclinata acies</lem>
+              <rdg wit="#G #s">acies inclinata</rdg>
+            </app>, quam manu equitis cui Ducario nomen erat, consulem tota acie uolitantem
+            interfectum fama uulgauit. <num>7</num> Tunc Romani spoliati praesidio ducis ac omni spe
+            destituti terga uerterunt, alii montes alii lacum petentes, quorum multi in <app>
+              <lem>fuga</lem>
+              <rdg wit="#F">fugam</rdg>
+            </app> sunt comprehensi atque interfecti. Cecidere in ea pugna ex copiis Romanorum ad
+            .XV. milia hominum et ad .X. milia uariis itineribus euasere. <num>8</num> Fuisse etiam
+            dicuntur sex milia peditum qui ab initio pugnae impetu facto saltum superarunt et in
+            eminenti quodam tumulo constiterunt, <app>
+              <lem>postea uero finito praelio accaepta a Poenis fide proditi fraudatique in uictoris
+                potestatem uenerunt</lem>
+              <rdg wit="#P"><del/></rdg>
+            </app>.</p>
         </div>
         <div xml:id="l29" type="section" n="29">
           <p><num xml:id="l29.1" corresp="#e29.1">29.1</num> Hannibal hac ingenti uictoria parta
@@ -493,9 +769,13 @@
             uictum caesumque cum magna parte copiarum nuntiatum est, ingens repente luctus ciuitatem
             inuasit. Alii publicam alii priuatam quidam utranque calamitatem deplorabant.
               <num>2</num> Miserabile spectaculum erat multitudinis mulierum uirorumque confluentis
-            ad portas, ut priuatim quisque de suis necessariis certior redderetur. <num>3</num>
-            Proditum quoque memoriae est mulieres duas stantes solicitis ac pendentibus animis pro
-            salute filiorum, cum praeter spem filii occurrissent, subita laetitia expirasse. </p>
+            ad portas, ut priuatim quisque de suis necessariis <app>
+              <lem>certior redderetur</lem>
+              <rdg wit="#P">redderetur certior</rdg>
+              <rdg wit="#F #N #R #S #U #W">certior fieret</rdg>
+            </app>. <num>3</num> Proditum quoque memoriae est mulieres duas stantes solicitis ac
+            pendentibus animis pro salute filiorum, cum praeter spem filii occurrissent, subita
+            laetitia expirasse. </p>
         </div>
         <div xml:id="l31" type="section" n="31">
           <p><num xml:id="l31.1" corresp="#e31.1">31.1</num> Sub idem tempus quattuor milia equitum
@@ -911,13 +1191,13 @@
             Hannibalis occasionem nacti cum omnibus copiis ad Capuam redeuntes undique cinxerunt
             urbem. Quod ubi Hannibal cognouit, cum expedito exercitu in Campaniam profectus, primo
             aduentu castra Romanorum inuadit, monitis ante Campanis, ut eodem tempore eruptionem
-            faciant. 2 Imperatores Romani ad primum <pb facs="../public/images/1478/117r.jpg"/>[117r]
-            tumultum hostium partitis inter se copiis obuiam progrediuntur. Campanis nullo negocio
-            in urbem compulsis, durior aduersus Poenum dimicatio fuit, qui cum alias saepe tum eo
-            die acerrimum imperatorem se praestitit in praelio conserendo. Tentauit etiam siqua
-            fallacia capere hostem posset. <num>3</num> Nam cum sui 10 castra Romanorum irrumpere
-            conarentur, misit quendam latinae peritum linguae, qui iussu consulum alta uoce
-            denuntiaret Romanis, ut castris iam prope amissis in proximos montes confugerent.
+            faciant. 2 Imperatores Romani ad primum <pb facs="../public/images/1478/117r.jpg"
+            />[117r] tumultum hostium partitis inter se copiis obuiam progrediuntur. Campanis nullo
+            negocio in urbem compulsis, durior aduersus Poenum dimicatio fuit, qui cum alias saepe
+            tum eo die acerrimum imperatorem se praestitit in praelio conserendo. Tentauit etiam
+            siqua fallacia capere hostem posset. <num>3</num> Nam cum sui 10 castra Romanorum
+            irrumpere conarentur, misit quendam latinae peritum linguae, qui iussu consulum alta
+            uoce denuntiaret Romanis, ut castris iam prope amissis in proximos montes confugerent.
               <num>4</num> Vox inopinata facile audientes mouisset, nisi Romani Punicis dolis
             assueti cognouissent fraudem. Itaque celeriter se inuicem confirmantes hostem pedem
             referre seque in castra recipere coegerunt.</p>
@@ -1047,18 +1327,18 @@
             Poenum exercitum ducit36. <num>2</num> Factum est autem propinquitate castrorum et
             certandi studio, ut paucis diebus ter collatis signis acie dimicarent. <num>3</num>
             Primo die cum pari prope spe usque ad noctem perduceretur pugna et ad neutram <pb
-              facs="../public/images/1478/118r.jpg"/>[118r] partem uictoria inclinaret, utrique ueluti ex composito se in
-            castra recipiunt. <num>4</num> Secundo die superior Poenus duobus prope milibus et
-            septingentis ex hostibus caesis reliquas copias in fugam uertit. 5 Tertio die Romani
-            deluendae ignominiae cupidi, quam ex proximo detrimento accaeperant, primi pugnam
-            exposcunt et a Marcello in aciem deducuntur, cuius ferociam admiratus Hannibal dixisse
-            traditur, rem cum eo hoste sibi esse gerendam, qui nec uictor nec uictus quiescere
-            posset. <num>6</num> Praelium deinde atrocius quam ullum ex superioribus fuit nitentibus
-            Romanis recens incommodum resarcire, Poenis uero indignantibus quod nuper uicti uictores
-            ultro ad pugnam prouocarent. <num>7</num> Tandem Romani a Marcello increpiti monitique
-            darent operam, ut non ante cladis quam uictoriae nuncius Romam ueniret, gradum acrius
-            intulere, nec prius dimicationi finem fecere, quam triplicata prope illata clade hostem
-            in fugam coniicerent.</p>
+              facs="../public/images/1478/118r.jpg"/>[118r] partem uictoria inclinaret, utrique
+            ueluti ex composito se in castra recipiunt. <num>4</num> Secundo die superior Poenus
+            duobus prope milibus et septingentis ex hostibus caesis reliquas copias in fugam uertit.
+            5 Tertio die Romani deluendae ignominiae cupidi, quam ex proximo detrimento accaeperant,
+            primi pugnam exposcunt et a Marcello in aciem deducuntur, cuius ferociam admiratus
+            Hannibal dixisse traditur, rem cum eo hoste sibi esse gerendam, qui nec uictor nec
+            uictus quiescere posset. <num>6</num> Praelium deinde atrocius quam ullum ex
+            superioribus fuit nitentibus Romanis recens incommodum resarcire, Poenis uero
+            indignantibus quod nuper uicti uictores ultro ad pugnam prouocarent. <num>7</num> Tandem
+            Romani a Marcello increpiti monitique darent operam, ut non ante cladis quam uictoriae
+            nuncius Romam ueniret, gradum acrius intulere, nec prius dimicationi finem fecere, quam
+            triplicata prope illata clade hostem in fugam coniicerent.</p>
         </div>
         <div xml:id="l70" type="section" n="70">
           <p><num xml:id="l70.1" corresp="#e70.1">70.1</num> Sub idem tempus simili prope ratione
@@ -1118,11 +1398,11 @@
         <div xml:id="l75" type="section" n="75">
           <p><num xml:id="l75.1" corresp="#e75.1">75.1</num> Accidit autem per id tempus, ut
             Hannibal magnis afficeretur incommodis a Claudio consule, qui primum in Lucanis
-            adhibitis etiam Punica arte insidiis <pb facs="../public/images/1478/118v.jpg"/>[118v] hostem fudit.
-              <num>2</num> Deinde in Apulia prope Venusiam Poeno congressus tumultuariam pugnam
-            tanto impetu conseruit, ut magnum numerum hostium interficeret. Quo detrimento affectus
-            Hannibal extemplo ad reparandum exercitum Metapontum se contulit. <num>3</num> Ibi
-            paucos moratus dies copias ab Hannone accipit et suis adiungit, ac rursus Venusiam
+            adhibitis etiam Punica arte insidiis <pb facs="../public/images/1478/118v.jpg"/>[118v]
+            hostem fudit. <num>2</num> Deinde in Apulia prope Venusiam Poeno congressus tumultuariam
+            pugnam tanto impetu conseruit, ut magnum numerum hostium interficeret. Quo detrimento
+            affectus Hannibal extemplo ad reparandum exercitum Metapontum se contulit. <num>3</num>
+            Ibi paucos moratus dies copias ab Hannone accipit et suis adiungit, ac rursus Venusiam
             repetit. <num>4</num> Claudius non longe a Venusia habebat castra et interceptis hostium
             litteris cum Hasdrubalem appropinquare cognouisset. <num>5</num> Dies noctesque agitabat
             animo, quibus modis efficere posset, ne tantorum ducum copiae simul iungerentur. Itaque
@@ -1183,23 +1463,24 @@
             expositis Asdrumentum primo atque inde Zamam profectus, cum cognouisset quo statu res
             Carthaginensium essent, commodissimum esse statuit de finiendo bello consilium inire. 2
             Itaque placuit ei, ut ad Scipionem mitteret, qui ab eo postularent, ut aliquem locum
-            medium utriusque colloquio diligeret, uelle sese de summis rebus cum <pb facs="../public/images/1478/119r.jpg"
-            />[119r] eo agere. 3 Nec satis constat utrum iussu senatus an priuato consilio id factum
-            a Poeno sit. Colloquii renuendi Scipioni causa non est uisa. <num>4</num> Quamobrem
-            constituto die conuenere in patenti campo cum singulis interpretibus duo celeberrimi
-            duces et potentissimarum gentium imperatores diuersis sententiis de pace et bello
-            sermonem habituri. <num>5</num> Nam Hannibal maxime ad pacem inclinauerat animum, quod
-            cernebat rem Carthaginensium deteriorem in dies fieri, Siciliam Sardiniam Hispanias iam
-            esse amissas, bellum ex Italia in Aphricam translatum, Siphacem potentissimum regem a
-            Romanis captum. <num>6</num> Omnem spem salutis in iis copiis esse repositam, quas ipse
-            uelut diuturni belli reliquias ex Italia traiecisset, quibus siquid durius contingeret,
-            uix tantum Carthaginensibus uel externi uel ciuilis roboris superesse, ut ad tuenda
-            Carthaginis moenia sufficere posset. <num>7</num> Itgitur longa oratione usus
-            uehementissime contendit Scipionem in eam sententiam trahere, ut pacem quam bellum
-            mallet. Sed Scipio cum in magna spe esset conficiendi belli, a pacis consiliis abhorrere
-            uidebatur. <num>8</num> Itaque post longum sermonem ultro citroque habitum re infecta ex
-            colloquio discesserunt. Nec multo interiecto spacio praelium illud memorabile apud Zamam
-            conseruerunt, quod secundissimum Romanis accidit.</p>
+            medium utriusque colloquio diligeret, uelle sese de summis rebus cum <pb
+              facs="../public/images/1478/119r.jpg"/>[119r] eo agere. 3 Nec satis constat utrum
+            iussu senatus an priuato consilio id factum a Poeno sit. Colloquii renuendi Scipioni
+            causa non est uisa. <num>4</num> Quamobrem constituto die conuenere in patenti campo cum
+            singulis interpretibus duo celeberrimi duces et potentissimarum gentium imperatores
+            diuersis sententiis de pace et bello sermonem habituri. <num>5</num> Nam Hannibal maxime
+            ad pacem inclinauerat animum, quod cernebat rem Carthaginensium deteriorem in dies
+            fieri, Siciliam Sardiniam Hispanias iam esse amissas, bellum ex Italia in Aphricam
+            translatum, Siphacem potentissimum regem a Romanis captum. <num>6</num> Omnem spem
+            salutis in iis copiis esse repositam, quas ipse uelut diuturni belli reliquias ex Italia
+            traiecisset, quibus siquid durius contingeret, uix tantum Carthaginensibus uel externi
+            uel ciuilis roboris superesse, ut ad tuenda Carthaginis moenia sufficere posset.
+              <num>7</num> Itgitur longa oratione usus uehementissime contendit Scipionem in eam
+            sententiam trahere, ut pacem quam bellum mallet. Sed Scipio cum in magna spe esset
+            conficiendi belli, a pacis consiliis abhorrere uidebatur. <num>8</num> Itaque post
+            longum sermonem ultro citroque habitum re infecta ex colloquio discesserunt. Nec multo
+            interiecto spacio praelium illud memorabile apud Zamam conseruerunt, quod secundissimum
+            Romanis accidit.</p>
         </div>
         <div xml:id="l80" type="section" n="80">
           <p><num xml:id="l80.1" corresp="#e80.1">80.1</num> Primo concursu elephanti
@@ -1248,24 +1529,24 @@
             dicant Hannibalem ueritum ne petenti Scipioni dederetur, statim re male gesta in Asiam
             profugisse. Sed utrum subito hoc factum fuerit, an aliquanto post praelium illud ad
             Zamam commissum, parum referre arbitramur, cum satis constet eum desperatis rebus in
-            Asiam profectum exilioque <pb facs="../public/images/1478/119v.jpg"/>[119v] mulctatum ad Antiochum peruenisse.
-              <num>2</num> Fama quoque haud dubia est tam hospitaliter tamque honorifice accaeptum
-            esse a rege, ut statim publicis pariter ac priuatis consiliis adhiberetur. <num>3</num>
-            Erat enim Hannibalis nomen magna apud omnes gloria, communis insuper accedebat ira
-            communeque in Romanos odium, uehemens stimulus ad excitandum bellum. <num>4</num> Quare
-            opportune accessisse uidebatur, non solum ad inflamandum animum regis sed etiam ad
-            aperiendam uiam gerendi aduersus Romanos belli, quam unicam tantum esse dicebat, si arma
-            in Italiam transferrentur et Italici generis compararentur milites, quibus solis uictrix
-            aliarum gentium prouincia superari posset. <num>5</num> Centum nauium classem, decem et
-            sex milia peditum, mille equites petebat a rege. His copiis se Italiam intraturum
-            pollicebatur ac turbaturum Italicas gentes, quas sciret ob recentem memoriam Punici
-            gesti belli uehementer horrere Hannibalis nomen. <num>6</num> Spem insuper afferebat de
-            Punico renouando bello, si per regem sibi liceret Carthaginem mittere, qui factionem
-            Barchinam concitarent atque eorum animos permouerent, quibus imperium populi Romani erat
-            inuisum. <num>7</num> Assentiente rege Aristonem quendam Tyrum delegit hominem callidum
-            et idoneum ad hoc negocium conficiendum. Huic magnis premiis pollicitationibusque
-            persuasit, ut Carthaginem peteret, amicos conueniret et mandata quaedam uerbis suis ad
-            eos deferret.</p>
+            Asiam profectum exilioque <pb facs="../public/images/1478/119v.jpg"/>[119v] mulctatum ad
+            Antiochum peruenisse. <num>2</num> Fama quoque haud dubia est tam hospitaliter tamque
+            honorifice accaeptum esse a rege, ut statim publicis pariter ac priuatis consiliis
+            adhiberetur. <num>3</num> Erat enim Hannibalis nomen magna apud omnes gloria, communis
+            insuper accedebat ira communeque in Romanos odium, uehemens stimulus ad excitandum
+            bellum. <num>4</num> Quare opportune accessisse uidebatur, non solum ad inflamandum
+            animum regis sed etiam ad aperiendam uiam gerendi aduersus Romanos belli, quam unicam
+            tantum esse dicebat, si arma in Italiam transferrentur et Italici generis compararentur
+            milites, quibus solis uictrix aliarum gentium prouincia superari posset. <num>5</num>
+            Centum nauium classem, decem et sex milia peditum, mille equites petebat a rege. His
+            copiis se Italiam intraturum pollicebatur ac turbaturum Italicas gentes, quas sciret ob
+            recentem memoriam Punici gesti belli uehementer horrere Hannibalis nomen. <num>6</num>
+            Spem insuper afferebat de Punico renouando bello, si per regem sibi liceret Carthaginem
+            mittere, qui factionem Barchinam concitarent atque eorum animos permouerent, quibus
+            imperium populi Romani erat inuisum. <num>7</num> Assentiente rege Aristonem quendam
+            Tyrum delegit hominem callidum et idoneum ad hoc negocium conficiendum. Huic magnis
+            premiis pollicitationibusque persuasit, ut Carthaginem peteret, amicos conueniret et
+            mandata quaedam uerbis suis ad eos deferret.</p>
         </div>
         <div xml:id="l84" type="section" n="84">
           <p><num xml:id="l84.1" corresp="#e84.1">84.1</num> Ita Hannibal patria exul per totum
@@ -1316,23 +1597,23 @@
         </div>
         <div xml:id="l88" type="section" n="88">
           <p><num xml:id="l88.1" corresp="#e88.1">88.1</num> Adiecit praeterea consilium de
-            inferendo ex propinquo <pb facs="../public/images/1478/120r.jpg"/>[120r] Romanis bello, suam quoque operam ad id
-            conficiendum amplissimis uerbis pollicitus est et detulit. Auditus est Poenus summa
-            attentione sententiaque illius laudata magis quam postea re aut effectu comprobata.
-              <num>2</num> Ex quo plerique mirantur hunc ducem qui tot annos cum populo Romano
-            omnium pene gentium uictore certauerat, eo tempore posthabitum esse a rege, quo erat
-            eius opera et consilium maxime expetendum. <num>3</num> Quis enim in toto orbe terrarum
-            callidior imperator reperiri poterat? quis ad gerendum cum Romanis bellum accommodatior?
-            Hunc tamen posthabuit rex initio gerendarum rerum, nec multum tempus praeteriit, cum
-            caeterorum consilia deridens fassus est unum Hannibalem praeuidisse ea quae in rem
-            essent. <num>4</num> Nam cum bellum in Graecia prospere euenisset Romanis, cessit ex
-            Europa Antiochus et Ephesum se recepit. Ibique solutus curis pacem animo destinabat,
-            minime credens timenda esse in Asia Romana arma. <num>5</num> Nec deerat talia
-            concupiscenti adulatorum assentatio, perpetuum malum regum, qui dum ea quae uolunt,
-            libenter audiunt, se adulari sinunt et falli aequo animo patiuntur. <num>6</num> Sed
-            Hannibal, cui nota erat potentia Romanorum et dominandi cupiditas, regem monuit, ut de
-            omnibus aliis praeter, quam de pace cogitaret, Romanos crederet nunquam quieturos, nisi
-            cum experti essent, an sicut in Aphrica Europaque, ita etiam in tertia parte orbis
+            inferendo ex propinquo <pb facs="../public/images/1478/120r.jpg"/>[120r] Romanis bello,
+            suam quoque operam ad id conficiendum amplissimis uerbis pollicitus est et detulit.
+            Auditus est Poenus summa attentione sententiaque illius laudata magis quam postea re aut
+            effectu comprobata. <num>2</num> Ex quo plerique mirantur hunc ducem qui tot annos cum
+            populo Romano omnium pene gentium uictore certauerat, eo tempore posthabitum esse a
+            rege, quo erat eius opera et consilium maxime expetendum. <num>3</num> Quis enim in toto
+            orbe terrarum callidior imperator reperiri poterat? quis ad gerendum cum Romanis bellum
+            accommodatior? Hunc tamen posthabuit rex initio gerendarum rerum, nec multum tempus
+            praeteriit, cum caeterorum consilia deridens fassus est unum Hannibalem praeuidisse ea
+            quae in rem essent. <num>4</num> Nam cum bellum in Graecia prospere euenisset Romanis,
+            cessit ex Europa Antiochus et Ephesum se recepit. Ibique solutus curis pacem animo
+            destinabat, minime credens timenda esse in Asia Romana arma. <num>5</num> Nec deerat
+            talia concupiscenti adulatorum assentatio, perpetuum malum regum, qui dum ea quae
+            uolunt, libenter audiunt, se adulari sinunt et falli aequo animo patiuntur. <num>6</num>
+            Sed Hannibal, cui nota erat potentia Romanorum et dominandi cupiditas, regem monuit, ut
+            de omnibus aliis praeter, quam de pace cogitaret, Romanos crederet nunquam quieturos,
+            nisi cum experti essent, an sicut in Aphrica Europaque, ita etiam in tertia parte orbis
             terrarum extendere fines imperii possint.</p>
         </div>
         <div xml:id="l89" type="section" n="89">
@@ -1380,12 +1661,12 @@
             ex nauali praelio uictoriam reportasse. <num>2</num> Nam priusquam pugnam inirent,
             Hannibalem tradunt magnam serpentum copiam in uasa fictilia coniecisse, deinde inito
             praelio, dum omnium animos oculosque occuparet certamen, uasa in hostium naues inmisisse
-            atque eo pacto implicatos hostes et re noua perterritos in fugam <pb facs="../public/images/1478/120v.jpg"
-            />[120v] uertisse. <num>3</num> Eius autem sic gestae rei non uetustiores annales, sed
-            Aemilius et Trogus meminerunt40. Itaque fides penes auctores sit. <num>4</num> Caeterum
-            horum regum contentionibus Romam perlatis, senatus T. Flaminium, cuius ob res in Graecia
-            gestas celebre nomen est, legatum in Asiam misit, ut (quantum coniectura assequi possum)
-            cum utroque rege de pace ageret.</p>
+            atque eo pacto implicatos hostes et re noua perterritos in fugam <pb
+              facs="../public/images/1478/120v.jpg"/>[120v] uertisse. <num>3</num> Eius autem sic
+            gestae rei non uetustiores annales, sed Aemilius et Trogus meminerunt40. Itaque fides
+            penes auctores sit. <num>4</num> Caeterum horum regum contentionibus Romam perlatis,
+            senatus T. Flaminium, cuius ob res in Graecia gestas celebre nomen est, legatum in Asiam
+            misit, ut (quantum coniectura assequi possum) cum utroque rege de pace ageret.</p>
         </div>
         <div xml:id="l93" type="section" n="93">
           <p><num xml:id="l93.1" corresp="#e93.1">93.1</num> Is cum ad Prusiam uenisset, iniquo

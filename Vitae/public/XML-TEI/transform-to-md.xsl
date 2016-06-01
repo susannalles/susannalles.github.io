@@ -115,6 +115,44 @@
         </xsl:for-each>
     </xsl:template>-->
 
-    <xsl:template match="tei:note"/>
+<xsl:template match="tei:app">
+        <span class="tooltip">
+            <xsl:apply-templates select="tei:lem"></xsl:apply-templates>
+            <span class="tooltiptext">
+                <xsl:for-each select="tei:rdg">
+                    <xsl:apply-templates select="."></xsl:apply-templates>
+                    <xsl:text>&#160;</xsl:text>
+                    <xsl:apply-templates select="./@wit"></xsl:apply-templates>
+                    <xsl:text>&#160;</xsl:text>
+                </xsl:for-each>
+            </span>
+        </span>
+    
+    
+</xsl:template>
+    
+    <xsl:template match="tei:del">
+        <span class="del">
+            <xsl:apply-templates></xsl:apply-templates>
+        </span>
+    </xsl:template>
+    
+
+    <xsl:template match="tei:note">
+        <span class="nota">
+            <sup>
+                <xsl:value-of select="./@n"></xsl:value-of>
+            </sup>
+            <span class="texto_nota">
+                <xsl:value-of select="."></xsl:value-of>
+            </span>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:foreign">
+        <i>
+            <xsl:apply-templates></xsl:apply-templates>
+        </i>
+    </xsl:template>
 
 </xsl:stylesheet>
