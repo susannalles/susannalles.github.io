@@ -1,11 +1,18 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Eagle+Lake);
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
 
 h2{
-    font-family:'Eagle Lake', cursive;
+    /*font-family:'Eagle Lake', cursive;*/
+    font-family: 'Cinzel', serif;
 
 }
+
+header{
+   /* height:30%;*/
+}
 .titulo{
-    font-family:'Eagle Lake', cursive;
+    /*font-family:'Eagle Lake', cursive;*/
+    font-family: 'Cinzel', serif;
     font-size:20px;
     text-align:center;
     margin-top:-10px;

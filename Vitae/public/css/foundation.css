@@ -1158,7 +1158,8 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Cinzel', serif;
+  /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -1172,14 +1173,16 @@ button, .button {
   padding-right: 2rem;
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
-  font-size: 1rem;
-  background-color: #2ba6cb;
+  font-size: 2rem;
+  /*background-color: #2ba6cb;*/
   border-color: #2285a2;  
   border-color: #2285a2;
-  color: white;
+  /*color: white;*/
+  color: black;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #2285a2; }
+    /*background-color: #2285a2;*/ 
+    background-color: #383838;}
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -1239,7 +1242,7 @@ button, .button {
     padding-right: 1.25rem;
     padding-bottom: 0.6875rem;
     padding-left: 1.25rem;
-    font-size: 0.6875rem; }
+    font-size: 0.8rem; }
   button.expand, .button.expand {
     padding-right: 0;
     padding-left: 0;
@@ -1255,7 +1258,7 @@ button, .button {
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #2ba6cb;
+   /* background-color: #2ba6cb;*/
     border-color: #2285a2;
     color: white;
     cursor: default;
@@ -1354,7 +1357,7 @@ button::-moz-focus-inner {
     display: inline-block; }
     .button-group > li > button, .button-group > li .button {
       border-left: 1px solid;
-      border-color: rgba(255, 255, 255, 0.5); }
+      /*border-color: rgba(255, 255, 255, 0.5);*/ }
     .button-group > li:first-child button, .button-group > li:first-child .button {
       border-left: 0; }
   .button-group.stack > li {
@@ -1365,12 +1368,12 @@ button::-moz-focus-inner {
     float: none; }
     .button-group.stack > li > button, .button-group.stack > li .button {
       border-left: 1px solid;
-      border-color: rgba(255, 255, 255, 0.5); }
+      /*border-color: rgba(255, 255, 255, 0.5);*/ }
     .button-group.stack > li:first-child button, .button-group.stack > li:first-child .button {
       border-left: 0; }
     .button-group.stack > li > button, .button-group.stack > li .button {
       border-top: 1px solid;
-      border-color: rgba(255, 255, 255, 0.5);
+      /*border-color: rgba(255, 255, 255, 0.5);*/
       border-left-width: 0px;
       margin: 0;
       display: block; }
