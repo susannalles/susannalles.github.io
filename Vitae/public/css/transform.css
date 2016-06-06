@@ -15,9 +15,10 @@ h2{
     font-weight:bold;
     color:#2BA6CB;
 }
-p{
-    text-align:justify;
-}
+
+/*p{
+    text-align:left;
+}*/
 
 .persName{
     font-weight:bold;
@@ -33,6 +34,9 @@ p{
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
+    /*color:red;*/
+    text-decoration:none;
+    display:inline;
 }
 
 .tooltip .tooltiptext {
@@ -86,9 +90,10 @@ p{
 .nota:hover .texto_nota {
     visibility: visible;
 }
-.del{
+.corr{
     text-decoration: line-through;
 }
+
 
 sup{
     color: #cc0099;

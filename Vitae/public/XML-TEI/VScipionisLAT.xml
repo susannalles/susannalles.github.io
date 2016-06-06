@@ -8,13 +8,46 @@
                 <author/>
             </titleStmt>
             <editionStmt>
-                <edition><date/></edition>
+                <edition>
+                    <date/>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <p>no publication statement available</p>
             </publicationStmt>
             <sourceDesc>
-                <p>Written by OpenOffice</p>
+                <listWit>
+                    <head>Manuscritos</head>
+                    <witness xml:id="D">Madrid, Biblioteca Nacional de España, RES/211 (Hh52; Vit.
+                        4-3; Toledo 51, 3), ff. 274-306</witness>
+                    <witness xml:id="E">Modena, Biblioteca Estense, Est. lat. 597 (Alpha N 5, 8),
+                        ff. 70v-107 F = Firenze, Biblioteca Nazionale Centrale di Firenze, Magl.
+                        XXIII, 26, ff. 1-78</witness>
+                    <witness xml:id="G">Gent, Centrale Bibliotheek der Rijksuniversiteit, ms. 109,
+                        ff. 176-207 M = Firenze, Biblioteca Nazionale Centrale di Firenze, Magl.
+                        XXIII, 154, ff. 1-76v</witness>
+                    <witness xml:id="N">Napoli, Biblioteca Nazionale di Napoli, XIII A A 19, ff.
+                        1-65v</witness>
+                    <witness xml:id="P">Firenze, Biblioteca Laurenziana, Plut. 52, cod. XI, ff.
+                        55-96</witness>
+                    <witness xml:id="R">Città del Vaticano, Biblioteca Apostolica Vaticana, Reg.
+                        lat. 768, ff. 115-172</witness>
+                    <witness xml:id="S">Firenze, Biblioteca Laurenziana, Strozz. 53, ff.
+                        279-299</witness>
+                    <witness xml:id="U">Città del Vaticano, Biblioteca Apostolica Vaticana, Urb.
+                        lat. 448, ff. 274-309</witness>
+                    <witness xml:id="W">Modena, Biblioteca Estense, Est. lat. 429 (Alpha W 1, 4),
+                        ff. 213-245</witness>
+                </listWit>
+                <listWit>
+                    <head>Ediciones</head>
+                    <witness xml:id="r">r = Plutarchus, Vitae illustrium virorum, ed. J. A.
+                        Campanus, Uldaricus Gallus (Ulrich Han), [Roma ca. 1470] (editio princeps) </witness>
+                    <witness xml:id="s">s = Plutarchus, Vitae illustrium virorum, [Adolf Rusch,
+                        Estrasburgo ca. 1471] </witness>
+                    <witness xml:id="v">v = Plutarchus, Vitae illustrium virorum, Nicolaus Jenson,
+                        Venetiis 1478 </witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -26,20 +59,24 @@
                 <div type="title"/>
 
                 <div xml:id="lVS1" type="section" n="1">
-                    <p><num>1.1</num> [121r] Cornelio Scipioni, qui primus nomine uictae a se gentis
-                        Africanus est dictus, patrem fuisse constat Publium Scipionem, uirum
-                        patritium ex nobilissima Corneliorum gente, cum quo primum Romano imperatore
-                        Hannibal Poenus signa in Italia contulit. <num>2</num> Is, cum multas esset
-                        in Hispania uictorias consecutus resque gessisset memoratu dignas, demum
-                        quodam praelio aduersus hostes initio dum sese offert, ubi plurimus labor
-                        plurimum periculi erat, subito perculsus ictu occiditur. Simili pene casu
-                        Cn. Scipio, eius frater, paucis post diebus fortiter pugnans interiit.
-                            <num>3</num> Amboque ii imperatores praeter rerum gestarum nomen, magnum
-                        quoque fidei temperantiae uirtutis desiderium non modo militibus suis qui
-                        superfuere, sed etiam Hispanis gentibus reliquerunt. <num>4</num> At uero
-                        Cn. Scipionis P. Cornelius Nasica filius fuit, uir consularis
-                        triumphalisque, qui adolescens cum esset pro accipienda matre Idea in tota
-                        ciuitate est uir optimus iudicatus. </p>
+                    <p><num>1.1</num> [121r] <app>
+                            <lem>Cornelio</lem>
+                            <rdg wit="#F #M #N #R #U #W #s">Publio Cornelio</rdg>
+                            <rdg wit="#S">P. Cornelio</rdg>
+                        </app> Scipioni, qui primus nomine uictae a se gentis Africanus est dictus,
+                        patrem fuisse constat Publium Scipionem, uirum patritium ex nobilissima
+                        Corneliorum gente, cum quo primum Romano imperatore Hannibal Poenus signa in
+                        Italia contulit. <num>2</num> Is, cum multas esset in Hispania uictorias
+                        consecutus resque gessisset memoratu dignas, demum quodam praelio aduersus
+                        hostes initio dum sese offert, ubi plurimus labor plurimum periculi erat,
+                        subito perculsus ictu occiditur. Simili pene casu Cn. Scipio, eius frater,
+                        paucis post diebus fortiter pugnans interiit. <num>3</num> Amboque ii
+                        imperatores praeter rerum gestarum nomen, magnum quoque fidei temperantiae
+                        uirtutis desiderium non modo militibus suis qui superfuere, sed etiam
+                        Hispanis gentibus reliquerunt. <num>4</num> At uero Cn. Scipionis P.
+                        Cornelius Nasica filius fuit, uir consularis triumphalisque, qui adolescens
+                        cum esset pro accipienda matre Idea in tota ciuitate est uir optimus
+                        iudicatus. </p>
                 </div>
 
                 <div xml:id="lVS2" type="section" n="2">
@@ -50,17 +87,33 @@
                         non tam ut eius nomen a Graecis Latinisque scriptoribus celebratum his
                         litteris fieret illustrius, quam ut rerum gestarum series et domestica
                         disciplina esset nostra opera in oculis hominum collocata, quam ueluti
-                        imaginem praeclarae uirtutis imperatores et duces cum intuerentur,
-                        imitatione dignissimam iudicarent.</p>
+                        imaginem praeclarae uirtutis imperatores et duces <app>
+                            <lem>cum</lem>
+                            <rdg wit="#P">eorum</rdg>
+                            <rdg wit="#S #U">eam</rdg>
+                        </app> intuerentur, imitatione dignissimam iudicarent.</p>
                 </div>
 
                 <div xml:id="lVS3" type="section" n="3">
-                    <p><num>3.1</num> P. Cornelius Scipio iam inde a pueritia cum eximiae indolis et
-                        summae uirtutis specimen prae se ferret, sub auspicio patris coepit
-                        disciplinis militaribus erudiri. <num>2</num> Ductus est enim in castra
-                        initio Secundi Punici belli .VII. et .X. agens annum, ac breuis temporis
-                        spatio factum est, ut magnam laudem a summo uiro et ab exercitu
-                        consequeretur, equitando uigilando omnia militari labore tolerando.
+                    <p><num>3.1</num>
+                        <app>
+                            <lem>P. Cornelius Scipio</lem>
+                            <rdg wit="#U">P. Scipio Cornelius</rdg>
+                        </app> iam inde a pueritia cum eximiae indolis et summae uirtutis specimen
+                        prae se ferret, sub auspicio patris coepit disciplinis militaribus erudiri.
+                            <num>2</num> Ductus est enim in castra initio Secundi <app>
+                            <lem>Punici belli</lem>
+                            <rdgGrp>
+                                <rdg wit="#F #M #N #P #R #U">Punici <del>belli</del></rdg>
+                            </rdgGrp>
+                            <rdgGrp>
+                                <rdg wit="#S">belli punici</rdg>
+                            </rdgGrp>
+                        </app> .VII. et .X. agens annum, ac <app>
+                            <lem>breuis</lem>
+                            <rdg wit="#F #G #M #N #P #R #S #U #W"><del/></rdg>
+                        </app> temporis spatio factum est, ut magnam laudem a summo uiro et ab
+                        exercitu consequeretur, equitando uigilando omnia militari labore tolerando.
                             <num>3</num> Ea insuper documenta animi atque ingenii dedit, ut gratiam
                         simul adipisceretur et admirationem gentium commoueret. <num>4</num> Nam
                         equestri praelio quod ad Ticinum amnem P. Cornelius consul cum Hanniable
@@ -92,9 +145,14 @@
                         aliquis dux singulari uirtute in eorum locum succederet, nemo reperiebatur,
                         qui ad hoc graue et periculosum bellum post tantorum imperatorum interitum
                         proficisci auderet. <num>2</num> Itaque habitis comitiis ut proconsul
-                        crearetur, cum caeteri reipublicae principes in tanta facultate silerent,
-                        unus Scipio .IIII. et uiginti annos natus in medium [121v] prosiliens
-                        ingenti fiducia professus est se hoc munus libenti animo suscepturum.</p>
+                        crearetur, cum caeteri reipublicae principes in tanta <app>
+                            <lem>facultate</lem>
+                            <rdg wit="#F #M #N #P #R #S #U #W"/>
+                        </app> silerent, unus Scipio .IIII. et uiginti <app>
+                            <lem>annos natus</lem>
+                            <rdg wit="#P">natus annos</rdg>
+                        </app> in medium [121v] prosiliens ingenti fiducia professus est se hoc
+                        munus libenti animo suscepturum.</p>
                 </div>
 
                 <div xml:id="lVS6" type="section" n="6">
@@ -106,23 +164,45 @@
                         momento temporis quasi iam decretae rei centurias poeniteret magna animorum
                         commutatio facta est. <num>2</num> Quod ubi animaduertit Scipio, statim
                         aduocata concione sic de aetate sua ac de bello quod gerendum erat
-                        disseruit, ut ad se unum intuendum omnes audientes conuerteret, et ad
-                        pristinam spem bene gerendae rei populum Romanum animi aliisque uirtutibus
-                        uehementer excellens, sed praestans etiam pulchritudine oris et totius
-                        corporis forma conspicuus laeta atque hilari fronte, quae plurimum ualent ad
-                        gratiam hominum conciliandam. </p>
+                        disseruit, ut ad se unum <app>
+                            <lem>intuendum</lem>
+                            <rdg wit="#R">imitandum intuendum</rdg>
+                            <rdg wit="#U">audiendum</rdg>
+                        </app> omnes <app>
+                            <lem>audientes</lem>
+                            <rdg wit="#U">intuentes</rdg>
+                        </app> conuerteret, et ad pristinam spem bene gerendae rei populum <app>
+                            <lem>Romanum animi</lem>
+                            <rdg wit="#F #M #N #P #R #S #U #W">romanum reuocaret. Fuit enim Scipio
+                                non solum molestia liberalitate: magnitudine animi</rdg>
+                        </app> aliisque uirtutibus uehementer excellens, sed praestans etiam
+                        pulchritudine oris et totius corporis forma conspicuus laeta atque hilari
+                        fronte, quae plurimum ualent ad gratiam hominum conciliandam. </p>
                 </div>
 
                 <div xml:id="lVS7" type="section" n="7">
-                    <p><num>7.1</num> Habebat et in gestu et in motu summam dignitatem, ad haec
-                        animi bona muneraque naturae cum militaris accederet gloria dubium erat
-                        gratior ne gentibus domesticis uirtutibus an mirabilior bellicis artibus
-                        foret. <num>2</num> Imbuerat etiam animos multitudinis superstitione quadam,
-                        quod singulis diebus ex quo uirilem togam sumpserat, in Capitolium ascendere
-                        ac sine arbitris aedem ingredi consueuit, ut crederent homines sicut iam
-                        multo ante Numam Pompilium ab Aegeria nympha, sic etiam archana quaedam in
-                        templo doceri, quae caeteris non essent communia. <num>3</num> Praeterea ut
-                        olim de Alexandro Macedonum rege, sic ea tempestate de Scipione quidam
+                    <p><num>7.1</num>
+                        <app>
+                            <lem>Habebat et</lem>
+                            <rdg wit="#F #N #P #R #U #W">Habebat preterea et</rdg>
+                            <rdg wit="#M">Habebat preterea</rdg>
+                        </app> in gestu et in motu summam dignitatem, ad haec animi bona muneraque
+                        naturae cum militaris accederet gloria dubium erat gratior ne gentibus
+                        domesticis uirtutibus an mirabilior bellicis artibus foret. <num>2</num>
+                        Imbuerat etiam animos multitudinis superstitione quadam, quod singulis
+                        diebus ex quo uirilem togam sumpserat, in Capitolium ascendere ac sine
+                        arbitris aedem ingredi consueuit, ut crederent homines sicut iam multo ante
+                        Numam Pompilium ab <app>
+                            <lem>Aegeria</lem>
+                            <rdg wit="#G #U">egregia</rdg>
+                        </app> nympha<note n="2">La anéctoda es explicada por Plutarco, Num. IV,
+                            donde relata cómo la ninfa Egeria amaba e instruía a Numa.</note>, sic <app>
+                            <lem>etiam archana</lem>
+                            <rdg wit="#E #N #P #S #W #r #s">etiam ipsum archana</rdg>
+                            <rdg wit="#F #M">etiam ipsam archana</rdg>
+                        </app> quaedam in templo doceri, quae caeteris non essent communia.
+                            <num>3</num> Praeterea ut olim de Alexandro Macedonum rege<note n="3"
+                            >Plutarco, Alex. II.</note>, sic ea tempestate de Scipione quidam
                         finxisse uidentur anguem in cubiculo matris frequenter uisam.</p>
                 </div>
 
@@ -132,7 +212,10 @@
                         Hispaniam proficiscitur ac paucis diebus, ad emporia delatus, copias exponit
                         terrestrique itinere Tarraconem concedit. <num>2</num> Ibi concilio indicto
                         legati ex sociis urbibus frequentes conuenere, qui comiter benigneque
-                        accepti grata responsa domum rettulerunt.</p>
+                        accepti grata responsa <app>
+                            <lem>domum rettulerunt</lem>
+                            <rdg wit="#S">retulerunt domum</rdg>
+                        </app>.</p>
                 </div>
 
                 <div xml:id="lVS9" type="section" n="9">
@@ -153,17 +236,25 @@
                 </div>
 
                 <div xml:id="lVS10" type="section" n="10">
-                    <p><num>10.1</num> Exacta hyeme cum nouum ueteremque exercitum ex hybernis
-                        deduxisset, omnium primum Carthaginem Nouam oppugnare constituit. Nulla enim
-                        ex Hispanis ciuitatibus opulentior habebatur, nulla commodior erat ad bellum
-                        terra marique gerendum. <num>2</num> Quin etiam Carthaginensium duces omnem
-                        apparatum belli et quicquid precio dignum habebant, in hanc urbem
-                        congesserant. Eam quoque ac eius arcem ualidis praesidiis munierant.
-                            <num>3</num> Ipsi uero ne tribus una regio premeretur, diuersa petierant
-                        loca, nihil minus eo tempore quam Carthaginis oppugnationem timentes.
-                            <num>4</num> Scipio iam omnibus necessariis comparatis ad eam obsidendam
-                        cum omni exercitu profectus terra marique urbem aggreditur. Negocium arduum
-                        et diuturnum apparebat futurum, quod urbs munita erat et defensores ita
+                    <p><num>10.1</num>
+                        <app>
+                            <lem>Exacta hyeme</lem>
+                            <rdg wit="#P"><del/></rdg>
+                        </app> cum nouum ueteremque exercitum ex hybernis deduxisset, omnium primum
+                        Carthaginem Nouam oppugnare constituit. Nulla enim ex Hispanis ciuitatibus
+                        opulentior habebatur, nulla commodior erat ad bellum terra marique gerendum.
+                            <num>2</num> Quin etiam Carthaginensium duces omnem apparatum belli et
+                        quicquid precio dignum habebant, in hanc urbem congesserant. Eam quoque ac
+                        eius arcem ualidis praesidiis munierant. <num>3</num> Ipsi uero ne <app>
+                            <lem>tribus una</lem>
+                            <rdg wit="#F #M #N #R #S #W #r #s">tribus exercitibus una</rdg>
+                        </app> regio premeretur, diuersa petierant loca, <app>
+                            <lem>nihil minus</lem>
+                            <rdg wit="#U">nihilominus</rdg>
+                        </app> eo tempore quam Carthaginis oppugnationem timentes. <num>4</num>
+                        Scipio iam omnibus necessariis comparatis ad eam obsidendam cum omni
+                        exercitu profectus terra marique urbem aggreditur. Negocium arduum et
+                        diuturnum apparebat futurum, quod urbs munita erat et defensores ita
                         animati, ut non modo tueri Carthaginis moenia, sed etiam erumpere in hostem
                         et castra Romanorum aggredi auderent. Verum multa interdum quae uiribus
                         superati non possunt, ingenio conficiuntur.</p>
@@ -172,20 +263,35 @@
                 <div xml:id="lVS11" type="section" n="11">
                     <p><num>11.1</num> Compertum habebat Scipio stagnum, quod haud procul abest a
                         Carthaginis moenibus aestu maritimo decrescere et uado ea parte transiri
-                        posse, unde ad murum facilius esset accessus. <num>2</num> Tali occasione,
-                        qua nulla maior ad capiendam Carthaginem dari poterat, utendum ratus, cum
-                        tempus commodum uisum est, expediri acies et distributis [122r] copiis urbem
-                        uehementius quam unquam antea oppugnari iubet. <num>3</num> Ipse interim
-                        fortissimorum uirorum manum deligit, quibus imperat superato stagno in murum
-                        ab ea parte, quae minime suspecta erat euadant. <num>4</num> At hi quibus
-                        negocium datum est, prospere traiecto stagno, cum ex alia parte urbis
-                        acerrime pugnaretur, locum quem petebant neglectum inueniunt, celeriterque
-                        scandentes murum hostes a tergo adoriuntur. <num>5</num> Oppidani et externi
-                        praesidii milites, quibus tantum repentini periculi praeter opinionem
-                        acciderat extemplo moenia deserunt, ancipitique pauentes malo se in fugam
-                        coniiciunt. <num>6</num> Instant tergis Romani, subitoque urbem capiunt
-                        diripiuntque, ubi ingens praeda et omnium rerum quae ad bellum usui erant
-                        summa est facultas inuenta.</p>
+                        posse, unde ad murum <app>
+                            <lem>facilius</lem>
+                            <rdg wit="#F #M #N #R #S #W #r #s">facilis</rdg>
+                        </app> esset accessus. <num>2</num> Tali occasione, qua nulla maior ad
+                        capiendam Carthaginem dari poterat, utendum ratus, cum tempus commodum uisum
+                        est, <app>
+                            <lem>expediri acies</lem>
+                            <rdg wit="#F #M #N #P #R #S #U #W">acies expediri</rdg>
+                        </app> et distributis [122r] copiis urbem uehementius quam unquam antea
+                        oppugnari iubet. <num>3</num> Ipse interim fortissimorum uirorum manum
+                        deligit, quibus imperat superato stagno <app>
+                            <lem>in murum ab ea parte, quae minime suspecta erat euadant.
+                                    <num>4</num> At hi quibus negocium datum est, prospere traiecto
+                                stagno,</lem>
+                            <rdgGrp>
+                                <rdg wit="#R"><del/></rdg>
+                            </rdgGrp>
+                            <rdgGrp>
+                                <rdg wit="#P">ut murum...</rdg>
+                                <!-- revisar -->
+                            </rdgGrp>
+                        </app> cum ex alia parte urbis acerrime pugnaretur, locum quem petebant
+                        neglectum inueniunt, celeriterque scandentes murum hostes a tergo
+                        adoriuntur. <num>5</num> Oppidani et externi praesidii milites, quibus
+                        tantum repentini periculi praeter opinionem acciderat extemplo moenia
+                        deserunt, ancipitique pauentes malo se in fugam coniiciunt. <num>6</num>
+                        Instant tergis Romani, subitoque urbem capiunt diripiuntque, ubi ingens
+                        praeda et omnium rerum quae ad bellum usui erant summa est facultas
+                        inuenta.</p>
                 </div>
 
                 <div xml:id="lVS12" type="section" n="12">
@@ -205,12 +311,15 @@
                     <p><num>13.1</num> Sed omnium primum eius famam et beniuolentiam auxit id quod a
                         cunctis scriptoribus ut summae uirtutis exemplum celebratur. Adducta est
                         enim in conspectum imperatoris una ex captiuis uirgo longe ante alias specie
-                        ac pulchritudine insignis. <num>2</num> Hanc et Scipio custodiri
-                        diligentissime et seruari integerrime iussit, pauloque post cum desponsatam
-                        comperisset Luceio principi Celtiberorum, sponso ad se accito (is adolescens
-                        erat) integram inuiolatamque restituit. <num>3</num> Res est profecto
-                        celebranda litteris et ipse Scipio dignus ut tantae mansuetudinis et
-                        continentiae ab omnibus scriptoribus ferat fructum. <num>4</num> Huius
+                        ac pulchritudine insignis. <num>2</num>
+                        <app>
+                            <lem>Hanc et Scipio custodiri</lem>
+                            <rdg wit="#F #M #N #P #R #S #U #W">Hanc Scipio et custodiri</rdg>
+                        </app> diligentissime et seruari integerrime iussit, pauloque post cum
+                        desponsatam comperisset Luceio principi Celtiberorum, sponso ad se accito
+                        (is adolescens erat) integram inuiolatamque restituit. <num>3</num> Res est
+                        profecto celebranda litteris et ipse Scipio dignus ut tantae mansuetudinis
+                        et continentiae ab omnibus scriptoribus ferat fructum. <num>4</num> Huius
                         beneficii memor Luceius, cum liberalitatem modestiam et singularem in omni
                         genere uirtutis praestantiam Romani ducis per suos populos diuulgasset.</p>
                 </div>
@@ -222,96 +331,149 @@
                         opinionem gentium et summam uniuersi belli esset detrimenti acceptum, tamen
                         rem primo tegere, deinde uulgata extenuare uerbis quoad poterant nitebantur.
                             <num>3</num> Scipio uero multis populis principibusque Hispanis, inter
-                        quos duo reguli Mandonius et Indibilis fuere sibi adiunctis, constituit
-                        animo in ea loca iter facere, quibus in locis Hasdrubalem Barchinum esse
-                        audiebat, ut prius cum eo quam Mago et alter Hasdrubal se ei coniungerent
-                        decertaret.</p>
+                        quos duo reguli Mandonius et Indibilis <app>
+                            <lem>fuere</lem>
+                            <rdg wit="#P">fuerunt</rdg>
+                        </app> sibi adiunctis, constituit animo in ea loca iter facere, quibus in
+                        locis Hasdrubalem Barchinum esse audiebat, ut prius cum eo quam Mago et
+                        alter Hasdrubal se ei coniungerent decertaret.</p>
                 </div>
 
                 <div xml:id="lVS15" type="section" n="15">
-                    <p><num>15.1</num> Hasdrubal Barchinus prope flumen Besuliam habebat castra,
-                        auidus et ipse certaminis et suis copiis satis fidens, uerum ubi
+                    <p><num>15.1</num> Hasdrubal Barchinus prope <app>
+                            <lem>flumen Besuliam habebat castra</lem>
+                            <rdgGrp>
+                                <rdg wit="#P">Bessulam flumen castra habebat</rdg>
+                            </rdgGrp>
+                            <rdgGrp>
+                                <rdg wit="#F #M #N #R #S #U #W">flumen Besulam habebat castra</rdg>
+                            </rdgGrp>
+                        </app>, auidus et ipse certaminis et suis copiis satis fidens, uerum ubi
                         appropinquare Scipionem cognouit, ex planitie in tumulum quemdam satis
-                        natura munitum sese recepit, <num>2</num> quem insecutae Romanae legiones
-                        nullam moram interponendam putarunt, quin cedenti instarent hosti et primo
-                        aduentu castra adorirentur, non secus quam si una expugnaretur urbs, circa
-                        castra pugnatum est. <num>3</num> Carthaginenses natura loci et necessitate,
-                        quae etiam ignauos excitare solet, fidentes impetum hostium sustinere
-                        nitebantur. Romani econtra spe et audacia pleni acriter dimicabant, atque eo
-                        magis quod in conspectu Scipionis atque omnis exercitus res gerebatur, ut
-                        nullum paulo fortius factum latere posset. <num>4</num> Itaque non prius
-                        remissa oppugnatio est quam omni conatu annixi Romani uallum superarunt,
-                        pluribusque locis castra irrumpentes in fugam compulerunt Poenum. Hasdrubal
-                        uero dux priusquam castra in potestatem Romanorum uenissent, cum paucis
-                        militibus fugit.</p>
+                        natura munitum sese recepit, <num>2</num> quem insecutae Romanae <app>
+                            <lem>legiones</lem>
+                            <rdg wit="#s">legionis</rdg>
+                        </app> nullam moram interponendam putarunt, quin cedenti instarent hosti et
+                        primo aduentu castra adorirentur, non secus quam si una expugnaretur urbs,
+                        circa castra pugnatum est. <num>3</num>
+                        <app>
+                            <lem>Carthaginenses natura</lem>
+                            <rdg wit="#P">Carthaginenses et natura</rdg>
+                        </app> loci et necessitate, quae etiam ignauos excitare <app>
+                            <lem>solet</lem>
+                            <rdg wit="#R">solent</rdg>
+                        </app>, fidentes impetum hostium sustinere nitebantur. Romani <app>
+                            <lem>econtra</lem>
+                            <rdg wit="#F #M #N #R #S #U #W">contra</rdg>
+                            <rdg wit="#P">contra et</rdg>
+                        </app> spe et audacia pleni acriter dimicabant, atque eo magis quod in
+                        conspectu Scipionis atque omnis exercitus res gerebatur, <app>
+                            <lem>ut</lem>
+                            <rdg wit="#M #U">et</rdg>
+                        </app> nullum paulo fortius factum latere posset. <num>4</num> Itaque non
+                        prius remissa oppugnatio est quam omni conatu annixi Romani uallum
+                        superarunt, pluribusque locis castra irrumpentes in fugam compulerunt
+                        Poenum. Hasdrubal uero dux priusquam castra in potestatem Romanorum
+                        uenissent, cum paucis militibus fugit.</p>
                 </div>
 
                 <div xml:id="lVS16" type="section" n="16">
-                    <p><num>16.1</num> Hoc praelio facto Scipio consuetudine sua omnis captiuos
-                        Hispani generis ad se uocari et sine precio dimitti iussit. Adolescentem ex
-                        his regii generis Masinissae nepotem comiter benigneque acceptum ad
-                        Masinissam remisit, magnificentissima quoque adiecit dona, ut ostenderet
-                        imperatorem exercitus non minus liberalitate et domesticis uirtutibus, quam
-                        bellicis artibus ornatum esse oportere. <num>2</num> Est enim belli finis
-                        uictoria, cuius fructus maxime in liberalitate claementiaque consistit. Hinc
-                        ducum gloria, hinc imperatoriae laudes emanant, ut in praesentibus accidit
-                        rebus. <num>3</num> Nam Hispanorum multitudo quae ibi frequens aderat, hanc
-                        indulgentiam Romani ducis admirata contineri non poterat, quin eum honoris
-                        et uirtutis gratia appellaret regem. <num>4</num> Sed Scipio hanc uocem
-                        Romanis auribus insuetam subito oppressit, nec eum titulum sibi tribui
-                        passus est, quem optimorum ciuium consuetudini et Romanae libertati aduersum
-                        esse sciebat. <num>5</num> Hortatus est tantum Hispanas gentes, ut si in
-                        referenda gratia memores esse uellent, fidem in populum Romanum [122v]
+                    <p><num>16.1</num> Hoc praelio facto Scipio consuetudine sua <app>
+                            <lem>omnis</lem>
+                            <rdg wit="#s">omnes</rdg>
+                        </app> captiuos Hispani generis ad se uocari et sine precio dimitti iussit.
+                        Adolescentem ex his regii generis Masinissae nepotem comiter benigneque
+                        acceptum ad Masinissam remisit, magnificentissima quoque adiecit dona, ut
+                        ostenderet imperatorem exercitus non minus liberalitate et domesticis
+                        uirtutibus, quam bellicis artibus ornatum esse oportere. <num>2</num> Est
+                        enim belli finis uictoria, cuius fructus maxime in liberalitate
+                        claementiaque consistit. Hinc ducum gloria, hinc imperatoriae laudes
+                        emanant, ut in praesentibus accidit rebus. <num>3</num> Nam Hispanorum
+                        multitudo quae ibi frequens aderat, hanc indulgentiam Romani ducis admirata
+                        contineri non poterat, quin eum honoris et uirtutis gratia appellaret regem.
+                            <num>4</num> Sed Scipio hanc uocem Romanis auribus insuetam subito
+                        oppressit, nec eum titulum sibi tribui passus est, quem optimorum ciuium
+                        consuetudini et Romanae libertati aduersum esse sciebat. <num>5</num>
+                        Hortatus est tantum Hispanas gentes, ut si in <app>
+                            <lem>referenda</lem>
+                            <rdg wit="#U">ferenda</rdg>
+                        </app> gratia memores esse uellent, fidem in populum Romanum [122v]
                         beniuolentiaque seruarent.</p>
                 </div>
 
                 <div xml:id="lVS17" type="section" n="17">
-                    <p><num>17.1</num> Dum haec a Scipione gerebantur, interim alii duo
-                        Carthaginensium duces accepto nuncio male gestae ad Besulam rei iungere
-                        copias properarunt, pauloque post Hasdrubali Barchino se coniunxerunt, ut
-                        comuni consilio de summa belli decernerent. <num>2</num> Itaque inter se
-                        collocuti post longam disceptationem in ea sententia conuenere, ut Hasdrubal
-                        Barchinus in Italiam ubi Hannibal frater et caput belli erat transiret, Mago
-                        uero et alter Hasdrubal in Hispania remanerent, supplementum a Carthagine
-                        peterent, nec prius cum imperatore Romano signa conferrent, quam undique
-                        conuocatis auxiliis ingentes copias contraxissent. <num>3</num> Post haec
-                        petente Italiam Hasdrubale, missus est ex Africa in eius locum imperator
-                        Hanno, quem primo aduentu Celtiberiam concitantem Marcus Scyllanus iussu
-                        Scipionis aggreditur, praelioque commisso superat capitque.</p>
+                    <p><num>17.1</num> Dum haec a Scipione gerebantur, interim alii duo <app>
+                            <lem>Carthaginensium</lem>
+                            <rdg wit="#s">Carthamensium</rdg>
+                        </app> duces accepto nuncio male <app>
+                            <lem>gestae ad Besulam rei</lem>
+                            <rdg wit="#s">geste rei ad Besulam</rdg>
+                        </app> iungere copias properarunt, pauloque post Hasdrubali Barchino se
+                        coniunxerunt, ut comuni consilio de summa belli decernerent. <num>2</num>
+                        Itaque inter se collocuti post longam disceptationem in ea sententia
+                        conuenere, ut Hasdrubal Barchinus in Italiam ubi Hannibal frater et caput
+                        belli erat transiret, Mago uero et alter Hasdrubal in Hispania remanerent,
+                        supplementum a Carthagine peterent, nec prius cum imperatore Romano signa
+                        conferrent, quam undique conuocatis auxiliis ingentes copias contraxissent.
+                            <num>3</num> Post haec petente Italiam Hasdrubale, missus est ex Africa
+                        in eius locum imperator Hanno, quem primo aduentu Celtiberiam concitantem
+                        Marcus <app>
+                            <lem>Scyllanus</lem>
+                            <rdg wit="#F #N #P #U #W">Syllanus</rdg>
+                            <rdg wit="#E #S #r #s">Sillanus</rdg>
+                        </app> iussu Scipionis aggreditur, praelioque commisso superat capitque.</p>
                 </div>
 
                 <div xml:id="lVS18" type="section" n="18">
-                    <p><num>18.1</num> Erat una urbs, quam incolae regionis Oringem appellant,
-                        opulentissima sane et acommodatissima ad renouandum bellum. Ad hanc
-                        oppugnandam cum parte copiarum missus Lucio Scipio locum munitiorem inuenit,
-                        quam ut primo impetu capi posset. <num>2</num> Itaque corona circundedit
-                        urbem, paucisque diebus expugnatam direptamque in potestatem redegit.
-                        Instabat iam propinqua hyems et tempus admonere uidebatur, hyberna utrique
-                        peterent. <num>3</num> Quare his rebus prospere gestis, Scipio Tarraconem
-                        Mago et Hasdrubal Gisgonis filius se ad oceanum receperunt.</p>
+                    <p><num>18.1</num> Erat una urbs, quam incolae regionis <app>
+                            <lem>Oringem</lem>
+                            <rdg wit="#N #U">originem</rdg>
+                        </app> appellant, opulentissima sane et acommodatissima ad renouandum
+                        bellum. Ad hanc oppugnandam cum parte copiarum missus Lucio Scipio locum
+                        munitiorem inuenit, quam ut primo impetu capi posset. <num>2</num> Itaque
+                        corona circundedit urbem, paucisque diebus expugnatam direptamque in
+                        potestatem redegit. Instabat iam <app>
+                            <lem>propinqua</lem>
+                            <rdg wit="#P">propinquo</rdg>
+                        </app> hyems et tempus admonere uidebatur, hyberna utrique peterent.
+                            <num>3</num> Quare his rebus <app>
+                            <lem>prospere gestis</lem>
+                            <rdg wit="#U"><del/></rdg>
+                        </app>, Scipio Tarraconem Mago et Hasdrubal Gisgonis filius se ad oceanum
+                        receperunt.</p>
                 </div>
 
                 <div xml:id="lVS19" type="section" n="19">
                     <p><num>19.1</num> Sequenti aestate magna contentione renouato in ulterione
                         Hispania bello Romani Carthaginensesque prope Besulam congrediuntur,
-                        iustaque acie praelium committunt, <num>2</num> in quo post longum certamen
-                        superior Scipio in fugam uertit hostes, magnoque numero eorum interfecto,
-                        neque sui colligendi, neque consistendi facultatem dedit, <num>3</num> neque
-                        prius uictoriae modum imposuit, quam Hasdrubal et Mago ex continenti pulsi
-                        Gades se recipere coacti sunt omnibus prope copiis amissis. </p>
+                        iustaque acie praelium committunt, <num>2</num> in quo post longum certamen <app>
+                            <lem>superior Scipi</lem>
+                            <rdg wit="#U">Scipio superior</rdg>
+                        </app>o in fugam uertit hostes, magnoque numero eorum interfecto, neque sui
+                        colligendi, neque consistendi facultatem dedit, <num>3</num> neque prius
+                        uictoriae modum imposuit, quam Hasdrubal et Mago ex continenti pulsi Gades
+                        se recipere coacti sunt omnibus prope copiis amissis. </p>
                 </div>
 
                 <div xml:id="lVS20" type="section" n="20">
-                    <p><num>20.1</num> Erat in exercitu Carthaginensium Masinissa iuuenis magni
-                        animi magnique consilii, qui opportunitate capta clam cum Scyllano
-                        congrediendi primos aperuit ei amiciciae aditus, siue Scipionis liberalitate
-                        allectus, siue tempus uenisse ratus, in quo uictoribus Romanis adhaerendum
-                        censeret. <num>2</num> Hic est Masinissa, qui postea beneficio Romanorum
-                        potentissimus euasit Numidiae rex, ac multis in rebus populo Romano usui et
-                        adiumento fuit. <num>3</num> Caeterum eo anno, qui erat .XIIII. Secundi
-                        Punici belli foelici auspicio proconsulis Scipionis Hispania prima ex
-                        continentis regionibus uicta, postrema tamen in prouinciae forma redacta ab
-                        Augusto Caesare longo interuallo fuit.</p>
+                    <p><num>20.1</num> Erat in <app>
+                            <lem>exercitu</lem>
+                            <rdg wit="#U">exercitum</rdg>
+                        </app> Carthaginensium Masinissa iuuenis magni animi magnique consilii, qui
+                        opportunitate capta clam cum <app>
+                            <lem>Scyllano</lem>
+                            <rdg wit="#E #r #s">Sillano</rdg>
+                            <rdg wit="#F #M #N #P #S #U #W">Syllano</rdg>
+                        </app> congrediendi primos aperuit ei amiciciae aditus, siue Scipionis
+                        liberalitate allectus, siue tempus uenisse ratus, in quo uictoribus Romanis
+                        adhaerendum censeret. <num>2</num> Hic est Masinissa, qui postea beneficio
+                        Romanorum potentissimus euasit Numidiae rex, ac multis in rebus populo
+                        Romano usui et adiumento fuit. <num>3</num> Caeterum eo anno, qui erat
+                        .XIIII. Secundi Punici belli foelici auspicio proconsulis Scipionis Hispania
+                        prima ex continentis regionibus uicta, postrema tamen in prouinciae <app>
+                            <lem>forma</lem>
+                            <rdg wit="#E #F #N #P #S #W #r">formam</rdg>
+                        </app> redacta ab Augusto Caesare longo interuallo fuit.</p>
                 </div>
 
                 <div xml:id="lVS21" type="section" n="21">
@@ -323,21 +485,36 @@
                         duabus quinqueremibus in Aphricam contendit. <num>3</num> Veniebat a Gadibus
                         eodem tempore Hasdrubal Gisgonis filius, ac ueluti ex composito hi duo
                         clarissimi imperatores regem adierunt, certatim quisque pro sua republica
-                        amiciciam petituri. <num>4</num> Syphax hospitio ambos comiter benigneque
-                        accepit, operamque dedit ut pariter eadem mensa eodem cubiculo uterentur, ne
-                        alter alteri praelatus in honore uideri posset. <num>5</num> Tradunt
-                        Hasdrubalem praesentis Scipionis animum ingeniumque admiratum secum agitasse
-                        quantum periculi ex eo uiro suae ciuitati atque omni Aphricae immineret.
-                        Iuuenem enim acrem et summis uirtutibus praeditum, tum multis praeliis
-                        uictorem esse cernebat, nec in tam florenti aetate adduci posse credebat, ut
-                        pacem quam bellum mallet. <num>6</num> Suspicabatur etiam ne Syphax eius
-                        auctoritate et praesentia motus ad Romanos animum inclinaret. Nec iam eum
-                        fefellit opinio. <num>7</num> Nam Syphax etsi primo aduentu parem se
-                        utrisque praebens sermonem induxisset de finiendo inter Romanos
-                        Carthaginensesque bello, <num>8</num> tamen postea negante Scipione
-                        inconsulto senatu quicquam agi de pace posse posthabendum Hasdrubalem
-                        censuit, ac desiderio Scipionis obsecutus cum populo Romano foedus
-                        iniit.</p>
+                        amiciciam petituri. <num>4</num> Syphax <app>
+                            <lem>hospitio ambos</lem>
+                            <rdg wit="#M">ambos hospitio</rdg>
+                        </app> comiter benigneque accepit, operamque dedit ut pariter eadem mensa
+                        eodem cubiculo uterentur, ne alter alteri praelatus in honore uideri posset.
+                            <num>5</num> Tradunt Hasdrubalem praesentis Scipionis animum ingeniumque
+                        admiratum secum agitasse quantum periculi ex eo uiro suae ciuitati <app>
+                            <lem>atque omni Aphricae</lem>
+                            <rdg wit="#M #U">atque Affrice</rdg>
+                        </app> immineret. Iuuenem enim acrem et summis uirtutibus praeditum, tum
+                        multis praeliis uictorem esse cernebat, nec in tam florenti aetate adduci
+                        posse credebat, ut pacem quam bellum mallet. <num>6</num>
+                        <app>
+                            <lem>Suspicabatur</lem>
+                            <rdg wit="#U">Suspicatur</rdg>
+                        </app> etiam ne Syphax eius auctoritate et praesentia motus ad Romanos
+                        animum inclinaret. Nec iam eum fefellit opinio. <num>7</num> Nam Syphax etsi
+                        primo aduentu <app>
+                            <lem>parem</lem>
+                            <rdg wit="#U">palam</rdg>
+                        </app> se utrisque praebens sermonem induxisset de finiendo inter <app>
+                            <lem>Romanos Carthaginensesque</lem>
+                            <rdg wit="#E">Romanos Cathaginienses</rdg>
+                            <rdg wit="#F #M #N #P #R #S #U #W">Romanos et Carthaginenses </rdg>
+                        </app> bello, <num>8</num> tamen postea negante Scipione inconsulto senatu
+                        quicquam agi de pace posse posthabendum Hasdrubalem censuit, ac desiderio
+                        Scipionis obsecutus <app>
+                            <lem>cum</lem>
+                            <rdg wit="#s">eum</rdg>
+                        </app> populo Romano foedus iniit.</p>
                 </div>
 
                 <div xml:id="lVS22" type="section" n="22">
@@ -347,11 +524,15 @@
                             <num>2</num> Et ne tot tantisque rebus prospere gestis aliquod deesset
                         letitiae genus, Carthaginem Nouam profecus ludos gladiatorum magnifico
                         apparatu fecit, quibus non solum spectando, sed etiam pugnando multi clari
-                        uiri interfuerunt. <num>3</num> Sed ex Hispanis duo praeter alios insignes
-                        notabilitate principes Corbis et Orsua de regno inter se dissidentes eo die
-                        controuersiam finiere, altero eorum alterius manu interempto. Grauis
-                        spectantibus eorum dimicatio, grauior etiam [123r] quia patrueles erant mors
-                        interempti fuit.</p>
+                        uiri interfuerunt. <num>3</num> Sed ex Hispanis <app>
+                            <lem>duo</lem>
+                            <rdg wit="#U">duos</rdg>
+                        </app> praeter alios insignes notabilitate principes Corbis et Orsua <app>
+                            <lem>de regno</lem>
+                            <rdg wit="#U"><del/></rdg>
+                        </app> inter se dissidentes eo die controuersiam finiere, altero eorum
+                        alterius manu interempto. Grauis spectantibus eorum dimicatio, grauior etiam
+                        [123r] quia patrueles erant mors interempti fuit.</p>
                 </div>
                 <div xml:id="lVS23" type="section" n="23">
                     <p><num>23.1</num> Post haec Scipionem longe maiora quam ea quae gesserat
@@ -363,16 +544,29 @@
                         de periculo uitae in exercitum delati tantam seditionem motumque fecerunt,
                             <num>4</num> ut quidam contempto tribunorum imperio iisque demum fugatis
                         duos gregarios milites sibi crearent imperatores, qui non solum nomen
-                        imperii a uanis auctoribus delatum, sed etiam fasces et secures prae se
-                        ferre ausi sunt. <num>5</num> Adeo furor plaerunque et mala ambitio
-                        mortalium mentes exagitat. Nec quieuere Hispanae gentes, Mandonius
-                        praesertim atque Indibilis, qui affectantes Hispaniae regnum post
-                        expugnationem Carthaginis Nouae ad uictorem Scipionem defecerant.
-                            <num>6</num> Deinde Romanorum potentiam longe lateque diffusam, iniquo
-                        animo tolerantes aliquam nouandarum rerum occasionem quaerebant. Acceptis
-                        autem rumoribus non solum de morbo, sed prope etiam de morte P. Scipionis
-                        fideque adhibita extemplo exercitum compararunt, et Suesitanis qui socii et
-                        amici erant populi Romani intulerunt bellum.</p>
+                        imperii a <app>
+                            <lem>uanis</lem>
+                            <rdg wit="#U">uariis</rdg>
+                        </app> auctoribus delatum, sed etiam fasces et secures prae se ferre <app>
+                            <lem>ausi</lem>
+                            <rdg wit="#U">apassi</rdg>
+                        </app> sunt. <num>5</num> Adeo furor plaerunque et mala ambitio mortalium
+                        mentes exagitat. Nec quieuere Hispanae gentes, Mandonius praesertim atque
+                        Indibilis, qui <app>
+                            <lem>affectantes</lem>
+                            <rdg wit="#U">affectante</rdg>
+                        </app> Hispaniae regnum post expugnationem Carthaginis Nouae ad uictorem
+                        Scipionem defecerant. <num>6</num> Deinde Romanorum potentiam longe lateque
+                        diffusam, iniquo animo tolerantes aliquam nouandarum rerum occasionem
+                        quaerebant. <app>
+                            <lem>Acceptis</lem>
+                            <rdg wit="#s">Deceptis</rdg>
+                        </app> autem rumoribus non solum de morbo, sed prope etiam de morte P.
+                        Scipionis fideque adhibita <app>
+                            <lem>extemplo exercitum</lem>
+                            <rdg wit="#G">extemplo ex exercitum</rdg>
+                        </app> compararunt, et Suesitanis qui socii et amici erant populi Romani
+                        intulerunt bellum.</p>
                 </div>
 
                 <div xml:id="lVS24" type="section" n="24">
@@ -382,21 +576,26 @@
                         progredi. <num>2</num> Scipio magis externis bellis quam domesticis
                         seditionibus assuetus, etsi militibus qui deliquerant grauiter succensendum
                         putabat, <num>3</num> tamen ne dum irae indulget excesisse in puniendo modum
-                        existimari posset, de hac re ad consilium refert. <num>4</num> Maior pars in
-                        eos a quibus initium tumultus ortum erat, animaduertendum et reliquis
-                        ignoscendum censuit. Sic enim fieri posse ostendit, ut poena ad paucos,
-                        exemplum ad multos perueniret.</p>
+                        existimari <app>
+                            <lem>posset, de</lem>
+                            <rdg wit="#F">posset: sed de</rdg>
+                        </app> hac re ad consilium refert. <num>4</num> Maior pars in eos a quibus
+                        initium tumultus ortum erat, animaduertendum et reliquis ignoscendum
+                        censuit. Sic enim fieri posse ostendit, ut poena ad paucos, exemplum ad
+                        multos perueniret.</p>
                 </div>
 
                 <div xml:id="lVS25" type="section" n="25">
                     <p><num>25.1</num> Hanc sententiam secutus Scipio extemplo exercitum seditionis
                         auctorem ad accipiendum stipendium Carthaginem Nouam acciri iubet. Edicto
                         paruerunt milites alii suam culpam, ut plaerumque sibi indulgent homines
-                        leuiorem rati alii Scipionis fraeti ingenio quod mite in puniendo esse
-                        compererant. <num>2</num> Dicere enim solitus fuit male se unum ciuem
-                        conseruare, quam mille hostes perdere. Vulgatum quoque erat alium Scipionis
-                        exercitum paratum esse in armis et aduentum eorum opperiri, ut omnes copiae
-                        simul iunctae aduersus regulos in Suesitanos ducantur. Quamobrem ex Sucrone
+                        leuiorem rati alii Scipionis fraeti ingenio quod mite in puniendo esse <app>
+                            <lem>compererant</lem>
+                            <rdg wit="#U">comperarant</rdg>
+                        </app>. <num>2</num> Dicere enim solitus fuit male se unum ciuem conseruare,
+                        quam mille hostes perdere. Vulgatum quoque erat alium Scipionis exercitum
+                        paratum esse in armis et aduentum eorum opperiri, ut omnes copiae simul
+                        iunctae aduersus regulos in Suesitanos ducantur. Quamobrem ex Sucrone
                         discedentes, magna spe ueniae consequendae Carthaginem ueniunt.</p>
                 </div>
 
@@ -404,44 +603,66 @@
                     <p><num>26.1</num> Sed postridie eius diei, quo ubrem ingressi sunt, in forum
                         uocati ac inermes consistere iussi armatis legionibus circundantur. Tum
                         imperator Romanus tribunal ascendens uniuersae multitudini sese ostendit ea
-                        ualitudine eo uigore, qualis in pubescente aetate unquam fuerat,
-                            <num>2</num> concionem deinde habuit longe acerrimam et grauissimis
-                        querimoniis plenam, ut nemo miles ex inermi exercitu esset, qui aut a terra
-                        oculos erigere, aut dicentis uultum sustinere per pudorem posset.
-                            <num>3</num> Conscientia enim perpetratae rei ac suppliciorum metus
-                        terrebat animos, et optimi ducis praesentia noxiis pariter atque innoxiis
-                        ruborem incutiebat. Itaque tristi silentio torpebant omnia. <num>4</num>
-                        Postea quam finem dicendi fecit, principes seditionis in conspectum
-                        multitudinis perducuntur. Ibi uirgis caesi more maiorum securique percussi
-                        horribile spectaculum uisentibus praebuere.</p>
+                        ualitudine eo uigore, qualis <app>
+                            <lem>in pubescente</lem>
+                            <rdg wit="#U">impubescente</rdg>
+                        </app> aetate unquam fuerat, <num>2</num> concionem deinde habuit longe
+                        acerrimam et grauissimis querimoniis plenam, ut nemo miles <app>
+                            <lem>ex inermi</lem>
+                            <rdg wit="#P">in</rdg>
+                            <rdg wit="#E #s #r"> ex inerme</rdg>
+                            <rdg wit="#S">ex inarmi</rdg>
+                        </app> exercitu esset, qui aut a terra oculos erigere, aut dicentis uultum <app>
+                            <lem>sustinere per pudorem</lem>
+                            <rdg wit="#F #S #U #W">substinere pre pudore</rdg>
+                            <rdg wit="#M #N #R #s">sustinere pre pudore</rdg>
+                            <rdg wit="#P">pre pudore ferre</rdg>
+                            <rdg wit="#r">sustinere per pudore</rdg>
+                        </app> posset. <num>3</num> Conscientia enim perpetratae rei ac suppliciorum
+                        metus terrebat animos, et optimi ducis praesentia noxiis pariter atque
+                        innoxiis ruborem incutiebat. Itaque tristi silentio torpebant omnia.
+                            <num>4</num> Postea quam finem dicendi fecit, principes seditionis in
+                        conspectum multitudinis <app>
+                            <lem>perducuntur</lem>
+                            <rdg wit="#F #P #W #r">producuntur</rdg>
+                        </app>. Ibi uirgis caesi more maiorum securique percussi horribile
+                        spectaculum uisentibus praebuere.</p>
                 </div>
 
                 <div xml:id="lVS27" type="section" n="27">
                     <p><num>27.1</num> His rebus ita compositis Scipio reliquisque militibus nouo
-                        sacramento adactis expeditionem in Mandonium atque Indibilem pronuntiari
-                        iubet. Nam hi secum reputantes a militibus Romanis qui castrenisis
-                        seditionis acutores fuerant, poenam esse repetitiam, omnem spem abiecerant
-                        ueniae impetrandae. <num>2</num> Atque ex eo .XX. milia peditum, duo milia
-                        equitum comparauerant, ut his copiis aduersus Romanos progrederentur.
-                            <num>3</num> Quod ubi cognouit Scipio, priusquam augerentur regulorum
-                        uires, et plures populi conspirarent, maturat a Carthagine proficisci, et
-                        quanta maxime celeritate potest ad hostem pergit. <num>4</num> Reguli loco
-                        satis munito habebant castra, sicque suis copiis fidebant, ut nec alios
-                        prouocare, nec prouocati pugnam detrectare parati essent. </p>
+                        sacramento adactis <app>
+                            <lem>expeditionem</lem>
+                            <rdg wit="#P"><del/></rdg>
+                        </app> in Mandonium atque <app>
+                            <lem>Indibilem</lem>
+                            <rdg wit="#P">in Dibilem</rdg>
+                        </app> pronuntiari iubet. Nam hi secum reputantes a militibus Romanis qui
+                        castrenisis seditionis acutores fuerant, poenam esse repetitiam, omnem spem
+                        abiecerant ueniae impetrandae. <num>2</num> Atque ex eo .XX. milia peditum,
+                        duo milia equitum comparauerant, ut his copiis aduersus Romanos
+                        progrederentur. <num>3</num> Quod ubi cognouit Scipio, priusquam augerentur
+                        regulorum uires, et plures populi conspirarent, maturat a Carthagine
+                        proficisci, et quanta maxime celeritate potest ad hostem pergit.
+                            <num>4</num> Reguli loco satis munito habebant castra, sicque suis
+                        copiis fidebant, ut nec alios prouocare, nec prouocati pugnam detrectare
+                        parati essent. </p>
                 </div>
 
                 <div xml:id="lVS28" type="section" n="28">
                     <p><num>28.1</num> Factum est autem propinquitate castrorum, ut paucis post
                         diebus a Romanis lacessiti in praelium descenderent, in quo quidem
                         aliquamdiu summa contentione dimicatum est. Tandem Hispani a tergo
-                        circumuenti, ac in orbem pugnare coacti superantur. <num>2</num> Vix tertia
-                        pars ex eorum numero aufugit, Mandonius atque Indibilis nullum remedium
-                        perditis rebus esse cernentes, legatos ad Scipionem miserunt, qui
-                        suppliciter pacem peterent, et ueniam deprecarentur. <num>3</num> At Scipio
-                        etsi quantum in se atque in populum Romanum facinus admisissent,
-                        intelligebat, tamen non minus decorum putans hostem claementia et
-                        mansuetudine superari, quam armis [123v] regulis ignouit, pecunia tantum, ut
-                        militi ad stipendium soluerent, imperata.</p>
+                        circumuenti, ac in orbem pugnare coacti superantur. <num>2</num> Vix tertia <app>
+                            <lem>pars ex eorum numero</lem>
+                            <rdg wit="#U">pars eorum ex numero</rdg>
+                        </app> aufugit, Mandonius atque Indibilis nullum remedium perditis rebus
+                        esse cernentes, legatos ad Scipionem miserunt, qui suppliciter pacem
+                        peterent, et ueniam deprecarentur. <num>3</num> At Scipio etsi quantum in se
+                        atque in populum Romanum facinus admisissent, intelligebat, tamen non minus
+                        decorum putans hostem claementia et mansuetudine superari, quam armis [123v]
+                        regulis ignouit, pecunia tantum, ut militi ad stipendium soluerent,
+                        imperata.</p>
                 </div>
 
                 <div xml:id="lVS29" type="section" n="29">
@@ -449,35 +670,49 @@
                         uenit, ut amicitiae fidem, quam per M. Syllanum absenti Scipioni obtulerat,
                         praesenti confirmaret. <num>2</num> Simul ut ipsum Scipionem alloqueretur,
                         quem ob res egregie gestas praestantissimum esse uirum constituerat animo.
-                        Verum nec iam opinioni Numidae uirtus P. Scipionis, nec expectationi (ut
-                        plaerunque accidere consueuit) praesentia defuit. <num>3</num> Nam praeter
+                        Verum nec iam opinioni Numidae uirtus P. Scipionis, nec expectationi (ut <app>
+                            <lem>plaerunque</lem>
+                            <rdg wit="#E #r #s">plerique</rdg>
+                        </app> accidere consueuit) praesentia defuit. <num>3</num> Nam praeter
                         ingentia animi bona, quibus Scipio caeteros alios anteibat, prae se etiam
                         ferebat eximiam formam, et omni amplo dignam imperio. <num>4</num> Erat
                         praeterea uir benignus in audiendo, facundus in respondendo, et in
                         conciliandis hominibus egregius artifex. Habitu corporis uirili, caesarie
                         promissa utebatur. <num>5</num> Hunc igitur Masinissa salutatum ueniens, ut
                         primum conspexit, sic uirum admiratus esse dicitur, ut nec ab eo dimouere
-                        oculos nec intuendo explere desiderium posset. Amplissimis uerbis ei gratias
-                        aegit pro nepote ad se remisso, et fidem se praestaturum initiae amiciciae
-                        dixit, quam postea erga populum Romanum usque ad exitum uitae constantissime
-                        coluit. <num>6</num> Iam uero omnes Hispanie populi aut imperium aut
-                        societatem Romanorum acceperant, cum Gaditani idem sibi licere arbitrantes,
-                        sponte Romanis se dedidere, gens uetusta origine, et si famae credere libet,
-                        ut Carthago in Aphrica, in Boetia Thebae, ita Gadis ad oceanum colonia
-                        Tyriorum fuit.</p>
+                        oculos nec intuendo explere <app>
+                            <lem>desiderium</lem>
+                            <rdg wit="#F">dexiderium</rdg>
+                        </app> posset. Amplissimis uerbis ei gratias aegit pro nepote ad se remisso,
+                        et fidem se praestaturum initiae amiciciae dixit, quam postea erga populum
+                        Romanum usque ad exitum uitae constantissime coluit. <num>6</num> Iam uero
+                        omnes Hispanie populi aut imperium aut societatem Romanorum acceperant, cum
+                        Gaditani idem sibi licere arbitrantes, sponte Romanis se dedidere, gens
+                        uetusta origine, et si famae credere libet, ut Carthago in Aphrica, in
+                        Boetia <app>
+                            <lem>Thebae</lem>
+                            <rdg wit="#s">Chebe</rdg>
+                        </app>, ita Gadis ad oceanum colonia Tyriorum fuit.</p>
                 </div>
 
                 <div xml:id="lVS30" type="section" n="30">
                     <p><num>30.1</num> Scipio receptis Hispaniis, pulsis Carthaginensibus, cum nihil
-                        relinqueretur quod sibi constituendum putaret L. Lentulo et Manlio Accidio
-                        prouincia tradita Romam rediit. <num>2</num> Venienti senatus extra urbem
-                        datus est in aede Bellonae, ubi cum res a se per multos annos fortiter
-                        foeliciterque gestas exposuisset, ostendissetque quattuor hostium duces,
-                        quattuor exercitus multis praeliis a se uictos, Carthaginenses ex Hispaniis
-                        eiectos, nullas gentes in his terris relictas, quae non uenissent in populi
-                        Romani potestatem, res amplissimo triumpho dignas esse censebat senatus.
-                            <num>3</num> Sed quia nemini adhuc contigerat, ut cum proconsul et sine
-                        magistratu esset pro rebus gestis triumphanti inuehi liceret urbem, nec
+                        relinqueretur quod sibi constituendum putaret L. Lentulo et Manlio <app>
+                            <lem>Accidio</lem>
+                            <rdg wit="#E #F #M #N #P #R #S #U #W #r #s">Accidino</rdg>
+                        </app> prouincia tradita Romam rediit. <num>2</num> Venienti senatus extra
+                        urbem datus est in aede Bellonae, ubi cum res <app>
+                            <lem>a se</lem>
+                            <rdg wit="#F #P #R #S #U #W">ab se</rdg>
+                        </app> per multos annos fortiter foeliciterque gestas exposuisset,
+                        ostendissetque <app>
+                            <lem>quattuor hostium duces</lem>
+                            <rdg wit="#F #N #P #R #S #W"><del/></rdg>
+                        </app>, quattuor exercitus multis praeliis a se uictos, Carthaginenses ex
+                        Hispaniis eiectos, nullas gentes in his terris relictas, quae non uenissent
+                        in populi Romani potestatem, res amplissimo triumpho dignas esse censebat
+                        senatus. <num>3</num> Sed quia nemini adhuc contigerat, ut cum proconsul et
+                        sine magistratu esset pro rebus gestis triumphanti inuehi liceret urbem, nec
                         patribus uisum est, nec ipse Scipio magnopere contendit, ut nouo exemplo
                         morem maiorum sui causa commutarent. Ingressus urbem paulopost ingenti
                         studio populi Romani consul declaratur.</p>
@@ -485,42 +720,56 @@
 
                 <div xml:id="lVS31" type="section" n="31">
                     <p><num>31.1</num> Tradunt raro unquam frequentiorem multitudinem non tam ad
-                        celebranda comitia quam ad conspiciendum P. Cornelium Scipionem Romam
-                        uenisse. Itaque non solum quirites, sed externi etiam homines hunc unum
-                        intuebantur publice, priuatimque dicebant mittendum in Aphricam esse ad
-                        inferendum ex propinquo Carthaginensibus bellum. <num>2</num> Idem cum
-                        sentiret Scipio, de hac re ad populum se relaturum significabat, si tam
-                        salutari consilio aduersaretur senatus. Quidam enim ex patribus, atque inter
-                        eos praecipuae auctoritatis Fabius Maximus huic sententiae acriter
-                        reclamabat. <num>3</num> Scipio in contrarium nitebatur rationibus multis
-                        ostendens hac una uia superari Poenos et Hannibalem deduci ex Italia posse,
-                        caetera uana esse consilia.</p>
+                        celebranda comitia quam ad conspiciendum <app>
+                            <lem>P.</lem>
+                            <rdg wit="#U">publicum</rdg>
+                        </app> Cornelium Scipionem Romam uenisse. Itaque non solum quirites, sed
+                        externi etiam homines hunc unum intuebantur publice, priuatimque dicebant
+                        mittendum in Aphricam esse ad inferendum ex propinquo Carthaginensibus
+                        bellum. <num>2</num> Idem cum sentiret Scipio, de hac re ad populum se
+                        relaturum significabat, si tam salutari consilio aduersaretur senatus.
+                        Quidam enim ex patribus, atque inter eos praecipuae auctoritatis Fabius
+                        Maximus huic sententiae acriter reclamabat. <num>3</num> Scipio in
+                        contrarium nitebatur rationibus multis ostendens hac una uia superari Poenos
+                        et Hannibalem deduci ex Italia posse, caetera uana esse consilia.</p>
                 </div>
 
                 <div xml:id="lVS32" type="section" n="32">
                     <p><num>32.1</num> Post longam altercationem Scipioni Sicilia decreta,
                         permissumque a senatu est, ut si arbitraretur utile exque republica esse cum
                         omni exercitu in Aphricam traiiceret. <num>2</num> Hoc senatus consulto in
-                        populum edito sic erecti sunt omnium animi ad spem magnarum rerum, ut iam de
-                        Aphrica cogitarent, et bellum posse confici non diffiderent. <num>3</num>
-                        Sed Scipioni in rebus necessariis comparandis maxima difficultas
-                        proponebatur, cum ob aerarii inopiam, tum ob iuuentutis penuriam, cuius
-                        florem praeteritae clades a Poeno illatae absumpserant.</p>
+                        populum edito sic <app>
+                            <lem>erecti</lem>
+                            <rdg wit="#U">erepti</rdg>
+                        </app> sunt omnium animi ad spem magnarum rerum, ut iam de Aphrica
+                        cogitarent, et bellum posse confici non diffiderent. <num>3</num> Sed
+                        Scipioni in rebus necessariis comparandis maxima difficultas proponebatur,
+                        cum ob aerarii inopiam, tum ob iuuentutis penuriam, cuius florem praeteritae
+                        clades a Poeno illatae absumpserant.</p>
                 </div>
 
                 <div xml:id="lVS33" type="section" n="33">
                     <p><num>33.1</num> Ipse tamen ne tantae expectationi deesset, ingenti studio in
-                        apparatum belli intendit et adfuerunt ei multi Hetruriae atque Vmbriae
-                        populi, quorum alii materiam ad fabricandas naues, alii arma, quidam
-                        frumentum, ac omnis generis commeatum ad iuuandum exercitum detulerunt.
-                            <num>2</num> Quadragesimo quinto die quid uix cuiquam credibile
-                        uideretur, fabricata instructaque classe ex Italia decedens Scipio in
-                        Siciliam contendit. <num>3</num> At cum exercitum in ordines redigeret, eos
-                        praecipue seligendos putauit, quam sub M. Marcello multos annos meruerant,
-                        summamque scientiam rei militaris habere existimabantur. <num>4</num>
-                        Siculos autem partim auctoritate, partim gratia impulit ad subministrandum
-                        auxilium futuro bello, quod in Aphricam transferre cum primum per anni
-                        tempus posset omni studio parabat.</p>
+                        apparatum belli intendit et adfuerunt ei multi <app>
+                            <lem>Hetruriae</lem>
+                            <rdg wit="#F #G #P #S #U #s">etrurie</rdg>
+                        </app> atque Vmbriae populi, quorum alii materiam ad fabricandas naues, alii
+                        arma, quidam frumentum, ac omnis generis commeatum ad iuuandum exercitum
+                        detulerunt. <num>2</num> Quadragesimo quinto die <app>
+                            <lem>quid</lem>
+                            <rdg wit="#E #F #N #P #W #r">quod</rdg>
+                        </app> uix cuiquam credibile uideretur, fabricata instructaque classe ex
+                        Italia decedens Scipio in Siciliam contendit. <num>3</num> At cum exercitum
+                        in ordines redigeret, eos praecipue <app>
+                            <lem>seligendos</lem>
+                            <rdg wit="#G">se deligendos</rdg>
+                            <rdg wit="#M">elligendos</rdg>
+                            <rdg wit="#U">se eligendos</rdg>
+                        </app> putauit, quam sub M. Marcello multos annos meruerant, summamque
+                        scientiam rei militaris habere existimabantur. <num>4</num> Siculos autem
+                        partim auctoritate, partim gratia impulit ad subministrandum auxilium futuro
+                        bello, quod in Aphricam transferre cum primum per anni tempus posset omni
+                        studio parabat.</p>
                 </div>
 
                 <div xml:id="lVS34" type="section" n="34">
@@ -571,11 +820,13 @@
                         dubitabant eum cognouisse Locrensium iniurias, Pleminii scelera, suorum
                         militum dissensiones, atque omnia lentius tulisse quam optimum consulem
                         deceret. <num>4</num> Addebant praeterea exercitum in Sicilia habere
-                        uecordem, et omni disciplina solutum militari, ipsum ducem oscitantem totum
-                        se ad uoluptates et ocium contulisse. <num>5</num> Et praeter caeteros
-                        Fabius Maximus in Scipionem inuectus sic modum excessit, ut extemplo
-                        reuocandum ex Sicilia abrogandumque et imperium censeret. Haec nimis aspera
-                        uisa omnibus sententia est.</p>
+                        uecordem, et omni disciplina <app>
+                            <lem>solutum militari</lem>
+                            <rdg wit="#W">militari solutum</rdg>
+                        </app>, ipsum ducem oscitantem totum se ad uoluptates et ocium contulisse.
+                            <num>5</num> Et praeter caeteros Fabius Maximus in Scipionem inuectus
+                        sic modum excessit, ut extemplo reuocandum ex Sicilia abrogandumque et
+                        imperium censeret. Haec nimis aspera uisa omnibus sententia est.</p>
                 </div>
 
                 <div xml:id="lVS38" type="section" n="38">
@@ -591,8 +842,11 @@
                         in puniendo mitis et claemens. Exercitum uero classem et omnem apparatum
                         belli cum intuerentur, sic admirati esse dicuntur copiam et ordinem
                         singularum rerum, <num>5</num> ut postea in urbem redeuntes amplissimis
-                        laudibus Publium Scipionem efferrent, et reiectis inuidorum calumniis ad
-                        certissimam uictoriae spem senatum populumque Romanum reuocarent.</p>
+                        laudibus Publium Scipionem <app>
+                            <lem>efferrent</lem>
+                            <rdg wit="#M #U">afferrent</rdg>
+                        </app>, et reiectis inuidorum calumniis ad certissimam uictoriae spem
+                        senatum populumque Romanum reuocarent.</p>
                 </div>
 
                 <div xml:id="lVS39" type="section" n="39">
@@ -601,35 +855,46 @@
                         turbarunt. Nam oratores a Syphace missi denuntiarunt ei nouum sibi foedus
                         cum Carthaginensibus ictum, affinitatem cum Hasdrubale contractam, filiam
                         eius sibi matrimonio iunctam, <num>2</num> propterea monere ut si suae
-                        reipublicae consulere uelit, Aphrica abstineat, eosdem enim quos Poeni
-                        haberent se amicos inimicosque habiturm. <num>3</num> Hos legatos Scipio, ne
-                        mandata regis offerrentur, extemplo ad Syphacem remisit cum litteris, quibus
-                        postulabat ut initae societatis iunctaeque dextrae memor caueret, ne quid
-                        nomine Romano et regia fide indignum moliretur. <num>4</num> Post haec
-                        concione aduocata legatos Syphacis uenisse in Siciliam dixit, ut sicut antea
-                        Masinissa, sic etiam hi nimiam dilationem aduentus sui quererentur.
-                            <num>5</num> Itaque maturandum in Aphricam esse, atque ideo cunctis
-                        militibus edicere, ut arma expediant, et ad profectionem necessaria
-                        comparent. <num>6</num> Hoc edictum Romani ducis ubi per Siciliam uulgatum
-                        est, statim multitudo ingens Lilybeum confluxit, non hominum solum qui in
-                        Aphricam traiecturi erant, sed eorum etiam qui spectatum uenerant Romanam
-                        classem, qua raro unquam istructior, aut omni armorum genere ornatior uisa
-                        fuerat.</p>
+                        reipublicae consulere uelit, Aphrica abstineat, eosdem <app>
+                            <lem>enim</lem>
+                            <rdg wit="#U"><del/></rdg>
+                        </app> quos Poeni haberent se amicos inimicosque habiturm. <num>3</num> Hos
+                        legatos Scipio, ne mandata regis <app>
+                            <lem>offerrentur</lem>
+                            <rdg wit="#F #N #P #R #S #W">efferrentur</rdg>
+                        </app>, extemplo ad Syphacem remisit cum litteris, quibus postulabat ut <app>
+                            <lem>initae</lem>
+                            <rdg wit="#U">inire</rdg>
+                        </app> societatis iunctaeque dextrae memor caueret, ne quid nomine Romano et
+                        regia fide indignum moliretur. <num>4</num> Post haec concione aduocata
+                        legatos Syphacis uenisse in Siciliam dixit, ut sicut antea Masinissa, sic
+                        etiam hi nimiam dilationem aduentus sui quererentur. <num>5</num> Itaque
+                        maturandum in Aphricam esse, atque ideo cunctis militibus edicere, ut arma
+                        expediant, et ad profectionem necessaria comparent. <num>6</num> Hoc edictum
+                        Romani ducis ubi per Siciliam uulgatum est, statim multitudo ingens Lilybeum
+                        confluxit, non hominum solum qui in Aphricam traiecturi erant, sed eorum
+                        etiam qui spectatum uenerant Romanam classem, qua raro unquam istructior,
+                        aut omni armorum genere ornatior uisa fuerat.</p>
                 </div>
 
                 <div xml:id="lVS40" type="section" n="40">
                     <p><num>40.1</num> Ipse uero Scipio satis iam omnibus constitutis e Lilybeo
                         soluit tanta cupiditate transmittendi, ut nulli ei neque remi neque uenti
-                        satis facerent. <num>2</num> Deuectus est tamen paucis diebus ad
-                        promontorium Pulchri, atque ibi omnes copias in terram exposuit. Sed
-                        celeriter eius aduentus [124v] Carthaginem nuntiatus, sic ciuitatem
-                        turbauit, ut conclamtum esse ad arma stationesque in portis murisque
-                        dispositas quidam auctores sint. <num>3</num> Nam a Marco Regulo usque ad
-                        eum diem .L. prope annorum intercesserat spatium, ex quo nullus imperator
-                        Romanus cum ualido exercitu terram Aphricam intrauerat. <num>4</num> Merito
-                        igitur pauoris ac tumultus omnia erant plena. Augebat etiam terrorem
-                        Scipionis nomen, cui Carthaginenses, quem ducem aut opponerent aut parem
-                        arbitrarentur non reperiebant.</p>
+                        satis facerent. <num>2</num> Deuectus est tamen paucis diebus ad <app>
+                            <lem>promontorium</lem>
+                            <rdg wit="#F #M #R #S #U #s">promuntorium</rdg>
+                        </app> Pulchri, atque ibi omnes copias in terram exposuit. Sed celeriter
+                        eius aduentus [124v] Carthaginem nuntiatus, sic ciuitatem turbauit, ut
+                        conclamtum esse ad arma stationesque in portis murisque dispositas quidam
+                        auctores sint. <num>3</num> Nam a Marco Regulo usque ad eum diem .L. prope
+                        annorum intercesserat spatium, ex quo nullus imperator Romanus cum ualido
+                        exercitu terram Aphricam intrauerat. <num>4</num> Merito igitur pauoris ac
+                        tumultus omnia erant plena. Augebat etiam <app>
+                            <lem>terrorem</lem>
+                            <rdg wit="#F">terroris</rdg>
+                            <rdg wit="#P">pauorem</rdg>
+                        </app> Scipionis nomen, cui Carthaginenses, quem ducem aut opponerent aut
+                        parem arbitrarentur non reperiebant.</p>
                 </div>
 
                 <div xml:id="lVS41" type="section" n="41">
@@ -656,32 +921,48 @@
                         sensimque trahendo perducit ad ea loca, quibus in locis Scipio cum armatis
                         legionibus constiterat expectans occasionem gerendae rei. <num>5</num>
                         Defessa iam erat hostium acies, cum Romani recentibus copiis obuiam facti
-                        praelium ineunt. Primo congressu superatur Hanno, et ipse cum parte copiarum
-                        occiditur. Reliqui terga dantes, qua potest quisque fugam per diuersa
-                        petunt.</p>
+                        praelium ineunt. <app>
+                            <lem>Primo congressu</lem>
+                            <rdg wit="#R">Primo in congressu</rdg>
+                        </app> superatur Hanno, et ipse cum parte copiarum occiditur. Reliqui terga
+                        dantes, qua potest quisque fugam per diuersa petunt.</p>
                 </div>
 
                 <div xml:id="lVS43" type="section" n="43">
-                    <p><num>43.1</num> Post hanc uictoriam Scipionem ad oppugnandam Vticam redeuntem
-                        absistere incepto coegit subitus Hasdrubalis et Syphacis aduentus, qui
-                        ingentes peditum equitumque copias secum ducentes haud procul a Romanis
-                        posuerunt castra. <num>2</num> Quod ubi animaduertit Scipio, statim soluta
-                        obsidione castra in quodam promontorio communiuit. Vnde procedere obuiam
-                        hosti, et uexare Vticenses, et classem subductam tueri posset.</p>
+                    <p><num>43.1</num> Post hanc uictoriam Scipionem ad oppugnandam <app>
+                            <lem>Vticam</lem>
+                            <rdg wit="#U">utica</rdg>
+                        </app> redeuntem absistere incepto coegit subitus Hasdrubalis et Syphacis
+                        aduentus, qui ingentes peditum equitumque copias secum ducentes haud procul
+                        a Romanis posuerunt castra. <num>2</num> Quod ubi animaduertit Scipio,
+                        statim soluta obsidione castra in quodam promontorio communiuit. Vnde
+                        procedere obuiam hosti, et uexare Vticenses, et classem subductam tueri
+                        posset.</p>
                 </div>
 
                 <div xml:id="lVS44" type="section" n="44">
                     <p><num>44.1</num> Caeterum cum tempus postulare uideretur, ut hyberna utrinque
                         peterent, placuit ei ad Syphacem mittere, qui tentarent animum regis, et
-                        quantum in eis esset a Carthaginensium amicicia abducerent. <num>2</num>
-                        Hunc enim sciebat Sophonisbae nuptiis agitatum, et quasi muliebribus
-                        instructum furiis eo insaniae deuenisse, ut non modo Romanos non iuuandos,
-                        sed etiam contra ius foederis oppugnandos censeret. <num>3</num> Quod siqua
-                        uxoris satietas hominem cepisset, iam ad sanitatem eum reuerti posse
-                        arbitrabatur. <num>4</num> Syphax, auditis his quae nomine Scipionis ad eum
-                        deferebantur, tempus iam esse respondit, ut non de reliquenda Poenorum
-                        societate, sed de abiiciendis belli consiliis agatur, se optimum pacis
-                        auctorem fore pollicetur.</p>
+                        quantum in eis esset <app>
+                            <lem>a</lem>
+                            <rdg wit="#F">ab</rdg>
+                        </app> Carthaginensium amicicia abducerent. <num>2</num>
+                        <app>
+                            <lem>Hunc</lem>
+                            <rdg wit="#R">Hanc</rdg>
+                        </app> enim sciebat <app>
+                            <lem>Sophonisbae</lem>
+                            <rdg wit="#G #s">Sophonis he</rdg>
+                        </app> nuptiis <app>
+                            <lem>agitatum</lem>
+                            <rdg wit="#s">aggrauatum</rdg>
+                        </app>, et quasi muliebribus instructum furiis eo insaniae deuenisse, ut non
+                        modo Romanos non iuuandos, sed etiam contra ius foederis oppugnandos
+                        censeret. <num>3</num> Quod siqua uxoris satietas hominem cepisset, iam ad
+                        sanitatem eum reuerti posse arbitrabatur. <num>4</num> Syphax, auditis his
+                        quae nomine Scipionis ad eum deferebantur, tempus iam esse respondit, ut non
+                        de reliquenda Poenorum societate, sed de abiiciendis belli consiliis agatur,
+                        se optimum pacis auctorem fore pollicetur.</p>
                 </div>
 
                 <div xml:id="lVS45" type="section" n="45">
@@ -696,9 +977,14 @@
                         abiecta arma classem machinasque parare, ut antea orsus fuerat Vticam
                         oppugnatum redeat. <num>4</num> Hoc quam late per regionem uulgari, hoc ab
                         hostibus credi uolebat. Ipse uero tribunis militum conuocatis consilium suum
-                        aperit. Docet bina esse hostium castra paruo inter se diuisa spatio, quorum
-                        altera ex lignis hybernacula, alter ex harundinibus contexta habeant,
-                        utraque deliri incendio posse.</p>
+                        aperit. <app>
+                            <lem>Docet</lem>
+                            <rdg wit="#M">Docebat</rdg>
+                        </app> bina esse hostium castra paruo inter se diuisa spatio, quorum altera
+                        ex lignis hybernacula, alter ex harundinibus <app>
+                            <lem>contexta</lem>
+                            <rdg wit="#U">contesta</rdg>
+                        </app> habeant, utraque deliri incendio posse.</p>
                 </div>
 
                 <div xml:id="lVS46" type="section" n="46">
@@ -709,12 +995,19 @@
                         castra adoriuntur, et ignem harundinibus applicant, quae subito incendium
                         effuderunt et pene in omnem locum castrorum distulerunt. <num>3</num>
                         Numidae fortuitum primo incendium arbitrati ad opem ferendam celeriter
-                        concurrerunt, mox ubi in legiones hostium incidentes trucidari coepti sunt,
-                        ancipiti pauentes metu sese fugae mandarunt. <num>4</num> Simili pene
-                        ratione ab altera parte exercitus, cui Scipio praeerant, incensa sunt
-                        Carthaginensium castra, et profligatis hostes tanta fugientium strage, ut ad
-                        .XL. milia hominum ex Poenis [125r] Numidisque ea nocte absumpta quidam
-                        auctores sint.</p>
+                        concurrerunt, mox ubi in legiones hostium incidentes trucidari coepti sunt, <app>
+                            <lem>ancipiti</lem>
+                            <rdg wit="#F">ancipati</rdg>
+                        </app> pauentes metu sese fugae mandarunt. <num>4</num> Simili pene ratione
+                        ab altera parte exercitus, cui Scipio praeerant, incensa sunt
+                        Carthaginensium castra, et <app>
+                            <lem>profligatis</lem>
+                            <rdg wit="#F #N #P #S #W #r">profligati</rdg>
+                        </app> hostes tanta fugientium strage, ut ad .XL. milia hominum ex Poenis
+                        [125r] Numidisque ea nocte absumpta quidam auctores <app>
+                            <lem>sint</lem>
+                            <rdg wit="#U">sunt</rdg>
+                        </app>.</p>
                 </div>
 
                 <div xml:id="lVS47" type="section" n="47">
@@ -741,15 +1034,18 @@
                         Lelio factus proelium committere non dubitauit, <num>3</num> malo tamen
                         consilio cum esset hostibus longe inferior, non tam dimicantium numero, quam
                         quod nec miles cum milite, nec duces cum ducibus erant conferendi.
-                            <num>4</num> Itaque a bellacissimis uiris facile superatur, et quod
-                        Masinissa uix ausus esset optare in praelio capitur, et cum multis nobilibus
-                        uiris ad Scipionem perducitur. <num>5</num> Caeperat primum laetitia omnium
-                        animos cum Syphacem in castra adduci nuntiatum est, deinde ubi uinctus in
-                        conspectum multitudinis est perductus, tanti uiri praesentia et pristinae
-                        maiestatis recordatio misericordiam intuentibus mouit. <num>6</num>
-                        Meminerant enim quam celebre eius regis nomen, quam florentes opes et
-                        amplissimi regni uires paulo ante extiterant, postea uero ex tanto fastigio
-                        prolapsum cernentes miserebantur.</p>
+                            <num>4</num> Itaque a <app>
+                            <lem>bellacissimis</lem>
+                            <rdg wit="#G #s">bellicissimis</rdg>
+                        </app> uiris facile superatur, et quod Masinissa uix ausus esset optare in
+                        praelio capitur, et cum multis nobilibus uiris ad Scipionem perducitur.
+                            <num>5</num> Caeperat primum laetitia omnium animos cum Syphacem in
+                        castra adduci nuntiatum est, deinde ubi uinctus in conspectum multitudinis
+                        est perductus, tanti uiri praesentia et pristinae maiestatis recordatio
+                        misericordiam intuentibus mouit. <num>6</num> Meminerant enim quam celebre
+                        eius regis nomen, quam florentes opes et amplissimi regni uires paulo ante
+                        extiterant, postea uero ex tanto fastigio prolapsum cernentes
+                        miserebantur.</p>
                 </div>
 
                 <div xml:id="lVS49" type="section" n="49">
@@ -762,21 +1058,28 @@
                         possent, ut in fide atque officio permanerent. <num>3</num> Sed in extremis
                         malis hoc sibi solatii contigisse, quod inimicissimum hominem Masinissam
                         eadem insania, qua ipse laborasset, correptum uideret. <num>4</num> Nam post
-                        uictum captumque Syphacem Masinissa Cyrtham caput regni petens cum urbem in
-                        potestatem redegisset, Sophonisbam multis precibus sibi blandientem ardere
-                        caeperat, mulierique fidem dederat se eam a Romanorum manibus uendicaturum
-                        et, ut id commodius praestare posset, nouis nuptiis sibi deuinctam uxorem
-                        duxerat.</p>
+                        uictum captumque Syphacem Masinissa <app>
+                            <lem>Cyrtham</lem>
+                            <rdg wit="#U">Cirtam</rdg>
+                        </app> caput regni petens cum urbem in potestatem redegisset, Sophonisbam
+                        multis precibus sibi blandientem ardere caeperat, mulierique fidem dederat
+                        se eam a Romanorum manibus uendicaturum et, ut id commodius praestare
+                        posset, nouis nuptiis sibi deuinctam uxorem duxerat.</p>
                 </div>
 
                 <div xml:id="lVS50" type="section" n="50">
                     <p><num>50.1</num> Haec celeriter ad Scipionem delata magnopere hominem
-                        perturbarunt. Constabat enim auspiciis Romanorum uictum Syphacem esse, et
-                        quaecumque suae ditionis fuerant ad eorum iudicium pertinere. <num>2</num>
-                        Quod si Masinissa inconsulto Scipione patrocinium Sophonisbae suscipiendum
-                        putarat simul et imperium ducis et maiestatem populi Romani uisus fuerat
-                        contempsisse. <num>3</num> Accedebat huic culpae turpissima libidinis causa,
-                        quae tanto grauior uideri debuit, quanto erat Romani imperatoris continentia
+                        perturbarunt. <app>
+                            <lem>Constabat</lem>
+                            <rdg wit="#M">Constat</rdg>
+                            <rdg wit="#W"><del>Sciebat</del>
+                                <add>Constabat</add></rdg>
+                        </app> enim auspiciis Romanorum uictum Syphacem esse, et quaecumque suae
+                        ditionis fuerant ad eorum iudicium pertinere. <num>2</num> Quod si Masinissa
+                        inconsulto Scipione patrocinium Sophonisbae suscipiendum putarat simul et
+                        imperium ducis et maiestatem populi Romani uisus fuerat contempsisse.
+                            <num>3</num> Accedebat huic culpae turpissima libidinis causa, quae
+                        tanto grauior uideri debuit, quanto erat Romani imperatoris continentia
                         maior, quam Masinissa ante oculos habebat ad imitandum. <num>4</num> Nam
                         Scipio praeter caetera uirtutis documenta in omnibus locis quibus hostem
                         superauerat, a captiuis mulieribus uictrices semper abstinuerat manus.
@@ -794,30 +1097,46 @@
                     <p><num>51.1</num> Caeterum Carthaginenses, tot tamque multiplicibus acceptis
                         cladibus cum res in eum locum deductas uiderent, ut iam non de propagando
                         imperio, sed de seruanda patria esset cogitandum, Hannibalem ex Italia
-                        reuocarunt. <num>2</num> Qui celeriter in Aphricam reuersus, siue quod
-                        praesentis iuuenis foelicitatem horreret, siue quod labenti et pene
-                        inclinatae reipublicae diffideret, 3 omnium primum cum P. Scipione de pace
-                        [125v] agendum censuit. Quapropter petenti locus ad colloquium datus, in quo
-                        simul congressi longum sermonem de tollendis controuersiis habuere.
+                        reuocarunt. <num>2</num> Qui celeriter in Aphricam reuersus, <app>
+                            <lem>siue</lem>
+                            <rdg wit="#U">siuo</rdg>
+                        </app> quod praesentis iuuenis foelicitatem horreret, siue quod labenti et
+                        pene inclinatae reipublicae diffideret, 3 omnium primum cum P. Scipione de
+                        pace [125v] agendum censuit. Quapropter petenti locus ad colloquium datus,
+                        in quo simul congressi longum sermonem de tollendis controuersiis habuere.
                             <num>4</num> Ad extremum Scipio eas conditiones detulit Poeno, quibus
                         facile apparuit non tedere belli populum Romanum et ipsum iuuenem spe
                         uictoriae magis quam concordiae desiderio trahi. <num>5</num> Itaque omni
                         spe pacis adempta colloquium dirimunt. Atque in posterum diem certamen
                         parant duarum nobilissimarum bello gentium duo clarissimi duces imperium
-                        orbis terrae breui spatio suis rebus publicis aut daturi aut erepturi.</p>
+                        orbis terrae breui spatio suis rebus publicis <app>
+                            <lem>aut daturi</lem>
+                            <rdg wit="#P">daturi</rdg>
+                        </app> aut erepturi.</p>
                 </div>
 
                 <div xml:id="lVS52" type="section" n="52">
-                    <p><num>52.1</num> Locus prope Zamam fuisse traditur, ubi superans uires quasi
-                        in medium effundentes pugnam memorabilem conseruere, in qua uictores Romani
-                        primum hostium elephantos, deinde equites in fugam uerterunt, demum acrius
-                        inferentes pedem totam aciem profligarunt. Caesa aut capta ex
-                        Carthaginensium copiis supra .XL. milia hominum a Romanis ferunt.
-                            <num>2</num> Hannibal ex tanta caede incolumis euasit nullo strenui
-                        ducis eo die munere praetermisso. Nam si unquam antea, tum ea pugna aciem
-                        peritissime instruxerat, loco subsidiisque firmauerat, atque in ipso
-                        certamine dum manus conserebantur, sic militubus suis officium praestiterat,
-                        ut summi imperatoris laudem etiam ab hostibus tulerit. </p>
+                    <p><num>52.1</num> Locus prope Zamam fuisse traditur, ubi <app>
+                            <lem>superans</lem>
+                            <rdg wit="#E #F #M #N #P #R #S #W #r #s">supremas</rdg>
+                            <rdg wit="#U">suppremas</rdg>
+                        </app> uires quasi in medium effundentes pugnam <app>
+                            <lem>memorabilem</lem>
+                            <rdg wit="#F">memoriabile</rdg>
+                        </app> conseruere, in qua uictores Romani primum hostium elephantos, deinde
+                        equites <app>
+                            <lem>in fugam uerterunt, demum acrius inferentes pedem totam aciem
+                                profligarunt. Caesa aut capta ex</lem>
+                            <rdg wit="#G"><del/></rdg>
+                        </app> Carthaginensium copiis supra .XL. <app>
+                            <lem>milia</lem>
+                            <rdg wit="#F"><del/></rdg>
+                        </app> hominum a Romanis ferunt. <num>2</num> Hannibal ex tanta caede
+                        incolumis euasit nullo strenui ducis eo die munere praetermisso. Nam si
+                        unquam antea, tum ea pugna aciem peritissime instruxerat, loco subsidiisque
+                        firmauerat, atque in ipso certamine dum manus conserebantur, sic militubus
+                        suis officium praestiterat, ut summi imperatoris laudem etiam ab hostibus
+                        tulerit. </p>
                 </div>
 
                 <div xml:id="lVS53" type="section" n="53">
@@ -839,17 +1158,27 @@
                         alium perueniret, aequo animo a legatis Carthaginensium se exorari passus
                         est. 3 Conditiones igitur pacis Carthaginensibus datae ex uictoris arbitrio,
                         et praeter alia omnis classis, qua maxime confidebant, adempta. <num>4</num>
-                        Ea cum cremaretur tam miserabile spectaculum intuentibus praebuit ut non
-                        secus in urbe, quam si Carthago a stirpe interiisset, comploratum sit.
-                            <num>5</num> Ad quingentas enim naues omnis generis crematas quidam
-                        auctores sunt. Verum haec nos admonere debent fragilitatis humanae, cuius
-                        nimia, ut ille inquit, in prosperis rebus obliuio est. <num>6</num> Qui enim
-                        antea amplissimis uictoriis consecutis omni prope Italia in ditionem
-                        redacta, urbe Roma audacissime obsessa imperium orbis terrae animis
-                        destinabant. <num>7</num> Non multo interiecto spatio in eum locum deducti
-                        sunt, ut omni imperio amisso nihil praeter Carthaginis moenia possiderent,
-                        eaque seruare posse diffiderent, nisi salua esse sineret hostium exorata
-                        clementia.</p>
+                        Ea cum <app>
+                            <lem>cremaretur</lem>
+                            <rdg wit="#s">cremeretur</rdg>
+                        </app> tam miserabile spectaculum intuentibus praebuit ut non secus in urbe,
+                        quam si Carthago a stirpe interiisset, comploratum sit. <num>5</num> Ad
+                        quingentas enim naues omnis generis crematas quidam auctores sunt. Verum
+                        haec nos admonere debent fragilitatis humanae, cuius nimia, ut ille inquit,
+                        in <app>
+                            <lem>prosperis</lem>
+                            <rdg wit="#v">proseris</rdg>
+                        </app> rebus obliuio est<note n="4">Probable referencia a Quinto Curcio
+                            Rufo: «Nos fragilitas humanae, cuius nimia in prosperis rebus oblivio
+                            est» (CURT. IV, 14).</note>. <num>6</num> Qui enim antea amplissimis
+                        uictoriis consecutis omni prope Italia in ditionem redacta, urbe Roma
+                        audacissime obsessa imperium orbis terrae animis destinabant. <num>7</num>
+                        Non multo interiecto spatio in eum locum deducti sunt, ut omni imperio
+                        amisso nihil praeter Carthaginis moenia possiderent, eaque seruare posse
+                        diffiderent, nisi salua esse sineret hostium <app>
+                            <lem>exorata</lem>
+                            <rdg wit="#W"><del>implorata</del><add>exorata</add></rdg>
+                        </app> clementia.</p>
                 </div>
 
                 <div xml:id="lVS55" type="section" n="55">
@@ -863,34 +1192,51 @@
                         secutus est Terentius Culeo senator pileato capite, quia beneficio eius ex
                         seruitute fuerat exemptus. Syphacem uero regem Polibius in triumpho ductum,
                         quidam priusquam Scipio triumpharet, mortuum scribunt. <num>4</num> Multi
-                        antea Punico et postea Macedonico atque Asiatico bello triumphantes, plura
-                        uasa aurea argenteaque et maiorem copiam captiuorum prae se tulerunt.
-                            <num>5</num> Sed unus Hannibal uictus et tanti belli confecti gloria
-                        triumphum P. Scipionis, sic celebrem reddidit, ut facile caeterorum aurum
-                        pompamque superaret. <num>6</num> Aphrica enim subacta nulla gens postea
-                        fuit, quae uinci a populo Romano erubesceret. Quamobrem ex hac prouincia
-                        gradus imperii in Macedoniam in Asiam atque in reliquas partes orbis terrae
-                        est factus.</p>
+                        antea Punico et postea Macedonico <app>
+                            <lem>atque Asiatico</lem>
+                            <rdg wit="#P"><del/></rdg>
+                        </app> bello triumphantes, plura uasa aurea argenteaque et maiorem copiam
+                        captiuorum prae se tulerunt. <num>5</num> Sed unus Hannibal uictus et tanti
+                        belli confecti gloria triumphum P. Scipionis, sic celebrem reddidit, ut
+                        facile caeterorum aurum pompamque superaret. <num>6</num> Aphrica enim
+                        subacta nulla gens postea fuit, quae uinci a populo Romano erubesceret.
+                        Quamobrem ex hac prouincia gradus imperii in Macedoniam in Asiam atque in
+                        reliquas partes orbis terrae est factus.</p>
                 </div>
 
                 <div xml:id="lVS56" type="section" n="56">
                     <p><num>56.1</num> Caeterum Scipioni quem post Aphricam deuictam, iam Aphricanum
                         appellare licet, Romam reuerso neque ciuiles dignitates neque urbani honores
-                        defuerunt. Nam cum censorum comitia haberentur et multi competitores ex
-                        superna nobilitate concurrerent. <num>2</num> Ipse et Elius Petus praelati
-                        omnibus sunt, creatique censores magistratum postea summa integritate
-                        concordiaque gesserunt. <num>3</num> Sequentes deinde censores alii atque
-                        alii principem senatus Aphricanum legerunt, quod genus honoris iis tantum
-                        uiris deferri consueuit, qui auctoritatem et gloriam maximis [126r] in
-                        rempublicam meritis praestantissimisque rebus gestis essent consecuti.
-                            <num>4</num> Nec multo interiecto spatio creatus est iterum consul
-                        collegaque ei datus Sempronius Longus, Sempronii illius filius, quem
+                        defuerunt. Nam cum <app>
+                            <lem>censorum</lem>
+                            <rdg wit="#G">sensorum</rdg>
+                        </app> comitia haberentur et multi competitores ex <app>
+                            <lem>superna</lem>
+                            <rdg wit="#E #M #R #R #S #U #W #r #s">suprema</rdg>
+                            <rdg wit="#P">supprema</rdg>
+                        </app>
+                        <app>
+                            <lem>nobilitate</lem>
+                            <rdg wit="#s">nolitate</rdg>
+                        </app> concurrerent. <num>2</num> Ipse et Elius Petus praelati omnibus sunt,
+                        creatique censores magistratum postea summa integritate concordiaque
+                        gesserunt. <num>3</num> Sequentes deinde censores alii atque alii principem
+                        senatus Aphricanum legerunt, quod genus honoris <app>
+                            <lem>iis</lem>
+                            <rdg wit="#U"><del/></rdg>
+                        </app> tantum uiris deferri consueuit, qui auctoritatem et gloriam maximis
+                        [126r] in rempublicam meritis praestantissimisque rebus gestis essent
+                        consecuti. <num>4</num> Nec multo interiecto spatio creatus est iterum
+                        consul collegaque ei datus Sempronius Longus, Sempronii illius filius, quem
                         Hannibal magna affectum clade ad flumen Trebiam superauit. <num>5</num> Hi
                         primi fuisse dicuntur, qui in spectandis ludis patres a populo secreuerunt,
                         quam selectionem plaebs Romana molestissime tulit aduersus consules
-                        indignata, qui honorem senatorii ordinis extulisse, suum contempsisse uisi
-                        erant. <num>6</num> Et ipsum etiam Aphricanum aliquando poenituisse tradunt,
-                        se ueteris moris tollendi, noui introducendi auctorem fuisse.</p>
+                        indignata, qui <app>
+                            <lem>honorem</lem>
+                            <rdg wit="#U">horem</rdg>
+                        </app> senatorii ordinis extulisse, suum contempsisse uisi erant.
+                            <num>6</num> Et ipsum etiam Aphricanum aliquando poenituisse tradunt, se
+                        ueteris moris tollendi, noui introducendi auctorem fuisse.</p>
                 </div>
 
                 <div xml:id="lVS57" type="section" n="57">
@@ -905,10 +1251,22 @@
                     <p><num>58.1</num> Vigebat enim cum rege Antiocho bellum et Hannibal Poenus cum
                         eo erat, qui nunquam cessabat in populum Romanum ueteres hostes concitare,
                         nouos acquirere, et omnibus modis Carthaginensibus suadere, ut seruitutis
-                        iugum sub titulo foederis sibi a Romanis impositum abiicerent et regum
-                        amicitiam experirentur. <num>2</num> Verum paulopost Romani rebus prospere
-                        gestis Antiocho e Graecia pulso cum iam Asiam animis destinarent, Aphricanum
-                        intuebantur ueluti hominem natum ad bella magni ponderis finienda. </p>
+                        iugum sub titulo foederis sibi a Romanis impositum abiicerent <app>
+                            <lem>et</lem>
+                            <rdg wit="#N"><del/></rdg>
+                        </app>
+                        <app>
+                            <lem>regum</lem>
+                            <rdg wit="#N"><del/></rdg>
+                            <rdg wit="#F #M #P #R #S #U #W">regiam</rdg>
+                            <rdg wit="#r #s">regem</rdg>
+                        </app> amicitiam experirentur. <num>2</num> Verum paulopost Romani rebus
+                        prospere gestis Antiocho <app>
+                            <lem>e Graecia</lem>
+                            <rdg wit="#S">ex Gretia</rdg>
+                            <rdg wit="#r #s">egregia</rdg>
+                        </app> pulso cum iam Asiam animis destinarent, Aphricanum intuebantur ueluti
+                        hominem natum ad bella magni ponderis finienda. </p>
                 </div>
 
                 <div xml:id="lVS59" type="section" n="59">
@@ -920,11 +1278,13 @@
                         surrexit P. Aphricanus, frater maior L. Scipionis, et illam ignominiam
                         familiae deprecatus est, dixitque in fratre suo summam uirtutem esse
                         summumque consilium, neque se ei legatum defuturum. Extemplo haec uox
-                        ingenti patrum laetitia excepta omnem dubitationem ex eorum animis dempsit.
-                            <num>3</num> Decretum est igitur frequenti senatu, ut L. Scipio in
-                        Graeciam aduersus Aetholos, deinde in Asiam, si ei uisum esset, transiret ad
-                        inferendum Antiocho bellum et P. Aphricanum secum duceret, quem Hannibali
-                        uicto et pro Antiocho in acie stanti uictorem opponeret.</p>
+                        ingenti patrum laetitia excepta omnem dubitationem <app>
+                            <lem>ex eorum animis</lem>
+                            <rdg wit="#U">eorum ex animis</rdg>
+                        </app> dempsit. <num>3</num> Decretum est igitur frequenti senatu, ut L.
+                        Scipio in Graeciam aduersus Aetholos, deinde in Asiam, si ei uisum esset,
+                        transiret ad inferendum Antiocho bellum et P. Aphricanum secum duceret, quem
+                        Hannibali uicto et pro Antiocho in acie stanti uictorem opponeret.</p>
                 </div>
 
                 <div xml:id="lVS60" type="section" n="60">
@@ -932,49 +1292,67 @@
                         non solum a prima adolescentia Cornelio patri, sed etiam Lucii fratri id
                         aetatis iisque rebus egregiam praestitit? <num>2</num> Et quamquam erat
                         Aphricanus, qui Hannibalem uicerat, de Poenis triumpharat, omnes belli
-                        gloria et uirtute anteibat, imperio tamen minoris natu se sponte summissit,
-                        ut is in honore obtinendae prouinciae gratioso collegae praeferretur.
-                            <num>3</num> Ex eo autem bello Lucio Scipio consul Aphricani consilio
-                        egregio quidem et fideli usus maximam gloriam in patriam reportauit. Nam
-                        primum in Graeciam traiiciens indutias sex mensium Aetholis dedit,
-                            <num>4</num> suadente Aphricano posthabitis omnibus Asiam caput belli
-                        peteret, Prusiam deinde Bithiniae regem animo fluctuantem Aphricani opera ab
-                        Antiochi societate auertit.</p>
+                        gloria et uirtute anteibat, imperio tamen minoris natu se sponte <app>
+                            <lem>summissit</lem>
+                            <rdg wit="#F #M #P #R #S #W #r #s">submisit</rdg>
+                            <rdg wit="#U">sumpsit</rdg>
+                        </app>, ut is in honore obtinendae prouinciae gratioso collegae
+                        praeferretur. <num>3</num> Ex eo autem bello Lucio Scipio consul Aphricani
+                        consilio egregio quidem et fideli usus maximam gloriam in patriam
+                        reportauit. Nam primum in Graeciam traiiciens indutias sex mensium Aetholis
+                        dedit, <num>4</num> suadente <app>
+                            <lem>Aphricano posthabitis</lem>
+                            <rdg wit="#F #N #P #S #U #W">Affricano ut posthabitis</rdg>
+                        </app> omnibus Asiam caput belli peteret, Prusiam deinde Bithiniae regem
+                        animo fluctuantem Aphricani opera ab Antiochi societate <app>
+                            <lem>auertit</lem>
+                            <rdg wit="#U">aduertit</rdg>
+                        </app>.</p>
                 </div>
 
                 <div xml:id="lVS61" type="section" n="61">
                     <p><num>61.1</num> Magnum enim erat Aphricani nomen et omnes, qui consulem
                         adibant, rem aliquam impetraturi eo patrono utebantur. Cum uero in Asiam
-                        peruenisset et legatus Antiochi et Heraclides Bizantius praesto fuisset, ut
-                        de pace ageret, <num>2</num> et publice expositis mandatis aequas
-                        conditiones impetrare non potuisset, priuatim sicut praeceptum erat
-                        Aphricanum adiisse traditur, ac multis modis tentasse animum uiri, ut in
-                        regis desiderium traheret. <num>3</num> Nam et filium adolescentem, quem
-                        captum in potestate haberet, Antiochum remissurum dixit, et Aphricanum in
-                        totius regni societatem titulo tantum sibi reseruato libentissime
-                        suscepturum adiecit. <num>4</num> P. autem Scipio sicut multis aliis
-                        uirtutibus, ita fide et probitate praestans caeteris posthabitis filium ut
-                        gratum munus se accepturum respondit, <num>5</num> et pro priuato officio
-                        quantum in eo esset, priuatam gratiam relaturum. Sed ante omnia regem
-                        hortari, ut abiectis belli consiliis quascumque dederit senatus populusque
-                        Romanus conditiones accipiat.</p>
+                        peruenisset et <app>
+                            <lem>legatus</lem>
+                            <rdg wit="#E #r #s">legatos</rdg>
+                        </app> Antiochi et Heraclides <app>
+                            <lem>Bizantius</lem>
+                            <rdg wit="#U">Biçantius</rdg>
+                            <rdg wit="#s">Bicantius</rdg>
+                        </app> praesto fuisset, ut de pace ageret, <num>2</num> et publice expositis
+                        mandatis aequas conditiones impetrare non potuisset, priuatim sicut
+                        praeceptum erat Aphricanum adiisse traditur, ac multis modis tentasse animum
+                        uiri, ut in regis desiderium traheret. <num>3</num> Nam et filium
+                        adolescentem, quem captum in potestate haberet, Antiochum remissurum dixit,
+                        et Aphricanum in totius regni societatem titulo tantum sibi reseruato
+                        libentissime suscepturum adiecit. <num>4</num> P. autem Scipio sicut multis
+                        aliis uirtutibus, ita fide et probitate praestans caeteris posthabitis
+                        filium ut gratum munus se accepturum respondit, <num>5</num> et pro priuato
+                        officio quantum in eo esset, priuatam gratiam relaturum. Sed ante omnia
+                        regem hortari, ut abiectis belli consiliis quascumque dederit senatus
+                        populusque Romanus conditiones accipiat.</p>
                 </div>
 
                 <div xml:id="lVS62" type="section" n="62">
                     <p><num>62.1</num> Paucis uero post diebus Antiochus filium ad P. Scipionem, ut
-                        pollicitus erat, remisit, quem alii iam inde ab initio belli a Chalcide
-                        Oricum petentem, alii paruo nauigio traiicientem, quidam proficiscentem
-                        exploratum consilia hostium captum fuisse tradunt, atque eo tempore ad
-                        patrem Eleae aegrotantem remissum dicunt. <num>2</num> Ea indulgentia regis
-                        gratissima (ut par erat) Aphricano fuit, uisusque ex longo interuallo
-                        adolescens animum eius sollicitum et corpus aegrum magnope recreauit.
-                            <num>3</num> Verum P. Scipio, ut aliquod grati animi iudicium prae se
-                        ferret, per legatos, qui ad eum uenerant, amplissimas gratias Antiocho egit
-                        pro filio ad se remisso, deinde eum monuit, ne prius in aciem descenderet,
-                        quam se ab Elea in [126v] castra reuersum sciret. <num>4</num> Motus
-                        auctoritate uiri Antiochus aliquandiu se castris continuit, et praelium in
-                        longum differendum putauit, sperans per Aphricanum se aliquem aditum ad
-                        consulem habiturum. </p>
+                        pollicitus erat, remisit, quem alii iam inde ab initio belli a <app>
+                            <lem>Chalcide</lem>
+                            <rdg wit="#U">Calcide</rdg>
+                        </app> Oricum petentem, alii paruo nauigio traiicientem, quidam
+                        proficiscentem exploratum consilia hostium captum fuisse tradunt, atque eo
+                        tempore ad patrem Eleae aegrotantem remissum dicunt. <num>2</num> Ea
+                        indulgentia regis gratissima (ut par erat) Aphricano fuit, uisusque ex longo
+                        interuallo adolescens animum eius sollicitum et corpus aegrum magnope
+                        recreauit. <num>3</num> Verum P. Scipio, ut aliquod grati animi iudicium
+                        prae se ferret, per legatos, qui ad eum uenerant, amplissimas gratias
+                        Antiocho egit pro filio ad se remisso, deinde eum monuit, <app>
+                            <lem>ne</lem>
+                            <rdg wit="#v">ue</rdg>
+                        </app> prius in aciem descenderet, quam se ab Elea in [126v] castra reuersum
+                        sciret. <num>4</num> Motus auctoritate uiri Antiochus aliquandiu se castris
+                        continuit, et praelium in longum differendum putauit, sperans per Aphricanum
+                        se aliquem aditum ad consulem habiturum. </p>
                 </div>
 
                 <div xml:id="lVS63" type="section" n="63">
@@ -984,18 +1362,30 @@
                         Hannibal Carthaginensis interfuisse traditur. <num>2</num> Victus
                         profligatusque Antiochus, cum perditis rebus nullum remedium esse censeret,
                         ad Aphricanum, qui paulopost commissam pugnam leuatus morbo in castra
-                        uenerat, confugit, ac per eum a consule impetrauit, ut de pace agi liceret.
-                            <num>3</num> Venientibus ergo in castra legatis Antiochi petentibusque,
-                        ut regi suo ignoscerent, et quascunque uellent conditiones dicerent pacis,
-                        Aphricanum ex communi omnium sententia respondisse tradunt, non esse
-                        consuetudinem Romanorum, ut uel aduersis rebus succumbere uel secundis
-                        efferi sciant. <num>4</num> Easdem conditiones, quas ante uictoriam
-                        detulissent se deferre ut Europa abstineat rex cis Taurum montem usque ad
-                        Tanaim amnem possessionem Asiae cedat, in .XX. annos tributum pendat .XX.
-                        obsides ex arbitrio consulis dedat. <num>5</num> Et ante omnes Hannibalem
-                        Poenum concitatorem belli poposcit. Sed is, ut in eius uita scripsimus,
-                        terra marique fractas uidens Antiochi opes se manibus Romanorum surripuerat
-                        et ad Prusiam Bithiniae regem perfugerat.</p>
+                        uenerat, confugit, ac per eum a consule impetrauit, ut de <app>
+                            <lem>pace</lem>
+                            <rdg wit="#s">paci</rdg>
+                        </app> agi liceret. <num>3</num> Venientibus ergo in castra legatis Antiochi
+                        petentibusque, ut regi suo ignoscerent, et quascunque uellent conditiones
+                        dicerent pacis, Aphricanum ex communi omnium sententia respondisse tradunt,
+                        non esse consuetudinem Romanorum, ut uel aduersis rebus succumbere uel
+                        secundis efferi sciant. <num>4</num> Easdem conditiones, quas ante uictoriam
+                        detulissent se deferre ut Europa abstineat rex <app>
+                            <lem>cis Taurum</lem>
+                            <rdg wit="#M #P">Cistaurum</rdg>
+                            <rdg wit="#E #F #R #r">cis thaurum</rdg>
+                            <rdg wit="#U">Cisthaurum</rdg>
+                        </app> montem usque ad Tanaim amnem possessionem Asiae cedat, in .XX. annos
+                        tributum pendat .XX. obsides ex arbitrio consulis dedat. <num>5</num> Et
+                        ante omnes Hannibalem Poenum concitatorem belli poposcit. Sed is, ut in eius
+                        uita scripsimus, terra marique fractas <app>
+                            <lem>uidens</lem>
+                            <rdg wit="#U">uident</rdg>
+                        </app> Antiochi opes se manibus Romanorum surripuerat et ad Prusiam
+                        Bithiniae regem <app>
+                            <lem>perfugerat</lem>
+                            <rdg wit="#P">confugerat</rdg>
+                        </app>.</p>
                 </div>
 
                 <div xml:id="lVS64" type="section" n="64">
@@ -1003,9 +1393,29 @@
                         Romano factum dixit, quod magna cura liberatus modicis regni terminis
                         uteretur. <num>2</num> Ampla enim imperia et nimiae quae expetuntur opes,
                         tot tamque uarias et undique circumfusas molestias habent, ut non minus uere
-                        quam eleganter a Theocrito dictum sint: Non mihi sint opes Pelopis, nec
-                        multa talenta Nec celeri cursu uentos superare fugaces. At uacuo curis
-                        liceat cantare sub antro Et procul e specula mare spectare profundum. </p>
+                        quam eleganter a Theocrito dictum sint:</p>
+                    <lg>
+                        <l>Non mihi <app>
+                                <lem>sint opes</lem>
+                                <rdg wit="#F #N #P #S #U #W">diuitie</rdg>
+                                <rdg wit="#R">sint diuitię</rdg>
+                            </app> Pelopis, nec multa talenta </l>
+                        <l>Nec celeri cursu uentos superare fugaces. </l>
+                        <l>At uacuo curis liceat cantare sub antro </l>
+                        <l>Et procul e specula <app>
+                                <lem>mare</lem>
+                                <rdg wit="#F #N #P #R #S #U">pontum</rdg>
+                                <rdg wit="#M">ponthum</rdg>
+                                <rdg wit="#W">poterit</rdg>
+                            </app> spectare profundum.</l>
+                        <note n="5"> Teócrito, Id. VIII, vv. 53-56, cuando es el turno de Dafnis: <lg>
+                                <l>Δάφνις</l>
+                                <l>μή μοι γᾶν Πέλοπος, μή μοι χρύσεια τάλαντα</l>
+                                <l>εἴη ἔχειν, μηδὲ πρόσθε θέειν ἀνέμων:</l>
+                                <l>ἀλλ ̓ ὑπὸ τᾷ πέτρᾳ τᾷδ ̓ ᾁσομαι, ἀγκὰς ἔχων τυ,</l>
+                                <l>σύννομα μᾶλ ̓ ἐσορῶν, τὰν Σικελὰν ἐς ἅλα</l>
+                            </lg>.</note>
+                    </lg>
                 </div>
 
                 <div xml:id="lVS65" type="section" n="65">
@@ -1028,38 +1438,54 @@
                         ulterius expetendum. <num>2</num> Hanc magnitudinem sustinere non potuit
                         inimicorum inuidia, sed erupit tandem ea quae animis latebat, et in tantarum
                         rerum auctores sese effudit. <num>3</num> Nam duo Quinti Petilii, tribuni
-                        plaebis, Portii Catonis ut quidam suspicantur opera concitati, diem Publio
-                        Aphricano dicunt, et pecuniae ab Antiocho rege acceptae et non in publicum
-                        relatae eum insimulant. <num>4</num> Is suae probitatis conscius uocanti
-                        magistratui paret, ac ingenti fiducia animi in forum progressus orationem
-                        amplam magnificamque habet de rebus a se pro republica gestis, <num>5</num>
-                        quarum commemoratio non pro gloria sed pro suo periculo habita a multitudine
-                        quae ibi frequens aderat, aequis animis accipitur. Instant tamen tribuni,
-                        multis calumniis hominem onerant, et quasi culpae obnoxium suspitionibus
-                        magis quam argumentis accusant.</p>
+                        plaebis, Portii Catonis <app>
+                            <lem>ut</lem>
+                            <rdg wit="#U">et</rdg>
+                        </app> quidam suspicantur opera concitati, diem Publio Aphricano dicunt, et
+                        pecuniae ab Antiocho rege acceptae et non in publicum relatae eum
+                        insimulant. <num>4</num> Is suae probitatis conscius uocanti magistratui
+                        paret, ac ingenti fiducia animi in forum progressus orationem amplam
+                        magnificamque habet de rebus a se pro republica gestis, <num>5</num> quarum
+                        commemoratio non pro gloria sed pro suo periculo habita a multitudine quae
+                        ibi frequens aderat, aequis animis accipitur. Instant tamen tribuni, multis
+                        calumniis hominem <app>
+                            <lem>onerant</lem>
+                            <rdg wit="#U">honerant</rdg>
+                        </app>, et quasi culpae obnoxium suspitionibus magis quam argumentis
+                        accusant.</p>
                 </div>
 
                 <div xml:id="lVS67" type="section" n="67">
                     <p><num>67.1</num> Sequenti die citatus iterum Aphricanus ad constitutam horam
                         praesto adest, et cum magno comitatu amicorum per mediam contionem ad rostra
                         progreditur. Ibi silentibus cunctis: <num>2</num> «Memini, inquit, Quirites,
-                        me tali die de Hannibale et de Poenis egregiam uictoriam consecutum.
-                        Quamobrem postpositis litibus hinc eundum in Capitolium censeo ut pro
-                        republica foelicissime gesta diuino numini gratias agamus». <num>3</num>
-                        Proficiscentem deinde P. Scipionem non modo Capitolium sed etiam ad omnia
-                        templa urbis secuta uniuersa contio est magistratu solis ministris
-                        relicto.</p>
+                        me tali die de <app>
+                            <lem>Hannibale et</lem>
+                            <rdg wit="#P">mi</rdg>
+                        </app> de Poenis egregiam uictoriam consecutum. Quamobrem postpositis
+                        litibus hinc eundum in Capitolium censeo ut pro republica foelicissime gesta
+                        diuino numini gratias agamus». <num>3</num> Proficiscentem deinde P.
+                        Scipionem non <app>
+                            <lem>modo Capitolium</lem>
+                            <rdg wit="#F #N #P #R #S #W">modo in Capitolium</rdg>
+                        </app> sed etiam ad omnia templa urbis secuta uniuersa contio est <app>
+                            <lem>magistratu solis</lem>
+                            <rdg wit="#G">magistratu tum solis</rdg>
+                            <rdg wit="#E #F #M #N #P #S #W #r #s">magistratu cum solis</rdg>
+                        </app> ministris relicto.</p>
                 </div>
 
                 <div xml:id="lVS68" type="section" n="68">
                     <p><num>68.1</num> Haec uelut ultima prosperitatis dies et frequentia hominum
                         beniuolentiae significatione quacunque antecedenti foelicior Aphricano
                         illuxit. Nam postea ruri agere uitam procul ambitione ac foro constituit.
-                            <num>2</num> Itaque Linternum se contulisse traditur, seu uehementi
-                        indigantione commotus, quod post tanta beneficia in ciuitatem collata pro
-                        mercede ignominiam reportaret, seu quia satietate gloriae captus generosius
-                        duceret sponte inimicorum inuidiae cedere, quam ui et armis magnitudinem
-                        suam tueri.</p>
+                            <num>2</num> Itaque <app>
+                            <lem>Linternum</lem>
+                            <rdg wit="#F #M #N #R #S #r #s">liternum</rdg>
+                        </app> se contulisse traditur, seu uehementi indigantione commotus, quod
+                        post tanta beneficia in ciuitatem collata pro mercede ignominiam reportaret,
+                        seu quia satietate gloriae captus generosius duceret sponte inimicorum
+                        inuidiae cedere, quam ui et armis magnitudinem suam tueri.</p>
                 </div>
 
                 <div xml:id="lVS69" type="section" n="69">
@@ -1075,86 +1501,133 @@
                 <div xml:id="lVS70" type="section" n="70">
                     <p><num>70.1</num> Sunt autem [127r] qui uolunt Publium Scipionem priusquam
                         Liternum concederet librum pro reddenda ratione a L. fratre in senatum
-                        allatum suis manibus concerpsisse, <num>2</num> atque id non fraude aut
-                        arrogantia fecisse, sed eadem fiducia animi, qua aliquando in quaestores est
-                        usus, cum clauis ad aperiendum aerarium contra leges poposcit, ut
-                        necessitati reipublicae subueniret. <num>3</num> Quidam etiam dicunt non
-                        Aphricanum, sed Asiaticum fuisse, quem tribuni plaebis in iudicium uocarunt,
-                        et Publium Scipionem, qui in Hetruria per id tempus erat legatus, hac re
-                        cognita, celeriter in urbem rediisse. 4 Et primo aduentu cum offendisset
-                        Lucium fratrem damnatum et paratos ministros, qui eum uictum in carcerem
-                        ducerent, sic animo exarsisse, ut uiatorem tribunosque plaebis uia a corpore
-                        fatris repulerit. </p>
+                        allatum suis manibus <app>
+                            <lem>concerpsisse</lem>
+                            <rdg wit="#E #F #M #N #R #S #U #W #r #s">compressisse</rdg>
+                            <rdg wit="#P">comprexisse</rdg>
+                        </app>, <num>2</num> atque id non fraude aut arrogantia fecisse, sed eadem
+                        fiducia animi, qua aliquando in quaestores est usus, cum clauis ad
+                        aperiendum aerarium contra leges poposcit, ut necessitati reipublicae
+                        subueniret. <num>3</num> Quidam etiam dicunt non Aphricanum, sed Asiaticum
+                        fuisse, quem tribuni plaebis in iudicium uocarunt, et Publium Scipionem, qui
+                        in Hetruria <app>
+                            <lem>per id tempus erat legatus</lem>
+                            <rdg wit="#S">erat legatus per id tempus</rdg>
+                        </app>, hac re cognita, celeriter in urbem rediisse. 4 Et primo aduentu cum
+                        offendisset Lucium fratrem damnatum et paratos ministros, qui eum uictum in
+                        carcerem ducerent, sic animo exarsisse, ut uiatorem tribunosque plaebis uia
+                        a corpore fatris repulerit. </p>
                 </div>
 
 
                 <div xml:id="lVS71" type="section" n="71">
-                    <p><num>71.1</num> Adiiciunt praetera Tyberium Gracchum tribunum plaebis questum
-                        primo solutam esse a priuato tribunitiam potestatem, deinde postpositis
-                        simultatibus, quae sibi cum Scipionibus intercedebant eorum patrocinium
-                        suscepisse, ut tribuni potius a tribuno, quam a priuato uicti uiderentur.
-                            <num>2</num> Eodem die senatum in Capitolio coenantem auctorem fuisse
-                        scribunt, ut Aphricanus minorem ex filiabus Tyberio Graccho desponderet. Hac
-                        sponsione facta, rediens domum Publio Scipio cum uxori nouam affinitatem
-                        nuntiasset, indignata mulier dixisse fertur non debuisse eum inconsulta
-                        matre filiam despondere, etiam si Tyberio Graccho locare potuisset.
-                            <num>3</num> Id responsum Scipioni iocundissimum fuit, cum uidit
-                        coniugem in eandem sententiam, in qua ipse constiterat, de locanda filia
-                        incidisse.</p>
+                    <p><num>71.1</num> Adiiciunt <app>
+                            <lem>praetera</lem>
+                            <rdg wit="#P"><del/></rdg>
+                        </app> Tyberium Gracchum tribunum plaebis questum primo solutam esse a
+                        priuato tribunitiam potestatem, deinde postpositis simultatibus, quae sibi
+                        cum Scipionibus intercedebant eorum patrocinium suscepisse, ut tribuni
+                        potius a tribuno, quam a priuato uicti uiderentur. <num>2</num> Eodem die
+                        senatum in Capitolio coenantem auctorem fuisse scribunt, ut Aphricanus
+                        minorem ex filiabus Tyberio Graccho desponderet. Hac sponsione facta,
+                        rediens domum Publio Scipio cum uxori nouam affinitatem nuntiasset,
+                        indignata mulier dixisse fertur non debuisse eum inconsulta matre <app>
+                            <lem>filiam</lem>
+                            <rdg wit="#v">filam</rdg>
+                        </app> despondere, etiam si Tyberio Graccho locare potuisset. <num>3</num>
+                        Id responsum Scipioni iocundissimum fuit, cum uidit coniugem in eandem
+                        sententiam, in qua ipse constiterat, de locanda filia incidisse.</p>
                 </div>
 
                 <div xml:id="lVS72" type="section" n="72">
                     <p><num>72.1</num> Nec sane me fugit haec, quae modo dixi, nonnullos de Tyberio
-                        filio et Appio Claudio eius socero tradidisse. Nam Polibius Plutarchus et
-                        alii locupletissimi auctores Corneliam, quae Caium et Tyberium peperit, post
-                        mortem Aphricani Graeccho nupsisse scribunt. <num>2</num> Fuit enim
-                        Aphricano Aemilia uxor, Lucii Pauli filia, qui consul pro republica ad
-                        Cannas occubuit. Ex ea genuit filias, quarum maiorem natu Publio Cornelio
-                        Nasicae, minorem seu in uita seu post mortem patris Tyberio certe Graccho
-                        nuptam constat. <num>3</num> De filiis uero pauca reperiuntur, quae pro
-                        certis afferri possint. Diximus de adolescente an Antiocho capto, et ad
-                        patrem liberaliter remisso, de quo nulla postea scriptores, quod compertum
-                        habeam, mentionem faciunt, nisi quod eum praeturam gessisse, et in
-                        magistratu consequendo a Cicereio patris scriba adiutum fuisse quidam
-                        auctores sunt. <num>4</num> Proditum quoque memoriae est Aphricanum minorem
-                        a filio P. Scipionis adoptatum fuisse M. Cicero in eo libro, qui Cato maior
-                        inscribitur: «Quam fuit imbecillis, inquit, P. Aphricani filius is qui te
-                        adoptauit». Et in sexto De republica libro, pater Aemilius Scipionem filium
-                        hortatur, ut sicut Aphricanus auus colat iusticiam et pietatem.</p>
+                        filio et Appio Claudio eius socero tradidisse. Nam Polibius Plutarchus<note
+                            n="6">Sobre la cita de Plutarco y la confusión sobre la autoría, véase
+                            Parte primera, pp. LXXXIII-XC.</note> et alii locupletissimi auctores
+                        Corneliam, quae Caium et Tyberium peperit, post mortem Aphricani Graeccho
+                        nupsisse scribunt. <num>2</num> Fuit enim Aphricano Aemilia uxor, Lucii
+                        Pauli filia, qui consul pro republica ad Cannas occubuit. Ex ea genuit
+                        filias, quarum maiorem natu Publio Cornelio Nasicae, minorem seu in uita seu
+                        post mortem patris Tyberio certe Graccho nuptam constat. <num>3</num> De
+                        filiis uero pauca reperiuntur, quae pro certis afferri possint. Diximus de
+                        adolescente <app>
+                            <lem>an</lem>
+                            <rdg wit="#E #F #N #P #R #S #r">ab</rdg>
+                        </app> Antiocho capto, et ad patrem liberaliter remisso, de quo nulla postea
+                        scriptores, quod compertum habeam, mentionem faciunt, nisi quod eum
+                        praeturam <app>
+                            <lem>gessisse</lem>
+                            <rdg wit="#E #r #s">gessisset</rdg>
+                            <rdg wit="#F #M #N #P #R #S #U #W">gessisse</rdg>
+                            <rdg wit="#G #v">gegisse</rdg>
+                        </app>, et in magistratu consequendo a Cicereio patris <app>
+                            <lem>scriba</lem>
+                            <rdg wit="#U">scribas</rdg>
+                        </app> adiutum fuisse quidam auctores sunt. <num>4</num> Proditum quoque
+                        memoriae <app>
+                            <lem>est</lem>
+                            <rdg wit="#F #M #N #P #R #S #U #W"><del/></rdg>
+                        </app> Aphricanum minorem a filio P. Scipionis adoptatum fuisse M. Cicero in
+                        eo libro, qui Cato maior inscribitur: «Quam fuit imbecillis, inquit, P.
+                        Aphricani filius is qui te adoptauit»<note n="7">Cicerón, Cato. XI,
+                            35.</note>. Et in sexto De republica libro, pater Aemilius Scipionem
+                        filium hortatur, ut sicut Aphricanus <app>
+                            <lem>auus</lem>
+                            <rdg wit="#P"><del/></rdg>
+                        </app> colat iusticiam et pietatem<note n="8"> Cicerón, Somn.
+                        XV.</note>.</p>
                 </div>
 
                 <div xml:id="lVS73" type="section" n="73">
                     <p><num>73.1</num> De exitu autem P. Scipionis uaria scriptores tradidere. Alii
                         Romae mortuum elatumque scribunt, et ad fidem huius rei monumentum ad portam
                         Capenam ei factum, et tres statuas superlocatas ferunt, quarum duae Publii
-                        et Lucii Scipionum dicuntur esse, tertia Quinti Ennii poetae. <num>2</num>
-                        Huic sententiae illud Ciceronis conuenire uidetur: «Carus, inquit, Aphricano
-                        superiori fuit noster Ennius. Itaque etiam in sepulchro Scipionum putatur is
-                        esse constitutus». <num>3</num> Alii auctores sunt et frequentior fama est
-                        Literni Aphricanum mortuum, ibique ex sua institutione sepultum esse, ne
-                        patria parum memor beneficiorum suum funus celebraret, monumentumque ei
-                        factum ac statuam superpositam, quam postea tempestate disiectam Liuius se
-                        uidisse testatur. <num>4</num> Praeterea apud Caietam in marmoreo sepulchro
-                        aeneaque urna haec inscripta reperiuntur: Deuicto Hannibale capta Carthagine
-                        et aucto Imperio hos cineres marmore tectus habes Cui non Europa non
-                        obstitit Aphrica quondam Respice res hominum quam breuis urna premit. </p>
+                        et Lucii Scipionum dicuntur esse, tertia Quinti <app>
+                            <lem>Ennii</lem>
+                            <rdg wit="#M"><del>Emilij</del>
+                                <add>Ennij</add></rdg>
+                        </app> poetae. <num>2</num> Huic sententiae illud Ciceronis conuenire
+                        uidetur: «Carus, inquit, Aphricano superiori fuit noster Ennius. Itaque
+                        etiam in sepulchro Scipionum putatur is esse constitutus»<note n="9"
+                            >Cicerón, Arch. XXII.</note>. <num>3</num> Alii auctores sunt et
+                        frequentior fama est Literni Aphricanum mortuum, ibique ex sua institutione
+                        sepultum esse, ne patria parum <app>
+                            <lem>memor</lem>
+                            <rdg wit="#U">immemor</rdg>
+                        </app> beneficiorum suum funus celebraret, monumentumque ei factum ac
+                        statuam superpositam, quam postea tempestate disiectam Liuius se uidisse
+                            testatur<note n="10">Livio XXXVIII, 56.</note>. <num>4</num> Praeterea
+                        apud Caietam in marmoreo sepulchro aeneaque urna haec inscripta reperiuntur:
+                        Deuicto Hannibale capta Carthagine et aucto Imperio hos cineres marmore <app>
+                            <lem>tectus</lem>
+                            <rdg wit="#E #F #M #N #P #R #S #r">tectos</rdg>
+                            <rdg wit="#W"><add>tectus</add></rdg>
+                        </app> habes Cui non Europa non obstitit Aphrica quondam Respice res hominum
+                        quam breuis <app>
+                            <lem>urna</lem>
+                            <rdg wit="#G #v">urua</rdg>
+                        </app> premit<note n="11">Corpus Inscriptiorum Latinarum: Inscriptiones
+                            Aemiliae Etruriae Umbriae Latinae, XX. Faesulae, p. 28 («Epigramma in
+                            sepulcris Scipionis», núm. 212).</note>. </p>
                 </div>
 
                 <div xml:id="lVS74" type="section" n="74">
                     <p><num>74.1</num> Ego uero, quaeritans quo anno aetatis Aphricanus obierit
                         .IIII. et .L. annos eum uixisse pauloque post interiisse apud quosdam
-                        oratores graecos inueni<note>12</note>. <num>2</num> Fuit autem uir non
-                        solum omni bellica laude dignus, sed etiam domesticis uirtutibus praestans,
-                        quae sic eius animum ingeniumque alebant, ut dicere solitus sit nunquam se
-                        minus ociosum esse, quam cum ociosus, nec minus solum, quam cum solus esset.
-                            <num>3</num> Interdum enim multitudine consulto fugiens tanquam in
-                        portum se in solitudinem recipiebat. Sed ea erat rerum gestarum gloria, ut
-                        quocunque proficisceretur, concursum omnis generis hominum commoueret.
-                            <num>4</num> Tradit fama cum in Liternum secessisset praedones quosdam
-                        eum salutatum uenisse, ut tantum uirum intuerentur dextramque illius fide et
-                        uictoriis prestantem contingerent. Magna est enim uirtutis uis, et magna
-                        apud omnes gentes cum non solum bonos sed etiam improbos ad se amandum
-                        alliciat.</p>
+                        oratores graecos inueni<note n="12">Polibio señala que murió el mismo año
+                            que Aníbal y Filopemen, el 183a.C. (53 años); por el contrario, Livio y
+                            Cicerón situaban su muerte en 185a.C. (51 años).</note>. <num>2</num>
+                        Fuit autem uir non solum omni bellica laude dignus, sed etiam domesticis
+                        uirtutibus praestans, quae sic eius animum ingeniumque alebant, ut dicere
+                        solitus sit nunquam se minus ociosum esse, quam cum ociosus, nec minus
+                        solum, quam cum solus esset. <num>3</num> Interdum enim multitudine consulto
+                        fugiens tanquam in portum se in solitudinem recipiebat. Sed ea erat rerum
+                        gestarum gloria, ut quocunque proficisceretur, concursum omnis generis
+                        hominum commoueret. <num>4</num> Tradit fama cum in Liternum secessisset
+                        praedones quosdam eum salutatum uenisse, ut tantum uirum intuerentur
+                        dextramque illius fide et uictoriis prestantem contingerent. Magna est enim
+                        uirtutis uis, et magna apud omnes gentes cum non solum bonos sed etiam
+                        improbos ad se amandum alliciat.</p>
                 </div>
             </div>
         </body>
