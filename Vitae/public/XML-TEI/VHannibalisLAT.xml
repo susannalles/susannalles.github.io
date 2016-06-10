@@ -7,49 +7,19 @@
     <fileDesc>
       <titleStmt>
         <title>[VITA HANNIBALIS, PER DONATUM ACCIAIUOLUM EDITA]</title>
+        <author ref="#SAT">Susanna Allés Torrent</author>
       </titleStmt>
       <publicationStmt>
-        <p>Publication Information</p>
+        <p>UM, <date>Junio, 2016</date></p>
       </publicationStmt>
       <sourceDesc>
-        <listWit>
-          <head>Manuscritos</head>
-          <witness xml:id="D">Madrid, Biblioteca Nacional de España, RES/211 (Hh52; Vit. 4-3; Toledo
-            51, 3), ff. 274-306</witness>
-          <witness xml:id="E">Modena, Biblioteca Estense, Est. lat. 597 (Alpha N 5, 8), ff. 70v-107
-            F = Firenze, Biblioteca Nazionale Centrale di Firenze, Magl. XXIII, 26, ff.
-            1-78</witness>
-          <witness xml:id="G">Gent, Centrale Bibliotheek der Rijksuniversiteit, ms. 109, ff. 176-207
-            M = Firenze, Biblioteca Nazionale Centrale di Firenze, Magl. XXIII, 154, ff.
-            1-76v</witness>
-          <witness xml:id="N">Napoli, Biblioteca Nazionale di Napoli, XIII A A 19, ff.
-            1-65v</witness>
-          <witness xml:id="P">Firenze, Biblioteca Laurenziana, Plut. 52, cod. XI, ff.
-            55-96</witness>
-          <witness xml:id="R">Città del Vaticano, Biblioteca Apostolica Vaticana, Reg. lat. 768, ff.
-            115-172</witness>
-          <witness xml:id="S">Firenze, Biblioteca Laurenziana, Strozz. 53, ff. 279-299</witness>
-          <witness xml:id="U">Città del Vaticano, Biblioteca Apostolica Vaticana, Urb. lat. 448, ff.
-            274-309</witness>
-          <witness xml:id="W">Modena, Biblioteca Estense, Est. lat. 429 (Alpha W 1, 4), ff.
-            213-245</witness>
-        </listWit>
-        <listWit>
-          <head>Ediciones</head>
-          <witness xml:id="r">r = Plutarchus, Vitae illustrium virorum, ed. J. A. Campanus,
-            Uldaricus Gallus (Ulrich Han), [Roma ca. 1470] (editio princeps) </witness>
-          <witness xml:id="s">s = Plutarchus, Vitae illustrium virorum, [Adolf Rusch, Estrasburgo
-            ca. 1471] </witness>
-          <witness xml:id="v">v = Plutarchus, Vitae illustrium virorum, Nicolaus Jenson, Venetiis
-            1478 </witness>
-        </listWit>
-
+        <p></p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-      <div xml:id="origVH">
+      <div xml:id="origVH" type="VH">
         <div type="title">
           <p>Hannibalis uiri illustris uita ex Plutarcho graeco in latinum per Donatum Acciaiolum
               uersa.<note n="1">La edición utilizada por Palencia, impresa en Venecia en 1478 (v),
@@ -57,7 +27,7 @@
               al mismo Plutarco y consideró a Donato Acciaiuoli como el traductor.</note></p>
         </div>
         <div xml:id="l1" type="section" n="1">
-          <p><pb facs="../public/images/1478/112r.jpg"/><num xml:id="l1.1" corresp="#e1.1">1.1</num>
+          <p><pb facs="../public/images/1478/110r.jpg"/><num xml:id="l1.1" corresp="#e1.1">1.1</num>
             Si primi <app>
               <lem>punici belli</lem>
               <rdg wit="#P">belli punici</rdg>
@@ -90,7 +60,7 @@
               <rdg wit="#U">Hanibalis</rdg>
             </app> non multo tempore post interitum patris repugnantibus etiam alterius factionis
             principibus in Hispaniam uocauit, ut sicut antea puer uiuente Hamilchare coeperat
-            bellicis artibus erudiri, sic etiam tunc robustiore aetate periculis laboribus ac
+            <pb facs="../public/images/1478/110v.jpg"/>bellicis artibus erudiri, sic etiam tunc robustiore aetate periculis laboribus ac
             omnibus officiis militaribus assuesceret. <num>2</num> At uero etsi ab initio memoria
             patris non parum sibi in exercitu profuisset ad fauorem conciliandum, paulo tamen postea
             sua opera atque ingenio factum est, ut ueteres milites aliorum ducum desiderio <app>
@@ -187,7 +157,7 @@
             </app>, ac ingenti multitudine coacta (Erant enim supra centum milia) Hannibalem
             redeuntem ex Vacceis prope flumen Tagum adoriuntur. <num>8</num> Ad quorum conspectum
             subito constitere Carthaginensium signa, totoque agmine pauor et trepidatio fuit. Nec
-            ambigitur quin poeni eo die insignem cladem accepturi essent, si repentino hostium
+            ambigitur quin <pb facs="../public/images/1478/111v.jpg"/>poeni eo die insignem cladem accepturi essent, si repentino hostium
             aduentu commoti praedaque onusti cum ferocissimis gentibus <app>
               <lem>conseruissent manus</lem>
               <rdg wit="#F #W">manus conseruissent</rdg>
@@ -289,7 +259,7 @@
               15.</note>. <num>4</num> At uero expugnatio huius opulentissimae urbis coeptis
             Hannibalis multis in rebus adiumento fuit. Nam ciuitates nonnullas quae punici imperii
             pertesae metum defectionis praebebant, exemplo saguntinae cladis in fide retinuit,
-              <num>5</num> militum animos confirmauit ditato exercitu ingenti praeda, preciosa
+            <num>5</num> militum animos confirmauit <pb facs="../public/images/1478/111v.jpg"/>ditato exercitu ingenti praeda, preciosa
             munera ex spoliis Saguntinorum Carthaginem misit, <app>
               <lem>quibus sibi primarios obligauit ciues</lem>
               <rdg wit="#F #M #N #P #R #S #U #W"><del>quibus sibi primarios obligauit
@@ -1641,7 +1611,7 @@
             Poenum exercitum ducit<note n="36">Plutarco, Marc. XXV.</note>. <num>2</num> Factum est
             autem propinquitate castrorum et certandi studio, ut paucis diebus ter collatis signis
             acie dimicarent. <num>3</num> Primo die cum pari prope spe usque ad noctem perduceretur
-            pugna et ad neutram <pb facs="../public/images/1478/118r.jpg"/>[118r] partem <app>
+            pugna et ad neutram partem <pb facs="../public/images/1478/118r.jpg"/>[118r] <!-- partem --><app>
               <lem>uictoria inclinaret</lem>
               <rdg wit="#S">inclinaret victoria</rdg>
             </app>, utrique ueluti ex composito se in castra recipiunt. <num>4</num> Secundo die

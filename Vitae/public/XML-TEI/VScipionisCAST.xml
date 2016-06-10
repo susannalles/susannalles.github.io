@@ -4,43 +4,43 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>[Vida de Scipión, traducida por Alfonso de Palencia</title>
-                <author>Donato Acciaiuoli</author>
+                <title>Vida de Scipión, escrita por Donato Acciaiuoli y traducida por Alfonso de Palencia</title>
+                <author ref="#SAT">Susanna Allés Torrent</author>
             </titleStmt>
-            <editionStmt>
-                <edition>
-                    <date/>
-                </edition>
-            </editionStmt>
             <publicationStmt>
-                <p>no publication statement available</p>
+                <p>UM, <date>Junio, 2016</date></p>
             </publicationStmt>
             <sourceDesc>
-                <p>Written by OpenOffice</p>
+                <p></p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
 
     <text>
         <body>
-            <div xml:id="tradVS">
-                <div type="title"/>
+            <div xml:id="tradVS"  type="VS">
+                <div type="title">
+                    <p> Plutarcho philósopho escrivió en griego la vida del ylustre varón Publio
+                        Cornelio Scipión Africano; bolviola en latín Donato Acciayolo florentino, y
+                        el cronista Alfonso de Palençia la traduxo en romançe castellano. </p>
+                </div>
 
                 <div xml:id="eVS1" type="section" n="1">
-                    <p><num>1.1</num> Tienen por çierto que fue padre de Cornelio Scipión, que
-                        primero llamaron Africano por el nombre de la gente vençida, Publio Scipión,
-                        varón patricio de la muy noble gente de los Cornelios, con el qual capitán
-                        romano primero peleó en batalla Hanníbal carthaginés en Ytalia. <num>2</num>
-                        Aqueste Cornelio, padre del Africano, aviendo conseguido muchas victorias en
-                        España y fecho cosas dignas de memoria, al fin, en una batalla començada
-                        contra los enemigos en que avía mucho trabajo y mucho peligro, fue ferido y
-                        súbitamente muerto. Y quasi por caso semejante su hermano Gneo Scipión dende
-                        a pocos días murió fuertemente peleando. <num>3</num> Y estos capitanes
-                        ambos, allende de la nombradía de las cosas que fizieron, dexaron grand
-                        deseo de su fe y temperançia y fortaleza, no sólamente a los sus guerreros
-                        que quedaron, mas aun a las gentes de España. <num>4</num> Y Publio Cornelio
-                        Nasica, fijo de Gneo Scipión, varón consular y triumphal, el qual siendo
-                        mançebo fue [182r,a] judgado en <app>
+                    <p><num>1.1</num><pb facs="../public/images/1491/181r.jpg"/> Tienen por çierto
+                        que fue padre de Cornelio Scipión, que primero llamaron Africano por el
+                        nombre de la gente vençida, Publio Scipión, varón patricio de la muy noble
+                        gente de los Cornelios, con el qual capitán romano primero peleó en batalla
+                        Hanníbal carthaginés en Ytalia. <num>2</num> Aqueste Cornelio, padre del
+                        Africano, aviendo conseguido muchas victorias en España y fecho cosas dignas
+                        de memoria, al fin, en una batalla començada contra los enemigos en que avía
+                        mucho trabajo y mucho peligro, fue ferido y súbitamente muerto. Y quasi por
+                        caso semejante su hermano Gneo Scipión dende a pocos días murió fuertemente
+                        peleando. <num>3</num> Y estos capitanes ambos, allende de la nombradía de
+                        las cosas que fizieron, dexaron grand deseo de su fe y temperançia y
+                        fortaleza, no sólamente a los sus guerreros que quedaron, mas aun a las
+                        gentes de España. <num>4</num> Y Publio Cornelio Nasica, fijo de Gneo
+                        Scipión, varón consular y triumphal, el qual siendo mançebo fue <pb
+                            facs="../public/images/1491/182r.jpg"/><cb/>[182r,a] judgado en <app>
                             <lem>toda</lem>
                             <rdg>todo</rdg>
                         </app> la çibdad por varón muy bueno para recebir la madre Idea. </p>
@@ -77,18 +77,18 @@
                         aquistó admiraçión de las gentes. <num>4</num> Ca se sabe aver intervenido
                         Scipión quando fue la batalla çerca del río Ticino entre el cónsul Cornelio,
                         su padre, y Hanníbal; y algunos auctores fazen memoria que, ferido el padre
-                        y quasi atajado de los enemigos, el fijo Scipión, que entonçes [182r,b]
-                        començava tener vello en la barba, le conservó. <num>5</num> Y después en
-                        tiempo que fue la batalla de Cannas<note n="2">la batalla de Cannas:
-                            traducción explicativa del lat. apud Cannas.</note> con tanta
-                        tribulaçión y quasi destruyçión del imperio romano, siendo fuydos a Canusio
-                        fasta diez mill ombres, y todos a una boca diessen la capitanía a Appio
-                        Pulcro, que avía entonces sido edil, y a Cornelio, que era mucho mançebo,
-                        pudo declarar Scipión quánta virtud y quánta grandeza de ánimo en él fuesse.
-                            <num>6</num> Porque se avían juntado algunos mançebos que entre sí
-                        consultavan yrse de Ytalia y súbitamente vino do ellos estavan ayuntados y,
-                        sacada sobre ellos la espada en su mano, los costriñió jurar que no
-                        desampararían la república.</p>
+                        y quasi atajado de los enemigos, el fijo Scipión, que entonçes <pb
+                            facs="../public/images/1491/182r.jpg"/><cb/>[182r,b] començava tener
+                        vello en la barba, le conservó. <num>5</num> Y después en tiempo que fue la
+                        batalla de Cannas<note n="2">la batalla de Cannas: traducción explicativa
+                            del lat. apud Cannas.</note> con tanta tribulaçión y quasi destruyçión
+                        del imperio romano, siendo fuydos a Canusio fasta diez mill ombres, y todos
+                        a una boca diessen la capitanía a Appio Pulcro, que avía entonces sido edil,
+                        y a Cornelio, que era mucho mançebo, pudo declarar Scipión quánta virtud y
+                        quánta grandeza de ánimo en él fuesse. <num>6</num> Porque se avían juntado
+                        algunos mançebos que entre sí consultavan yrse de Ytalia y súbitamente vino
+                        do ellos estavan ayuntados y, sacada sobre ellos la espada en su mano, los
+                        costriñió jurar que no desampararían la república.</p>
                 </div>
 
                 <div xml:id="eVS4" type="section" n="4">
@@ -111,8 +111,9 @@
                         capitanes a guerra tan grave y peligrosa. <num>2</num> Toviéronse los
                         comiçios para criar procónsul y, callando todos los otros príncipes de la
                         república que no pronunciavan facultad para ello, en tanta difficultad solo
-                        Scipión, mançebo de [182v,a] veynte y quatro años, pareçió ende en medio, y
-                        con grand fuiza se ofreçió reçebir de grado aquel cargo. </p>
+                        Scipión, mançebo de <pb facs="../public/images/1491/182v.jpg"/><cb/>[182v,a]
+                        veynte y quatro años, pareçió ende en medio, y con grand fuiza se ofreçió
+                        reçebir de grado aquel cargo. </p>
 
                 </div>
 
@@ -144,16 +145,16 @@
                             <num>2</num> Otrosí tenía embaucados los ánimos de la muchedumbre con
                         una sobrehaz de religión, que cada día, después que recibió la toga viril,
                         subía al Capitolio y él solo acostumbrava entrar sin compañía en el templo,
-                        [182v,b] porque los ombres creyessen que, ssí como ya mucho antes creýan que
-                        la nympha Egeria enseñasse a Numa Pompilio, que assí él recibía allí en el
-                        templo doctrina en cosas que a los otros todos no eran comunes<note n="3">P.
-                            omite el lat. <foreign>archana</foreign>.</note>. <abbr>3</abbr> Otrosí
-                        segund otro tiempo ovo opinión de Alexandro, rey de Macedonia, que pareció
-                        aver fingido algunos lo de la serpiente<note n="4">que pareció ... la
-                            serpiente: glosa explicativa de P. al lat. <foreign>de Alexandro
-                                Macedonum rege</foreign>.</note>, d'esa manera fingieron que en
-                        aquel tiempo muchas vezes vieran una culebra en el lecho de su madre de
-                        Scipión. </p>
+                            <pb facs="../public/images/1491/182v.jpg"/><cb/>[182v,b] porque los
+                        ombres creyessen que, ssí como ya mucho antes creýan que la nympha Egeria
+                        enseñasse a Numa Pompilio, que assí él recibía allí en el templo doctrina en
+                        cosas que a los otros todos no eran comunes<note n="3">P. omite el lat.
+                                <foreign>archana</foreign>.</note>. <abbr>3</abbr> Otrosí segund
+                        otro tiempo ovo opinión de Alexandro, rey de Macedonia, que pareció aver
+                        fingido algunos lo de la serpiente<note n="4">que pareció ... la serpiente:
+                            glosa explicativa de P. al lat. <foreign>de Alexandro Macedonum
+                                rege</foreign>.</note>, d'esa manera fingieron que en aquel tiempo
+                        muchas vezes vieran una culebra en el lecho de su madre de Scipión. </p>
 
                 </div>
 
@@ -181,14 +182,15 @@
                         que alguno lo esperasse, pudo quebrantar los enemigos que estavan ya mucho
                         hufanos con la victoria. Y sostovo la guerra en España contra tres capitanes
                         Carthagineses con increýble virtud y industria. <num>3</num> Llegado Scipión
-                        a estas compañas que estavan en los aposentamientos de la invernada,
-                        [183r,a] los ánimos de todos se despertaron con esperança que los negoçios
-                        se farían bien y, renovada la memoria de sus viejos capitanes, segund que
-                        ninguno avía de los guerreros que podiesse fartar el deseo que tenía de
-                        mirar aquel tan solene mançebo. <num>4</num> Él les dixo muchos loores y que
-                        no desesperassen del bien de la república, y ante todos fizo mucho honor a
-                        Lucio Marcio, por mostrar cómo a aquel varón, que de sus proprias virtudes
-                        confiava, no avría invidia de la gloria de otri.</p>
+                        a estas compañas que estavan en los aposentamientos de la invernada, <pb
+                            facs="../public/images/1491/183r.jpg"/><cb/>[183r,a] los ánimos de todos
+                        se despertaron con esperança que los negoçios se farían bien y, renovada la
+                        memoria de sus viejos capitanes, segund que ninguno avía de los guerreros
+                        que podiesse fartar el deseo que tenía de mirar aquel tan solene mançebo.
+                            <num>4</num> Él les dixo muchos loores y que no desesperassen del bien
+                        de la república, y ante todos fizo mucho honor a Lucio Marcio, por mostrar
+                        cómo a aquel varón, que de sus proprias virtudes confiava, no avría invidia
+                        de la gloria de otri.</p>
 
                 </div>
 
@@ -217,26 +219,27 @@
 
                 <div xml:id="eVS11" type="section" n="11">
                     <p>11.1 Ya Scipión tenía sabido qu'el remanso del agua çercano a los muros de
-                        Carthagine descricía con la menguante del mar tanto que se podía [183r,b]
-                        vadear de aquella parte y llegar al muro ligeramente. <num>2</num> Y
-                        pensando usar de tal occasión, que ninguna mayor se podía ofreçer para tomar
-                        la çibdad, quando fue visto el tiempo oportuno, mandó estar prestas las azes
-                        y que las compañas para ello repartidas combatiessen la çibdad más
-                        reziamente que jamás antes oviessen combatido<note n="6">jamás antes
-                            oviessen combatido: explicitación del lat. quam unquam antea.</note>.
-                            <num>3</num> Él, en tanto, escogió grand número de muy fuertes varones,
-                        a los quales mandó que, passado el estanque, subiessen al muro por aquella
-                        parte de que no tenían sospecha los enemigos. <num>4</num> Assí que estos a
-                        quien el negoçio fue cometido, passaron prósperamente el estanque, mientra
-                        que de la otra parte la çibdad se combatía muy de rezio, y fallaron sin
-                        defensa el logar que querían tomar, y sobieron prestamente en el muro y
-                        dieron en las espaldas de los enemigos. <num>5</num> Los de la çibdad y los
-                        forasteros que estavan en la guarnición, conteciéndoles aquello sin
-                        pensamiento de tan súbito peligro, luego desampararon los muros y, llenos de
-                        pavor del doble mal, començaron a fuyr. <num>6</num> Los romanos instavan
-                        dándoles a las espaldas, y de súbito tomaron la çibdad y la robaron, y
-                        ovieron dende grand robo y fallaron en ella grande basteçimiento de todas
-                        las cosas neçessarias para proseguir la guerra. </p>
+                        Carthagine descricía con la menguante del mar tanto que se podía <pb
+                            facs="../public/images/1491/183r.jpg"/><cb/>[183r,b] vadear de aquella
+                        parte y llegar al muro ligeramente. <num>2</num> Y pensando usar de tal
+                        occasión, que ninguna mayor se podía ofreçer para tomar la çibdad, quando
+                        fue visto el tiempo oportuno, mandó estar prestas las azes y que las
+                        compañas para ello repartidas combatiessen la çibdad más reziamente que
+                        jamás antes oviessen combatido<note n="6">jamás antes oviessen combatido:
+                            explicitación del lat. quam unquam antea.</note>. <num>3</num> Él, en
+                        tanto, escogió grand número de muy fuertes varones, a los quales mandó que,
+                        passado el estanque, subiessen al muro por aquella parte de que no tenían
+                        sospecha los enemigos. <num>4</num> Assí que estos a quien el negoçio fue
+                        cometido, passaron prósperamente el estanque, mientra que de la otra parte
+                        la çibdad se combatía muy de rezio, y fallaron sin defensa el logar que
+                        querían tomar, y sobieron prestamente en el muro y dieron en las espaldas de
+                        los enemigos. <num>5</num> Los de la çibdad y los forasteros que estavan en
+                        la guarnición, conteciéndoles aquello sin pensamiento de tan súbito peligro,
+                        luego desampararon los muros y, llenos de pavor del doble mal, començaron a
+                        fuyr. <num>6</num> Los romanos instavan dándoles a las espaldas, y de súbito
+                        tomaron la çibdad y la robaron, y ovieron dende grand robo y fallaron en
+                        ella grande basteçimiento de todas las cosas neçessarias para proseguir la
+                        guerra. </p>
 
                 </div>
 
@@ -248,12 +251,12 @@
                             <num>2</num> Mas luego Scipión mandó que se juntassen a la conción y
                         dixo que ambos juntamente avían subido en el muro y que ambos avían merecido
                         corona mural y diógela a ambos. D'esta manera fizo que aquella contienda, ya
-                        llegada al [183v,a] colmo del escándalo, se quitasse. <num>3</num> Después
-                        d'esto, mandó restituyr a las çibdades de España los rehenes fallados en
-                        aquella çibdad de que fue ende fallada grand copia, de lo qual alcançó
-                        nombrada muy prinçipal de humanidad y clemençia, y movió con él tal
-                        benefiçio a muchos pueblos para que dexassen el señorío púnico y acceptassen
-                        el romano. </p>
+                        llegada al <pb facs="../public/images/1491/183v.jpg"/><cb/>[183v,a] colmo
+                        del escándalo, se quitasse. <num>3</num> Después d'esto, mandó restituyr a
+                        las çibdades de España los rehenes fallados en aquella çibdad de que fue
+                        ende fallada grand copia, de lo qual alcançó nombrada muy prinçipal de
+                        humanidad y clemençia, y movió con él tal benefiçio a muchos pueblos para
+                        que dexassen el señorío púnico y acceptassen el romano. </p>
                 </div>
 
                 <div xml:id="eVS13" type="section" n="13">
@@ -285,11 +288,12 @@
                             <rdg>gantes</rdg>
                         </app> y en lo que tocava a la suma de toda la guerra, pero primero lo
                         encobrían y, quando ya era divulgada la fama, a todo su poder contendían de
-                        lo adelgazar con palabras. [183v,b] <num>3</num> Scipión, llegados consigo
-                        muchos pueblos y príncipes de las Españas, entre los quales fueron dos
-                        pequeños reyes Mandonio e Indíbile, propuso en su ánimo yr a aquellos
-                        logares en que oyera estar Hasdrúbal Barchino, porque peleasse primero con
-                        él, que se juntassen los otros dos capitanes Magón y el otro Hasdrúbal. </p>
+                        lo adelgazar con palabras. <pb facs="../public/images/1491/183v.jpg"
+                        /><cb/>[183v,b] <num>3</num> Scipión, llegados consigo muchos pueblos y
+                        príncipes de las Españas, entre los quales fueron dos pequeños reyes
+                        Mandonio e Indíbile, propuso en su ánimo yr a aquellos logares en que oyera
+                        estar Hasdrúbal Barchino, porque peleasse primero con él, que se juntassen
+                        los otros dos capitanes Magón y el otro Hasdrúbal. </p>
                 </div>
                 <div xml:id="eVS15" type="section" n="15">
                     <p><num>15.1</num> Tenía su real Hasdrúbal Barchino çerca del río Besulia y él
@@ -320,7 +324,8 @@
                     <p><num>16.1</num> Después d'esta batalla, Scipión, segund tenía en costumbre,
                         fizo traer ante sí todos los captivos naturales de España y mandó que los
                         dexassen sin rescate. Y a un moço de linaje real, sobrino de Maxinissa,
-                        recibiole [184r,a] amigable y benignamente y embiolo a <app>
+                        recibiole <pb facs="../public/images/1491/184r.jpg"/><cb/>[184r,a] amigable
+                        y benignamente y embiolo a <app>
                             <lem>Maxinissa</lem>
                             <rdg>Maximissa</rdg>
                         </app> con muy magníficas dádivas, por mostrar ser convenible al capitán de
@@ -353,12 +358,13 @@
                         hermano de Hanníbal, pues que allá era la cabeça de la guerra, y quedasen en
                         España Magón y el otro Hasdrúbal y que demandassen más gente a los
                         carthagineses para suplir la hueste y no veniessen ante a las manos con el
-                        capitán romano fasta que de todas partes demandassen los [184r,b] que les
-                        avían de ayudar y juntassen consigo grandes compañas. <num>3</num> Ya que
-                        Hasdrúbal yva en Ytalia, embiaron desde África en su logar por capitán a
-                        Hannón y, en su primera llegada que él incitava a los de Çeltiberia, fue
-                        contra él, por mandado de Scipión, Marco Sylano, el qual, cometida batalla
-                        entre ellos, lo vençió y le prendió.</p>
+                        capitán romano fasta que de todas partes demandassen los <pb
+                            facs="../public/images/1491/184r.jpg"/><cb/>[184r,b] que les avían de
+                        ayudar y juntassen consigo grandes compañas. <num>3</num> Ya que Hasdrúbal
+                        yva en Ytalia, embiaron desde África en su logar por capitán a Hannón y, en
+                        su primera llegada que él incitava a los de Çeltiberia, fue contra él, por
+                        mandado de Scipión, Marco Sylano, el qual, cometida batalla entre ellos, lo
+                        vençió y le prendió.</p>
                 </div>
 
                 <div xml:id="eVS18" type="section" n="18">
@@ -397,17 +403,17 @@
 
                 <div xml:id="eVS20" type="section" n="20">
                     <p><num>20.1</num> Estava en el exército de los carthagineses Maxinissa, mançebo
-                        de gran ánimo y de gran consejo, el qual, buscada oportunidad de veerse
-                        [184v,a] occultamente con Sillano, le descubrió las primeras entradas de la
-                        amistad, cómo él, o combidado por la liberalidad de Scipión o pensando ser
-                        el tiempo para ello, determinava llegarse a los romanos vencedores.
-                            <num>2</num> Aqueste es Maxinissa, el que después por benefiçio de los
-                        romanos fue muy poderoso rey de Numidia y en muchas cosas fue provechoso
-                        ayudador al pueblo romano. <num>3</num> Y en el mesmo año que era el
-                        quatorzeno de la Guerra púnica, España, primera provincia de las de tierra
-                        firme, fue vencida por bienaventurado ag¸ero del procónsul Scipión, que fue
-                        después la postrimera reduzida en forma de provincia, dende a luengo tiempo
-                        por César Augusto.</p>
+                        de gran ánimo y de gran consejo, el qual, buscada oportunidad de veerse <pb
+                            facs="../public/images/1491/184v.jpg"/><cb/>[184v,a] occultamente con
+                        Sillano, le descubrió las primeras entradas de la amistad, cómo él, o
+                        combidado por la liberalidad de Scipión o pensando ser el tiempo para ello,
+                        determinava llegarse a los romanos vencedores. <num>2</num> Aqueste es
+                        Maxinissa, el que después por benefiçio de los romanos fue muy poderoso rey
+                        de Numidia y en muchas cosas fue provechoso ayudador al pueblo romano.
+                            <num>3</num> Y en el mesmo año que era el quatorzeno de la Guerra
+                        púnica, España, primera provincia de las de tierra firme, fue vencida por
+                        bienaventurado ag¸ero del procónsul Scipión, que fue después la postrimera
+                        reduzida en forma de provincia, dende a luengo tiempo por César Augusto.</p>
                 </div>
 
                 <div xml:id="eVS21" type="section" n="21">
@@ -429,17 +435,18 @@
                         otro en las çerimonias de honor. <num>5</num> Escriven que Hasdrúbal,
                         maravillado del ánimo y ingenio de Scipión que era presente, pensava consigo
                         quánto peligro recrecería a su çibdad y a toda África de aquel varón. Mirava
-                        allí un mancebo muy ingenioso y muy dotado [184v,b] de soberanas virtudes y
-                        vencedor en muchas batallas y no podía aduzirse a creer que en tan
-                        floreciente edad quesiesse Scipión más la paz que la guerra. <num>6</num> Y
-                        tenía sospecha que Siphace, por su autoridad y presencia, antes inclinaría
-                        su ánimo a los romanos y no reçibió engaño de su opinión. <num>7</num> Ca
-                        Siphace, aunque en la primera llegada d'ellos egualmente començó fablar
-                        entre ellos para induzir que la guerra se feneciesse entre los romanos y los
-                        carthagineses, 8 pero después, negando Scipión que podiesse cosa alguna
-                        tractar de la paz sin consultar al senado, determinó el rey de posponer a
-                        Hasdrúbal y, satisfaziendo al deseo de Scipión, acordose con el pueblo
-                        romano por firme pleytesía. </p>
+                        allí un mancebo muy ingenioso y muy dotado <pb
+                            facs="../public/images/1491/184v.jpg"/><cb/>[184v,b] de soberanas
+                        virtudes y vencedor en muchas batallas y no podía aduzirse a creer que en
+                        tan floreciente edad quesiesse Scipión más la paz que la guerra.
+                            <num>6</num> Y tenía sospecha que Siphace, por su autoridad y presencia,
+                        antes inclinaría su ánimo a los romanos y no reçibió engaño de su opinión.
+                            <num>7</num> Ca Siphace, aunque en la primera llegada d'ellos egualmente
+                        començó fablar entre ellos para induzir que la guerra se feneciesse entre
+                        los romanos y los carthagineses, 8 pero después, negando Scipión que
+                        podiesse cosa alguna tractar de la paz sin consultar al senado, determinó el
+                        rey de posponer a Hasdrúbal y, satisfaziendo al deseo de Scipión, acordose
+                        con el pueblo romano por firme pleytesía. </p>
                 </div>
 
                 <div xml:id="eVS22" type="section" n="22">
@@ -463,7 +470,8 @@
                             n="13">enfermedad: traducción por interpretación a partir del contexto
                             del lat. ualitudo.</note> y divulgose la fama d'ello por España,
                             <num>2</num> y segund muchas vezes acaesçe, quando por palabras fue
-                        acrescentada, incitó la nueva no sólamente las gentes [185r,a] de España a
+                        acrescentada, incitó la nueva no sólamente las gentes <pb
+                            facs="../public/images/1491/185r.jpg"/><cb/>[185r,a] de España a
                         novedades, mas aun el exército romano que él avía dexado cerca de Sucrón.
                             <num>3</num> Lo primero por la absencia del capitán recresció
                         dissolución en la disciplina militar y, venida la nueva de su enfermedad y
@@ -497,11 +505,11 @@
                             <lem>los</lem>
                             <rdg>lo</rdg>
                         </app> que avían errado, <num>3</num> pero, porque si diesse logar a la yra,
-                        no pareciesse exceder la manera del castigo, quiso sobre ello aver [185r,b]
-                        consejo con quien devía. <num>4</num> La mayor parte fue de acuerdo que se
-                        castigassen los que fueran comienço del escándalo y los otros todos
-                        perdonados, y mostró que d'esta manera se podría fazer que la pena tocasse a
-                        pocos y el exemplo a <app>
+                        no pareciesse exceder la manera del castigo, quiso sobre ello aver <pb
+                            facs="../public/images/1491/185r.jpg"/><cb/>[185r,b] consejo con quien
+                        devía. <num>4</num> La mayor parte fue de acuerdo que se castigassen los que
+                        fueran comienço del escándalo y los otros todos perdonados, y mostró que
+                        d'esta manera se podría fazer que la pena tocasse a pocos y el exemplo a <app>
                             <lem>muchos</lem>
                             <rdg>muchas</rdg>
                         </app>. </p>
@@ -533,9 +541,10 @@
                         fizieran y el miedo de los tormentos abatía sus ánimos, y la presencia del
                         muy buen capitán ponía verg¸ença tanbién a los no culpados, tanto que todas
                         las cosas eran pasmadas con silencio triste. <num>4</num> Fecho fin al
-                        razonamiento, sacaron a vista [185v,a] de la muchedumbre los principales del
-                        escándalo y allí, segund la costumbre de los mayores, los açotaron con
-                        vergas y les cortaron las <app>
+                        razonamiento, sacaron a vista <pb facs="../public/images/1491/185v.jpg"
+                        /><cb/>[185v,a] de la muchedumbre los principales del escándalo y allí,
+                        segund la costumbre de los mayores, los açotaron con vergas y les cortaron
+                        las <app>
                             <lem>cabeças</lem>
                             <rdg>cobeças</rdg>
                         </app> y fue horrible vista a los que lo miravan.</p>
@@ -569,8 +578,8 @@
                         humilmente paz y suplicar que los perdonasse. <num>3</num> Scipión, aunque
                         avían cometido tan mala fazaña contra el pueblo romano, mas entendiendo no
                         ser menos honroso vencer al enemigo por clemencia y mansedumbre que por
-                        armas, quiso perdonar a los pequeños reyes, solamente mandándoles [185v,b]
-                        pagar dinero <app>
+                        armas, quiso perdonar a los pequeños reyes, solamente mandándoles <pb
+                            facs="../public/images/1491/185v.jpg"/><cb/>[185v,b] pagar dinero <app>
                             <lem>para</lem>
                             <rdg>par</rdg>
                         </app> el sueldo de los guerreros.</p>
@@ -607,20 +616,21 @@
                 <div xml:id="eVS30" type="section" n="30">
                     <p><num>30.1</num> Scipión recebidas las Españas y lançados fuera d'ellas los
                         carthagineses, ya que ninguna cosa quedava de lo que pensasse ser a su
-                        cargo, entregó la provincia a Lucio Léntulo y a Manlio Accidio [186r,a] y
-                        bolviose a Roma. <num>2</num> En veniendo, fuele el senado a oýr fuera de la
-                        çibdad en el templo de Belona, y quando ovo recontado las cosas que por
-                        muchos años fuerte y bienaventuradamente fiziera, y ovo mostrado cómo
-                        vençiera en muchas batallas quatro capitanes y quatro exércitos de los
-                        enemigos, y avía lançado fuera de las Españas los carthagineses sin quedar
-                        gentes algunas en aquellas tierras que no oviessen ya venido en poder del
-                        pueblo romano, concedió el senado ser cosas dignas de muy extendido
-                        triunpho. <num>3</num> Pero no aviendo aún contecido a alguno que si fuesse
-                        procónsul y sin magistrado, por cosas que oviesse fecho, le fuesse lícito
-                        entrar con triunpho en la çibdad, pareció a los padres y aun el mesmo
-                        Scipión, no contendió más sobre ello que mudassen por su causa en nuevo
-                        exemplo la costumbre de los mayores. Poco después entró en Roma con muy
-                        grand favor del pueblo romano y fue declarado cónsul.</p>
+                        cargo, entregó la provincia a Lucio Léntulo y a Manlio Accidio <pb
+                            facs="../public/images/1491/186r.jpg"/><cb/>[186r,a] y bolviose a Roma.
+                            <num>2</num> En veniendo, fuele el senado a oýr fuera de la çibdad en el
+                        templo de Belona, y quando ovo recontado las cosas que por muchos años
+                        fuerte y bienaventuradamente fiziera, y ovo mostrado cómo vençiera en muchas
+                        batallas quatro capitanes y quatro exércitos de los enemigos, y avía lançado
+                        fuera de las Españas los carthagineses sin quedar gentes algunas en aquellas
+                        tierras que no oviessen ya venido en poder del pueblo romano, concedió el
+                        senado ser cosas dignas de muy extendido triunpho. <num>3</num> Pero no
+                        aviendo aún contecido a alguno que si fuesse procónsul y sin magistrado, por
+                        cosas que oviesse fecho, le fuesse lícito entrar con triunpho en la çibdad,
+                        pareció a los padres y aun el mesmo Scipión, no contendió más sobre ello que
+                        mudassen por su causa en nuevo exemplo la costumbre de los mayores. Poco
+                        después entró en Roma con muy grand favor del pueblo romano y fue declarado
+                        cónsul.</p>
                 </div>
 
                 <div xml:id="eVS31" type="section" n="31">
@@ -640,7 +650,8 @@
 
                 <div xml:id="eVS32" type="section" n="32">
                     <p><num>32.1</num> Después de luenga altercación, señalósele a Scipión Sicilia y
-                        permitió el senado que, si le pareciesse [186r,b] provechoso para la
+                        permitió el senado que, si le pareciesse <pb
+                            facs="../public/images/1491/186r.jpg"/><cb/>[186r,b] provechoso para la
                         república, passasse con el exército en África. <num>2</num> Con el tal
                         consulto del senado, publicado en el pueblo, de tal guisa se enhestaron los
                         ánimos de todos a la esperança de grandes cosas, que todos pensavan en lo de
@@ -673,7 +684,8 @@
                         trezientos mancebos de diversas çibdades, los más nobles de toda la
                         provincia, y que les mandó venir a çierto día con sus armas y con sus
                         cavallos. <num>2</num> Ellos segund les fuera mandado, prestamente venido al
-                        día señalado, dioles a escojer el cónsul que o [186v,a] ellos passassen con
+                        día señalado, dioles a escojer el cónsul que o <pb
+                            facs="../public/images/1491/186v.jpg"/><cb/>[186v,a] ellos passassen con
                         él en África o substituyessen por sí otros tantos a quien diessen sus armas
                         y cavallos, y tomassen lo que más les ploguiesse. <num>3</num> Uno a uno
                         todos demandaron la remissión de la milicia, y el capitán les dio quien
@@ -712,8 +724,8 @@
                 <div xml:id="eVS37" type="section" n="37">
                     <p><num>37.1</num> Assí mesmo recresció una causa de Pleminio legado, que avía
                         dexado Scipión en Locros, el qual avía usado contra los çibdadanos de todo
-                        linaje de malvestad [186v,b] de luxuria y de avaricia, y ligeramente podiera
-                        compelir a la muchedumbre <app>
+                        linaje de malvestad <pb facs="../public/images/1491/186v.jpg"/><cb/>[186v,b]
+                        de luxuria y de avaricia, y ligeramente podiera compelir a la muchedumbre <app>
                             <lem>que</lem>
                             <rdg>q[ua]</rdg>
                         </app> quesiesse antes qualesquier otros males que sofrir el mandamiento de
@@ -746,14 +758,14 @@
                         los legados en Sicilia para inquirir todas las cosas, quando las ovieron
                             escudriñado<note n="15">quando ... escudriñado: adición de P.</note>,
                         ninguna culpa fallaron que toviesse Scipión, sino aver sofrido con ánimo
-                        blando las [187r,a] injurias que Pleminio fiziera a los locrenses.
-                            <num>4</num> Era Scipión en remunerar largo y en punir manso y piadoso.
-                        Mas veyendo los legados el exército y la flota y todo el aparejo de la
-                        guerra, dizen que fueron tan maravillados del abasto y orden de todas las
-                        cosas, <num>5</num> que después, bueltos a la çibdad con muy extendidos
-                        loores ensalçaron a Scipión, y desechadas las falsas accusaciones de los
-                        invidiosos revocaron el senado y el pueblo romano a muy çierta esperança de
-                        la victoria. </p>
+                        blando las <pb facs="../public/images/1491/187r.jpg"/><cb/>[187r,a] injurias
+                        que Pleminio fiziera a los locrenses. <num>4</num> Era Scipión en remunerar
+                        largo y en punir manso y piadoso. Mas veyendo los legados el exército y la
+                        flota y todo el aparejo de la guerra, dizen que fueron tan maravillados del
+                        abasto y orden de todas las cosas, <num>5</num> que después, bueltos a la
+                        çibdad con muy extendidos loores ensalçaron a Scipión, y desechadas las
+                        falsas accusaciones de los invidiosos revocaron el senado y el pueblo romano
+                        a muy çierta esperança de la victoria. </p>
                 </div>
 
                 <div xml:id="eVS39" type="section" n="39">
@@ -775,11 +787,12 @@
                         passaje en África. <num>5</num> Por ende, que se apressurassen a passar,
                         assí que él mandava a toda la gente de guerra que aprestassen sus armas y
                         toviessen aparejado todo lo neçessario a la yda. <num>6</num> Y quanto
-                        aqueste edicto del capitán romano fue divulgado por Sicilia, [187r,b] luego
-                        concurrió a Lilybeo muy grand muchedumbre no solamente de ombres que avían
-                        de passar en África, mas aun de los que venían a mirar la flota romana,
-                        porque jamás o muy pocas vezes se viera otra flota mas aparejada o más
-                        adornada de todo linaje de armas. </p>
+                        aqueste edicto del capitán romano fue divulgado por Sicilia, <pb
+                            facs="../public/images/1491/187r.jpg"/><cb/>[187r,b] luego concurrió a
+                        Lilybeo muy grand muchedumbre no solamente de ombres que avían de passar en
+                        África, mas aun de los que venían a mirar la flota romana, porque jamás o
+                        muy pocas vezes se viera otra flota mas aparejada o más adornada de todo
+                        linaje de armas. </p>
                 </div>
 
                 <div xml:id="eVS40" type="section" n="40">
@@ -813,17 +826,18 @@
 
                 <div xml:id="eVS42" type="section" n="42">
                     <p><num>42.1</num> Ya Scipión, talados los campos y enriqueçido el exército con
-                        muy grand robo, estava aposentado [187v,a] con todas sus compañas çerca de
-                        Útica, ganoso de someter a su mano si por vía alguna se podiesse fazer
-                        aquella çibdad notable y oportuna para fazer dende guerra por tierra y por
-                        mar. <num>2</num> Veniera en el mesmo tiempo al real de Scipión Maxinissa
-                        con ardor y cobdicia increýble de guerrear contra el rey Siphace, que poco
-                        antes le avía echado del reyno de su padre. <num>3</num> A este mançebo, por
-                        ser muy abivado y presto de las manos y averle conoscido en España, antes
-                        que mayores compañas de enemigos le embió Sçipion a descubrir y mirar el
-                        real de los contrarios, y mandole que en todas maneras, poniendo en ello
-                        grande astucia, sosacasse a Hannón a pelear. <num>4</num> Maxinissa, segund
-                        le fue mandado, enridando al enemigo y poco a poco <app>
+                        muy grand robo, estava aposentado <pb facs="../public/images/1491/187v.jpg"
+                        /><cb/>[187v,a] con todas sus compañas çerca de Útica, ganoso de someter a
+                        su mano si por vía alguna se podiesse fazer aquella çibdad notable y
+                        oportuna para fazer dende guerra por tierra y por mar. <num>2</num> Veniera
+                        en el mesmo tiempo al real de Scipión Maxinissa con ardor y cobdicia
+                        increýble de guerrear contra el rey Siphace, que poco antes le avía echado
+                        del reyno de su padre. <num>3</num> A este mançebo, por ser muy abivado y
+                        presto de las manos y averle conoscido en España, antes que mayores compañas
+                        de enemigos le embió Sçipion a descubrir y mirar el real de los contrarios,
+                        y mandole que en todas maneras, poniendo en ello grande astucia, sosacasse a
+                        Hannón a pelear. <num>4</num> Maxinissa, segund le fue mandado, enridando al
+                        enemigo y poco a poco <app>
                             <lem>atrayéndole</lem>
                             <rdg>atrayendo le le</rdg>
                         </app>, llegó aquellos logares que Scipión estava atendiendo con las
@@ -849,15 +863,16 @@
                         se recogiessen a los aposentamientos de la ynvernada, plogó a Scipión embiar
                         a Siphace algunos que tentassen el propósito del rey y quanto podiessen le
                         desviassen de la amistad de los carthagineses. <num>2</num> Ya Scipión tenía
-                        sabido que Siphace estava [187v,b] animado a las bodas de Sophonisba y assí
-                        como vençido de las furias mugeriles, era venido en tanta locura, que no
-                        sólamente no ayudar a los romanos, mas aun proposiera de los combatir contra
-                        el derecho de la pleytesía. <num>3</num> Y si por ventura ya fuesse harto de
-                        la muger Siphace, pensava Scipión que podría bolver en su acuerdo.
-                            <num>4</num> Mas Siphace, oýdas las cosas que en nombre de Scipión se le
-                        dizían, respondió que ya no era tiempo de dexar la compañía de los
-                        carthagineses, pero que entendiessen en dar conclusión a la guerra y él para
-                        esto se ofrecía por buen medianero de la paz. </p>
+                        sabido que Siphace estava <pb facs="../public/images/1491/187v.jpg"
+                        /><cb/>[187v,b] animado a las bodas de Sophonisba y assí como vençido de las
+                        furias mugeriles, era venido en tanta locura, que no sólamente no ayudar a
+                        los romanos, mas aun proposiera de los combatir contra el derecho de la
+                        pleytesía. <num>3</num> Y si por ventura ya fuesse harto de la muger
+                        Siphace, pensava Scipión que podría bolver en su acuerdo. <num>4</num> Mas
+                        Siphace, oýdas las cosas que en nombre de Scipión se le dizían, respondió
+                        que ya no era tiempo de dexar la compañía de los carthagineses, pero que
+                        entendiessen en dar conclusión a la guerra y él para esto se ofrecía por
+                        buen medianero de la paz. </p>
                 </div>
 
                 <div xml:id="eVS45" type="section" n="45">
@@ -884,24 +899,24 @@
                 </div>
 
                 <div xml:id="eVS46" type="section" n="46">
-                    <p><num>46.1</num> Por ende, mandó llamar a Maxinissa y a Gayo Lelio, [188r,a] y
-                        mandoles que a medianoche acometiessen a Siphace, y echassen fuego en el
-                        real, y él ofreció se dar por la otra parte en los carthagineses.
-                            <num>2</num> Ellos con ardideza executaron lo que les mandava y a la
-                        hora determinada dieron en el real y lançaron fuego a las cañas, las quales
-                        súbitamente se encendieron y tan presto se extendió el fuego<note n="18">tan
-                            presto se extendió el fuego: adición de P.</note> que quasi en todos los
-                        logares del real cundía. <num>3</num> Los númidas primero pensando qu'el
-                        incendio fuesse fortuyto corrieron mucho con grand priessa por lo apagar,
-                        pero luego que cayeron en las legiones de los enemigos y los romanos los
-                        comenzaron matar, con grand miedo y pavor, que de ambas partes los çercava,
-                        echaron a fuyr. <num>4</num> En la mesma manera los de la otra parte del
-                        exército que levava consigo Scipión açendieron el real de los carthagineses
-                        y los enemigos desbaratados con tan terrible estrago<note n="19">terrible
-                            estrago: traducción perifrástica del lat.
-                            <foreign>strage</foreign>.</note> de los que yvan fuyendo ovieron de
-                        perder aquella noche fasta quarenta mill ombres, segund algunos auctores
-                        cuentan. </p>
+                    <p><num>46.1</num> Por ende, mandó llamar a Maxinissa y a Gayo Lelio, <pb
+                            facs="../public/images/1491/188r.jpg"/><cb/>[188r,a] y mandoles que a
+                        medianoche acometiessen a Siphace, y echassen fuego en el real, y él ofreció
+                        se dar por la otra parte en los carthagineses. <num>2</num> Ellos con
+                        ardideza executaron lo que les mandava y a la hora determinada dieron en el
+                        real y lançaron fuego a las cañas, las quales súbitamente se encendieron y
+                        tan presto se extendió el fuego<note n="18">tan presto se extendió el fuego:
+                            adición de P.</note> que quasi en todos los logares del real cundía.
+                            <num>3</num> Los númidas primero pensando qu'el incendio fuesse fortuyto
+                        corrieron mucho con grand priessa por lo apagar, pero luego que cayeron en
+                        las legiones de los enemigos y los romanos los comenzaron matar, con grand
+                        miedo y pavor, que de ambas partes los çercava, echaron a fuyr. <num>4</num>
+                        En la mesma manera los de la otra parte del exército que levava consigo
+                        Scipión açendieron el real de los carthagineses y los enemigos desbaratados
+                        con tan terrible estrago<note n="19">terrible estrago: traducción
+                            perifrástica del lat. <foreign>strage</foreign>.</note> de los que yvan
+                        fuyendo ovieron de perder aquella noche fasta quarenta mill ombres, segund
+                        algunos auctores cuentan. </p>
                 </div>
 
                 <div xml:id="eVS47" type="section" n="47">
@@ -922,26 +937,26 @@
                     <p><num>48.1</num> Desd'el comienço acaesçió por la çercanía de los reales que
                         se levantavan muchas escaramuças, pero a la postre concurrieron a pelear con
                         todas las compañas, y tan grande fue el ardor de los guerreros romanos, que
-                        de la primera [188r,b] arremetida fizieron fuyr los númidas y los
-                        carthagineses y mataron grand parte de los que yvan fuyendo. <num>2</num>
-                        Hasdrúbal y Siphace, a todo correr fuyeron de medio de la matança, y
-                        Scipión, para los alcançar, embió tras ellos a Maxinissa y a Gayo Lelio con
-                        cavalleros ahorrados. Siphace se fue en Númida, y desde allí a su antiguo
-                        reyno, y recogió exército de todo linaje de ombres y salió en recuentro a
-                        Maxinissa y a Lelio sin que dubdasse cometer la batalla. <num>3</num> Pero
-                        fue mal consejado, teniendo ventaja sus enemigos, no tanto por el número de
-                        la gente, quanto por no ser de comparar los unos guerreros con los otros,
-                        nin él con tales capitanes. <num>4</num> Assí que ligeramente le vençieron
-                        aquellos varones muy belicosos y lo que Maxinissa apenas osara desear, fue
-                        Siphace preso en la batalla y fue levado a Scipión con muchos nobles
-                        varones. <num>5</num> Los ánimos de todos primero fueron muy alegres quan
-                        les fue denunciado que traýan a Siphace al real, después quan fue traýdo en
-                        cadenas a vista de la muchedumbre, la presencia de tan grand varón y la
-                        recordación de su primera majestad movió a misericordia los que le miravan.
-                            <num>6</num> Veníales en memoria quánd honrado fuera el nombre de aquel
-                        rey y quand florecientes fueran sus riquezas y las fuerças de tan extendido
-                        reyno poco antes, y avían misericordia quan después le vían caýdo de tan
-                        gran altura.</p>
+                        de la primera <pb facs="../public/images/1491/188r.jpg"/><cb/>[188r,b]
+                        arremetida fizieron fuyr los númidas y los carthagineses y mataron grand
+                        parte de los que yvan fuyendo. <num>2</num> Hasdrúbal y Siphace, a todo
+                        correr fuyeron de medio de la matança, y Scipión, para los alcançar, embió
+                        tras ellos a Maxinissa y a Gayo Lelio con cavalleros ahorrados. Siphace se
+                        fue en Númida, y desde allí a su antiguo reyno, y recogió exército de todo
+                        linaje de ombres y salió en recuentro a Maxinissa y a Lelio sin que dubdasse
+                        cometer la batalla. <num>3</num> Pero fue mal consejado, teniendo ventaja
+                        sus enemigos, no tanto por el número de la gente, quanto por no ser de
+                        comparar los unos guerreros con los otros, nin él con tales capitanes.
+                            <num>4</num> Assí que ligeramente le vençieron aquellos varones muy
+                        belicosos y lo que Maxinissa apenas osara desear, fue Siphace preso en la
+                        batalla y fue levado a Scipión con muchos nobles varones. <num>5</num> Los
+                        ánimos de todos primero fueron muy alegres quan les fue denunciado que
+                        traýan a Siphace al real, después quan fue traýdo en cadenas a vista de la
+                        muchedumbre, la presencia de tan grand varón y la recordación de su primera
+                        majestad movió a misericordia los que le miravan. <num>6</num> Veníales en
+                        memoria quánd honrado fuera el nombre de aquel rey y quand florecientes
+                        fueran sus riquezas y las fuerças de tan extendido reyno poco antes, y avían
+                        misericordia quan después le vían caýdo de tan gran altura.</p>
                 </div>
 
                 <div xml:id="eVS49" type="section" n="49">
@@ -952,13 +967,14 @@
                         Scipión que él, preso del amor de su muger Sophonisba, cometiera contra el
                         pueblo romano tal fazaña como todos sabían, y que luego avía pagado la pena
                         que todos los otros podían tener por exemplo y doctrina para permanecer en
-                        la fe y dever. <num>3</num> Con todo, en [188v,a] sus postrimeros males le
-                        contecía un consuelo que verían a Maxinissa, ombre a él muy enemigable,
-                        rebatado de la mesma locura que él incurriera. <num>4</num> Ca vencido y
-                        preso Siphace, Maxinissa fue sobre Cyrtha, cabeça del reyno, y reduxo la
-                        çibdad a su poder y començó a encenderse del amor de Sophonisba, que le
-                        fabló con falagueña mente con muchas pregarias, tanto que él le dio la fe
-                        que la libraría de la mano de los romanos y, porque lo podiesse más
+                        la fe y dever. <num>3</num> Con todo, en <pb
+                            facs="../public/images/1491/188v.jpg"/><cb/>[188v,a] sus postrimeros
+                        males le contecía un consuelo que verían a Maxinissa, ombre a él muy
+                        enemigable, rebatado de la mesma locura que él incurriera. <num>4</num> Ca
+                        vencido y preso Siphace, Maxinissa fue sobre Cyrtha, cabeça del reyno, y
+                        reduxo la çibdad a su poder y començó a encenderse del amor de Sophonisba,
+                        que le fabló con falagueña mente con muchas pregarias, tanto que él le dio
+                        la fe que la libraría de la mano de los romanos y, porque lo podiesse más
                         diestramente fazer, tomola por muger y fizieron en uno sus bodas de nuevo.
                     </p>
                 </div>
@@ -988,9 +1004,9 @@
                         manera devía obedecer al muy moderado y muy severo o grave capitán.
                             <num>6</num> Assí que con lágrimas y menguado de consejo se fue a su
                         tienda, y dende a poco, mirando que no podía guardar la fe dada a
-                        Sophonisba, [188v,b] muy gravemente affligido, le embió ponçoña con sus
-                        letras y la muger a desora bevió la ponçoña y se dio ella muerte
-                        voluntaria.</p>
+                        Sophonisba, <pb facs="../public/images/1491/188v.jpg"/><cb/>[188v,b] muy
+                        gravemente affligido, le embió ponçoña con sus letras y la muger a desora
+                        bevió la ponçoña y se dio ella muerte voluntaria.</p>
                 </div>
 
                 <div xml:id="eVS51" type="section" n="51">
@@ -1025,8 +1041,9 @@
                         en aquel día officio alguno de valiente capitán. Ca si jamás antes en
                         aquella batalla avía ordenado sus compañas muy enseñadamente, él tenía
                         refirmados en logar devido los socorros y, mientra que venían a las manos
-                        [189r,a] en la mesma pelea, de tal guisa se ovo con sus guerreros, que aun
-                        los enemigos le loavan por soberano capitán.</p>
+                            <pb facs="../public/images/1491/189r.jpg"/><cb/>[189r,a] en la mesma
+                        pelea, de tal guisa se ovo con sus guerreros, que aun los enemigos le loavan
+                        por soberano capitán.</p>
                 </div>
 
                 <div xml:id="eVS53" type="section" n="53">
@@ -1062,7 +1079,8 @@
                         flaqueza humanal, de la qual, segund dize aquel, mucho nos olvidamos en las
                         cosas prósperas. <num>6</num> Ca los que antes, conseguidas muy largas
                         victorias ya quasi reduzida Ytalia so su señorío, y con muy grande osadía
-                        puesto çerco a la çibdad de Roma, destinavan en [189r,b] sus ánimos tener el
+                        puesto çerco a la çibdad de Roma, destinavan en <pb
+                            facs="../public/images/1491/189r.jpg"/><cb/>[189r,b] sus ánimos tener el
                         imperio del circuyto de la tierra. <num>7</num> No interpuesto mucho espaçio
                         de tiempo, venieron en tal estado que, perdido todo el señorío, no poseýan
                         salvos los muros de Carthago y aun desconfiavan de los poder conservar, si
@@ -1103,11 +1121,12 @@
                 <div xml:id="eVS56" type="section" n="56">
                     <p>56.1 Y no faltaron a Scipión, que ya es razón llamar Africano, después de
                         África vencida, dignidades çiviles o honores urbanos. Ca teniéndose los
-                        comicios de los censores [189v,a] y concurriendo muchos competitores de la
-                        soberana nobleza, <num>2</num> él y Elio Peto fueron antepuestos a todos, y
-                        criados censores usaron después su dignidad con soberana integridad y
-                        concordia. <num>3</num> Y los çensores que sucedieron y los otros escogieron
-                        al Africano por prínçipe del senado y, qual linaje de honor se acostumbrava
+                        comicios de los censores <pb facs="../public/images/1491/189v.jpg"
+                        /><cb/>[189v,a] y concurriendo muchos competitores de la soberana nobleza,
+                            <num>2</num> él y Elio Peto fueron antepuestos a todos, y criados
+                        censores usaron después su dignidad con soberana integridad y concordia.
+                            <num>3</num> Y los çensores que sucedieron y los otros escogieron al
+                        Africano por prínçipe del senado y, qual linaje de honor se acostumbrava
                         conceder solamente aquellos varones que avían conseguido por muy grandes
                         merescimientos çerca de la república y por muy prinçipales cosas que
                         fizieran auctoridad y gloria. <num>4</num> Y sin passar mucho tiempo, fue
@@ -1138,11 +1157,12 @@
                         cathaginés, el qual nunca çessava de incitar los enemigos contra el pueblo
                         romano y de buscar otros de nuevo, y de amonestar por todas maneras a los
                         carthegineses que desechassen de sí el yugo de la servidumbre que los
-                        romanos les posieran [189v,b] so título de pleytesía, y experimentassen la
-                        amistad de los reyes. <num>2</num> Mas dende a poco los romanos, fechos
-                        prósperamente sus negocios, echado Anthíoco de Grecia, pensando ya en sus
-                        ánimos lo de Asia, miravan al Africano assí como a ombre nascido para
-                        feneçer las guerras de grand peso.</p>
+                        romanos les posieran <pb facs="../public/images/1491/189v.jpg"
+                        /><cb/>[189v,b] so título de pleytesía, y experimentassen la amistad de los
+                        reyes. <num>2</num> Mas dende a poco los romanos, fechos prósperamente sus
+                        negocios, echado Anthíoco de Grecia, pensando ya en sus ánimos lo de Asia,
+                        miravan al Africano assí como a ombre nascido para feneçer las guerras de
+                        grand peso.</p>
                 </div>
 
                 <div xml:id="eVS59" type="section" n="59">
@@ -1172,13 +1192,14 @@
                         a Hanníbal y avía triunfado de los carthagineses, y era delantero a todos en
                         gloria y en virtud, con todo quiso de su grado someterse a la capitanía de
                         su hermano menor de edad, porque fuesse antepuesto en honra graçiosa de
-                        obtener la provinçia. <num>3</num> Ca [190r,a] de aquella guerra pudo
-                        reportar Lucio Scipión, gozando del singular y leal consejo del Africano,
-                        muy grand gloria para la patria. El qual, primero passando en Grecia, dio a
-                        los étholos tregua de seys meses. <num>4</num> Y todo lo ál pospuesto por
-                        amonestamiento de Africano fue en Asia contra la cabeça de la guerra, y por
-                        industria de Africano fizo que Prusia, rey de Bithynia, que andava
-                        titubando, dexasse la amistad y compañía de Anthíoco.</p>
+                        obtener la provinçia. <num>3</num> Ca <pb
+                            facs="../public/images/1491/190r.jpg"/><cb/>[190r,a] de aquella guerra
+                        pudo reportar Lucio Scipión, gozando del singular y leal consejo del
+                        Africano, muy grand gloria para la patria. El qual, primero passando en
+                        Grecia, dio a los étholos tregua de seys meses. <num>4</num> Y todo lo ál
+                        pospuesto por amonestamiento de Africano fue en Asia contra la cabeça de la
+                        guerra, y por industria de Africano fizo que Prusia, rey de Bithynia, que
+                        andava titubando, dexasse la amistad y compañía de Anthíoco.</p>
                 </div>
 
                 <div xml:id="eVS61" type="section" n="61">
@@ -1207,17 +1228,18 @@
                         de Chálcide a Orico en un pequeño navío, segund dizen algunos, y otros dizen
                         que yendo a atalayar los consejos de los enemigos, fue tomado, y dizen que
                         fue embiado luego al padre que estava enfermo en Elea. <num>2</num> Aquella
-                        benignidad del rey tan graciosa [190r,b] fue muy grata a Scipión Africano,
-                        como la razón quería, y pareció que de luengo intervallo el mançebo pudo
-                        mucho recrear el ánimo solíçito del padre y muy mucho aprovechar a la salud
-                        del cuerpo enfermo. <num>3</num> Y Publio Scipión por mostrar alguna señal
-                        de su ánimo agradecido, por medianía de los embaxadores que a él venieran,
-                        fizo muy extendidas graçias a Anthíoco por el fijo que le avía embiado, y
-                        aún más le requirió que no peleasse antes en batalla con los romanos que
-                        supiesse como él fuesse venido desde Elea al real. <num>4</num> Movido
-                        Anthíoco por la auctoridad del varón, se detovo algunos días en su real y
-                        propuso diffirir a la luenga la batalla, esperando que mediante Africano
-                        podría fallar entrada para entender con el cónsul.</p>
+                        benignidad del rey tan graciosa <pb facs="../public/images/1491/190r.jpg"
+                        /><cb/>[190r,b] fue muy grata a Scipión Africano, como la razón quería, y
+                        pareció que de luengo intervallo el mançebo pudo mucho recrear el ánimo
+                        solíçito del padre y muy mucho aprovechar a la salud del cuerpo enfermo.
+                            <num>3</num> Y Publio Scipión por mostrar alguna señal de su ánimo
+                        agradecido, por medianía de los embaxadores que a él venieran, fizo muy
+                        extendidas graçias a Anthíoco por el fijo que le avía embiado, y aún más le
+                        requirió que no peleasse antes en batalla con los romanos que supiesse como
+                        él fuesse venido desde Elea al real. <num>4</num> Movido Anthíoco por la
+                        auctoridad del varón, se detovo algunos días en su real y propuso diffirir a
+                        la luenga la batalla, esperando que mediante Africano podría fallar entrada
+                        para entender con el cónsul.</p>
                 </div>
 
                 <div xml:id="eVS63" type="section" n="63">
@@ -1238,7 +1260,8 @@
                         victoria que del todo se abstoviesse de Europa y dexasse la possessión de
                         Asia desde aquende del monte Tauro fasta el río Thanay, y por veynte años
                         pagasse tributo y entregasse veynte rehenes, segund el alvedrío del cónsul.
-                            <num>5</num> Y ante todas cosas, [190v,a] demandó a Hanníbal
+                            <num>5</num> Y ante todas cosas, <pb
+                            facs="../public/images/1491/190v.jpg"/><cb/>[190v,a] demandó a Hanníbal
                         carthaginés, incitador de la guerra. El qual, segund ya avemos escripto en
                         su vida, quan vio que por tierra y por mar el poderío de Anthíoco era
                         quebrantado, librose de las manos de los romanos fuyéndose a Prusia, rey de
@@ -1281,15 +1304,16 @@
                     <p>66.1 Pero pareçe muy fructuoso contemplar quand variable y quand flaca sea la
                         condiçión de las cosas humanales. La gloria de los Scipiones y gente
                         Cornelia estava en el aquel tiempo llena de todo linaje de honra, y la
-                        autoridad de Africano veniera en tal grado que en çibdad libre ningund
-                        [190v,b] ombre privado pudiera cobdiçiar más adelante. <num>2</num> No pudo
-                        la invidia de los enemigos comportar aquesta grandeza, mas lo que estava
-                        escondido en sus ánimos al cabo salió fuera de golpe, y cundió fasta fallar
-                        auctores de tan grandes negoçios. <num>3</num> Ca los dos Petilio, tribunos
-                        de la plebe, inçitados segund sospechan algunos por instigaçión de Porcio
-                        Catón, señalaron día a Publio Africano para que veniesse respondiendo a la
-                        falsa acusaçión<note n="24">para que ... acusaçión: adición amplificativa
-                            del lat. <foreign>insimulant</foreign>.</note> del dinero que oviera
+                        autoridad de Africano veniera en tal grado que en çibdad libre ningund <pb
+                            facs="../public/images/1491/190v.jpg"/><cb/>[190v,b] ombre privado
+                        pudiera cobdiçiar más adelante. <num>2</num> No pudo la invidia de los
+                        enemigos comportar aquesta grandeza, mas lo que estava escondido en sus
+                        ánimos al cabo salió fuera de golpe, y cundió fasta fallar auctores de tan
+                        grandes negoçios. <num>3</num> Ca los dos Petilio, tribunos de la plebe,
+                        inçitados segund sospechan algunos por instigaçión de Porcio Catón,
+                        señalaron día a Publio Africano para que veniesse respondiendo a la falsa
+                            acusaçión<note n="24">para que ... acusaçión: adición amplificativa del
+                            lat. <foreign>insimulant</foreign>.</note> del dinero que oviera
                         recebido del rey Anthíoco y no lo diera al público thesoro<note n="25"
                             >thesoro: adición de P.</note> de la çibdad. <num>4</num> Scipión, que
                         bien conosçía su limpieza, obedeçió a los tribunos que le llamavan y con
@@ -1325,7 +1349,8 @@
                 <div xml:id="eVS68" type="section" n="68">
                     <p><num>68.1</num> Aqueste día assí como día postrimero de su prosperidad, por
                         muchedumbre de ombres y por manifestaçión del amor que le avían, amaneçió
-                        mas bienaventurado a Scipión Africano que otro algun día [191r,a] de los
+                        mas bienaventurado a Scipión Africano que otro algun día <pb
+                            facs="../public/images/1491/191r.jpg"/><cb/>[191r,a] de los
                         antepassados. Ca después determinó bevir en el aldea lexos de toda ambición
                         y del foro judicial. <num>2</num> Y escriven que se fue a Literno, o
                         conmovido por indignaçión que ovo por reportar infamia por el galardón de
@@ -1372,17 +1397,17 @@
                 <div xml:id="eVS71" type="section" n="71">
                     <p><num>71.1</num> Allende d'esto dizen que Tiberio Graccho, tribuno de la
                         plebe, primero dio querella que ombre privado oviesse dissolvido la dignidad
-                        [191r,b] tribuniçia; y después, pospuestas las vanderías que tenía con los
-                        Scipiones, reçibiera su abogaçía, de guisa que pareçió ser los tribunos más
-                        vençidos del tribuno que del varón privado. <num>2</num> Y escriven que,
-                        cenando aquel mesmo día el senado en el Capitolio, fue auctor d'esto, que
-                        Africano desposasse la menor de sus fijas con Tyberio Graccho, y fecho el
-                        desposorio, buelto a casa, Publio Scipión, quan fizo saber a su muger la
-                        nueva affinidad, dizen que ella mostró indignarse y dixo que, aunque él la
-                        podiesse colocar con Tiberio Graccho, no deviera desposar la fija sin lo
-                        consultar con la madre. 3 La qual respuesta fue muy alegre a Scipión, quan
-                        vio que la muger era del mesmo acuerdo de colocar la fija segund que a él
-                        pareciesse.</p>
+                            <pb facs="../public/images/1491/191r.jpg"/><cb/>[191r,b] tribuniçia; y
+                        después, pospuestas las vanderías que tenía con los Scipiones, reçibiera su
+                        abogaçía, de guisa que pareçió ser los tribunos más vençidos del tribuno que
+                        del varón privado. <num>2</num> Y escriven que, cenando aquel mesmo día el
+                        senado en el Capitolio, fue auctor d'esto, que Africano desposasse la menor
+                        de sus fijas con Tyberio Graccho, y fecho el desposorio, buelto a casa,
+                        Publio Scipión, quan fizo saber a su muger la nueva affinidad, dizen que
+                        ella mostró indignarse y dixo que, aunque él la podiesse colocar con Tiberio
+                        Graccho, no deviera desposar la fija sin lo consultar con la madre. 3 La
+                        qual respuesta fue muy alegre a Scipión, quan vio que la muger era del mesmo
+                        acuerdo de colocar la fija segund que a él pareciesse.</p>
                 </div>
 
                 <div xml:id="eVS72" type="section" n="72">
@@ -1408,7 +1433,8 @@
                         libro que él escrivio intitulado Catón el mayor, dize: «Quánto fue flaco el
                         fijo de Africano que te adoptó». Y en el sexto libro De república, el padre
                         Emilio amonesta a su fijo Scipión que honre y guarde la justiçia y la piedad
-                        segund que lo fizo su abuelo [191v,a] Africano.</p>
+                        segund que lo fizo su abuelo <pb facs="../public/images/1491/191v.jpg"
+                        /><cb/>[191v,a] Africano.</p>
                 </div>
 
                 <div xml:id="eVS73" type="section" n="73">
@@ -1453,11 +1479,12 @@
                         adrede, fuyendo la muchedumbre, se recogía a soledad como en puerto. Mas
                         tanta era la gloria de las cosas fechas, que doquier que él fuesse conmovía
                         el concurso de todo linaje de ombres. <num>4</num> Cuentan la fama que, ya
-                        él ydo a Literno, venieron algunos robadores [191v,b] a le fazer reverençia
-                        con gana de veer tan notable varón y por tocar la mano diestra del que era
-                        tan prinçipal en fe y en vençimientos. Ca la fuerça de la virtud es grande y
-                        grande çerca de todas gentes, porque atrae y combida no sólamente los
-                        buenos, mas aun a los malos que amen al virtuoso.</p>
+                        él ydo a Literno, venieron algunos robadores <pb
+                            facs="../public/images/1491/191v.jpg"/><cb/>[191v,b] a le fazer
+                        reverençia con gana de veer tan notable varón y por tocar la mano diestra
+                        del que era tan prinçipal en fe y en vençimientos. Ca la fuerça de la virtud
+                        es grande y grande çerca de todas gentes, porque atrae y combida no
+                        sólamente los buenos, mas aun a los malos que amen al virtuoso.</p>
                 </div>
             </div>
         </body>

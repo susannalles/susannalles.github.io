@@ -5,29 +5,32 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Comparaçión de Hanníbal y de Publio Scipión</title>
+        <title>Comparaçión de Hanníbal y de Publio Scipión, escrita por Donato Acciaiuoli y
+          traducida por Alfonso de Palencia</title>
+        <author ref="#SAT">Susanna Allés Torrent</author>
       </titleStmt>
       <publicationStmt>
-        <p>Publication Information</p>
+        <p>UM, <date>June, 2016</date></p>
       </publicationStmt>
       <sourceDesc>
-        <p>Information about the source</p>
+        <p/>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
 
-      <div xml:id="tradVHS">
+      <div xml:id="tradVHS" type="VHS">
         <div type="title"/>
 
         <div xml:id="eVHS1" type="section" n="1">
-          <p><num>1.1</num> Ya parece que’l negoçio nos amoneste conferir en pocas palabras los
-            fechos de Scipión y de Hanníbal y las cosas pertenecintes a su disciplina doméstica. Lo
-            primero, si quesiéremos considerar las cosas de la guerra, assaz es çierto que ambos
-            fueron soberanos y muy prinçipales capitanes de guerra, no solamente entre los de su
-            edad, que ninguna otra fue mas abastada de varones muy belicosos, mas aun fueron eguales
-            a cada qual de los reyes o capitanes de los tiempos antepassados.</p>
+          <p><num>1.1</num><pb facs="../public/images/1491/191v.jpg"/><cb/> Ya parece que’l negoçio
+            nos amoneste conferir en pocas palabras los fechos de Scipión y de Hanníbal y las cosas
+            pertenecintes a su disciplina doméstica. Lo primero, si quesiéremos considerar las cosas
+            de la guerra, assaz es çierto que ambos fueron soberanos y muy prinçipales capitanes de
+            guerra, no solamente entre los de su edad, que ninguna otra fue mas abastada de varones
+            muy belicosos, mas aun fueron eguales a cada qual de los reyes o capitanes de los
+            tiempos antepassados.</p>
         </div>
         <div xml:id="eVHS2" type="section" n="2">
           <p><num>2.1</num> Aquesto es de aver en admiraçión que, teniendo ellos en su patria muy
@@ -44,22 +47,23 @@
         <div xml:id="eVHS3" type="section" n="3">
           <p><num>3.1</num> Muchos se maravillavan de la ferocidad de Hanníbal que, tomado Sagunto
             por fuerça, tovo osadía de venir en Ytalia después los postrimeros fines de las tierras,
-            y levar consigo muy grandes compañas <pb/>[192r,a] de peones y cavalleros, y apassionar
-            con guerra la muy mucho valerosa república que avía no poco espantado a los sus mayores,
-              <num>2</num> y después de muertos muchos exércitos y cónsules y capitanes aposentarse
-            junto a los muros de Roma; y conmover los reyes estraños y las naçiones lexanas para que
-            tomassen armas contra los romanos, a los que tales cosas fiziesse, piensan que lo devan
-            tener por muy grande capitán y muy fuerte. <num>3</num> Pero otros, bueltos a considerar
-            lo de Scipión, ensálçanle con soberanos loores, porque rompió y fizo fuyr a quatro muy
-            nobles capitanes en España y a quatro exérçitos, y cuentan que venció y prendió un rey
-            de muy grand nombradía. <num>4</num> Y a la postre, engrandeçe aquella memorable
-            batalla, en que Scipión con señas tendidas vençió y fizo fuyr a Hanníbal. Y dizen que si
-            Fabio fue loado porque no le vençió el enemigo cathaginés, ¿qué diremos de Africano que
-            vençió en tan grand batalla a tan muy mentado capitán Hanníbal y dio conclusión a tan
-            grave guerra? <num>5</num> Y traen a memoria como Hanníbal acostumbrava guerrear
-            peleando en el campo de manifiesto contra los enemigos a la eguala y, al contrario,
-            Hanníbal solía usar, segund cuentan de assechanças y de engaños y de todo linaje de
-            falaçia. Assí que todos le llaman muy cauteloso capitán.</p>
+            y levar consigo muy grandes compañas <pb facs="../public/images/1491/192r.jpg"
+            /><cb/>[192r,a] de peones y cavalleros, y apassionar con guerra la muy mucho valerosa
+            república que avía no poco espantado a los sus mayores, <num>2</num> y después de
+            muertos muchos exércitos y cónsules y capitanes aposentarse junto a los muros de Roma; y
+            conmover los reyes estraños y las naçiones lexanas para que tomassen armas contra los
+            romanos, a los que tales cosas fiziesse, piensan que lo devan tener por muy grande
+            capitán y muy fuerte. <num>3</num> Pero otros, bueltos a considerar lo de Scipión,
+            ensálçanle con soberanos loores, porque rompió y fizo fuyr a quatro muy nobles capitanes
+            en España y a quatro exérçitos, y cuentan que venció y prendió un rey de muy grand
+            nombradía. <num>4</num> Y a la postre, engrandeçe aquella memorable batalla, en que
+            Scipión con señas tendidas vençió y fizo fuyr a Hanníbal. Y dizen que si Fabio fue loado
+            porque no le vençió el enemigo cathaginés, ¿qué diremos de Africano que vençió en tan
+            grand batalla a tan muy mentado capitán Hanníbal y dio conclusión a tan grave guerra?
+              <num>5</num> Y traen a memoria como Hanníbal acostumbrava guerrear peleando en el
+            campo de manifiesto contra los enemigos a la eguala y, al contrario, Hanníbal solía
+            usar, segund cuentan de assechanças y de engaños y de todo linaje de falaçia. Assí que
+            todos le llaman muy cauteloso capitán.</p>
         </div>
         <div xml:id="eVHS4" type="section" n="4">
           <p><num>4.1</num> Otrosí hay algunos que judgan deverse loar Hanníbal porque, mientra

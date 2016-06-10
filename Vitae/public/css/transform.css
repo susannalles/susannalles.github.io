@@ -4,7 +4,28 @@
 h2{
     /*font-family:'Eagle Lake', cursive;*/
     font-family: 'Cinzel', serif;
+}
 
+h3{
+    font-family: 'Cinzel', serif;
+    font-size:1.4em;
+    font-weight:bold;
+}
+
+h4{
+    font-family: 'Cinzel', serif;
+    font-size:1em;
+    padding:5px;
+    color:#2BA6CB;
+    font-weight:bold;
+}
+
+h5{
+     font-family: 'Cinzel', serif;
+    font-size:0.8em;
+    padding:5px;
+    color:#2BA6CB;
+    font-weight:bold;
 }
 
 header{
@@ -105,4 +126,23 @@ header{
 sup{
     color: #cc0099;
     font-weight: bold;
+    font-weight:100;
+}
+.siglas{
+font-weight: bold;
+    font-style:italic;
+    color:black;
+}
+
+.menu{
+    margin-top:15px;
+    
+}
+
+.img_texto{
+    width:400px;
+    float:right;
+    border-style: groove;
+    border-color: #484848 ;
+    margin:5px;
 }

@@ -5,49 +5,13 @@
         <fileDesc>
             <titleStmt>
                 <title>Vita Scipionis</title>
-                <author/>
+                <author ref="#SAT">Susanna Allés Torrent</author>
             </titleStmt>
-            <editionStmt>
-                <edition>
-                    <date/>
-                </edition>
-            </editionStmt>
             <publicationStmt>
-                <p>no publication statement available</p>
+                <p>UM, <date>Junio, 2016</date></p>
             </publicationStmt>
             <sourceDesc>
-                <listWit>
-                    <head>Manuscritos</head>
-                    <witness xml:id="D">Madrid, Biblioteca Nacional de España, RES/211 (Hh52; Vit.
-                        4-3; Toledo 51, 3), ff. 274-306</witness>
-                    <witness xml:id="E">Modena, Biblioteca Estense, Est. lat. 597 (Alpha N 5, 8),
-                        ff. 70v-107 F = Firenze, Biblioteca Nazionale Centrale di Firenze, Magl.
-                        XXIII, 26, ff. 1-78</witness>
-                    <witness xml:id="G">Gent, Centrale Bibliotheek der Rijksuniversiteit, ms. 109,
-                        ff. 176-207 M = Firenze, Biblioteca Nazionale Centrale di Firenze, Magl.
-                        XXIII, 154, ff. 1-76v</witness>
-                    <witness xml:id="N">Napoli, Biblioteca Nazionale di Napoli, XIII A A 19, ff.
-                        1-65v</witness>
-                    <witness xml:id="P">Firenze, Biblioteca Laurenziana, Plut. 52, cod. XI, ff.
-                        55-96</witness>
-                    <witness xml:id="R">Città del Vaticano, Biblioteca Apostolica Vaticana, Reg.
-                        lat. 768, ff. 115-172</witness>
-                    <witness xml:id="S">Firenze, Biblioteca Laurenziana, Strozz. 53, ff.
-                        279-299</witness>
-                    <witness xml:id="U">Città del Vaticano, Biblioteca Apostolica Vaticana, Urb.
-                        lat. 448, ff. 274-309</witness>
-                    <witness xml:id="W">Modena, Biblioteca Estense, Est. lat. 429 (Alpha W 1, 4),
-                        ff. 213-245</witness>
-                </listWit>
-                <listWit>
-                    <head>Ediciones</head>
-                    <witness xml:id="r">r = Plutarchus, Vitae illustrium virorum, ed. J. A.
-                        Campanus, Uldaricus Gallus (Ulrich Han), [Roma ca. 1470] (editio princeps) </witness>
-                    <witness xml:id="s">s = Plutarchus, Vitae illustrium virorum, [Adolf Rusch,
-                        Estrasburgo ca. 1471] </witness>
-                    <witness xml:id="v">v = Plutarchus, Vitae illustrium virorum, Nicolaus Jenson,
-                        Venetiis 1478 </witness>
-                </listWit>
+                <p/>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -55,11 +19,18 @@
     <text>
 
         <body>
-            <div xml:id="origVS">
-                <div type="title"/>
+            <div xml:id="origVS" type="VS">
+                <div type="title">
+                    <p>Scipionis Africani uiri illustris uita ex Plutarcho Graeco per Donatum
+                        Acciaiuolum in latinum uersa<note n="1">La edición utilizada por Palencia,
+                            impresa en Venecia en 1478 (v), atribuyó erróneamente la autoría de las
+                                <title>Vitae Hannibalis et Scipionis</title> al mismo Plutarco y
+                            consideró a Donato Acciaiuoli como el traductor.</note></p>
+                </div>
 
                 <div xml:id="lVS1" type="section" n="1">
-                    <p><num>1.1</num> [121r] <app>
+                    <p><num>1.1</num>
+                        <pb facs="../public/images/1478/121r.jpg"/>[121r] <app>
                             <lem>Cornelio</lem>
                             <rdg wit="#F #M #N #R #U #W #s">Publio Cornelio</rdg>
                             <rdg wit="#S">P. Cornelio</rdg>
@@ -151,8 +122,9 @@
                         </app> silerent, unus Scipio .IIII. et uiginti <app>
                             <lem>annos natus</lem>
                             <rdg wit="#P">natus annos</rdg>
-                        </app> in medium [121v] prosiliens ingenti fiducia professus est se hoc
-                        munus libenti animo suscepturum.</p>
+                        </app> in medium <pb facs="../public/images/1478/121v.jpg"/>[121v]
+                        prosiliens ingenti fiducia professus est se hoc munus libenti animo
+                        suscepturum.</p>
                 </div>
 
                 <div xml:id="lVS6" type="section" n="6">
@@ -271,9 +243,10 @@
                         est, <app>
                             <lem>expediri acies</lem>
                             <rdg wit="#F #M #N #P #R #S #U #W">acies expediri</rdg>
-                        </app> et distributis [122r] copiis urbem uehementius quam unquam antea
-                        oppugnari iubet. <num>3</num> Ipse interim fortissimorum uirorum manum
-                        deligit, quibus imperat superato stagno <app>
+                        </app> et distributis <pb facs="../public/images/1478/122r.jpg"/>[122r]
+                        copiis urbem uehementius quam unquam antea oppugnari iubet. <num>3</num>
+                        Ipse interim fortissimorum uirorum manum deligit, quibus imperat superato
+                        stagno <app>
                             <lem>in murum ab ea parte, quae minime suspecta erat euadant.
                                     <num>4</num> At hi quibus negocium datum est, prospere traiecto
                                 stagno,</lem>
@@ -397,8 +370,9 @@
                         Hortatus est tantum Hispanas gentes, ut si in <app>
                             <lem>referenda</lem>
                             <rdg wit="#U">ferenda</rdg>
-                        </app> gratia memores esse uellent, fidem in populum Romanum [122v]
-                        beniuolentiaque seruarent.</p>
+                        </app> gratia memores esse uellent, fidem in populum Romanum <pb
+                            facs="../public/images/1478/122v.jpg"/>[122v] beniuolentiamque
+                        seruarent.</p>
                 </div>
 
                 <div xml:id="lVS17" type="section" n="17">
@@ -532,7 +506,8 @@
                             <rdg wit="#U"><del/></rdg>
                         </app> inter se dissidentes eo die controuersiam finiere, altero eorum
                         alterius manu interempto. Grauis spectantibus eorum dimicatio, grauior etiam
-                        [123r] quia patrueles erant mors interempti fuit.</p>
+                            <pb facs="../public/images/1478/123r.jpg"/>[123r] quia patrueles erant
+                        mors interempti fuit.</p>
                 </div>
                 <div xml:id="lVS23" type="section" n="23">
                     <p><num>23.1</num> Post haec Scipionem longe maiora quam ea quae gesserat
@@ -660,9 +635,9 @@
                         esse cernentes, legatos ad Scipionem miserunt, qui suppliciter pacem
                         peterent, et ueniam deprecarentur. <num>3</num> At Scipio etsi quantum in se
                         atque in populum Romanum facinus admisissent, intelligebat, tamen non minus
-                        decorum putans hostem claementia et mansuetudine superari, quam armis [123v]
-                        regulis ignouit, pecunia tantum, ut militi ad stipendium soluerent,
-                        imperata.</p>
+                        decorum putans hostem claementia et mansuetudine superari, quam armis <pb
+                            facs="../public/images/1478/123v.jpg"/>[123v] regulis ignouit, pecunia
+                        tantum, ut militi ad stipendium soluerent, imperata.</p>
                 </div>
 
                 <div xml:id="lVS29" type="section" n="29">
@@ -779,10 +754,11 @@
                         praesto fuissent ad constitutam diem, optionem detulit consul, qua uel ipsi
                         secum in Aphrica militarent, uel totidem aliis substitutis equos armaque
                         largirentur, utrum uellent acciperent. <num>3</num> Singulis remissionem
-                        militiae petentibus dati sunt [124r] uicarii .CCC. Romani iuuenes quos
-                        Scipio inermes ex Italia adduxerat, eo consilio uel Siculorum impensa sicut
-                        euenit armis equisque instruerentur. Horum opera multis postea certaminibus
-                        fideli atque utili in Africa usus est.</p>
+                        militiae petentibus dati sunt <pb facs="../public/images/1478/124r.jpg"
+                        />[124r] uicarii .CCC. Romani iuuenes quos Scipio inermes ex Italia
+                        adduxerat, eo consilio uel Siculorum impensa sicut euenit armis equisque
+                        instruerentur. Horum opera multis postea certaminibus fideli atque utili in
+                        Africa usus est.</p>
                 </div>
 
                 <div xml:id="lVS35" type="section" n="35">
@@ -884,12 +860,13 @@
                             <lem>promontorium</lem>
                             <rdg wit="#F #M #R #S #U #s">promuntorium</rdg>
                         </app> Pulchri, atque ibi omnes copias in terram exposuit. Sed celeriter
-                        eius aduentus [124v] Carthaginem nuntiatus, sic ciuitatem turbauit, ut
-                        conclamtum esse ad arma stationesque in portis murisque dispositas quidam
-                        auctores sint. <num>3</num> Nam a Marco Regulo usque ad eum diem .L. prope
-                        annorum intercesserat spatium, ex quo nullus imperator Romanus cum ualido
-                        exercitu terram Aphricam intrauerat. <num>4</num> Merito igitur pauoris ac
-                        tumultus omnia erant plena. Augebat etiam <app>
+                        eius aduentus <pb facs="../public/images/1478/124v.jpg"/>[124v] Carthaginem
+                        nuntiatus, sic ciuitatem turbauit, ut conclamtum esse ad arma stationesque
+                        in portis murisque dispositas quidam auctores sint. <num>3</num> Nam a Marco
+                        Regulo usque ad eum diem .L. prope annorum intercesserat spatium, ex quo
+                        nullus imperator Romanus cum ualido exercitu terram Aphricam intrauerat.
+                            <num>4</num> Merito igitur pauoris ac tumultus omnia erant plena.
+                        Augebat etiam <app>
                             <lem>terrorem</lem>
                             <rdg wit="#F">terroris</rdg>
                             <rdg wit="#P">pauorem</rdg>
@@ -1004,7 +981,8 @@
                             <lem>profligatis</lem>
                             <rdg wit="#F #N #P #S #W #r">profligati</rdg>
                         </app> hostes tanta fugientium strage, ut ad .XL. milia hominum ex Poenis
-                        [125r] Numidisque ea nocte absumpta quidam auctores <app>
+                            <pb facs="../public/images/1478/125r.jpg"/>[125r] Numidisque ea nocte
+                        absumpta quidam auctores <app>
                             <lem>sint</lem>
                             <rdg wit="#U">sunt</rdg>
                         </app>.</p>
@@ -1102,14 +1080,15 @@
                             <rdg wit="#U">siuo</rdg>
                         </app> quod praesentis iuuenis foelicitatem horreret, siue quod labenti et
                         pene inclinatae reipublicae diffideret, 3 omnium primum cum P. Scipione de
-                        pace [125v] agendum censuit. Quapropter petenti locus ad colloquium datus,
-                        in quo simul congressi longum sermonem de tollendis controuersiis habuere.
-                            <num>4</num> Ad extremum Scipio eas conditiones detulit Poeno, quibus
-                        facile apparuit non tedere belli populum Romanum et ipsum iuuenem spe
-                        uictoriae magis quam concordiae desiderio trahi. <num>5</num> Itaque omni
-                        spe pacis adempta colloquium dirimunt. Atque in posterum diem certamen
-                        parant duarum nobilissimarum bello gentium duo clarissimi duces imperium
-                        orbis terrae breui spatio suis rebus publicis <app>
+                        pace <pb facs="../public/images/1478/125v.jpg"/>[125v] agendum censuit.
+                        Quapropter petenti locus ad colloquium datus, in quo simul congressi longum
+                        sermonem de tollendis controuersiis habuere. <num>4</num> Ad extremum Scipio
+                        eas conditiones detulit Poeno, quibus facile apparuit non tedere belli
+                        populum Romanum et ipsum iuuenem spe uictoriae magis quam concordiae
+                        desiderio trahi. <num>5</num> Itaque omni spe pacis adempta colloquium
+                        dirimunt. Atque in posterum diem certamen parant duarum nobilissimarum bello
+                        gentium duo clarissimi duces imperium orbis terrae breui spatio suis rebus
+                        publicis <app>
                             <lem>aut daturi</lem>
                             <rdg wit="#P">daturi</rdg>
                         </app> aut erepturi.</p>
@@ -1225,13 +1204,13 @@
                             <lem>iis</lem>
                             <rdg wit="#U"><del/></rdg>
                         </app> tantum uiris deferri consueuit, qui auctoritatem et gloriam maximis
-                        [126r] in rempublicam meritis praestantissimisque rebus gestis essent
-                        consecuti. <num>4</num> Nec multo interiecto spatio creatus est iterum
-                        consul collegaque ei datus Sempronius Longus, Sempronii illius filius, quem
-                        Hannibal magna affectum clade ad flumen Trebiam superauit. <num>5</num> Hi
-                        primi fuisse dicuntur, qui in spectandis ludis patres a populo secreuerunt,
-                        quam selectionem plaebs Romana molestissime tulit aduersus consules
-                        indignata, qui <app>
+                            <pb facs="../public/images/1478/126r.jpg"/>[126r] in rempublicam meritis
+                        praestantissimisque rebus gestis essent consecuti. <num>4</num> Nec multo
+                        interiecto spatio creatus est iterum consul collegaque ei datus Sempronius
+                        Longus, Sempronii illius filius, quem Hannibal magna affectum clade ad
+                        flumen Trebiam superauit. <num>5</num> Hi primi fuisse dicuntur, qui in
+                        spectandis ludis patres a populo secreuerunt, quam selectionem plaebs Romana
+                        molestissime tulit aduersus consules indignata, qui <app>
                             <lem>honorem</lem>
                             <rdg wit="#U">horem</rdg>
                         </app> senatorii ordinis extulisse, suum contempsisse uisi erant.
@@ -1349,8 +1328,9 @@
                         Antiocho egit pro filio ad se remisso, deinde eum monuit, <app>
                             <lem>ne</lem>
                             <rdg wit="#v">ue</rdg>
-                        </app> prius in aciem descenderet, quam se ab Elea in [126v] castra reuersum
-                        sciret. <num>4</num> Motus auctoritate uiri Antiochus aliquandiu se castris
+                        </app> prius in aciem descenderet, quam se ab Elea in <pb
+                            facs="../public/images/1478/126v.jpg"/>[126v] castra reuersum sciret.
+                            <num>4</num> Motus auctoritate uiri Antiochus aliquandiu se castris
                         continuit, et praelium in longum differendum putauit, sperans per Aphricanum
                         se aliquem aditum ad consulem habiturum. </p>
                 </div>
@@ -1499,9 +1479,9 @@
                 </div>
 
                 <div xml:id="lVS70" type="section" n="70">
-                    <p><num>70.1</num> Sunt autem [127r] qui uolunt Publium Scipionem priusquam
-                        Liternum concederet librum pro reddenda ratione a L. fratre in senatum
-                        allatum suis manibus <app>
+                    <p><num>70.1</num> Sunt autem <pb facs="../public/images/1478/127r.jpg"/>[127r]
+                        qui uolunt Publium Scipionem priusquam Liternum concederet librum pro
+                        reddenda ratione a L. fratre in senatum allatum suis manibus <app>
                             <lem>concerpsisse</lem>
                             <rdg wit="#E #F #M #N #R #S #U #W #r #s">compressisse</rdg>
                             <rdg wit="#P">comprexisse</rdg>
