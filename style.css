@@ -6,6 +6,10 @@ body{
     /*font-weight:300;*/
 }
 
+.wrapper{
+    width:860px;
+    margin:0 auto;
+}
 p{
     margin:0 0 20px;
 }
@@ -37,7 +41,7 @@ h3{
     line-height:1.1;
     color:#222;
     margin:0 0 20px 30px;
-   
+
 }
 
 h4{
@@ -53,12 +57,11 @@ li{
     margin-bottom:10px;
 }
 #menu{
-    position:fixed;
     width:300px;
+    float:left;
+    position:fixed;
     font-weight:400;
-    margin-right:30px;
-    padding:5px;
-       /* background-color:purple;*/
+    /*background-color:purple;*/
 }
 #menu p{
 
@@ -79,10 +82,8 @@ a{
     color:#39C;
 }
 #contenido{
-    margin-top:50px;
     padding:5px;
     width:600px;
-    margin-left:400px;
-    /*    background-color:green;*/
-
+    float:right;
+    background-color:green;
 }
