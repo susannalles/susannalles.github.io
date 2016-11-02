@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-02T12:22:58+01:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-01T00:00:00+01:00</published><updated>2016-11-01T00:00:00+01:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
+En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales&lt;/a&gt;. 7-9 noviembre 2016&lt;/p&gt;
+
+&lt;p&gt;4 partes diferentes:&lt;/p&gt;
+
+&lt;h1 id=&quot;i-jekyll&quot;&gt;I. Jekyll&lt;/h1&gt;
+
+&lt;h2 id=&quot;requisitos-del-sistema&quot;&gt;Requisitos del sistema&lt;/h2&gt;
+
+&lt;h2 id=&quot;conceptos-bsicos&quot;&gt;Conceptos básicos:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Terminal&lt;/li&gt;
+  &lt;li&gt;Servidor local&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;primer-paso-esencial-crear-un-blog-con-el-tema-mnimo-de-jekyll&quot;&gt;Primer paso esencial: Crear un blog con el tema mínimo de Jekyll&lt;/h2&gt;
+
+&lt;p&gt;##&lt;/p&gt;
+
+&lt;h1 id=&quot;ii-github&quot;&gt;II. GitHub&lt;/h1&gt;
+
+&lt;h1 id=&quot;iii-github-pages&quot;&gt;III. GitHub Pages&lt;/h1&gt;
+&lt;p&gt;GitHub Pages son páginas web públicas albergadas gratuitamente en GitHub bajo el dominio github.io (o cualquier otro dominio que se escoja). La misma página de GitHub Pages está creada y es mantenida a través de Jekyll.&lt;/p&gt;
+
+&lt;h1 id=&quot;iv-ed-a-jekyll-theme-for-minimal-editions&quot;&gt;IV. Ed: a Jekyll theme for minimal editions&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://elotroalex.github.io/ed/&quot;&gt;http://elotroalex.github.io/ed/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/elotroalex/ed&quot;&gt;https://github.com/elotroalex/ed&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_code&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;[link][url] 
+&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;
+&lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;referencias-y-lecturas-ulteriores&quot;&gt;Referencias y lecturas ulteriores:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;McGlone, Jonathan. “&lt;a href=&quot;http://jmcglone.com/guides/github-pages/&quot;&gt;Creating and Hosting a Personal Site on GitHub&lt;/a&gt;” &lt;em&gt;Jonathan McGlone&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Visconti, Amanda. “&lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;Building a static website with Jekyll and GitHub Pages&lt;/a&gt;” &lt;em&gt;Programming Historian&lt;/em&gt; (18 April 2016).&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Susanna Allés Torrent</name></author><summary type="html">Taller, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
+En: I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales. 7-9 noviembre 2016</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2016/10/25/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2016-10-25T17:22:16+02:00</published><updated>2016-10-25T17:22:16+02:00</updated><id>http://localhost:4000/jekyll/update/2016/10/25/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/10/25/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Susanna Allés Torrent</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Introducción a la edición digital de Textos (TEI-XML)</title>
+  <meta name="description" content="Tema 2: Principios fundamentales de XML (3)">
+
+  <link rel="stylesheet" href="http://localhost:4000/assets/main.css">
+  <!--<link rel="stylesheet" href="/assets/main.css">-->
+  <link rel="canonical" href="http://localhost:4000/materials/2.3.html">
+  <link rel="alternate" type="application/rss+xml" title="Susanna Allés Torrent" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Susanna Allés Torrent</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        <!--Aquí posar el menú fixe que vull -->
+      
+          
+          <a class="page-link" href="/cv">CV</a>
+          
+        
+          
+          <a class="page-link" href="/publications">Publications</a>
+          
+        
+          
+          <a class="page-link" href="/projects">Projects</a>
+          
+        
+          
+          <a class="page-link" href="/talks">Talks</a>
+          
+        
+          
+          <a class="page-link" href="/teaching">Teaching</a>
+          
+        
+          
+          <a class="page-link" href="/blog">Blog</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Introducción a la edición digital de Textos (TEI-XML)</h1>
+  </header>
+
+  <div class="post-content">
+  	
+  	 <a href="http://localhost:4000/materials/index.html">Index</a>
+    
+    <h4 id="tema-2-principios-fundamentales-de-xml-3">Tema 2: Principios fundamentales de XML (3)</h4>
+
+<p><strong>3. Estructura de un documento XML</strong></p>
+
+<p>Pasemos ahora a ver con más detalle cada una de las partes de un documento XML. Os aconsejo que para esta sección abráis el documento <a href="/o/10015222">ejemplo-2.xml</a>, un pequeño fichero XML comentado. Una vez descargado y abierto con oXygen u otro programa de edición XML, lo podéis anotar libremente con vuestros comentarios.</p>
+
+<p><strong>3.1. Declaración XML</strong></p>
+
+<p>Los documentos XML empiezan por una declaración XML:</p>
+
+<p><code class="highlighter-rouge"><span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span></code></p>
+
+<p>Este elemento no puede ir precedido por ningún comentario, ni espacio en blanco ni ningún otro elemento. Su función es simple pero crucial, y recubre tres objetivos básicos:</p>
+
+<ul>
+  <li>
+    <p>Declarar que es un documento XML; el paréntesis angular seguido del interrogante de cierre es interpretado como código por nuestra máquina y le está indicando que se trata de una declaración o una instrucción de procesamiento, no de un elemento corriente.</p>
+  </li>
+  <li>
+    <p>Declarar qué versión del estándar XML se sigue; No es lo mismo utilizar la versión 1.0 que la 1.1. Además, en el hipotético caso que en el futuro se publique una nueva versión (cosa que suele ocurrir con los lenguajes informáticos) es importante que dejemos para el futuro la versión específica utilizada para evitar problemas.</p>
+  </li>
+  <li>
+    <p>Declarar qué caracteres de codificación utiliza el documento. Los documentos XML contienen texto cifrado en Unicode. Unicode es una combinación de caracteres que incluye prácticamente todas las lenguas del mundo y puede expresarse a través de diversos sistemas de codificación. Cada uno de estos sistemas establece un juego de caracteres (“character set”) específico que representa los caracteres (alfanuméricos y otros símbolos) a través de una secuencia de números (por ejemplo, imaginemos que el número 65 corresponde a la letra A). Así, cada combinación numérica corresponde a una letra o carácter, que difiere en cada uno de las diferentes codificaciones. Cada una de estas combinaciones de puntos se llama “puntos de código” (“code points”). La codificación de los caracteres determina cómo estos puntos de código son representados en bytes. De esta manera, el conjunto de caracteres de Unicode puede tener diferentes codificaciones como UTF-8, UCS-2, UCS-4 o UTF-16. Por eso es importante señalar al inicio del documento qué codificación de caracteres hemos utilizado para que el parser sepa cómo descifrarlos y para que nuestra secuencia de texto se visualice de manera correcta. Aunque XML utiliza por defecto UTF-8, se podría también utilizar otro sistema según nuestras necesidades, como sería por ejemplo la combinación de caracteres ISO, por ejemplo, el ISO-8859-1 (Latin 1) que corresponde a las lenguas europeas occidentales, incluido el español.</p>
+  </li>
+</ul>
+
+<p>En algunos casos, en la declaración de documento también nos podemos encontrar el atributo “standalone”:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">    <span class="o">&lt;</span><span class="p">?</span><span class="n">xml</span> <span class="n">version</span><span class="o">=</span><span class="s2">"1.0"</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"UTF-8"</span> <span class="n">standalone</span><span class="o">=</span><span class="err">“</span><span class="n">no</span><span class="err">”</span><span class="sc">?&gt;</span><span class="o">&lt;</span><span class="sr">/font&gt;  </span></code></pre></figure>
+
+<p>Los valores del atributo “standalone” pueden ser afirmativo “yes” o negativo “no”; en el primer caso significa que no depende de ningún esquema externo y que por tanto el documento se regirá solo según las reglas del lenguaje XML; en cambio, si no es “standalone” significa que depende de un modelo abstracto concreto, es decir, concretamente de un esquema o DTD externos.</p>
+
+<p><strong>3.2. Declaración de tipo de documento</strong></p>
+
+<p>En algunos casos, un documento XML puede depender de un modelo abstracto que puede tener diferentes formas. Un caso frecuente es el modelo de la DTD (Document Type Definition), ampliamente utilizado en XML, aunque en desuso en el campo de TEI (donde se prefieren los esquemas RelaxNG). De esta manera, podemos encontrarnos en el prólogo del documento con una declaración del tipo de documento, “Documento Type” que tiene esta forma:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;!</span><span class="no">DOCTYPE</span> <span class="n">nombre_elemento_raiz</span> <span class="no">SYSTEM</span> <span class="s2">"nombre.dtd"</span><span class="o">&gt;</span></code></pre></figure>
+
+<p>Esta declaración está compuesta del identificador DOCTYPE, seguido del nombre del elemento raíz del documento que estamos marcando, a su vez seguido de SYSTEM con la indicación de la URL o ubicación del fichero DTD en cuestión (en este ejemplo, la DTD estaría en el mismo fichero que el documento XML). A veces, en lugar de SYSTEM, podemos encontrar PUBLIC, seguido de una URL; esto significa que la DTD está accesible de forma pública en la Web (normalmente se trata de algún estándar o de algún modelo público creado por una comunidad específica). Es el mismo procedimiento que podemos encontrar al inicio de un documento HTML 4 o XHTML:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;!</span><span class="no">DOCTYPE</span> <span class="n">html</span> <span class="no">PUBLIC</span> <span class="s2">"-//W3C//DTD XHTML 1.1//EN"</span> <span class="s2">"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"</span><span class="o">&gt;</span></code></pre></figure>
+
+<p><strong>3.3. Instrucciones de procesamiento</strong></p>
+
+<p>Aunque ahora no nos detengamos en este aspecto, no está de más señalar que cuando nos encontramos con este tipo de sintaxis: al inicio <code class="highlighter-rouge">&lt;?</code> y al final <code class="highlighter-rouge">?&gt;</code>, en realidad se trata de Instrucciones de procesamiento (en inglés, “Processing Instructions”). En estos casos, XML está señalando que con ese fragmento de código el documento está ofreciendo un tipo determinado de información que debe ser procesada por otra aplicación. Por ejemplo, podríamos encontrar un script en PHP que iría destinada a ser procesada por una aplicación PHP; otro caso muy habitual es el de la asociación de una hoja de estilo CSS al mismo documento XML:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="p">?</span><span class="n">xml</span><span class="o">-</span><span class="n">stylesheet</span> <span class="n">href</span><span class="o">=</span> <span class="err">“</span><span class="n">formato</span><span class="p">.</span><span class="nf">css</span><span class="err">”</span> <span class="n">type</span><span class="o">=</span> <span class="err">“</span><span class="n">text</span><span class="o">/</span><span class="n">css</span><span class="err">”</span><span class="sc">?&gt;</span></code></pre></figure>
+
+<p>De momento es solo necesario que sepáis diferenciar entre una instrucción de procesamiento y los elementos XML propiamente dichos.</p>
+
+<p><strong>3.4. Declaración del espacio de nombre</strong></p>
+
+<p>En los documentos TEI aparece normalmente una declaración del “espacio de nombre” (en inglés, “namespace”). Por ejemplo, en un documento TEI aparece de la siguiente manera:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="no">TEI</span> <span class="n">xmlns</span><span class="o">=</span><span class="s2">"http://www.tei-c.org/ns/1.0"</span><span class="o">&gt;</span> <span class="p">.</span><span class="nf">.</span><span class="p">.</span> <span class="nf">&lt;</span><span class="o">/</span><span class="no">TEI</span><span class="o">&gt;</span></code></pre></figure>
+
+<p>Los documentos XML pueden incluir elementos declarados en diferentes espacios de nombre. Por eso, la función de una tal declaración es la de evitar la ambigüedad de los nombres de los elementos y los atributos que pertenecen a una aplicación concreta de XML. Por ejemplo, imaginemos que en un mismo documento se utilizan dos sistemas de marcado que poseen elementos con el mismo nombre (por ejemplo <code class="highlighter-rouge">&lt;p&gt;</code>). Señalando el “espacio de nombre” dentro del cual cada uno de estos elementos debe ser interpretado se evitan errores y ambigüedades.</p>
+
+<p>Desde el punto de vista formal, el espacio de nombre se representa a través de su URI, que funciona, en realidad, como un identificador externo y al que se asocia un prefijo de espacio de nombre. Es importante que se declaren todos los espacios de nombre utilizados en un documento, bajo forma de atributos <code class="highlighter-rouge">@xmlns</code> en el elemento raíz del documento.</p>
+
+<p>Retomando el ejemplo anterior, vemos como se ha añadido el espacio de nombre de TEI en el elemento raíz, y por consiguiente sabemos que todos los elementos en su interior responden a ese espacio de nombre por defecto:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="no">TEI</span> <span class="n">xmlns</span><span class="o">=</span><span class="s2">"http://www.tei-c.org/ns/1.0"</span><span class="o">&gt;</span>
+   <span class="o">&lt;</span><span class="n">teiHeader</span><span class="o">&gt;</span>
+   <span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">.</span>
+   <span class="o">&lt;</span><span class="sr">/teiHeader&gt;
+   &lt;body&gt;
+     &lt;text&gt;
+     ...
+     &lt;/</span><span class="n">text</span><span class="o">&gt;</span>
+   <span class="o">&lt;</span><span class="sr">/body&gt;</span></code></pre></figure>
+
+<p>De no haberse declarado de esta manera y si quisiéramos añadir otro espacio de nombre, tendríamos que especificar el prefijo de cada uno de los espacios de nombre de los elemento con su prefijo o espacio de nombre correspondiente. Imaginemos el siguiente caso en que utilizamos etiquetas relativas a TEI y a Math, pues necesitamos marcar fórmulas matemáticas:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">tei</span><span class="ss">:TEI</span> <span class="n">xmlns</span><span class="ss">:tei</span><span class="o">=</span><span class="s2">"http://www.tei-c.org/ns/1.0"</span> <span class="n">xmlns</span><span class="ss">:math</span><span class="o">=</span><span class="s2">"http://www.mathml.org"</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="n">tei</span><span class="ss">:teiHeader</span><span class="o">&gt;</span>  
+    <span class="p">.</span><span class="nf">.</span><span class="p">.</span>  
+<span class="nf">&lt;</span><span class="o">/</span><span class="n">tei</span><span class="ss">:teiHeader</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="n">tei</span><span class="ss">:text</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="n">tei</span><span class="ss">:body</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="n">tei</span><span class="ss">:p</span><span class="o">&gt;</span><span class="no">Aqu</span><span class="err">í</span> <span class="n">el</span> <span class="n">texto</span> <span class="n">del</span> <span class="n">p</span><span class="err">á</span><span class="n">rrafo</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span>  
+<span class="nf">&lt;</span><span class="n">math</span><span class="ss">:expr</span><span class="o">&gt;</span><span class="p">.</span><span class="nf">.</span><span class="o">.</span><span class="no">Aqu</span><span class="err">í</span> <span class="n">la</span> <span class="n">f</span><span class="err">ó</span><span class="n">rmula</span> <span class="n">matem</span><span class="err">á</span><span class="n">tica</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">&lt;</span><span class="o">/</span><span class="n">math</span><span class="ss">:expr</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="sr">/tei:p&gt;  
+&lt;/</span><span class="n">tei</span><span class="ss">:body</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="sr">/tei:text&gt;  
+&lt;/</span><span class="n">tei</span><span class="ss">:TEI</span><span class="o">&gt;</span></code></pre></figure>
+
+<p>Aunque el caso anterior sería correcto, lo más habitual es declarar un nombre de espacio por defecto y establecer los otros espacios de nombre con su prefijo correspondiente, de manera que el marcado no sea tan pesado:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="no">TEI</span> <span class="n">xmlns</span><span class="o">=</span><span class="s2">"http://www.tei-c.org/ns/1.0"</span> <span class="n">xmlns</span><span class="ss">:math</span><span class="o">=</span><span class="s2">"http://www.mathml.org"</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="n">teiHeader</span><span class="o">&gt;</span>  
+       <span class="p">.</span><span class="nf">.</span><span class="p">.</span>  
+<span class="nf">&lt;</span><span class="o">/</span><span class="n">teiHeader</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="n">text</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="n">body</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="no">Aqu</span><span class="err">í</span> <span class="n">el</span> <span class="n">texto</span> <span class="n">del</span> <span class="n">p</span><span class="err">á</span><span class="n">rrafo</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span>  
+<span class="nf">&lt;</span><span class="n">math</span><span class="ss">:expr</span><span class="o">&gt;</span><span class="p">.</span><span class="nf">.</span><span class="o">.</span><span class="no">Aqu</span><span class="err">í</span> <span class="n">la</span> <span class="n">f</span><span class="err">ó</span><span class="n">rmula</span> <span class="n">matem</span><span class="err">á</span><span class="n">tica</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">&lt;</span><span class="o">/</span><span class="n">math</span><span class="ss">:expr</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="sr">/p&gt;  
+&lt;/</span><span class="n">body</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="sr">/text&gt;  
+&lt;/</span><span class="no">TEI</span><span class="o">&gt;</span></code></pre></figure>
+
+<p>Los dos objetivos principales del espacio de nombre son:</p>
+
+<ul>
+  <li>Diferenciar entre elementos y atributos de diferentes vocabularios con diferentes significados que puedan concurrir en el mismo documento con el mismo nombre.</li>
+  <li>Agrupar conjuntamente todos los elementos y atributos relacionados de una aplicación concreta de XML de manera que el software pueda reconocerlos de manera más fácil.</li>
+</ul>
+
+<p><strong>3.5. El elemento raíz</strong></p>
+
+<p>Todo documento XML tiene un solo elemento raíz (en inglés, “root”), el único que no depende de ningún otro elemento y que contiene todos los otros. En <a href="">ejemplo-2.xml</a>, el esquema sería el siguiente:</p>
+
+<p><img src="img/esquema.001.jpg" alt="" /></p>
+
+<p>Como vemos, la estructura arbórea consta de un solo elemento raíz (“curso”), del que descienden todos los otros elementos. Estos elementos pueden constituirse en lo que llamamos “nodos” (en inglés “nodes”) que pueden ser: a) un subárbol: por ejemplo, <code class="highlighter-rouge">&lt;metadatos&gt;</code> con sus cuatro elementos descendientes <code class="highlighter-rouge">&lt;titulo&gt;</code>, <code class="highlighter-rouge">&lt;fecha&gt;</code>, <code class="highlighter-rouge">&lt;profesor&gt;</code>, <code class="highlighter-rouge">&lt;universidad&gt;</code>; b) un simple elemento, por ejemplo, el nodo <code class="highlighter-rouge">&lt;nombre&gt;</code>; c) la misma secuencia de caracteres que encontramos como contenido al interior de los elementos. Es importante conocer esta nomenclatura, pues en algún momento del curso os la encontraréis.</p>
+
+<p><strong>3.6. Elementos y contenido</strong></p>
+
+<p>Los elementos son las unidades de información semántica compuestas de una marca de apertura <code class="highlighter-rouge">&lt;elemento&gt;</code> y de cierre <code class="highlighter-rouge">&lt;/elemento&gt;</code>. El nombre del elemento constituye su identificador general y todo lo que queda entre estas dos marcas se llama “contenido”. Puede contener texto, otros elementos o estar vacío (<code class="highlighter-rouge">&lt;elemento/&gt;</code>).</p>
+
+<p>En lo que concierne a los identificadores, es importante recordar que:</p>
+
+<ul>
+  <li>el nombre del elemento puede solo contener letras y números (A-Z, a-z, 0-9), sin acentos ni espacios</li>
+  <li>solo algunos signos pueden utilizarse: - (guión), _ (guión bajo), . (punto)</li>
+  <li>el nombre no puede empezar por un número, ni por un signo, ni por “xml”</li>
+  <li>XML es sensible a las mayúsculas y las minúsculas</li>
+</ul>
+
+<p><strong>3.7. Atributos y valores</strong></p>
+
+<p>Los elementos pueden poseer atributos que añadan una característica adicional al proprio elemento; su orden y número no es relevante. El nombre del atributo va siempre al interior de la etiqueta de apertura y va precedido de un espacio, seguido del símbolo <code class="highlighter-rouge">=</code>, y de comillas, dentro de las cuales aparece el <code class="highlighter-rouge">“valor”</code>. He aquí un ejemplo:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">fecha</span> <span class="n">cuando</span><span class="o">=</span><span class="s2">"2014-01-06"</span><span class="o">&gt;</span><span class="mo">06</span> <span class="n">enero</span> <span class="mi">2014</span><span class="o">&lt;</span><span class="sr">/fecha&gt;  </span></code></pre></figure>
+
+<p>Los nombres de los atributos deben formularse igual que los nombres de los elementos. Su orden al interior del elemento es libre, siempre y cuando no se repita.</p>
+
+<p><strong>3.8. Comentarios y entidades</strong></p>
+
+<p>Los documentos XML pueden contener comentarios para que los autores puedan dejar sus notas, normalmente relativas al proceso de codificación del mismo documento. Pueden aparecer en cualquier lugar del documento mientras sea contenido; no podrán nunca situarse al interior de una marca o etiqueta. Por regla general, no están destinados a ser procesados por la máquina, y de hecho, son ignorados por defecto. Los comentarios están delimitados por <code class="highlighter-rouge">&lt;!--</code> y <code class="highlighter-rouge">--&gt;</code>. Por ejemplo:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;!--</span> <span class="err">¡</span><span class="n">esto</span> <span class="n">es</span> <span class="n">un</span> <span class="n">comentario!</span> <span class="o">--&gt;</span></code></pre></figure>
+
+<p>Por otro lado, las entidades de referencia (“entity references”) pueden ser de diferentes tipos de mayor o menor complejidad. En esta ocasión citaremos solo las entidades internas de caracteres, pues las encontraremos con una cierta frecuencia. Se trata de caracteres especiales que no deben ser interpretados como código. Por ello, determinados signos deben ser codificados de una manera especial. Sucede así en los siguientes casos:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">&amp;lt;</code> para indicar el símbolo “menor que” o el paréntesis angular de la marca de apertura: <code class="highlighter-rouge">&lt;</code></li>
+  <li><code class="highlighter-rouge">&amp;gt;</code> para indicar el símbolo “mayor que” o el paréntesis angular de cierre de la marca: <code class="highlighter-rouge">&gt;</code></li>
+  <li><code class="highlighter-rouge">&amp;amp;</code> para indicar: <code class="highlighter-rouge">&amp;</code></li>
+  <li><code class="highlighter-rouge">&amp;quot;</code> para indicar las comillas dobles: <code class="highlighter-rouge">"</code></li>
+  <li><code class="highlighter-rouge">&amp;apos;</code> para indicar el apóstrofe o la comilla simple : <code class="highlighter-rouge">'</code></li>
+</ul>
+
+<p><a href="2.2.html">&lt; &lt; Anterior</a>         <a href="2.4.html">Siguiente &gt; &gt;</a></p>
+
+  </div>
+
+</article>
+      
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!--<h2 class="footer-heading">Susanna Allés Torrent</h2>-->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Susanna Allés Torrent
+            
+            </li>
+            
+            <li><a href="mailto:susanna_alles@miami.edu">susanna_alles@miami.edu</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/susannalles"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">susannalles</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/sallesto"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">sallesto</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

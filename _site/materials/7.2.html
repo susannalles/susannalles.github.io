@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Introducción a la edición digital de Textos (TEI-XML)</title>
+  <meta name="description" content="Tema 7: Personalización TEI (2)">
+
+  <link rel="stylesheet" href="http://localhost:4000/assets/main.css">
+  <!--<link rel="stylesheet" href="/assets/main.css">-->
+  <link rel="canonical" href="http://localhost:4000/materials/7.2.html">
+  <link rel="alternate" type="application/rss+xml" title="Susanna Allés Torrent" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Susanna Allés Torrent</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        <!--Aquí posar el menú fixe que vull -->
+      
+          
+          <a class="page-link" href="/cv">CV</a>
+          
+        
+          
+          <a class="page-link" href="/publications">Publications</a>
+          
+        
+          
+          <a class="page-link" href="/projects">Projects</a>
+          
+        
+          
+          <a class="page-link" href="/talks">Talks</a>
+          
+        
+          
+          <a class="page-link" href="/teaching">Teaching</a>
+          
+        
+          
+          <a class="page-link" href="/blog">Blog</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Introducción a la edición digital de Textos (TEI-XML)</h1>
+  </header>
+
+  <div class="post-content">
+  	
+  	 <a href="http://localhost:4000/materials/index.html">Index</a>
+    
+    <h1 id="tema-7-personalizacin-tei-2">Tema 7: Personalización TEI (2)</h1>
+
+<h2 id="aplicacin-roma-y-cmo-construir-un-esquema">5. Aplicación Roma y cómo construir un esquema</h2>
+
+<p>La sintaxis de los esquemas puede parecer complicada a simple vista, pero el esquema Relax NG realmente es el más sencillo y podríamos crearlo y modificarlo a mano. Aún así, el consorcio TEI pone a nuestra disposición una plataforma, llamada Roma, para la creación y la manipulación de un esquema a nuestra medida.</p>
+
+<p>En este apartado vamos a ver cómo funciona Roma y cómo construir un esquema a nuestra medida.</p>
+
+<p>Hay dos opciones a la hora de construir un esquema:</p>
+
+<ul>
+  <li>Elegir un esquema ya creado por la comunidad TEI, como puede ser la ya mencionada versión mínima, llamada TEI Lite, o la que incluye todos los elementos TEI All, ambas utilizadas ya en nuestros ejercicios. En este <a href="http://www.tei-c.org/Guidelines/Customization/">enlace</a> encontraréis los diferentes modelos. El programa oXygen tambié contiene estos esquemas.</li>
+  <li>Crear un nuevo modelo a partir de la aplicación <a href="http://www.tei-c.org/Roma/">Roma</a>. <a href="http://www.tei-c.org/Guidelines/Customization/use_roma.xml">Aquí</a> encontraréis las indicaciones ofrecidas por el Consorcio TEI.</li>
+</ul>
+
+<p>Esta es la interfaz de inicio de la plataforma ROMA:</p>
+
+<p><img src="img/01.png" alt="" /></p>
+
+<p>Las opciones disponibles son las siguientes:</p>
+
+<ul>
+  <li><em>Build up</em>: Construir un modelo personalizado a partir de una versión mínima con sólo los cuatro módulos obligatorios. El proceso consiste en añadir módulos y personalizar los elementos y atributos.</li>
+  <li><em>Reduce</em>: Construir un modelo personalizado a partir una versión máxima con todos los módulos TEI. El proceso consiste en eliminar módulos y elementos y atributos.</li>
+  <li><em>Create a new customization starting from a template</em>: Crear un modelo a partir de una de las plantillas propuestas por TEI.</li>
+  <li><em>Use or modify an existing TEI-defined customization</em>: Crear un modelo a partir de la modificación del modelo TEI Lite.</li>
+  <li><em>Upload a customization</em>: Sección para subir a la plataforma un modelo ya existente en forma de documento ODD.</li>
+</ul>
+
+<p>Elegiremos la primera opción <em>Build up</em>, es decir, crearemos un esquema a partir de una versión mínima que sólo contiene los módulos obligatorios. La siguiente pantalla corresponde a los metadatos:</p>
+
+<p><img src="img/02.png" alt="" /></p>
+
+<p>En este caso las opciones que se nos ofrecen son las siguientes:</p>
+
+<ul>
+  <li><em>Title</em></li>
+  <li><em>Filename</em></li>
+  <li><em>Namespace for new elements</em></li>
+  <li><em>Prefix for TEI pattern names in schema</em></li>
+  <li><em>Language</em></li>
+  <li><em>Author name</em></li>
+  <li><em>Description</em></li>
+</ul>
+
+<p>Cambiemos las informaciones por defecto por las nuestras y seleccionemos como lengua de la interfície el “Español”:</p>
+
+<p><img src="img/03.png" alt="" /></p>
+
+<p>Y guardamos el esquema, clicando el botón rojo “Save”.</p>
+
+<p>Fijaros que lo único que ha cambiado es el nombre de nuestro esquema que en lugar de llamarse “My extension TEI”, ahora tiene el nombre que le hemos dado “Mi primer esquema”:</p>
+
+<p><img src="img/04.png" alt="" /></p>
+
+<p>Veamos ahora las otras opciones:</p>
+
+<ul>
+  <li><em>Nuevo</em></li>
+  <li><em>Lengua</em></li>
+  <li><em>Módulos</em></li>
+  <li><em>Añadir elemento</em></li>
+  <li><em>Cambiar clase</em></li>
+  <li><em>Esquema</em></li>
+  <li><em>Documentación</em></li>
+  <li><em>Guardar configuración personal</em></li>
+</ul>
+
+<p><strong>A) Nuevo</strong>: retrocede a la pantalla de inicio</p>
+
+<p><strong>B) Personalizar</strong>: corresponde a la pantalla donde hemos creado el título y los otros metadatos del esquema.</p>
+
+<p><strong>C) Lengua</strong>: En este apartado tenemos la posibilidad de elegir entre diferentes lenguas, esto nos proporcionará una documentación de los elementos en la lengua escogida (siempre que exista una traducción). En nuestro caso, podemos escoger “Español”, aunque debemos tener en cuenta que la más actualizada y completa es la versión en inglés (Ya habéis visto en las <em>Guías directrices</em> como no todos los elementos y secciones están traducidas al español).</p>
+
+<p><strong>D) Módulos</strong>: esta es una de las pantallas más importantes, pues es aquí donde elegiremos qué módulos vamos a incluir en nuestro esquema:</p>
+
+<p><img src="img/05.png" alt="" /></p>
+
+<p>Como veis, la columna de la izquierda contiene todos y cada uno de los módulos TEI, mientras que el de la derecha recoge sólo los obligatorios: <span class="code">core, tei, header, textstructure</span>. A partir de aquí, debemos saber a qué módulos pertenecen los fenómenos textuales que queremos codificar. Por lo general, si trabajamos con textos teatrales, tendremos que incluir el módulo <span class="code">drama</span>, si trabajamos con poesía el módulo <span class="code">verse</span>, si trabajamos con diccionarios el módulo <span class="code">dictionaries</span>, etc.</p>
+
+<p>Podemos acceder a cada uno de los módulos y ver todos los elementos que contiene. Por ejemplo, si accedemos al módulo <span class="code">textcrit</span>, observamos la lista completa:</p>
+
+<p><img src="img/07.png" alt="" /></p>
+
+<p>Una vez al interno de los módulos podemos “Excluir” aquellos elementos que no necesitemos para nuestra codificación. En lo que concierne al “Nombre” conviene dejarlo tal y como está para no provocar confusiones con el sistema estándar TEI de nombres de elementos, es decir, si cambiamos, por ejemplo, <span class="code"><app>&lt;/span&gt; por <span class="code"><aparato>&lt;/span&gt;, la etiqueta en nuestro documento XML-TEI aparecería como <span class="code"><aparato>&lt;/span&gt; y no como <span class="code"><app>&lt;/span&gt;. Además, tenemos la posibilidad de modificar los atributos, manteniendo los que nos interesan y suprimiendo los que no necesitamos.</app></span></aparato></span></aparato></span></app></span></p>
+
+<p>Al interior de cada uno de los elementos, tenemos la posibilidad de detallar ulteriormente la “Descripción” de ese elemento. Dicha descripción es la que aparecerá en el apartado correspondiente de la documentación. Por ejemplo, retomemos el elemento <span class="code"><app>&lt;/span&gt; e imaginemos que queremos encuadrarlo en nuestro proyecto, de manera que sea útil a las personas que eleborarán la codificación, o incluso, para nostros mismos.</app></span></p>
+
+<p><img src="img/7.1.png" alt="" /></p>
+
+<p>Supongamos que queremos hacer la edición crítica de una obra lírica del siglo de Oro. Para ello, en primer lugar, deberemos seleccionar los módulos que nos interesan, en este caso, <span class="code">textcrit</span> y <span class="code">verse</span>. Pero también podemos prever que codificaremos los nombres de los personajes y los diferentes lugares que aparecen en el texto, en ese caso incluimos: <span class="code">namesdates</span>.</p>
+
+<p>Una vez añadidos los diferentes módulos que nos interesen veremos en la columna de la derecha los módulos seleccionados:</p>
+
+<p><img src="img/06.png" alt="" /></p>
+
+<p><strong>E) Añadir elemento</strong>: A continuación, podríamos pasar a la pestaña “Añadir elemento”, en el caso que quisiéramos crear un nuevo elemento que no nos proporciona TEI; para ello, tendríamos que adjudicarle una clase de modelo y una clase de atributos. Esta práctica debe evitarse en línea de máxima a no ser que sea estrictamente necesario.</p>
+
+<p><strong>F) Cambiar clase</strong>: Lo mismo sucede con esta pestaña; podría darse el caso que un determinado elemento no tuviera los atributos que necesitamos, en tal caso, podríamos modificarlos y añadir de nuevos en esta sección.</p>
+
+<p><strong>G) Esquema</strong>: esta sección permite escoger el tipo de esquema que queremos: DTD, W3C, RelaxNG, etc.</p>
+
+<p>Este es uno de los momentos cruciales, pues aquí es donde podremos obtener un esquema en el formato que deseemos. Las opciones que se nos ofrecen son las siguientes:</p>
+
+<ul>
+  <li>Relax NG schema (compact syntax) .rnc</li>
+  <li>Relax NG schema (XML syntax) .rng</li>
+  <li>ISO Schematron</li>
+  <li>Schematron</li>
+  <li>W3C Schema .xsd</li>
+  <li>DTD .dtd</li>
+</ul>
+
+<p>Escogeremos la opción Relax NG schema (XML syntax) y pulsaremos “Generate”; acto seguido se nos descargará el esquema que hemos elaborado:</p>
+
+<p><img src="img/08.png" alt="" /></p>
+
+<p><strong>H) Documentación</strong>: Permite escoger que tipo de formato se prefiere para la documentación del esquema. Tenemos la posibilidad de bajarnos en un único documento la descripción de cada uno de los elementos y atributos elegidos en nuestro esquema según las Guías directrices. Los formatos pueden ser:</p>
+
+<ul>
+  <li>HTML web page</li>
+  <li>PDF</li>
+  <li>TEI Lite</li>
+  <li>TEI ODD</li>
+</ul>
+
+<p>La opción más útil es la HTML, pues nos generará un simple documento HTML donde tendremos todos los elementos y atributos incluidos en nuestro esquema para poder consultarlos fácilmente en forma de página web:</p>
+
+<p><img src="img/10.png" alt="" /></p>
+
+<p><strong>I) Guardar configuración personal</strong>: Esta pantalla también es de vital importancia porqué es la que genera el fichero ODD que veremos en el siguiente y último tema. En pocas palabras, se trata de un fichero XML que recoge todas las características del esquema personalizado y permite rehacerlo cuantas veces lo deseemos, conservando las modificaciones hechas.</p>
+
+<p><strong>J) Sanity Checker</strong> Permite comprobar las decisiones hechas para tu personalización. Normalmente, si no has incluido nuevos elementos o eliminado partes esenciales, suele dar positivo.</p>
+
+<h3 id="anterior71html---------siguiente--81html"><a href="7.1.html">&lt; &lt; Anterior</a>         <a href="8.1.html">Siguiente &gt; &gt;</a></h3>
+
+  </div>
+
+</article>
+      
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!--<h2 class="footer-heading">Susanna Allés Torrent</h2>-->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Susanna Allés Torrent
+            
+            </li>
+            
+            <li><a href="mailto:susanna_alles@miami.edu">susanna_alles@miami.edu</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/susannalles"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">susannalles</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/sallesto"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">sallesto</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

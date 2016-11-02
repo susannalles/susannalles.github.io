@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Introducción a la edición digital de Textos (TEI-XML)</title>
+  <meta name="description" content="Tema 8. La función del documento ODD: One Document Does it all">
+
+  <link rel="stylesheet" href="http://localhost:4000/assets/main.css">
+  <!--<link rel="stylesheet" href="/assets/main.css">-->
+  <link rel="canonical" href="http://localhost:4000/materials/8.1.html">
+  <link rel="alternate" type="application/rss+xml" title="Susanna Allés Torrent" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Susanna Allés Torrent</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        <!--Aquí posar el menú fixe que vull -->
+      
+          
+          <a class="page-link" href="/cv">CV</a>
+          
+        
+          
+          <a class="page-link" href="/publications">Publications</a>
+          
+        
+          
+          <a class="page-link" href="/projects">Projects</a>
+          
+        
+          
+          <a class="page-link" href="/talks">Talks</a>
+          
+        
+          
+          <a class="page-link" href="/teaching">Teaching</a>
+          
+        
+          
+          <a class="page-link" href="/blog">Blog</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Introducción a la edición digital de Textos (TEI-XML)</h1>
+  </header>
+
+  <div class="post-content">
+  	
+  	 <a href="http://localhost:4000/materials/index.html">Index</a>
+    
+    <h1 id="tema-8-la-funcin-del-documento-odd-one-document-does-it-all">Tema 8. La función del documento ODD: One Document Does it all</h1>
+
+<p>En este último tema, veremos en qué consiste un documento ODD (<em>One Document Does it All</em>) y cuál es su función al interno de un proyecto de codificación TEI.</p>
+
+<h2 id="importancia-y-papel-central-del-documento-odd">1. Importancia y papel central del documento ODD</h2>
+
+<p>Como hemos visto a lo largo de los temas anteriores, el sistema de codificación TEI consiste en una lista de módulos que contienen una serie de elementos con sus especificaciones. A su vez, cada uno de los elementos TEI tiene un nombre “estándar” o canónico (como pueden ser <span class="code">p, div, corr, sic,</span> etc.), una descripción de su función, la indicación del modelo o clase al que pertenece, una definición de los atributos que puede contener, así como una lista de ejemplos; esta es la estructura que, de hecho, vemos cada vez que consultamos un elemento en las <em>Guías directrices</em>.</p>
+
+<p>A parte de estas especificaciones generales, hemos visto como el esquema TEI puede ser de diferentes tipos (DTD, esquema W3C, RelaxNG), personalizándolo según nuestras necesidades. El más utilizado y del que nos hemos ocupado someramente en el tema anterior ha sido el esquema RelaxNG. Estos esquemas tienen como función recoger todas las referencias a los módulos, elementos, etc. que establece el modelo general de TEI; además, tenemos la posibilidad de personalizar estos esquemas, modificando módulos, elementos, atributos o clases, etc.</p>
+
+<p>En todo este engranado, hay una última etapa que es de vital importancia, y esto es, el documento ODD que es el que conservará todas y cada una de las modificaciones y de las singularidades o especificaciones de nuestro esquema.</p>
+
+<p>El documento ODD responde a las siglas <em>One Document Does it All</em> y consiste en un fichero XML-TEI. A partir de este fichero podremos generar el esquema en diferentes lenguajes y recuperar la documentación de nuestro proyecto.</p>
+
+<p>Veamos cuales son las prestaciones que nos ofrece el documento ODD:</p>
+
+<ul>
+  <li>El documento ODD es el único que nos permitirá recuperar nuestro esquema personalizado. Es muy importante tener en cuenta que un esquema (RelaxNG o otros tipos) NO pueden subirse a la aplicación ROMA, y por tanto si lo hemos modificado no habrá manera de recuperar las informaciones que hayamos añadido. Por ejemplo, imaginemos que hemos definido una nueva semántica para algunos de los elementos TEI, eliminado elementos y definido valores por defecto en los atributos. Pues bien, todas estas informaciones solo serán recuperables si, al finalizar la personalización, creamos el documento ODD. En la aplicación ROMA solo pueden subirse los documentos ODD, no aceptará ni esquemas ni ficheros XML-TEI codificados.</li>
+  <li>En cualquier proyecto de edición, especialmente en las primeras etapas, es normal modificar el esquema de codificación, de manera que cada vez que lo modifiquemos deberemos crear también un documento ODD que será el responsable de generarnos el esquema deseado.</li>
+  <li>El documento ODD también nos permitirá generar, además de los esquemas, una nueva documentación tal y como la habremos redactado para nuestro proyecto.</li>
+  <li>En fin, el documento ODD es la pieza clave para poder difundir y compartir nuestro esquema de codificación. No solo con la comunidad TEI, sino también entre los mismos miembros de un equipo.</li>
+</ul>
+
+<h2 id="herramientas-para-su-creacin-y-manipulacin">2. Herramientas para su creación y manipulación</h2>
+
+<p>Pasemos ahora a ver cómo podemos crear y manipular un documento ODD con la aplicación Roma. Obviamente podríamos crearlo a mano, si conocemos bien la sintaxis a utilizar, tal y como ocurría con los esquemas, pero la práctica habitual es el uso de Roma que ya habéis tenido ocasión de utilizar.</p>
+
+<p>Para que toméis una primera toma de contacto con un fichero ODD os recomiendo que creéis uno con vuestro programa oXygen, siguiendo estos pasos:</p>
+
+<p>File &gt; New &gt; Framework templates &gt; TEI ODD &gt; ODD [TEI ODD] &gt; Create</p>
+
+<p><img src="img/01ODD.png" alt="" /></p>
+
+<p>Como podéis observar, se trata de un fichero XML-TEI normal con el prólogo XML, un elemento raíz <span class="code"><TEI>&lt;/span&gt;, al interior del cual tenemos un <span class="code"><teiheader>&lt;/span&gt; con los diferentes metadatos, y un elemento <span class="code"><text>&lt;/span&gt; que contiene a su vez el <span class="code">&lt;body&gt;</span>. Ahora bien, los elementos que aparecen a continuación son nuevos:</text></span></teiheader></span></TEI></span></p>
+
+<p><img src="img/02ODD.png" alt="" /></p>
+
+<p>El elemento <span class="code"><schemaSpec>&lt;/span&gt; responde a _Schema Specification_, es decir, señala el tipo de esquema que debe reconstruir, indicando además el elemento raíz a través del atributo <span class="code">@start</span>.</schemaSpec></span></p>
+
+<p>A continuación lista los diferentes módulos que el esquema resultante deberá contener. Como podéis ver, se trata sólo de los módulos obligatorios: <span class="code">header, core, tei</span> y <span class="code">textstructure</span>.</p>
+
+<p>De hecho, este sería el mismo resultado que si, en la aplicación Roma, creáramos un esquema mínimo. Hagamos la prueba:</p>
+
+<p><strong>1)</strong> Id a la aplicación Roma y cread un esquema a partir del modelo mínimo:</p>
+
+<p><img src="img/03ODD.png" alt="" /></p>
+
+<p><strong>2)</strong> Cambiad los metadatos esenciales en la pestaña “Personalizar”:</p>
+
+<p><img src="img/04ODD.png" alt="" /></p>
+
+<p><strong>3)</strong> Si ahora quisiéramos general un esquema RelaxNG, iríamos a la pestaña “Esquema”, si quisiéramos obtener la documentación relativa a ese esquema, seleccionaríamos la pestaña “Documentación”. Ahora lo que nos interesa es crear el documento ODD, por lo que iremos a “Guardar configuración personal”:</p>
+
+<p><img src="img/05ODD.png" alt="" /></p>
+
+<p>Al pulsar, se descargará de manera automática el fichero ODD, que si abrimos con el programa oXygen, veremos que contiene la misma estructura y los mismos módulos obligatorios; además de la descripción que añadimos en la pestaña “Personalizar” se reflejan en el documento obtenido:</p>
+
+<p><img src="img/06ODD.png" alt="" /></p>
+
+<ul>
+  <li><span class="code">schemaSpec</span> es la definición formal del esquema TEI.</li>
+  <li><span class="code">@ident</span>: contiene el identificador que corresponde al nombre del fichero que le hemos consignado.</li>
+  <li><span class="code">@docLang</span>: indica la lengua de la documentación, en nuestro caso el español <span class="code">es</span>.</li>
+  <li><span class="code">@prefix</span>: <span class="code">tei_</span> es el prefijo que se utilizará para todas las definiciones de los casos TEI.</li>
+  <li><span class="code">@key</span>: es el responsable de llamar a los identificadores de los módulos y todo el contenido que hay en ellos.</li>
+</ul>
+
+<p>En resumen, una personalización mínima de TEI, registrada en un documento ODD, contendrá siempre los módulos obligatorios. De ser de otra manera, ya no sería un fichero TEI, sino otra cosa; y cada uno de esos módulos, incluye a su vez una lista de elementos y atributos predefinidos.</p>
+
+<p>Hagamos otra prueba, retomando nuestro fichero ODD que hemos creado y siguiendo estos pasos:</p>
+
+<p><strong>1)</strong> En la página principal de Roma, escoged la opción “Upload Customization” y elegid vuestro fichero creado con Roma:</p>
+
+<p><img src="img/07ODD.png" alt="" /></p>
+
+<p><strong>2)</strong> Como podéis ver, hemos recuperado las informaciones que habíamos introducido:</p>
+
+<p><img src="img/08ODD.png" alt="" /></p>
+
+<p><strong>3)</strong> Ahora vayamos a la pestaña de “Módulos” y añadamos el módulo <span class="code">verse</span>:</p>
+
+<p><img src="img/09ODD.png" alt="" /></p>
+
+<p><strong>4)</strong> Seleccionemos ahora el módulo <span class="code">verse</span>, eliminemos los elementos <span class="code"><metDecl>&lt;/span&gt; y <span class="code"><metSym>&lt;/span&gt; y guardemos los cambios:</metSym></span></metDecl></span></p>
+
+<p><img src="img/10ODD.png" alt="" /></p>
+
+<p><strong>5)</strong> Al interno del elemento <span class="code"><caesura>&lt;/span&gt; haremos un solo cambio: ampliaremos la “Descripción”:</caesura></span></p>
+
+<p><img src="img/11ODD.png" alt="" /></p>
+
+<p><strong>6)</strong> Al interno del elemento <span class="code"><rhyme>&lt;/span&gt;, modificaremos los valores de los atributos en la pestaña correspondiente “Modificación de atributos” y señalando los valores en la casilla “Lista de valores”. En nuestro caso señalando el tipo de rima en “consonante” o “asonante”, separados por comas y sin espacios:</rhyme></span></p>
+
+<p><img src="img/12ODD.png" alt="" /></p>
+
+<p><strong>7)</strong> Si quisiéramos generar el esquema correspondiente iríamos a la pestaña “Esquema” y seleccionaríamos el tipo de esquema deseado:</p>
+
+<p><img src="img/13ODD.png" alt="" /></p>
+
+<p>Esta modificación nos simplificaría la tarea al codificar, preestableciendo nuestros valores:</p>
+
+<p><img src="img/14ODD.png" alt="" /></p>
+
+<p><strong>8)</strong> Generemos finalmente el documento ODD, clicando en “Guardar configuración personal” y abramos el documento con oXygen:</p>
+
+<p><img src="img/15ODD.png" alt="" /></p>
+
+<p>Como vemos, el resultado es el total de los cambios realizados en nuestro esquema:</p>
+
+<ul>
+  <li>Se ha añadido el módulo <span class="code">verse</span>, señalando los dos elementos que hemos eliminado.</li>
+  <li>Se recoge la nueva descripción del elemento <span class="code"><caesura>&lt;/span&gt;.</caesura></span></li>
+  <li>Así como se añaden los valores al atributo <span class="code">@type</span> a través de una lista de valores (<span class="code"><valList>&lt;/span&gt;) y los valores individuales (<span class="code"><valItem>&lt;/span&gt;).</valItem></span></valList></span></li>
+</ul>
+
+<p>A partir de ahora, cada vez que subamos este documento ODD a la aplicación Roma recuperaremos el mismo esquema, conservando siempre las modificaciones que hemos llevado a cabo. ¡Imaginaros cuanto tiempo nos llevaría modificar nuestro esquema, si tuviéramos que incorporar toda la personalización cada vez que quisiéramos realizar algún cambio!</p>
+
+<h2 id="algunos-recursos-para-aprender-ms">3. Algunos recursos para aprender más:</h2>
+
+<ul>
+  <li><a href="http://www.tei-c.org/Guidelines/Customization/odds.xml">Getting Started with P5 ODD</a></li>
+  <li><a href="http://wiki.tei-c.org/index.php/ODD">TEI ODD Wiki</a></li>
+  <li><a href="http://tei.it.ox.ac.uk/Talks/2011-06-18-odd/%20">Understanding ODD</a>, digital.humanities@oxford (University of Oxford)</li>
+</ul>
+
+<h3 id="anterior72html"><a href="7.2.html">&lt; &lt; Anterior</a></h3>
+
+  </div>
+
+</article>
+      
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!--<h2 class="footer-heading">Susanna Allés Torrent</h2>-->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Susanna Allés Torrent
+            
+            </li>
+            
+            <li><a href="mailto:susanna_alles@miami.edu">susanna_alles@miami.edu</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/susannalles"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">susannalles</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/sallesto"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">sallesto</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
