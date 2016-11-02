@@ -2,7 +2,7 @@
 layout: home
 ---
  
-<img src="assets/img/photo.jpg" style="float: left; margin: 0 10px 0 0;"/> I am an [assistant professor](http://www.as.miami.edu/mll/people/faculty/dr-susanna-alles-torrent/) in the Department of Modern Languages and Literatures at the [University of Miami](http://www.as.miami.edu/mll/), where I teach Digital Humanities and Romance Medieval Literature.
+<img src="public/img/photo.jpg" style="float: left; margin: 0 10px 0 0;"/> I am an [assistant professor](http://www.as.miami.edu/mll/people/faculty/dr-susanna-alles-torrent/) in the Department of Modern Languages and Literatures at the [University of Miami](http://www.as.miami.edu/mll/), where I teach Digital Humanities and Romance Medieval Literature.
 
 My areas of specialisation are Digital Humanities, Medieval Latin and Romance Studies (Spanish, Catalan, and Italian). My research explores several aspects of scholarly digital editions, electronic text analysis, intertextuality and text reuse, and digital lexicography. I also work with the intersection of the Iberian Peninsula and Italy in the Middle Ages and the Renaissance, reconstructing cultural and literary networks between the two.
 

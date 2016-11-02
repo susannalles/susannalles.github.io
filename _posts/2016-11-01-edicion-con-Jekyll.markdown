@@ -12,6 +12,10 @@ En: [I Congreso Internacional. Humanidades Digitales. Construcciones locales en 
 4 partes diferentes: 
 
 # I. Jekyll
+Jekyll es un generador de páginas web, para blogs, proyectos web simples o portfolios.
+
+Jekyll es en realidad un motor de transformación de texto plano. La idea es que uno prepara un texto (markdown, Textile, HTML), le aplica un layout o una serie de layouts, y genera un sitio web. Uno puede modificar las plantillas, qué datos van a aparecer en la página, etc. Como producto final uno obtiene un sitio web estático.
+
 
 ## Requisitos del sistema
 
