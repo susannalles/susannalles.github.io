@@ -1,31 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-02T17:12:11+01:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-01T00:00:00+01:00</published><updated>2016-11-01T00:00:00+01:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-02T22:08:57+01:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-01T00:00:00+01:00</published><updated>2016-11-01T00:00:00+01:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
 En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales&lt;/a&gt;. 7-9 noviembre 2016&lt;/p&gt;
 
 &lt;p&gt;4 partes diferentes:&lt;/p&gt;
 
 &lt;h1 id=&quot;i-jekyll&quot;&gt;I. Jekyll&lt;/h1&gt;
-&lt;p&gt;Jekyll es un generador de páginas web, para blogs, proyectos web simples o portfolios.&lt;/p&gt;
+&lt;p&gt;Jekyll es un generador de páginas web (programa), para blogs, proyectos web simples o portfolios.&lt;/p&gt;
 
 &lt;p&gt;Jekyll es en realidad un motor de transformación de texto plano. La idea es que uno prepara un texto (markdown, Textile, HTML), le aplica un layout o una serie de layouts, y genera un sitio web. Uno puede modificar las plantillas, qué datos van a aparecer en la página, etc. Como producto final uno obtiene un sitio web estático.&lt;/p&gt;
 
+&lt;p&gt;Beneficios (Visconti)&lt;/p&gt;
+
 &lt;h2 id=&quot;requisitos-del-sistema&quot;&gt;Requisitos del sistema&lt;/h2&gt;
 
+&lt;p&gt;En una IOS:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;$ xcode-select –install&lt;/li&gt;
+  &lt;li&gt;Pulsa “Install”&lt;/li&gt;
+  &lt;li&gt;(Instala Homebrew) 
+  $ /usr/bin/ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”&lt;/li&gt;
+  &lt;li&gt;(Instala Ruby &amp;amp; Ruby Gems)
+  $ brew install ruby
+  $ gem install rubygems-update&lt;/li&gt;
+  &lt;li&gt;Instala Node JS
+  $ brew install node&lt;/li&gt;
+  &lt;li&gt;Instala Jekyll
+  $ gem install jekyll&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En Windows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Descargad https://git-scm.com/downloads&lt;/li&gt;
+  &lt;li&gt;Abrid Start Menu &amp;gt; “Command Prompt”&lt;/li&gt;
+  &lt;li&gt;Instalar Chocolatey 
+$ @powershell -NoProfile -ExecutionPolicy unrestricted -Command “(iex ((new-object net.webclient).DownloadString(‘https://chocolatey.org/install.ps1’))) &amp;gt;$null 2&amp;gt;&amp;amp;1” &amp;amp;&amp;amp; SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin&lt;/li&gt;
+  &lt;li&gt;Cerrad el “Command Prompt”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Además, os recomiendo que tengáis preparado un editor de texto como&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sublime&lt;/li&gt;
+  &lt;li&gt;[Text Wrangler][http://www.barebones.com/products/textwrangler/download.html] (Mac)&lt;/li&gt;
+  &lt;li&gt;[Notepad++][https://notepad-plus-plus.org/] (Windows)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Y además, si no estáis acostumbrados a utilizar Git en el terminal, os bajéis el GitHub App.&lt;/p&gt;
+
+&lt;p&gt;Para Windows: 
+&lt;a href=&quot;https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/&quot;&gt;Easily install Jekyll on Windows with w command prompt entries and Chocolatey&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;conceptos-bsicos&quot;&gt;Conceptos básicos:&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Terminal&lt;/li&gt;
   &lt;li&gt;Servidor local&lt;/li&gt;
+  &lt;li&gt;Sitios web estáticos vs dinámicos&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;primer-paso-esencial-crear-un-blog-con-el-tema-mnimo-de-jekyll&quot;&gt;Primer paso esencial: Crear un blog con el tema mínimo de Jekyll&lt;/h2&gt;
 
-&lt;p&gt;##&lt;/p&gt;
+&lt;h2 id=&quot;markdown&quot;&gt;Markdown&lt;/h2&gt;
+
+&lt;p&gt;Kramdown: http://kramdown.gettalong.org/quickref.html
+[Sarah Simpkin, Getting Started with [Markdown]http://programminghistorian.org/lessons/getting-started-with-markdown]&lt;/p&gt;
+
+&lt;p&gt;Pages: Páginas
+Post: post
+Collections:&lt;/p&gt;
+
+&lt;p&gt;Front matter: 
+	layout
+	title
+	permalink
+	…&lt;/p&gt;
 
 &lt;h1 id=&quot;ii-github&quot;&gt;II. GitHub&lt;/h1&gt;
+&lt;p&gt;GitHub es una manera visual de usar git, un sistema de versión.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Crearse una cuenta de usuario: https://github.com/&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Referencias: 
+[https://guides.github.com/activities/hello-world/]&lt;/p&gt;
 
 &lt;h1 id=&quot;iii-github-pages&quot;&gt;III. GitHub Pages&lt;/h1&gt;
+&lt;p&gt;GitHub Pages es un espacio gratuito para albergar los ficheros que van a constituir una página web estática.&lt;/p&gt;
+
 &lt;p&gt;GitHub Pages son páginas web públicas albergadas gratuitamente en GitHub bajo el dominio github.io (o cualquier otro dominio que se escoja). La misma página de GitHub Pages está creada y es mantenida a través de Jekyll.&lt;/p&gt;
 
 &lt;h1 id=&quot;iv-ed-a-jekyll-theme-for-minimal-editions&quot;&gt;IV. Ed: a Jekyll theme for minimal editions&lt;/h1&gt;
+
+&lt;p&gt;El primer resultado debería ser: [https://susannalles.github.io/JekyllDemo/][https://susannalles.github.io/JekyllDemo/]
+Aquí los ficheros fuente: [https://github.com/susannalles/JekyllDemo][https://github.com/susannalles/JekyllDemo]&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://elotroalex.github.io/ed/&quot;&gt;http://elotroalex.github.io/ed/&lt;/a&gt;&lt;/p&gt;
 
@@ -42,6 +108,7 @@ En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso
 &lt;ul&gt;
   &lt;li&gt;McGlone, Jonathan. “&lt;a href=&quot;http://jmcglone.com/guides/github-pages/&quot;&gt;Creating and Hosting a Personal Site on GitHub&lt;/a&gt;” &lt;em&gt;Jonathan McGlone&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Visconti, Amanda. “&lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;Building a static website with Jekyll and GitHub Pages&lt;/a&gt;” &lt;em&gt;Programming Historian&lt;/em&gt; (18 April 2016).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;Official Jekyll Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Susanna Allés Torrent</name></author><summary type="html">Taller, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
 En: I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales. 7-9 noviembre 2016</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2016/10/25/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2016-10-25T17:22:16+02:00</published><updated>2016-10-25T17:22:16+02:00</updated><id>http://localhost:4000/jekyll/update/2016/10/25/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/10/25/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
