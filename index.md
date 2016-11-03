@@ -9,9 +9,3 @@ My areas of specialisation are Digital Humanities, Medieval Latin and Romance St
 In 2012 I earned my PhD from the University of Barcelona (UB), and I also completed an MA in digital humanities at the École Nationale des Chartes (Paris). Since then have sought to combine textual scholarship with digital scholarly editions, philology with markup languages, and literary corpora with electronic text analysis.
 
 I have been postdoctoral fellow at the Spanish National Research Council (CSIC) in Barcelona, and Lecturer in Digital Humanities in the Department of Latin American and Iberian Cultures at Columbia University.
-
-
-### Research Interests:
-**Digital Humanities**: Scholarly Digital Editions; eXtensible Markup Language and related technologies (XSLT, XPath, XQuery); Text Encoding Initiative; Web technologies; Electronic Textual Analysis; Data mining and Analysis of Linguistics Corpora; Stylistic Analysis and Authorship Studies
-
-**Medieval & Renaissance Studies**: Mediterranean Cultures and Languages; Translation Studies; Medieval and Early Modern Translations in the Iberian Peninsula (1200-1600); Textual Scholarship and Philology; Biography as genre; Medieval Latin and Romance Lexicography; Classical Tradition and Reception in Romance Literature PROJECTS

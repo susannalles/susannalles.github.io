@@ -16,13 +16,13 @@ permalink: /talks
 
 “Editar Alfonso de Palencia digitalmente”, [Journée d’étude Alfonso de Palencia. Séminaire des Hispnistes du CIHAM][Palencia Lyon], ENS de Lyon, 9-10 June 2016 (Invated talk)
 
-[“Integrating DH skills, methods or tools in the Language Curriculum?”][NeMLA] 47th Annual Convention Northeast Modern Language Association, Hartford (Conneticut), 17-20 March 2016 (Invited panel participation). 
+[“Integrating DH skills, methods or tools in the Language Curriculum?”][Hartford], [Panel: Digital Humanities in the Modern Language Curriculum: Beyond the Language vs Content Divide][NeMLA]. 47th Annual Convention Northeast Modern Language Association, Hartford (Conneticut), 17-20 March 2016 (Invited panel participation). 
 
-“Text-Rewired: Editing the Past in the Digital Way” Department of Hispanic Studies, University of Houston, 22 February 2016 (Talk invitation)
+[“Text-Rewired: Editing the Past in the Digital Way”][Text-Rewired] Department of Hispanic Studies, University of Houston, 22 February 2016 (Talk invitation)
 
 [“Digital Editions, Translations, and the Challenge of Representation.”][MLA] Modern Language Association Annual Convention, Austin (Texas), 7-19 January 2016 (Invited panel participation)
 
-“Visualizing tools for the Censorship of the Decameron during the Cinquecento.” [International Colloquium: Scholarly Networks and the Emerging Platforms for Humanities Research and Publication][Brown], The Virtual Humanities Lab, Brown University, 16-18 Abril 2015 (Invited paper)
+[“Visualizing tools for the Censorship of the Decameron during the Cinquecento.”][Brown-colloquium] [International Colloquium: Scholarly Networks and the Emerging Platforms for Humanities Research and Publication][Brown], The Virtual Humanities Lab, Brown University, 16-18 Abril 2015 (Invited paper)
 
 “Decoding Lexical Resources.” [Text Encoding Initiative Conference and Members Meeting 2014][TEI 2014], 22-24 October, Evanston (Illinois) (Conference Paper; scholarship awarded)
 
@@ -95,11 +95,13 @@ Workshop “Estudis medievals: algunes tecnologies aplicades”, IMF - CSIC, Bar
 
 International Congress Lo Zibaldone di Leopardi come ipertesto, University of Barcelona, 26-27 October 2012 (Organizing Committee)
 
+[Brown-colloquium]: /materials/papers/Brown-colloquium/
 [Digitus]: http://www.aacademica.org/aahd.congreso/tabs/program?session=110&block=27&vs=294
 [Integrar]: http://www.aacademica.org/aahd.congreso/tabs/program?session=79&block=12&vs=215
 [Minimal]: http://dh2016.adho.org/abstracts/412
 [Palencia Lyon]: http://ciham.ish-lyon.cnrs.fr/en/alfonso-palencia
 [NeMLA]: https://www.cfplist.com/nemla/Home/S/15828
+[Hartford]: /materials/papers/Hartford/#/
 [MLA]: https://apps.mla.org/conv_listings_detail?prog_id=473&year=2016
 [Brown]: http://library.brown.edu/create/dh/conference-scholarly-networks/
 [TEI 2014]: http://tei.northwestern.edu/
@@ -113,3 +115,4 @@ International Congress Lo Zibaldone di Leopardi come ipertesto, University of Ba
 [Budapest]: http://ars-metrica.germ-ling.uni-bamberg.de/wp-content/uploads/2013/10/Budapest-MC-meeting_Program.pdf
 [Workshop Bcn]: http://gmlc.imf.csic.es/2013/Workshop/index.php
 [Workshop Krakow]: http://scriptores.pl/aktualnosci/workshop/
+[Text-Rewired]: /materials/papers/Text-Rewired/#/

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Introducción a la edición digital de Textos (TEI-XML)</title>
+  <meta name="description" content="Index">
+
+ <!--<link rel="stylesheet" href="/css/main.css">-->
+  <link rel="stylesheet" href="http://localhost:4000/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/materials/IntroTEI/6.3.html">
+  <link rel="canonical" href="http://localhost:4000/materials/IntroTEI/6.3.html">
+  <link rel="alternate" type="application/rss+xml" title="Susanna Allés Torrent" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Susanna Allés Torrent</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        <!--Aquí posar el menú fixe que vull -->
+      
+          
+          <a class="page-link" href="/cv">CV</a>
+          
+        
+          
+          <a class="page-link" href="/publications">Publications</a>
+          
+        
+          
+          <a class="page-link" href="/projects">Projects</a>
+          
+        
+          
+          <a class="page-link" href="/talks">Talks</a>
+          
+        
+          
+          <a class="page-link" href="/teaching">Teaching</a>
+          
+        
+          
+          <a class="page-link" href="/blog">Blog</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Introducción a la edición digital de Textos (TEI-XML)</h1>
+  </header>
+
+  <div class="post-content">
+    
+    <p><a href="http://localhost:4000/materials/IntroTEI/index.html">Index</a></p>
+
+<h1 id="tema-6-tipologas-textuales-3">Tema 6: Tipologías textuales (3)</h1>
+
+<h2 id="tiplogas-textuales-drama">3. Tiplogías textuales: Drama</h2>
+
+<p>Los textos dramáticos se caracterizan por tener una estructura más bien fija y unos elementos recurrentes: actos, escenas, acotaciones, indicaciones escénicas, diálogos, etc.</p>
+
+<p>Las <em>Guías directrices</em>, al igual que sucedía con las obras en verso, dedica un módulo específico a las obras dramática (véase <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DR.html">7. Performance texts</a>), que os he dejado en formato pdf en el aula.</p>
+
+<p>En primer lugar, es necesario crear la infraestructura general en la que acomodar el texto. Tal y como hemos procedido en las otras ocasiones, se podría establecer una división general para cada una de las escenas y para cada uno de los actos o jornadas, añadiendo un atributo <span class="code">@type</span> para definirlas:</p>
+
+<blockquote>
+  <blockquote>
+    <p><span class="code"><span style="color: #0003ff;">&lt;div type="acto" n="1"&gt;<br />
+        &lt;head&gt;</span>Acto Primero<span style="color: #0003ff;">&lt;/head&gt;<br />
+        &lt;div type="escena"&gt;<br />
+          &lt;head&gt;</span>Escena I<span style="color: #0003ff;">&lt;/head&gt;<br />
+<!-- ... --><br />
+        &lt;/div&gt;
+&lt;/div&gt;</span></span></p>
+    <div type="acto" n="2">  
+        <head>&lt;/span&gt;Acto Segundo<span style="color: #0003ff;">&lt;/head&gt;  
+        <div type="escena">  
+          <head>&lt;/span&gt;Escena I<span style="color: #0003ff;">&lt;/head&gt;  
+<!-- ... -->  
+        &lt;/div&gt;  
+&lt;/div&gt;</span>&lt;/span&gt;
+</head></div></span></head></div>
+  </blockquote>
+</blockquote>
+
+<p>Cada una de las divisiones puede o no ir acompañado de un título, elemento aceptado en todos los documentos TEI.</p>
+
+<p>Para los diálogos se utilizan los elementos [<span class="code"><sp>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-sp.html) (_speech_) que están constituidos de la persona que habla [<span class="code"><speaker>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-speaker.html) y del diálogo en sí, normalmente marcado en un simple <span class="code">&lt;p&gt;</span>, aunque nada impediría que se utilizara <span class="code"><l>&lt;/span&gt; o <span class="code"><lg>&lt;/span&gt;, especialmente en aquellos casos en que se tratara de una versificación; o incluso podría también utilizar el elemento <span class="code"><seg>&lt;/span&gt;, pero en ningún caso el texto podría ir directamente dentro del elemento <span class="code"><sp>&lt;/span&gt; sin estructurar. Un diálogo quedaría así:</sp></span></seg></span></lg></span></l></span></speaker></span></sp></span></p>
+
+<blockquote>
+  <blockquote>
+    <p><span class="code"><span style="color: #0003ff;"><sp who="#personaje1">  
+    <speaker>&lt;/span&gt;Personaje 1<span style="color: #0003ff;">&lt;/speaker&gt;  
+    &lt;p&gt;</span>Diálogo<span style="color: #0003ff;">&lt;/p&gt;
+&lt;/sp&gt;</span></speaker></sp></span></span></p>
+    <sp who="#personaje2">  
+    <speaker>&lt;/span&gt;Personaje 2<span style="color: #0003ff;">&lt;/speaker&gt;  
+    <p>&lt;/span&gt;Diálogo<span style="color: #0003ff;">&lt;/p&gt;  
+&lt;/sp&gt;</span>&lt;/span&gt;
+</p></span></speaker></sp>
+  </blockquote>
+</blockquote>
+
+<p>En lo que concierne los personajes es importante crear de antemano una lista de todos los personajes que intervienen y otorgarles un identificador. Esta información puede colocarse o bien en una <span class="code">&lt;div&gt;</span> creada a propósito, o bien (más recomendable) en el elemento <span class="code"><front>&lt;/span&gt;, que precede el <span class="code">&lt;body&gt;</span>. Allí podríamos incluir dicha lista gracias al elemento [<span class="code"><castlist>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-castList.html):</castlist></span></front></span></p>
+
+<blockquote>
+  <blockquote>
+    <p><span class="code"><span style="color: #0003ff;"><front>  
+     <castList>  
+        &lt;head&gt;&lt;/span&gt;Personajes<span style="color: #0003ff;">&lt;/head&gt;  
+        <castItem>  
+          <role xml:id="#personaje1">&lt;/span&gt;Personaje 1<span style="color: #0003ff;">&lt;/role&gt;  
+          <roleDesc>&lt;/span&gt;Descripción del personaje 2<span style="color: #0003ff;">&lt;/roleDesc&gt;  
+        &lt;/castItem&gt;  
+        <castItem>  
+          <role xml:id="#personaje2">&lt;/span&gt;Personaje 2<span style="color: #0003ff;">&lt;/role&gt;  
+          <roleDesc>&lt;/span&gt;Descripción del personaje 2<span style="color: #0003ff;">&lt;/roleDesc&gt;  
+        &lt;/castItem&gt;  
+      &lt;/castList&gt;
+&lt;/front&gt;</span>&lt;/span&gt;</roleDesc></span></role></castItem></span></roleDesc></span></role></castItem></span></castList></front></span></span></p>
+  </blockquote>
+</blockquote>
+
+<p>De esta manera cada vez que un personaje hable se podrá marcar al interior de <span class="code"><sp>&lt;/span&gt; con el atributo <span class="code">@who</span>, para que todas sus intervenciones sean fácilmente localizables. De hecho, se podría eliminar la etiqueta <span class="code"><speaker>&lt;/span&gt; y recuperar la abreviación del personaje justamente a través del identificador que aparece como valor en el atributo <span class="code">@who</span> al interior de <span class="code"><sp>&lt;/span&gt;. Es decir que podríamos expresar lo mismo de esta forma:</sp></span></speaker></span></sp></span></p>
+
+<blockquote>
+  <blockquote>
+    <p><span class="code"><span style="color: #0003ff;"><sp who="#personaje1"></sp></span></span></p>
+    <p>&lt;/span&gt;Diálogo<span style="color: #0003ff;">&lt;/p&gt;  
+&lt;/sp&gt;  
+  
+<sp who="#personaje2">  
+   <p>&lt;/span&gt;Diálogo<span style="color: #0003ff;">&lt;/p&gt;  
+&lt;/sp&gt;</span>&lt;/span&gt;
+</p></sp></span></p>
+  </blockquote>
+</blockquote>
+
+<p>Las indicaciones dramáticas o acotaciones, aquellas normalmente realizadas por el dramaturgo, pueden incluirse al interior de un elemento [<span class="code"><stage>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-stage.html). También aquí se prevé la opción de añadir un atributo <span class="code">@type</span> para caracterizar las diferentes acotaciones o tipos de indicaciones, por ejemplo:</stage></span></p>
+
+<blockquote>
+  <blockquote>
+    <p><span class="code"><span style="color: #0003ff;"><sp who="#personaje1">  
+&lt;/span&gt;<span style="color: #0003ff;">   &lt;p&gt;</span>Diálogo<span style="color: #0003ff;">&lt;/p&gt;</span><span style="color: #0003ff;">
+&lt;/sp&gt;</span></sp></span></span></p>
+    <sp who="#personaje2">  
+&lt;/span&gt;<span style="color: #0003ff;">   <p>&lt;/span&gt;Diálogo<span style="color: #0003ff;">&lt;/p&gt;</span><span style="color: #0003ff;">  
+&lt;/sp&gt;  
+</span><span style="color: #0003ff;"><stage type="personajes">&lt;/span&gt;Descripción de los personajes que se encuentran en la escena.<span style="color: #0003ff;">&lt;/stage&gt;</span><span style="color: #0003ff;">  
+</span><span style="color: #0003ff;"><stage type="decorado">&lt;/span&gt;Descripción del decorado en la escena.<span style="color: #0003ff;">&lt;/stage&gt;</span>&lt;/span&gt;
+</stage></span></stage></span></p></span></sp>
+  </blockquote>
+</blockquote>
+
+<p>Al interior del elemento <span class="code"><stage>&lt;/span&gt; podemos utilizar otros elementos que pueden sernos útiles en alguna ocasión como por ejemplo:</stage></span></p>
+
+<ul>
+  <li>[<span class="code"><move>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-move.html): para indicar los movimientos de los personajes. Podríamos incluso especificar los movimiento con el atributo <span class="code">@type</span>, que conlleva unos valores predifinidos por defecto de entrada, salida y en escena: <span class="code">entrance</span> o <span class="code">exit</span> y <span class="code">onStage</span>; así también podemos añadir el atributo <span class="code">@who</span> para identificar fácilmente de qué personaje se trata y <span class="code">@where</span> para señalar hacia dónde es el movimiento.</move></span></li>
+  <li>[<span class="code"><sound>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-sound.html): para describir fenómenos de sonido, añadiendo si es necesario el atributo <span class="code">@type</span>.</sound></span></li>
+  <li>[<span class="code"><view>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-view.html): para describir el contexto visual de una parte del escenario, tal y como lo debe visualizar el espectador.</view></span></li>
+  <li>[<span class="code"><camera>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-camera.html) para dar indicaciones al cámara en el caso de grabaciones video, como películas.</camera></span></li>
+  <li><span class="code"><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-caption.html">&lt;caption&gt;</a></span> para recoger las palabras que deberán proyectarse en pantalla.</li>
+  <li>[<span class="code"><tech>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-tech.html) otras informaciones técnicas.</tech></span></li>
+</ul>
+
+<p>En el aula encontraréis un ejemplo sencillo de codificación del inicio de una obra dramática en verso de Lope de Vega, <em>Amar sin saber a quien</em>. Miraros la reproducción digital que aparece en la <a href="http://bib.cervantesvirtual.com/servlet/SirveObras/01260529543471504100035/p0000001.htm#I_0_">Biblioteca Cervantes Virtual</a>  y confrontadla con la codificación que he propuesto. <a href="%20http://bib.cervantesvirtual.com/servlet/SirveObras/00363959755781806410046/ima0000.htm">Aquí</a> encontraréis también una edición digital en HTML.</p>
+
+<p>Como siempre os recomiendo que sigáis otros recursos, en este caso el <a href="http://www.teibyexample.org/modules/TBED05v00.htm">Módulo 5 de TEI by Sample</a> y, sobre todo, los <a href="http://www.teibyexample.org/examples/TBED05v00.htm">ejemplos</a>. Así como la consulta de las <a href="%20http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DR.html"><em>Guías directrices</em></a>.</p>
+
+<h3 id="anterior62html---------siguiente--64html"><a href="6.2.html">&lt; &lt; Anterior</a>         <a href="6.4.html">Siguiente &gt; &gt;</a></h3>
+
+    
+  </div>
+
+</article>
+      
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!--<h2 class="footer-heading">Susanna Allés Torrent</h2>-->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Susanna Allés Torrent
+            
+            </li>
+            
+            <li><a href="mailto:susanna_alles@miami.edu">susanna_alles@miami.edu</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/susannalles"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">susannalles</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/sallesto"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">sallesto</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
