@@ -1,1 +1,355 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-04T08:52:39+01:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-04T10:14:57+01:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-03T00:00:00+01:00</published><updated>2016-11-03T00:00:00+01:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
+En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales&lt;/a&gt;. 7-9 noviembre 2016&lt;/p&gt;
+
+&lt;p&gt;El taller se divide en 4 partes diferentes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I. Jekyll&lt;/li&gt;
+  &lt;li&gt;II. Git, GitHub&lt;/li&gt;
+  &lt;li&gt;III. GitHub Pages&lt;/li&gt;
+  &lt;li&gt;IV. Ed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;El objetivo es ofrecer una panorámica general del funcionamiento de estas herramientas y lenguajes para poder llevar a cabo una edición mínima utilizando la plantilla o tema Ed.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Los puntos I, II, III darán como resultado la plantilla estándar de Jekyll: &lt;a href=&quot;https://susannalles.github.io/JekyllDemo/&quot;&gt;https://susannalles.github.io/JekyllDemo/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;El punto IV consiste en la instalación de Ed: &lt;a href=&quot;https://susannalles.github.io/EdDemo/&quot;&gt;https://susannalles.github.io/EdDemo/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Algunos conceptos básicos:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Terminal. Algunos buenos tutoriales:
+    &lt;ul&gt;
+      &lt;li&gt;Ian Milligan and James Baker, &lt;a href=&quot;http://programminghistorian.org/lessons/intro-to-bash&quot;&gt;Introduction to the Bash Command Line&lt;/a&gt;, &lt;em&gt;The Programming istorian&lt;/em&gt;, 20-08-2014.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://learnpythonthehardway.org/book/appendixa.html&quot;&gt;Command Line Crash Course&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Servidor local vs servidor en línea&lt;/li&gt;
+  &lt;li&gt;Sitios web estáticos vs dinámicos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;o-requisitos-del-sistema&quot;&gt;O. Requisitos del sistema&lt;/h1&gt;
+
+&lt;p&gt;Antes de empezar, os sugiero que:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;tengáis a mano en todo momento el terminal:
+    &lt;ul&gt;
+      &lt;li&gt;MAC (Terminal): Finder &amp;gt; Applications &amp;gt; Utilities &amp;gt; Terminal&lt;/li&gt;
+      &lt;li&gt;Windows (Command Prompt, Windows Power Shell o Git Bash)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;creeis una carpeta (donde queráis) con el nombre de GitHub y donde podéis salvar todos vuestros proyectos de GitHub. Por ejemplo, yo lo tengo en Mac &amp;gt; Users &amp;gt; MiUsuario &amp;gt; GitHub.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Antes de empezar y/o venir al taller es imprescindible que vuestro ordenador tenga una serie de software instalado. Si no lo tenéis no podréis ejecutar ninguno de los comandos propuestos.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-instalacin-de-algunos-software-necesarios&quot;&gt;A. Instalación de algunos software necesarios:&lt;/h2&gt;
+
+&lt;p&gt;Tanto Jekyll como Ed funcionan mejor en Mac, pero pueden también ejecutarse en windows. Más detalles de estos pasos en &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#section2&quot;&gt;Visconti&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;En una IOS&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;Los siguientes pasos deben hacerse en el terminal. Se trata de una serie de herramientas para ejecutar ciertas órdenes en la línea de comandos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Instala &lt;a href=&quot;https://itunes.apple.com/us/app/xcode/id497799835?mt=12&quot;&gt;XCode&lt;/a&gt; (puede tardar hasta media hora):
+ 		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ xcode-select --install&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Se abrirá una ventana emergente y debéis seguir los pasos: “Install”, “Done”.&lt;/li&gt;
+  &lt;li&gt;Instala &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;:
+      &lt;code class=&quot;highlighter-rouge&quot;&gt;$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;&lt;/code&gt; (todo junto)&lt;/li&gt;
+  &lt;li&gt;Instala Ruby &amp;amp; &lt;a href=&quot;https://rubygems.org/&quot;&gt;Ruby Gems&lt;/a&gt;:
+      &lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install ruby&lt;/code&gt;
+      &lt;code class=&quot;highlighter-rouge&quot;&gt;$ gem install rubygems-update&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Instala &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node JS&lt;/a&gt;
+      &lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install node&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Instala &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;
+      &lt;code class=&quot;highlighter-rouge&quot;&gt;$ gem install jekyll&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;En Windows&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Instalar &lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git Bash&lt;/a&gt;. Elegid Windows, descargad el archivo y seguid las instrucciones.&lt;/li&gt;
+  &lt;li&gt;Desde vuestro Start Menu, buscad “Command Prompt” y abridlo.&lt;/li&gt;
+  &lt;li&gt;Instalar &lt;a href=&quot;https://chocolatey.org/&quot;&gt;Chocolatey&lt;/a&gt;
+      &lt;code class=&quot;highlighter-rouge&quot;&gt;$ @powershell -NoProfile -ExecutionPolicy unrestricted -Command &quot;(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) &amp;gt;$null 2&amp;gt;&amp;amp;1&quot; &amp;amp;&amp;amp; SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Cerrad el “Command Prompt”&lt;/li&gt;
+  &lt;li&gt;Abrid “Git Bash” que acabáis de descargar e instalar. A partir de ahora esto será vuestro terminal.&lt;/li&gt;
+  &lt;li&gt;Instala Ruby &amp;amp; &lt;a href=&quot;https://rubygems.org/&quot;&gt;Ruby Gems&lt;/a&gt;:
+      &lt;code class=&quot;highlighter-rouge&quot;&gt;choco install ruby -y&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Cerrad el terminal y volvedlo a abrir.&lt;/li&gt;
+  &lt;li&gt;Instala &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;:
+      &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En estos enlaces encontraréis indicaciones ulteriores sobre Jekyll en Windows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;David Burela, &lt;a href=&quot;https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/&quot;&gt;Easily install Jekyll on Windows with w command prompt entries and Chocolatey&lt;/a&gt;, &lt;em&gt;Burela’s House-O-Blog&lt;/em&gt;, 28-11-2015.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/windows/&quot;&gt;Jekyll on Windows&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;B. Un editor de texto como:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; (Mac)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.barebones.com/products/textwrangler/download.html&quot;&gt;Text Wrangler&lt;/a&gt; (Mac)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://notepad-plus-plus.org/&quot;&gt;Notepad++&lt;/a&gt; (Windows)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;c. Cuenta de usuario en GitHub&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Visitad &lt;a href=&quot;https://github.com/&quot;&gt;https://github.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;“Sign up” (el nombre de usuario será visible a todos, además vuestra url final en GitHub Pages será username.github.io, así que elegidlo bien).&lt;/li&gt;
+  &lt;li&gt;“Choose” &amp;gt; “Free” (ignora “Help me set up an organization next”) &amp;gt; “Finish sign up”&lt;/li&gt;
+  &lt;li&gt;Optativamente puedes rellenar tu “Profile” con tus datos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Obviamente, si ya tenéis una cuenta de usuario, podéis saltar este paso.&lt;/p&gt;
+
+&lt;p&gt;D. GitHub App&lt;/p&gt;
+
+&lt;p&gt;Si no estáis acostumbrados a utilizar Git en el terminal, os podéis bajar la versión GUI de GitHub App.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Visitad &lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub App&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Bajad “Download GitHub Desktop” y instaladlo.&lt;/li&gt;
+  &lt;li&gt;Introducid los datos de vuestra cuenta GitHub. Clica “Continue”&lt;/li&gt;
+  &lt;li&gt;Completa el nombre y correo electrónico.&lt;/li&gt;
+  &lt;li&gt;Clica “Install Command Line Tools”. Te pedirá tu nombre de usuario y contraseña de tu ordenador.&lt;/li&gt;
+  &lt;li&gt;Clica “Install Helper”&lt;/li&gt;
+  &lt;li&gt;Clica el botón “Done” (ignora “Which repositories would you like to use”).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ok. Ahora empecemos.&lt;/p&gt;
+
+&lt;h1 id=&quot;i-jekyll&quot;&gt;I. Jekyll&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; es un generador de páginas web, para blogs, proyectos web simples o portfolios. En realidad, se trata de un motor de transformación de texto plano. La idea es que uno prepara un texto (markdown, Textile, HTML), le aplica un layout o una serie de layouts, y genera un sitio web. Uno pueda modificar las plantillas, qué datos van a aparecer en la página, etc. Como producto final uno obtiene un sitio web estático.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/public/img/01.png&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;El mejor tutorial existente hasta ahora es el de &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;Amanda Visconti&lt;/a&gt;. Os sugiero vivamente que lo sigáis -lo ideal sería que lo hicierais antes del taller- para entender exactamente qué es lo que estáis haciendo. Yo me limitaré a indicaros las órdenes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;¿Por qué utilizar Jekyll?&lt;/strong&gt; 
+Existen muchas ventajas de utilizar Jekyll o en general páginas web estáticas (Visconti):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mantenimiento&lt;/li&gt;
+  &lt;li&gt;Preservación&lt;/li&gt;
+  &lt;li&gt;Aprendizaje&lt;/li&gt;
+  &lt;li&gt;Personalización&lt;/li&gt;
+  &lt;li&gt;Hosting / alojamiento&lt;/li&gt;
+  &lt;li&gt;Versioning&lt;/li&gt;
+  &lt;li&gt;Seguridad&lt;/li&gt;
+  &lt;li&gt;Rapidez&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ideal para blogs, comodidad de las plantillas que automatizan la conversión en HTML.&lt;/p&gt;
+
+&lt;h2 id=&quot;qu-lenguajes-utiliza-jekyll&quot;&gt;¿Qué lenguajes utiliza Jekyll?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Markdown: 
+  Algunas referencias:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://kramdown.gettalong.org/quickref.html&quot;&gt;Kramdown&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Sarah Simpkin, &lt;a href=&quot;http://programminghistorian.org/lessons/getting-started-with-markdown&quot;&gt;&lt;em&gt;Getting Started with Markdown&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;YAML: Frontmatter: layout, title, permalink&lt;/li&gt;
+  &lt;li&gt;Liquid:&lt;/li&gt;
+  &lt;li&gt;SASS o CSS:&lt;/li&gt;
+  &lt;li&gt;HTML:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;estructura-de-un-sitio-en-jekyll&quot;&gt;Estructura de un sitio en Jekyll&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pages: Páginas&lt;/li&gt;
+  &lt;li&gt;Post: post&lt;/li&gt;
+  &lt;li&gt;Collections:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;paso-1-crear-un-blog-con-el-tema-mnimo-de-jekyll&quot;&gt;1. Paso 1: Crear un blog con el tema mínimo de Jekyll&lt;/h2&gt;
+
+&lt;h2 id=&quot;paso-2-personalizarlo&quot;&gt;2. Paso 2: Personalizarlo&lt;/h2&gt;
+
+&lt;h1 id=&quot;ii-github&quot;&gt;II. GitHub&lt;/h1&gt;
+&lt;p&gt;GitHub es una manera visual de usar git, un sistema de versión.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Crearse una cuenta de usuario: https://github.com/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Referencias: 
+&lt;a href=&quot;https://guides.github.com/activities/hello-world/&quot;&gt;GuitHub Guide&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;iii-github-pages&quot;&gt;III. GitHub Pages&lt;/h1&gt;
+
+&lt;p&gt;GitHub Pages es un espacio gratuito para albergar los ficheros que van a constituir una página web estática.&lt;/p&gt;
+
+&lt;p&gt;GitHub Pages son páginas web públicas albergadas gratuitamente en GitHub bajo el dominio github.io (o cualquier otro dominio que se escoja). La misma página de GitHub Pages está creada y es mantenida a través de Jekyll.&lt;/p&gt;
+
+&lt;h1 id=&quot;iv-ed-a-jekyll-theme-for-minimal-editions&quot;&gt;IV. Ed: a Jekyll theme for minimal editions&lt;/h1&gt;
+
+&lt;p&gt;El tema Ed de Jekyll se concibió como un plantilla que facilitar a la creación de ediciones digitales.&lt;/p&gt;
+
+&lt;p&gt;Aquí encontraréis la plantilla: &lt;a href=&quot;http://elotroalex.github.io/ed/&quot;&gt;http://elotroalex.github.io/ed/&lt;/a&gt;
+Y aquí los ficheros fuente: &lt;a href=&quot;https://github.com/elotroalex/ed&quot;&gt;https://github.com/elotroalex/ed&lt;/a&gt;
+Toda la documentación se encuentra en: &lt;a href=&quot;https://elotroalex.github.io/ed/documentation/&quot;&gt;Documentation Ed&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;El resultado que os porpongo será como este: &lt;a href=&quot;https://susannalles.github.io/JekyllDemo/&quot;&gt;https://susannalles.github.io/JekyllDemo/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Aquí los ficheros fuente: &lt;a href=&quot;https://github.com/susannalles/JekyllDemo&quot;&gt;https://github.com/susannalles/JekyllDemo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Si habéis conseguido instalar la plantilla estándar de Jekyll con éxito, podéis intentar instalar Ed rápidamente, siguiendo las instrucciones &lt;a href=&quot;https://elotroalex.github.io/ed/documentation/#installing-ed-easy&quot;&gt;Installing Ed: Easy&lt;/a&gt;. Por lo general, sin embargo, se recomienda que esta instalación que es algo más laboriosa:  &lt;a href=&quot;https://elotroalex.github.io/ed/documentation/#installing-ed-robust&quot;&gt;Installing Ed: Robust&lt;/a&gt;. Estas últimas son como siguen:&lt;/p&gt;
+
+&lt;p&gt;Desde el terminal:&lt;/p&gt;
+
+&lt;p&gt;a) Comprobad la versión de git&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	`$ git --version`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;b) Hay diferentes maneras de hacer el siguiente paso. Yo os propongo que os descarguéis una versión en zip de todos los ficheros y carpetas de Ed.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;Ed&quot;&gt;Bajad zip&lt;/a&gt; en la pestaña verde que pone “Clone or download” y clicad en “Download ZIP”.&lt;/li&gt;
+  &lt;li&gt;Arrastrad la carpeta en vuestra carpeta de GitHub (este paso es sólo para estar organizados).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;c) Desde el terminal, situaros al interno de la carpeta ed:
+ 		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ cd ed&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;B) Siempre en esa carpeta debemos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Instalación Ruby Version Manager
+      &lt;code class=&quot;highlighter-rouge&quot;&gt;$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+      &lt;/code&gt;\curl -sSL https://get.rvm.io | bash -s stable`&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[Nota: a mi este comando no me funcionaba y he instalado: https://gpgtools.org/ . Si sigue habiendo problemas: &lt;a href=&quot;https://stackoverflow.com/questions/39857035/rails-isnt-seeing-proper-dir-of-ruby&quot;&gt;ruby discusion&lt;/a&gt;
+		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ ruby -v&lt;/code&gt;
+		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ gem install rails -v=4.2&lt;/code&gt;
+		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ \curl -sSL https://get.rvm.io | bash -s stable&lt;/code&gt;
+		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ rvm install 2.3.1&lt;/code&gt;
+		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ rvm use 2.3.1 --default&lt;/code&gt;
+		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ rvm use 2.3.1&lt;/code&gt;
+		`$ ruby -v
+    	 –2.3.1&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Al final debería aparecer este mensaje:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  `ed $ ruby -v
+  `ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-darwin15]
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Comprobar la versión de rvm:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  $ `rvm -- versión`
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Debería aparecer un mensaje así:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	ed $ rvm --version 
+	rvm 1.27.0 (latest) by Wayne E. Seguin &amp;lt;wayneeseguin@gmail.com&amp;gt;, Michal Papis &amp;lt;mpapis@gmail.com&amp;gt; [https://rvm.io/]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;c) Crear un set de gemas: 
+		$ rvm gemset create ed
+		$ rvm gemset use ed&lt;/p&gt;
+
+&lt;p&gt;d) Instalar Bundler (primera gema):
+		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ gem install bundler&lt;/code&gt;
+		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ bundle install&lt;/code&gt; (esto tarda un par de minutos)&lt;/p&gt;
+
+&lt;p&gt;e) Construir el sitio con Jekyll:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	`jekyll serve`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;y si recibes un error:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	`bundle exec jekyll serve`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A este punto ya podrías acceder a vuestro servidor local. Os aparece un mensaje cuyas dos últimas líneas deberían ser:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Server&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;address: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ed&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+  &lt;span class=&quot;no&quot;&gt;Server&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;running&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;press&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ctrl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Id a &lt;a href=&quot;localhost&quot;&gt;http://127.0.0.1:4000/ed/&lt;/a&gt; y debería verse esto: &lt;a href=&quot;https://susannalles.github.io/EdDemo/&quot;&gt;EdDemo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;subir-la-edicin-a-github-pages-con-github-desktop&quot;&gt;Subir la edición a GitHub Pages con GitHub Desktop&lt;/h2&gt;
+
+&lt;p&gt;A) Desde GitHub Desktop&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Abrir GitHub Desktop&lt;/li&gt;
+  &lt;li&gt;Ir a &lt;a href=&quot;http://elotroalex.github.io/ed/&quot;&gt;https://github.com/elotroalex/ed&lt;/a&gt; y clicar en la pestaña verde “Clone or download”. Allí os aparece una opción de Open in Desktop. [01]&lt;/li&gt;
+  &lt;li&gt;Os aparecerá “Launch Application”, elegid “GitHub Desktop [02]&lt;/li&gt;
+  &lt;li&gt;Seleccionad la ubicación para trabajar. Os recomiendo que para vuestros proyectos GitHub tengáis una carpeta para tal propósito. Clicad “Clone”. Ahora ya tenéis vuestra ‘copia’ del repositorio en vuestro ordenador.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A partir de aquí Ed funciona como cualquier otro tema de Jekyll. Lo primero es configurar el fichero _config.yml con vuestros datos:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# La información sobre el sitio&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;title:               &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Ed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nf&quot;&gt;tagline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;             &lt;span class=&quot;s1&quot;&gt;'Una plantilla Jekyll para ediciones mínimas'&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;description:         &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;url:                 &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'http://susannalles.github.io'&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;baseurl:             &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/ed'&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Vuestros datos personales &lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;author:
+  name:              &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Susanna&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;All&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;é&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Torrent&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;url:               &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sallesto&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;email:             &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;susanna_alles&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@miami&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;edu&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;A este punto deberéis parar el servidor local y volverlo a arrancar:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Crtl c
+&lt;code class=&quot;highlighter-rouge&quot;&gt;$ jekyll serve&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;El resultado debería ser este:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://susannalles.github.io/EdDemo/&quot;&gt;https://susannalles.github.io/EdDemo/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ed ofrece:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;diferentes plantillas para géneros literarios, básicamente poesía y prosa.&lt;/li&gt;
+  &lt;li&gt;Notas a pie de página&lt;/li&gt;
+  &lt;li&gt;“Blockquote” o citas&lt;/li&gt;
+  &lt;li&gt;Una coleción de textos (que difiere del contenido sobre la web)&lt;/li&gt;
+  &lt;li&gt;Página de búsqueda (gracias a un motor de búsqueda creado en Javascript con &lt;a href=&quot;http://elasticlunr.com/&quot;&gt;elastic lunr&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Tabla de contenidos&lt;/li&gt;
+  &lt;li&gt;Plantilla para la bibliografía&lt;/li&gt;
+  &lt;li&gt;Posibilidad de automatizar la bibliografía con &lt;a href=&quot;https://github.com/inukshuk/jekyll-scholar&quot;&gt;Jekyll scholar&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Posibilidad de anotar la web con via.hypothes.is&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;otros-ejemplos-siguiendo-la-idea-de-ed&quot;&gt;Otros ejemplos siguiendo la idea de Ed:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;minilazarillo&lt;/li&gt;
+  &lt;li&gt;Vita Illustrium Virorum&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;referencias-y-lecturas-ulteriores&quot;&gt;Referencias y lecturas ulteriores:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;McGlone, Jonathan. “&lt;a href=&quot;http://jmcglone.com/guides/github-pages/&quot;&gt;Creating and Hosting a Personal Site on GitHub&lt;/a&gt;” &lt;em&gt;Jonathan McGlone&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Visconti, Amanda. “&lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;Building a static website with Jekyll and GitHub Pages&lt;/a&gt;” &lt;em&gt;Programming Historian&lt;/em&gt; (18 April 2016).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;Official Jekyll Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Susanna Allés Torrent</name></author><summary type="html">Taller, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
+En: I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales. 7-9 noviembre 2016</summary></entry></feed>
