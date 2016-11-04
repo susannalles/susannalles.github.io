@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-04T10:14:57+01:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-03T00:00:00+01:00</published><updated>2016-11-03T00:00:00+01:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-04T15:41:40+01:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-03T00:00:00+01:00</published><updated>2016-11-03T00:00:00+01:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
 En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales&lt;/a&gt;. 7-9 noviembre 2016&lt;/p&gt;
 
 &lt;p&gt;El taller se divide en 4 partes diferentes:&lt;/p&gt;
@@ -13,13 +13,13 @@ En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso
 &lt;p&gt;El objetivo es ofrecer una panorámica general del funcionamiento de estas herramientas y lenguajes para poder llevar a cabo una edición mínima utilizando la plantilla o tema Ed.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Los puntos I, II, III darán como resultado la plantilla estándar de Jekyll: &lt;a href=&quot;https://susannalles.github.io/JekyllDemo/&quot;&gt;https://susannalles.github.io/JekyllDemo/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Los puntos I, II, III dan como resultado la plantilla estándar de Jekyll: &lt;a href=&quot;https://susannalles.github.io/JekyllDemo/&quot;&gt;https://susannalles.github.io/JekyllDemo/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;El punto IV consiste en la instalación de Ed: &lt;a href=&quot;https://susannalles.github.io/EdDemo/&quot;&gt;https://susannalles.github.io/EdDemo/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Algunos conceptos básicos:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Terminal. Algunos buenos tutoriales:
+  &lt;li&gt;Terminal. Buenos tutoriales:
     &lt;ul&gt;
       &lt;li&gt;Ian Milligan and James Baker, &lt;a href=&quot;http://programminghistorian.org/lessons/intro-to-bash&quot;&gt;Introduction to the Bash Command Line&lt;/a&gt;, &lt;em&gt;The Programming istorian&lt;/em&gt;, 20-08-2014.&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://learnpythonthehardway.org/book/appendixa.html&quot;&gt;Command Line Crash Course&lt;/a&gt;&lt;/li&gt;
@@ -29,7 +29,7 @@ En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso
   &lt;li&gt;Sitios web estáticos vs dinámicos&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;o-requisitos-del-sistema&quot;&gt;O. Requisitos del sistema&lt;/h1&gt;
+&lt;h1 id=&quot;o-requisitos-del-sistema-idealmente-antes-del-taller&quot;&gt;O. Requisitos del sistema (idealmente antes del taller)&lt;/h1&gt;
 
 &lt;p&gt;Antes de empezar, os sugiero que:&lt;/p&gt;
 
@@ -37,31 +37,35 @@ En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso
   &lt;li&gt;tengáis a mano en todo momento el terminal:
     &lt;ul&gt;
       &lt;li&gt;MAC (Terminal): Finder &amp;gt; Applications &amp;gt; Utilities &amp;gt; Terminal&lt;/li&gt;
-      &lt;li&gt;Windows (Command Prompt, Windows Power Shell o Git Bash)&lt;/li&gt;
+      &lt;li&gt;Windows (Command Prompt, Windows Power Shell o Git Bash): Equipo &amp;gt; C: &amp;gt; Windows &amp;gt; System32 &amp;gt; cmd.exe o bien Start &amp;gt; Todos los programas &amp;gt; Accesorios &amp;gt; Simbolo del sistema (click derecho y “Ejecutar como adminstrador”) &lt;a href=&quot;http://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/&quot;&gt;Hay diferentes maneras de abrirlo&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;creeis una carpeta (donde queráis) con el nombre de GitHub y donde podéis salvar todos vuestros proyectos de GitHub. Por ejemplo, yo lo tengo en Mac &amp;gt; Users &amp;gt; MiUsuario &amp;gt; GitHub.&lt;/li&gt;
+  &lt;li&gt;creeis una carpeta llamada GitHub donde salvar todos vuestros proyectos de GitHub. Por ejemplo, yo lo tengo en Mac &amp;gt; Users &amp;gt; MiUsuario &amp;gt; GitHub.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Antes de empezar y/o venir al taller es imprescindible que vuestro ordenador tenga una serie de software instalado. Si no lo tenéis no podréis ejecutar ninguno de los comandos propuestos.&lt;/p&gt;
+&lt;p&gt;Antes de empezar y/o venir al taller es recomendable que vuestro ordenador tenga una serie de software instalado.&lt;/p&gt;
 
 &lt;h2 id=&quot;a-instalacin-de-algunos-software-necesarios&quot;&gt;A. Instalación de algunos software necesarios:&lt;/h2&gt;
 
-&lt;p&gt;Tanto Jekyll como Ed funcionan mejor en Mac, pero pueden también ejecutarse en windows. Más detalles de estos pasos en &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#section2&quot;&gt;Visconti&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tanto Jekyll como Ed funcionan mejor en Mac, pero pueden también ejecutarse en windows. Encontraréis todas estas instrucciones con detalladas explicaciones en el tutorial de Amanda [Visconti][Viconti - Installing Dependencies] publicado en &lt;em&gt;Programming Historian&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;[Nota: recordad que el símbolo $ no debe copiarse ;) ]&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;En una IOS&lt;/strong&gt;:&lt;/p&gt;
 
-&lt;p&gt;Los siguientes pasos deben hacerse en el terminal. Se trata de una serie de herramientas para ejecutar ciertas órdenes en la línea de comandos:&lt;/p&gt;
+&lt;p&gt;Los siguientes pasos deben hacerse en el terminal. El objetivo es instalar una serie de herramientas que nos permitirán ejecutar ciertas órdenes en la línea de comandos:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Instala &lt;a href=&quot;https://itunes.apple.com/us/app/xcode/id497799835?mt=12&quot;&gt;XCode&lt;/a&gt; (puede tardar hasta media hora):
- 		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ xcode-select --install&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Instalar &lt;a href=&quot;https://itunes.apple.com/us/app/xcode/id497799835?mt=12&quot;&gt;XCode&lt;/a&gt; (puede tardar hasta media hora y ocupa bastante):
+ 		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ xcode-select --install&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;Se abrirá una ventana emergente y debéis seguir los pasos: “Install”, “Done”.&lt;/li&gt;
-  &lt;li&gt;Instala &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;:
-      &lt;code class=&quot;highlighter-rouge&quot;&gt;$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;&lt;/code&gt; (todo junto)&lt;/li&gt;
+  &lt;li&gt;Instala &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt; (todo junto):
+      &lt;code class=&quot;highlighter-rouge&quot;&gt;$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Instala Ruby &amp;amp; &lt;a href=&quot;https://rubygems.org/&quot;&gt;Ruby Gems&lt;/a&gt;:
-      &lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install ruby&lt;/code&gt;
-      &lt;code class=&quot;highlighter-rouge&quot;&gt;$ gem install rubygems-update&lt;/code&gt;&lt;/li&gt;
+Primero esto: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install ruby&lt;/code&gt;
+A continuación esto: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ gem install rubygems-update&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Instala &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node JS&lt;/a&gt;
       &lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install node&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Instala &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;
@@ -71,12 +75,12 @@ En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso
 &lt;p&gt;&lt;strong&gt;En Windows&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Instalar &lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git Bash&lt;/a&gt;. Elegid Windows, descargad el archivo y seguid las instrucciones.&lt;/li&gt;
-  &lt;li&gt;Desde vuestro Start Menu, buscad “Command Prompt” y abridlo.&lt;/li&gt;
-  &lt;li&gt;Instalar &lt;a href=&quot;https://chocolatey.org/&quot;&gt;Chocolatey&lt;/a&gt;
+  &lt;li&gt;Instalar &lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git Bash&lt;/a&gt;. Elegid Windows, descargad y guardad el archivo y seguid las instrucciones (podéis aceptar las que vienen por defecto).&lt;/li&gt;
+  &lt;li&gt;Desde vuestro Start Menu, buscad “Command Prompt” y abridlo (vid. arriba si no lo encontráis).&lt;/li&gt;
+  &lt;li&gt;Instalar &lt;a href=&quot;https://chocolatey.org/&quot;&gt;Chocolatey&lt;/a&gt; (os pedirá que seáis los adminstradores del sistema)
       &lt;code class=&quot;highlighter-rouge&quot;&gt;$ @powershell -NoProfile -ExecutionPolicy unrestricted -Command &quot;(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) &amp;gt;$null 2&amp;gt;&amp;amp;1&quot; &amp;amp;&amp;amp; SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Cerrad el “Command Prompt”&lt;/li&gt;
-  &lt;li&gt;Abrid “Git Bash” que acabáis de descargar e instalar. A partir de ahora esto será vuestro terminal.&lt;/li&gt;
+  &lt;li&gt;Abrid “Git Bash” que acabáis de descargar e instalar (abridlo con el clic derecho y “Ejecutar como adeministrador”). A partir de ahora esto será vuestro terminal.&lt;/li&gt;
   &lt;li&gt;Instala Ruby &amp;amp; &lt;a href=&quot;https://rubygems.org/&quot;&gt;Ruby Gems&lt;/a&gt;:
       &lt;code class=&quot;highlighter-rouge&quot;&gt;choco install ruby -y&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Cerrad el terminal y volvedlo a abrir.&lt;/li&gt;
@@ -90,14 +94,14 @@ En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso
   &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/windows/&quot;&gt;Jekyll on Windows&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;B. Un editor de texto como:&lt;/p&gt;
+&lt;h2 id=&quot;b-un-editor-de-texto-como&quot;&gt;B. Un editor de texto como:&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; (Mac)&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.barebones.com/products/textwrangler/download.html&quot;&gt;Text Wrangler&lt;/a&gt; (Mac)&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://notepad-plus-plus.org/&quot;&gt;Notepad++&lt;/a&gt; (Windows)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;c. Cuenta de usuario en GitHub&lt;/p&gt;
+&lt;h2 id=&quot;c-cuenta-de-usuario-en-github&quot;&gt;c. Cuenta de usuario en GitHub&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Visitad &lt;a href=&quot;https://github.com/&quot;&gt;https://github.com/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;“Sign up” (el nombre de usuario será visible a todos, además vuestra url final en GitHub Pages será username.github.io, así que elegidlo bien).&lt;/li&gt;
@@ -107,13 +111,13 @@ En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso
 
 &lt;p&gt;Obviamente, si ya tenéis una cuenta de usuario, podéis saltar este paso.&lt;/p&gt;
 
-&lt;p&gt;D. GitHub App&lt;/p&gt;
+&lt;h2 id=&quot;d-github-app&quot;&gt;D. GitHub App&lt;/h2&gt;
 
 &lt;p&gt;Si no estáis acostumbrados a utilizar Git en el terminal, os podéis bajar la versión GUI de GitHub App.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Visitad &lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub App&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Bajad “Download GitHub Desktop” y instaladlo.&lt;/li&gt;
+  &lt;li&gt;Bajad “Download GitHub Desktop” e instaladlo.&lt;/li&gt;
   &lt;li&gt;Introducid los datos de vuestra cuenta GitHub. Clica “Continue”&lt;/li&gt;
   &lt;li&gt;Completa el nombre y correo electrónico.&lt;/li&gt;
   &lt;li&gt;Clica “Install Command Line Tools”. Te pedirá tu nombre de usuario y contraseña de tu ordenador.&lt;/li&gt;
@@ -123,16 +127,17 @@ En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso
 
 &lt;p&gt;Ok. Ahora empecemos.&lt;/p&gt;
 
-&lt;h1 id=&quot;i-jekyll&quot;&gt;I. Jekyll&lt;/h1&gt;
+&lt;h1 id=&quot;i-jekyll-en-construccin&quot;&gt;I. Jekyll (en construcción)&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; es un generador de páginas web, para blogs, proyectos web simples o portfolios. En realidad, se trata de un motor de transformación de texto plano. La idea es que uno prepara un texto (markdown, Textile, HTML), le aplica un layout o una serie de layouts, y genera un sitio web. Uno pueda modificar las plantillas, qué datos van a aparecer en la página, etc. Como producto final uno obtiene un sitio web estático.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; es un generador de páginas web, para blogs, proyectos web simples o portfolios. En realidad, se trata de un motor de transformación de texto plano. La idea es centrarse solo en el contenido: se prepara un texto en un formato simple (markdown, Textile, HTML), se le aplica un layout o plantilla, y se genera un sitio web. Las plantillas se modifican en función de lo que queramos que aparezca en la página. Como producto final obtenemos un sitio web estático.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/public/img/01.png&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;El mejor tutorial existente hasta ahora es el de &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;Amanda Visconti&lt;/a&gt;. Os sugiero vivamente que lo sigáis -lo ideal sería que lo hicierais antes del taller- para entender exactamente qué es lo que estáis haciendo. Yo me limitaré a indicaros las órdenes.&lt;/p&gt;
+&lt;p&gt;El mejor tutorial existente hasta ahora es el de &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;Amanda Visconti&lt;/a&gt;. Os sugiero vivamente que lo sigáis para entender exactamente qué es lo que estáis haciendo.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;¿Por qué utilizar Jekyll?&lt;/strong&gt; 
-Existen muchas ventajas de utilizar Jekyll o en general páginas web estáticas (Visconti):&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¿Por qué utilizar Jekyll?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Existen muchas ventajas de utilizar Jekyll o en general páginas web estáticas (&lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#section0&quot;&gt;Visconti&lt;/a&gt;):&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Mantenimiento&lt;/li&gt;
   &lt;li&gt;Preservación&lt;/li&gt;
@@ -144,7 +149,7 @@ Existen muchas ventajas de utilizar Jekyll o en general páginas web estáticas 
   &lt;li&gt;Rapidez&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Ideal para blogs, comodidad de las plantillas que automatizan la conversión en HTML.&lt;/p&gt;
+&lt;p&gt;Jekyll es ideal para blogs, páginas personales, y proyectos de web sencillos. El uso de plantillas asociadas a ficheros de textos planos nos permite mucha flexibilidad y la posibilidad de automatizan la conversión en HTML.&lt;/p&gt;
 
 &lt;h2 id=&quot;qu-lenguajes-utiliza-jekyll&quot;&gt;¿Qué lenguajes utiliza Jekyll?&lt;/h2&gt;
 
@@ -156,18 +161,41 @@ Existen muchas ventajas de utilizar Jekyll o en general páginas web estáticas 
       &lt;li&gt;Sarah Simpkin, &lt;a href=&quot;http://programminghistorian.org/lessons/getting-started-with-markdown&quot;&gt;&lt;em&gt;Getting Started with Markdown&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;YAML: Frontmatter: layout, title, permalink&lt;/li&gt;
-  &lt;li&gt;Liquid:&lt;/li&gt;
-  &lt;li&gt;SASS o CSS:&lt;/li&gt;
-  &lt;li&gt;HTML:&lt;/li&gt;
+  &lt;li&gt;YAML: &lt;a href=&quot;http://yaml.org/&quot;&gt;YAML Ain’t Markup Language&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Liquid: &lt;a href=&quot;http://shopify.github.io/liquid/&quot;&gt;Liquid&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sass-lang.com/&quot;&gt;SASS&lt;/a&gt; y &lt;a href=&quot;https://en.wikipedia.org/wiki/Cascading_Style_Sheets&quot;&gt;CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.wikipedia.org/wiki/HTML&quot;&gt;HTML&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;estructura-de-un-sitio-en-jekyll&quot;&gt;Estructura de un sitio en Jekyll&lt;/h2&gt;
+&lt;h2 id=&quot;estructura-de-directorios-en-un-sitio-jekyll&quot;&gt;Estructura de directorios en un sitio Jekyll&lt;/h2&gt;
 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;yml&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_drafts&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;the&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crazy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ideas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;md&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;simplicity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;technology&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;md&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_includes&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;footer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_layouts&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_posts&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2007&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;29&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;why&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;every&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;programmer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;play&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nethack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;md&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2009&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;04&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;26&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;barcamp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;boston&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;roundup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;md&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_data&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;members&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;yml&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_site&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;metadata&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/docs/structure/&quot;&gt;Directory Structure - Jekyll&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Conceptos esenciales y útiles:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Pages: Páginas&lt;/li&gt;
+  &lt;li&gt;Pages: páginas&lt;/li&gt;
   &lt;li&gt;Post: post&lt;/li&gt;
-  &lt;li&gt;Collections:&lt;/li&gt;
+  &lt;li&gt;Collections: colecciones&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;paso-1-crear-un-blog-con-el-tema-mnimo-de-jekyll&quot;&gt;1. Paso 1: Crear un blog con el tema mínimo de Jekyll&lt;/h2&gt;
@@ -175,133 +203,112 @@ Existen muchas ventajas de utilizar Jekyll o en general páginas web estáticas 
 &lt;h2 id=&quot;paso-2-personalizarlo&quot;&gt;2. Paso 2: Personalizarlo&lt;/h2&gt;
 
 &lt;h1 id=&quot;ii-github&quot;&gt;II. GitHub&lt;/h1&gt;
-&lt;p&gt;GitHub es una manera visual de usar git, un sistema de versión.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Crearse una cuenta de usuario: https://github.com/&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; es una manera visual de usar git, un sistema de control de versiones basado en &lt;a href=&quot;https://es.wikipedia.org/wiki/Git&quot;&gt;Git&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Referencias: 
-&lt;a href=&quot;https://guides.github.com/activities/hello-world/&quot;&gt;GuitHub Guide&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tutoriales:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://guides.github.com/activities/hello-world/&quot;&gt;GuitHub Guide&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;iii-github-pages&quot;&gt;III. GitHub Pages&lt;/h1&gt;
 
-&lt;p&gt;GitHub Pages es un espacio gratuito para albergar los ficheros que van a constituir una página web estática.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; es un espacio gratuito para albergar los ficheros que van a constituir una página web estática. Se trata de un conjunto de páginas web públicas albergadas gratuitamente en GitHub bajo el dominio github.io (o cualquier otro dominio que se escoja). La misma página de GitHub Pages está creada y es mantenida a través de Jekyll.&lt;/p&gt;
 
-&lt;p&gt;GitHub Pages son páginas web públicas albergadas gratuitamente en GitHub bajo el dominio github.io (o cualquier otro dominio que se escoja). La misma página de GitHub Pages está creada y es mantenida a través de Jekyll.&lt;/p&gt;
+&lt;p&gt;Tutoriales:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/categories/github-pages-basics/&quot;&gt;GitHub Pages Basics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Anna Debenham, &lt;a href=&quot;https://24ways.org/2013/get-started-with-github-pages/&quot;&gt;&lt;em&gt;Get started with GitHub Pages (Plus Bonus Jekyll)&lt;/em&gt;&lt;/a&gt;, 24 Ways to impress your friends. Blog. 18-12-2013.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h1 id=&quot;iv-ed-a-jekyll-theme-for-minimal-editions&quot;&gt;IV. Ed: a Jekyll theme for minimal editions&lt;/h1&gt;
 
-&lt;p&gt;El tema Ed de Jekyll se concibió como un plantilla que facilitar a la creación de ediciones digitales.&lt;/p&gt;
+&lt;p&gt;El tema Ed de Jekyll se concibió como un plantilla que facilitara a la creación de ediciones digitales.&lt;/p&gt;
 
-&lt;p&gt;Aquí encontraréis la plantilla: &lt;a href=&quot;http://elotroalex.github.io/ed/&quot;&gt;http://elotroalex.github.io/ed/&lt;/a&gt;
-Y aquí los ficheros fuente: &lt;a href=&quot;https://github.com/elotroalex/ed&quot;&gt;https://github.com/elotroalex/ed&lt;/a&gt;
-Toda la documentación se encuentra en: &lt;a href=&quot;https://elotroalex.github.io/ed/documentation/&quot;&gt;Documentation Ed&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Aquí encontraréis todo la página del proyecto: &lt;a href=&quot;http://elotroalex.github.io/ed/&quot;&gt;http://elotroalex.github.io/ed/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Aquí los ficheros fuente: &lt;a href=&quot;https://github.com/elotroalex/ed&quot;&gt;https://github.com/elotroalex/ed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;La documentación incluye una descripción y las instrucciones de instalación se encuentra en: &lt;a href=&quot;https://elotroalex.github.io/ed/documentation/&quot;&gt;Documentation Ed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;El resultado que os porpongo será como este: &lt;a href=&quot;https://susannalles.github.io/JekyllDemo/&quot;&gt;https://susannalles.github.io/JekyllDemo/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;El resultado que se propone será como este: &lt;a href=&quot;https://susannalles.github.io/EdDemo/&quot;&gt;https://susannalles.github.io/EdDemo/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Aquí los ficheros fuente: &lt;a href=&quot;https://github.com/susannalles/JekyllDemo&quot;&gt;https://github.com/susannalles/JekyllDemo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Aquí los ficheros fuente: &lt;a href=&quot;https://github.com/susannalles/EdDemo&quot;&gt;https://github.com/susannalles/EdDemo&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Si habéis conseguido instalar la plantilla estándar de Jekyll con éxito, podéis intentar instalar Ed rápidamente, siguiendo las instrucciones &lt;a href=&quot;https://elotroalex.github.io/ed/documentation/#installing-ed-easy&quot;&gt;Installing Ed: Easy&lt;/a&gt;. Por lo general, sin embargo, se recomienda que esta instalación que es algo más laboriosa:  &lt;a href=&quot;https://elotroalex.github.io/ed/documentation/#installing-ed-robust&quot;&gt;Installing Ed: Robust&lt;/a&gt;. Estas últimas son como siguen:&lt;/p&gt;
+&lt;p&gt;Si habéis conseguido instalar la plantilla estándar de Jekyll con éxito, podéis intentar instalar Ed rápidamente, siguiendo las instrucciones &lt;a href=&quot;https://elotroalex.github.io/ed/documentation/#installing-ed-easy&quot;&gt;Installing Ed: Easy&lt;/a&gt;. Por lo general, sin embargo, se recomienda elegir la instalación más laboriosa:  &lt;a href=&quot;https://elotroalex.github.io/ed/documentation/#installing-ed-robust&quot;&gt;Installing Ed: Robust&lt;/a&gt;. Aquí va un resumen para la instalación larga:&lt;/p&gt;
 
 &lt;p&gt;Desde el terminal:&lt;/p&gt;
 
-&lt;p&gt;a) Comprobad la versión de git&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	`$ git --version`
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;a) Comprobad la versión de git 
+	&lt;code class=&quot;highlighter-rouge&quot;&gt;$ git --version&lt;/code&gt;
+Debería ser &lt;code class=&quot;highlighter-rouge&quot;&gt;git version 2.10.0&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;b) Hay diferentes maneras de hacer el siguiente paso. Yo os propongo que os descarguéis una versión en zip de todos los ficheros y carpetas de Ed.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;Ed&quot;&gt;Bajad zip&lt;/a&gt; en la pestaña verde que pone “Clone or download” y clicad en “Download ZIP”.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/elotroalex/ed&quot;&gt;Bajad zip&lt;/a&gt; en la pestaña verde que pone “Clone or download” y clicad en “Download ZIP”.&lt;/li&gt;
   &lt;li&gt;Arrastrad la carpeta en vuestra carpeta de GitHub (este paso es sólo para estar organizados).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;c) Desde el terminal, situaros al interno de la carpeta ed:
- 		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ cd ed&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;c) Desde el terminal, situaros al interno de la carpeta &lt;code class=&quot;highlighter-rouge&quot;&gt;ed:
+ 		&lt;/code&gt;$ cd ed`&lt;/p&gt;
 
 &lt;p&gt;B) Siempre en esa carpeta debemos:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Instalación Ruby Version Manager
-      &lt;code class=&quot;highlighter-rouge&quot;&gt;$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-      &lt;/code&gt;\curl -sSL https://get.rvm.io | bash -s stable`&lt;/li&gt;
+      &lt;code class=&quot;highlighter-rouge&quot;&gt;$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3&lt;/code&gt;	
+      &lt;code class=&quot;highlighter-rouge&quot;&gt;$ \curl -sSL https://get.rvm.io | bash -s stable&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[Nota: a mi este comando no me funcionaba y he instalado: https://gpgtools.org/ . Si sigue habiendo problemas: &lt;a href=&quot;https://stackoverflow.com/questions/39857035/rails-isnt-seeing-proper-dir-of-ruby&quot;&gt;ruby discusion&lt;/a&gt;
+&lt;p&gt;[Nota: este comando no le funcionaba a todos. Se puede probar de instalar: https://gpgtools.org/ . O bien consultar esta discusión: &lt;a href=&quot;https://stackoverflow.com/questions/39857035/rails-isnt-seeing-proper-dir-of-ruby&quot;&gt;ruby discusion&lt;/a&gt;
 		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ ruby -v&lt;/code&gt;
 		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ gem install rails -v=4.2&lt;/code&gt;
 		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ \curl -sSL https://get.rvm.io | bash -s stable&lt;/code&gt;
 		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ rvm install 2.3.1&lt;/code&gt;
 		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ rvm use 2.3.1 --default&lt;/code&gt;
 		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ rvm use 2.3.1&lt;/code&gt;
-		`$ ruby -v
-    	 –2.3.1&lt;/p&gt;
+		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ ruby -v&lt;/code&gt;
+    	 &lt;code class=&quot;highlighter-rouge&quot;&gt;--2.3.1&lt;/code&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Al final debería aparecer este mensaje:&lt;/p&gt;
+  &lt;li&gt;Al final debería aparecer este mensaje:&lt;/li&gt;
+&lt;/ul&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  `ed $ ruby -v
-  `ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-darwin15]
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Comprobar la versión de rvm:&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;ed&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p112&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2016&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;04&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;26&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;revision&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;54768&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x86_64&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;darwin15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  $ `rvm -- versión`
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
+&lt;ul&gt;
+  &lt;li&gt;Comprobar la versión de rvm: 
+      $ &lt;code class=&quot;highlighter-rouge&quot;&gt;rvm -- versión&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Debería aparecer un mensaje así:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	ed $ rvm --version 
-	rvm 1.27.0 (latest) by Wayne E. Seguin &amp;lt;wayneeseguin@gmail.com&amp;gt;, Michal Papis &amp;lt;mpapis@gmail.com&amp;gt; [https://rvm.io/]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;ed&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rvm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;rvm&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;27&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;latest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;by&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Wayne&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Seguin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wayneeseguin&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@gmail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Michal&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Papis&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mpapis&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@gmail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rvm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;c) Crear un set de gemas: 
-		$ rvm gemset create ed
-		$ rvm gemset use ed&lt;/p&gt;
+		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ rvm gemset create ed&lt;/code&gt;
+		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ rvm gemset use ed&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;d) Instalar Bundler (primera gema):
 		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ gem install bundler&lt;/code&gt;
 		&lt;code class=&quot;highlighter-rouge&quot;&gt;$ bundle install&lt;/code&gt; (esto tarda un par de minutos)&lt;/p&gt;
 
-&lt;p&gt;e) Construir el sitio con Jekyll:&lt;/p&gt;
+&lt;p&gt;e) Construir el sitio con Jekyll:
+		&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	`jekyll serve`
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;y si recibes un error, escribe:
+		&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;y si recibes un error:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	`bundle exec jekyll serve`
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;A este punto ya podrías acceder a vuestro servidor local. Os aparece un mensaje cuyas dos últimas líneas deberían ser:&lt;/p&gt;
+&lt;p&gt;A este punto ya se puede acceder al servidor local. Os aparecerá un mensaje cuyas dos últimas líneas deberían ser:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Server&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;address: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ed&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
   &lt;span class=&quot;no&quot;&gt;Server&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;running&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;press&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ctrl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Id a &lt;a href=&quot;localhost&quot;&gt;http://127.0.0.1:4000/ed/&lt;/a&gt; y debería verse esto: &lt;a href=&quot;https://susannalles.github.io/EdDemo/&quot;&gt;EdDemo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Id a &lt;a href=&quot;localhost&quot;&gt;http://127.0.0.1:4000/ed/&lt;/a&gt; y debería verse esto: &lt;a href=&quot;https://susannalles.github.io/EdDemo/&quot;&gt;EdDemo&lt;/a&gt;. Depende de como hagáis llamado vuestra carpeta: si habéis dejado el que venia por defecto &lt;code class=&quot;highlighter-rouge&quot;&gt;ed&lt;/code&gt;será &lt;code class=&quot;highlighter-rouge&quot;&gt;http://127.0.0.1:4000/ed/&lt;/code&gt;; yo lo he llamado &lt;code class=&quot;highlighter-rouge&quot;&gt;EdDemo&lt;/code&gt;, con lo cual me aparece en &lt;code class=&quot;highlighter-rouge&quot;&gt;http://127.0.0.1:4000/EdDemo&lt;/code&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;subir-la-edicin-a-github-pages-con-github-desktop&quot;&gt;Subir la edición a GitHub Pages con GitHub Desktop&lt;/h2&gt;
-
-&lt;p&gt;A) Desde GitHub Desktop&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Abrir GitHub Desktop&lt;/li&gt;
-  &lt;li&gt;Ir a &lt;a href=&quot;http://elotroalex.github.io/ed/&quot;&gt;https://github.com/elotroalex/ed&lt;/a&gt; y clicar en la pestaña verde “Clone or download”. Allí os aparece una opción de Open in Desktop. [01]&lt;/li&gt;
-  &lt;li&gt;Os aparecerá “Launch Application”, elegid “GitHub Desktop [02]&lt;/li&gt;
-  &lt;li&gt;Seleccionad la ubicación para trabajar. Os recomiendo que para vuestros proyectos GitHub tengáis una carpeta para tal propósito. Clicad “Clone”. Ahora ya tenéis vuestra ‘copia’ del repositorio en vuestro ordenador.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A partir de aquí Ed funciona como cualquier otro tema de Jekyll. Lo primero es configurar el fichero _config.yml con vuestros datos:&lt;/p&gt;
+&lt;p&gt;A partir de aquí Ed funciona como cualquier otro tema de Jekyll. Lo primero es configurar el fichero &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; con vuestros datos. Por ejemplo:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# La información sobre el sitio&lt;/span&gt;
 &lt;span class=&quot;ss&quot;&gt;title:               &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Ed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
@@ -316,22 +323,30 @@ Toda la documentación se encuentra en: &lt;a href=&quot;https://elotroalex.gith
   &lt;span class=&quot;ss&quot;&gt;url:               &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sallesto&lt;/span&gt;
   &lt;span class=&quot;ss&quot;&gt;email:             &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;susanna_alles&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@miami&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;edu&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;A este punto deberéis parar el servidor local y volverlo a arrancar:&lt;/p&gt;
+&lt;p&gt;Una vez modificado el fichero de configuración, deberéis parar el servidor local y volverlo a arrancar: “Crtl c” y  &lt;code class=&quot;highlighter-rouge&quot;&gt;$ jekyll serve&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;subir-la-edicin-a-github-pages-con-github-desktop&quot;&gt;Subir la edición a GitHub Pages con GitHub Desktop&lt;/h2&gt;
+
+&lt;p&gt;A) Desde GitHub Desktop&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Crtl c
-&lt;code class=&quot;highlighter-rouge&quot;&gt;$ jekyll serve&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Abrir GitHub Desktop&lt;/li&gt;
+  &lt;li&gt;Ir a &lt;a href=&quot;http://elotroalex.github.io/ed/&quot;&gt;https://github.com/elotroalex/ed&lt;/a&gt; y clicar en la pestaña verde “Clone or download”. Allí os aparece una opción de Open in Desktop. [01]&lt;/li&gt;
+  &lt;li&gt;Id al símbolo “+” y seleccionad “Add”. Donde pone “Choose” elegid la carpeta donde habéis puesto “ed” (en mi caso “EdDemo”) y dadle a “Create &amp;amp; Add Repository”.&lt;/li&gt;
+  &lt;li&gt;En la pestaña “Branch” seguramente os aparece “Master”. Cambiadlo y escrib “gh-pages”.&lt;/li&gt;
+  &lt;li&gt;Os aparecerá los últimos cambios realizados. Donde pone “Summary”, escribid una pequeña frase: “primer commit”.&lt;/li&gt;
+  &lt;li&gt;Clicad en “Publish” arriba a la derecha, y en “Sync”.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;El resultado debería ser este:&lt;/p&gt;
+&lt;p&gt;Si todo ha ido bien, en unos 90 segundos debería estar colgado en vuestro servidor de GitHub: &lt;a href=&quot;https://susannalles.github.io/EdDemo/&quot;&gt;https://susannalles.github.io/EdDemo/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://susannalles.github.io/EdDemo/&quot;&gt;https://susannalles.github.io/EdDemo/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;ed-ofrece&quot;&gt;Ed ofrece:&lt;/h2&gt;
 
-&lt;p&gt;Ed ofrece:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;diferentes plantillas para géneros literarios, básicamente poesía y prosa.&lt;/li&gt;
+  &lt;li&gt;Diferentes plantillas para géneros literarios, básicamente poesía y prosa.&lt;/li&gt;
   &lt;li&gt;Notas a pie de página&lt;/li&gt;
   &lt;li&gt;“Blockquote” o citas&lt;/li&gt;
-  &lt;li&gt;Una coleción de textos (que difiere del contenido sobre la web)&lt;/li&gt;
+  &lt;li&gt;Una colección de textos (que difiere del contenido web)&lt;/li&gt;
   &lt;li&gt;Página de búsqueda (gracias a un motor de búsqueda creado en Javascript con &lt;a href=&quot;http://elasticlunr.com/&quot;&gt;elastic lunr&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Tabla de contenidos&lt;/li&gt;
   &lt;li&gt;Plantilla para la bibliografía&lt;/li&gt;
@@ -341,8 +356,8 @@ Toda la documentación se encuentra en: &lt;a href=&quot;https://elotroalex.gith
 
 &lt;h2 id=&quot;otros-ejemplos-siguiendo-la-idea-de-ed&quot;&gt;Otros ejemplos siguiendo la idea de Ed:&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;minilazarillo&lt;/li&gt;
-  &lt;li&gt;Vita Illustrium Virorum&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://minilazarillo.github.io/&quot;&gt;minilazarillo&lt;/a&gt; Este utiliza el tema ED.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://alfonsodepalencia.github.io/Vitae/VH/1.html&quot;&gt;Vita Illustrium Virorum&lt;/a&gt; ¡En construcción! (sólo para daros una idea). Construido a partir de la plantilla de &lt;a href=&quot;http://foundation.zurb.com/&quot;&gt;Foundation&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;referencias-y-lecturas-ulteriores&quot;&gt;Referencias y lecturas ulteriores:&lt;/h1&gt;
