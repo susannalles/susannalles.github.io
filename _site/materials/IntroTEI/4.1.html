@@ -152,7 +152,7 @@
 &lt;hi rend="bold"&gt;Palabra o frase en negrita&lt;/</span><span class="n">hi</span><span class="o">&gt;</span>
 <span class="o">&lt;</span><span class="n">hi</span> <span class="n">rend</span><span class="o">=</span><span class="s2">"small-caps"</span><span class="o">&gt;</span><span class="no">Palabra</span> <span class="n">o</span> <span class="n">frase</span> <span class="n">en</span> <span class="n">versalitas</span><span class="o">&lt;</span><span class="sr">/hi&gt;</span></code></pre></figure>
 
-<p>El valor de los elementos es libre, con lo cual nada nos impide señalarlo en otra lengua, por ejemplo: `<hi rend="cursiva">&lt;/span&gt;Palabra o frase en cursiva</hi>’.</p>
+<p>El valor de los elementos es libre, con lo cual nada nos impide señalarlo en otra lengua, por ejemplo: <code class="highlighter-rouge">&lt;hi rend="cursiva"&gt;Palabra o frase en cursiva&lt;/hi&gt;</code>.</p>
 
 <p>Podemos encontrar además otros elementos que responden a las tipografías diversas anteriormente mencionadas:</p>
 
@@ -271,34 +271,28 @@
 <p>Las listas suelen ser un fenómeno habitual en muchos de los textos impresos. Los elementos más comunes que pueden constituir una lista son los siguientes:</p>
 
 <ul>
-  <li>[<span class="code"><list>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-list.html) secuencia de ítems que conforman una lista</list></span></li>
-  <li>[<span class="code"><item>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-item.html) un componente de una lista</item></span></li>
-  <li>[<span class="code"><label>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-label.html) etiqueta asociada a un ítem</label></span></li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-list.html"><code class="highlighter-rouge">&lt;list&gt;</code></a> secuencia de ítems que conforman una lista</li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-item.html"><code class="highlighter-rouge">&lt;item&gt;</code></a> un componente de una lista</li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-label.html"><code class="highlighter-rouge">&lt;label&gt;</code></a> etiqueta asociada a un ítem</li>
 </ul>
 
-<blockquote>
-  <blockquote>
-    <p><span class="code"><span style="color: #0003ff;"><list></list></span></span></p>
-    <head>&lt;/span&gt;Ingredientes:<span style="color: #0003ff;">&lt;/head&gt;</span>  
-<span style="color: #0003ff;"><item n="1">&lt;/span&gt;Harina<span style="color: #0003ff;">&lt;/item&gt;</span>  
-<span style="color: #0003ff;"><item n="2">&lt;/span&gt;Huevos<span style="color: #0003ff;">&lt;/item&gt;</span>  
-<span style="color: #0003ff;"><item n="3">&lt;/span&gt;Azucar<span style="color: #0003ff;">&lt;/item&gt;</span>  
-<span style="color: #0003ff;">&lt;/list&gt;</span>  
-  
-<span style="color: #0003ff;"><list type="gloss">  
-  <head>&lt;/span&gt;Lista de medidas (traducción)<span style="color: #0003ff;">&lt;/head&gt;  
-  <label>&lt;/span&gt;height<span style="color: #0003ff;">&lt;/label&gt;  
-  <item>&lt;/span&gt;altura<span style="color: #0003ff;">&lt;/item&gt;  
-  <label>&lt;/span&gt;width<span style="color: #0003ff;">&lt;/label&gt;  
-  <item>&lt;/span&gt;ancho<span style="color: #0003ff;">&lt;/item&gt;  
-  <label>&lt;/span&gt;depth<span style="color: #0003ff;">&lt;/label&gt;  
-  <item>&lt;/span&gt;fondo<span style="color: #0003ff;">&lt;/item&gt;  
-&lt;/list&gt;</span>&lt;/span&gt;
-</item></span></label></span></item></span></label></span></item></span></label></span></head></list></span></item></span></item></span></item></span></head>
-  </blockquote>
-</blockquote>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">list</span><span class="o">&gt;</span>  
+  <span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span><span class="no">Ingredientes</span><span class="ss">:&lt;</span><span class="o">/</span><span class="n">head</span><span class="o">&gt;</span> 
+<span class="o">&lt;</span><span class="n">item</span> <span class="n">n</span><span class="o">=</span><span class="s2">"1"</span><span class="o">&gt;</span><span class="no">Harina</span><span class="o">&lt;</span><span class="sr">/item&gt;
+&lt;item n="2"&gt;Huevos&lt;/i</span><span class="n">tem</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">item</span> <span class="n">n</span><span class="o">=</span><span class="s2">"3"</span><span class="o">&gt;</span><span class="no">Azucar</span><span class="o">&lt;</span><span class="sr">/item&gt;
+&lt;/</span><span class="n">list</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">list</span> <span class="n">type</span><span class="o">=</span><span class="s2">"gloss"</span><span class="o">&gt;</span>  
+  <span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span><span class="no">Lista</span> <span class="n">de</span> <span class="n">medidas</span> <span class="p">(</span><span class="n">traducci</span><span class="err">ó</span><span class="n">n</span><span class="p">)</span><span class="o">&lt;</span><span class="sr">/head&gt;  
+  &lt;label&gt;height&lt;/</span><span class="n">label</span><span class="o">&gt;</span>  
+  <span class="o">&lt;</span><span class="n">item</span><span class="o">&gt;</span><span class="n">altura</span><span class="o">&lt;</span><span class="sr">/item&gt;  
+  &lt;label&gt;width&lt;/</span><span class="n">label</span><span class="o">&gt;</span>  
+  <span class="o">&lt;</span><span class="n">item</span><span class="o">&gt;</span><span class="n">ancho</span><span class="o">&lt;</span><span class="sr">/item&gt;  
+  &lt;label&gt;depth&lt;/</span><span class="n">label</span><span class="o">&gt;</span>  
+  <span class="o">&lt;</span><span class="n">item</span><span class="o">&gt;</span><span class="n">fondo</span><span class="o">&lt;</span><span class="sr">/item&gt;  
+&lt;/</span><span class="n">list</span><span class="o">&gt;</span></code></pre></figure>
 
-<p>Pueden también establecerse diferentes tipos de lista a través del atributo <span class="code">@type,</span> que tiene estos valores por defecto:</p>
+<p>Pueden también establecerse diferentes tipos de lista a través del atributo <code class="highlighter-rouge">@type</code>, que tiene estos valores por defecto:</p>
 
 <ul>
   <li><em>bulleted</em>:ítems precedidos de puntos o marcas similare.</li>
@@ -307,58 +301,42 @@
   <li><em>simple</em>: ítems presentados como bloques, pero sin puntos ni números.</li>
 </ul>
 
-<blockquote>
-  <blockquote>
-    <p><span class="code"><span style="color: #0003ff;"><list rend="numbered">  
-&lt;/span&gt;<span style="color: #0003ff;">  &lt;head&gt;</span>Lista de temas a estudiar<span style="color: #0003ff;">&lt;/head&gt;</span><span style="color: #0003ff;">  
-</span><span style="color: #0003ff;">  <item n="1">&lt;/span&gt;¿Qué es la TEI y qué aplicaciones prácticas tiene?<span style="color: #0003ff;">&lt;/item&gt;</span><span style="color: #0003ff;">  
-</span><span style="color: #0003ff;">  <item n="2">&lt;/span&gt;Principios fundamentales de un documento XML<span style="color: #0003ff;">&lt;/item&gt;</span><span style="color: #0003ff;">  
-</span><span style="color: #0003ff;">  <item n="3">&lt;/span&gt;La estructura básica de un documento TEI<span style="color: #0003ff;">&lt;/item&gt;</span><span style="color: #0003ff;">  
-</span><span style="color: #0003ff;">  <item n="4">&lt;/span&gt;Elementos generales a todos los documentos TEI (core)<span style="color: #0003ff;">&lt;/item&gt;</span><span style="color: #0003ff;"></span></item></span></item></span></item></span></item></span></list></span></span></p>
-    <item n="5">...</item>
-    <p>&lt;/list&gt;&lt;/span&gt;&lt;/span&gt;</p>
-  </blockquote>
-</blockquote>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">list</span> <span class="n">rend</span><span class="o">=</span><span class="s2">"numbered"</span><span class="o">&gt;</span>  
+   <span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span><span class="no">Lista</span> <span class="n">de</span> <span class="n">temas</span> <span class="n">a</span> <span class="n">estudiar</span><span class="o">&lt;</span><span class="sr">/head&gt; 
+   &lt;item n="1"&gt;¿Qué es la TEI y qué aplicaciones prácticas tiene?&lt;/i</span><span class="n">tem</span><span class="o">&gt;</span>
+   <span class="o">&lt;</span><span class="n">item</span> <span class="n">n</span><span class="o">=</span><span class="s2">"2"</span><span class="o">&gt;</span><span class="no">Principios</span> <span class="n">fundamentales</span> <span class="n">de</span> <span class="n">un</span> <span class="n">documento</span> <span class="no">XML</span><span class="o">&lt;</span><span class="sr">/item&gt;
+   &lt;item n="3"&gt;La estructura básica de un documento TEI&lt;/i</span><span class="n">tem</span><span class="o">&gt;</span>
+   <span class="o">&lt;</span><span class="n">item</span> <span class="n">n</span><span class="o">=</span><span class="s2">"4"</span><span class="o">&gt;</span><span class="no">Elementos</span> <span class="n">generales</span> <span class="n">a</span> <span class="n">todos</span> <span class="n">los</span> <span class="n">documentos</span> <span class="no">TEI</span> <span class="p">(</span><span class="n">core</span><span class="p">)</span><span class="o">&lt;</span><span class="sr">/item&gt;
+   &lt;item n="5"&gt;...&lt;/i</span><span class="n">tem</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="sr">/list&gt;</span></code></pre></figure>
 
 <h2 id="notas">Notas</h2>
 
-<p>En muchos casos, podemos encontrarnos con notas o anotaciones de naturaleza diversa. El elemento para codificarlas es <span class="code"><note>&lt;/span&gt;, que sirve tanto para las que se encuentran en el texto impreso como las que son añadidas por el editor digital.</note></span></p>
+<p>En muchos casos, podemos encontrarnos con notas o anotaciones de naturaleza diversa. El elemento para codificarlas es <code class="highlighter-rouge">&lt;note&gt;</code>, que sirve tanto para las que se encuentran en el texto impreso como las que son añadidas por el editor digital.</p>
 
-<p>El elemento [<span class="code"><note>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-note.html) tiene una serie de atributos que nos serán de gran utilidad, entre ellos destacamos:</note></span></p>
+<p>El elemento <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-note.html"><code class="highlighter-rouge">&lt;note&gt;</code></a> tiene una serie de atributos que nos serán de gran utilidad, entre ellos destacamos:</p>
 
 <ul>
-  <li><span class="code">@type</span>: permite caracterizar la nota en cuestión, si se trata de una nota al margen, de una nota a pie de página, etc.</li>
-  <li><span class="code">@place</span>: es especialmente útil cuando se transcribe un manuscrito que posee notas en los márgenes; así por ejemplo podemos indicar la localización física de la nota.</li>
-  <li><span class="code">@xml:id</span>: se utiliza, como hemos visto, para dar un identificador único a la nota en cuestión, de manera que podamos referirnos a esta con facilidad y crear, si lo deseamos, un enlace a la misma</li>
-  <li><span class="code">@target</span>: lo utilizaríamos para conectar la referencia con la nota o viceversa.</li>
+  <li><code class="highlighter-rouge">@type</code>: permite caracterizar la nota en cuestión, si se trata de una nota al margen, de una nota a pie de página, etc.</li>
+  <li><code class="highlighter-rouge">@place</code>: es especialmente útil cuando se transcribe un manuscrito que posee notas en los márgenes; así por ejemplo podemos indicar la localización física de la nota.</li>
+  <li><code class="highlighter-rouge">@xml:id</code>: se utiliza, como hemos visto, para dar un identificador único a la nota en cuestión, de manera que podamos referirnos a esta con facilidad y crear, si lo deseamos, un enlace a la misma</li>
+  <li><code class="highlighter-rouge">@target</code>: lo utilizaríamos para conectar la referencia con la nota o viceversa.</li>
 </ul>
 
-<p>Las notas pueden marcarse de dos maneras diferentes; una opción es situarla donde aparece la referencia a la misma en el cuerpo del texto (Opción 1); la otra consiste en crear una zona separada (una <span class="code">&lt;div type=“notas”</span>&gt; por ejemplo) y apuntar a la referencia a través del <span class="code">@target</span>:</p>
+<p>Las notas pueden marcarse de dos maneras diferentes; una opción es situarla donde aparece la referencia a la misma en el cuerpo del texto (Opción 1); la otra consiste en crear una zona separada (una <code class="highlighter-rouge">&lt;div type=“notas”&gt;</code> por ejemplo) y apuntar a la referencia a través del <code class="highlighter-rouge">@target</code>:</p>
 
-<blockquote>
-  <p><u>Opción 1</u></p>
+<p><u>Opción 1</u></p>
 
-  <blockquote>
-    <p><span class="code"><span style="color: #0003ff;">&lt;p&gt;</span>Historia y organización<span style="color: #0003ff;"><note n="1">&lt;/span&gt;Todas las discusiones e informaciones relativas entorno a TEI desde sus inicios se encuentran en el repositorio de la lista TEI&lt;/span&gt;<span>  
-<span style="color: #0003ff;"><span class="code">&lt;/note&gt;&lt;/p&gt;</span></span></span></note></span></span></p>
-  </blockquote>
-</blockquote>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="no">Historia</span> <span class="n">y</span> <span class="n">organizaci</span><span class="err">ó</span><span class="n">n</span><span class="o">&lt;</span><span class="n">note</span> <span class="n">n</span><span class="o">=</span><span class="s2">"1"</span><span class="o">&gt;</span><span class="no">Todas</span> <span class="n">las</span> <span class="n">discusiones</span> <span class="n">e</span> <span class="n">informaciones</span> <span class="n">relativas</span> <span class="n">entorno</span> <span class="n">a</span> <span class="no">TEI</span> <span class="n">desde</span> <span class="n">sus</span> <span class="n">inicios</span> <span class="n">se</span> <span class="n">encuentran</span> <span class="n">en</span> <span class="n">el</span> <span class="n">repositorio</span> <span class="n">de</span> <span class="n">la</span> <span class="n">lista</span> <span class="no">TEI</span><span class="o">&lt;</span><span class="sr">/note&gt;&lt;/</span><span class="nb">p</span><span class="o">&gt;</span></code></pre></figure>
 
-<blockquote>
-  <p><u>Opción 2</u></p>
+<p><u>Opción 2</u></p>
 
-  <blockquote>
-    <p><span class="code"><span style="color: #0003ff;">&lt;p&gt;</span>Historia y organización<span style="color: #0003ff;"><ref target="nota1" xml:id="referencia1">&lt;/span&gt;1<span style="color: #0003ff;">&lt;/ref&gt;&lt;/p&gt;</span></ref></span></span></p>
-    <p>&lt;/span&gt;....<span style="color: #0003ff;">&lt;/p&gt;</span>&lt;/span&gt;
-
-<span class="code">[...]</span>  
-  
-<span class="code"><span style="color: #0003ff;">&lt;div type="notas"  
-<note xml:id="nota1" target="#referencia1">&lt;/span&gt;Todas las discusiones e informaciones relativas entorno a TEI desde sus inicios se encuentran en el repositorio de la lista TEI <span style="color: #0003ff;">&lt;/note&gt;  
-&lt;/div&gt;</span>&lt;/span&gt;
-</note></span></span></p>
-  </blockquote>
-</blockquote>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="no">Historia</span> <span class="n">y</span> <span class="n">organizaci</span><span class="err">ó</span><span class="n">n</span><span class="o">&lt;</span><span class="n">ref</span> <span class="n">target</span><span class="o">=</span><span class="s2">"nota1"</span> <span class="n">xml</span><span class="ss">:id</span><span class="o">=</span><span class="s2">"referencia1"</span><span class="o">&gt;</span><span class="mi">1</span><span class="o">&lt;</span><span class="sr">/ref&gt;&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">.</span><span class="o">&lt;</span><span class="sr">/p&gt;
+[...]
+&lt;div type="notas"&gt;  
+   &lt;note xml:id="nota1" target="#referencia1"&gt;Todas las discusiones e informaciones relativas entorno a TEI desde sus inicios se encuentran en el repositorio de la lista TEI&lt;/no</span><span class="n">te</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="sr">/div&gt;</span></code></pre></figure>
 
 <h2 id="indexacin">Indexación</h2>
 
@@ -366,20 +344,19 @@
 
 <ul>
   <li>
-    <p>[<span class="code"><index>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-index.html) marca una entrada de índice, puede llevar <span class="code">@indexName</span>; en su interior pueden anidarse diferentes índices.</index></span></p>
+    <p><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-index.html"><code class="highlighter-rouge">&lt;index&gt;</code></a> marca una entrada de índice, puede llevar <span class="code">@indexName</span>; en su interior pueden anidarse diferentes índices.</p>
   </li>
   <li>
-    <p>[<span class="code"><term>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-term.html) marca un término en el interior del índice.</term></span></p>
+    <p><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-term.html"><code class="highlighter-rouge">&lt;term&gt;</code></a> marca un término en el interior del índice.</p>
   </li>
 </ul>
 
 <p>Puede ocurrir que la fuente original no tenga un índice, pero que queramos construir uno. Esto puede hacerse de diferentes maneras, una de ellas sería utilizando los dos elementos anteriores y marcar los términos que queramos introducir en un nuevo índice. Por ejemplo, imaginemos que queremos hacer un índice de personajes:</p>
 
-<blockquote>
-  <blockquote>
-    <p><span class="code"><span style="color: #0003ff;">&lt;p&gt;<index indexName="Personajes"><term xml:id="PJ">&lt;/span&gt;Pepita<span style="color: #0003ff;">&lt;/term&gt;&lt;/index&gt;</span> tendrá veinte años; es viuda; sólo tres años estuvo casada. Era hija de doña <span style="color: #0003ff;"><index indexName="Personajes"><term xml:id="FG">&lt;/span&gt;Francisca Gálvez<span style="color: #0003ff;">&lt;/term&gt;&lt;/index&gt;</span>, viuda, como Vd. sabe, de un capitán retirado.<span style="color: #0003ff;">&lt;/p&gt;</span>&lt;/span&gt;</term></index></span></term></index></span></span></p>
-  </blockquote>
-</blockquote>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">index</span> <span class="n">indexName</span><span class="o">=</span><span class="s2">"Personajes"</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">term</span> <span class="n">xml</span><span class="ss">:id</span><span class="o">=</span><span class="s2">"PJ"</span><span class="o">&gt;</span><span class="no">Pepita</span><span class="o">&lt;</span><span class="sr">/term&gt;&lt;/in</span><span class="n">dex</span><span class="o">&gt;</span> <span class="n">tendr</span><span class="err">á</span> <span class="n">veinte</span> <span class="n">a</span><span class="err">ñ</span><span class="n">os</span><span class="p">;</span> <span class="n">es</span> <span class="n">viuda</span><span class="p">;</span> <span class="n">s</span><span class="err">ó</span><span class="n">lo</span> <span class="n">tres</span> <span class="n">a</span><span class="err">ñ</span><span class="n">os</span> <span class="n">estuvo</span> <span class="n">casada</span><span class="o">.</span> <span class="no">Era</span> <span class="n">hija</span> <span class="n">de</span> <span class="n">do</span><span class="err">ñ</span><span class="n">a</span> <span class="o">&lt;</span><span class="n">index</span> <span class="n">indexName</span><span class="o">=</span><span class="s2">"Personajes"</span><span class="o">&gt;&lt;</span><span class="n">term</span> <span class="n">xml</span><span class="ss">:id</span><span class="o">=</span><span class="s2">"FG"</span><span class="o">&gt;</span><span class="no">Francisca</span> <span class="no">G</span><span class="err">á</span><span class="n">lvez</span><span class="o">&lt;</span><span class="sr">/term&gt;&lt;/in</span><span class="n">dex</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">viuda</span><span class="p">,</span> <span class="n">como</span> <span class="no">Vd</span><span class="p">.</span> <span class="nf">sabe</span><span class="p">,</span> <span class="n">de</span> <span class="n">un</span> <span class="n">capit</span><span class="err">á</span><span class="n">n</span> <span class="n">retirado</span><span class="p">.</span>
+<span class="nf">&lt;</span><span class="o">/</span><span class="nb">p</span><span class="o">&gt;</span></code></pre></figure>
 
 <p>De esta manera sería fácil autogenerar un índice con los nombres de los personajes.</p>
 
@@ -388,8 +365,8 @@
 <p>Una de las ventajas de crear un hipertexto es justamente la posibilidad que tenemos de conectar las diferentes secciones del texto a otras y establecer todo tipo de enlaces. En TEI los enlaces pueden realizarse de dos maneras, con los siguientes elementos:</p>
 
 <ul>
-  <li>[<span class="code"><ptr>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-ptr.html) (_pointer_) un indicador hacia otra localización</ptr></span></li>
-  <li>[<span class="code"><ref>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-ref.html) (_reference_) define una referencia hacia otra localización, normalmente contiene un texto que funciona como el enlace. Ambos suelen utilizar, entre otros, el atributo <span class="code">@target</span> que toma la forma de una referencia URI.</ref></span></li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-ptr.html"><code class="highlighter-rouge">&lt;ptr&gt;</code></a> (<em>pointer</em>) un indicador hacia otra localización</li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-ref.html"><code class="highlighter-rouge">&lt;ref&gt;</code></a> (<em>reference</em>) define una referencia hacia otra localización, normalmente contiene un texto que funciona como el enlace. Ambos suelen utilizar, entre otros, el atributo <code class="highlighter-rouge">@target</code> que toma la forma de una referencia URI.</li>
 </ul>
 
 <h2 id="otros-elementos">5. Otros elementos</h2>
@@ -398,40 +375,38 @@
 
 <p>**5.1. Cambios editoriales **</p>
 
-<p>Como ocurre en la edición de fuentes escritas, a veces debemos señalar el proceso de constitución de un texto en sus diferentes fases (copistas, editores papel, editor digital, etc.). Para recoger las intervenciones editoriales disponemos de una serie de elementos básicos que podemos utilizar en todos los documentos TEI. Para entender la codificación de estos fenómenos debemos visualizar la intervención como una unidad en la que hay etapas o elementos diferentes. El elemento encargado de recoger estos marcados editoriales alternativos es [<span class="code"><choice>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-choice.html), y puede utilizarse en los siguientes casos:</choice></span></p>
+<p>Como ocurre en la edición de fuentes escritas, a veces debemos señalar el proceso de constitución de un texto en sus diferentes fases (copistas, editores papel, editor digital, etc.). Para recoger las intervenciones editoriales disponemos de una serie de elementos básicos que podemos utilizar en todos los documentos TEI. Para entender la codificación de estos fenómenos debemos visualizar la intervención como una unidad en la que hay etapas o elementos diferentes. El elemento encargado de recoger estos marcados editoriales alternativos es <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-choice.html"><code class="highlighter-rouge">&lt;choice&gt;</code></a>, y puede utilizarse en los siguientes casos:</p>
 
 <ul>
-  <li>
-    <p>Corrección de errores: ante un error, se utiliza el elemento [<span class="code"><sic>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-sic.html) para marcar el error aparente; con el elemento [<span class="code"><corr>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-corr.html), en cambio, se recoge la corrección de dicho error:</corr></span></sic></span></p>
-
-    <blockquote>
-      <p><span class="code"><span style="color: #0003ff;">&lt;p&gt;</span>Hasta cinco mujeres han venido a verme que <span style="color: #0003ff;"><choice><sic>&lt;/span&gt;todos<span style="color: #0003ff;">&lt;/sic&gt;<corr>&lt;/span&gt;todas<span style="color: #0003ff;">&lt;/corr&gt;&lt;/choice&gt;</span> han sido mis amas y me han abrazado y besado.<span style="color: #0003ff;">&lt;/p&gt;</span>&lt;/span&gt;</corr></span></sic></choice></span></span></p>
-    </blockquote>
-  </li>
-  <li>
-    <p>Regularización de formas ortográficas: la forma original que aparece en el texto se marca con el elemento [<span class="code"><orig>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-orig.html), mientras que su forma regularizada, con el elemento [<span class="code"><reg>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-reg.html):</reg></span></orig></span></p>
-
-    <blockquote>
-      <p><span class="code"><span style="color: #0003ff;"><choice><orig>&lt;/span&gt;Comiença<span style="color: #0003ff;">&lt;/orig&gt;<reg>&lt;/span&gt;Comienza<span style="color: #0003ff;">&lt;/reg&gt;&lt;/choice&gt;</span> la  
-<span style="color: #0003ff;"><choice><orig>&lt;/span&gt;ystoria<span style="color: #0003ff;">&lt;/orig&gt;<reg>&lt;/span&gt;historia<span style="color: #0003ff;">&lt;/reg&gt;&lt;/choice&gt;</span>...&lt;/span&gt;</reg></span></orig></choice></span></reg></span></orig></choice></span></span></p>
-    </blockquote>
-  </li>
-  <li>
-    <p>Abreviatura: la forma abreviada aparece en el elemento [<span class="code"><abbr>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-abbr.html), mientras que la forma expandida bajo [<span class="code"><expan>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-expan.html):</expan></span></abbr></span></p>
-
-    <blockquote>
-      <p><span class="code"><span style="color: #0003ff;">&lt;p&gt;</span>…un largo <span style="color: #0003ff;"><choice><abbr>&lt;/span&gt;etc.<span style="color: #0003ff;">&lt;/abbr&gt;<expan>&lt;/span&gt;etcétera<span style="color: #0003ff;">&lt;/expan&gt;&lt;/choice&gt;&lt;/p&gt;</span>&lt;/span&gt;</expan></span></abbr></choice></span></span></p>
-    </blockquote>
-  </li>
+  <li>Corrección de errores: ante un error, se utiliza el elemento <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-sic.html"><code class="highlighter-rouge">&lt;sic&gt;</code></a> para marcar el error aparente; con el elemento <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-corr.html"><code class="highlighter-rouge">&lt;corr&gt;</code></a>, en cambio, se recoge la corrección de dicho error:</li>
 </ul>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="no">Hasta</span> <span class="n">cinco</span> <span class="n">mujeres</span> <span class="n">han</span> <span class="n">venido</span> <span class="n">a</span> <span class="n">verme</span> <span class="n">que</span> 
+   <span class="o">&lt;</span><span class="n">choice</span><span class="o">&gt;&lt;</span><span class="n">sic</span><span class="o">&gt;</span><span class="n">todos</span><span class="o">&lt;</span><span class="sr">/sic&gt;&lt;corr&gt;todas&lt;/</span><span class="n">corr</span><span class="o">&gt;&lt;</span><span class="sr">/choice&gt;
+   han sido mis amas y me han abrazado y besado.&lt;/</span><span class="nb">p</span><span class="o">&gt;</span></code></pre></figure>
+
+<ul>
+  <li>Regularización de formas ortográficas: la forma original que aparece en el texto se marca con el elemento <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-orig.html"><code class="highlighter-rouge">&lt;orig&gt;</code></a>, mientras que su forma regularizada, con el elemento <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-reg.html"><code class="highlighter-rouge">&lt;reg&gt;</code></a>:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">choice</span><span class="o">&gt;&lt;</span><span class="n">orig</span><span class="o">&gt;</span><span class="no">Comien</span><span class="err">ç</span><span class="n">a</span><span class="o">&lt;</span><span class="sr">/orig&gt;&lt;reg&gt;Comienza&lt;/</span><span class="n">reg</span><span class="o">&gt;&lt;</span><span class="sr">/choice&gt; la  
+ &lt;choice&gt;&lt;orig&gt;ystoria&lt;/o</span><span class="n">rig</span><span class="o">&gt;&lt;</span><span class="n">reg</span><span class="o">&gt;</span><span class="n">historia</span><span class="o">&lt;</span><span class="sr">/reg&gt;&lt;/</span><span class="n">choice</span><span class="o">&gt;</span><span class="p">.</span><span class="nf">.</span><span class="o">.</span></code></pre></figure>
+
+<ul>
+  <li>Abreviatura: la forma abreviada aparece en el elemento [<abbr><code class="highlighter-rouge">](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-abbr.html), mientras que la forma expandida bajo [</code><expan>`](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-expan.html):</expan></abbr></li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">un</span> <span class="n">largo</span> 
+    <span class="o">&lt;</span><span class="n">choice</span><span class="o">&gt;&lt;</span><span class="n">abbr</span><span class="o">&gt;</span><span class="n">etc</span><span class="p">.</span><span class="nf">&lt;</span><span class="o">/</span><span class="n">abbr</span><span class="o">&gt;&lt;</span><span class="n">expan</span><span class="o">&gt;</span><span class="n">etc</span><span class="err">é</span><span class="n">tera</span><span class="o">&lt;</span><span class="sr">/expan&gt;&lt;/</span><span class="n">choice</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="sr">/p&gt;</span></code></pre></figure>
 
 <p>Hay otro tipo de intervenciones que pueden codificarse de manera aislada, como las adiciones, las eliminaciones, las omisiones,  e incluso las lecturas dudosas:</p>
 
 <ul>
-  <li>[<span class="code"><add>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-add.html): adición al texto, como por ejemplo una glosa marginal.</add></span></li>
-  <li>[<span class="code"><del>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-del.html): una eliminación en el texto, como una tachadura.</del></span></li>
-  <li>[<span class="code"><gap>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-gap.html): indica un punto donde el material ha sido omitido; puede tener el atributo <span class="code">@reason</span> para señalar el motivo.</gap></span></li>
-  <li>[<span class="code"><unclear>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-unclear.html): indica una lectura dudosa.</unclear></span></li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-add.html"><code class="highlighter-rouge">&lt;add&gt;</code></a>: adición al texto, como por ejemplo una glosa marginal.</li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-del.html"><code class="highlighter-rouge">&lt;del&gt;</code></a>: una eliminación en el texto, como una tachadura.</li>
+  <li>[<code class="highlighter-rouge">&lt;gap&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-gap.html): indica un punto donde el material ha sido omitido; puede tener el atributo </code>@reason` para señalar el motivo.</li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-unclear.html"><code class="highlighter-rouge">&lt;unclear&gt;</code></a>: indica una lectura dudosa.</li>
 </ul>
 
 <p><strong>5.2. Milestones</strong></p>
@@ -440,14 +415,12 @@
 
 <ul>
   <li>
-    <p>[<span class="code"><milestone>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-milestone.html): marca un punto límite separando cualquier tipo de sección de un texto.</milestone></span></p>
+    <p><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-milestone.html"><code class="highlighter-rouge">&lt;milestone&gt;</code></a>: marca un punto límite separando cualquier tipo de sección de un texto.</p>
   </li>
-  <li><span class="code">[<gb>](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-gb.html)&lt;/span&gt; (_gatherin<span face="times new roman,times,serif">g begins</span>_<span face="times new roman,times,serif">) puede i</span>ndicar el inicio o final de la folación de un manuscrito, por ejemplo donde empieza y donde acaba un cuaderno.</gb></span></li>
-  <li><span class="code">[<pb>](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-pb.html)&lt;/span&gt; (_page break_): indica el cambio de página.</pb></span></li>
-  <li>
-    <p><span class="code">[<lb>](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-lb.html)&lt;/span&gt; (_line break_): indica el cambio de línea.</lb></span></p>
-  </li>
-  <li>[<span class="code"><cb>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-cb.html) (_column break_): indica el cambio de columna</cb></span></li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-gb.html"><code class="highlighter-rouge">&lt;gb&gt;</code></a> (<em>gatherin<span face="times new roman,times,serif">g begins</span></em>) puede indicar el inicio o final de la folación de un manuscrito, por ejemplo donde empieza y donde acaba un cuaderno.</li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-pb.html"><code class="highlighter-rouge">&lt;pb&gt;</code></a> (<em>page break</em>): indica el cambio de página.</li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-lb.html"><code class="highlighter-rouge">&lt;lb&gt;</code></a> (<em>line break</em>): indica el cambio de línea.</li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-cb.html"><code class="highlighter-rouge">&lt;cb&gt;</code></a> (<em>column break</em>): indica el cambio de columna</li>
 </ul>
 
 <h3 id="anterior31html---------siguiente--51html"><a href="3.1.html">&lt; &lt; Anterior</a>         <a href="5.1.html">Siguiente &gt; &gt;</a></h3>
