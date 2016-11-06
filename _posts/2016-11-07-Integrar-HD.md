@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Integrar las Humanidades Digitales en una Universidad Hemísférica"
-date:   2016-11-07
+date:   2016-11-06
 categories: conferences
 permalink: /:categories/:title.html
 ---
@@ -22,10 +22,6 @@ Participantes:
 
 
 ## Cuestiones preliminares:
-* la enseñanza de las HD en español para estudiantes de segunda lengua o de herencia
-	Enseñar DH al mismo tiempo que se enseña español --> Cómo enseñamos DH en una lengua estrangera? ¿En un contexto de segunda lengua?
-	En el marco de un semestre, ¿qué se puede enseñar a estudiantes que no son completamente fuidos en español?
-* creación de los sílabos en cursos introductorios
 
 * ¿Cómo integramos las HD en un departamento de lenguas extranjeras?
 	* A través de proyectos
@@ -33,13 +29,14 @@ Participantes:
 	* Seminarios
 	* Talleres 
 	* Colaboración con la biblioteca
- 
-* Necesidad real y creciente en Estados Unidos de profesores en DH
- 
-* Diferencia entre DH y HD
+	
+* ¿Cómo enseñamos DH en un contexto de segunda lengua o de herencia?
+* En el marco de un semestre, ¿qué se puede enseñar a estudiantes que no dominan completamente el español?
+* Falta de materiales y sílabos tanto de cursos introductorios como especializados  
+* ¿Qué HD enseñar? Diferencia entre DH y HD
  
 
-## Cursos en HD, en español:
+## Cursos de HD, en español:
 
 I. [Seminar Latin American and Iberian Digital Humanities](/materials/syllabi/DHSeminar.html): Una introducción a las DH centrada principalmente en tecnologías y métodos. 
 
@@ -90,14 +87,16 @@ III. [Introducción a XML-TEI](/materials/IntroTEI/index.html)
 
 **Concepción de proyectos:** 
 * [LearningToTeach](http://learningtoteach.github.io/): Proyecto que posteriormente ha ganado una beca para un futuro desarrollo. 
-* [Kimberly Flores, *Cartas de amor y amistad a través de la frontera mexicana*](http://kimberlyflores.github.io/kimberlyflores.github.io/CARTAS/): prototipo de edición para la publicación de las cartas de amor de sus padres. [Ejemplo de una carta](http://kimberlyflores.github.io/kimberlyflores.github.io/CARTAS/carta_1.html)
+* [Kimberly Flores, *Cartas de amor y amistad a través de la frontera mexicana*](http://kimberlyflores.github.io/kimberlyflores.github.io/CARTAS/): prototipo de edición para la publicación de las cartas de sus padres. [Ejemplo de una carta](http://kimberlyflores.github.io/kimberlyflores.github.io/CARTAS/carta_1.html)
 
 **Trabajos al interno de un proyecto en curso**
-* Lilianne Lugo Herrera
+
+* Lilianne Lugo Herrera, Digital Voices 
 
 ## Algunas ideas finales: 
-* Falta de materiales en español; y especialmente en el contexto de la enseñanza del español. --> Creación de una plataforma de materiales en español. 
-* Necesidad de planear una estrategia para implantar herramientas, tecnologías y métodos de las HD. 
+* Falta de materiales en español y especialmente en el contexto de la enseñanza del español. 
+* ¿Creación de una plataforma de materiales en español o  multilingue? 
+* Necesidad de planear una estrategia para implantar herramientas, tecnologías y métodos que cubra la diversidad de las HD.
 
 
 [Alles]: http://www.as.miami.edu/mll/people/faculty/dr-susanna-alles-torrent/ 

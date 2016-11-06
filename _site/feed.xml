@@ -1,4 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-04T15:41:40+01:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-03T00:00:00+01:00</published><updated>2016-11-03T00:00:00+01:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-06T09:34:05-03:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Integrar las Humanidades Digitales en una Universidad Hemísférica</title><link href="http://localhost:4000/conferences/Integrar-HD.html" rel="alternate" type="text/html" title="Integrar las Humanidades Digitales en una Universidad Hemísférica" /><published>2016-11-06T00:00:00-03:00</published><updated>2016-11-06T00:00:00-03:00</updated><id>http://localhost:4000/conferences/Integrar-HD</id><content type="html" xml:base="http://localhost:4000/conferences/Integrar-HD.html">&lt;p&gt;Lugar: Sala Dubrosky 3ºpiso (CCC). Horario: 17:00hs a 18:00hs.&lt;/p&gt;
+
+&lt;p&gt;Participantes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.as.miami.edu/mll/people/faculty/dr-susanna-alles-torrent/&quot;&gt;&lt;strong&gt;Susanna Allés Torrent&lt;/strong&gt;&lt;/a&gt; (University of Miami), “Integrar las HD en un departamento de lenguas modernas”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.as.miami.edu/mll/people/faculty/dr-lillian-manzor-/&quot;&gt;&lt;strong&gt;Lillian Manzor&lt;/strong&gt;&lt;/a&gt; (University of Miami), “El Archivo Digital del Teatro Cubano y la creación de puentes digitales”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.as.miami.edu/mll/people/graduate-students/&quot;&gt;&lt;strong&gt;Lilianne Lugo Herrera&lt;/strong&gt;&lt;/a&gt; (University of Miami), “Voces del Diseño: historia oral y prácticas archivísticas para las artes escénicas”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://portal.uned.es/portal/page?_pageid=93,24222657&amp;amp;_dad=portal&amp;amp;_schema=PORTAL&quot;&gt;&lt;strong&gt;Elena González-Blanco&lt;/strong&gt;&lt;/a&gt; (Universidad Nacional de Educación a Distancia) &amp;amp; &lt;a href=&quot;http://linhd.uned.es/gimenadelrio/&quot;&gt;&lt;strong&gt;Gimena del Rio Riande&lt;/strong&gt;&lt;/a&gt; (CONICET), “Las HD y la educación a distancia en las dos orillas del Atlántico: el LINHD”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=79&amp;amp;block=12&amp;amp;vs=128&quot;&gt;Resumen de la sesión&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;==========&lt;/p&gt;
+
+&lt;h1 id=&quot;s-alls-torrent-integrar-las-hd-en-un-departamento-de-lenguas-modernas&quot;&gt;S. Allés Torrent, “Integrar las HD en un departamento de lenguas modernas”&lt;/h1&gt;
+
+&lt;h2 id=&quot;cuestiones-preliminares&quot;&gt;Cuestiones preliminares:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;¿Cómo integramos las HD en un departamento de lenguas extranjeras?
+    &lt;ul&gt;
+      &lt;li&gt;A través de proyectos&lt;/li&gt;
+      &lt;li&gt;Cursos sobre tecnologías&lt;/li&gt;
+      &lt;li&gt;Seminarios&lt;/li&gt;
+      &lt;li&gt;Talleres&lt;/li&gt;
+      &lt;li&gt;Colaboración con la biblioteca&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;¿Cómo enseñamos DH en un contexto de segunda lengua o de herencia?&lt;/li&gt;
+  &lt;li&gt;En el marco de un semestre, ¿qué se puede enseñar a estudiantes que no dominan completamente el español?&lt;/li&gt;
+  &lt;li&gt;Falta de materiales y sílabos tanto de cursos introductorios como especializados&lt;/li&gt;
+  &lt;li&gt;¿Qué HD enseñar? Diferencia entre DH y HD&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cursos-de-hd-en-espaol&quot;&gt;Cursos de HD, en español:&lt;/h2&gt;
+
+&lt;p&gt;I. &lt;a href=&quot;/materials/syllabi/DHSeminar.html&quot;&gt;Seminar Latin American and Iberian Digital Humanities&lt;/a&gt;: Una introducción a las DH centrada principalmente en tecnologías y métodos.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Introducción: definiciones, historia, proyectos
+2. Conceptos básicos: el terminal, servidor
+3. Crear una página web: HTML, CSS
+4. XML y TEI
+5. Text Mining y análisis electrónico de texto
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;II. &lt;a href=&quot;/materials/syllabi/MinimalEditions.html&quot;&gt;Minimal Editions&lt;/a&gt;: proyecto colaborativo para contruir una edición digital.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Principios básicos de la crítica textual
+2. Contexto literario de la obra estudiada
+3. XML-TEI
+4. GitHub
+5. HTML, CSS
+6. XSLT
+7. Jekyll
+8. GitHub Pages 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;III. &lt;a href=&quot;/materials/IntroTEI/index.html&quot;&gt;Introducción a XML-TEI&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. XML
+2. TEI Guidelines
+3. Tipologías textuales y codificación
+4. Personalización y esquemas
+5. Función de la ODD 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;cursos-con-un-componente-o-proyecto-en-hd&quot;&gt;Cursos con un componente o proyecto en HD&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introducción a la investigación&lt;/li&gt;
+  &lt;li&gt;Cursos de lengua, de literatura, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;algunos-ejemplos&quot;&gt;Algunos Ejemplos:&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Ediciones digitales:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dh-laic.com/undergraduate/Fall2014/Ferracci/index.html&quot;&gt;Tres ediciones del soneto XXII de Garcilaso de la Vega&lt;/a&gt;: Edición digital hecha a partir de Version Machine.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://graduate.dh-laic.com/Cadena/&quot;&gt;Ramiro Cárdenas, Dos veces la muerte y otros cuentos&lt;/a&gt;: Edición digital contruida con Jekyll&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Proyectos con CMS:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://scalar.usc.edu/works/raros-peinados-nuevos/index&quot;&gt;Raros peinados nuevos&lt;/a&gt;: Trabajo final de grado construido con Scalar.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Portfolios / páginas personales / Blogs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://kimberlyflores.github.io/&quot;&gt;Kimberly Flores&lt;/a&gt;: Portfolio de estudiante ‘undergrad’&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.columbia.edu/~ajl2217/&quot;&gt;Armando’s Blog&lt;/a&gt;: Blog en inglés y en español&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepción de proyectos:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://learningtoteach.github.io/&quot;&gt;LearningToTeach&lt;/a&gt;: Proyecto que posteriormente ha ganado una beca para un futuro desarrollo.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://kimberlyflores.github.io/kimberlyflores.github.io/CARTAS/&quot;&gt;Kimberly Flores, &lt;em&gt;Cartas de amor y amistad a través de la frontera mexicana&lt;/em&gt;&lt;/a&gt;: prototipo de edición para la publicación de las cartas de sus padres. &lt;a href=&quot;http://kimberlyflores.github.io/kimberlyflores.github.io/CARTAS/carta_1.html&quot;&gt;Ejemplo de una carta&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Trabajos al interno de un proyecto en curso&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lilianne Lugo Herrera, Digital Voices&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;algunas-ideas-finales&quot;&gt;Algunas ideas finales:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Falta de materiales en español y especialmente en el contexto de la enseñanza del español.&lt;/li&gt;
+  &lt;li&gt;¿Creación de una plataforma de materiales en español o  multilingue?&lt;/li&gt;
+  &lt;li&gt;Necesidad de planear una estrategia para implantar herramientas, tecnologías y métodos que cubra la diversidad de las HD.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Susanna Allés Torrent</name></author><summary type="html">Lugar: Sala Dubrosky 3ºpiso (CCC). Horario: 17:00hs a 18:00hs.</summary></entry><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-03T00:00:00-03:00</published><updated>2016-11-03T00:00:00-03:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
 En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales&lt;/a&gt;. 7-9 noviembre 2016&lt;/p&gt;
 
 &lt;p&gt;El taller se divide en 4 partes diferentes:&lt;/p&gt;
