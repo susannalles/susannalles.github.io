@@ -57,6 +57,8 @@ II. [Minimal Editions](/materials/syllabi/MinimalEditions.html): proyecto colabo
 	7. Jekyll
 	8. GitHub Pages 
 
+Resultado del curso: [MiniLazarillo](http://minilazarillo.github.io/)
+
 III. [Introducción a XML-TEI](/materials/IntroTEI/index.html) 
 
 	1. XML
@@ -74,19 +76,25 @@ III. [Introducción a XML-TEI](/materials/IntroTEI/index.html)
 ## Algunos Ejemplos: 
 
 **Ediciones digitales:**
+
 * [Tres ediciones del soneto XXII de Garcilaso de la Vega](http://dh-laic.com/undergraduate/Fall2014/Ferracci/index.html): Edición digital hecha a partir de Version Machine. 
+
 * [Ramiro Cárdenas, Dos veces la muerte y otros cuentos](http://graduate.dh-laic.com/Cadena/): Edición digital contruida con Jekyll 
 
 **Proyectos con CMS:**
+
 * [Raros peinados nuevos](http://scalar.usc.edu/works/raros-peinados-nuevos/index): Trabajo final de grado construido con Scalar.
 
 **Portfolios / páginas personales / Blogs:** 
 
 * [Kimberly Flores](http://kimberlyflores.github.io/): Portfolio de estudiante 'undergrad'
+
 * [Armando’s Blog](http://www.columbia.edu/~ajl2217/): Blog en inglés y en español
 
 **Concepción de proyectos:** 
+
 * [LearningToTeach](http://learningtoteach.github.io/): Proyecto que posteriormente ha ganado una beca para un futuro desarrollo. 
+
 * [Kimberly Flores, *Cartas de amor y amistad a través de la frontera mexicana*](http://kimberlyflores.github.io/kimberlyflores.github.io/CARTAS/): prototipo de edición para la publicación de las cartas de sus padres. [Ejemplo de una carta](http://kimberlyflores.github.io/kimberlyflores.github.io/CARTAS/carta_1.html)
 
 **Trabajos al interno de un proyecto en curso**
@@ -94,6 +102,7 @@ III. [Introducción a XML-TEI](/materials/IntroTEI/index.html)
 * Lilianne Lugo Herrera, Digital Voices 
 
 ## Algunas ideas finales: 
+
 * Falta de materiales en español y especialmente en el contexto de la enseñanza del español. 
 * ¿Creación de una plataforma de materiales en español o  multilingue? 
 * Necesidad de planear una estrategia para implantar herramientas, tecnologías y métodos que cubra la diversidad de las HD.

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-06T09:34:05-03:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Integrar las Humanidades Digitales en una Universidad Hemísférica</title><link href="http://localhost:4000/conferences/Integrar-HD.html" rel="alternate" type="text/html" title="Integrar las Humanidades Digitales en una Universidad Hemísférica" /><published>2016-11-06T00:00:00-03:00</published><updated>2016-11-06T00:00:00-03:00</updated><id>http://localhost:4000/conferences/Integrar-HD</id><content type="html" xml:base="http://localhost:4000/conferences/Integrar-HD.html">&lt;p&gt;Lugar: Sala Dubrosky 3ºpiso (CCC). Horario: 17:00hs a 18:00hs.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-06T09:37:50-03:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Integrar las Humanidades Digitales en una Universidad Hemísférica</title><link href="http://localhost:4000/conferences/Integrar-HD.html" rel="alternate" type="text/html" title="Integrar las Humanidades Digitales en una Universidad Hemísférica" /><published>2016-11-06T00:00:00-03:00</published><updated>2016-11-06T00:00:00-03:00</updated><id>http://localhost:4000/conferences/Integrar-HD</id><content type="html" xml:base="http://localhost:4000/conferences/Integrar-HD.html">&lt;p&gt;Lugar: Sala Dubrosky 3ºpiso (CCC). Horario: 17:00hs a 18:00hs.&lt;/p&gt;
 
 &lt;p&gt;Participantes:&lt;/p&gt;
 &lt;ul&gt;
@@ -57,6 +57,8 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
+&lt;p&gt;Resultado del curso: &lt;a href=&quot;http://minilazarillo.github.io/&quot;&gt;MiniLazarillo&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;III. &lt;a href=&quot;/materials/IntroTEI/index.html&quot;&gt;Introducción a XML-TEI&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. XML
@@ -77,12 +79,18 @@
 &lt;h2 id=&quot;algunos-ejemplos&quot;&gt;Algunos Ejemplos:&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Ediciones digitales:&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://dh-laic.com/undergraduate/Fall2014/Ferracci/index.html&quot;&gt;Tres ediciones del soneto XXII de Garcilaso de la Vega&lt;/a&gt;: Edición digital hecha a partir de Version Machine.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://graduate.dh-laic.com/Cadena/&quot;&gt;Ramiro Cárdenas, Dos veces la muerte y otros cuentos&lt;/a&gt;: Edición digital contruida con Jekyll&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://dh-laic.com/undergraduate/Fall2014/Ferracci/index.html&quot;&gt;Tres ediciones del soneto XXII de Garcilaso de la Vega&lt;/a&gt;: Edición digital hecha a partir de Version Machine.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://graduate.dh-laic.com/Cadena/&quot;&gt;Ramiro Cárdenas, Dos veces la muerte y otros cuentos&lt;/a&gt;: Edición digital contruida con Jekyll&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Proyectos con CMS:&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://scalar.usc.edu/works/raros-peinados-nuevos/index&quot;&gt;Raros peinados nuevos&lt;/a&gt;: Trabajo final de grado construido con Scalar.&lt;/li&gt;
 &lt;/ul&gt;
@@ -90,14 +98,23 @@
 &lt;p&gt;&lt;strong&gt;Portfolios / páginas personales / Blogs:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://kimberlyflores.github.io/&quot;&gt;Kimberly Flores&lt;/a&gt;: Portfolio de estudiante ‘undergrad’&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.columbia.edu/~ajl2217/&quot;&gt;Armando’s Blog&lt;/a&gt;: Blog en inglés y en español&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://kimberlyflores.github.io/&quot;&gt;Kimberly Flores&lt;/a&gt;: Portfolio de estudiante ‘undergrad’&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.columbia.edu/~ajl2217/&quot;&gt;Armando’s Blog&lt;/a&gt;: Blog en inglés y en español&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Concepción de proyectos:&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://learningtoteach.github.io/&quot;&gt;LearningToTeach&lt;/a&gt;: Proyecto que posteriormente ha ganado una beca para un futuro desarrollo.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://kimberlyflores.github.io/kimberlyflores.github.io/CARTAS/&quot;&gt;Kimberly Flores, &lt;em&gt;Cartas de amor y amistad a través de la frontera mexicana&lt;/em&gt;&lt;/a&gt;: prototipo de edición para la publicación de las cartas de sus padres. &lt;a href=&quot;http://kimberlyflores.github.io/kimberlyflores.github.io/CARTAS/carta_1.html&quot;&gt;Ejemplo de una carta&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://learningtoteach.github.io/&quot;&gt;LearningToTeach&lt;/a&gt;: Proyecto que posteriormente ha ganado una beca para un futuro desarrollo.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://kimberlyflores.github.io/kimberlyflores.github.io/CARTAS/&quot;&gt;Kimberly Flores, &lt;em&gt;Cartas de amor y amistad a través de la frontera mexicana&lt;/em&gt;&lt;/a&gt;: prototipo de edición para la publicación de las cartas de sus padres. &lt;a href=&quot;http://kimberlyflores.github.io/kimberlyflores.github.io/CARTAS/carta_1.html&quot;&gt;Ejemplo de una carta&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Trabajos al interno de un proyecto en curso&lt;/strong&gt;&lt;/p&gt;
@@ -107,6 +124,7 @@
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;algunas-ideas-finales&quot;&gt;Algunas ideas finales:&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Falta de materiales en español y especialmente en el contexto de la enseñanza del español.&lt;/li&gt;
   &lt;li&gt;¿Creación de una plataforma de materiales en español o  multilingue?&lt;/li&gt;
