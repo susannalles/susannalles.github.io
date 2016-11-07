@@ -192,6 +192,40 @@ Tutoriales:
 
 [GitHub Pages](https://pages.github.com/) es un espacio gratuito para albergar los ficheros que van a constituir una página web estática. Se trata de un conjunto de páginas web públicas albergadas gratuitamente en GitHub bajo el dominio github.io (o cualquier otro dominio que se escoja). La misma página de GitHub Pages está creada y es mantenida a través de Jekyll. 
 
+## Subir la edición a GitHub Pages con GitHub Desktop ## 
+
+Activaremos ahora GitHub Pages siguiendo las instrucciones en [https://pages.github.com/](https://pages.github.com/).
+- Id a vuestro GitHub `https://github.com/username` 
+- Id a la pestaña de arriba "+" y seleccionad "New repository". 
+- En "Repository name" escribid `username.github.io`, donde `username` es vuestro nombre de usuario en GitHub. Clicad la opción "Initialize this repository with a README" y "Create repository". 
+
+![Crear repositorio]({{site.url}}/public/img/.png)
+
+- Cread donde queráis una carpeta llamada "GitHub". 
+- Id a la pestaña "Clone or download" y "Open in Desktop". 
+- Elegid la ubicación donde queréis crearla, en vuestra carpeta "GitHub".
+- Abrid un editor de texto (TextWrangler, Notepad ++, Sublime) y crea una página html que se llame `index.html` y que contenga algo de contenido. Por ejemplo: 
+
+{% highlight ruby %}
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Mi GitHub Pages</title>
+    </head>
+    <body>
+        <p>Hola mundo</p>
+        <p>Activamos mi página web</p>
+    </body>
+</html>
+{% endhighlight %}
+
+- Guardad este documento como "index.html" en la carpeta "usuario.github.io". 
+- En la pestaña "Changes", veréis los documentos que acabáis de añadir, en este caso, "index.html". 
+- Donde pone "summary" escribid "mi primer commit" y confirmadlo en "Commit to master". 
+- Clicad "Sync".  
+- Si vais a vuestro repositorio en GitHub: `https://github.com/username/username.github.io` veréis que habéis añadido un nuevo repositorio que os va a funcionar como servidor. 
+- Ahora id a http://username.github.io y la magia debería suceder. 
+
 Tutoriales:
 
 * [GitHub Pages Basics](https://help.github.com/categories/github-pages-basics/)
@@ -300,39 +334,6 @@ author:
 {% endhighlight %}
 
 Una vez modificado el fichero de configuración, deberéis parar el servidor local y volverlo a arrancar: "Crtl c" y  `$ jekyll serve`
-
-
-## Subir la edición a GitHub Pages con GitHub Desktop ## 
-
-Activaremos ahora GitHub Pages.
-- Cread una carpeta que se llame `GitHub`.  
-- Ahora abrid la aplicación GitHub App. Id al icono "+" y clicad en "Create". En el espacio "Name" poned "username.github.io", donde "username" corresponde a vuestro nombre de usuario en GitHub. En el espacio "Local Path" seleccionad la carpeta que habéis creado con el nombre de `GitHub`. Y clicad "Create repository". 
-
-![Crear repositorio]({{site.url}}/public/img/01.png)
-
-- Abrid un editor de texto (TextWrangler, Notepad ++, Sublime) y crea una página html que se llame `index.html` y que contenga algo de contenido. Por ejemplo: 
-
-{% highlight ruby %}
-<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>Mi GitHub Pages</title>
-    </head>
-    <body>
-        <p>Hola mundo</p>
-        <p>Activamos mi página web</p>
-    </body>
-</html>
-{% endhighlight %}
-
-- Guardad este documento como "index.html" en la carpeta "usuario.github.io". 
-
-- Desde GitHub App, seleccionad el icono de "branch" (al lado de "master") y cread un nuevo branch que se llame "gh-pages". Clicad en "Create new branch". 
-- Donde pone "summary" escribid "mi primer commit" y confirmadlo en "Commit to gh-pages". 
-- Seleccionad "Publish". En "Description" podéis poner algo como "mi web" y "Publish username.github.io". 
-- Si vais a vuestro repositorio en GitHub: `https://github.com/username/username.github.io` veréis que habéis añadido un nuevo repositorio que os va a funcionar como servidor. 
-- Ahora id a http://username.github.io y la magia debería suceder. 
-
 
 A) Desde GitHub Desktop
 
