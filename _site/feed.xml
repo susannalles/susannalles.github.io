@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-07T18:21:37-03:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-07T00:00:00-03:00</published><updated>2016-11-07T00:00:00-03:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-07T19:44:36-03:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-07T00:00:00-03:00</published><updated>2016-11-07T00:00:00-03:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
 En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales&lt;/a&gt;. 7-9 noviembre 2016&lt;/p&gt;
 
 &lt;p&gt;El taller se divide en 4 partes diferentes:&lt;/p&gt;
@@ -216,6 +216,61 @@ A continuación esto: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ gem inst
 
 &lt;p&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; es un espacio gratuito para albergar los ficheros que van a constituir una página web estática. Se trata de un conjunto de páginas web públicas albergadas gratuitamente en GitHub bajo el dominio github.io (o cualquier otro dominio que se escoja). La misma página de GitHub Pages está creada y es mantenida a través de Jekyll.&lt;/p&gt;
 
+&lt;h2 id=&quot;subir-la-edicin-a-github-pages-con-github-desktop&quot;&gt;Subir la edición a GitHub Pages con GitHub Desktop&lt;/h2&gt;
+
+&lt;p&gt;Activaremos ahora GitHub Pages siguiendo las instrucciones en &lt;a href=&quot;https://pages.github.com/&quot;&gt;https://pages.github.com/&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Id a vuestro GitHub &lt;code class=&quot;highlighter-rouge&quot;&gt;https://github.com/username&lt;/code&gt; 
+&lt;img src=&quot;http://localhost:4000/public/img/03.png&quot; alt=&quot;Profile GitHub&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Id a la pestaña de arriba “+” y seleccionad “New repository”.
+ &lt;img src=&quot;http://localhost:4000/public/img/04.png&quot; alt=&quot;Profile GitHub&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;En “Repository name” escribid &lt;code class=&quot;highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt;, donde &lt;code class=&quot;highlighter-rouge&quot;&gt;username&lt;/code&gt; es vuestro nombre de usuario en GitHub. Clicad la opción “Initialize this repository with a README” y “Create repository”.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/public/img/05.png&quot; alt=&quot;Crear repositorio&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cread donde queráis una carpeta llamada “GitHub”.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Id a la pestaña “Clone or download” y “Open in Desktop”. 
+&lt;img src=&quot;http://localhost:4000/public/img/06.png&quot; alt=&quot;Crear Repositorio GitHub&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/public/img/07.png&quot; alt=&quot;Cloning&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Elegid la ubicación donde queréis crearla, en vuestra carpeta “GitHub”.&lt;/li&gt;
+  &lt;li&gt;Abrid un editor de texto (TextWrangler, Notepad ++, Sublime) y crea una página html que se llame &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; y que contenga algo de contenido. Por ejemplo:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SYSTEM&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xmlns&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://www.w3.org/1999/xhtml&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mi&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;GitHub&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Pages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/title&amp;gt;
+    &amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Hola&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mundo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/p&amp;gt;
+        &amp;lt;p&amp;gt;Activamos mi página web&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/body&amp;gt;
+&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Guardad este documento como “index.html” en la carpeta “usuario.github.io”.&lt;/li&gt;
+  &lt;li&gt;En la pestaña “Changes”, veréis los documentos que acabáis de añadir, en este caso, “index.html”.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/public/img/08.png&quot; alt=&quot;Changes&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Donde pone “summary” escribid “mi primer commit” y confirmadlo en “Commit to master”.&lt;/li&gt;
+  &lt;li&gt;Clicad “Sync”.&lt;/li&gt;
+  &lt;li&gt;Si vais a vuestro repositorio en GitHub: &lt;code class=&quot;highlighter-rouge&quot;&gt;https://github.com/username/username.github.io&lt;/code&gt; veréis que habéis añadido un nuevo repositorio que os va a funcionar como servidor.&lt;/li&gt;
+  &lt;li&gt;Ahora id a http://username.github.io y la magia debería suceder.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;Tutoriales:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -326,8 +381,6 @@ Debería ser &lt;code class=&quot;highlighter-rouge&quot;&gt;git version 2.10.0&
   &lt;span class=&quot;ss&quot;&gt;email:             &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;susanna_alles&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@miami&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;edu&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Una vez modificado el fichero de configuración, deberéis parar el servidor local y volverlo a arrancar: “Crtl c” y  &lt;code class=&quot;highlighter-rouge&quot;&gt;$ jekyll serve&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;subir-la-edicin-a-github-pages-con-github-desktop&quot;&gt;Subir la edición a GitHub Pages con GitHub Desktop&lt;/h2&gt;
 
 &lt;p&gt;A) Desde GitHub Desktop&lt;/p&gt;
 

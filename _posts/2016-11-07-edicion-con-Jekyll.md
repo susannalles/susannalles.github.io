@@ -196,13 +196,20 @@ Tutoriales:
 
 Activaremos ahora GitHub Pages siguiendo las instrucciones en [https://pages.github.com/](https://pages.github.com/).
 - Id a vuestro GitHub `https://github.com/username` 
-- Id a la pestaña de arriba "+" y seleccionad "New repository". 
+![Profile GitHub]({{site.url}}/public/img/03.png)
+
+- Id a la pestaña de arriba "+" y seleccionad "New repository".
+ ![Profile GitHub]({{site.url}}/public/img/04.png)
+ 
 - En "Repository name" escribid `username.github.io`, donde `username` es vuestro nombre de usuario en GitHub. Clicad la opción "Initialize this repository with a README" y "Create repository". 
 
-![Crear repositorio]({{site.url}}/public/img/.png)
+![Crear repositorio]({{site.url}}/public/img/05.png)
 
 - Cread donde queráis una carpeta llamada "GitHub". 
 - Id a la pestaña "Clone or download" y "Open in Desktop". 
+![Crear Repositorio GitHub]({{site.url}}/public/img/06.png)
+![Cloning]({{site.url}}/public/img/07.png)
+
 - Elegid la ubicación donde queréis crearla, en vuestra carpeta "GitHub".
 - Abrid un editor de texto (TextWrangler, Notepad ++, Sublime) y crea una página html que se llame `index.html` y que contenga algo de contenido. Por ejemplo: 
 
@@ -221,6 +228,9 @@ Activaremos ahora GitHub Pages siguiendo las instrucciones en [https://pages.git
 
 - Guardad este documento como "index.html" en la carpeta "usuario.github.io". 
 - En la pestaña "Changes", veréis los documentos que acabáis de añadir, en este caso, "index.html". 
+
+![Changes]({{site.url}}/public/img/08.png)
+
 - Donde pone "summary" escribid "mi primer commit" y confirmadlo en "Commit to master". 
 - Clicad "Sync".  
 - Si vais a vuestro repositorio en GitHub: `https://github.com/username/username.github.io` veréis que habéis añadido un nuevo repositorio que os va a funcionar como servidor. 

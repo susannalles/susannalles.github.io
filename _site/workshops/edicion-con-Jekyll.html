@@ -311,6 +311,61 @@ A continuación esto: <code class="highlighter-rouge">$ gem install rubygems-upd
 
 <p><a href="https://pages.github.com/">GitHub Pages</a> es un espacio gratuito para albergar los ficheros que van a constituir una página web estática. Se trata de un conjunto de páginas web públicas albergadas gratuitamente en GitHub bajo el dominio github.io (o cualquier otro dominio que se escoja). La misma página de GitHub Pages está creada y es mantenida a través de Jekyll.</p>
 
+<h2 id="subir-la-edicin-a-github-pages-con-github-desktop">Subir la edición a GitHub Pages con GitHub Desktop</h2>
+
+<p>Activaremos ahora GitHub Pages siguiendo las instrucciones en <a href="https://pages.github.com/">https://pages.github.com/</a>.</p>
+<ul>
+  <li>
+    <p>Id a vuestro GitHub <code class="highlighter-rouge">https://github.com/username</code> 
+<img src="http://localhost:4000/public/img/03.png" alt="Profile GitHub" /></p>
+  </li>
+  <li>
+    <p>Id a la pestaña de arriba “+” y seleccionad “New repository”.
+ <img src="http://localhost:4000/public/img/04.png" alt="Profile GitHub" /></p>
+  </li>
+  <li>
+    <p>En “Repository name” escribid <code class="highlighter-rouge">username.github.io</code>, donde <code class="highlighter-rouge">username</code> es vuestro nombre de usuario en GitHub. Clicad la opción “Initialize this repository with a README” y “Create repository”.</p>
+  </li>
+</ul>
+
+<p><img src="http://localhost:4000/public/img/05.png" alt="Crear repositorio" /></p>
+
+<ul>
+  <li>Cread donde queráis una carpeta llamada “GitHub”.</li>
+  <li>
+    <p>Id a la pestaña “Clone or download” y “Open in Desktop”. 
+<img src="http://localhost:4000/public/img/06.png" alt="Crear Repositorio GitHub" />
+<img src="http://localhost:4000/public/img/07.png" alt="Cloning" /></p>
+  </li>
+  <li>Elegid la ubicación donde queréis crearla, en vuestra carpeta “GitHub”.</li>
+  <li>Abrid un editor de texto (TextWrangler, Notepad ++, Sublime) y crea una página html que se llame <code class="highlighter-rouge">index.html</code> y que contenga algo de contenido. Por ejemplo:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;!</span><span class="no">DOCTYPE</span> <span class="n">html</span> <span class="no">SYSTEM</span> <span class="s2">"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">html</span> <span class="n">xmlns</span><span class="o">=</span><span class="s2">"http://www.w3.org/1999/xhtml"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">title</span><span class="o">&gt;</span><span class="no">Mi</span> <span class="no">GitHub</span> <span class="no">Pages</span><span class="o">&lt;</span><span class="sr">/title&gt;
+    &lt;/</span><span class="n">head</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">body</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="no">Hola</span> <span class="n">mundo</span><span class="o">&lt;</span><span class="sr">/p&gt;
+        &lt;p&gt;Activamos mi página web&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="sr">/body&gt;
+&lt;/</span><span class="n">html</span><span class="o">&gt;</span></code></pre></figure>
+
+<ul>
+  <li>Guardad este documento como “index.html” en la carpeta “usuario.github.io”.</li>
+  <li>En la pestaña “Changes”, veréis los documentos que acabáis de añadir, en este caso, “index.html”.</li>
+</ul>
+
+<p><img src="http://localhost:4000/public/img/08.png" alt="Changes" /></p>
+
+<ul>
+  <li>Donde pone “summary” escribid “mi primer commit” y confirmadlo en “Commit to master”.</li>
+  <li>Clicad “Sync”.</li>
+  <li>Si vais a vuestro repositorio en GitHub: <code class="highlighter-rouge">https://github.com/username/username.github.io</code> veréis que habéis añadido un nuevo repositorio que os va a funcionar como servidor.</li>
+  <li>Ahora id a http://username.github.io y la magia debería suceder.</li>
+</ul>
+
 <p>Tutoriales:</p>
 
 <ul>
@@ -421,8 +476,6 @@ Debería ser <code class="highlighter-rouge">git version 2.10.0</code></p>
   <span class="ss">email:             </span><span class="n">susanna_alles</span><span class="vi">@miami</span><span class="p">.</span><span class="nf">edu</span></code></pre></figure>
 
 <p>Una vez modificado el fichero de configuración, deberéis parar el servidor local y volverlo a arrancar: “Crtl c” y  <code class="highlighter-rouge">$ jekyll serve</code></p>
-
-<h2 id="subir-la-edicin-a-github-pages-con-github-desktop">Subir la edición a GitHub Pages con GitHub Desktop</h2>
 
 <p>A) Desde GitHub Desktop</p>
 
