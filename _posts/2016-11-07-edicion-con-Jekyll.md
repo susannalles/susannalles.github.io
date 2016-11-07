@@ -304,6 +304,23 @@ Una vez modificado el fichero de configuración, deberéis parar el servidor loc
 
 ## Subir la edición a GitHub Pages con GitHub Desktop ## 
 
+Activaremos ahora GitHub Pages. 
+- Abrid un editor de texto (TextWrangler, Notepad ++, Sublime) y crea una página html que se llame index.html y que contenga algo de contenido. Por ejemplo: 
+
+{% highlight ruby %}
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Mi GitHub Pages</title>
+    </head>
+    <body>
+        <p>Hola mundo</p>
+        <p>Activamos mi página web</p>
+    </body>
+</html>
+{% endhighlight %}
+
+
 A) Desde GitHub Desktop
 
 * Abrir GitHub Desktop
@@ -332,6 +349,7 @@ Si todo ha ido bien, en unos 90 segundos debería estar colgado en vuestro servi
 ## Otros ejemplos siguiendo la idea de Ed: ##
 * [minilazarillo](http://minilazarillo.github.io/) Este utiliza el tema ED. 
 * [Vita Illustrium Virorum](https://alfonsodepalencia.github.io/Vitae/VH/1.html) ¡En construcción! (sólo para daros una idea). Construido a partir de la plantilla de [Foundation](http://foundation.zurb.com/).  
+
 
 
 {% highlight ruby %}
