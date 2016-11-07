@@ -103,15 +103,11 @@
 
 <p>Para ello, necesitamos asociar nuestro documento XML con un esquema que sirve justamente para establecer el tipo de marcado que podemos aplicar a un documento XML. Los esquemas son ficheros autónomos que se asocian al fichero XML-TEI en su prólogo, de la siguiente manera:</p>
 
-<blockquote>
-  <blockquote>
-    <p><span class="code"><span style="color: #0058ff;"><?xml version="1.0" encoding="UTF-8"?></span><br />
-<span style="color: #ff4c4c;"><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" schematypens="http://relaxng.org/ns/structure/1.0"?></span><br />
-<span style="color: #0058ff;"><TEI xmlns="http://www.tei-c.org/ns/1.0">  
-...
-</TEI></span></span></p>
-  </blockquote>
-</blockquote>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="p">?</span><span class="n">xml</span> <span class="n">version</span><span class="o">=</span><span class="s2">"1.0"</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"UTF-8"</span><span class="sc">?&gt;</span>
+<span class="o">&lt;</span><span class="p">?</span><span class="n">xml</span><span class="o">-</span><span class="n">model</span> <span class="n">href</span><span class="o">=</span><span class="s2">"http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng"</span> <span class="n">schematypens</span><span class="o">=</span><span class="s2">"http://relaxng.org/ns/structure/1.0"</span><span class="sc">?&gt;</span>
+<span class="o">&lt;</span><span class="no">TEI</span> <span class="n">xmlns</span><span class="o">=</span><span class="s2">"http://www.tei-c.org/ns/1.0"</span><span class="o">&gt;</span>  
+ <span class="p">.</span><span class="nf">.</span><span class="p">.</span>  
+ <span class="nf">&lt;</span><span class="o">/</span><span class="no">TEI</span><span class="o">&gt;</span></code></pre></figure>
 
 <p>En el programa oXygen, para cambiar el esquema y asociar uno nuevo debemos ir a Document &gt; Schema &gt; Associate Schema; obviamente puede también hacerse de manera manual.</p>
 
@@ -143,72 +139,66 @@
 
 <p>Este tipo de esquema propone una determinada estructura para cada una de las instancias XML, proponiendo un modelo concreto de contenido tanto de los elementos como de los atributos. Al interno del esquema, todos los elementos deben ser definidos. Para dar una idea general del tipo de gramática utilizada, veamos por ejemplo de qué manera Relax NG indicaría que el elemento raíz de un documento TEI puede ser doble:</p>
 
-<blockquote>
-  <blockquote>
-    <p><span class="code"><span style="color: #0058ff;"><start>  
-        <choice>  
-            <ref name="tei_TEI"></ref>  
-            <ref name="tei_teiCorpus"></ref>  
-        </choice>
-</start></span></span></p>
-  </blockquote>
-</blockquote>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"> <span class="o">&lt;</span><span class="n">start</span><span class="o">&gt;</span>  
+         <span class="o">&lt;</span><span class="n">choice</span><span class="o">&gt;</span>  
+             <span class="o">&lt;</span><span class="n">ref</span> <span class="nb">name</span><span class="o">=</span><span class="s2">"tei_TEI"</span><span class="o">/&gt;</span>  
+             <span class="o">&lt;</span><span class="n">ref</span> <span class="nb">name</span><span class="o">=</span><span class="s2">"tei_teiCorpus"</span><span class="o">/&gt;</span>  
+         <span class="o">&lt;</span><span class="sr">/choice&gt;  
+ &lt;/s</span><span class="n">tart</span><span class="o">&gt;</span></code></pre></figure>
 
-<p>El elemento <span class="code"><start>&lt;/span&gt; indica el elemento raíz, mientras que <span class="code"><choice>&lt;/span&gt; indica las opciones de anidación al interno de esa etiqueta. A continuación, deberíamos definir a su vez los elemento <span class="code"><TEI>&lt;/span&gt; y <span class="code"><teiCorpus>&lt;/span&gt; (de otra manera el esquema no estaría bien formado).</teiCorpus></span></TEI></span></choice></span></start></span></p>
+<p>El elemento <code class="highlighter-rouge">&lt;start&gt;</code> indica el elemento raíz, mientras que <code class="highlighter-rouge">&lt;choice&gt;</code> indica las opciones de anidación al interno de esa etiqueta. A continuación, deberíamos definir a su vez los elemento <code class="highlighter-rouge">&lt;TEI&gt;</code> y <code class="highlighter-rouge">&lt;teiCorpus&gt;</code> (de otra manera el esquema no estaría bien formado).</p>
 
-<p>Tomemos otro ejemplo, el elemento <span class="code"><text>&lt;/span&gt; tal y como aparece definido en el esquema Relax NG según las _Guías Directrices_ de TEI:</text></span></p>
+<p>Tomemos otro ejemplo, el elemento <text>&lt;` tal y como aparece definido en el esquema Relax NG según las _Guías Directrices_ de TEI:</text></p>
 
-<blockquote>
-  <blockquote>
-    <p><span class="code"><span style="color: #0058ff;"><define name="tei_text">  
-      <element name="text">&lt;/span&gt;  
-         <!-- Aquí aparece la documentación que concierne al elemento: -->  
-<span style="color: #0058ff;"><a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contiene un único texto de cualquier tipo, sea este unitario o combinado, p.ej. un texto en verso o teatral, una recopilación de ensayos, una novela, un diccionario, o una fragmento de corpus. [4\. 15.1. ]</a:documentation></span>  
-<!-- Al interior de <text> podemos encontrar un grupo de elementos: -->  
-<span style="color: #0058ff;"><group>  
-            <zeroOrMore>&lt;/span&gt;  
-               <!-- En este punto pueden aparecer ninguna o múltiples veces una serie de elementos permitidos en cualquier punto de un documento XML-TEI. Véase la lista aquí: http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-model.global.html -->  
-<span style="color: #0058ff;"><ref name="tei_model.global"></ref>  
-            &lt;/zeroOrMore&gt;  
-            <optional>&lt;/span&gt;  
-<!-- Opcionalmente podemos tener un elemento <front> al interno de <text> -->  
-<span style="color: #0003ff;"><ref name="tei_front"></ref>  
-               <zeroOrMore>  
-                  <ref name="tei_model.global"></ref>  
-               </zeroOrMore>  
-            &lt;/optional&gt;  
-            <choice>&lt;/span&gt;  
-<!-- Debemos elegir entre incluir un elemento <body> o un elemento <group> -->  
-<span style="color: #0058ff;"><ref name="tei_body"></ref>  
-               <ref name="tei_group"></ref>  
-            &lt;/choice&gt;  
-            <zeroOrMore>  
-               <ref name="tei_model.global"></ref>  
-            </zeroOrMore>  
-            <optional>&lt;/span&gt;  
-<!-- Opcionalmente podemos tener un elemento <back> al interno de <text> -->  
-<span style="color: #0058ff;"><ref name="tei_back"></ref>  
-               <zeroOrMore>  
-                  <ref name="tei_model.global"></ref>  
-              </zeroOrMore>  
-            &lt;/optional&gt;  
-         &lt;/group&gt;</span>  
-<!-- Aquí la lista de los tipos de atributos que puede contener el elemento <text> -->  
-<span style="color: #0058ff;"><ref name="tei_att.global.attributes"></ref>  
-         <ref name="tei_att.declaring.attributes"></ref>  
-         <ref name="tei_att.typed.attributes"></ref>  
-         <empty></empty>  
-      &lt;/element&gt;
-   &lt;/define&gt;</span>&lt;/span&gt;</optional></span></choice></span></optional></span></zeroOrMore></group></span></element></define></span></span></p>
-  </blockquote>
-</blockquote>
+<define name="tei_text">  
+  <element name="text">
+  <!-- Aquí aparece la documentación que concierne al elemento: -->  
+ <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contiene un único texto de cualquier tipo, sea este unitario o combinado, p.ej. un texto en verso o teatral, una recopilación de ensayos, una novela, un diccionario, o una fragmento de corpus. [4\. 15.1. ]</a:documentation> 
+ <!-- Al interior de <text> podemos encontrar un grupo de elementos: -->  
+ <group>  
+    <zeroOrMore>&lt;/span&gt;  
+    <!-- En este punto pueden aparecer ninguna o múltiples veces una serie de elementos permitidos en cualquier punto de un documento XML-TEI. Véase la lista aquí: http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-model.global.html -->  
+ <ref name="tei_model.global" />  
+    </zeroOrMore>  
+     <optional> 
+ <!-- Opcionalmente podemos tener un elemento <front> al interno de <text> -->  
+ <ref name="tei_front" />  
+      <zeroOrMore>  
+         <ref name="tei_model.global" />  
+      </zeroOrMore>  
+    </optional>  
+  <choice>
+ <!-- Debemos elegir entre incluir un elemento <body> o un elemento <group> -->  
+ <ref name="tei_body" />  
+       <ref name="tei_group" />  
+       </choice>  
+      <zeroOrMore>  
+           <ref name="tei_model.global" />  
+       </zeroOrMore>  
+   <optional> 
+ <!-- Opcionalmente podemos tener un elemento <back> al interno de <text> -->  
+ <ref name="tei_back" />  
+      <zeroOrMore>  
+          <ref name="tei_model.global" />  
+     </zeroOrMore>  
+   </optional>  
+          </group>&lt;/span&gt;  
+ <!-- Aquí la lista de los tipos de atributos que puede contener el elemento <text> -->  
+ <ref name="tei_att.global.attributes" />  
+     <ref name="tei_att.declaring.attributes" />  
+     <ref name="tei_att.typed.attributes" />  
+   <empty />  
+  </element>  
+</define>
 
 <p><strong>Recursos:</strong></p>
+
 <ul>
   <li>Aquí podréis ver el esquema Relax NG Lite que proponen la <em>Guías directrices</em>: <a href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng">http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng</a> Lo podéis abrir con el programa oXygen y intentar entender la estructura (File &gt; Open URL &gt; Pegad la URL en “File URL” y pulsar “OK”).</li>
 </ul>
 
 <p><strong>Algunas lecturas y tutoriales:</strong></p>
+
 <ul>
   <li>Eric van der Vlist, <em>Relax NG</em>, O’Reilly &amp; Associates, 2003. <a href="http://books.xmlschemata.org/relaxng/page2.html">Acceso al libro en versión digital</a>.</li>
   <li>OASIS Consortium, <a href="http://relaxng.org/tutorial-20011203.html"><em>Relax NG Tutorial</em></a> (Committee Specification 3 December 2001).</li>
@@ -223,7 +213,7 @@
 
 <p>Para la creación de un esquema el proceso siempre es el mismo. Tal y como vimos en el Tema 1, la condición indispensable es que analicemos el texto y que definamos qué elementos aparecen en el mismo, tanto cuestiones estructurales, como semánticas. Una vez hemos elaborado la lista de fenómenos que nos gustaría codificar, deberemos encontrar la manera de expresarlo según las Guías directrices y elaborar nuestro esquema Relax NG propio.</p>
 
-<h3 id="anterior63html---------siguiente--72html"><a href="6.3.html">&lt; &lt; Anterior</a>         <a href="7.2.html">Siguiente &gt; &gt;</a></h3>
+<p><a href="6.3.html">&lt; &lt; Anterior</a>         <a href="7.2.html">Siguiente </a></p>
 
     
   </div>

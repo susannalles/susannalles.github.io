@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-07T07:58:42-03:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-07T00:00:00-03:00</published><updated>2016-11-07T00:00:00-03:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-07T12:54:48-03:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-07T00:00:00-03:00</published><updated>2016-11-07T00:00:00-03:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
 En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales&lt;/a&gt;. 7-9 noviembre 2016&lt;/p&gt;
 
 &lt;p&gt;El taller se divide en 4 partes diferentes:&lt;/p&gt;
@@ -85,13 +85,15 @@ A continuación esto: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ gem inst
       &lt;code class=&quot;highlighter-rouge&quot;&gt;choco install ruby -y&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Cerrad el terminal y volvedlo a abrir.&lt;/li&gt;
   &lt;li&gt;Instala &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;:
-      &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;&lt;/li&gt;
+      &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;
+[Nota: si os da error al instalar esta última gema, seguid las instrucciones de &lt;a href=&quot;https://labs.sverrirs.com/jekyll/2-jekyll-gem.html&quot;&gt;Sigmundarson&lt;/a&gt;.]&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;En estos enlaces encontraréis indicaciones ulteriores sobre Jekyll en Windows:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;David Burela, &lt;a href=&quot;https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/&quot;&gt;Easily install Jekyll on Windows with w command prompt entries and Chocolatey&lt;/a&gt;, &lt;em&gt;Burela’s House-O-Blog&lt;/em&gt;, 28-11-2015.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/windows/&quot;&gt;Jekyll on Windows&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://labs.sverrirs.com/jekyll/&quot;&gt;Sverrir Sigmundarson, Installation instructions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;b-un-editor-de-texto-como&quot;&gt;B. Un editor de texto como:&lt;/h2&gt;

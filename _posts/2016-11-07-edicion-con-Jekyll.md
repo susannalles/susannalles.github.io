@@ -77,10 +77,12 @@ A continuación esto: `$ gem install rubygems-update`
 * Cerrad el terminal y volvedlo a abrir.
 * Instala [Jekyll][Jekyll]:
 		`gem install jekyll`
+[Nota: si os da error al instalar esta última gema, seguid las instrucciones de [Sigmundarson](https://labs.sverrirs.com/jekyll/2-jekyll-gem.html).]
  		
 En estos enlaces encontraréis indicaciones ulteriores sobre Jekyll en Windows:
 - David Burela, [Easily install Jekyll on Windows with w command prompt entries and Chocolatey][Bruela], *Burela's House-O-Blog*, 28-11-2015. 
 - [Jekyll on Windows][Jekyll Windows]
+- [Sverrir Sigmundarson, Installation instructions](https://labs.sverrirs.com/jekyll/)
 
 ## B. Un editor de texto como:
 * [Sublime Text][Sublime] (Mac)

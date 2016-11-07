@@ -155,63 +155,53 @@ con hojas de mi otoño enajenado.</p>
 
 <p>Pero también puede indicarse en el interior del elemento <code class="highlighter-rouge">&lt;div&gt;</code>, <code class="highlighter-rouge">&lt;lg&gt;</code> e incluso <code class="highlighter-rouge">&lt;l&gt;</code>:</p>
 
-<blockquote>
-  <blockquote>
-    <p><span class="code"><span style="color: #0003ff;"><lg type="soneto" rhyme="ababababcdcdcd"></lg></span></span></p>
-    <head>&lt;/span&gt;Soneto de la dulce queja<span style="color: #0003ff;">&lt;/head&gt;  
-   <lg type="cuarteto" n="1" rhyme="abab">  
-      <l n="1" rhyme="a">&lt;/span&gt;Tengo miedo a perder la marav<span style="color: #0003ff;"><rhyme>&lt;/span&gt;illa<span style="color: #0003ff;">&lt;/rhyme&gt;&lt;/l&gt;  
-      <l n="2" rhyme="b">&lt;/span&gt; de tus ojos de estatua y el ac<span style="color: #0003ff;"><rhyme>&lt;/span&gt;ento<span style="color: #0003ff;">&lt;/rhyme&gt;</span> <span style="color: #0003ff;">&lt;/l&gt;</span>  
-<span style="color: #0003ff;"><l n="3" rhyme="a">&lt;/span&gt; que me pone de noche en la mej<span style="color: #0003ff;"><rhyme>&lt;/span&gt;illa<span style="color: #0003ff;">&lt;/rhyme&gt;</span> <span style="color: #0003ff;">&lt;/l&gt;  
-      <l n="4" rhyme="b">&lt;/span&gt;la solitaria rosa de tu ali<span style="color: #0003ff;"><rhyme>&lt;/span&gt;ento<span style="color: #0003ff;">&lt;/rhyme&gt;</span><span style="color: #0003ff;">.&lt;/l&gt;  
-   &lt;/lg&gt;</span><span style="color: #0003ff;">  
-   <!-- más estrofas... -->  
-<lg>&lt;/span&gt;&lt;/span&gt;
-</lg></span></rhyme></span></l></span></rhyme></span></l></span></rhyme></span></l></span></rhyme></span></l></lg></span></head>
-  </blockquote>
-</blockquote>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">lg</span> <span class="n">type</span><span class="o">=</span><span class="s2">"soneto"</span> <span class="n">rhyme</span><span class="o">=</span><span class="s2">"ababababcdcdcd"</span><span class="o">&gt;</span>  
+   <span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span><span class="no">Soneto</span> <span class="n">de</span> <span class="n">la</span> <span class="n">dulce</span> <span class="n">queja</span><span class="o">&lt;</span><span class="sr">/head&gt;  
+   &lt;lg type="cuarteto" n="1" rhyme="abab"&gt;  
+    &lt;l n="1" rhyme="a"&gt;Tengo miedo a perder la marav&lt;rhyme&gt;illa&lt;/</span><span class="n">rhyme</span><span class="o">&gt;&lt;</span><span class="sr">/l&gt;  
+    &lt;l n="2" rhyme="b"&gt; de tus ojos de estatua y el ac&lt;rhyme&gt;ento&lt;/</span><span class="n">rhyme</span><span class="o">&gt;&lt;</span><span class="sr">/l&gt;  
+    &lt;l n="3" rhyme="a"&gt; que me pone de noche en la mej&lt;rhyme&gt;illa&lt;/</span><span class="n">rhyme</span><span class="o">&gt;&lt;</span><span class="sr">/l&gt;  
+    &lt;l n="4" rhyme="b"&gt; la solitaria rosa de tu ali&lt;rhyme&gt;ento&lt;/</span><span class="n">rhyme</span><span class="o">&gt;&lt;</span><span class="sr">/l&gt;  
+  &lt;/</span><span class="n">lg</span><span class="o">&gt;</span>  
+  <span class="o">&lt;!--</span> <span class="n">m</span><span class="err">á</span><span class="n">s</span> <span class="n">estrofas</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span> <span class="nf">-</span><span class="o">-&gt;</span>  
+ <span class="o">&lt;</span><span class="n">lg</span><span class="o">&gt;</span></code></pre></figure>
 
-<p>En el caso que apareciera el nombre el poema, podríamos codificar su nombre en el interior del elemento <span class="code"><signed>&lt;/span&gt;.</signed></span></p>
+<p>En el caso que apareciera el nombre el poema, podríamos codificar su nombre en el interior del elemento <code class="highlighter-rouge">&lt;signed&gt;</code>.</p>
 
-<p>Si tuviéramos una serie de poemas, las estrategias a seguir podrían ser varias pero la más sencilla sería marcar cada poema independientemente en un elemento <span class="code"><lg>&lt;/span&gt;:</lg></span></p>
+<p>Si tuviéramos una serie de poemas, las estrategias a seguir podrían ser varias pero la más sencilla sería marcar cada poema independientemente en un elemento <code class="highlighter-rouge">&lt;lg&gt;</code>:</p>
 
-<blockquote>
-  <blockquote>
-    <p><span class="code"><span style="color: #0003ff;">&lt;div type="poemas"&gt;</span></span></p>
-    <lg type="poema" n="1">  
-     <head>&lt;/span&gt;poema 1<span style="color: #0003ff;">&lt;/head&gt;  
-      <lg>  
-        <l>&lt;/span&gt;verso 1<span style="color: #0003ff;">&lt;/l&gt;  
-        <l>&lt;/span&gt;verso 2<span style="color: #0003ff;">&lt;/l&gt;  
-        <l>&lt;/span&gt;verso 3<span style="color: #0003ff;">&lt;/l&gt;  
-      &lt;/lg&gt;  
-  &lt;/lg&gt;  
-  <lg type="poema" n="2">  
-     <head>&lt;/span&gt;poema 1<span style="color: #0003ff;">&lt;/head&gt;  
-     <lg>  
-        <l>&lt;/span&gt;verso 1<span style="color: #0003ff;">&lt;/l&gt;  
-        <l>&lt;/span&gt;verso 2<span style="color: #0003ff;">&lt;/l&gt;  
-        <l>&lt;/span&gt;verso 3<span style="color: #0003ff;">&lt;/l&gt;  
-     &lt;/lg&gt;  
-  &lt;/lg&gt;  
-  <lg type="poema" n="3">  
-     <head>&lt;/span&gt;poema 1<span style="color: #0003ff;">&lt;/head&gt;  
-     <lg>  
-        <l>&lt;/span&gt;verso 1<span style="color: #0003ff;">&lt;/l&gt;  
-        <l>&lt;/span&gt;verso 2<span style="color: #0003ff;">&lt;/l&gt;  
-        <l>&lt;/span&gt;verso 3<span style="color: #0003ff;">&lt;/l&gt;  
-      &lt;/lg&gt;  
-   &lt;/lg&gt;  
-&lt;/div&gt;</span>&lt;/span&gt;
-</l></span></l></span></l></lg></span></head></lg></span></l></span></l></span></l></lg></span></head></lg></span></l></span></l></span></l></lg></span></head></lg>
-  </blockquote>
-</blockquote>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">div</span> <span class="n">type</span><span class="o">=</span><span class="s2">"poemas"</span><span class="o">&gt;</span>  
+  <span class="o">&lt;</span><span class="n">lg</span> <span class="n">type</span><span class="o">=</span><span class="s2">"poema"</span> <span class="n">n</span><span class="o">=</span><span class="s2">"1"</span><span class="o">&gt;</span>  
+    <span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span><span class="n">poema</span> <span class="mi">1</span><span class="o">&lt;</span><span class="sr">/head&gt;  
+       &lt;lg&gt;  
+        &lt;l&gt;verso 1&lt;/</span><span class="n">l</span><span class="o">&gt;</span>  
+        <span class="o">&lt;</span><span class="n">l</span><span class="o">&gt;</span><span class="n">verso</span> <span class="mi">2</span><span class="o">&lt;</span><span class="sr">/l&gt;  
+        &lt;l&gt;verso 3&lt;/</span><span class="n">l</span><span class="o">&gt;</span>  
+       <span class="o">&lt;</span><span class="sr">/lg&gt;  
+   &lt;/</span><span class="n">lg</span><span class="o">&gt;</span>  
+   <span class="o">&lt;</span><span class="n">lg</span> <span class="n">type</span><span class="o">=</span><span class="s2">"poema"</span> <span class="n">n</span><span class="o">=</span><span class="s2">"2"</span><span class="o">&gt;</span>  
+         <span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span><span class="n">poema</span> <span class="mi">1</span><span class="o">&lt;</span><span class="sr">/head&gt;  
+      &lt;lg&gt;  
+               &lt;l&gt;verso 1&lt;/</span><span class="n">l</span><span class="o">&gt;</span>  
+         <span class="o">&lt;</span><span class="n">l</span><span class="o">&gt;</span><span class="n">verso</span> <span class="mi">2</span><span class="o">&lt;</span><span class="sr">/l&gt;  
+         &lt;l&gt;&lt;verso 3&lt;/</span><span class="n">l</span><span class="o">&gt;</span>  
+      <span class="o">&lt;</span><span class="sr">/lg&gt;  
+         &lt;/</span><span class="n">lg</span><span class="o">&gt;</span>  
+   <span class="o">&lt;</span><span class="n">lg</span> <span class="n">type</span><span class="o">=</span><span class="s2">"poema"</span> <span class="n">n</span><span class="o">=</span><span class="s2">"3"</span><span class="o">&gt;</span>  
+         <span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span><span class="n">poema</span> <span class="mi">1</span><span class="o">&lt;</span><span class="sr">/head&gt;  
+      &lt;lg&gt;  
+         &lt;l&gt;&lt;verso 1&lt;/</span><span class="n">l</span><span class="o">&gt;</span>  
+         <span class="o">&lt;</span><span class="n">l</span><span class="o">&gt;</span><span class="n">verso</span> <span class="mi">2</span><span class="o">&lt;</span><span class="sr">/l&gt;  
+         &lt;l&gt;verso 3&lt;/</span><span class="n">l</span><span class="o">&gt;</span>  
+       <span class="o">&lt;</span><span class="sr">/lg&gt;  
+    &lt;/</span><span class="n">lg</span><span class="o">&gt;</span>  
+ <span class="o">&lt;</span><span class="sr">/div&gt;</span></code></pre></figure>
 
 <p>Una propuesta de marcado la encontraréis en el documento publicado en el aula con el nombre de: <a href="">ejemplo_poema_1.xml</a></p>
 
-<p>Existen muchos otros elementos relacionados con las composiciones métricas, para más detalles os remito al módulo correspondiente, <span class="code"><a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/VE.html">verse</a></span>. Así también, para completar esta sección, os dejo el enlace del <a href="http://www.remetca.uned.es/index.php?option=com_content&amp;view=article&amp;id=130:taller-de-xml-tei-text-encoding-initiative-aplicado-al-estudio-de-la-poesia-medieval-castellana&amp;catid=89&amp;Itemid=515&amp;lang=es">Taller de XML-TEI aplicado al estudio de la poesía castellana medieval</a> que tuvo lugar en la UNED el noviembre de 2014. Se trata de una presentación general sobre TEI y el marcado de textos métricos, y una amplia sección dedicada a la codificación de los textos que forman parte del proyecto ReMetCa. <a href="http://canal.uned.es/teleacto/415.html">Aquí</a> encontraréis los dos vídeos y <a href="https://www.dropbox.com/sh/emgg10hmrvrtumr/AACRzblyxABPfNIWS5DPvw2Xa?dl=0%20">aquí</a> los ficheros en el Dropbox del taller.</p>
+<p>Existen muchos otros elementos relacionados con las composiciones métricas, para más detalles os remito al módulo correspondiente, <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/VE.html"><code class="highlighter-rouge">verse</code></a>&lt;/span&gt;. Así también, para completar esta sección, os dejo el enlace del <a href="http://www.remetca.uned.es/index.php?option=com_content&amp;view=article&amp;id=130:taller-de-xml-tei-text-encoding-initiative-aplicado-al-estudio-de-la-poesia-medieval-castellana&amp;catid=89&amp;Itemid=515&amp;lang=es">Taller de XML-TEI aplicado al estudio de la poesía castellana medieval</a> que tuvo lugar en la UNED el noviembre de 2014. Se trata de una presentación general sobre TEI y el marcado de textos métricos, y una amplia sección dedicada a la codificación de los textos que forman parte del proyecto ReMetCa. <a href="http://canal.uned.es/teleacto/415.html">Aquí</a> encontraréis los dos vídeos y <a href="https://www.dropbox.com/sh/emgg10hmrvrtumr/AACRzblyxABPfNIWS5DPvw2Xa?dl=0%20">aquí</a> los ficheros en el Dropbox del taller.</p>
 
-<h3 id="anterior61html---------siguiente--63html"><a href="6.1.html">&lt; &lt; Anterior</a>         <a href="6.3.html">Siguiente &gt; &gt;</a></h3>
+<p><a href="6.1.html">&lt; &lt; Anterior</a>         <a href="6.3.html">Siguiente &gt; &gt;</a></p>
 
     
   </div>

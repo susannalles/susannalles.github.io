@@ -126,13 +126,13 @@
 
 <p><img src="img/01ODD.png" alt="" /></p>
 
-<p>Como podéis observar, se trata de un fichero XML-TEI normal con el prólogo XML, un elemento raíz <span class="code"><TEI>&lt;/span&gt;, al interior del cual tenemos un <span class="code"><teiheader>&lt;/span&gt; con los diferentes metadatos, y un elemento <span class="code"><text>&lt;/span&gt; que contiene a su vez el <span class="code">&lt;body&gt;</span>. Ahora bien, los elementos que aparecen a continuación son nuevos:</text></span></teiheader></span></TEI></span></p>
+<p>Como podéis observar, se trata de un fichero XML-TEI normal con el prólogo XML, un elemento raíz <code class="highlighter-rouge">&lt;TEI&gt;</code>, al interior del cual tenemos un <code class="highlighter-rouge">&lt;teiheader&gt;</code> con los diferentes metadatos, y un elemento <code class="highlighter-rouge">&lt;text&gt;</code> que contiene a su vez el <code class="highlighter-rouge">&lt;body&gt;</code>. Ahora bien, los elementos que aparecen a continuación son nuevos:</p>
 
 <p><img src="img/02ODD.png" alt="" /></p>
 
-<p>El elemento <span class="code"><schemaSpec>&lt;/span&gt; responde a _Schema Specification_, es decir, señala el tipo de esquema que debe reconstruir, indicando además el elemento raíz a través del atributo <span class="code">@start</span>.</schemaSpec></span></p>
+<p>El elemento <code class="highlighter-rouge">&lt;schemaSpec&gt;</code> responde a <em>Schema Specification</em>, es decir, señala el tipo de esquema que debe reconstruir, indicando además el elemento raíz a través del atributo <code class="highlighter-rouge">@start</code>.</p>
 
-<p>A continuación lista los diferentes módulos que el esquema resultante deberá contener. Como podéis ver, se trata sólo de los módulos obligatorios: <span class="code">header, core, tei</span> y <span class="code">textstructure</span>.</p>
+<p>A continuación lista los diferentes módulos que el esquema resultante deberá contener. Como podéis ver, se trata sólo de los módulos obligatorios: <code class="highlighter-rouge">header, core, tei</code> y <code class="highlighter-rouge">textstructure</code>.</p>
 
 <p>De hecho, este sería el mismo resultado que si, en la aplicación Roma, creáramos un esquema mínimo. Hagamos la prueba:</p>
 
@@ -153,11 +153,11 @@
 <p><img src="img/06ODD.png" alt="" /></p>
 
 <ul>
-  <li><span class="code">schemaSpec</span> es la definición formal del esquema TEI.</li>
-  <li><span class="code">@ident</span>: contiene el identificador que corresponde al nombre del fichero que le hemos consignado.</li>
-  <li><span class="code">@docLang</span>: indica la lengua de la documentación, en nuestro caso el español <span class="code">es</span>.</li>
-  <li><span class="code">@prefix</span>: <span class="code">tei_</span> es el prefijo que se utilizará para todas las definiciones de los casos TEI.</li>
-  <li><span class="code">@key</span>: es el responsable de llamar a los identificadores de los módulos y todo el contenido que hay en ellos.</li>
+  <li><code class="highlighter-rouge">schemaSpec</code> es la definición formal del esquema TEI.</li>
+  <li><code class="highlighter-rouge">@ident</code>: contiene el identificador que corresponde al nombre del fichero que le hemos consignado.</li>
+  <li><code class="highlighter-rouge">@docLang</code>: indica la lengua de la documentación, en nuestro caso el español “es”.</li>
+  <li><code class="highlighter-rouge">@prefix</code>: <code class="highlighter-rouge">tei_</code> es el prefijo que se utilizará para todas las definiciones de los casos TEI.</li>
+  <li><code class="highlighter-rouge">@key</code>: es el responsable de llamar a los identificadores de los módulos y todo el contenido que hay en ellos.</li>
 </ul>
 
 <p>En resumen, una personalización mínima de TEI, registrada en un documento ODD, contendrá siempre los módulos obligatorios. De ser de otra manera, ya no sería un fichero TEI, sino otra cosa; y cada uno de esos módulos, incluye a su vez una lista de elementos y atributos predefinidos.</p>
@@ -172,19 +172,19 @@
 
 <p><img src="img/08ODD.png" alt="" /></p>
 
-<p><strong>3)</strong> Ahora vayamos a la pestaña de “Módulos” y añadamos el módulo <span class="code">verse</span>:</p>
+<p><strong>3)</strong> Ahora vayamos a la pestaña de “Módulos” y añadamos el módulo <code class="highlighter-rouge">verse</code>:</p>
 
 <p><img src="img/09ODD.png" alt="" /></p>
 
-<p><strong>4)</strong> Seleccionemos ahora el módulo <span class="code">verse</span>, eliminemos los elementos <span class="code"><metDecl>&lt;/span&gt; y <span class="code"><metSym>&lt;/span&gt; y guardemos los cambios:</metSym></span></metDecl></span></p>
+<p><strong>4)</strong> Seleccionemos ahora el módulo <code class="highlighter-rouge">verse</code>, eliminemos los elementos <code class="highlighter-rouge">&lt;metDecl&gt;</code> y <code class="highlighter-rouge">&lt;metSym&gt;</code> y guardemos los cambios:</p>
 
 <p><img src="img/10ODD.png" alt="" /></p>
 
-<p><strong>5)</strong> Al interno del elemento <span class="code"><caesura>&lt;/span&gt; haremos un solo cambio: ampliaremos la “Descripción”:</caesura></span></p>
+<p><strong>5)</strong> Al interno del elemento <code class="highlighter-rouge">&lt;caesura&gt;</code> haremos un solo cambio: ampliaremos la “Descripción”:</p>
 
 <p><img src="img/11ODD.png" alt="" /></p>
 
-<p><strong>6)</strong> Al interno del elemento <span class="code"><rhyme>&lt;/span&gt;, modificaremos los valores de los atributos en la pestaña correspondiente “Modificación de atributos” y señalando los valores en la casilla “Lista de valores”. En nuestro caso señalando el tipo de rima en “consonante” o “asonante”, separados por comas y sin espacios:</rhyme></span></p>
+<p><strong>6)</strong> Al interno del elemento <code class="highlighter-rouge">&lt;rhyme&gt;</code>, modificaremos los valores de los atributos en la pestaña correspondiente “Modificación de atributos” y señalando los valores en la casilla “Lista de valores”. En nuestro caso señalando el tipo de rima en “consonante” o “asonante”, separados por comas y sin espacios:</p>
 
 <p><img src="img/12ODD.png" alt="" /></p>
 
@@ -203,9 +203,9 @@
 <p>Como vemos, el resultado es el total de los cambios realizados en nuestro esquema:</p>
 
 <ul>
-  <li>Se ha añadido el módulo <span class="code">verse</span>, señalando los dos elementos que hemos eliminado.</li>
-  <li>Se recoge la nueva descripción del elemento <span class="code"><caesura>&lt;/span&gt;.</caesura></span></li>
-  <li>Así como se añaden los valores al atributo <span class="code">@type</span> a través de una lista de valores (<span class="code"><valList>&lt;/span&gt;) y los valores individuales (<span class="code"><valItem>&lt;/span&gt;).</valItem></span></valList></span></li>
+  <li>Se ha añadido el módulo <code class="highlighter-rouge">verse</code>, señalando los dos elementos que hemos eliminado.</li>
+  <li>Se recoge la nueva descripción del elemento <code class="highlighter-rouge">&lt;caesura&gt;</code>.</li>
+  <li>Así como se añaden los valores al atributo <code class="highlighter-rouge">@type</code> a través de una lista de valores (<code class="highlighter-rouge">&lt;valList&gt;</code>) y los valores individuales (<code class="highlighter-rouge">&lt;valItem&gt;</code>).</li>
 </ul>
 
 <p>A partir de ahora, cada vez que subamos este documento ODD a la aplicación Roma recuperaremos el mismo esquema, conservando siempre las modificaciones que hemos llevado a cabo. ¡Imaginaros cuanto tiempo nos llevaría modificar nuestro esquema, si tuviéramos que incorporar toda la personalización cada vez que quisiéramos realizar algún cambio!</p>
@@ -218,7 +218,7 @@
   <li><a href="http://tei.it.ox.ac.uk/Talks/2011-06-18-odd/%20">Understanding ODD</a>, digital.humanities@oxford (University of Oxford)</li>
 </ul>
 
-<h3 id="anterior72html"><a href="7.2.html">&lt; &lt; Anterior</a></h3>
+<p><a href="7.2.html">&lt; &lt; Anterior</a></p>
 
     
   </div>

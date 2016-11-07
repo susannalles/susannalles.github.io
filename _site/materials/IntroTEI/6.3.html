@@ -101,113 +101,89 @@
 
 <p>Las <em>Guías directrices</em>, al igual que sucedía con las obras en verso, dedica un módulo específico a las obras dramática (véase <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DR.html">7. Performance texts</a>), que os he dejado en formato pdf en el aula.</p>
 
-<p>En primer lugar, es necesario crear la infraestructura general en la que acomodar el texto. Tal y como hemos procedido en las otras ocasiones, se podría establecer una división general para cada una de las escenas y para cada uno de los actos o jornadas, añadiendo un atributo <span class="code">@type</span> para definirlas:</p>
+<p>En primer lugar, es necesario crear la infraestructura general en la que acomodar el texto. Tal y como hemos procedido en las otras ocasiones, se podría establecer una división general para cada una de las escenas y para cada uno de los actos o jornadas, añadiendo un atributo <code class="highlighter-rouge">@type</code> para definirlas:</p>
 
-<blockquote>
-  <blockquote>
-    <p><span class="code"><span style="color: #0003ff;">&lt;div type="acto" n="1"&gt;<br />
-        &lt;head&gt;</span>Acto Primero<span style="color: #0003ff;">&lt;/head&gt;<br />
-        &lt;div type="escena"&gt;<br />
-          &lt;head&gt;</span>Escena I<span style="color: #0003ff;">&lt;/head&gt;<br />
-<!-- ... --><br />
-        &lt;/div&gt;
-&lt;/div&gt;</span></span></p>
-    <div type="acto" n="2">  
-        <head>&lt;/span&gt;Acto Segundo<span style="color: #0003ff;">&lt;/head&gt;  
-        <div type="escena">  
-          <head>&lt;/span&gt;Escena I<span style="color: #0003ff;">&lt;/head&gt;  
-<!-- ... -->  
-        &lt;/div&gt;  
-&lt;/div&gt;</span>&lt;/span&gt;
-</head></div></span></head></div>
-  </blockquote>
-</blockquote>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">div</span> <span class="n">type</span><span class="o">=</span><span class="s2">"acto"</span> <span class="n">n</span><span class="o">=</span><span class="s2">"1"</span><span class="o">&gt;</span>  
+         <span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span><span class="no">Acto</span> <span class="no">Primero</span><span class="o">&lt;</span><span class="sr">/head&gt;  
+         &lt;div type="escena"&gt;  
+           &lt;head&gt;Escena I&lt;/</span><span class="n">head</span><span class="o">&gt;</span>  
+ <span class="o">&lt;!--</span> <span class="p">.</span><span class="nf">.</span><span class="p">.</span> <span class="nf">-</span><span class="o">-&gt;</span>  
+         <span class="o">&lt;</span><span class="sr">/div&gt;  
+ &lt;/</span><span class="n">div</span><span class="o">&gt;</span>  
+ <span class="o">&lt;</span><span class="n">div</span> <span class="n">type</span><span class="o">=</span><span class="s2">"acto"</span> <span class="n">n</span><span class="o">=</span><span class="s2">"2"</span><span class="o">&gt;</span>  
+         <span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span><span class="no">Acto</span> <span class="no">Segundo</span><span class="o">&lt;</span><span class="sr">/head&gt;  
+         &lt;div type="escena"&gt;  
+           &lt;head&gt;Escena I&lt;/</span><span class="n">head</span><span class="o">&gt;</span>  
+ <span class="o">&lt;!--</span> <span class="p">.</span><span class="nf">.</span><span class="p">.</span> <span class="nf">-</span><span class="o">-&gt;</span>  
+         <span class="o">&lt;</span><span class="sr">/div&gt;  
+ &lt;/</span><span class="n">div</span><span class="o">&gt;</span></code></pre></figure>
 
 <p>Cada una de las divisiones puede o no ir acompañado de un título, elemento aceptado en todos los documentos TEI.</p>
 
-<p>Para los diálogos se utilizan los elementos [<span class="code"><sp>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-sp.html) (_speech_) que están constituidos de la persona que habla [<span class="code"><speaker>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-speaker.html) y del diálogo en sí, normalmente marcado en un simple <span class="code">&lt;p&gt;</span>, aunque nada impediría que se utilizara <span class="code"><l>&lt;/span&gt; o <span class="code"><lg>&lt;/span&gt;, especialmente en aquellos casos en que se tratara de una versificación; o incluso podría también utilizar el elemento <span class="code"><seg>&lt;/span&gt;, pero en ningún caso el texto podría ir directamente dentro del elemento <span class="code"><sp>&lt;/span&gt; sin estructurar. Un diálogo quedaría así:</sp></span></seg></span></lg></span></l></span></speaker></span></sp></span></p>
+<p>Para los diálogos se utilizan los elementos <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-sp.html"><code class="highlighter-rouge">&lt;sp&gt;</code></a> (<em>speech</em>) que están constituidos de la persona que habla <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-speaker.html"><code class="highlighter-rouge">&lt;speaker&gt;</code></a> y del diálogo en sí, normalmente marcado en un simple <code class="highlighter-rouge">&lt;p&gt;</code>, aunque nada impediría que se utilizara <code class="highlighter-rouge">&lt;l&gt;</code> o <code class="highlighter-rouge">&lt;lg&gt;</code>, especialmente en aquellos casos en que se tratara de una versificación; o incluso podría también utilizar el elemento <code class="highlighter-rouge">&lt;seg&gt;</code>, pero en ningún caso el texto podría ir directamente dentro del elemento <code class="highlighter-rouge">&lt;sp&gt;</code> sin estructurar. Un diálogo quedaría así:</p>
 
-<blockquote>
-  <blockquote>
-    <p><span class="code"><span style="color: #0003ff;"><sp who="#personaje1">  
-    <speaker>&lt;/span&gt;Personaje 1<span style="color: #0003ff;">&lt;/speaker&gt;  
-    &lt;p&gt;</span>Diálogo<span style="color: #0003ff;">&lt;/p&gt;
-&lt;/sp&gt;</span></speaker></sp></span></span></p>
-    <sp who="#personaje2">  
-    <speaker>&lt;/span&gt;Personaje 2<span style="color: #0003ff;">&lt;/speaker&gt;  
-    <p>&lt;/span&gt;Diálogo<span style="color: #0003ff;">&lt;/p&gt;  
-&lt;/sp&gt;</span>&lt;/span&gt;
-</p></span></speaker></sp>
-  </blockquote>
-</blockquote>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">sp</span> <span class="n">who</span><span class="o">=</span><span class="s2">"#personaje1"</span><span class="o">&gt;</span>  
+     <span class="o">&lt;</span><span class="n">speaker</span><span class="o">&gt;</span><span class="no">Personaje</span> <span class="mi">1</span><span class="o">&lt;</span><span class="sr">/speaker&gt;  
+     &lt;p&gt;Diálogo&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>  
+ <span class="o">&lt;</span><span class="sr">/sp&gt;  
+ &lt;sp who="#personaje2"&gt;  
+     &lt;speaker&gt;Personaje 2&lt;/s</span><span class="n">peaker</span><span class="o">&gt;</span>  
+     <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="no">Di</span><span class="err">á</span><span class="n">logo</span><span class="o">&lt;</span><span class="sr">/p&gt;  
+ &lt;/s</span><span class="nb">p</span><span class="o">&gt;</span></code></pre></figure>
 
-<p>En lo que concierne los personajes es importante crear de antemano una lista de todos los personajes que intervienen y otorgarles un identificador. Esta información puede colocarse o bien en una <span class="code">&lt;div&gt;</span> creada a propósito, o bien (más recomendable) en el elemento <span class="code"><front>&lt;/span&gt;, que precede el <span class="code">&lt;body&gt;</span>. Allí podríamos incluir dicha lista gracias al elemento [<span class="code"><castlist>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-castList.html):</castlist></span></front></span></p>
+<p>En lo que concierne los personajes es importante crear de antemano una lista de todos los personajes que intervienen y otorgarles un identificador. Esta información puede colocarse o bien en una <code class="highlighter-rouge">&lt;div&gt;</code> creada a propósito, o bien (más recomendable) en el elemento <code class="highlighter-rouge">&lt;front&gt;</code>, que precede el <code class="highlighter-rouge">&lt;body&gt;</code>. Allí podríamos incluir dicha lista gracias al elemento <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-castList.html"><code class="highlighter-rouge">&lt;castlist&gt;</code></a>:</p>
 
-<blockquote>
-  <blockquote>
-    <p><span class="code"><span style="color: #0003ff;"><front>  
-     <castList>  
-        &lt;head&gt;&lt;/span&gt;Personajes<span style="color: #0003ff;">&lt;/head&gt;  
-        <castItem>  
-          <role xml:id="#personaje1">&lt;/span&gt;Personaje 1<span style="color: #0003ff;">&lt;/role&gt;  
-          <roleDesc>&lt;/span&gt;Descripción del personaje 2<span style="color: #0003ff;">&lt;/roleDesc&gt;  
-        &lt;/castItem&gt;  
-        <castItem>  
-          <role xml:id="#personaje2">&lt;/span&gt;Personaje 2<span style="color: #0003ff;">&lt;/role&gt;  
-          <roleDesc>&lt;/span&gt;Descripción del personaje 2<span style="color: #0003ff;">&lt;/roleDesc&gt;  
-        &lt;/castItem&gt;  
-      &lt;/castList&gt;
-&lt;/front&gt;</span>&lt;/span&gt;</roleDesc></span></role></castItem></span></roleDesc></span></role></castItem></span></castList></front></span></span></p>
-  </blockquote>
-</blockquote>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">front</span><span class="o">&gt;</span>  
+      <span class="o">&lt;</span><span class="n">castList</span><span class="o">&gt;</span>  
+         <span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span><span class="no">Personajes</span><span class="o">&lt;</span><span class="sr">/head&gt;  
+         &lt;castItem&gt;  
+          &lt;role xml:id="#personaje1"&gt;Personaje 1&lt;/</span><span class="n">role</span><span class="o">&gt;</span>  
+           <span class="o">&lt;</span><span class="n">roleDesc</span><span class="o">&gt;</span><span class="no">Descripci</span><span class="err">ó</span><span class="n">n</span> <span class="n">del</span> <span class="n">personaje</span> <span class="mi">2</span><span class="o">&lt;</span><span class="sr">/roleDesc&gt;  
+         &lt;/</span><span class="n">castItem</span><span class="o">&gt;</span>  
+         <span class="o">&lt;</span><span class="n">castItem</span><span class="o">&gt;</span>  
+           <span class="o">&lt;</span><span class="n">role</span> <span class="n">xml</span><span class="ss">:id</span><span class="o">=</span><span class="s2">"#personaje2"</span><span class="o">&gt;</span><span class="no">Personaje</span> <span class="mi">2</span><span class="o">&lt;</span><span class="sr">/role&gt;  
+           &lt;roleDesc&gt;Descripción del personaje 2&lt;/</span><span class="n">roleDesc</span><span class="o">&gt;</span>  
+         <span class="o">&lt;</span><span class="sr">/castItem&gt;  
+       &lt;/</span><span class="n">castList</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="sr">/front&gt;</span></code></pre></figure>
 
-<p>De esta manera cada vez que un personaje hable se podrá marcar al interior de <span class="code"><sp>&lt;/span&gt; con el atributo <span class="code">@who</span>, para que todas sus intervenciones sean fácilmente localizables. De hecho, se podría eliminar la etiqueta <span class="code"><speaker>&lt;/span&gt; y recuperar la abreviación del personaje justamente a través del identificador que aparece como valor en el atributo <span class="code">@who</span> al interior de <span class="code"><sp>&lt;/span&gt;. Es decir que podríamos expresar lo mismo de esta forma:</sp></span></speaker></span></sp></span></p>
+<p>De esta manera cada vez que un personaje hable se podrá marcar al interior de <code class="highlighter-rouge">&lt;sp&gt;</code> con el atributo <code class="highlighter-rouge">@who</code>, para que todas sus intervenciones sean fácilmente localizables. De hecho, se podría eliminar la etiqueta <code class="highlighter-rouge">&lt;speaker&gt;</code> y recuperar la abreviación del personaje justamente a través del identificador que aparece como valor en el atributo <code class="highlighter-rouge">@who</code> al interior de <code class="highlighter-rouge">&lt;sp&gt;</code>. Es decir que podríamos expresar lo mismo de esta forma:</p>
 
-<blockquote>
-  <blockquote>
-    <p><span class="code"><span style="color: #0003ff;"><sp who="#personaje1"></sp></span></span></p>
-    <p>&lt;/span&gt;Diálogo<span style="color: #0003ff;">&lt;/p&gt;  
-&lt;/sp&gt;  
-  
-<sp who="#personaje2">  
-   <p>&lt;/span&gt;Diálogo<span style="color: #0003ff;">&lt;/p&gt;  
-&lt;/sp&gt;</span>&lt;/span&gt;
-</p></sp></span></p>
-  </blockquote>
-</blockquote>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">sp</span> <span class="n">who</span><span class="o">=</span><span class="s2">"#personaje1"</span><span class="o">&gt;</span>  
+    <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="no">Di</span><span class="err">á</span><span class="n">logo</span><span class="o">&lt;</span><span class="sr">/p&gt;  
+ &lt;/s</span><span class="nb">p</span><span class="o">&gt;</span>  
+   
+ <span class="o">&lt;</span><span class="n">sp</span> <span class="n">who</span><span class="o">=</span><span class="s2">"#personaje2"</span><span class="o">&gt;</span>  
+    <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="no">Di</span><span class="err">á</span><span class="n">logo</span><span class="o">&lt;</span><span class="sr">/p&gt;  
+&lt;/s</span><span class="nb">p</span><span class="o">&gt;</span></code></pre></figure>
 
-<p>Las indicaciones dramáticas o acotaciones, aquellas normalmente realizadas por el dramaturgo, pueden incluirse al interior de un elemento [<span class="code"><stage>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-stage.html). También aquí se prevé la opción de añadir un atributo <span class="code">@type</span> para caracterizar las diferentes acotaciones o tipos de indicaciones, por ejemplo:</stage></span></p>
+<p>Las indicaciones dramáticas o acotaciones, aquellas normalmente realizadas por el dramaturgo, pueden incluirse al interior de un elemento <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-stage.html"><code class="highlighter-rouge">&lt;stage&gt;</code></a>. También aquí se prevé la opción de añadir un atributo <code class="highlighter-rouge">@type</code> para caracterizar las diferentes acotaciones o tipos de indicaciones, por ejemplo:</p>
 
-<blockquote>
-  <blockquote>
-    <p><span class="code"><span style="color: #0003ff;"><sp who="#personaje1">  
-&lt;/span&gt;<span style="color: #0003ff;">   &lt;p&gt;</span>Diálogo<span style="color: #0003ff;">&lt;/p&gt;</span><span style="color: #0003ff;">
-&lt;/sp&gt;</span></sp></span></span></p>
-    <sp who="#personaje2">  
-&lt;/span&gt;<span style="color: #0003ff;">   <p>&lt;/span&gt;Diálogo<span style="color: #0003ff;">&lt;/p&gt;</span><span style="color: #0003ff;">  
-&lt;/sp&gt;  
-</span><span style="color: #0003ff;"><stage type="personajes">&lt;/span&gt;Descripción de los personajes que se encuentran en la escena.<span style="color: #0003ff;">&lt;/stage&gt;</span><span style="color: #0003ff;">  
-</span><span style="color: #0003ff;"><stage type="decorado">&lt;/span&gt;Descripción del decorado en la escena.<span style="color: #0003ff;">&lt;/stage&gt;</span>&lt;/span&gt;
-</stage></span></stage></span></p></span></sp>
-  </blockquote>
-</blockquote>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">sp</span> <span class="n">who</span><span class="o">=</span><span class="s2">"#personaje1"</span><span class="o">&gt;</span>  
+   <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="no">Di</span><span class="err">á</span><span class="n">logo</span><span class="o">&lt;</span><span class="sr">/p&gt; 
+ &lt;/s</span><span class="nb">p</span><span class="o">&gt;</span>  
+ <span class="o">&lt;</span><span class="n">sp</span> <span class="n">who</span><span class="o">=</span><span class="s2">"#personaje2"</span><span class="o">&gt;</span>  
+  <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="no">Di</span><span class="err">á</span><span class="n">logo</span><span class="o">&lt;</span><span class="sr">/p&gt; 
+ &lt;/s</span><span class="nb">p</span><span class="o">&gt;</span>  
+ <span class="o">&lt;</span><span class="n">stage</span> <span class="n">type</span><span class="o">=</span><span class="s2">"personajes"</span><span class="o">&gt;</span><span class="no">Descripci</span><span class="err">ó</span><span class="n">n</span> <span class="n">de</span> <span class="n">los</span> <span class="n">personajes</span> <span class="n">que</span> <span class="n">se</span> <span class="n">encuentran</span> <span class="n">en</span> <span class="n">la</span> <span class="n">escena</span><span class="p">.</span><span class="nf">&lt;</span><span class="o">/</span><span class="n">stage</span><span class="o">&gt;</span> 
+ <span class="o">&lt;</span><span class="n">stage</span> <span class="n">type</span><span class="o">=</span><span class="s2">"decorado"</span><span class="o">&gt;</span><span class="no">Descripci</span><span class="err">ó</span><span class="n">n</span> <span class="n">del</span> <span class="n">decorado</span> <span class="n">en</span> <span class="n">la</span> <span class="n">escena</span><span class="p">.</span><span class="nf">&lt;</span><span class="o">/</span><span class="n">stage</span><span class="o">&gt;</span></code></pre></figure>
 
-<p>Al interior del elemento <span class="code"><stage>&lt;/span&gt; podemos utilizar otros elementos que pueden sernos útiles en alguna ocasión como por ejemplo:</stage></span></p>
+<p>Al interior del elemento <code class="highlighter-rouge">&lt;stage&gt;</code> podemos utilizar otros elementos que pueden sernos útiles en alguna ocasión como por ejemplo:</p>
 
 <ul>
-  <li>[<span class="code"><move>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-move.html): para indicar los movimientos de los personajes. Podríamos incluso especificar los movimiento con el atributo <span class="code">@type</span>, que conlleva unos valores predifinidos por defecto de entrada, salida y en escena: <span class="code">entrance</span> o <span class="code">exit</span> y <span class="code">onStage</span>; así también podemos añadir el atributo <span class="code">@who</span> para identificar fácilmente de qué personaje se trata y <span class="code">@where</span> para señalar hacia dónde es el movimiento.</move></span></li>
-  <li>[<span class="code"><sound>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-sound.html): para describir fenómenos de sonido, añadiendo si es necesario el atributo <span class="code">@type</span>.</sound></span></li>
-  <li>[<span class="code"><view>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-view.html): para describir el contexto visual de una parte del escenario, tal y como lo debe visualizar el espectador.</view></span></li>
-  <li>[<span class="code"><camera>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-camera.html) para dar indicaciones al cámara en el caso de grabaciones video, como películas.</camera></span></li>
-  <li><span class="code"><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-caption.html">&lt;caption&gt;</a></span> para recoger las palabras que deberán proyectarse en pantalla.</li>
-  <li>[<span class="code"><tech>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-tech.html) otras informaciones técnicas.</tech></span></li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-move.html"><code class="highlighter-rouge">&lt;move&gt;</code></a>: para indicar los movimientos de los personajes. Podríamos incluso especificar los movimiento con el atributo <code class="highlighter-rouge">@type</code>, que conlleva unos valores predifinidos por defecto de entrada, salida y en escena: <code class="highlighter-rouge">entrance</code> o <code class="highlighter-rouge">exit</code> y <code class="highlighter-rouge">onStage</code>; así también podemos añadir el atributo <code class="highlighter-rouge">@who</code> para identificar fácilmente de qué personaje se trata y <code class="highlighter-rouge">@where</code> para señalar hacia dónde es el movimiento.</li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-sound.html"><code class="highlighter-rouge">&lt;sound&gt;</code></a>: para describir fenómenos de sonido, añadiendo si es necesario el atributo <code class="highlighter-rouge">@type</code>.</li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-view.html"><code class="highlighter-rouge">&lt;view&gt;</code></a>: para describir el contexto visual de una parte del escenario, tal y como lo debe visualizar el espectador.</li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-camera.html"><code class="highlighter-rouge">&lt;camera&gt;</code></a> para dar indicaciones al cámara en el caso de grabaciones video, como películas.</li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-caption.html"><code class="highlighter-rouge">&lt;caption&gt;</code></a>&lt;/span&gt; para recoger las palabras que deberán proyectarse en pantalla.</li>
+  <li><a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-tech.html"><code class="highlighter-rouge">&lt;tech&gt;</code></a> otras informaciones técnicas.</li>
 </ul>
 
 <p>En el aula encontraréis un ejemplo sencillo de codificación del inicio de una obra dramática en verso de Lope de Vega, <em>Amar sin saber a quien</em>. Miraros la reproducción digital que aparece en la <a href="http://bib.cervantesvirtual.com/servlet/SirveObras/01260529543471504100035/p0000001.htm#I_0_">Biblioteca Cervantes Virtual</a>  y confrontadla con la codificación que he propuesto. <a href="%20http://bib.cervantesvirtual.com/servlet/SirveObras/00363959755781806410046/ima0000.htm">Aquí</a> encontraréis también una edición digital en HTML.</p>
 
 <p>Como siempre os recomiendo que sigáis otros recursos, en este caso el <a href="http://www.teibyexample.org/modules/TBED05v00.htm">Módulo 5 de TEI by Sample</a> y, sobre todo, los <a href="http://www.teibyexample.org/examples/TBED05v00.htm">ejemplos</a>. Así como la consulta de las <a href="%20http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DR.html"><em>Guías directrices</em></a>.</p>
 
-<h3 id="anterior62html---------siguiente--64html"><a href="6.2.html">&lt; &lt; Anterior</a>         <a href="6.4.html">Siguiente &gt; &gt;</a></h3>
+<p><a href="6.2.html">&lt; &lt; Anterior</a>         <a href="6.4.html">Siguiente &gt; &gt;</a></p>
 
     
   </div>
