@@ -304,8 +304,13 @@ Una vez modificado el fichero de configuración, deberéis parar el servidor loc
 
 ## Subir la edición a GitHub Pages con GitHub Desktop ## 
 
-Activaremos ahora GitHub Pages. 
-- Abrid un editor de texto (TextWrangler, Notepad ++, Sublime) y crea una página html que se llame index.html y que contenga algo de contenido. Por ejemplo: 
+Activaremos ahora GitHub Pages.
+- Cread una carpeta que se llame `GitHub`.  
+- Ahora abrid la aplicación GitHub App. Id al icono "+" y clicad en "Create". En el espacio "Name" poned "username.github.io", donde "username" corresponde a vuestro nombre de usuario en GitHub. En el espacio "Local Path" seleccionad la carpeta que habéis creado con el nombre de `GitHub`. Y clicad "Create repository". 
+
+![Crear repositorio]({{site.url}}/public/img/01.png)
+
+- Abrid un editor de texto (TextWrangler, Notepad ++, Sublime) y crea una página html que se llame `index.html` y que contenga algo de contenido. Por ejemplo: 
 
 {% highlight ruby %}
 <!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -319,6 +324,14 @@ Activaremos ahora GitHub Pages.
     </body>
 </html>
 {% endhighlight %}
+
+- Guardad este documento como "index.html" en la carpeta "usuario.github.io". 
+
+- Desde GitHub App, seleccionad el icono de "branch" (al lado de "master") y cread un nuevo branch que se llame "gh-pages". Clicad en "Create new branch". 
+- Donde pone "summary" escribid "mi primer commit" y confirmadlo en "Commit to gh-pages". 
+- Seleccionad "Publish". En "Description" podéis poner algo como "mi web" y "Publish username.github.io". 
+- Si vais a vuestro repositorio en GitHub: `https://github.com/username/username.github.io` veréis que habéis añadido un nuevo repositorio que os va a funcionar como servidor. 
+- Ahora id a http://username.github.io y la magia debería suceder. 
 
 
 A) Desde GitHub Desktop
