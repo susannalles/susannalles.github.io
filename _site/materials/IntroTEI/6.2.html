@@ -123,42 +123,37 @@ con hojas de mi otoño enajenado.</p>
   </blockquote>
 </blockquote>
 
-<p>La totalidad del poema suele contenerse en el elemento [<span class="code"><lg>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-lg.html) (_line group_), mientras que el título, una vez más, se sitúa al interior de un elemento [<span class="code">&lt;head&gt;</span>](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-head.html); cada uno de los versos se codifica con el elemento que indica la línea: [<span class="code"><l>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-l.html). Así mismo, para marcar las estrofas también se utiliza <span class="code"><lg>&lt;/span&gt;, pues permite la anidación de otros elementos idénticos en su interior.</lg></span></l></span></lg></span></p>
+<p>La totalidad del poema suele contenerse en el elemento <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-lg.html"><code class="highlighter-rouge">&lt;lg&gt;</code></a> (<em>line group</em>), mientras que el título, una vez más, se sitúa al interior de un elemento <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-head.html"><code class="highlighter-rouge">&lt;head&gt;</code></a>; cada uno de los versos se codifica con el elemento que indica la línea: <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-l.html"><code class="highlighter-rouge">&lt;l&gt;</code></a>. Así mismo, para marcar las estrofas también se utiliza <code class="highlighter-rouge">&lt;lg&gt;</code>, pues permite la anidación de otros elementos idénticos en su interior.</p>
 
-<p>El elemento <span class="code"><lg>&lt;/span&gt; puede poseer una serie de atributos, tanto a nivel de poema, como a nivel de estrofa, entre los cuales podemos destacar:</lg></span></p>
-
-<ul>
-  <li><span class="code">@type</span> para indicar de qué tipo de composición se trata</li>
-  <li><span class="code">@rhyme</span> para indicar el tipo de rima de la estrofa</li>
-  <li><span class="code">@n</span> para señalar, por ejemplo, el número de estrofa</li>
-  <li><span class="code">@xml:id</span> para otorgar un identificador a cada verso</li>
-</ul>
-
-<p>También el verso (<span class="code"><l>&lt;/span&gt;) puede tener sus atributos:</l></span></p>
+<p>El elemento <code class="highlighter-rouge">&lt;lg&gt;</code> puede poseer una serie de atributos, tanto a nivel de poema, como a nivel de estrofa, entre los cuales podemos destacar:</p>
 
 <ul>
-  <li><span class="code">@n</span> para indicar el número del verso</li>
-  <li><span class="code">@rhyme</span> para indicar la rima del verso</li>
-  <li><span class="code">@xml:id</span> para otorgar un identificador a cada verso</li>
+  <li><code class="highlighter-rouge">@type</code> para indicar de qué tipo de composición se trata</li>
+  <li><code class="highlighter-rouge">@rhyme</code> para indicar el tipo de rima de la estrofa</li>
+  <li><code class="highlighter-rouge">@n</code> para señalar, por ejemplo, el número de estrofa</li>
+  <li><code class="highlighter-rouge">@xml:id</code> para otorgar un identificador a cada verso</li>
 </ul>
 
-<p>El vocabulario TEI prevé un elemento específico para codificar las rimas: <span class="code"><ryhme>&lt;/span&gt;; éste puede aparecer tanto a final de verso como en su interior, donde sea que aparezca la rima:</ryhme></span></p>
+<p>También el verso (<code class="highlighter-rouge">&lt;l&gt;</code>) puede tener sus atributos:</p>
 
-<blockquote>
-  <blockquote>
-    <p><span class="code"><span style="color: #0003ff;"><lg type="cuarteto" n="1"></lg></span></span></p>
-    <l n="1">&lt;/span&gt;Tengo miedo a perder la marav<span style="color: #0003ff;"><rhyme>&lt;/span&gt;illa<span style="color: #0003ff;">&lt;/rhyme&gt;&lt;/l&gt;  
-   <l n="2">&lt;/span&gt; de tus ojos de estatua y el ac<span style="color: #0003ff;"><rhyme>&lt;/span&gt;ento<span style="color: #0003ff;">&lt;/rhyme&gt; &lt;/l&gt;  
-   <l n="3">&lt;/span&gt; que me pone de noche en la mej<span style="color: #0003ff;"><rhyme>&lt;/span&gt;illa<span style="color: #0003ff;">&lt;/rhyme&gt; &lt;/l&gt;  
-   <l n="4">&lt;/span&gt;la solitaria rosa de tu ali<span style="color: #0003ff;"><rhyme>&lt;/span&gt;ento<span style="color: #0003ff;">&lt;/rhyme&gt;.&lt;/l&gt;  
-&lt;/lg&gt;</span>&lt;/span&gt;
-</rhyme></span></l></span></rhyme></span></l></span></rhyme></span></l></span></rhyme></span></l>
-  </blockquote>
-</blockquote>
+<ul>
+  <li><code class="highlighter-rouge">@n</code> para indicar el número del verso</li>
+  <li><code class="highlighter-rouge">@rhyme</code> para indicar la rima del verso</li>
+  <li><code class="highlighter-rouge">@xml:id</code> para otorgar un identificador a cada verso</li>
+</ul>
 
-<p>Además, el elemento [<span class="code"><rhyme>&lt;/span&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-rhyme.html) puede contener el atributo <span class="code">@label</span> para señalar el tipo de rima, normalmente indicado con una letra del alfabeto: <span class="code">marav<rhyme label="a">illa</rhyme></span>.</rhyme></span></p>
+<p>El vocabulario TEI prevé un elemento específico para codificar las rimas: <code class="highlighter-rouge">&lt;ryhme&gt;</code>; éste puede aparecer tanto a final de verso como en su interior, donde sea que aparezca la rima:</p>
 
-<p>Pero también puede indicarse en el interior del elemento <span class="code">&lt;div&gt;</span>, <span class="code"><lg>&lt;/span&gt; e incluso <span class="code"><l>&lt;/span&gt;:</l></span></lg></span></p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">lg</span> <span class="n">type</span><span class="o">=</span><span class="s2">"cuarteto"</span> <span class="n">n</span><span class="o">=</span><span class="s2">"1"</span><span class="o">&gt;</span>  
+  <span class="o">&lt;</span><span class="n">l</span> <span class="n">n</span><span class="o">=</span><span class="s2">"1"</span><span class="o">&gt;</span><span class="no">Tengo</span> <span class="n">miedo</span> <span class="n">a</span> <span class="n">perder</span> <span class="n">la</span> <span class="n">marav</span><span class="o">&lt;</span><span class="n">rhyme</span><span class="o">&gt;</span><span class="n">illa</span><span class="o">&lt;</span><span class="sr">/rhyme&gt;&lt;/</span><span class="n">l</span><span class="o">&gt;</span>  
+  <span class="o">&lt;</span><span class="n">l</span> <span class="n">n</span><span class="o">=</span><span class="s2">"2"</span><span class="o">&gt;</span> <span class="n">de</span> <span class="n">tus</span> <span class="n">ojos</span> <span class="n">de</span> <span class="n">estatua</span> <span class="n">y</span> <span class="n">el</span> <span class="n">ac</span><span class="o">&lt;</span><span class="n">rhyme</span><span class="o">&gt;</span><span class="n">ento</span><span class="o">/</span><span class="n">rhyme</span><span class="o">&gt;&lt;</span><span class="sr">/l&gt;  
+  &lt;l n="3"&gt; que me pone de noche en la mej&lt;rhyme&gt;illa&lt;/</span><span class="n">rhyme</span><span class="o">&gt;&lt;</span><span class="sr">/l&gt;  
+  &lt;l n="4"&gt;la solitaria rosa de tu ali&lt;rhyme&gt;ento&lt;/</span><span class="n">rhyme</span><span class="o">&gt;</span><span class="p">.</span><span class="nf">&lt;</span><span class="o">/</span><span class="n">l</span><span class="o">&gt;</span>  
+<span class="o">&lt;</span><span class="sr">/lg&gt;</span></code></pre></figure>
+
+<p>Además, el elemento <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-rhyme.html"><code class="highlighter-rouge">&lt;rhyme&gt;</code></a> puede contener el atributo <code class="highlighter-rouge">@label</code> para señalar el tipo de rima, normalmente indicado con una letra del alfabeto: <code class="highlighter-rouge">marav&lt;rhyme label="a"&gt;illa&lt;/rhyme&gt;</code>.</p>
+
+<p>Pero también puede indicarse en el interior del elemento <code class="highlighter-rouge">&lt;div&gt;</code>, <code class="highlighter-rouge">&lt;lg&gt;</code> e incluso <code class="highlighter-rouge">&lt;l&gt;</code>:</p>
 
 <blockquote>
   <blockquote>

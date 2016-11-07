@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Crear una edición mínima con Jekyll y GitHub Pages"
-date:   2016-11-03
+date:   2016-11-07
 categories: workshops
 permalink: /:categories/:title.html
 author: Susanna Allés Torrent

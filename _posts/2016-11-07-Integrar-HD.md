@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Integrar las Humanidades Digitales en una Universidad Hemísférica"
-date:   2016-11-06
+date:   2016-11-07
 categories: conferences
 permalink: /:categories/:title.html
 ---
@@ -46,7 +46,7 @@ I. [Seminar Latin American and Iberian Digital Humanities](/materials/syllabi/DH
 	4. XML y TEI
 	5. Text Mining y análisis electrónico de texto
 
-II. [Minimal Editions](/materials/syllabi/MinimalEditions.html): proyecto colaborativo para contruir una edición digital. 
+II. [Minimal Editions](/materials/syllabi/MinimalEditions.html): proyecto colaborativo para construir una edición digital. 
 
 	1. Principios básicos de la crítica textual
 	2. Contexto literario de la obra estudiada
@@ -99,7 +99,7 @@ III. [Introducción a XML-TEI](/materials/IntroTEI/index.html)
 
 **Trabajos al interno de un proyecto en curso**
 
-* Lilianne Lugo Herrera, Digital Voices 
+* Lilianne Lugo Herrera, [Voces del diseño](http://teatrocubano.org/digitalobjects/collection/cta0058)
 
 ## Algunas ideas finales: 
 
