@@ -207,8 +207,9 @@ Abrid el fichero `_config` y cambiad las informaciones básicas: el nombre del s
 
 Tutoriales: 
 
-[GuitHub Guide][GitHub Guide]
-[Git Immersion](http://gitimmersion.com/)
+* [GuitHub Guide][GitHub Guide]
+* [Git Immersion](http://gitimmersion.com/)
+* [GitHub Classroom](https://classroom.github.com/) 
 
 # III. GitHub Pages
 
@@ -261,8 +262,7 @@ Activaremos ahora GitHub Pages siguiendo las instrucciones en [https://pages.git
 Tutoriales:
 
 * [GitHub Pages Basics](https://help.github.com/categories/github-pages-basics/)
-* Anna Debenham, [*Get started with GitHub Pages (Plus Bonus Jekyll)*](https://24ways.org/2013/get-started-with-github-pages/), 24 Ways to impress your friends. Blog. 18-12-2013. 
-
+* Anna Debenham, [*Get started with GitHub Pages (Plus Bonus Jekyll)*](https://24ways.org/2013/get-started-with-github-pages/), 24 Ways to impress your friends. Blog. 18-12-2013.
 
 # IV. Ed: a Jekyll theme for minimal editions
 
