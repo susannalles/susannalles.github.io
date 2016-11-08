@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Introducción a la edición digital de Textos (TEI-XML)</title>
-  <meta name="description" content="Index">
+  <title>Welcome to Jekyll!</title>
+  <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
 
  <!--<link rel="stylesheet" href="/css/main.css">-->
   <link rel="stylesheet" href="http://localhost:4000/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/materials/IntroTEI/2.4.html">
-  <link rel="canonical" href="http://localhost:4000/materials/IntroTEI/2.4.html">
+  <link rel="canonical" href="http://localhost:4000/mipagina/jekyll/update/2016/11/07/welcome-to-jekyll.html">
+  <link rel="canonical" href="http://localhost:4000/mipagina/jekyll/update/2016/11/07/welcome-to-jekyll.html">
   <link rel="alternate" type="application/rss+xml" title="Susanna Allés Torrent" href="/feed.xml">
   
   
@@ -37,7 +37,7 @@
       </span>
 
       <div class="trigger">
-        <!--Aquí posar el menú fixe que vull -->
+        <!--Aquí posar el menú fixe que vull 
       
           
           <a class="page-link" href="/cv">CV</a>
@@ -76,7 +76,9 @@
           
         
           
-        
+        -->
+        <a class="page-link" href="http://localhost:4000">Home</a>
+        <a class="page-link" href="http://localhost:4000/blog.html">Blog</a>
 
       </div>
     </nav>
@@ -89,45 +91,34 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">Introducción a la edición digital de Textos (TEI-XML)</h1>
+    <h1 class="post-title" itemprop="name headline">Welcome to Jekyll!</h1>
+    <p class="post-meta"><time datetime="2016-11-07T22:07:10-03:00" itemprop="datePublished">Nov 7, 2016</time></p>
   </header>
 
-  <div class="post-content">
-    
-    <p><a href="http://localhost:4000/materials/IntroTEI/index.html">Index</a></p>
+  <div class="post-content" itemprop="articleBody">
+    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
-<h4 id="tema-2-principios-fundamentales-de-xml-4">Tema 2: Principios fundamentales de XML (4)</h4>
+<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
-<p><strong>4. Los esquemas</strong></p>
+<p>Jekyll also offers powerful support for code snippets:</p>
 
-<p>Los esquemas constituyen, en general, un fichero diferente, de esta manera podemos referirnos a él desde múltiples documentos XML. Su función principal es la de establecer y definir los requisitos que debe respetar el documento XML. La referencia al esquema aparece en el prólogo del documento XML (después de la declaración XML y antes del elemento raíz):</p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="p">?</span><span class="n">xml</span> <span class="n">version</span><span class="o">=</span><span class="s2">"1.0"</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"UTF-8"</span> <span class="n">standalone</span><span class="o">=</span><span class="s2">"no"</span><span class="sc">?&gt;</span>  
-  <span class="o">&lt;!</span><span class="no">DOCTYPE</span> <span class="n">curso</span> <span class="no">SYSTEM</span> <span class="s2">"ejemplo-2-DTD.dtd"</span><span class="o">&gt;</span>  
-   <span class="o">&lt;</span><span class="n">curso</span><span class="o">&gt;</span> <span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">.</span> <span class="o">&lt;</span><span class="sr">/curso&gt;</span></code></pre></figure>
+<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
 
-<p>Un esquema establece la serie de elementos, sus nombres y los atributos que estos podrán contener; además, establece de qué manera se podrán anidar los unos con los otros. El parser que debe validar el documento compara el marcado XML con el esquema y recoge aquellos puntos en que el documento difiere de sus reglas. Algunos parsers si encuentran defectos, rechazarán el documento, otros no, depende de las reglas que establezca el mismo. Todas las reglas, a parte obviamente de aquellas que pertenecen a la buena formación de cualquier documento XML, deben declararse en el esquema, de no ser así el documento será “inválido”.</p>
 
-<p>Hay diferentes tipos de esquema:</p>
-
-<ul>
-  <li><a href="http://en.wikipedia.org/wiki/Document_type_definition">DTD</a> (Document Type Definition): es el modelo más utilizado en el mundo de la informática pero no en cambio en el campo de TEI, pues es menos flexible que otros modelos. En el fichero <a href="/o/10015224">ejemplo-2-DTD.dtd</a> encontraréis una muestra de una sencilla DTD comentada y que acompaña el fichero XML <a href="/o/10015222">ejemplo-2.xml</a>.</li>
-  <li><a href="http://www.w3.org/XML/Schema">Esquemas W3C</a>: se trata de esquemas expresados en XML, publicados por el W3C en 2001 (2ª ed. 2004):</li>
-  <li><a href="http://www.relaxng.org">Esquemas RelaxNG</a>: este tipo de esquemas también se expresan en XML y son los más utilizados en el campo de TEI; será, por tanto, con el que nosotros trabajaremos. En 2003 se constituyeron como una norma ISO/IEC 19757-2, actualizada en 2008.</li>
-  <li>Existen otros esquemas también utilizados como Schematron, Hook, Examplotron, pero que no tendremos ocasión de estudiar en este curso.</li>
-</ul>
-
-<p>En cualquier caso, una regla de oro es que el formato esté bien documentado. Debe haber un esquema para nuestro proyecto y debe estar bien comentado. Además, debería haber más documentación escrita para complementarlo, como una especie de manual de marcado (no concebido como sustitución de la documentación formal del esquema, sino como un complemento).</p>
-
-<p><a href="2.3.html">&lt; &lt; Anterior</a>         <a href="2.5.html">Siguiente &gt; &gt;</a></p>
-
-    
   </div>
 
+  
 </article>
+
       
       </div>
     </main>

@@ -64,6 +64,12 @@
           
         
           
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
         
           
         
@@ -140,21 +146,23 @@ En: <a href="http://www.aacademica.org/aahd.congreso">I Congreso Internacional. 
 
 <p>Antes de empezar y/o venir al taller es recomendable que vuestro ordenador tenga una serie de software instalado.</p>
 
-<h2 id="a-instalacin-de-algunos-software-necesarios">A. Instalación de algunos software necesarios:</h2>
+<h2 id="a-instalacin-de-softwares-necesarios">A. Instalación de softwares necesarios:</h2>
 
-<p>Tanto Jekyll como Ed funcionan mejor en Mac, pero pueden también ejecutarse en windows. Encontraréis todas estas instrucciones con detalladas explicaciones en el tutorial de Amanda [Visconti][Viconti - Installing Dependencies] publicado en <em>Programming Historian</em>.</p>
+<p>Tanto Jekyll como Ed funcionan mejor en Mac, pero pueden también ejecutarse en Windows. Encontraréis todas estas instrucciones con detalladas explicaciones en el tutorial de Amanda <a href="http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#section2">Visconti</a> publicado en <em>Programming Historian</em>.</p>
 
-<p>[Nota: recordad que el símbolo $ no debe copiarse ;) ]</p>
+<blockquote>
+  <blockquote>
+    <p>Nota: recordad que el símbolo $ no debe copiarse</p>
+  </blockquote>
+</blockquote>
 
 <p><strong>En una IOS</strong>:</p>
 
 <p>Los siguientes pasos deben hacerse en el terminal. El objetivo es instalar una serie de herramientas que nos permitirán ejecutar ciertas órdenes en la línea de comandos:</p>
 
 <ul>
-  <li>
-    <p>Instalar <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12">XCode</a> (puede tardar hasta media hora y ocupa bastante):
- 		<code class="highlighter-rouge">$ xcode-select --install</code></p>
-  </li>
+  <li>Instalar <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12">XCode</a> (puede tardar hasta media hora y ocupa bastante):
+ 		<code class="highlighter-rouge">$ xcode-select --install</code></li>
   <li>Se abrirá una ventana emergente y debéis seguir los pasos: “Install”, “Done”.</li>
   <li>Instala <a href="http://brew.sh/">Homebrew</a> (todo junto):
       <code class="highlighter-rouge">$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></li>
@@ -175,13 +183,18 @@ A continuación esto: <code class="highlighter-rouge">$ gem install rubygems-upd
   <li>Instalar <a href="https://chocolatey.org/">Chocolatey</a> (os pedirá que seáis los adminstradores del sistema)
       <code class="highlighter-rouge">$ @powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) &gt;$null 2&gt;&amp;1" &amp;&amp; SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin</code></li>
   <li>Cerrad el “Command Prompt”</li>
-  <li>Abrid “Git Bash” que acabáis de descargar e instalar (abridlo con el clic derecho y “Ejecutar como adeministrador”). A partir de ahora esto será vuestro terminal.</li>
+  <li>Abrid “Git Bash” que acabáis de descargar e instalar (abridlo con el clic derecho y “Ejecutar como administrador”). A partir de ahora esto será vuestro terminal.</li>
   <li>Instala Ruby &amp; <a href="https://rubygems.org/">Ruby Gems</a>:
       <code class="highlighter-rouge">choco install ruby -y</code></li>
   <li>Cerrad el terminal y volvedlo a abrir.</li>
   <li>Instala <a href="http://jekyllrb.com/">Jekyll</a>:
       <code class="highlighter-rouge">gem install jekyll</code>
-[Nota: si os da error al instalar esta última gema, seguid las instrucciones de <a href="https://labs.sverrirs.com/jekyll/2-jekyll-gem.html">Sigmundarson</a>.]</li>
+    <blockquote>
+      <blockquote>
+        <p>Nota: si os da error al instalar esta última gema, podéis seguir las instrucciones de <a href="https://labs.sverrirs.com/jekyll/2-jekyll-gem.html">Sigmundarson</a>.</p>
+      </blockquote>
+    </blockquote>
+  </li>
 </ul>
 
 <p>En estos enlaces encontraréis indicaciones ulteriores sobre Jekyll en Windows:</p>
@@ -201,16 +214,16 @@ A continuación esto: <code class="highlighter-rouge">$ gem install rubygems-upd
 <h2 id="c-cuenta-de-usuario-en-github">c. Cuenta de usuario en GitHub</h2>
 <ul>
   <li>Visitad <a href="https://github.com/">https://github.com/</a></li>
-  <li>“Sign up” (el nombre de usuario será visible a todos, además vuestra url final en GitHub Pages será username.github.io, así que elegidlo bien).</li>
+  <li>“Sign up” (el nombre de usuario será visible a todos, además vuestra URL final en GitHub Pages será <code class="highlighter-rouge">username.github.io</code>, así que elegidlo bien).</li>
   <li>“Choose” &gt; “Free” (ignora “Help me set up an organization next”) &gt; “Finish sign up”</li>
   <li>Optativamente puedes rellenar tu “Profile” con tus datos.</li>
 </ul>
 
-<p>Obviamente, si ya tenéis una cuenta de usuario, podéis saltar este paso.</p>
+<p>Obviamente, si ya tenéis una cuenta de usuario, debéis saltar este paso.</p>
 
 <h2 id="d-github-app">D. GitHub App</h2>
 
-<p>Si no estáis acostumbrados a utilizar Git en el terminal, os podéis bajar la versión GUI de GitHub App.</p>
+<p>Si no estáis acostumbrados a utilizar Git en el terminal, os podéis bajar la versión con interfaz gráfica de GitHub: GitHub App.</p>
 
 <ul>
   <li>Visitad <a href="https://desktop.github.com/">GitHub App</a></li>
@@ -222,9 +235,7 @@ A continuación esto: <code class="highlighter-rouge">$ gem install rubygems-upd
   <li>Clica el botón “Done” (ignora “Which repositories would you like to use”).</li>
 </ul>
 
-<p>Ok. Ahora empecemos.</p>
-
-<h1 id="i-jekyll-en-construccin">I. Jekyll (en construcción)</h1>
+<h1 id="i-jekyll">I. Jekyll</h1>
 
 <p><a href="http://jekyllrb.com/">Jekyll</a> es un generador de páginas web, para blogs, proyectos web simples o portfolios. En realidad, se trata de un motor de transformación de texto plano. La idea es centrarse solo en el contenido: se prepara un texto en un formato simple (markdown, Textile, HTML), se le aplica un layout o plantilla, y se genera un sitio web. Las plantillas se modifican en función de lo que queramos que aparezca en la página. Como producto final obtenemos un sitio web estático.</p>
 
@@ -236,35 +247,18 @@ A continuación esto: <code class="highlighter-rouge">$ gem install rubygems-upd
 
 <p>Existen muchas ventajas de utilizar Jekyll o en general páginas web estáticas (<a href="http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#section0">Visconti</a>):</p>
 <ul>
-  <li>Mantenimiento</li>
-  <li>Preservación</li>
-  <li>Aprendizaje</li>
-  <li>Personalización</li>
-  <li>Hosting / alojamiento</li>
-  <li>Versioning</li>
-  <li>Seguridad</li>
-  <li>Rapidez</li>
-</ul>
-
-<p>Jekyll es ideal para blogs, páginas personales, y proyectos de web sencillos. El uso de plantillas asociadas a ficheros de textos planos nos permite mucha flexibilidad y la posibilidad de automatizan la conversión en HTML.</p>
-
-<h2 id="qu-lenguajes-utiliza-jekyll">¿Qué lenguajes utiliza Jekyll?</h2>
-
-<ul>
-  <li>Markdown: 
-  Algunas referencias:
-    <ul>
-      <li><a href="http://kramdown.gettalong.org/quickref.html">Kramdown</a></li>
-      <li>Sarah Simpkin, <a href="http://programminghistorian.org/lessons/getting-started-with-markdown"><em>Getting Started with Markdown</em></a></li>
-    </ul>
-  </li>
-  <li>YAML: <a href="http://yaml.org/">YAML Ain’t Markup Language</a></li>
-  <li>Liquid: <a href="http://shopify.github.io/liquid/">Liquid</a></li>
-  <li><a href="http://sass-lang.com/">SASS</a> y <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></li>
-  <li><a href="https://es.wikipedia.org/wiki/HTML">HTML</a></li>
+  <li>Mantenimiento: no necesita actualizaciones</li>
+  <li>Preservación: uso estándares, contenidos en texto plano</li>
+  <li>Aprendizaje: fácil de aprender</li>
+  <li>Personalización: fácil de personalizar (HTML, CSS) a partir de las plantillas</li>
+  <li>Hosting / alojamiento: alojamiento gratuito en GitHub Pages, o servidor</li>
+  <li>Versioning: GitHub</li>
+  <li>Seguridad: GitHub, sitio web estático</li>
+  <li>Rapidez: sitio web estático, páginas html</li>
 </ul>
 
 <h2 id="estructura-de-directorios-en-un-sitio-jekyll">Estructura de directorios en un sitio Jekyll</h2>
+<p>Jekyll, aunque necesita una instalación previa de algunos lenguajes y entornos como Ruby y RubyGems, es en realidad una simple carpeta ficheros. Una instalación por defecto consta de tres ficheros diferentes: un fichero de configuración que guarda informaciones como el nombre del sitio, el autor o una descripción del sitio; <code class="highlighter-rouge">includes</code> que incluye las partes de la página html (header, body, footer), <code class="highlighter-rouge">layouts</code> que contiene las plantillas diferentes que queremos aplicar a nuestro sitio web; <code class="highlighter-rouge">post</code> que contiene las entradas de blog (esto no es obligatorio).</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">.</span>
 <span class="err">├──</span> <span class="n">_config</span><span class="p">.</span><span class="nf">yml</span>
@@ -288,6 +282,8 @@ A continuación esto: <code class="highlighter-rouge">$ gem install rubygems-upd
 
 <p><a href="https://jekyllrb.com/docs/structure/">Directory Structure - Jekyll</a></p>
 
+<p>Para que Jekyll funcione debemos ejecutarlo en un servidor local que es lo que permite que todos estos ficheros converjan en un sitio web estático que se genera en la carpeta <code class="highlighter-rouge">site</code>. Cuando nosotros quisiéramos publicar la web deberíamos sólo subir los ficheros resultantes que son simples ficheros html.</p>
+
 <p>Conceptos esenciales y útiles:</p>
 <ul>
   <li>Pages: páginas</li>
@@ -295,17 +291,58 @@ A continuación esto: <code class="highlighter-rouge">$ gem install rubygems-upd
   <li>Collections: colecciones</li>
 </ul>
 
+<h2 id="qu-lenguajes-utiliza-jekyll">¿Qué lenguajes utiliza Jekyll?</h2>
+<ul>
+  <li>Markdown: 
+  Algunas referencias:
+    <ul>
+      <li><a href="http://kramdown.gettalong.org/quickref.html">Kramdown</a></li>
+      <li>Sarah Simpkin, <a href="http://programminghistorian.org/lessons/getting-started-with-markdown"><em>Getting Started with Markdown</em></a></li>
+    </ul>
+  </li>
+  <li>YAML: <a href="http://yaml.org/">YAML Ain’t Markup Language</a></li>
+  <li>Liquid: <a href="http://shopify.github.io/liquid/">Liquid</a></li>
+  <li><a href="http://sass-lang.com/">SASS</a> y <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></li>
+  <li><a href="https://es.wikipedia.org/wiki/HTML">HTML</a></li>
+</ul>
+
 <h2 id="paso-1-crear-un-blog-con-el-tema-mnimo-de-jekyll">1. Paso 1: Crear un blog con el tema mínimo de Jekyll</h2>
 
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">~</span> <span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span> <span class="n">bundler</span>
+<span class="o">~</span> <span class="err">$</span> <span class="n">jekyll</span> <span class="kp">new</span> <span class="n">mipagina</span>
+<span class="o">~</span> <span class="err">$</span> <span class="n">cd</span> <span class="n">mipaginapersonal</span>
+<span class="o">~</span><span class="sr">/mipagina $ bundle exec jekyll serve
+# =&gt; Navega en to http:/</span><span class="o">/</span><span class="mi">127</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">1</span><span class="p">:</span><span class="mi">4000</span><span class="o">/</span> <span class="c1">#</span></code></pre></figure>
+
 <h2 id="paso-2-personalizarlo">2. Paso 2: Personalizarlo</h2>
+<p>Abrid el fichero <code class="highlighter-rouge">_config</code> y cambiad las informaciones básicas: el nombre del sitio, el autor y la descripción.</p>
 
 <h1 id="ii-github">II. GitHub</h1>
 
-<p><a href="https://github.com/">GitHub</a> es una manera visual de usar git, un sistema de control de versiones basado en <a href="https://es.wikipedia.org/wiki/Git">Git</a>.</p>
+<p><a href="https://github.com/">GitHub</a> es un sistema de control de versiones basado en <a href="https://es.wikipedia.org/wiki/Git">Git</a>,</p>
+
+<ul>
+  <li>Es un repositorio gratuito</li>
+  <li>Es un espacio colaborativo</li>
+  <li>Contiene todas las versiones de los cambios realizados</li>
+  <li>Puede descargarse toda la historia de un proyecto</li>
+  <li>Pueden recuperarse versiones anteriores</li>
+  <li>Pueden crearse “branches” diferentes, hacer cambios y subirlos al repositorio</li>
+  <li>Está pensado para trabajar con código</li>
+  <li>Es gratuito</li>
+  <li>Es escalable, no tiene problemas de espacio</li>
+  <li>Facilidad de colaborar con cualquier proyecto</li>
+  <li>Utiliza Markdown</li>
+  <li>Tiene una wiki</li>
+  <li>Tiene la opción de comentarios y aperturas de problemas</li>
+  <li>Gran comunidad de usuarios y mucha documentación</li>
+  <li>GitHub Pages: crear y albergar (hosting) un sitio web estático a partir de los documentos del repositorio.</li>
+</ul>
 
 <p>Tutoriales:</p>
 
-<p><a href="https://guides.github.com/activities/hello-world/">GuitHub Guide</a></p>
+<p><a href="https://guides.github.com/activities/hello-world/">GuitHub Guide</a>
+<a href="http://gitimmersion.com/">Git Immersion</a></p>
 
 <h1 id="iii-github-pages">III. GitHub Pages</h1>
 
