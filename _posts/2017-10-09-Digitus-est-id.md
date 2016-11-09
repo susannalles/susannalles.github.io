@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Construcciones locales en contextos globales"
+title:  "Construcciones personales en contextos globales"
 date:   2016-11-09 
 categories: conferences
 ---
