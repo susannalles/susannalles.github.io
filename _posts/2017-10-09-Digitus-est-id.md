@@ -11,7 +11,7 @@ categories: conferences
 
 - Centralidad del texto en el estudio del pasado, especialmente de la Antigüedad y la Edad Media.
 - Los textos son, a veces, el único material que conservamos. De ahí el nombre de Filología y de la relevancia del texto. 
-- Desde un punto de vista digital, el texto debe transformarse en bytes, en datos informáticos, para ser procesado por una máquina.
+- Desde un punto de vista digital, el texto debe transformarse en bytes, en datos informáticos, para ser procesados por una máquina.
 - De ahí, la necesidad de transformar la filología en digital. 
 - Papel crucial de la Edición Digital Académica al interno de las Humanidades Digitales. 
 
@@ -22,11 +22,11 @@ categories: conferences
 ![Edición tradicional]({{site.url}}/materials/papers/Text-Rewired/img/print-edition-sections.png)
 - Trabajo de [master](http://www.enc-sorbonne.fr/fr/rubrique-admissions/master-technologies-numeriques-appliquees-histoire) (2012): una edición digital del _Zibaldone_ de Giacomo Leopardi. [Muestra]({{site.url}}/materials/Zibaldone/index.html)
 
-![Edición bilingüe]({{site.url}}/materials/Zibaldone/Images/Captura_01.png)
+![Edición bilingüe]({{site.url}}/public/img/Zibal_01.png)
 
-![Edición diplomática]({{site.url}}/materials/Zibaldone/Images/Captura_02.png)
+![Edición diplomática]({{site.url}}/public/img/Zibal_02.png)
 
-![Sección de índices]({{site.url}}/materials/Zibaldone/Images/Captura_03.png)
+![Sección de índices]({{site.url}}/public/img/Zibal_03.png)
 
 ### Actualmente:
 

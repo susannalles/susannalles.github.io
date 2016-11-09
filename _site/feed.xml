@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-09T13:32:06-03:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Construcciones locales en contextos globales</title><link href="http://localhost:4000/conferences/2016/11/09/Digitus-est-id.html" rel="alternate" type="text/html" title="Construcciones locales en contextos globales" /><published>2016-11-09T00:00:00-03:00</published><updated>2016-11-09T00:00:00-03:00</updated><id>http://localhost:4000/conferences/2016/11/09/Digitus-est-id</id><content type="html" xml:base="http://localhost:4000/conferences/2016/11/09/Digitus-est-id.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=110&amp;amp;block=27&amp;amp;vs=154&quot;&gt;Resumen panel: Digitus Dei est hic? La Edición Digital Académica en el contexto global de las Humanidades Digitales&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-09T13:43:36-03:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Construcciones locales en contextos globales</title><link href="http://localhost:4000/conferences/2016/11/09/Digitus-est-id.html" rel="alternate" type="text/html" title="Construcciones locales en contextos globales" /><published>2016-11-09T00:00:00-03:00</published><updated>2016-11-09T00:00:00-03:00</updated><id>http://localhost:4000/conferences/2016/11/09/Digitus-est-id</id><content type="html" xml:base="http://localhost:4000/conferences/2016/11/09/Digitus-est-id.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=110&amp;amp;block=27&amp;amp;vs=154&quot;&gt;Resumen panel: Digitus Dei est hic? La Edición Digital Académica en el contexto global de las Humanidades Digitales&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;algunas-cuestiones-generales&quot;&gt;Algunas cuestiones generales:&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Centralidad del texto en el estudio del pasado, especialmente de la Antigüedad y la Edad Media.&lt;/li&gt;
   &lt;li&gt;Los textos son, a veces, el único material que conservamos. De ahí el nombre de Filología y de la relevancia del texto.&lt;/li&gt;
-  &lt;li&gt;Desde un punto de vista digital, el texto debe transformarse en bytes, en datos informáticos, para ser procesado por una máquina.&lt;/li&gt;
+  &lt;li&gt;Desde un punto de vista digital, el texto debe transformarse en bytes, en datos informáticos, para ser procesados por una máquina.&lt;/li&gt;
   &lt;li&gt;De ahí, la necesidad de transformar la filología en digital.&lt;/li&gt;
   &lt;li&gt;Papel crucial de la Edición Digital Académica al interno de las Humanidades Digitales.&lt;/li&gt;
 &lt;/ul&gt;
@@ -21,11 +21,11 @@
   &lt;li&gt;Trabajo de &lt;a href=&quot;http://www.enc-sorbonne.fr/fr/rubrique-admissions/master-technologies-numeriques-appliquees-histoire&quot;&gt;master&lt;/a&gt; (2012): una edición digital del &lt;em&gt;Zibaldone&lt;/em&gt; de Giacomo Leopardi. &lt;a href=&quot;http://localhost:4000/materials/Zibaldone/index.html&quot;&gt;Muestra&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/materials/Zibaldone/Images/Captura_01.png&quot; alt=&quot;Edición bilingüe&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/public/img/Zibal_01.png&quot; alt=&quot;Edición bilingüe&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/materials/Zibaldone/Images/Captura_02.png&quot; alt=&quot;Edición diplomática&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/public/img/Zibal_02.png&quot; alt=&quot;Edición diplomática&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/materials/Zibaldone/Images/Captura_03.png&quot; alt=&quot;Sección de índices&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/public/img/Zibal_03.png&quot; alt=&quot;Sección de índices&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;actualmente&quot;&gt;Actualmente:&lt;/h3&gt;
 
