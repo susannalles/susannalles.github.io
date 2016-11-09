@@ -8,7 +8,7 @@ permalink: /talks
 
 [“Digitus Dei est hic?: la Edición Digital Académica en el contexto global de las Humanidades Digitales.”][Digitus] Humanidades Digitales Contrucciones locales en contextos globales. I Congreso Internacional de la Asociación Argentina de Humanidades Digitales, Buenos Aires (Argentina), 7-9 November 2016 (Panel participation).
 
-[“Integrar las Humanidades Digitales en una Universidad Hemisférica.”][Integrar] Humanidades Digitales Contrucciones locales en contextos globales. I Congreso Internacional de la Asociación Argentina de Humanidades Digitales, Buenos Aires (Argentina), 7-9 November 2016 (Panel organization).
+[“Integrar las Humanidades Digitales en una Universidad Hemisférica.”][Integrar] Humanidades Digitales Contrucciones locales en contextos globales. I Congreso Internacional de la Asociación Argentina de Humanidades Digitales, Buenos Aires (Argentina), 7-9 November 2016 (Panel organization). [Presentacion](http://susannalles.github.io/conferences/Integrar-HD.html)
 
  [“Minimal Editions in the Classroom: a pedagogical proposal”][Minimal], Digital Humanities Conference, Kraków, 12-16 July 2016. 
 
