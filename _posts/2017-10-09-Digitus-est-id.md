@@ -20,7 +20,8 @@ categories: conferences
 - Tesis de doctorado (2012): una edición tradicional en papel de un texto en latín y su traducción castellano del siglo XV, que posteriormente fue publicado como una [monografía](http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503556062-1): 
 
 ![Edición tradicional]({{site.url}}/materials/papers/Text-Rewired/img/print-edition-sections.png)
-- Trabajo de [master](http://www.enc-sorbonne.fr/fr/rubrique-admissions/master-technologies-numeriques-appliquees-histoire) (2012): una edición digital del _Zibaldone_ de Giacomo Leopardi. [Muestra]({{site.url}}/materials/Zibaldone/index.html)
+- Trabajo de [master](http://www.enc-sorbonne.fr/fr/rubrique-admissions/master-technologies-numeriques-appliquees-histoire) (2012): 
+	* una edición digital del _Zibaldone_ de Giacomo Leopardi. [Muestra]({{site.url}}/materials/Zibaldone/index.html)
 
 ![Edición bilingüe]({{site.url}}/public/img/Zibal_01.png)
 
@@ -33,7 +34,8 @@ categories: conferences
 - Iniciativa "Minimal Editions": 
 	* Creación de una plantilla Jekyll para ediciones digitales: [Ed](http://elotroalex.github.io/ed/)
 
-![Proyecto Ed]({{site.url}}/public/img/ed.png)
+![Proyecto Ed]({{site.url}}/public/img/Ed.png)
+
 - Enseñanza de crítica textual y edición digital: 
 	* [**Creating a Minimal Edition. From the Manuscript to the Web**](http://localhost:4000/materials/syllabi/MinimalEditions.html)
 	* Resultado [MiniLazarillo](http://minilazarillo.github.io/)
