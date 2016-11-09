@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-09T09:37:36-03:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-07T00:00:00-03:00</published><updated>2016-11-07T00:00:00-03:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-09T13:32:06-03:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Construcciones locales en contextos globales</title><link href="http://localhost:4000/conferences/2016/11/09/Digitus-est-id.html" rel="alternate" type="text/html" title="Construcciones locales en contextos globales" /><published>2016-11-09T00:00:00-03:00</published><updated>2016-11-09T00:00:00-03:00</updated><id>http://localhost:4000/conferences/2016/11/09/Digitus-est-id</id><content type="html" xml:base="http://localhost:4000/conferences/2016/11/09/Digitus-est-id.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=110&amp;amp;block=27&amp;amp;vs=154&quot;&gt;Resumen panel: Digitus Dei est hic? La Edición Digital Académica en el contexto global de las Humanidades Digitales&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;algunas-cuestiones-generales&quot;&gt;Algunas cuestiones generales:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Centralidad del texto en el estudio del pasado, especialmente de la Antigüedad y la Edad Media.&lt;/li&gt;
+  &lt;li&gt;Los textos son, a veces, el único material que conservamos. De ahí el nombre de Filología y de la relevancia del texto.&lt;/li&gt;
+  &lt;li&gt;Desde un punto de vista digital, el texto debe transformarse en bytes, en datos informáticos, para ser procesado por una máquina.&lt;/li&gt;
+  &lt;li&gt;De ahí, la necesidad de transformar la filología en digital.&lt;/li&gt;
+  &lt;li&gt;Papel crucial de la Edición Digital Académica al interno de las Humanidades Digitales.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;formacin-y-recorrido&quot;&gt;Formación y recorrido:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tesis de doctorado (2012): una edición tradicional en papel de un texto en latín y su traducción castellano del siglo XV, que posteriormente fue publicado como una &lt;a href=&quot;http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503556062-1&quot;&gt;monografía&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/materials/papers/Text-Rewired/img/print-edition-sections.png&quot; alt=&quot;Edición tradicional&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Trabajo de &lt;a href=&quot;http://www.enc-sorbonne.fr/fr/rubrique-admissions/master-technologies-numeriques-appliquees-histoire&quot;&gt;master&lt;/a&gt; (2012): una edición digital del &lt;em&gt;Zibaldone&lt;/em&gt; de Giacomo Leopardi. &lt;a href=&quot;http://localhost:4000/materials/Zibaldone/index.html&quot;&gt;Muestra&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/materials/Zibaldone/Images/Captura_01.png&quot; alt=&quot;Edición bilingüe&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/materials/Zibaldone/Images/Captura_02.png&quot; alt=&quot;Edición diplomática&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/materials/Zibaldone/Images/Captura_03.png&quot; alt=&quot;Sección de índices&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;actualmente&quot;&gt;Actualmente:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Iniciativa “Minimal Editions”:
+    &lt;ul&gt;
+      &lt;li&gt;Creación de una plantilla Jekyll para ediciones digitales: &lt;a href=&quot;http://elotroalex.github.io/ed/&quot;&gt;Ed&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/public/img/ed.png&quot; alt=&quot;Proyecto Ed&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Enseñanza de crítica textual y edición digital:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/materials/syllabi/MinimalEditions.html&quot;&gt;&lt;strong&gt;Creating a Minimal Edition. From the Manuscript to the Web&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Resultado &lt;a href=&quot;http://minilazarillo.github.io/&quot;&gt;MiniLazarillo&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/public/img/MiniLazarillo.png&quot; alt=&quot;MiniLazarillo&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Proyectos personales:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://alfonsodepalencia.github.io/Vitae/&quot;&gt;Edición digital &lt;em&gt;Vitae Illustrium Virorum&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/public/img/Vitae.png&quot; alt=&quot;Vitae&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;ltimas-cuestiones&quot;&gt;Últimas cuestiones:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Apuesta por la simplificación de los procesos de edición digital a tecnologías mínimas.&lt;/li&gt;
+  &lt;li&gt;Adecuación con los estándares y las líneas de actuación propuestos por la comunidad global. Ejemplo, &lt;a href=&quot;http://ride.i-d-e.de/reviewers/catalogue-criteria-for-reviewing-scholarly-digital-editions/&quot;&gt;Criterios RIDE&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Susanna Allés Torrent</name></author><summary type="html">Resumen panel: Digitus Dei est hic? La Edición Digital Académica en el contexto global de las Humanidades Digitales</summary></entry><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-07T00:00:00-03:00</published><updated>2016-11-07T00:00:00-03:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
 En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales&lt;/a&gt;. 7-9 noviembre 2016&lt;/p&gt;
 
 &lt;p&gt;El taller se divide en 4 partes diferentes:&lt;/p&gt;

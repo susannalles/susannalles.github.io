@@ -1,0 +1,137 @@
+html {
+    height : 100%;
+}
+body {
+    font-family : Georgia, "Times New Roman", Times, serif;
+    color : #666;
+    line-height : 100%;
+    margin : 0;
+    padding : 0;
+    height : 100%;
+    background-color : #fcfbed;
+   
+
+}
+a{
+text-decoration:none;
+    color : #666;
+}
+a:hover{
+    color:#8B8989;
+}
+ul li a:hover{    
+  color:#8B8989;
+    
+}
+.cont_home {
+    background-color : #EFEFE2;
+    height :auto;
+    margin-right : 14%;
+    margin-left : 14%;
+    margin-top : 3%;
+    width : 900px;
+    border : double 10px #666;
+
+}
+
+.infos {
+    height : 40px;
+    border-bottom : double 1px #666;
+    font-size:17px;
+   
+}
+.infos ul {
+    list-style : none;
+    font-size:17px;
+}
+.infos li {
+    display : inline-block;
+    padding : 2px;
+    margin-left : 10%;
+}
+.infos li a {
+    text-decoration : none;
+    color : #666;
+}
+.access {
+    height : 40px;
+    border-bottom : double 1px #666;
+    text-align : center;
+    margin-top : 2px;
+}
+.access a {
+    text-decoration : none;
+    color : #666;
+}
+.access a:hover{    
+font-size:30px;
+  color:#8B8989;  
+}
+
+.logos {
+    text-align : center;
+}
+.logos img {
+padding:3px;
+    margin-left : 10px;
+    margin-right : 10px;
+}
+
+.menu_home {  
+    border-bottom : double 1px #666;   
+}
+.menu_home ul {
+    list-style : none;
+    padding: 1px;
+     height : 8px;
+     margin-top:4px;
+}
+.menu_home li {
+    display : inline-block;
+    /*padding : 1px;*/
+    margin-left : 5%; 
+}
+.menu_home li a {
+    text-decoration : none;
+    color : #666;
+}
+
+.menu_home li a:hover{    
+  color:#8B8989;
+    
+}
+
+.text_home{
+     border-bottom : double 1px #666;   
+      padding: 10px;
+     height : auto;
+}
+
+.menu_home2 {  
+    border-bottom : double 1px #666;   
+}
+.menu_home2 ul {
+  /*  list-style : none;*/
+    padding: 1px;
+     height : 8px;
+     margin-top:4px;
+     
+    
+}
+.menu_home2 li {
+    display : inline-block;
+    margin-left:100px;
+    
+    
+}
+.menu_home2 li a {
+    text-decoration: none;
+    color : #666;
+     
+}
+
+.menu_home2 li a:hover{    
+/*  text-decoration:underline;*/
+  color:#8B8989;
+    
+}
