@@ -21,7 +21,7 @@ categories: conferences
 
 ![Edición tradicional]({{site.url}}/materials/papers/Text-Rewired/img/print-edition-sections.png)
 - Trabajo de [master](http://www.enc-sorbonne.fr/fr/rubrique-admissions/master-technologies-numeriques-appliquees-histoire) (2012): 
-	* una edición digital del _Zibaldone_ de Giacomo Leopardi. [Muestra]({{site.url}}/materials/Zibaldone/index.html)
+	* una edición digital del _Zibaldone_ de Giacomo Leopardi.
 
 ![Edición bilingüe]({{site.url}}/public/img/Zibal_01.png)
 
