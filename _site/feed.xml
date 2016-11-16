@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-09T16:48:31-03:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Construcciones personales en contextos globales</title><link href="http://localhost:4000/conferences/2016/11/09/Digitus-est-id.html" rel="alternate" type="text/html" title="Construcciones personales en contextos globales" /><published>2016-11-09T00:00:00-03:00</published><updated>2016-11-09T00:00:00-03:00</updated><id>http://localhost:4000/conferences/2016/11/09/Digitus-est-id</id><content type="html" xml:base="http://localhost:4000/conferences/2016/11/09/Digitus-est-id.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=110&amp;amp;block=27&amp;amp;vs=154&quot;&gt;Resumen panel: Digitus Dei est hic? La Edición Digital Académica en el contexto global de las Humanidades Digitales&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-16T22:04:42+01:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Construcciones personales en contextos globales</title><link href="http://localhost:4000/conferences/2016/11/09/Digitus-est-id.html" rel="alternate" type="text/html" title="Construcciones personales en contextos globales" /><published>2016-11-09T00:00:00+01:00</published><updated>2016-11-09T00:00:00+01:00</updated><id>http://localhost:4000/conferences/2016/11/09/Digitus-est-id</id><content type="html" xml:base="http://localhost:4000/conferences/2016/11/09/Digitus-est-id.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=110&amp;amp;block=27&amp;amp;vs=154&quot;&gt;Resumen panel: Digitus Dei est hic? La Edición Digital Académica en el contexto global de las Humanidades Digitales&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;algunas-cuestiones-generales&quot;&gt;Algunas cuestiones generales:&lt;/h3&gt;
 
@@ -69,7 +69,7 @@
 &lt;ul&gt;
   &lt;li&gt;Apuesta por la simplificación de los procesos de edición digital a tecnologías mínimas.&lt;/li&gt;
   &lt;li&gt;Adecuación con los estándares y las líneas de actuación propuestos por la comunidad global. Ejemplo, &lt;a href=&quot;http://ride.i-d-e.de/reviewers/catalogue-criteria-for-reviewing-scholarly-digital-editions/&quot;&gt;Criterios RIDE&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Susanna Allés Torrent</name></author><summary type="html">Resumen panel: Digitus Dei est hic? La Edición Digital Académica en el contexto global de las Humanidades Digitales</summary></entry><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-07T00:00:00-03:00</published><updated>2016-11-07T00:00:00-03:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
+&lt;/ul&gt;</content><author><name>Susanna Allés Torrent</name></author><summary type="html">Resumen panel: Digitus Dei est hic? La Edición Digital Académica en el contexto global de las Humanidades Digitales</summary></entry><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-07T00:00:00+01:00</published><updated>2016-11-07T00:00:00+01:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
 En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales&lt;/a&gt;. 7-9 noviembre 2016&lt;/p&gt;
 
 &lt;p&gt;El taller se divide en 4 partes diferentes:&lt;/p&gt;
@@ -527,14 +527,23 @@ Debería ser &lt;code class=&quot;highlighter-rouge&quot;&gt;git version 2.10.0&
   &lt;li&gt;Visconti, Amanda. “&lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;Building a static website with Jekyll and GitHub Pages&lt;/a&gt;” &lt;em&gt;Programming Historian&lt;/em&gt; (18 April 2016).&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;Official Jekyll Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Susanna Allés Torrent</name></author><summary type="html">Taller, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
-En: I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales. 7-9 noviembre 2016</summary></entry><entry><title type="html">Integrar las Humanidades Digitales en una Universidad Hemísférica</title><link href="http://localhost:4000/conferences/Integrar-HD.html" rel="alternate" type="text/html" title="Integrar las Humanidades Digitales en una Universidad Hemísférica" /><published>2016-11-07T00:00:00-03:00</published><updated>2016-11-07T00:00:00-03:00</updated><id>http://localhost:4000/conferences/Integrar-HD</id><content type="html" xml:base="http://localhost:4000/conferences/Integrar-HD.html">&lt;p&gt;Lugar: Sala Dubrosky 3ºpiso (CCC). Horario: 17:00hs a 18:00hs.&lt;/p&gt;
+En: I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales. 7-9 noviembre 2016</summary></entry><entry><title type="html">Integrar las Humanidades Digitales en una Universidad Hemísférica</title><link href="http://localhost:4000/conferences/Integrar-HD.html" rel="alternate" type="text/html" title="Integrar las Humanidades Digitales en una Universidad Hemísférica" /><published>2016-11-07T00:00:00+01:00</published><updated>2016-11-07T00:00:00+01:00</updated><id>http://localhost:4000/conferences/Integrar-HD</id><content type="html" xml:base="http://localhost:4000/conferences/Integrar-HD.html">&lt;p&gt;Lugar: Sala Dubrosky 3ºpiso (CCC). Horario: 17:00hs a 18:00hs.&lt;/p&gt;
 
 &lt;p&gt;Participantes:&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.as.miami.edu/mll/people/faculty/dr-susanna-alles-torrent/&quot;&gt;&lt;strong&gt;Susanna Allés Torrent&lt;/strong&gt;&lt;/a&gt; (University of Miami), “Integrar las HD en un departamento de lenguas modernas”&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.as.miami.edu/mll/people/faculty/dr-lillian-manzor-/&quot;&gt;&lt;strong&gt;Lillian Manzor&lt;/strong&gt;&lt;/a&gt; (University of Miami), “El Archivo Digital del Teatro Cubano y la creación de puentes digitales”&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.as.miami.edu/mll/people/graduate-students/&quot;&gt;&lt;strong&gt;Lilianne Lugo Herrera&lt;/strong&gt;&lt;/a&gt; (University of Miami), “Voces del Diseño: historia oral y prácticas archivísticas para las artes escénicas”&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://portal.uned.es/portal/page?_pageid=93,24222657&amp;amp;_dad=portal&amp;amp;_schema=PORTAL&quot;&gt;&lt;strong&gt;Elena González-Blanco&lt;/strong&gt;&lt;/a&gt; (Universidad Nacional de Educación a Distancia) &amp;amp; &lt;a href=&quot;http://linhd.uned.es/gimenadelrio/&quot;&gt;&lt;strong&gt;Gimena del Rio Riande&lt;/strong&gt;&lt;/a&gt; (CONICET), “Las HD y la educación a distancia en las dos orillas del Atlántico: el LINHD”&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.as.miami.edu/mll/people/faculty/dr-susanna-alles-torrent/&quot;&gt;&lt;strong&gt;Susanna Allés Torrent&lt;/strong&gt;&lt;/a&gt; (University of Miami), “Integrar las HD en un departamento de lenguas modernas”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.as.miami.edu/mll/people/faculty/dr-lillian-manzor-/&quot;&gt;&lt;strong&gt;Lillian Manzor&lt;/strong&gt;&lt;/a&gt; (University of Miami), “El Archivo Digital del Teatro Cubano y la creación de puentes digitales”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.as.miami.edu/mll/people/graduate-students/&quot;&gt;&lt;strong&gt;Lilianne Lugo Herrera&lt;/strong&gt;&lt;/a&gt; (University of Miami), “Voces del Diseño: historia oral y prácticas archivísticas para las artes escénicas”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://portal.uned.es/portal/page?_pageid=93,24222657&amp;amp;_dad=portal&amp;amp;_schema=PORTAL&quot;&gt;&lt;strong&gt;Elena González-Blanco&lt;/strong&gt;&lt;/a&gt; (Universidad Nacional de Educación a Distancia) &amp;amp; &lt;a href=&quot;http://linhd.uned.es/gimenadelrio/&quot;&gt;&lt;strong&gt;Gimena del Rio Riande&lt;/strong&gt;&lt;/a&gt; (CONICET), “Las HD y la educación a distancia en las dos orillas del Atlántico: el LINHD”&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=79&amp;amp;block=12&amp;amp;vs=128&quot;&gt;Resumen de la sesión&lt;/a&gt;&lt;/p&gt;
@@ -587,16 +596,6 @@ En: I Congreso Internacional. Humanidades Digitales. Construcciones locales en c
 &lt;/div&gt;
 
 &lt;p&gt;Resultado del curso: &lt;a href=&quot;http://minilazarillo.github.io/&quot;&gt;MiniLazarillo&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;III. &lt;a href=&quot;/materials/IntroTEI/index.html&quot;&gt;Introducción a XML-TEI&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. XML
-2. TEI Guidelines
-3. Tipologías textuales y codificación
-4. Personalización y esquemas
-5. Función de la ODD 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
 
 &lt;h2 id=&quot;cursos-con-un-componente-o-proyecto-en-hd&quot;&gt;Cursos con un componente o proyecto en HD&lt;/h2&gt;
 

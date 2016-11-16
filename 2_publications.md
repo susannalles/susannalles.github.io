@@ -66,7 +66,7 @@ Leonardo Bruni, [*Vides de Dante i de Petrarca*][Traduccio Bruni], Martorell: Ad
 [Quaderns]: http://www.raco.cat/index.php/QuadernsItalia/article/view/285161
 [CFI]: http://revistas.ucm.es/index.php/CFIT/article/view/41296
 [CFC]: http://revistas.ucm.es/fll/11319062/articulos/CFCL0808220099A.PDF
-[Vite Omero]: http://academiccommons.columbia.edu/catalog/ac%3A189086"
+[Vite Omero]: https://academiccommons.columbia.edu/catalog/ac:189086
 [Zibaldone]: https://www.academia.edu/4057483/Per_unedizione_ipertestuale_bilingue_dello_Zibaldone._Tra_filologia_e_informatica
 [RIDE]: http://ride.i-d-e.de/issues/issue-4/entretenida/
 [Review AEM]: http://estudiosmedievales.revistas.csic.es/index.php/estudiosmedievales/article/view/445/453

@@ -9,9 +9,13 @@ permalink: /:categories/:title.html
 Lugar: Sala Dubrosky 3ºpiso (CCC). Horario: 17:00hs a 18:00hs.
 
 Participantes:
+
 * [**Susanna Allés Torrent**][Alles] (University of Miami), “Integrar las HD en un departamento de lenguas modernas”
+
 * [**Lillian Manzor**][Manzor] (University of Miami), “El Archivo Digital del Teatro Cubano y la creación de puentes digitales”
+
 * [**Lilianne Lugo Herrera**][Lugo] (University of Miami), “Voces del Diseño: historia oral y prácticas archivísticas para las artes escénicas”
+
 * [**Elena González-Blanco**][Gonzalez] (Universidad Nacional de Educación a Distancia) & [**Gimena del Rio Riande**][Del Rio] (CONICET), “Las HD y la educación a distancia en las dos orillas del Atlántico: el LINHD”
 
 [Resumen de la sesión][Resumen]
@@ -58,14 +62,6 @@ II. [Minimal Editions](/materials/syllabi/MinimalEditions.html): proyecto colabo
 	8. GitHub Pages 
 
 Resultado del curso: [MiniLazarillo](http://minilazarillo.github.io/)
-
-III. [Introducción a XML-TEI](/materials/IntroTEI/index.html) 
-
-	1. XML
-	2. TEI Guidelines
-	3. Tipologías textuales y codificación
-	4. Personalización y esquemas
-	5. Función de la ODD 
 
 ## Cursos con un componente o proyecto en HD
  
