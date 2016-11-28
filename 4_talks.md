@@ -16,9 +16,9 @@ permalink: /talks
 
 “Editar Alfonso de Palencia digitalmente”, [Journée d’étude Alfonso de Palencia. Séminaire des Hispnistes du CIHAM][Palencia Lyon], ENS de Lyon, 9-10 June 2016 (Invated talk)
 
-[“Integrating DH skills, methods or tools in the Language Curriculum?”][Hartford], [Panel: Digital Humanities in the Modern Language Curriculum: Beyond the Language vs Content Divide][NeMLA]. 47th Annual Convention Northeast Modern Language Association, Hartford (Conneticut), 17-20 March 2016 (Invited panel participation). 
+“Integrating DH skills, methods or tools in the Language Curriculum?”][Hartford], [Panel: Digital Humanities in the Modern Language Curriculum: Beyond the Language vs Content Divide. 47th Annual Convention Northeast Modern Language Association, Hartford (Conneticut), 17-20 March 2016 (Invited panel participation). 
 
-[“Text-Rewired: Editing the Past in the Digital Way”][Text-Rewired] Department of Hispanic Studies, University of Houston, 22 February 2016 (Talk invitation)
+“Text-Rewired: Editing the Past in the Digital Way” Department of Hispanic Studies, University of Houston, 22 February 2016 (Talk)
 
 [“Digital Editions, Translations, and the Challenge of Representation.”][MLA] Modern Language Association Annual Convention, Austin (Texas), 7-19 January 2016 (Invited panel participation)
 

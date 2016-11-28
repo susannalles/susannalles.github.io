@@ -41,6 +41,8 @@ permalink: /publications
 
 [“Cervantes and the Golden Age Theatre: Frist Attempts Towards a Digital Scholarly Editorial Model.”][RIDE] *A Review Journal for Digital Editions and Resources* 4 (2016) 
 
+[“Álvaro Baribar (ed.), “Visibilidad y divulgación de la investigación desde las Humanidades Digitales. Experiencias y proyectos, Pamplona, Servicio de Publicaciones de la Universidad de Navarra, 2014.”][TECA] *Teca. Testimonianze Editoria Cultura Arte* 8 (2015): 143-147
+
 [“Mary Franklin-Brown, Reading the world. Encyclopedic writing in the scholastic age, Chicago, University of Chicago Press, 2012, 446 pp. ISBN 978-0-226-26068-6.”][Review AEM] *Anuario de Estudios Medievales* 43.1 (2013): 231-233
 
 [“Lorenzo Valla, La falsa i inventada donació de Constantí. Traducció d’Alejandro Coroleu, Martorell: Adesiara, 2012.”][Review Valla] *Quaderns d’Italià* 17 (2012): 203-206
@@ -56,6 +58,8 @@ permalink: /publications
 
 Poggio Bracciolini, *Dialogus an seni sit uxor ducenda*, Martorell: Adesiara, 2016 (From Latin into Catalan) (Work in progress)
 
+Criterios para la reseña de ediciones digitales académicas (EDA), versión 1.1. [translation of *Kriterienkatalog für die Besprechung digitaler Editionen*]. URL: [ http://www.i-d-e.de/publikationen/weitereschriften/criterios-version-1-1/][CriteriosRIDE]
+
 Leonardo Bruni, [*Vides de Dante i de Petrarca*][Traduccio Bruni], Martorell: Adesiara, 2014 (From Italian into Catalan)
 
 
@@ -69,6 +73,8 @@ Leonardo Bruni, [*Vides de Dante i de Petrarca*][Traduccio Bruni], Martorell: Ad
 [Vite Omero]: https://academiccommons.columbia.edu/catalog/ac:189086
 [Zibaldone]: https://www.academia.edu/4057483/Per_unedizione_ipertestuale_bilingue_dello_Zibaldone._Tra_filologia_e_informatica
 [RIDE]: http://ride.i-d-e.de/issues/issue-4/entretenida/
+[CriteriosRIDE]: http://www.i-d-e.de/publikationen/weitereschriften/criterios-version-1-1/
+[TECA]: http://www.patroneditore.com/Teca/2015/8/7042/visibilidad_y_divulgaci_n_de_la_investigaci_n_desde_las_humanidades_digitales_experiencias_y_proyectos_lvaro_baraibar_ed_pamplona_servicio_de_publicaciones_de_la_universidad_de_navarra_2014.html
 [Review AEM]: http://estudiosmedievales.revistas.csic.es/index.php/estudiosmedievales/article/view/445/453
 [Review Valla]: http://ddd.uab.cat/record/103987?ln=ca
 [Review Poetesse]: http://ddd.uab.cat/pub/qdi/11359730n16/11359730n16p231.pdf

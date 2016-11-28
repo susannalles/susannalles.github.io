@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Blog
-permalink: /blog
+title: Notes
+permalink: /notes
 ---
 
 <h1 class="page-heading">Posts</h1>
