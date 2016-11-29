@@ -58,7 +58,7 @@ permalink: /talks
 
 “The Digital Humanities and Language Learning.” Language Research Center, Brown Bag Series, 10 February 2015
 
-“Des corpus aux dictionnaires: preésentation de l’usage des corpus dans la reédaction des dictionnaires et de l’extraction d’information.” [Training School Creation and use of Medieval Textual Corpora][COST Workshop], Seminari di Ciutadella, Minorca, 16-24 de September 2014 [Press](http://www.glossaria.eu/minorque/presse.html)[Interview](http://www.ivoox.com/4609360)
+“Des corpus aux dictionnaires: preésentation de l’usage des corpus dans la reédaction des dictionnaires et de l’extraction d’information.” [Training School Creation and use of Medieval Textual Corpora][COST Workshop], Seminari di Ciutadella, Minorca, 16-24 de September 2014.  [Press](http://www.glossaria.eu/minorque/presse.html) [Interview](http://www.ivoox.com/4609360)
 
 “Introducción a la edición digital: primeros pasos de etiquetado con XML/TEI.” Digital Humanities Summer School, UNED, Madrid, 23-27 June 2014 [Video](https://www.youtube.com/watch?v=YurNGo3FSD4)
 
