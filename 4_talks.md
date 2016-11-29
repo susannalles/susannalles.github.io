@@ -54,13 +54,13 @@ permalink: /talks
 
 “DH Integration in a Modern Languages Department.” Innovations in Digital Humanities Pedagogy: Local, National, and International Training, DH2016, 11 July 2016
 
-[“Introduction to TEI.”][Intro TEI] Digital Humanities Summer School, UNED, Madrid, 23-27 June 2015 
+[“Introduction to TEI.”][Intro TEI] Digital Humanities Summer School, UNED, Madrid, 23-27 June 2015 [Video](https://youtu.be/uQ7cIwh6hd0)
 
 “The Digital Humanities and Language Learning.” Language Research Center, Brown Bag Series, 10 February 2015
 
 “Des corpus aux dictionnaires: preésentation de l’usage des corpus dans la reédaction des dictionnaires et de l’extraction d’information.” [Training School Creation and use of Medieval Textual Corpora][COST Workshop], Seminari di Ciutadella, Minorca, 16-24 de September 2014
 
-“Introducción a la edición digital: primeros pasos de etiquetado con XML/TEI.” Digital Humanities Summer School, UNED, Madrid, 23-27 June 2014
+“Introducción a la edición digital: primeros pasos de etiquetado con XML/TEI.” Digital Humanities Summer School, UNED, Madrid, 23-27 June 2014 [Video](https://www.youtube.com/watch?v=YurNGo3FSD4)
 
 “L’horizon numérique des dictionnaires et corpus de latin médiéval: le cas du GMLC et le CODOLCAT.” Scuola dottorale di specializzazione: Storia e informatica: testometria delle fonti medievali, École française de Rome, 2-6 June 2014 (Scholarship awarded)
 
