@@ -1,10 +1,10 @@
 ﻿// Define defaults for each variable.
 
 $base-font-family: 'Inconsolata';
-$base-font-size:   12px !default;
+$base-font-size: 13px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
-/*$base-line-height: 1.3 !default;*/
+$base-line-height: 1.3 !default;
 $base-line-height: 1.3;
 
 $spacing-unit:     30px !default;

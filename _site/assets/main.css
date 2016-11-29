@@ -1,4 +1,3 @@
-/*$base-line-height: 1.3 !default;*/
 /**
  * Reset some basic elements
  */
@@ -13,7 +12,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.3 "Inconsolata";
+  /*font: $base-font-weight 16px/1.3 $base-font-family;*/
+  font-size: 13px;
+  font-family: 'Inconsolata';
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -95,7 +96,7 @@ blockquote {
  */
 pre,
 code {
-  font-size: 15px;
+  font-size: 13px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
   background-color: #eef; }
@@ -156,7 +157,7 @@ pre {
   position: relative; }
 
 .site-title {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 300;
   line-height: 56px;
   letter-spacing: -1px;
@@ -289,7 +290,8 @@ pre {
   margin-bottom: 30px; }
 
 .post-title {
-  font-size: 42px;
+  /*font-size: 42px;*/
+  font-size: 25px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
@@ -301,7 +303,7 @@ pre {
   /*SAT*/
   /*SAT*/ }
   .post-content h1 {
-    font-size: 25px;
+    font-size: 22px;
     color: #005030; }
   .post-content h2 {
     /* font-size: 32px;*/
