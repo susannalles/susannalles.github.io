@@ -20,8 +20,6 @@ permalink: /cv
 
 ## Academic Positions
 
-Assistant Professor of Digital Humanities & Medieval Studies, University of Miami 2016 - Present
-
 Lecturer in Digital Humanities, Columbia University in the City of New York, 2014 - 2016
 
 Postdoctoral Fellow, Spanish National Research Council (CSIC), 2012 - 2014

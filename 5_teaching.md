@@ -4,11 +4,6 @@ title: Teaching
 permalink: /teaching
 ---										
 
-2016-Present. **Universty of Miami**
-
-- SPA 302 The Culture of Spain: Material culture, the manuscript, the print, and the digital, Spring 2017
-- ITA 321 Life Writing in the Italian Middle Ages and the Renaissance, Spring 2017
-
 2014-Present. **Universitat Oberta de Catalunya (UOC)**
 
 - Editorial Typologies and Book Apps, [M.A. in Digital Edition](http://estudios.uoc.edu/es/masters-posgrados-especializaciones/master/artes-humanidades/edicion-digital/presentacion). Online. [Blog](http://eah.uoc.edu/materials/edicio-digital/?lang=es). 
