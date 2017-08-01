@@ -325,6 +325,25 @@ pre {
       .post-content h4 {
         font-size: 18px; } }
 
+.tema {
+  margin: 1.2em 0 .7em 0;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  padding: .2em;
+  background-color: #f47321;
+  color: #fff;
+  text-transform: uppercase; }
+
+.dia {
+  margin-bottom: 2em;
+  display: table-cell;
+  border-top: 1px dotted #40bf40;
+  border-bottom: 1px dotted #40bf40;
+  padding: .2em .6em;
+  background-color: #9fdf9f;
+  color: #fff;
+  text-transform: uppercase; }
+
 /**
  * Syntax highlighting styles
  */

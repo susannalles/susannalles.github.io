@@ -39,6 +39,8 @@ exclude:
 #paginate_pathe: "blog/page:num/"
 #Create a collection:
 collections:
+  courses:
+    output: true
   materials:
     output: true
 
