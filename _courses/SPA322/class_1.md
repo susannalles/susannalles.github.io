@@ -30,13 +30,18 @@ Algo impactante, inquietante a la vez que fascinador es este video sobre la visi
 
 En este sentido, y siendo las humanidades una parte esencial de la cultura, también se han visto influenciadas por lo digital.
 
-Quizás, cabría en primer lugar reflexionar sobre el significado de las ["humanidades"](https://es.wikipedia.org/wiki/Humanidades) en general, pues se trata de un conepto muy amplio. En "conjunto de disciplinas relacionadas con la cultura humana", como son pues filosofía, historia, historia del arte, filología, psicología, antropología, etc. 
+Quizás, cabría en primer lugar reflexionar sobre el significado de las ["humanidades"](https://es.wikipedia.org/wiki/Humanidades) en general, pues se trata de un conepto muy amplio que engloba un "conjunto de disciplinas relacionadas con la cultura humana", como la filosofía, historia, historia del arte, filología, psicología, antropología, etc. 
 
 Uno de los campos, por ejemplo, donde se percibe muy claramente la metamorfosis digital es en el arte y, consiguientemente, los estudios sobre este. Aunque este curso no va a tratar sobre arte digital, es quizás uno de los puntos de partida por donde podríamos empezar. Aquí tenéis dos noticias recientes que han aparecido en el periódico español *El País*: 
 
-- Arte Digital 
-	* [Dame datos (y tecnología) y haré arte](https://elpais.com/elpais/2017/07/25/talento_digital/1500982954_227267.html). El Pais, 4 agosto 2017.
-	* [El arte digital en 20 impactos](https://elpais.com/elpais/2017/02/20/fotorrelato/1487627123_803126.html#1487627123_803126_1487700598). El Pais, 22 febrero 2017.
+#### Arte Digital 
+* [Dame datos (y tecnología) y haré arte](https://elpais.com/elpais/2017/07/25/talento_digital/1500982954_227267.html). El Pais, 4 agosto 2017.
+	
+<iframe src="https://player.vimeo.com/video/191691366" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+"Al final, el tema trata de la relación entre los seres humanos y la tecnología. ¿Cómo cambia su percepción de la realidad si la mayor parte de la información de sus experiencias diarias proviene de una fuente de luz artificial como es la pantalla de un ordenador? ¿Es lo digital o lo virtual más real que lo físico? ¿Ha cambiado nuestra noción de "real" a través de la tecnología?".
+
+* [El arte digital en 20 impactos](https://elpais.com/elpais/2017/02/20/fotorrelato/1487627123_803126.html). El Pais, 22 febrero 2017.
 
 Y así también la literatura, por ejemplo, ha visto aparecer nuevas formas literarias nativas digitales, por ejemplo: 
 

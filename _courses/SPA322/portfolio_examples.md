@@ -6,6 +6,33 @@ collection: courses
 ---
 # Crear un portafolio digital 
 
+### Lista de requisitos para vuestro sitio web
+
+Hay tres elementos esenciales a tener en cuenta:
+ 
+- Navegación: debemos establecer de antemano qué estructura de navegación tendrá nuestro sitio web. 
+- Diseño: qué elementos de diseño queremos incluir. Deberéis pensar en una plantilla general, que tenga en cuenta colores, fuentes, fondos, imágenes, dispoción de la página, estilos, divisiones, etc.
+- Contenido: cuál será el contenido (en texto) que proporcionaremos
+-
+
+A la hora de crear nuestro sitio web, debemos tener presente el valor crítico y ético de nuestras elecciones tecnológicas: ¿por qué usamos una herramienta y no otra? ¿por qué utilizamos un marcado y no otro? etc. Recordad que todo contenido o diseño debe tener una función. 
+
+Las páginas obligatorias y por consiguiente la navegación mínima para vuestro sitio deben ser: 
+
+- Inicio/Home - Esta es la página de inicio, la que el usuario verá al acceder a vuestro sitio. Deberá tener por nombre `index.html`
+- Sobre mí / About - En esta sección os debéis presentar, vuestros datos, vuestros estudios, e intereses.
+- Mini-proyectos - Todos los trabajos que realicemos durante el curso deberán colgarse en esta pestaña. Al interno, deberéis crear una genérica con los links hacia cada uno vuestros proyectos.
+
+Podéis añadir una o dos pestañas más a vuestro sitio, las que consideréis pertinente. Por ejemplo, quizás a alguien le conviene añadir su CV. 
+
+Quien quiera, puede duplicar su sitio en inglés. Para este curso yo solo os pido la versión en español. 
+
+Sobretodo, recordad: 
+
+- Vuestro nombre debe aparecer claramente, así como vuestros datos de contacto. 
+- El propósito de vuestro sitio debe ser también breve, claro, y fácil de encontrar. 
+- Contener la fecha de la última actualización.
+
 ### Lista de ejemplos:
 
 
