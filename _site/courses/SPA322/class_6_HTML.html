@@ -128,325 +128,374 @@
 <p>Hay algunos conceptos preliminares a retener:</p>
 
 <ul>
-  <li>Una etiqueta se compone del elemento (o nombre), y a veces de un atributo que conlleva obligatoriamente un valor:
-```</li>
+  <li>Una etiqueta se compone del elemento (o nombre), y a veces de un atributo que conlleva obligatoriamente un valor:</li>
 </ul>
-<p>&lt;elemento atributo=“valor”&gt;contenido&lt;/elemento&gt;</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>-	A veces una etiqueta puede estar vacía, es decir, no tener contenido y se señala así: `<span class="nt">&lt;etiqueta/&gt;</span>`. En HTML es el caso, por ejemplo, de los saltos de línea `<span class="nt">&lt;br/&gt;</span>` o de las imágenes `<span class="nt">&lt;img/&gt;</span>`. 
 
-El documento HTML se compone de diversas secciones obligatorias: 
-
-- `<span class="cp">&lt;!DOCTYPE html&gt;</span>` Indica al navegador que el tipo de documento es html 
-- `<span class="nt">&lt;html&gt;</span>` es la etiqueta que englobará todo el contenido, tanto el - `<span class="nt">&lt;head&gt;</span>` como el <span class="nt">&lt;body&gt;</span>
-- `<span class="nt">&lt;head&gt;</span>` comprende todas las informaciones del fichero que no aparecerán en el navegador
-- `<span class="nt">&lt;title&gt;</span>` es el título que aparece en la pestaña del navegador
-- `<span class="nt">&lt;body&gt;</span>` es propiamente el cuerpo de la página, lo que sí veremos, por tanto, en el navegador.
-
-La estructura de cualquier documento es la siguiente:
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;elemento atributo=“valor”&gt;contenido&lt;/elemento&gt;
 </code></pre>
 </div>
-<p>&lt;!DOCTYPE html&gt;</p>
-<html>
-    <head>
-   	 <title>Título de mi página</title>
-    </head>
-    <body>
-    </body>
-</html>
-<div class="highlighter-rouge"><pre class="highlight"><code>
-#### Estructuras y elementos HTML básicos:
 
-- `&lt;p&gt;` se utiliza para crear párrafos 
-- `&lt;h1&gt;`, `&lt;h2&gt;`, `&lt;h3&gt;`, `&lt;h4&gt;`, `&lt;h5&gt;`, `&lt;h6&gt;` sirven para señalar los títulos, de mayor a menor
-- `&lt;a href= “www.enlace.html”&gt;el link&lt;/a&gt;` La etiqueta `&lt;a&gt;` sirve para crear todo tipo de enlaces 
-- `&lt;img scr=“localizacionURL”&gt;` para inserir imágenes al interno de la página. Este elemento debe contener un atributo scr que debe contener la localización del fichero de la imagen.
-Si quisiéramos convertir nuestra imagen en un link, no tendríamos más que anidar la imagen al interno de una etiqueta `&lt;a&gt;`: 
-`&lt;a href="http://www.direccion.com"&gt;&lt;img src="imagen.png"/&gt;&lt;/a&gt;`
+<ul>
+  <li>A veces una etiqueta puede estar vacía, es decir, no tener contenido y se señala así: <code class="highlighter-rouge">&lt;etiqueta/&gt;</code>. En HTML es el caso, por ejemplo, de los saltos de línea <code class="highlighter-rouge">&lt;br/&gt;</code> o de las imágenes <code class="highlighter-rouge">&lt;img/&gt;</code>.</li>
+</ul>
 
-#### Para crear listas: 
-- `&lt;ol&gt;` ordered lists, creará una lista numérica; en su interior se anidaran los ítems
-- `&lt;ul&gt;` unordered list,  creará una lista; en su interior se anidaran los ítems
-- `&lt;li&gt;` list item 
+<p>El documento HTML se compone de diversas secciones obligatorias:</p>
 
-Las listas se pueden anidar unas dentro de las otras, por ejemplo: 
+<ul>
+  <li><code class="highlighter-rouge"><span class="cp">&lt;!DOCTYPE html&gt;</span></code> Indica al navegador que el tipo de documento es html</li>
+  <li><code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> es la etiqueta que englobará todo el contenido, tanto el - <code class="highlighter-rouge">&lt;head&gt;</code> como el &lt;body&gt;</li>
+  <li><code class="highlighter-rouge">&lt;head&gt;</code> comprende todas las informaciones del fichero que no aparecerán en el navegador</li>
+  <li><code class="highlighter-rouge">&lt;title&gt;</code> es el título que aparece en la pestaña del navegador</li>
+  <li><code class="highlighter-rouge">&lt;body&gt;</code> es propiamente el cuerpo de la página, lo que sí veremos, por tanto, en el navegador.</li>
+</ul>
+
+<p>La estructura de cualquier documento es la siguiente:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+   	 <span class="nt">&lt;title&gt;</span>Título de mi página<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
 </code></pre>
 </div>
-<ol>
-      <li>item</li>
-          <ul>
-             <li>subitem</li>
-          </ul>
-      <li>item</li>
-      <li>item</li>
-</ol>
-<div class="highlighter-rouge"><pre class="highlight"><code>
-Comentar el código es siempre muy importante, para ello podemos utilizar una etiqueta especial que no nos aparecerá en el navegador: 
-`&lt;!-- comentario --&gt;` 
 
-#### Typografías simples
-- `&lt;strong&gt;` - negrita
-- `&lt;em&gt;` - cursiva
-- `&lt;i&gt;` - cursiva 
+<h4 id="estructuras-y-elementos-html-bsicos">Estructuras y elementos HTML básicos:</h4>
 
+<ul>
+  <li><code class="highlighter-rouge">&lt;p&gt;</code> se utiliza para crear párrafos</li>
+  <li><code class="highlighter-rouge">&lt;h1&gt;</code>, <code class="highlighter-rouge">&lt;h2&gt;</code>, <code class="highlighter-rouge">&lt;h3&gt;</code>, <code class="highlighter-rouge">&lt;h4&gt;</code>, <code class="highlighter-rouge">&lt;h5&gt;</code>, <code class="highlighter-rouge">&lt;h6&gt;</code> sirven para señalar los títulos, de mayor a menor</li>
+  <li><code class="highlighter-rouge">&lt;a href= “www.enlace.html”&gt;el link&lt;/a&gt;</code> La etiqueta <code class="highlighter-rouge">&lt;a&gt;</code> sirve para crear todo tipo de enlaces</li>
+  <li><code class="highlighter-rouge">&lt;img scr=“localizacionURL”&gt;</code> para inserir imágenes al interno de la página. Este elemento debe contener un atributo scr que debe contener la localización del fichero de la imagen.
+Si quisiéramos convertir nuestra imagen en un link, no tendríamos más que anidar la imagen al interno de una etiqueta <code class="highlighter-rouge">&lt;a&gt;</code>: 
+<code class="highlighter-rouge">&lt;a href="http://www.direccion.com"&gt;&lt;img src="imagen.png"/&gt;&lt;/a&gt;</code></li>
+</ul>
 
-#### Tablas
+<h4 id="para-crear-listas">Para crear listas:</h4>
+<ul>
+  <li><code class="highlighter-rouge">&lt;ol&gt;</code> ordered lists, creará una lista numérica; en su interior se anidaran los ítems</li>
+  <li><code class="highlighter-rouge">&lt;ul&gt;</code> unordered list,  creará una lista; en su interior se anidaran los ítems</li>
+  <li><code class="highlighter-rouge">&lt;li&gt;</code> list item</li>
+</ul>
+
+<p>Las listas se pueden anidar unas dentro de las otras, por ejemplo:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;ol&gt;
+      &lt;li&gt;item&lt;/li&gt;
+          &lt;ul&gt;
+             &lt;li&gt;subitem&lt;/li&gt;
+          &lt;/ul&gt;
+      &lt;li&gt;item&lt;/li&gt;
+      &lt;li&gt;item&lt;/li&gt;
+&lt;/ol&gt;
 </code></pre>
 </div>
-<table>
-<tr> (table row) corresponde a las  filas 
-<td> (table data) corresponde a las columnas
 
-<table border="1px">
-        	<tr>
-            	<td>Fila 1: Columna 1</td>
-            	<td>Fila 1: Columna 2</td>	 
-        	</tr>
+<p>Comentar el código es siempre muy importante, para ello podemos utilizar una etiqueta especial que no nos aparecerá en el navegador: 
+<code class="highlighter-rouge">&lt;!-- comentario --&gt;</code></p>
+
+<h4 id="typografas-simples">Typografías simples</h4>
+<ul>
+  <li><code class="highlighter-rouge">&lt;strong&gt;</code> - negrita</li>
+  <li><code class="highlighter-rouge">&lt;em&gt;</code> - cursiva</li>
+  <li><code class="highlighter-rouge">&lt;i&gt;</code> - cursiva</li>
+</ul>
+
+<h4 id="tablas">Tablas</h4>
+
+<p><code class="highlighter-rouge">&lt;table&gt;</code>
+	<code class="highlighter-rouge">&lt;tr&gt;</code> (table row) corresponde a las  filas 
+	<code class="highlighter-rouge">&lt;td&gt;</code> (table data) corresponde a las columnas</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;table border="1px"&gt;
+        	&lt;tr&gt;
+            	&lt;td&gt;Fila 1: Columna 1&lt;/td&gt;
+            	&lt;td&gt;Fila 1: Columna 2&lt;/td&gt;	 
+        	&lt;/tr&gt;
        	 
-        	<tr>
-            	<td>Fila 2: Columna 1</td>
-            	<td>Fila 2: Columna 2</td>
+        	&lt;tr&gt;
+            	&lt;td&gt;Fila 2: Columna 1&lt;/td&gt;
+            	&lt;td&gt;Fila 2: Columna 2&lt;/td&gt;
            	 
-        	</tr>
+        	&lt;/tr&gt;
        	 
-        	<tr>
-            	<td>Fila 3: Columna 1</td>
-            	<td>Fila 3: Columna 2</td>
+        	&lt;tr&gt;
+            	&lt;td&gt;Fila 3: Columna 1&lt;/td&gt;
+            	&lt;td&gt;Fila 3: Columna 2&lt;/td&gt;
            	 
-        	</tr>
- </table>
-```
+        	&lt;/tr&gt;
+ &lt;/table&gt;
+</code></pre>
+</div>
 
-Opcionalmente podemos utilizar: 
-```
-<thead> Para el título, que contiene <tr> y <th>
-<tbody> Para los datos de la tabla
+<p>Opcionalmente podemos utilizar:</p>
 
-<table border="1px">
-      <thead>
-           <tr>
-			<th>Título columna 1</th>
-			<th>Título columna 2</th>
- 	</tr> 
-      </thead>
-      <tbody>
-        	<tr>
-            	<td>Fila 1: Columna 1</td>
-            	<td>Fila 1: Columna 2</td>	 
-        	</tr>
+<p><code class="highlighter-rouge">&lt;thead&gt;</code> Para el título, que contiene <code class="highlighter-rouge">&lt;tr&gt;</code> y <code class="highlighter-rouge">&lt;th&gt;</code>
+<code class="highlighter-rouge">&lt;tbody&gt;</code> Para los datos de la tabla</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;table border="1px"&gt;
+      &lt;thead&gt;
+           &lt;tr&gt;
+			&lt;th&gt;Título columna 1&lt;/th&gt;
+			&lt;th&gt;Título columna 2&lt;/th&gt;
+ 	&lt;/tr&gt; 
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        	&lt;tr&gt;
+            	&lt;td&gt;Fila 1: Columna 1&lt;/td&gt;
+            	&lt;td&gt;Fila 1: Columna 2&lt;/td&gt;	 
+        	&lt;/tr&gt;
        	 
-        	<tr>
-            	<td>Fila 2: Columna 1</td>
-            	<td>Fila 2: Columna 2</td>
+        	&lt;tr&gt;
+            	&lt;td&gt;Fila 2: Columna 1&lt;/td&gt;
+            	&lt;td&gt;Fila 2: Columna 2&lt;/td&gt;
            	 
-        	</tr>
+        	&lt;/tr&gt;
        	 
-        	<tr>
-            	<td>Fila 3: Columna 1</td>
-            	<td>Fila 3: Columna 2</td>
+        	&lt;tr&gt;
+            	&lt;td&gt;Fila 3: Columna 1&lt;/td&gt;
+            	&lt;td&gt;Fila 3: Columna 2&lt;/td&gt;
            	 
-        	</tr>
-       </tbody>
- </table>
-```
+        	&lt;/tr&gt;
+       &lt;/tbody&gt;
+ &lt;/table&gt;
+</code></pre>
+</div>
 
-Si queremos combinar celdas usaremos `colspan` seguido del signo `=` y entre comillas el número de celdas a combinar:
-```
-<thead>
-           <tr>
-			&lt;th colspan=”2”&gt;Título columna 1&lt;/th&gt;
-		</tr> 
-      </thead>
-```
+<p>Si queremos combinar celdas usaremos <code class="highlighter-rouge">colspan</code> seguido del signo <code class="highlighter-rouge">=</code> y entre comillas el número de celdas a combinar:</p>
 
-#### Divisiones 
-Las divisiones es uno de los elementos más importantes y se utiliza para crear divisiones en la página: `<div>`
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;thead&gt;
+	&lt;tr&gt;
+		&lt;th colspan=”2”&gt;Título columna 1&lt;/th&gt;
+	&lt;/tr&gt; 
+&lt;/thead&gt;
+</code></pre>
+</div>
 
-Podéis realizar una primera prueba añadiendo ancho y alto de la división, y también color:
-```
-<div style="width:50px; height:50px; background-color:red"></div>
-   	<div style="width:50px; height:50px; background-color:blue"></div>
-   	<div style="width:50px; height:50px; background-color:green"></div>
-```
+<h4 id="divisiones">Divisiones</h4>
+<p>Las divisiones es uno de los elementos más importantes y se utiliza para crear divisiones en la página: <code class="highlighter-rouge">&lt;div&gt;</code></p>
 
-#### Span
-- `<span>` Para dar estilo a pequeñas partes de la página (por ej. palabras o grupo de palabras). 
+<p>Podéis realizar una primera prueba añadiendo ancho y alto de la división, y también color:</p>
 
-#### Algunos tutoriales útiles: 
--	[Codecademy: HTML &amp; CSS](https://www.codecademy.com/tracks/web) 
--	[W3Schools](http://www.w3schools.com/html/)
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;div style="width:50px; height:50px; background-color:red"&gt;&lt;/div&gt;
 
+&lt;div style="width:50px; height:50px; background-color:blue"&gt;&lt;/div&gt;
 
-### CSS: Estilo 
+&lt;div style="width:50px; height:50px; background-color:green"&gt;&lt;/div&gt;
+</code></pre>
+</div>
 
-Para dar estilo a una página podemos proceder de tres maneras distintas: 
+<h4 id="span">Span</h4>
+<ul>
+  <li><code class="highlighter-rouge">&lt;span&gt;</code> Para dar estilo a pequeñas partes de la página (por ej. palabras o grupo de palabras).</li>
+</ul>
 
-1.	Inserir la orden de diseño al interno de las etiquetas. 
-Ej. `&lt;p style=“font-size:12px”&gt;`
-2.	Añadir dentro del `<head>` el código CSS, de la siguiente manera:
-```
-<head>
-	<title>Título de la página</title>
+<h4 id="algunos-tutoriales-tiles">Algunos tutoriales útiles:</h4>
+<ul>
+  <li><a href="https://www.codecademy.com/tracks/web">Codecademy: HTML &amp; CSS</a></li>
+  <li><a href="http://www.w3schools.com/html/">W3Schools</a></li>
+</ul>
+
+<h3 id="css-estilo">CSS: Estilo</h3>
+
+<p>Para dar estilo a una página podemos proceder de tres maneras distintas:</p>
+
+<p>I. Inserir la orden de diseño al interno de las etiquetas. 
+Ej. <code class="highlighter-rouge">&lt;p style=“font-size:12px”&gt;</code></p>
+
+<p>II. Añadir dentro del <code class="highlighter-rouge">&lt;head&gt;</code> el código CSS, de la siguiente manera:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;head&gt;
+	&lt;title&gt;Título de la página&lt;/title&gt;
 	&lt;style type= “text/css”&gt;
 	(...)
 	&lt;/style&gt;
-</head>
-```
-3.	Crear un fichero diferente que contenga todas las instrucciones CSS: `fichero.css` que se señalará en el `<head>` del documento HTML:
+&lt;/head&gt;
+</code></pre>
+</div>
 
-`<link type="text/css" rel="stylesheet" href="hoja_estilo.css" />`
+<p>III. Crear un fichero diferente que contenga todas las instrucciones CSS: <code class="highlighter-rouge">fichero.css</code> que se señalará en el <code class="highlighter-rouge">&lt;head&gt;</code> del documento HTML:</p>
 
-La opción más utilizada es la 3, pues si creamos, pongamos por caso, un sitio web estático no deberemos cambiar las órdenes cada vez que creemos una página o fichero HTML, sino que todas las instrucciones estarán en un fichero separado y lo deberemos cambiar una sola vez.
+<p><code class="highlighter-rouge">&lt;link type="text/css" rel="stylesheet" href="hoja_estilo.css" /&gt;</code></p>
 
-La sintaxis de las CSS es sencillo pero puede llegar a complicarse bastante. La estructura básica de una regla CSS es la siguiente: 
+<p>La opción más utilizada es la III, pues si creamos, pongamos por caso, un sitio web estático no deberemos cambiar las órdenes cada vez que creemos una página o fichero HTML, sino que todas las instrucciones estarán en un fichero separado y lo deberemos cambiar una sola vez.</p>
 
-```
-selector{
+<p>La sintaxis de las CSS es sencillo pero puede llegar a complicarse bastante. La estructura básica de una regla CSS es la siguiente:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>selector{
 propiedad: valor; 
 }
-```
+</code></pre>
+</div>
 
-El selector puede ser cualquier etiqueta o elemento HTML o bien cualquier clase o identificador. La propiedad es la característica que quiere modificarse, como el color de fondo o de la fuente, el tamaño y familia de la fuente, etc. Mientras que el valor es propiamente el aspecto particular que queremos dar a ese o esos elementos HTML. 
+<p>El selector puede ser cualquier etiqueta o elemento HTML o bien cualquier clase o identificador. La propiedad es la característica que quiere modificarse, como el color de fondo o de la fuente, el tamaño y familia de la fuente, etc. Mientras que el valor es propiamente el aspecto particular que queremos dar a ese o esos elementos HTML.</p>
 
-Los comentarios al interno de las CSS se señalan así: 
-`/* Comentario */`
+<p>Los comentarios al interno de las CSS se señalan así: 
+<code class="highlighter-rouge">/* Comentario */</code></p>
 
-Veamos qué comandos son los más básicos: 
- 
-#### Fuentes de letras:
-`font-size: Xpx;`
+<p>Veamos qué comandos son los más básicos:</p>
 
-- Familias de fuente (Arial, Verdana, Impact, … ):
-`font-family: Arial;`
+<h4 id="fuentes-de-letras">Fuentes de letras:</h4>
 
-Hay diferentes tipos de letras: serif, sans-serif, cursive… cada ordenador tiene las suyas. Normalmente se opta por ofrecer diversas fuentes, en caso que la máquina no tenga la primera, pasa a la segunda: 
+<p><code class="highlighter-rouge">font-size: Xpx;</code></p>
 
-`font-family: Tahoma, Verdana, sans-serif;`
+<ul>
+  <li>Familias de fuente (Arial, Verdana, Impact, … ):
+<code class="highlighter-rouge">font-family: Arial;</code></li>
+</ul>
 
-Las medidas pueden darse en píxeles `px` (ej. `font-size:15px;`) y establecer un tamaño fijo, o bien en em que otorga un tamaño relativo a la pantalla: `1em` corresponde al tamaño por defecto, `0.5em` a la mitad del tamaño, y `2em` al doble. 
+<p>Hay diferentes tipos de letras: serif, sans-serif, cursive… cada ordenador tiene las suyas. Normalmente se opta por ofrecer diversas fuentes, en caso que la máquina no tenga la primera, pasa a la segunda:</p>
 
-#### Colores:
+<p><code class="highlighter-rouge">font-family: Tahoma, Verdana, sans-serif;</code></p>
 
-`color: green;`
+<p>Las medidas pueden darse en píxeles <code class="highlighter-rouge">px</code> (ej. <code class="highlighter-rouge">font-size:15px;</code>) y establecer un tamaño fijo, o bien en em que otorga un tamaño relativo a la pantalla: <code class="highlighter-rouge">1em</code> corresponde al tamaño por defecto, <code class="highlighter-rouge">0.5em</code> a la mitad del tamaño, y <code class="highlighter-rouge">2em</code> al doble.</p>
 
-Los colores pueden expresarse de diferentes formas: 
--	colores sencillos con sus nombres: `black`, `pink`, `violet`, `green`, `yellow`
--	con valores hexadecimales (# y 6 dígitos). Vid. [HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp).
-`background-color: red;`
+<h4 id="colores">Colores:</h4>
 
-#### Justificación del texto:
-`text-align:center;`
-center, right, left 
+<p><code class="highlighter-rouge">color: green;</code></p>
 
-#### Tamaños: 
-`height:` la altura se expresa en píxeles
-`width:` el ancho también se expresa en píxeles
+<p>Los colores pueden expresarse de diferentes formas:</p>
+<ul>
+  <li>colores sencillos con sus nombres: <code class="highlighter-rouge">black</code>, <code class="highlighter-rouge">pink</code>, <code class="highlighter-rouge">violet</code>, <code class="highlighter-rouge">green</code>, <code class="highlighter-rouge">yellow</code></li>
+  <li>con valores hexadecimales (# y 6 dígitos). Vid. <a href="https://www.w3schools.com/colors/colors_picker.asp">HTML Color Picker</a>.
+<code class="highlighter-rouge">background-color: red;</code></li>
+</ul>
 
-Es útil especialmente para las div: 
-```
-div{
-		background-color:#cc0000;
-		height:100px;
-		width:100px;
+<h4 id="justificacin-del-texto">Justificación del texto:</h4>
+<p><code class="highlighter-rouge">text-align:center;</code>
+center, right, left</p>
+
+<h4 id="tamaos">Tamaños:</h4>
+<p><code class="highlighter-rouge">height:</code> la altura se expresa en píxeles
+<code class="highlighter-rouge">width:</code> el ancho también se expresa en píxeles</p>
+
+<p>Es útil especialmente para las div:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>div{
+	background-color:#cc0000;
+	height:100px;
+	width:100px;
 }
-```
+</code></pre>
+</div>
 
-#### Decoración del texto: 
-Podemos dar un tipo especial a determinados elementos. Por ejemplo, en el caso de los links, `<a>`, podemos señalar de qué color lo queremos y si debe ir subrayado o no: 
-```
-a{
-text-decoration: none;
+<h4 id="decoracin-del-texto">Decoración del texto:</h4>
+
+<p>Podemos dar un tipo especial a determinados elementos. Por ejemplo, en el caso de los links, <code class="highlighter-rouge">&lt;a&gt;</code>, podemos señalar de qué color lo queremos y si debe ir subrayado o no:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>a{
+	text-decoration: none;
 }
-```
+</code></pre>
+</div>
 
-#### Bordes:
-Especialmente en las tablas, aunque también en los elementos `<div>`,  es útil utilizar los bordes. Por ejemplo, si tenemos una tabla: 
-```
-selector{
-border: 1px solid black;
+<h4 id="bordes">Bordes:</h4>
+<p>Especialmente en las tablas, aunque también en los elementos <code class="highlighter-rouge">&lt;div&gt;</code>,  es útil utilizar los bordes. Por ejemplo, si tenemos una tabla:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>selector{
+	border: 1px solid black;
 }
-```
+</code></pre>
+</div>
 
-`border-radius:` para redondear los bordes 
+<p><code class="highlighter-rouge">border-radius:</code> para redondear los bordes</p>
 
+<p>Las reglas CSS pueden y deben darse de manera general, sin necesidad de añadir el atributo style a cada etiqueta. Para ello utilizaremos los atributos <code class="highlighter-rouge">@class</code> y <code class="highlighter-rouge">@id</code>.</p>
+<ul>
+  <li><code class="highlighter-rouge">@class</code> sirve para dar estilo a una clase de elementos que comparten una serie de características.</li>
+  <li><code class="highlighter-rouge">@id</code> sirve para dar un identifador único y por tanto otorogar una serie de características propias.</li>
+</ul>
 
-Las reglas CSS pueden y deben darse de manera general, sin necesidad de añadir el atributo style a cada etiqueta. Para ello utilizaremos los atributos `@class` y `@id`. 
-- `@class` sirve para dar estilo a una clase de elementos que comparten una serie de características. 
-- `@id` sirve para dar un identifador único y por tanto otorogar una serie de características propias. 
+<p>Por ejemplo:</p>
 
-Por ejemplo: 
+<p><code class="highlighter-rouge">&lt;div class=“texto”&gt;</code> suponemos que hay más de una <code class="highlighter-rouge">&lt;div&gt;</code> que queremos con las mismas características. En la CSS deberíamos señalarlo así, por ejemplo:</p>
 
-`&lt;div class=“texto”&gt;` suponemos que hay más de una `<div>` que queremos con las mismas características. En la CSS deberíamos señalarlo así, por ejemplo: 
-```
-.texto{
-font-size:15px;
-font-family:Arial;
-color:blue;
+<div class="highlighter-rouge"><pre class="highlight"><code>.texto{
+	font-size:15px;
+	font-family:Arial;
+	color:blue;
 }
-```
+</code></pre>
+</div>
 
-Mientras que una `&lt;div id= “contenedor”&gt;` señala que es la única en todo el documento que habrá unas características concretas. En la CSS se reflejaría con el símbolo `#`:
+<p>Mientras que una <code class="highlighter-rouge">&lt;div id= “contenedor”&gt;</code> señala que es la única en todo el documento que habrá unas características concretas. En la CSS se reflejaría con el símbolo <code class="highlighter-rouge">#</code>:</p>
 
-```
-#contenedor{
-background-color: yellow;
+<div class="highlighter-rouge"><pre class="highlight"><code>#contenedor{
+	background-color: yellow;
 }
-```
+</code></pre>
+</div>
 
-#### Pseudo-selectores
-Muy utilizado cuando queremos modificar parcialmente el comportamiento de un elemento, como en los links. Hay tres tipos diferentes: 
+<h4 id="pseudo-selectores">Pseudo-selectores</h4>
+<p>Muy utilizado cuando queremos modificar parcialmente el comportamiento de un elemento, como en los links. Hay tres tipos diferentes:</p>
 
-- `a:link:` link que no se ha todavía consultado
-- `a:visited:` link consultado
-- `a:hover:` cuando pasamos el cursor por encima. 
+<ul>
+  <li><code class="highlighter-rouge">a:link:</code> link que no se ha todavía consultado</li>
+  <li><code class="highlighter-rouge">a:visited:</code> link consultado</li>
+  <li><code class="highlighter-rouge">a:hover:</code> cuando pasamos el cursor por encima.</li>
+</ul>
 
-```
-selector:pseudo-class-selector{
-propiedad:valor}
+<div class="highlighter-rouge"><pre class="highlight"><code>selector:pseudo-class-selector{
+	propiedad:valor}
 
 a:hover {
     color: #cc0000;
     font-weight: bold;
     text-decoration: none;
 }
-```
+</code></pre>
+</div>
 
-#### Posición de los elementos `<div>`
+<h4 id="posicin-de-los-elementos-div">Posición de los elementos <code class="highlighter-rouge">&lt;div&gt;</code></h4>
 
-- Apariencia:
-	- `display` puede contener 5 valores:
-	- `block`: los sitúa en bloque
-	- `inline-block`: los sitúa en bloque sin sus medidas originales
-	- `inline`:los sitúa en bloque sin sus medidas originales
-	- `none`: desaparecen
+<ul>
+  <li>Apariencia:
+    <ul>
+      <li><code class="highlighter-rouge">display</code> puede contener 5 valores:</li>
+      <li><code class="highlighter-rouge">block</code>: los sitúa en bloque</li>
+      <li><code class="highlighter-rouge">inline-block</code>: los sitúa en bloque sin sus medidas originales</li>
+      <li><code class="highlighter-rouge">inline</code>:los sitúa en bloque sin sus medidas originales</li>
+      <li><code class="highlighter-rouge">none</code>: desaparecen</li>
+    </ul>
+  </li>
+  <li>Margen:
+    <ul>
+      <li><code class="highlighter-rouge">margin</code>: espacio que hay fuera del elemento</li>
+      <li><code class="highlighter-rouge">margin-top: /*some value*/</code></li>
+      <li><code class="highlighter-rouge">margin-right: /*some value*/</code></li>
+      <li><code class="highlighter-rouge">margin-bottom: /*some value*/</code></li>
+      <li><code class="highlighter-rouge">margin-left: /*some-value*/</code></li>
+    </ul>
+  </li>
+</ul>
 
-- Margen: 
-	- `margin`: espacio que hay fuera del elemento
-	- `margin-top: /*some value*/`
-	- `margin-right: /*some value*/`
-	- `margin-bottom: /*some value*/`
-	- `margin-left: /*some-value*/`
+<p>Pueden marcarse todos a la vez empezando por el de arriba: <code class="highlighter-rouge">margin: 1px 2px 3px 4px;</code></p>
 
-Pueden marcarse todos a la vez empezando por el de arriba: `margin: 1px 2px 3px 4px;`
+<ul>
+  <li><code class="highlighter-rouge">border</code>: el borde es lo que delimita el elemento propiamente dicho</li>
+  <li>
+    <p><code class="highlighter-rouge">padding</code>: es el espacio entre el contenido y el borde</p>
+  </li>
+  <li>Floatting:
+    <ul>
+      <li><code class="highlighter-rouge">float:right</code></li>
+      <li><code class="highlighter-rouge">float:left;</code></li>
+    </ul>
+  </li>
+  <li>Position: Hay cuatro tipos de posición:
+    <ul>
+      <li><code class="highlighter-rouge">absolute</code>: se posiciona en relación al primer elemento padre que no tiene <code class="highlighter-rouge">position:static</code>; si no hay tal elemento, el elemento con posición absoluta se coloca en relación al elemento <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code>.</li>
+      <li><code class="highlighter-rouge">static</code>: La posición por defecto es <code class="highlighter-rouge">static</code>.</li>
+      <li><code class="highlighter-rouge">relative</code>: es la más utilizada</li>
+      <li><code class="highlighter-rouge">fixed</code>: para fijar un elemento en la pantalla (los menús por ejemplo)</li>
+    </ul>
+  </li>
+</ul>
 
-- `border`: el borde es lo que delimita el elemento propiamente dicho
-- `padding`: es el espacio entre el contenido y el borde
+<p>Actualmente existen diferentes opciones para construir un sitio web estático. <a href="http://getbootstrap.com/">Bootstrap</a> y <a href="http://foundation.zurb.com/">Foundation</a> son dos de ellos, así como <a href="http://jekyllrb.com/">Jekyll</a>.</p>
 
-- Floatting:
-	- `float:right`
-	- `float:left;`
-
-- Position: Hay cuatro tipos de posición: 
-	- `absolute`: se posiciona en relación al primer elemento padre que no tiene `position:static`; si no hay tal elemento, el elemento con posición absoluta se coloca en relación al elemento `<html>`. 
-	- `static`: La posición por defecto es `static`.
-	- `relative`: es la más utilizada
-	- `fixed`: para fijar un elemento en la pantalla (los menús por ejemplo)
-
-
-Actualmente existen diferentes opciones para construir un sitio web estático. Bootstrap y Foundation son dos de ellos, así como Jekyll. 
-
-Instrucciones: 
-Visita: http://jekyllrb.com/
-</html></div></div></div></a></head></head></span></div></tbody></th></tr></thead></td></tr></table>
 
     
   </div>
