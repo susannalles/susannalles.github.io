@@ -1,10 +1,13 @@
 ---
 layout: materials
 title: SPA 322
+author: Susanna Allés-Torrent
 permalink: /courses/SPA322/:title.html
 collection: courses
 ---
 Miércoles 30 de agosto de 2017 
+
+[PDF](apuntes/clase4.pdf)
 
 ## 2. Creación y tecnologías web 
 
