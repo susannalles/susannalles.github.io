@@ -1,6 +1,7 @@
 ---
 layout: materials
 title: SPA 322
+author: Susanna Allés Torrent
 permalink: /courses/SPA322/:title.html
 collection: courses
 ---

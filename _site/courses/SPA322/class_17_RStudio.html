@@ -91,6 +91,50 @@
 
 <h2 id="r-studio">R Studio</h2>
 
+<p>Estilometría: para descubrir el género de un texto, la fecha de un texto o la autoria (la atribución).</p>
+
+<p>¿Qué define el estilo de un autor? 
+Palabras funcionales, vacías de contenido (de, a, por, así, …)
+ <a href="https://www.mrc-cbu.cam.ac.uk/people/matt.davis/cmabridge/">https://www.mrc-cbu.cam.ac.uk/people/matt.davis/cmabridge/</a></p>
+
+<p>Stylo <a href="https://sites.google.com/site/computationalstylistics/stylo">https://sites.google.com/site/computationalstylistics/stylo</a> es un paquete que puede instalarse en R.</p>
+
+<p>Pasos previos:</p>
+
+<ul>
+  <li>Crear un corpus en texto plano en UTF-8</li>
+  <li>Asignar nombres de los ficheros de manera clara (sin espacios, ni acentos, etc.)</li>
+  <li>Tokenización (reconocimiento de los caracteres o palabras individualmente). Quitar puntuación, caracteres numéricos.</li>
+  <li>A continuación podemos empezar a jugar con las palabras, calculando la distancia mínima entre ellas.</li>
+</ul>
+
+<p>La primera vez que lo abrimos:</p>
+
+<ul>
+  <li>Open R</li>
+  <li><code class="highlighter-rouge">install.packages("stylo")</code></li>
+  <li>Import <code class="highlighter-rouge">library(stylo)</code></li>
+  <li><code class="highlighter-rouge">stylo()</code></li>
+  <li>Set the working directory: <code class="highlighter-rouge">setwd("~/Documents/NEH/10.Kestemon/pitt17/data/genres/")</code></li>
+  <li>We want to be sure that we have a folder called “corpus” (we have copied all files starting with bre_ and fra_)</li>
+  <li>To be sure we are in the right place <code class="highlighter-rouge">getwd()</code> and you will see the full path:
+[1] “/Users/susannalles/Documents/NEH/10.Kestemon/pitt17/data/genres”</li>
+  <li>Run <code class="highlighter-rouge">stylo()</code> and a pop up window will appear, click “OK” and a graphic will be displayed [graph1.png].</li>
+  <li>Click <code class="highlighter-rouge">stylo()</code>, Enter, Pop-up of the stylo interface. Go to Features, MFW Settings, miniminum and max to 3000. And you will get graph2.png</li>
+</ul>
+
+<p>Abrir R Studio</p>
+
+<p><code class="highlighter-rouge">library(stylo)</code>
+<code class="highlighter-rouge">setwd("~/Dropbox/MIAMI/Courses Miami/SPA322_Intro_DH/Lorca_Textos/")</code>
+<code class="highlighter-rouge">stylo()</code></p>
+
+<p>Casos de autoría:</p>
+<ul>
+  <li>Robert Galbraith, <em>The Cuckoo’s Calling</em> by Jude Callegari = J. K. Rowling. El caso fue resuelto por dos forenses lingüísticos de la empresa Juola Associates.</li>
+  <li>Autenticidad de una obra de Julio César <a href="http://dl.acm.org/citation.cfm?id=2989636">http://dl.acm.org/citation.cfm?id=2989636</a></li>
+</ul>
+
 <p>Libro imprescindible para introducirse a RStudio:</p>
 
 <ul>

@@ -6,6 +6,7 @@ permalink: /courses/SPA322/:title.html
 collection: courses
 ---
 [PDF](apuntes/indicaciones_presentacion1.pdf)
+
 # Indicaciones para la presentación oral de un proyecto en HD
 
 Para el lunes 28 de agosto deberéis preparar una breve presentación de algún proyecto digital de los que vimos en la [clase 2](class_2.html) teniendo en cuenta las directrices sobre [cómo evaluar los sitios web](analysis_web.html). 
