@@ -20,14 +20,18 @@ permalink: /cv
 
 ## Academic Positions
 
-Lecturer in Digital Humanities, Columbia University in the City of New York, 2014 - 2016
+Assistant Professor, Modern Languages and Literatures Department, University of Miami, 2017-Present
+
+Visiting Assistant Professor, Modern Languages and Literatures Department, University of Miami, 2016-2017 
+
+Lecturer in Digital Humanities, Department of Latin American and Iberian Cultures, Columbia University in the City of New York, 2014 - 2016
 
 Postdoctoral Fellow, Spanish National Research Council (CSIC), 2012 - 2014
 
 Adjunct Professor, University of Barcelona, 2010 -2013
 
 ## Fellowships											 
-
+- **NEH Institute for Advanced Topics in the Digital Humanities**, “Make_Your_Edition: Models and Methods for Digital Textual Scholarship”, Pittsburgh, July 10-29, 2017. 
 - **Columbia University**. Ministerio de Asuntos Exteriores & Fundación Rafael del Pino. Lectureship, New York, 2014-2016
 - **Institut de Recherche et Histoire des Textes**, Comité Du Cange. Short Term Scientific Mission. Paris (France), September 2014. Funding: COST Action Medioevo Europeo
 - **Brown University**, Center for Digital Scholarship. Visiting Scholar. Providence (RI), November 2013 - March 2014. Funding: Consortium for Advanced Studies in Barcelona
@@ -85,7 +89,7 @@ Adjunct Professor, University of Barcelona, 2010 -2013
 
 **Programming Languages**: XSL, XPath, PHP, Python, Javascript 
 
-**Frameworks and CMS**: WordPress, Jekyll, Drupal, Wordpress, Omeka
+**Frameworks and CMS**: WordPress, Jekyll, Drupal, Omeka
 
 **Database**: MYSQL, eXist
 

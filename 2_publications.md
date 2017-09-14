@@ -12,6 +12,7 @@ permalink: /publications
 
 #### ARTICLES IN PEER-REVIEWED JOURNALS:
 
+“Tiempos hay de acometer y tiempos de retirar: literatura áurea y edición digital”, *Studia Aurea* 11 (2017) (In Press)
 
  [“Edición digital y algunas tecnologías aliadas: codificación TEI y transformaciones XSLT.”][Insula] *Insula. Revista de Letras y Ciencias Humanas* 822 (June 2015): 18-21
 
