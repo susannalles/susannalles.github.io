@@ -28,15 +28,17 @@ permalink: /publications
 	
 #### CHAPTERS IN BOOKS (PEER-REVIEWED):
 
-“Humanistas y descubrimientos de códices clásicos: la dimensión épica.” *Secret et découverte au Moyen Âge*. Ve Congrès Européen d’Études Mediévales. Ed. José Meirinhos. Barcelona - Madrid: Brepols, 2016. 467-477.
+“Humanistas y descubrimientos de códices clásicos: la dimensión épica.” [*Secrets and Discovery in the Middle Ages*. Proceedings of the 5th European Congress of the Fédération Internationale des Instituts d’Études Médiévales (Porto, 24 to 29 June 2013)](http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503577456-1). Ed. J. Meirinhos, C. López, J. Rebalde. Barcelona - Madrid: Brepols, 2017. 467-477.
 
 & Marta Punsola, and Pere J. Quetglas. “Presentación de la edición digital del Glossarium Mediae Latinitatis Cataloniae (GMLC).” *Actas del IV Congreso Internacional de Latín Medieval Hispánico (20-23 noviembre 2013, La Núcia, Alicante)*, 2016. 423-432.
+
+[“Glossarium Mediae Latinitatis Cataloniae: un projecte d’edició digital”][Omnia Mutantur], Omnia Mutantur. Canvi, transformació i pervivència en la cultura clàssica, en les seves llengües i en el seu llegat. Ed. E. Borrell Vidal, and O. de la Cruz Palma, Secció Catalana de la SEEC, Barcelona: Universitat de Barcelona, II, 2016. pp. 231-239.
 
 [“Le vite di Omero tradotte da Pellegrino degli Agli.”][Vite Omero] *Coexistence and Cooperation in the Middle Ages*. IV European Congress of Medieval Studies F.I.D.E.M. 23 - 27 June 2009, Palermo (Italy). Ed. A. Musco, and G. Musotto. Palermo: Officina di Studi Medievali, 2014. 149-161
 
 & María de las Nieves Muñiz Muñiz. [“Per un’edizione ipertestuale bilingue dello Zibaldone.”][Zibaldone] *Lo Zibaldone di Leopardi come ipertesto*, Ed. M. N. Muñiz Muñiz. Florence: Leo Olschki, 2013. 343-357
 
-“The Vita Caroli Magni of Donato Acciaiuoli, translated by Alfonso de Palencia (1491).” *Humanism and Christian Letters in Early Modern Iberia (1480-1630)*. Ed. B. Taylor, and A. Coroleu. Newcastle: Cambridge Scholars Publishing, 2010. 61-71
+[“The Vita Caroli Magni of Donato Acciaiuoli, translated by Alfonso de Palencia (1491).”][Vita Caroli] *Humanism and Christian Letters in Early Modern Iberia (1480-1630)*. Ed. B. Taylor, and A. Coroleu. Newcastle: Cambridge Scholars Publishing, 2010. 61-71
 
 #### BOOK REVIEWS:
 
@@ -82,3 +84,5 @@ Leonardo Bruni, [*Vides de Dante i de Petrarca*][Traduccio Bruni], Martorell: Ad
 [Review Medici]: http://ddd.uab.cat/pub/qdi/11359730n14p219.pdf
 [Review Endimio]: http://ddd.uab.cat/pub/qdi/11359730n14p221.pdf
 [Traduccio Bruni]: http://www.adesiaraeditorial.cat/ficha.aspx?cod=VAG000013
+[Vita Caroli]: https://hcommons.org/deposits/item/hc:15643/
+[Omnia Mutantur]: https://hcommons.org/deposits/item/hc:15647/
