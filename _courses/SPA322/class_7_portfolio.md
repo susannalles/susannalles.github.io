@@ -7,7 +7,9 @@ collection: courses
 ---
 # Crear un portafolio digital 
 
-La parte final de la segunda tarea consiste en crear vuestro sitio web a través de GitHub Pages. Para ello deberéis tener en cuenta una serie de requisitos que vuestro sitio deberá cumplir.
+**Fecha de entrega**: viernes 29 de septiembre de 2017 (antes de la clase)
+
+Vuestro primer Miniproyecto, que ya habéis comenzado en la tarea 2, consiste en crear vuestro sitio web a través de GitHub Pages. Para ello deberéis tener en cuenta una serie de requisitos que vuestro sitio deberá cumplir.
 
 ### Lista de requisitos para vuestro sitio web
 
@@ -21,9 +23,9 @@ A la hora de crear nuestro sitio web, debemos tener presente el valor crítico y
 
 Las páginas obligatorias y por consiguiente la navegación mínima para vuestro sitio deben ser: 
 
-- Inicio/Home - Esta es la página de inicio, la que el usuario verá al acceder a vuestro sitio. Deberá tener por nombre `index.html`
-- Sobre mí / About - En esta sección os debéis presentar, vuestros datos, vuestros estudios, e intereses.
-- Mini-proyectos - Todos los trabajos que realicemos durante el curso deberán colgarse en esta pestaña. Al interno, deberéis crear una página genérica de bienvenida con los links hacia cada uno vuestros proyectos.
+- **Inicio/Home** - Esta es la página de inicio, la que el usuario verá al acceder a vuestro sitio, deberá tener por nombre `index.html`
+- **Sobre mí / About** - En esta sección os debéis presentar, vuestros datos, vuestros estudios, e intereses.
+- **Mini-proyectos** - Todos los trabajos que realicemos durante el curso deberán colgarse en esta pestaña. Al interno, deberéis crear una página genérica de bienvenida con los links hacia cada uno de vuestros proyectos.
 
 Podéis añadir una o dos pestañas más a vuestro sitio, las que consideréis pertinente. Por ejemplo, quizás a alguien le conviene añadir su CV. 
 
@@ -43,7 +45,7 @@ Durante no más de 5 minutos, deberéis presentar vuestro ePortfolio al resto de
 
 Aunque podréis mejorar el aspecto y la estructura de vuestro sitio a lo largo del semestre, es importante que para la fecha límite y el día de la presentación, vuestro sitio tenga ya un aspecto consistente: respetad las fechas límite, se trata de proyectos que no se hacen en un día. 
 
-Además, es muy importante ofrecer feedback a los compañeros para que seamos conscientes de lo qué funciona y de lo que no funciona, aprender de los ejemplos y los problemas de los otros, y en definitiva aprender y mejorar.  
+Además, es muy importante ofrecer feedback a los compañeros para que seamos conscientes de lo que funciona y de lo que no funciona, aprender de los ejemplos y los problemas de los otros.  
 
 Algunos de los temas en los que nos centraremos serán: 
 
