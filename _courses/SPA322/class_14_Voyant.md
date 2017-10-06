@@ -8,7 +8,7 @@ Lunes 25 de septiembre de 2017
 
 ## Voyant Tools 
 
-Voyant Tools http://voyant-tools.org/ es una plataforma que permite el análisis de los textos. Pueden utilizarse diversos formatos pero, una vez más, el más seguro es el .txt. 
+Voyant Tools <http://voyant-tools.org/> es una plataforma que permite el análisis de los textos. Pueden utilizarse diversos formatos pero, una vez más, el más seguro es el .txt. 
 
 ### Ejercicio
 1.Descargad el archivo zip que contiene los textos de García Lorca [“CorpusLorca.zip”](https://github.com/susannalles/susannalles.github.io/blob/master/_courses/SPA322/corpus/CorpusLorca.zip) y guardadlo en un lugar donde os acordéis. Los podéis subir uno a uno, o utilizar el fichero .zip. Clicar en “Reveal”. 
