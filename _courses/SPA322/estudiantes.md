@@ -8,7 +8,7 @@ Links a GitHub Pages de los estudiantes:
 
 Brandon Bierly: <https://bbmoney.github.io/>
 
-Trent D'Alessio: <https://trentdalessio.github.io/portfolio/>
+Trent D'Alessio: <https://trentdalessio.github.io/>
 
 Gabriela Díaz: <https://gdiaz08828.github.io/>
 
