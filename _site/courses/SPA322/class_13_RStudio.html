@@ -7,12 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>SPA 322</title>
-  <meta name="description" content="Lunes 2 de octubre de 2017">
+  <meta name="description" content="Miércoles 11 de octubre de 2017">
 
  <!--<link rel="stylesheet" href="/css/main.css">-->
   <link rel="stylesheet" href="http://localhost:4000/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/courses/SPA322/class_17_RStudio.html">
-  <link rel="canonical" href="http://localhost:4000/courses/SPA322/class_17_RStudio.html">
+  <link rel="canonical" href="http://localhost:4000/courses/SPA322/class_13_RStudio.html">
+  <link rel="canonical" href="http://localhost:4000/courses/SPA322/class_13_RStudio.html">
   <link rel="alternate" type="application/rss+xml" title="Susanna Allés Torrent" href="/feed.xml">
   
   
@@ -87,7 +87,7 @@
 
   <div class="post-content">
     
-    <p>Lunes 2 de octubre de 2017</p>
+    <p>Miércoles 11 de octubre de 2017</p>
 
 <h2 id="r-studio">R Studio</h2>
 
@@ -96,8 +96,6 @@
 <p>¿Qué define el estilo de un autor? 
 Palabras funcionales, vacías de contenido (de, a, por, así, …)
  <a href="https://www.mrc-cbu.cam.ac.uk/people/matt.davis/cmabridge/">https://www.mrc-cbu.cam.ac.uk/people/matt.davis/cmabridge/</a></p>
-
-<p>Stylo <a href="https://sites.google.com/site/computationalstylistics/stylo">https://sites.google.com/site/computationalstylistics/stylo</a> es un paquete que puede instalarse en R.</p>
 
 <p>Pasos previos:</p>
 
@@ -108,40 +106,71 @@ Palabras funcionales, vacías de contenido (de, a, por, así, …)
   <li>A continuación podemos empezar a jugar con las palabras, calculando la distancia mínima entre ellas.</li>
 </ul>
 
-<p>La primera vez que lo abrimos:</p>
-
+<h2 id="instalacin">Instalación:</h2>
 <ul>
-  <li>Open R</li>
-  <li><code class="highlighter-rouge">install.packages("stylo")</code></li>
-  <li>Import <code class="highlighter-rouge">library(stylo)</code></li>
-  <li><code class="highlighter-rouge">stylo()</code></li>
-  <li>Set the working directory: <code class="highlighter-rouge">setwd("~/Documents/NEH/10.Kestemon/pitt17/data/genres/")</code></li>
-  <li>We want to be sure that we have a folder called “corpus” (we have copied all files starting with bre_ and fra_)</li>
-  <li>To be sure we are in the right place <code class="highlighter-rouge">getwd()</code> and you will see the full path:
-[1] “/Users/susannalles/Documents/NEH/10.Kestemon/pitt17/data/genres”</li>
-  <li>Run <code class="highlighter-rouge">stylo()</code> and a pop up window will appear, click “OK” and a graphic will be displayed [graph1.png].</li>
-  <li>Click <code class="highlighter-rouge">stylo()</code>, Enter, Pop-up of the stylo interface. Go to Features, MFW Settings, miniminum and max to 3000. And you will get graph2.png</li>
+  <li>Instalar <a href="https://www.rstudio.com/products/rstudio/download/">https://www.rstudio.com/products/rstudio/download/</a></li>
+  <li>Stylo <a href="https://sites.google.com/site/computationalstylistics/stylo">https://sites.google.com/site/computationalstylistics/stylo</a> es un paquete que puede instalarse en R.</li>
 </ul>
 
-<p>Abrir R Studio</p>
+<h2 id="pasos-a-seguir">Pasos a seguir:</h2>
 
-<p><code class="highlighter-rouge">library(stylo)</code>
-<code class="highlighter-rouge">setwd("~/Dropbox/MIAMI/Courses Miami/SPA322_Intro_DH/Lorca_Textos/")</code>
-<code class="highlighter-rouge">stylo()</code></p>
+<ul>
+  <li>Abrid R Studio</li>
+</ul>
 
-<p>Casos de autoría:</p>
+<p><img src="img/RStudio1.png" alt="RStudio1" /></p>
+
+<ul>
+  <li>En el cuadro superior izquierdo escribid: <code class="highlighter-rouge">install.packages("stylo")</code>. Esto deberéis hacerlo sólo la primera vez que lo utilicéis.</li>
+</ul>
+
+<p><img src="img/RStudio2.png" alt="RStudio2" /></p>
+
+<ul>
+  <li>A continuación debes importar el paquete Stylo para poder trabajar con él: <code class="highlighter-rouge">library(stylo)</code></li>
+</ul>
+
+<p><img src="img/RStudio3.png" alt="RStudio3" /></p>
+
+<ul>
+  <li>Ahora tenemos que establecer nuestro directorio de trabajo para que el programa sepa dónde están los archivos de texto: Session &gt; “Set the working directory” &gt; Choose directory &gt; Elegid vuestra carpeta que debe contener a su vez la carpeta “corpus”. Es muy importante que todos los archivos estén en una carpeta llamada “corpus” sino no funcionará. También puede escribirse en la consola <code class="highlighter-rouge">setwd("~/Dropbox/MIAMI/Courses Miami/SPA322_Intro_DH/Lorca_Corpus")</code> (aquí es donde lo tengo yo).</li>
+</ul>
+
+<p><img src="img/RStudio4.png" alt="RStudio4" /></p>
+
+<ul>
+  <li>Para asegurarnos que estamos en la carpeta correcta podemos escribir en la consola <code class="highlighter-rouge">getwd()</code> y veremos el path o dirección local donde estamos trabajando. En mi caso, veo: [1] “/Users/susannalles/Dropbox/MIAMI/Courses Miami/SPA322_Intro_DH/Lorca_Corpus”</li>
+</ul>
+
+<p><img src="img/RStudio4.1.png" alt="RStudio4.1" /></p>
+
+<ul>
+  <li>Ahora para empezar a visualizar los textos clicad en <code class="highlighter-rouge">stylo()</code>. Se os abrirá una ventana emergente y podéis clicar en “OK”, entonces os aparecerá el primer gráfico.</li>
+</ul>
+
+<p><img src="img/RStudio5.png" alt="RStudio5" /></p>
+
+<p><img src="img/RStudio5.1.png" alt="RStudio5.1" /></p>
+
+<ul>
+  <li>Ahora volved a correr <code class="highlighter-rouge">stylo()</code>, e id a ‘Features &gt; MFW Settings, miniminum and max to 3000`, y generad el gráfico graph2.png</li>
+</ul>
+
+<p><img src="img/RStudio6.png" alt="RStudio6" /></p>
+
+<h2 id="casos-de-autora">Casos de autoría:</h2>
 <ul>
   <li>Robert Galbraith, <em>The Cuckoo’s Calling</em> by Jude Callegari = J. K. Rowling. El caso fue resuelto por dos forenses lingüísticos de la empresa Juola Associates.</li>
   <li>Autenticidad de una obra de Julio César <a href="http://dl.acm.org/citation.cfm?id=2989636">http://dl.acm.org/citation.cfm?id=2989636</a></li>
 </ul>
 
-<p>Libro imprescindible para introducirse a RStudio:</p>
+<h2 id="libro-imprescindible-para-introducirse-a-rstudio">Libro imprescindible para introducirse a RStudio:</h2>
 
 <ul>
   <li>Jockers, Matthew. Text Analysis with R for Students of Literature. Cham: Springer, 2014. Disponible en línea: <a href="http://link.springer.com/book/10.1007%2F978-3-319-03164-4">http://link.springer.com/book/10.1007%2F978-3-319-03164-4</a></li>
 </ul>
 
-<p>Otro libro algo más avanzado es:</p>
+<h2 id="otro-libro-algo-ms-avanzado-es">Otro libro algo más avanzado es:</h2>
 
 <ul>
   <li>Taylor, Arnold, y Lauren Tilton. Humanities Data in R. Exploring Networks, Geospatial Data, Images, and Texts. Cham: Springer, 2015. Disponible en: <a href="http://link.springer.com/book/10.1007%2F978-3-319-20702-5">http://link.springer.com/book/10.1007%2F978-3-319-20702-5</a></li>
