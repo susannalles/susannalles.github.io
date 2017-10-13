@@ -21,6 +21,8 @@ Pasos previos:
 * Tokenización (reconocimiento de los caracteres o palabras individualmente). Quitar puntuación, caracteres numéricos. 
 * A continuación podemos empezar a jugar con las palabras, calculando la distancia mínima entre ellas. 
 
+# Parte 1 (Miércoles 11 Octubre 2017)
+
 ## Instalación: 
 * Instalar <https://www.rstudio.com/products/rstudio/download/>
 * Stylo <https://sites.google.com/site/computationalstylistics/stylo> es un paquete que puede instalarse en R. 
@@ -53,9 +55,14 @@ Pasos previos:
 
 ![RStudio5.1](img/RStudio5.1.png)
 
-* Ahora volved a correr `stylo()`, e id a 'Features > MFW Settings, miniminum and max to 3000`, y generad el gráfico graph2.png
+* Ahora volved a correr `stylo()`, e id a 'Features > MFW Settings, miniminum and max to 3000`, y generad el gráfico graph2.png. "MFW" significa "Most Frequent Words". 
 
 ![RStudio6](img/RStudio6.png)
+
+# PARTE II (Viernes 13 Octubre 2017)
+1. Experimentad ahora cambiando el número de palabras más frecuentes que toma en consideración el programa: `stylo()` > `Features` > `MFW Settings`, cambiad los valores de Minimo y Máximo: 30, 50, 1000, 5000...  y comentadlo. 
+2.  Ahora provad con `stylo()` > `statistics`> `Cluster Analysis`> `Consensus Tree` > `Consensus strength` con un valor de 0,5. 
+
 
 ## Casos de autoría: 
 - Robert Galbraith, *The Cuckoo's Calling* by Jude Callegari = J. K. Rowling. El caso fue resuelto por dos forenses lingüísticos de la empresa Juola Associates. 
