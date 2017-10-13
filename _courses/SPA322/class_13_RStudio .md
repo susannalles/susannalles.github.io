@@ -62,6 +62,11 @@ Pasos previos:
 # PARTE II (Viernes 13 Octubre 2017)
 1. Experimentad ahora cambiando el número de palabras más frecuentes que toma en consideración el programa: `stylo()` > `Features` > `MFW Settings`, cambiad los valores de Minimo y Máximo: 30, 50, 1000, 5000...  y comentadlo. 
 2.  Ahora provad con `stylo()` > `statistics`> `Cluster Analysis`> `Consensus Tree` > `Consensus strength` con un valor de 0,5. 
+3. Puedes probar qué pasa si al corpus se le añaden otros textos que no son de Lorca, por ejemplo, autores realistas: <https://github.com/cligs/textbox/blob/master/spanish/novela-espanola/novela-espanola.zip> Para ello, arrastra todos los textos en tu carpeta "corpus" y vuelve a correr los mismos comandos. 
+4. Puedes intentar utilizar en "MFW Settings" un mínimo y máximo de 100, y modificar el output para que salga la letra ("font") más pequeña y el espacio entre líneas sea menor. 
+
+![RStudio9](img/RStudio9.png)
+
 
 
 ## Casos de autoría: 
