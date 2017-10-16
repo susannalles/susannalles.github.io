@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+    version="3.5">
+    <titleInfo>
+        <title>[Four African American women seated on steps of building at Atlanta University, Georgia]</title>
+    </titleInfo>
+    <name type="personal" usage="primary">
+        <namePart>Askew, Thomas E.</namePart>
+        <namePart type="date">1850?-1914</namePart>
+        <role>
+            <roleTerm type="text">photographer</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart>Du Bois, W. E. B. (William Edward Burghardt)</namePart>
+        <namePart type="date">1868-1963</namePart>
+        <role>
+            <roleTerm type="text">collector.</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>still image</typeOfResource>
+    <genre authority="marcgt">graphic</genre>
+    <genre authority="marcgt">government publication</genre>
+    <genre authority="gmgpc">Portrait photographs-1890-1900.</genre>
+    <genre authority="gmgpc">Group portraits-1890-1900.</genre>
+    <genre authority="gmgpc">Gelatin silver prints-1890-1900.</genre>
+    <originInfo>
+        <place>
+            <placeTerm type="code" authority="marccountry">gau</placeTerm>
+        </place>
+        <dateIssued>[1899 or 1900]</dateIssued>
+        <dateIssued qualifier="questionable" point="start" encoding="marc">1899</dateIssued>
+        <dateIssued qualifier="questionable" point="end" encoding="marc">1900</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <form authority="gmd">graphic</form>
+        <form authority="marccategory">electronic resource</form>
+        <form authority="marcsmd">remote</form>
+        <form authority="marccategory">nonprojected graphic</form>
+        <form authority="marcsmd">photoprint</form>
+        <extent>1 photographic print : gelatin silver.</extent>
+    </physicalDescription>
+    <accessCondition type="restriction on access">Served by appointment only. Material requires
+        special handling. For more information, see</accessCondition>
+    <accessCondition type="use and reproduction">No known restrictions on
+        publication.</accessCondition>
+    <note>Untitled photo in album (disbound): Negro life in Georgia, U.S.A., compiled and prepared by W.E.B. Du Bois, v. 4, no. 362.</note>
+    <note>Title and photographer attribution based on research by D. Willis in Small nation of people.</note>
+    <note type="additional physical form">B&amp;w copy prints for LOT 11930 are provided as surrogates of original photographs for reference use in P&amp;P Reading Room. A microfilm surrogate is also available.</note>
+    <note xmlns:xlink="http://www.w3.org/1999/xlink" type="biographical/historical" xlink:href="http://hdl.loc.gov/loc.pnp/pp.anedub">For more information about this collection, see http://hdl.loc.gov/loc.pnp/pp.anedub</note>
+    <note type="publications">Published in: Small nation of people ... / Library of Congress ... New York: Amistad, 2003, p. 62-63.</note>
+    <note type="exhibitions">Exhibited: American Treasures of the Library of Congress, 2005.</note>
+    <note>Forms part of: Daniel Murray Collection (Library of Congress).</note>
+    <subject>
+        <topic>African Americans</topic>
+        <topic>Women</topic>
+        <geographic>Georgia</geographic>
+        <geographic>Atlanta</geographic>
+        <temporal>1890-1900</temporal>
+    </subject>
+    <subject authority="lctgm">
+        <topic>Clothing &amp; dress</topic>
+        <geographic>Georgia</geographic>
+        <geographic>Atlanta</geographic>
+        <temporal>1890-1900</temporal>
+    </subject>
+    <subject authority="lctgm">
+        <topic>Students</topic>
+        <geographic>Georgia</geographic>
+        <geographic>Atlanta</geographic>
+        <temporal>1890-1900</temporal>
+    </subject>
+    <classification authority="lcc">LOT 11930, no. 362</classification>
+    <location>
+        <physicalLocation>Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA</physicalLocation>
+        <physicalLocation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://hdl.loc.gov/loc.pnp/pp.print">http://hdl.loc.gov/loc.pnp/pp.print</physicalLocation>
+    </location>
+    <location>
+        <url displayLabel="digital file from original photograph" usage="primary display"
+            >http://hdl.loc.gov/loc.pnp/ppmsca.08778</url>
+    </location>
+    <location>
+        <url displayLabel="digital file from b&amp;w film copy neg."
+            >http://hdl.loc.gov/loc.pnp/cph.3c14272</url>
+    </location>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Du Bois albums of photographs of African Americans in Georgia exhibited at the Paris Exposition Universelle in 1900</title>
+        </titleInfo>
+        <name>
+            <namePart>Du Bois, W. E. B. (William Edward Burghardt), 1868-1963.</namePart>
+        </name>
+        <identifier type="local">(DLC)   99471631</identifier>
+    </relatedItem>
+    <identifier type="lccn">95507126</identifier>
+    <identifier type="stock number" displayLabel="(digital file from original photograph)">LC-DIG-ppmsca-08778 DLC</identifier>
+    <identifier type="stock number" displayLabel="(b&amp;w film copy neg.)">LC-USZ62-114272 DLC</identifier>
+    <identifier type="hdl">hdl:loc.pnp/ppmsca.08778</identifier>
+    <identifier type="hdl">hdl:loc.pnp/cph.3c14272</identifier>
+    <recordInfo>
+        <descriptionStandard>aacr</descriptionStandard>
+        <descriptionStandard>gihc</descriptionStandard>
+        <recordContentSource authority="marcorg">DLC</recordContentSource>
+        <recordCreationDate encoding="marc">950517</recordCreationDate>
+        <recordChangeDate encoding="iso8601">20131127194944.0</recordChangeDate>
+        <recordIdentifier>11649116</recordIdentifier>
+        <recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
+				(Revision 1.106 2014/12/19)</recordOrigin>
+    </recordInfo>
+</mods>
