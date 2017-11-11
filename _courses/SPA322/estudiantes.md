@@ -6,8 +6,6 @@ collection: courses
 ---
 Links a GitHub Pages de los estudiantes: 
 
-Brandon Bierly: <https://bbmoney.github.io/>
-
 Trent D'Alessio: <https://trentdalessio.github.io/>
 
 Gabriela Díaz: <https://gdiaz08828.github.io/>
@@ -18,7 +16,7 @@ Philippe Garofild: <https://philippegaroflid.github.io/>
 
 Mayda Herrera: <https://maydaih.github.io/>
 
-Ben Jennings: 
+Ben Jennings: <https://bjamin207.github.io/>
 
 Jillian Poles: <https://jpoles.github.io/> 
 

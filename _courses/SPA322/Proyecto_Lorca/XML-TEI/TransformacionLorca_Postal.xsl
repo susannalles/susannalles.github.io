@@ -33,20 +33,7 @@
                         <div classstyle="collapse navbar-collapse" id="navbarResponsive">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="../proyecto.html">Proyecto </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../cronologia.html">Cronología</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../cartas.html">Cartas<span
-                                            class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../viajes.html">Viajes</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../creditos.html">Créditos</a>
+                                    <a class="nav-link" href="../index.html">Inicio</a>
                                 </li>
                             </ul>
                         </div>
@@ -55,9 +42,7 @@
                 <section>
                     <div class="container">
                         <div class="row">
-
-                             <xsl:apply-templates/>
-
+                            <xsl:apply-templates/>
                         </div>
                     </div>
                     <div class="col-lg-12" id="bottom"> </div>
@@ -118,15 +103,23 @@
     </xsl:template>
 
 
-    <xsl:template match="div[@type='carta']/*[not(self::pb)]">
+<!--    <xsl:template match="pb">
             <div class="col-lg-6">
-                <!-- <h1 class="mt-5">Texto</h1>-->
-                <!--<xsl:apply-templates></xsl:apply-templates>-->
+                <!-\- <h1 class="mt-5">Imagen</h1>-\->
+                <xsl:element name="img">
+                    <xsl:attribute name="src">
+                        <xsl:value-of select="@facs"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="class">
+                        <xsl:text>img_edicion</xsl:text>
+                    </xsl:attribute>
+                </xsl:element>
             </div>
-    </xsl:template>
+    </xsl:template>-->
 
-    <xsl:template match="pb">
-        <div class="col-lg-6">
+    <xsl:template match="div[@type='recto']">
+      <xsl:for-each select="pb">
+            <div class="col-lg-6">
             <!-- <h1 class="mt-5">Imagen</h1>-->
             <xsl:element name="img">
                 <xsl:attribute name="src">
@@ -136,23 +129,43 @@
                     <xsl:text>img_edicion</xsl:text>
                 </xsl:attribute>
             </xsl:element>
-        </div>
+            </div>
+      </xsl:for-each>
+        
         <div class="col-lg-6">
-           <!-- <xsl:apply-templates select="following-sibling::node()"/>-->
+            <!-- <h1 class="mt-5">Texto</h1>-->
+            <xsl:apply-templates select="figure/*|div"/>
+            </div>
+    </xsl:template>
+    
+    <xsl:template match="div[@type='verso']">
+        <xsl:for-each select="pb">
+            <div class="col-lg-6">
+                <!-- <h1 class="mt-5">Imagen</h1>-->
+                <xsl:element name="img">
+                    <xsl:attribute name="src">
+                        <xsl:value-of select="@facs"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="class">
+                        <xsl:text>img_edicion</xsl:text>
+                    </xsl:attribute>
+                </xsl:element>
+            </div>
+        </xsl:for-each>
+        
+        <div class="col-lg-6">
+            <!-- <h1 class="mt-5">Texto</h1>-->
+            <xsl:apply-templates select="div"/>
         </div>
     </xsl:template>
-
-
-    <!--  <xsl:template match="div[@type='paratexto']">
-        <p class="paratexto">
+    
+    <!--<xsl:template match="div[@type='verso']">
+        <div class="col-lg-6">
+            <!-\- <h1 class="mt-5">Texto</h1>-\->
             <xsl:apply-templates/>
-        </p>
+        </div> 
     </xsl:template>-->
-
-    <xsl:template match="div[@type='paratexto']/ab/lb">
-        <xsl:apply-templates/>
-        <br/>
-    </xsl:template>
+ 
 
     <xsl:template match="lb">
         <xsl:apply-templates/>
@@ -176,6 +189,24 @@
         <br/>
     </xsl:template>
 
+<xsl:template match="figure/*">
+    <xsl:text>[</xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>]</xsl:text>
+</xsl:template>
+    
+    <xsl:template match="div[@type='paratexto']">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="div[@type='dirección']">
+        <p><b><xsl:text>Dirección:</xsl:text></b>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
     <xsl:template match="figDesc">
         <xsl:text>[</xsl:text>
         <xsl:apply-templates/>

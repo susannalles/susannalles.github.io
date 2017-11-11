@@ -65,7 +65,7 @@
         </div>
         <div type="texto">
           <opener>
-            <salute>Querido José María</salute>
+            <salute>Querido <choice><orig>Jose</orig><reg>José</reg></choice> <choice><orig>Maria</orig><reg>María</reg></choice></salute>
           </opener>
           <p> Estuve a visitarte.</p>
           <p>No estabas.</p>
