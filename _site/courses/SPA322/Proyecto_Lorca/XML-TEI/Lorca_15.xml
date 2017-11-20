@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carta de Federico García Lorca a José María Chacón y Calvo</title>
+            <editor xml:id="GD">Gabriela Díaz</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Proyecto Lorca en Cuba. SPA 322</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Coral Gables, Florida</settlement>
+                  <repository>Library Digital Collections, University of Miami</repository>
+                  <collection corresp="http://merrick.library.miami.edu/cubanHeritage/chc5324/">Federico
+                     García Lorca Papers</collection>
+                  <idno corresp="http://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/35/rec/12"
+                     >chc5324000015</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <docAuthor><forename>Federico</forename><surname>García Lorca</surname></docAuthor>
+                     <docTitle>
+                        <titlePart>Federico García Lorca letter to José María Chacón y Calvo</titlePart>
+                     </docTitle>
+                     <docImprint>
+                        <pubPlace>San Pascual, España</pubPlace>
+                     </docImprint>
+                     <docDate when="1929"> 2 de Agosto de 1929</docDate>
+                     <note type="correspondencia">
+                        <persName type="emisor">Federico García Lorca</persName>
+                        <persName type="destinatario">José María Chacón y Calvo</persName>
+                     </note>
+                     <note type="contenido">
+                        <p> Federico García Lorca escribió está carta aproximadamente después del año 1921, en el cual <lb/>
+                        José María Chacón y Calvo mandó ejemplares de "Libro de Poemas", escrito por Lorca,  a Cuba. <lb/>
+                        Podía haber sido escrito en la región de Castille y Leon como la carta menciona San Pascual.<lb/>
+                        Para Lorca, Chacón fue un puente entre España y América. En la carta, Lorca agradece Enrique Loynaz<lb/> 
+                        por sus comentarios sobre "Libro de Poemas". También, menciona la alegría que siente por la fundación de arte popular.<lb/>
+                        Lorca avisa a Chacón que irá a Granada para hablar con Manuel Falla sobre la fundación. <lb/>
+                        Está carta entre Lorca y Chacón demuestra el entusiasmo que Lorca siente por sus posibilidades como escritor<lb/>
+                        ya que él estaba en los principios de su carrera.  <lb/>
+                            </p>
+                     </note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="carta">
+                     <supportDesc>
+                        <extent><dimensions>
+                           <height>18cm</height>
+                           <width>14cm</width>
+                        </dimensions></extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="carta" n="1">
+         </div>
+         <div type="paratexto">
+            <ab>San Pascual-Apeadero-Granada-Recibida el 2 de Agosto </ab>
+         </div>
+         
+            <div type="texto">
+               <pb facs="../images/Richter/15_1.jpg" corresp= "http://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/35/rec/12"
+                  n="recto"/>
+               <opener>
+                  <salute>Queridisimo José María</salute>
+               </opener>
+               <p> !Como me alegró tu carta! Pero...fue tardía, tú debiste<lb/>
+               contestarme enseguida...ya no me fío de ti! Viajero impediente!</p>
+              <p> Agredezco mucho los elogios de Loynaz; de ese muchacho<lb/>
+               pálido y febril que tiene una terrible enfermedad de lirios y círculos<lb/>
+               concéntricos, pero él todavía no me conoce (lo digo con cierto<lb/>
+               orgullo) mi alma avanza disolviendo nieblas y revelando cielos<lb/>
+               con una florecita de angustia y amor sobre la frente; mi alma<lb/>
+               brinca y canta por perspectivas que Loynaz no supone en este<lb/>
+               momento.! Si vieras que efecto mas raro, mas frio me produce él <lb/>
+               que que (sic) me digan Lorca! Yo soy Federico pero no soy Lorca<lb/>
+                  ¿no lo ves tú así? </p>
+               <p> Me siento traspasado por todas las cosas; a veces imaginó <lb/>
+                  que tengo una coronita de <pb facs="../images/Richter/15_2.jpg" corresp= "http://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/35/rec/12"
+                  n="recto"/> luciérnagas y que yo soy otra cosa.<lb/>
+               Creo que nunca seremos puros porque poseemos la cualdidad <lb/>
+               de distinguir y juzgar... pero por más esfuerzos que hago, el<lb/>
+               viento no quiere darme lección...y he de permanecer así hasta <lb/>
+               que sea viejecito buscando la cartilla inefable y verdadera de<lb/>
+               la brisa.</p>
+               <p> Oye José María, no sabes la alegría que me das con la <lb/>
+                fundación de esa sociedad de arte popular que tanto bien puede<lb/>
+                hacer revelando los cauces puros del carácter de España! de España!<lb/>
+               (me emociono alegremente pensando en mi país.)Yo creo que Falla <lb/>
+                se pondra contentísimo con esa idea, mañana voy a Granada unas <lb/>
+                horas y hablare con él. Cuéntame de esto más cosas.</p>
+                <p> La conversación con Canedo en tu casa, la he recordado <lb/>
+                varias veces y os agredezco con el alma que os acordarais de mi<lb/>
+                Canedo es un hombre por quien siento un respeto extraordinario,<lb/>
+                un gran cariño y mi más honda admiración.No sé si tú sabes <lb/>
+               (!casi como Calderón!) que le he pedido un prólogo para el libro <lb/>
+                   de Monje y <pb facs="../images/Richter/15_3.jpg" corresp= "http://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/35/rec/12"
+                  n="recto"/> él me lo ha ofrecido gustoso.</p>
+               <p> He recibido libros de varios jóvenes poetas portugueses <lb/>
+                ! Ya te hablaré! Abrazos cordiales de <lb/>
+                 Federico </p>
+               <p> Adiós. Ahora mismo comienza una gran tormenta.Los<lb/>
+               truenos como grandes brasas de hierro negro que rodaran sobre <lb/>
+               una pendiente de pierda lisa, hacen temblar los cristales de una<lb/>
+               casa. !Señor! acuérdate de los rebaños que viven en el monte <lb/>
+               de las garbas de trigo abandonadas sobre el rastrojo! Entre la  <lb/>
+               luz cenicienta mi madre y mis hermanas dicen ! Santo Semana Santo!<lb/>
+                Yo como el caracol, encojó mis cuernecitos de poesía</p>
+               <closer>
+                  <salute>2 de Agosto</salute>
+               </closer>
+            </div>
+   
+      </body>
+   </text>
+</TEI>

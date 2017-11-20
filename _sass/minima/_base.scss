@@ -1,7 +1,13 @@
-﻿@import url('https://fonts.googleapis.com/css?family=BenchNine|Cormorant+Garamond|Source+Serif+Pro');
-/**
+﻿/**
  * Reset some basic elements
  */
+ 
+ @font-face {
+  font-family: "futura-pt";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://use.typekit.net/af/3489f3/000000000000000000013365/27/l?subset_id=2&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/3489f3/000000000000000000013365/27/d?subset_id=2&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/3489f3/000000000000000000013365/27/a?subset_id=2&fvd=n4&v=3") format("opentype");
+}
 
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -17,7 +23,7 @@ dl, dd, ol, ul, figure {
 body {
   /*font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;*/
   font-size: 20px;
-font-family: 'Cormorant Garamond', serif;
+font-family: 'futura-pt', serif;
    color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
