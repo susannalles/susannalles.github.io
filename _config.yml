@@ -43,9 +43,12 @@ collections:
     output: true
   materials:
     output: true
-
+  projects:
+    output: true
+    
 categories:
    workshops
    conferences
    syllabi
+   projects
    

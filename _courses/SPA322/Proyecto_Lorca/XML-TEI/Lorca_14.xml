@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carta de Federico García Lorca a José María Chacón y Calvo</title>
+            <editor xml:id="JDP">Jillian Poles</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Proyecto Lorca en Cuba</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Coral Gables, Florida</settlement>
+                  <repository>Library Digital Collection, University of Miami</repository>
+                  <collection
+                     corresp="http://merrick.library.miami.edu/cubanHeritage/chc5324/>Federico García Lorca Papers"/>
+                  <idno
+                     corresp="http://merrick.library.miami.edu/cdm/ref/collection/chc5324/id/13/rec/22"
+                     >cchc5324000014</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <docAuthor><forename>Federico</forename><surname>García
+                        Lorca</surname></docAuthor>
+                     <docTitle>
+                        <titlePart>Carta de Federico García Lorca a José María Chacón y
+                           Calvo</titlePart>
+                     </docTitle>
+                     <docImprint>
+                        <pubPlace>Granada, España</pubPlace>
+                     </docImprint>
+                     <docDate when="1929"/>
+                     <note type="correspondencia">
+                        <persName type="emisor">Feredico García Lorca</persName>
+                        <persName type="destinatario">José María Chacón y Calvo</persName>
+                     </note>
+                     <note type="contenido">
+                        <p>Hay una carta con dos páginas.</p>
+                     </note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="carta">
+                     <supportDesc>
+                        <extent><dimensions>
+                              <height>22cm</height>
+                              <width>16cm</width>
+                           </dimensions></extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div type="carta" n="1">
+            <pb facs="../images/Richter/14_1.jpg" n="verso"/>
+            <div type="paratexto">
+               <ab>Residencia de Estudiantes <placeName>Rinar,17</placeName>
+               </ab>
+            </div>
+            <div type="texto">
+               <opener>
+                  <salute>Queridisimo José María</salute>
+               </opener>
+               <p>Me vine a Granada sin despidirme de ti pero con <lb/> verguenza y dolor de corazón
+                  por no haberlo hecho, pero <lb/> mi hermano tenía prisa en el regreso a la cuidad
+                  del <lb/> capricho y la fantasia y me arrastró sin dejarme saludar <lb/> a mis
+                  queridos amigos y entre ellos tu, sobre todos, por tu bondad <lb/> por tu corazón
+                  y por esa cosa culcisima y tierna que hay <lb/> en ti,...un no se que de
+                  renunciamiento y despedida, un <lb/> sentimiento de horizonte melancolico por el
+                  cual ya nunca <lb/> saldrá el sol, ni la luna de la tierra, un gesto de vieja flor
+                  <lb/> delirante y extatica en la frescura lirica del ca´averal cubano.</p>
+               <p>Si José María!</p>
+               <p>Tu eres más bueno que nadie, y mas ni´o que nadie, <lb/> y yo no debi regresar sin
+                  el calor <lb/> de tu mano entre la mia... pero tu no te fijas hondamente <lb/> en
+                  estas cosas!</p>
+               <p>y esto me alegra!</p>
+               <p>Espero que este verano me <lb/> <pb facs="../images/Richter/14_2.jpg" n="verso"/>
+                  escribiras como el verano que pasó y yo tendre el
+                  gusto de <lb/> enviarte poemas y dibujos que refrescaran ese horno gris y <lb/>
+                  amarillo sucio que es Madrid en verano.</p>
+               <p>Quiza en otra carta te recomiende a un delicadisimo y <lb/> exquisito amigo mio
+                  joven pinto de gran talento que viva en <lb/> Madrid estrechamente, no para que le
+                  socorras sino para que le des <lb/> libros y calor, calor de amistad que tanto
+                  necesita en el emocionante <lb/> desamparo de su dolorosas adolescencia. </p>
+
+               <closer>
+                  <salute>Adios José María un abrazo muy fuerte de</salute>
+                  <signed>Federico</signed>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
