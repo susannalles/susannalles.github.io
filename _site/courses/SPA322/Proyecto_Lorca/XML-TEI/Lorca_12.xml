@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Federico García Lorca letter to José María Chacón y Calvo</title>
+            <editor xml:id="TD">Taylor Dillon</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Proyecto Lorca en Cuba</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Coral Gables, Florida</settlement>
+                  <repository>Library Digital Collections, University of Miami</repository>
+                  <collection corresp="http://merrick.library.miami.edu/cdm/search/searchterm/Federico%20Garc%C3%ADa%20Lorca%20Papers/mode/exact"></collection>
+                  <idno corresp="chc5324000012"></idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <docAuthor><forename>Federico</forename><surname>García Lorca</surname></docAuthor>
+                     <docTitle>
+                        <titlePart>Federico García Lorca letter to José María Chacón y Calvo</titlePart>
+                     </docTitle>
+                     <docImprint>
+                        <pubPlace>Burgos, España</pubPlace>
+                     </docImprint>
+                     <docDate when="1929">???</docDate>
+                     <note type="correspondencia">
+                        <persName type="emisor">Federico García Lorca</persName>
+                        <persName type="destinatario">José María Chacón y Calvo</persName>
+                     </note>
+                     <note type="contenido">
+                        <p>Es una carta con un pájaro rojo en la esquina. </p>
+                     </note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="carta">
+                     <supportDesc>
+                        <extent><dimensions>
+                           <height>14cm</height>
+                           <width>23cm</width>
+                        </dimensions></extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="carta" n="1">
+            <pb corresp="http://merrick.library.miami.edu/cdm/singleitem/collection/chc5324/id/69/rec/15"
+                facs="../images/lorca_12.jpg"/>
+            <div type="texto">
+               <opener>
+                  <salute>Querido amigo José María:</salute>
+               </opener>
+               <p>Te Mando las fotos.</p>
+               <p>He salido muy bien en algunas y muy mal en otras, pero de todas maneras 
+                  cada <lb/> cliché guarde un recuerdo delicado que no es lo bonito.</p>
+               <p>Me alegraré mucho que lo pases bien y que te den Buena sombra las 
+                  maravillosas <lb/> palmeras de Cuba.</p>
+  
+               <closer>
+                  <salute>Adios. Un abrazo de</salute>
+                  <signed>Federico</signed>
+               </closer>
+               <postscript>
+                  <label>P.D.</label>
+                  <p>Recuerdos de Falla y de mi hermano <lb/> Paquito. </p>
+               </postscript>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
