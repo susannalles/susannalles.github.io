@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Carta de Federico García Lorca a José María Chacón y Calvo, October 29, 1926</title>
+        <editor xml:id="GAD">Gabriela Díaz </editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>Proyecto Lorca en Cuba. SPA 322</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Coral Gables, Florida</settlement>
+            <repository>Library Digital Collections, University of Miami</repository>
+            <collection corresp="http://merrick.library.miami.edu/cubanHeritage/chc5324/">Federico
+              García Lorca Papers</collection>
+            <idno
+              corresp="http://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/38/rec/23"
+              >chc5324000007</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <docAuthor><forename>Federico</forename><surname>García Lorca</surname></docAuthor>
+              <docTitle>
+                <titlePart>Carta de Federico García Lorca a José María Chacón y Calvo, October 29,
+                  1926</titlePart>
+              </docTitle>
+              <docImprint>
+                <pubPlace>Madrid (España)</pubPlace>
+              </docImprint>
+              <docDate when="1926">29 de octubre de 1926</docDate>
+              <note type="correspondencia">
+                <persName type="emisor">Federico García Lorca</persName>
+                <persName type="destinatario">José María Chacón y Calvo</persName>
+              </note>
+              <note type="contenido">
+                <p>En esta carta, Lorca simpatiza con Chacón por la catástrofe por la que atraviesa
+                  Cuba en esos momentos. Él le desea suerte a su familia con los daños sufridos y
+                  expresa sus deseos de que todos estén bien. </p>
+              </note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="postal">
+              <supportDesc>
+                <extent><dimensions>
+                    <height>9cm</height>
+                    <width>14cm</width>
+                  </dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="postal">
+        <div type="recto">
+          <pb facs="../images/Richter/07_1.jpg" n="recto"/>
+            <ab>Tarjeta postal</ab>
+              <ab>A D. José-María Chacón y Calvo <lb/>
+                Pardiñas 32 <lb/>
+                <placeName>Madrid</placeName>
+              </ab>
+          <ab>En este lado se escribe solamente la dirección</ab>
+        </div>
+        
+        <div type="verso">
+          <pb facs="../images/Richter/07_2.jpg"/>
+          <div type="mensaje">
+            <opener>
+              <salute>Mi muy querido José María: </salute>
+            </opener>
+            <p>No hace muchos días te escribí una tarjeta. Hoy te escribo para<lb/> expresarte toda
+              la pena que me ha causado la triste catástrofe <lb/> que ha soportado esa hermosísima
+              Cuba a quien tanto quiero. <lb/> Constantemente he pensado en la tristeza tan grande
+              que estarás <lb/> pasando tú que eres tan bueno y tan buen cubano. </p>
+            <p>Yo por mi parte solo te digo que me ha dolido como si <lb/> hubiera sido en
+              España.</p>
+            <p>Solo deseo que los daños se reparen pronto y que tu familia <lb/> esté sin novedad. </p>
+            <p>Te agradeceré mucho me escribas enseguida <lb/> comunicándome buenas noticias. </p>
+
+            <closer>
+              <salute> Adiós. Recibe un estrecho y cariñoso abrazo de </salute>
+              <signed>
+                <hi rend="underline"> Federico </hi>
+              </signed>
+            </closer>
+          </div>
+
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

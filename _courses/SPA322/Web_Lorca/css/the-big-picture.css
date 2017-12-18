@@ -1,0 +1,189 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-color: #f2f2f2;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.1em;
+}
+
+p{
+	text-align: justify;
+}
+
+.background_home{
+	background: url('../images/Lorca.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	background-size: cover;
+  	-o-background-size: cover;
+}
+
+/*Imágenes*/
+
+.img_edicion{
+	width: 90%;
+	margin-bottom:15px;
+}
+.img-proyecto{
+	float: right;
+	width: 250px;
+	padding: 10px;
+	margin:5px;
+}
+
+/*Galería */
+.img-um-library{
+	width: 30px;
+}
+.texto-img{
+	width: 310px;
+	text-align: justify;
+	/*border: 1px solid red;^*/
+	font-size: 15px;
+	padding: 5px;	
+}
+
+.gallery_product{
+	margin-bottom:5px;
+}
+
+/*Créditos*/
+.img-creditos{
+	width: 150px;
+}
+
+/*#bottom{
+	height: 40px;}*/
+
+/* Container / Parte central del texto */
+
+.container .row {
+	padding-top:25px;
+	margin-bottom: 30px;
+}
+.container .row .col-lg-6 {
+	padding-top:25px;
+}
+.container .row .col {
+	padding-top:25px;
+}
+.container .row .col-lg-12 {
+	margin-top: 50px;
+	margin-bottom:30px;
+}
+
+/*Títulos*/
+.mt-5 {
+     font-family: Futura;
+     font-variant: small-caps;
+     font-size: 30px;
+     /*text-align: center;*/
+	padding: 2px;
+    }
+/*Menu superior*/
+.navbar{
+	/*background-color: #868e96;*/
+
+}
+.fixed-top navbar-nav{
+	font-size: 20px;
+}
+     
+.navbar-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-nav li {
+    float: left;
+    border-right: 1px solid #B22222;
+}
+
+.navbar-nav li a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar-nav li a:hover {
+    background-color: #111;
+}
+
+.navbar-nav .active {
+ background-color: #B22222;
+ }
+
+/*Menú parte inferior*/
+.fixed-bottom{
+	height: 25px;
+	font-size: 15px;
+}
+
+.fixed-bottom ul li{
+	border-right: 0;
+	height: 8px;
+	margin-bottom: 25px;
+}
+
+.fixed-bottom ul li a:hover{
+	/*height: 20px;*/
+}
+
+.nav-link{
+	padding:0;
+	color: #f2f2f2;
+}
+/*Nombre del curso*/
+.navbar-brand {
+ 	font-size: 30px;
+	font-family: Futura;
+	color:#f2f2f2;
+ 		}
+		
+h1 {
+ 	font-family: Impact;
+ 	letter-spacing: 2px;
+ 	word-spacing: 5px;
+ 	font-size: 50px;
+ 	/*margin-bottom: 10px;*/
+ 		}
+ 		
+/*Link a la cronología y el mapa*/
+iframe {  
+	left:0;
+	right:0;
+	margin:0 auto;
+	width: 100%;
+	height: 550px;	
+	border-style: solid;
+	border-width: 10px;
+	border-color: #B22222;
+	padding-top: -1cm;
+	padding-bottom:0cm;
+	margin-bottom: 5cm;  
+	margin-top:25px;
+	color: black;
+}
+
+.tl-headline{
+	color: black;
+}
+.tl-headline-title{
+	color: black;
+}
+.tl-text-content p{
+	color: black;
+}

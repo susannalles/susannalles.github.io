@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Federico García Lorca con tres niños de Matanzas,Cuba</title>
+            <editor xml:id="GAD">Gabriela Díaz</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Proyecto Lorca en Cuba. SPA 322</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Coral Gables, Florida</settlement>
+                  <repository>Library Digital Collections, University of Miami</repository>
+                  <collection corresp="http://merrick.library.miami.edu/cubanHeritage/chc5324/"
+                     >Federico García Lorca Papers</collection>
+                  <idno
+                     corresp="http://merrick.library.miami.edu/cdm/singleitem/collection/chc5324/id/61/rec/34"
+                     >chc5324000033</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <docAuthor><forename>Federico</forename><surname>García
+                        Lorca</surname></docAuthor>
+                     <docTitle>
+                        <titlePart>Federico García Lorca con tres niños de Matanzas,Cuba</titlePart>
+                     </docTitle>
+                     <docImprint>
+                        <pubPlace>Habana,Cuba</pubPlace>
+                     </docImprint>
+                     <docDate when="1930">1930</docDate>
+                     <note type="Foto">
+                        <persName type="emisor">Federico García Lorca</persName>
+                        <persName type="destinatario">José María Chacón y Calvo</persName>
+                     </note>
+                     <note type="contenido">
+                        <p>En esta foto está Lorca con tres niños de Matanzas, ante los cuales confiesa sentirse
+                           menos "golfo" y elegante. </p>
+                     </note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="foto">
+                     <supportDesc>
+                        <extent><dimensions>
+                              <height>15cm</height>
+                              <width>9cm</width>
+                           </dimensions></extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div type="fotografia">
+            <div type="recto">
+               <pb facs="../images/Richter/33.jpg"/>
+               <div type="mensaje">
+                  <p> Esta foto tan alegre te dará la clave de la sonrisa que debes adoptar <lb/>
+                     después de la "operación". Estos tres encantadores ninos de<lb/> Matanzas están
+                     dispuestos a lanzarse contra los crueles demonios<lb/> del bisturí. El más
+                     pequeño espera cuadrado y respetuoso tu voz<lb/> de mando y yo también
+                     desgraciadamente menos “golfo” <lb/> y menos elegante que ellos. </p>
+                  <closer>
+                     <salute>Federico 1930-Habana</salute>
+                  </closer>
+               </div>
+            </div>
+         </div>
+
+      </body>
+   </text>
+</TEI>

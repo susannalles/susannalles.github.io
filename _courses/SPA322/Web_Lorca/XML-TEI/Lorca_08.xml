@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Federico García Lorca en Richter Library</title>
+        <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="../css/the-big-picture.css" rel="stylesheet" />
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-12">
+                        <h1>Postal de Federico García Lorca a Destinatario Desconocido</h1><b>Editada por: </b>Trent D'Alessio<br />
+                        <b>Colección: </b>
+                        <a href="http://merrick.library.miami.edu/cubanHeritage/chc5324/">Federico Garcia Lorca Papers</a>, Library Digital Collections, University of Miami<br />
+                        <b>ID: </b>
+                        <a href="http://merrick.library.miami.edu/cdm/ref/collection/chc5324/id/16/rec/23">chc5324000008</a><br /><b>Lugar y fecha: </b>Toledo, Espana, 1925<br /><b>Tamaño: </b>
+                        10cm
+                        15cm
+                        <br /><b>Nota: </b>
+                        En esta postal de dos páginas podemos ver un dibujo de un pueblo probablemente en Cuba. 
+                        Federico García Lorca escribe un mensaje bastante largo a un destinatario quien todavía es desconocido,
+                        y no dirige al destinatario directamente, pero en la postal habla mucho del amor. 
+                        Aunque habla del amor, no parece una relación amoroso, más como una relación amigable. 
+                        
+                        
+                        
+                    </div>
+                    
+                    
+                    
+                    <div class="col-lg-6"><img src="../images/Richter/08_1.jpg" class="img_edicion" /></div>
+                    <div class="col-lg-6">
+                        
+                        
+                        
+                        <p><i>Este es un dibujo de un pueblo probablemente en Cuba, se puede ver </i></p>
+                        
+                        <p><i>un paisano y un edificio claramente religioso a causa de la Cruz en el muro.</i></p>
+                        
+                        <p><i>Las arboles y la fuente sugere que el pueblo es un lugar muy agadrable para Lorca.</i></p>
+                        
+                        
+                    </div>
+                    
+                    <div class="col-lg-6"><img src="../images/Richter/08_2.jpg" class="img_edicion" /></div>
+                    <div class="col-lg-6">
+                        
+                        <p>Un abrazo desde Toledo </p>
+                        
+                        <p>Pepin y yo te saludamos </p>
+                        
+                        <p>con efusion. Estoy un poco </p>
+                        
+                        <p>mejor de esta batalla </p>
+                        
+                        <p>interior que atravieso en la </p>
+                        
+                        <p>cual esta encantador </p>
+                        
+                        <p>Pepin me ayuda. Te </p>
+                        
+                        <p>mando este dibujito que </p>
+                        
+                        <p>representa el hombre </p>
+                        
+                        <br />
+                        
+                        <p>tranquilo en la plaza </p>
+                        
+                        <p>de la ciudad donde se </p>
+                        
+                        <p>se ama con pasion eterna. </p>
+                        
+                        <p>Los arbolillos tiemblan </p>
+                        
+                        <p>con una larga cadencia de </p>
+                        
+                        <p>de brisa y agua oculta. Pero </p>
+                        
+                        <p>sobre una bandeja de marfil mi </p>
+                        
+                        <p>corazon salta como un pez </p>
+                        
+                        <p>fuera de las olas. Adios Jose Maria </p>
+                        
+                        <p>Te debo cien pesatas y quiero que </p>
+                        
+                        <p>consten de ese documento lirico... </p>
+                        
+                        <p>!No te mi disgustes! Pero asi es </p>
+                        
+                        <p>mejor y quedo tranquilo.</p>
+                        
+                        <p>Federico</p>
+                        
+                        <p>Un abrazo de su buen amigo</p>
+                        
+                        <p>Pepín</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12" id="bottom"></div>
+        </section><script src="vendor/jquery/jquery.min.js"></script><script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script></body>
+</html>
+

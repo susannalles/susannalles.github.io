@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Carta de Federico García Lorca a José María Chacón y Calvo</title>
+        <editor xml:id="MIH">Mayda Herrera</editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>Proyecto Lorca en Cuba. SPA 322</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Coral Gables, Florida</settlement>
+            <repository>Library Digital Collections, University of Miami</repository>
+            <collection corresp="http://merrick.library.miami.edu/cubanHeritage/chc5324/">Federico
+              García Lorca Papers</collection>
+            <idno
+              corresp="http://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/50/rec/13"
+              >chc5324000001</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <docAuthor><forename>Federico</forename><surname>García Lorca</surname></docAuthor>
+              <docTitle>
+                <titlePart>Carta de Federico García Lorca a a José María Chacón y Calvo</titlePart>
+              </docTitle>
+              <docImprint>
+                <pubPlace>Cadaqués (España)</pubPlace>
+              </docImprint>
+              <docDate when="1925">12 de abril de 1925</docDate>
+              <note type="correspondencia">
+                <persName type="emisor">Federico García Lorca</persName>
+                <persName type="destinatario">José María Chacón y Calvo</persName>
+              </note>
+              <note type="contenido">
+                <p>Esta es una postal eviada por Federico García Lorca desde Cadaqués, España a José
+                  María Chacón y Calvo a su domicilio en Calle Pardiñas 32, Madrid. En el recto de
+                  la postal, se muestra una foto de Cadaqués tomada desde el aire. El verso contiene
+                  la firma de Salvador Dalí, quien invitara a Lorca a este precioso lugar junto al
+                  Mediterráneo. Por las palabras de Lorca la tarjeta fue escrita el día de la
+                  Resurrección de nuestro Señor, por lo que podemos deducir que fue enviada a
+                  finales de la Cuaresma de ese año 1925.</p>
+              </note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="postal">
+              <supportDesc>
+                <extent><dimensions>
+                    <height>9cm</height>
+                    <width>14cm</width>
+                  </dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="postal">
+
+        <div type="recto">
+          <pb facs="../images/Richter/01_1.jpg"/>
+
+          <ab>1. <placeName>Cadaqués</placeName> - Vista general </ab>
+          <ab> L. Roisin, fot., Barcelona</ab>
+
+        </div>
+
+        <div type="verso">
+          <pb facs="../images/Richter/01_2.jpg"/>
+          <div type="mensaje">
+            <opener>
+              <salute>Queridísimo y <hi rend="underline">enfermo</hi> José María</salute>
+            </opener>
+            <p>A los tres días de yo estar en tu casa y salir <lb/> impresionadísimo de verte caído
+              y triste le pregunte a Calandre<lb/> por ti y dijo que estabas fuera de peligro pero
+              que no fuera a<lb/> visitarte. Yo esperaba hacerlo el mismo día en que ya Dalí me
+              <lb/> decidió a que marchase con él a Cadaqués Y aquí estoy lleno de<lb/> Mediterráneo
+              y sal nativa. Hoy día de la Resurrección de nuestro<lb/> Señor te recuerdo cantando
+              una pasionaria y arrojando una piedra<lb/> al mar. Hasta pronto. Un abrazo y otro
+              abrazo de</p>
+            <closer>
+              <signed>
+                <hi rend="underline">Federico</hi>
+              </signed>
+              <signed>Un abrazo: <hi rend="underline">Salvador Dalí</hi>
+              </signed>
+            </closer>
+
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tarjeta postal de Federico García Lorca a José María Chacón y Calvo</title>
+        <editor xml:id="MIH">Mayda Herrera</editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>Proyecto Lorca en Cuba. SPA 322</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Coral Gables, Florida</settlement>
+            <repository>Library Digital Collections, University of Miami</repository>
+            <collection corresp="http://merrick.library.miami.edu/cubanHeritage/chc5324/">Federico
+              García Lorca Papers</collection>
+            <idno
+              corresp="http://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/19/rec/17"
+              >chc5324000004</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <docAuthor><forename>Federico</forename><surname>García Lorca</surname></docAuthor>
+              <docTitle>
+                <titlePart>Tarjeta postal de Federico García Lorca a José María Chacón y
+                  Calvo</titlePart>
+              </docTitle>
+              <docImprint>
+                <pubPlace>Granada (España)</pubPlace>
+              </docImprint>
+              <docDate when="1926">Septiembre 1926</docDate>
+              <note type="correspondencia">
+                <persName type="emisor">Federico García Lorca</persName>
+                <persName type="destinatario">José María Chacón y Calvo</persName>
+              </note>
+              <note type="contenido">
+                <p>Esta es una postal enviada por Federico García Lorca desde Granada a José María
+                  Chacón y Calvo a su domicilio en calle Pardiñas 32, Madrid. La postal muestra una
+                  foto de Un pleurant (Albátre) par Jean de la Huerta, (la representacion de la
+                  estatua medieval en el museo de Cluny en Paris, esculpida por el escultor español
+                  Jean de la Huerta). Esta es una invitación a su amigo para que lo visitara en
+                  Granada para las fiestas de la Virgen de las Angustia (desde 15 de septiembre a 30
+                  de septiembre). La festividad coincide con el fin del verano en Granada. Esta
+                  festividad es famosa por su torta de la Virgen que se considera una delicia
+                  gastronómica. También hay que destacar los puestos de fruta del centro, el color
+                  del que se tiñe el coqueto bulevard de la Carrera de la Virgen, y las tardes
+                  todavía cálidas del mes de septiembre, que dan a la ciudad una atmósfera única y
+                  cautivadora, tanto a granadinos como visitantes. Esta festividad quizá sea una de
+                  las fechas más pintorescas y entrañables para visitar esta ciudad.</p>
+              </note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="postal">
+              <supportDesc>
+                <extent><dimensions>
+                    <height>14cm</height>
+                    <width>9cm</width>
+                  </dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="postal">
+        
+        <div type="recto">
+          <pb facs="../images/Richter/04_1.jpg" n="recto"/>
+          <ab>Musée de Cluny</ab>
+          <ab> Un pleurant (Albâtre) par Jean de la Huerta <lb/> Provient du tombeau de
+            Jean-Sans-Peur <lb/> Art Bourguignon (XVe siècle) </ab>
+        </div>
+        
+        
+        <div type="verso">
+          <pb facs="../images/Richter/04_2.jpg" n="recto"/>
+          <div type="mensaje">
+            <p>Recibí tu postal. Tengo vehementes deseos de hablar <lb/> contigo. Se me avecina una
+              época en la que <hi rend="underline"> tendré </hi> que contar <lb/> contigo. ¿Por qué
+              no vienes ahora a Granada? Iríamos a la Sierra<lb/> que ya hay comunicaciones. Verías
+              las fiestas hermosísimas <lb/> de la Virgen de las Angustia que se aproximan. El grupo
+              de<lb/> mis jóvenes amigos de Granada te recibiría con los brazoso<lb/> Abiertos.</p>
+            <closer>
+              <salute>Ven. Un abrazo de tu</salute>
+              <signed>Federico</signed>
+            </closer>
+          </div>
+        </div>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

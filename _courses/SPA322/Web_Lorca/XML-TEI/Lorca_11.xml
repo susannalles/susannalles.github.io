@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carta de Federico García Lorca a José María Chacón y Calvo</title>
+            <editor xml:id="SAT">Trent D'Alessio</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Proyecto Lorca en Cuba. SPA 322</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Coral Gables</settlement>
+                  <repository>Library Digital Collections, University of Miami</repository>
+                  <collection corresp="http://merrick.library.miami.edu/cubanHeritage/chc5324/"
+                     >Federico Garcia Lorca Papers</collection>
+                  <idno
+                     corresp="http://merrick.library.miami.edu/cdm/ref/collection/chc5324/id/22/rec/25"
+                     >chc5324000011</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <docAuthor><forename>Federico</forename><surname>Garcia
+                        Lorca</surname></docAuthor>
+                     <docTitle>
+                        <titlePart>Carta de Federico Garcia Lorca a Jose Maria Chacon y
+                           Calvo</titlePart>
+                     </docTitle>
+                     <docImprint>
+                        <pubPlace>Granada, Espana</pubPlace>
+                     </docImprint>
+                     <docDate when="1925">agosto 1925</docDate>
+                     <note type="correspondencia">
+                        <persName type="emisor">Federico García Lorca</persName>
+                        <persName type="destinatario">José María Chacón y Calvo</persName>
+                     </note>
+                     <note type="contenido">
+                        <p>En esta carta de dos hojas hay una página con un carta a Chacón y Calvo y
+                           un página con una ilustración de un marinero. </p>
+                       <p>EpComp: 287</p>
+                     </note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="carta">
+                     <supportDesc>
+                        <extent><dimensions>
+                              <height>18cm</height>
+                              <width>14cm</width>
+                           </dimensions></extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <!--  </msItem>-->
+               <!-- SAT aquí daba error -->
+               <!-- </msContents>-->
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div type="carta">
+
+            <div type="recto">
+               <pb facs="../images/Richter/11_1.jpg"/>
+               <div type="mensaje">
+                  <figure>
+                     <figDesc>Dibujo de un marinero con una pipa.</figDesc>
+                  </figure>
+
+                  <p>Este triste marinero fuma su pipa y recuerda. <lb/>Si se descuida un momento,
+                     sus ojos se irán para siempre al<lb/> fondo del agua. !Qué lento mar sin velas
+                     y recuerdos estará <lb/>a estas mismas horas moviéndose! !Qué mar cubierto de
+                     <lb/>obscuras rosas y peces muertos! !Y qué real y verdadero!</p>
+               </div>
+            </div>
+
+            <div type="verso">
+               <pb facs="../images/Richter/11_2.jpg" n="recto"/>
+               <div type="texto">
+                  <p>!A la hora de oro! !Viva la hora!... todos estamos como el <lb/> marinerito. De
+                     los puertos nos llegan el rumor de los acordeones <lb/> y el turbio ruido
+                     enjabonado de los muelles, de las montañas nos llega <lb/> el plato de silencio
+                     que comen los pastores, pero nosotros no oimos <lb/>más que nuestras lejanías.
+                     !Y que lejanias sin fondo y sin puertos <lb/> y sin montañas!...</p>
+                  <p>Tenía que dirigime a ti de esta manera. Tu marinero <lb/> entenderá a mi
+                     marinero.</p>
+                  <p>¿Dónde estás querido Jose Maria?</p>
+                  <p>Hoy salgo de mi soledad para agirtarte mi panolito blanco.<lb/> Norte. Sur.
+                     Este. Oeste.</p>
+                  <p>!Ya está! El pañolito tiene un nombre.</p>
+                  <p>En el campo vivo. Espero que como siempre me escribirás. <lb/> Lejos de mis
+                     amigos enmedio de la resplandeciente Andalucia <lb/> yo me siento señor de todo
+                     esto con mi corte ignorada de<lb/> bellezas morenas. </p>
+                  <closer>
+                     <salute>Adiós mar. Adiós José María. Conde, !Senor conde! Un abrazo de</salute>
+                     <signed>Federico. (rex)</signed>
+                  </closer>
+                  <postscript>
+                     <ab>Señor</ab>
+                     <ab>Apeadero de San Pascual <lb/> Prov. de Granada</ab>
+                  </postscript>
+               </div>
+            </div>
+
+           
+         </div>
+      </body>
+   </text>
+</TEI>
