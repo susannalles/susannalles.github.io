@@ -33,23 +33,23 @@
                         <div class="collapse navbar-collapse" id="navbarResponsive">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="proyecto.html">Proyecto</a>
+                                    <a class="nav-link" href="../proyecto.html">Proyecto</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="cronologia.html">Cronología</a>
+                                    <a class="nav-link" href="../cronologia.html">Cronología</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="viajes.html">Viajes</a>
+                                    <a class="nav-link" href="../viajes.html">Viajes</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="galeria.html">Galería</a>
+                                    <a class="nav-link" href="../galeria.html">Galería</a>
                                 </li>
                                 <li class="nav-item active">
                                     <a class="nav-link" href="../cartas.html">Cartas<span
                                             class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="bibliografia.html">Bibliografía</a>
+                                    <a class="nav-link" href="../bibliografia.html">Bibliografía</a>
                                 </li>
                             </ul>
                         </div>

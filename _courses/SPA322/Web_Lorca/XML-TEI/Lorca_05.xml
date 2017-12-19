@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Carta de Federico García Lorca a José María Chacón y Calvo</title>
-                <editor xml:id="TDA">Trent D'Alesiso </editor>
+                <editor xml:id="TDA">Trent D'Alessio</editor>
             </titleStmt>
             <publicationStmt>
                 <p>Proyecto Lorca en Cuba. SPA 322</p>
@@ -19,8 +19,8 @@
                             corresp="http://merrick.library.miami.edu/cubanHeritage/chc5324/"
                             >Federico García Lorca Papers</collection>
                         <idno
-                            corresp="http://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/6/rec/26"
-                            >chc5324000016</idno>
+                            corresp="http://merrick.library.miami.edu/cdm/ref/collection/chc5324/id/41/rec/5"
+                            > chc5324000005</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -31,16 +31,21 @@
                                     Calvo</titlePart>
                             </docTitle>
                             <docImprint>
-                                <pubPlace>Granada (España)</pubPlace>
+                                <pubPlace>Granada, España</pubPlace>
                             </docImprint>
-                            <docDate when="1925"/>
+                            <docDate when="1926">21 de octubre de 1926</docDate>
                             <note type="correspondencia">
                                 <persName type="emisor">Federico García Lorca</persName>
                                 <persName type="destinatario">José María Chacón y Calvo</persName>
                             </note>
                             <note type="contenido">
-                                <p> Un telegrama simple de Lorca a José María para dar noticia que
-                                    va a llegar el lunes..</p>
+                                <p>En esta postal de dos páginas podemos ver un mensaje bastante
+                                    simple de García Lorca a José María Chacón y Calvo. La
+                                    fotografía es de la Sala de Justicia en Granada. En la postal
+                                    Lorca menciona que la Sala de Justicia es un lugar que le
+                                    recuerda a Chacón y Calvo. Realmente es una postal con el
+                                    objetivo de que Chacón y Calvo supiera que lo recordaba mucho y
+                                    estaba presente en sus pensamientos.</p>
                             </note>
                         </msItem>
                     </msContents>
@@ -48,8 +53,8 @@
                         <objectDesc form="postal">
                             <supportDesc>
                                 <extent><dimensions>
-                                        <height>17cm</height>
-                                        <width>21cm</width>
+                                        <height>9cm</height>
+                                        <width>14cm</width>
                                     </dimensions></extent>
                             </supportDesc>
                         </objectDesc>
@@ -64,39 +69,34 @@
             <div type="postal">
 
                 <div type="recto">
-                    <pb facs="../images/Richter/16_1.jpg"/>
-
-                    <figure>
-                        <figDesc>La primera pagina de la telegrama tiene el mensaje de Lorca.
-                            También tiene información para asegurar que el telegrama llega a su
-                            destino </figDesc>
-                    </figure>
-                    <div type="mensaje">
-                        <ab>Granda Madrid - 131 - 1e 4 2 2.1e. A L. Magda-</ab>
-                        <ab>José María Chacón - Pardiñas 32-</ab>
-                        <ab>Llego lunes rápido-</ab>
-                        <signed> Federico-</signed>
-                    </div>
-
+                    <pb facs="../images/Richter/05_1.jpg"/>
                 </div>
 
                 <div type="verso">
-                    <pb facs="../images/Richter/16_2.jpg"/>
+                    <pb facs="../images/Richter/05_2.jpg"/>
                     <div type="mensaje">
-                        <figure>
-                            <figDesc>La segunda página es una lista de todas las ciudades donde se
-                                puede enviar telegrama </figDesc>
-                        </figure>
-                    </div>
-                </div>
+                        <opener>
+                            <salute>Queridísimo y <hi rend="underline">enfermo</hi> José
+                                María</salute>
+                        </opener>
 
-                <div type="recto">
-                    <pb facs="../images/Richter/16_3.jpg"/>
-                    <div type="mensaje">
-                        <figure>
-                            <figDesc> La tercera página es una confirmación de que el telegrama es
-                                de Lorca a Chacón y Calvo </figDesc>
-                        </figure>
+                        <p>Un abrazo. Y mi mejor recuerdo.<lb/> No quiero dejar el dia de hoy
+                            escaparse sin saludarte.<lb/> Adiós. Otro cariñoso abrazo<lb/>
+                            Federico<lb/> Escribeme.<lb/>
+                        </p>
+
+
+                        <p>Mi afectuoso saludo <lb/> desde aquí en donde <lb/> paso unos dias con
+                            <lb/> Federico <lb/>
+                        </p>
+
+
+                        <closer>
+                            <signed>
+                                <hi rend="underline"> E Prado </hi>
+                            </signed>
+                        </closer>
+
                     </div>
                 </div>
             </div>
