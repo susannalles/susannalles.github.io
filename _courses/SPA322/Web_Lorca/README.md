@@ -1,62 +1,17 @@
-# [Start Bootstrap - The Big Picture](https://startbootstrap.com/template-overviews/the-big-picture/)
+# Lorca descubriendo las Américas
 
-[The Big Picture](http://startbootstrap.com/template-overviews/the-big-picture/) is a responsive HTML template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The template features a full page background image and a fixed bottom navigation bar.
+Este ejercicio colectivo se inscribe en el marco del curso SPA 322 Cultural Topics (Department of Modern Languages and Literatures, University of Miami), Fall 2017. 
 
-## Preview
+Nuestro proyecto se divide en seis secciones. "Proyecto" que incluye una primera descripción y contextualización del proyecto, la "Cronología", los "Viajes" transatlánticos, la "Galería" de imágenes, la edición de las "Cartas" y una "Bibliografía".
 
-[![The Big Picture Preview](https://startbootstrap.com/assets/img/templates/the-big-picture.jpg)](https://blackrockdigital.github.io/startbootstrap-the-big-picture/)
+La página web se ha construido con una plantilla de Bootstrap, The Big Picture que hemos ido personalizando y adaptando a nuestras necesidades. Para codificar las páginas y colaborar con toda la clase hemos utilizado Google Drive, de manera que todos tuviéramos acceso siempre a la última versión de nuestro sitio.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-the-big-picture/)**
+Para llevar a cabo la cronología hemos utilizado el programa TimelineJS, una herramienta de fácil aprendizaje. Esta aplicación se basa en una plantilla en forma de hoja de cálculo (Google Sheets), donde se añaden los momentos cronológicos clave. Además permite añadir imágenes en línea, y un breve texto. Se trata de un buen instrumento para visualizar un ciclo de vida, en este caso la historia cronológica de Lorca durante su viaje a Nueva York y Cuba. Un problema que hemos encontrado es que no es fácil visualizar toda la cronología en una pantalla, pero es muy útil y nos permite disfrutar de la historia de cualquier persona de una manera amena y fácil.
 
-## Status
+Para el mapa, se ha utilizado StoryMapJS, una aplicación web que permite crear mapas interactivos. StoryMapJS, a diferencia de TimelineJS, no funciona a partir de una hoja de cálculo o spreadsheet, donde pueden colaborar diferentes personas, sino que los datos se ingresan directamente en su plataforma. Para tener acceso, el usuario debe registrarse con su cuenta de Google, hecho que ha dificultado la colaboración entre los participantes. A pesar de esta limitación, es muy fácil de utilizar, localizar los puntos geográficos, y agregar las descripciones sobre los lugares que se han visitado. Este programa se está usando en nuestro proyecto para llevarnos de una manera virtual y precisa a todos los sitios que Lorca visitó, especialmente durante los años 1929 y 1930.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-the-big-picture/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-the-big-picture.svg)](https://www.npmjs.com/package/startbootstrap-the-big-picture)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-the-big-picture.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-the-big-picture)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-the-big-picture/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-the-big-picture)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-the-big-picture/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-the-big-picture?type=dev)
+Para galería de fotografías, hemos utilizado el código Lightbox disponible en W3schools.com y los hemos integrado a nuestra plantilla de Bootstrap.
 
-## Download and Installation
+Para la edición de las cartas se ha llevado a cabo una codificación en XML (eXtensible Markup Language) siguiendo las líneas directrices de la Text Encoding Initiative. Para la codificación, hemos utilizado el programa Oxygen. Poner toda la información de las cartas en un formato XML-TEI no ha sido fácil y hemos tenido que afrontar múltiples problemas. En primer lugar, debe comprenderse en qué consiste una codificación semántica del texto, y entender el sistema de etiquetas y de anidación de estos elementos. La ventaja de utilizar XML-TEI es que se establece un sistema de búsqueda y de recuperación de la información a partir de las etiquetas utilizadas, como fechas, nombres de lugar o de personas, o incluso los saludos en una correspondencia. Otra ventaja es que la codificación XML-TEI es independiente al resultado web final. Los navegadores web interpretan sólo HTML, de manera que uno de los retos es el de transformar los documentos XML-TEI en HTML para que sean navegables en línea. Para ello, la profesora nos ha dado una plantilla de transformación en XSLT (eXtensible Stylesheet Language Transformation) que nos ha permitido transformar nuestro código XML-TEI en las diferentes cartas que aparecen en la sección correspondiente.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/the-big-picture/)
-* Install via npm: `npm i startbootstrap-the-big-picture`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-the-big-picture.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-the-big-picture)
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-the-big-picture/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/the-big-picture/).
-
-## Custom Builds
-
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/gh-pages/LICENSE) license.
+Las restantes secciones de nuestro sitio web, como Créditos o Bibliografía, son simples páginas estáticas web codificadas en HTML.
