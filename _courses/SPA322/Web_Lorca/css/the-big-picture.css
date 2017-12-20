@@ -134,8 +134,7 @@ p{
 
 .fixed-bottom ul li{
 	border-right: 0;
-	height: 8px;
-	margin-bottom: 25px;
+	height: auto;
 }
 
 .fixed-bottom ul li a:hover{

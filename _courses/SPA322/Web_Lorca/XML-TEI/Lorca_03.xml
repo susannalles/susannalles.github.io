@@ -35,14 +35,14 @@
               <docImprint>
                 <pubPlace>Granada, España</pubPlace>
               </docImprint>
-              <docDate when="1925">22 de septiembre de 1925</docDate>
+              <docDate when="1924">antes del 9 de julio de 1924</docDate>
               <note type="correspondencia">
                 <persName type="emisor">Federico García Lorca</persName>
                 <persName type="destinatario">José María Chacón</persName>
               </note>
               <note type="contenido">
                 <p>Es una postal enviada por Federico García Lorca a José María Chacón de su tiempo
-                  visitando la ciudad de Granada.</p>
+                  visitando la ciudad de Granada (EpComp 233-234; Ripoll 5: 54).</p>
               </note>
             </msItem>
           </msContents>
@@ -69,8 +69,8 @@
         <div type="recto">
           <pb facs="../images/Richter/03_1.jpg"/>
           <figure>
-            <figDesc>Hay una imagen de una gran tumba de un rey catolico que está en una
-              catedral.<!-- SAT: Texto bien escrito sobre esta postal.  --></figDesc>
+            <figDesc>Hay una imagen de una gran tumba de un rey católico que está en una
+              catedral.<!-- SAT: Texto bien escrito sobre esta postal.--></figDesc>
           </figure>
         </div>
 
