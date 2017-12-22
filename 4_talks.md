@@ -5,6 +5,7 @@ permalink: /talks
 ---										
 
 #### CONFERENCES PAPERS:
+& Gimena del Rio Riande (Secrit-Conicet, Argentina), [“TEI Academic Training in a Spanish Speaking Context”][TEI2017], TEI Conference, Victoria (British Columbia, Canada), 11-15 November 2017.
 
 [“Digitus Dei est hic?: la Edición Digital Académica en el contexto global de las Humanidades Digitales.”][Digitus] Humanidades Digitales Contrucciones locales en contextos globales. I Congreso Internacional de la Asociación Argentina de Humanidades Digitales, Buenos Aires (Argentina), 7-9 November 2016 (Panel participation).
 
@@ -48,6 +49,10 @@ permalink: /talks
 
 
 #### SEMINARS AND WORKSHOPS: 
+“Hacia la publicación: XSL, transformación y plataformas de publicación.” [II Seminario Internacional ICREA Academia-PROLOPE][SeminarioUAB]. Texto Crítico y edición digital: modelos, codificación, alojamiento, publicación, coords. Gonzalo Pontón & Ramón Valdés, 11-12 January 2018
+
+“Digital Philology or When the Love for Words Becomes Computational.” [New Voices on DH@UM](http://humanities.miami.edu/humanities/publicprograms/lectures/past-lectures/dharchived/), 27 January 2017
+
 [“Crear una edición mínima con Jekyll y GitHub Pages.”](http://www.aacademica.org/aahd.congreso/tabs/program?session=58&block=15&vs=902) Humanidades Digitales Contrucciones locales en contextos globales. I Congreso Internacional de la Asociación Argentina de Humanidades Digitales, Buenos Aires (Argentina), 7-9 November 2016.
 
 & Elena González-Blanco (UNED, Madrid), Gimena del Rio Riande (Secrit-Conicet, Argentina), Clara Martínez (UNED, Madrid). “DH Training in the Spanish Speaking World: When Digital Humanities become Humanidades Digitales.” Innovations in Digital Humanities Pedagogy: Local, National, and International Training, DH2016, 11 July 2016
@@ -116,3 +121,5 @@ International Congress Lo Zibaldone di Leopardi come ipertesto, University of Ba
 [Workshop Bcn]: http://gmlc.imf.csic.es/2013/Workshop/index.php
 [Workshop Krakow]: http://scriptores.pl/aktualnosci/workshop/
 [Text-Rewired]: /materials/papers/Text-Rewired/#/
+[TEI2017]: http://hcmc.uvic.ca/tei2017/abstracts/t_123_torrentetal_teionlinetraining.html
+[SeminarioUAB]: http://susannalles.com/public/PDF/SeminarioUAB2018.pdf

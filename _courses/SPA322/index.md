@@ -7,8 +7,10 @@ collection: courses
 
 ![Lorca contento](img/LorcaCollection/rec_1.jpg)
 
-## Doing DH: García Lorca y Cuba / HD en acción: García Lorca y Cuba
+## Digital Lorca
 
 [Descripción e informaciones sobre el curso](infos.html)
 
 [Programa detallado](schedule.html)
+
+Check out the Student's project [HERE](http://susannalles.com/courses/SPA322/Web_Lorca/)

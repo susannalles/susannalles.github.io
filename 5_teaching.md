@@ -6,7 +6,8 @@ permalink: /teaching
 
 2016-Present. **University of Miami**
 
-- SPA 322 Cultural Topics: Digital Lorca, Fall 2017
+- SPA 711/ MLL 712 / FRE 711 Seminar in Medieval Studies, Spring 2018
+- SPA 322 Cultural Topics: [Digital Lorca](http://susannalles.com/courses/SPA322/), Fall 2017
 - SPA 302 The Culture of Spain: Material culture, the manuscript, the print, and the digital, Spring 2017- SPA 202 Intermediate Spanish, Spring 2017, Fall 2017
 
 2014-Present. **Universitat Oberta de Catalunya (UOC)**

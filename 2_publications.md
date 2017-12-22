@@ -83,11 +83,11 @@ Leonardo Bruni, [*Vides de Dante i de Petrarca*][Traduccio Bruni], Martorell: Ad
 [Review AEM]: http://estudiosmedievales.revistas.csic.es/index.php/estudiosmedievales/article/view/445/453
 [Review Valla]: http://ddd.uab.cat/record/103987?ln=ca
 [Review Poetesse]: http://ddd.uab.cat/pub/qdi/11359730n16/11359730n16p231.pdf
-[Review Medici]: http://ddd.uab.cat/pub/qdi/11359730n14p219.pdf
-[Review Endimio]: http://ddd.uab.cat/pub/qdi/11359730n14p221.pdf
+[Review Medici]: https://ddd.uab.cat/pub/qdi/11359730n14/11359730n14p219.pdf
+[Review Endimio]: https://ddd.uab.cat/pub/qdi/11359730n14/11359730n14p221.pdf
 [Traduccio Bruni]: http://www.adesiaraeditorial.cat/ficha.aspx?cod=VAG000013
 [Vita Caroli]: https://hcommons.org/deposits/item/hc:15643/
 [Omnia Mutantur]: https://hcommons.org/deposits/item/hc:15647/
 [StudiaAurea]: http://studiaaurea.com/article/view/v11-alles
 [QuadernsItalia]: http://revistes.uab.cat/quadernsitalia/article/view/v22-alles
-[ActasLatinMedieval]: 
+[ActasLatinMedieval]: http://susannalles.com/public/PDF/Alles_ActasLatinMedieval.pdf
