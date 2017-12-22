@@ -44,7 +44,7 @@ Adjunct Professor, University of Barcelona, 2010 -2013
 - **Università degli Studi di Roma “La Sapienza”** Erasmus – Socrates Scholarship. Roma (Italy), September 2000- July 2001
 
 ## Academic Awards and Grants									
-
+- College of Arts & Sciences, University of Miami, Funding for Pedagogy Workshop, 2017
 - Generalitat de Catalunya. Award for translation: Leonardo Bruni, *Vides de Dante i de Petarca*, 2014	
 - European Association for Digital Humanities. Small Grant for workshop and project support, 2013
 - Fundación Ana María Aldama Roy. III International Prize for a Doctoral Thesis, 2012

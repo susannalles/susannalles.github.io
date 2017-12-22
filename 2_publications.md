@@ -12,7 +12,9 @@ permalink: /publications
 
 #### ARTICLES IN PEER-REVIEWED JOURNALS:
 
-“Tiempos hay de acometer y tiempos de retirar: literatura áurea y edición digital”, *Studia Aurea* 11 (2017) (In Press)
+[“Tiempos hay de acometer y tiempos de retirar: literatura áurea y edición digital”][StudiaAurea], *Studia Aurea* 11 (2017): 13-30
+
+["Pedro Mexía y las varias lecciones de Plutarco"][QuadernsItalia], *Quaderns d'italià* 22 (2017): 123-132
 
  [“Edición digital y algunas tecnologías aliadas: codificación TEI y transformaciones XSLT.”][Insula] *Insula. Revista de Letras y Ciencias Humanas* 822 (June 2015): 18-21
 
@@ -30,7 +32,7 @@ permalink: /publications
 
 “Humanistas y descubrimientos de códices clásicos: la dimensión épica.” [*Secrets and Discovery in the Middle Ages*. Proceedings of the 5th European Congress of the Fédération Internationale des Instituts d’Études Médiévales (Porto, 24 to 29 June 2013)](http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503577456-1). Ed. J. Meirinhos, C. López, J. Rebalde. Barcelona - Madrid: Brepols, 2017. 467-477.
 
-& Marta Punsola, and Pere J. Quetglas. “Presentación de la edición digital del Glossarium Mediae Latinitatis Cataloniae (GMLC).” *Actas del IV Congreso Internacional de Latín Medieval Hispánico (20-23 noviembre 2013, La Núcia, Alicante)*, 2016. 423-432.
+& Marta Punsola, and Pere J. Quetglas. [“Presentación de la edición digital del Glossarium Mediae Latinitatis Cataloniae (GMLC).”][ActasLatinMedieval] *Actas del IV Congreso Internacional de Latín Medieval Hispánico (20-23 noviembre 2013, La Núcia, Alicante)*, 2016. 423-432.
 
 [“Glossarium Mediae Latinitatis Cataloniae: un projecte d’edició digital”][Omnia Mutantur], Omnia Mutantur. Canvi, transformació i pervivència en la cultura clàssica, en les seves llengües i en el seu llegat. Ed. E. Borrell Vidal, and O. de la Cruz Palma, Secció Catalana de la SEEC, Barcelona: Universitat de Barcelona, II, 2016. pp. 231-239.
 
@@ -86,3 +88,6 @@ Leonardo Bruni, [*Vides de Dante i de Petrarca*][Traduccio Bruni], Martorell: Ad
 [Traduccio Bruni]: http://www.adesiaraeditorial.cat/ficha.aspx?cod=VAG000013
 [Vita Caroli]: https://hcommons.org/deposits/item/hc:15643/
 [Omnia Mutantur]: https://hcommons.org/deposits/item/hc:15647/
+[StudiaAurea]: http://studiaaurea.com/article/view/v11-alles
+[QuadernsItalia]: http://revistes.uab.cat/quadernsitalia/article/view/v22-alles
+[ActasLatinMedieval]: 

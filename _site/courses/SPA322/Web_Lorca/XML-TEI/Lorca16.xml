@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta de Federico García Lorca a José María Chacón y Calvo</title>
+                <editor xml:id="TDA">Trent D'Alesiso </editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Proyecto Lorca en Cuba. SPA 322</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Coral Gables, Florida</settlement>
+                        <repository>Library Digital Collections, University of Miami</repository>
+                        <collection corresp="http://merrick.library.miami.edu/cubanHeritage/chc5324/">Federico
+                            García Lorca Papers</collection>
+                        <idno
+                            corresp="http://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/6/rec/26"
+                            >chc5324000016</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <docAuthor><forename>Federico</forename><surname>García Lorca</surname></docAuthor>
+                            <docTitle>
+                                <titlePart>Carta de Federico García Lorca a a José María Chacón y Calvo</titlePart>
+                            </docTitle>
+                            <docImprint>
+                                <pubPlace>Granada (España)</pubPlace>
+                            </docImprint>
+                            <docDate when="1925"></docDate>
+                            <note type="correspondencia">
+                                <persName type="emisor">Federico García Lorca</persName>
+                                <persName type="destinatario">José María Chacón y Calvo</persName>
+                            </note>
+                            <note type="contenido">
+                                <p> Un telegrama simple de Lorca a José María para dar noticia que va a llegar el lunes..</p>
+                            </note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="postal">
+                            <supportDesc>
+                                <extent><dimensions>
+                                    <height>17cm</height>
+                                    <width>21cm</width>
+                                </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="postal">
+                
+                <div type="recto">
+                    <pb facs="../images/Richter/16_1.jpg"/>
+                    
+                    <p> La primera pagina de la telegrama tiene el mensaje de Lorca. <lb/>
+                    
+                    Tambíen tiene información para asegurar que la telegrama llega a su destino<lb/>
+                    
+                    Granda Madrid - 131 - 1e 4 2 2.1e. A L. Magda <lb/>
+                    
+                    José María Chacón - Pardiñas 32 <lb/>
+                    
+                    Llego lune rapido- <lb/>
+                    
+                    Federico-<lb/> </p>
+                    
+                    
+                </div>
+                
+                <div type="verso">
+                    <pb facs="../images/Richter/16_2.jpg"/>
+                    <div type="mensaje">
+                       
+                        <p> La segunda página es una lista de todas las ciudades donde se puede enviar telegrama </p>
+                        
+                        
+                        
+                        <pb facs="../images/Richter/16_3.jpg" /> 
+                        
+                        <p> La tercera página es una confirmación que la telegrama es de Lorca a Chacón y Calvo</p>
+                        
+                        
+                       
+                        
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

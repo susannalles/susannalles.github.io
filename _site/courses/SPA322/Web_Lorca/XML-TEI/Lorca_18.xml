@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Carta de Federico García Lorca a José María Chacón y Calvo</title>
+        <editor xml:id="MIH">Mayda Herrera</editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>Proyecto Lorca en Cuba. SPA 322</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Coral Gables, Florida</settlement>
+            <repository>Library Digital Collections, University of Miami</repository>
+            <collection corresp="http://merrick.library.miami.edu/cdm/search/collection/chc5324/"
+              >Federico García Lorca Papers</collection>
+            <idno
+              corresp="http://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/28/rec/11"
+              >chc5324000018</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <docAuthor><forename>Federico</forename>
+                <surname>García Lorca</surname>
+              </docAuthor>
+              <docTitle>
+                <titlePart>Carta de Federico García Lorca a José María Chacón y Calvo</titlePart>
+              </docTitle>
+              <docImprint>
+                <pubPlace>Madrid, España</pubPlace>
+              </docImprint>
+              <docDate when="1923">julio 1923</docDate>
+              <note type="correspondencia">
+                <persName type="emisor">Federico García Lorca</persName>
+                <persName type="destinatario">José María Chacón y Calvo</persName>
+              </note>
+              <note type="contenido">
+                <p> Esta carta fué escrita por Federico Garcia Lorca a su amigo Chacón en julio del
+                  año 1923, cuando residía en Madrid en la Residencia de Estudiantes, ubicada en la
+                  dirección 5253, Burgos. Por lo que la carta expresa, Lorca planeaba viajar a
+                  Granada al día siguiente y el escritor usa esta misiva a modo de despedida de su
+                  amigo Chacón. En la carta se mencionan otras personas importantes como Dulce María
+                  Loynaz una joven poeta cubana. También habla con mucha familiaridad de Gustavo
+                  Duran (a quien llama Gustavito) quien fuera un compositor español a quien Lorca
+                  conoció tomando clases de piano en dicha residencia. Lo interesante de esta carta
+                  es los sentimientos que Lorca expresa abiertamente hacia su amigo cubano, Chacón.
+                  Lorca improvisa versos, que son plasmados brillantemente en la carta, acompañados
+                  de dibujos de Cuba y su campiña, dedicados a su amigo entrañable. Es bueno
+                  destacar que la carta va acompañada de una nota de puño y letra de Chacón que nos
+                  sugiere que la misma es una copia de una carta original de Federiquín (como el
+                  cubano le llamaba a Lorca cariñosamente) (EpComp: 190; Ripoll 3: 51). </p>
+              </note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="carta">
+              <supportDesc>
+                <extent><dimensions>
+                    <height>27cm</height>
+                    <width>21cm</width>
+                  </dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+
+      <div type="carta">
+
+        <div type="recto">
+          <pb facs="../images/Richter/18_1.jpg" n="recto"/>
+          <ab>Copia de una carta de <lb/>
+            <hi rendition="subrayado">Federiquín</hi></ab>
+          <div type="mensaje">
+            <opener>
+              <salute>Queridísimo Pepe María:</salute>
+            </opener>
+            <p> He venido a despedirme de tí. Mañana a las 10 de la mañana<lb/> me voy a
+              Granada.</p>
+            <p>¡Como lo siento! Pienso con tristeza que no te voy a ver en <lb/> mucho tiempo y que
+              seguramente te acordarás poco de mí.<lb/> ¿Te podré ver antes de mi partida? El libro
+              para Loynaz te<lb/> lo dejare en poder de Almagro y además varios libros para que tú
+              <lb/> los envíes a Cuba. A la una y media llámame a la Resi[dencia de Estudiantes
+              5253] por si me quieres dejar algo.</p>
+            <p>He venido tan temprano porque Gustavito Durán no quiere <lb/> separarse de mí ni un
+              minuto.</p>
+            <closer><salute>Adiós cubano; ya sabes cuanto <lb/> te quiere</salute>
+              <signed>Federico </signed>
+            </closer>
+          </div>
+
+          <div type="poema">
+            <lg>
+              <l>Regalo lírico</l>
+              <l>sobre el pianísimo</l>
+              <l>del oro</l>
+              <l>mi chopo</l>
+              <l>solo</l>
+              <l>sin un pajarillo</l>
+              <l>armonioso</l>
+            </lg>
+          </div>
+        </div>
+
+        <div type="verso">
+          <pb facs="../images/Richter/18_2.jpg" n="verso"/>
+          <div type="mensaje">
+            <lg>
+              <l>y yo con la tarde</l>
+              <l>sobre mis hombros</l>
+              <l>como un corderito</l>
+              <l>muerto por el lobo,</l>
+              <l>bajo el pianísimo </l>
+              <l>del oro </l>
+            </lg>
+
+            <p>Este bomboncillo lírico te lo dejo encima de tu mesa para <lb/> que te lo comas, sin
+              quitarle su envoltura de brisa dorada <lb/> ¡Adiós!</p>
+
+            <ab> Adiós José María<lb/> (que tu alma triste) y lírica <lb/> duerma sobre la frente
+              de<lb/> la palmera altísima,<lb/> ¡Cuba sobre los mares!</ab>
+            <ab>Tu alma vieja y niña<lb/> de estrella a estrella, de <lb/> brisa en brisa. </ab>
+
+            <figure>
+              <ab>Aquí dibujada una palmera</ab>
+            </figure>
+            <figure>
+              <ab>Aquí dibujado un poeta febríl que dice estos versos</ab>
+            </figure>
+            <figure>
+              <ab>Aquí un paisaje representado un campo y un bohío cubano </ab>
+            </figure>
+            <lg>
+              <l>Copla cubana:</l>
+              <l>Lloran sobre el mar de Cuba</l>
+              <l>enormes flores bermejas,</l>
+              <l>sobre la isla perdida</l>
+              <l>el aire amarillo tiembla!</l>
+            </lg>
+          </div>
+        </div>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
