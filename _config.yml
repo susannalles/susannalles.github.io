@@ -45,7 +45,11 @@ collections:
     output: true
   projects:
     output: true
-    
+  talks:
+    output: true
+  caca:
+    output: true
+        
 categories:
    workshops
    conferences

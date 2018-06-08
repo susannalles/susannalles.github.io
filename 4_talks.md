@@ -9,7 +9,7 @@ permalink: /talks
 
 [“Digitus Dei est hic?: la Edición Digital Académica en el contexto global de las Humanidades Digitales.”][Digitus] Humanidades Digitales Contrucciones locales en contextos globales. I Congreso Internacional de la Asociación Argentina de Humanidades Digitales, Buenos Aires (Argentina), 7-9 November 2016 (Panel participation).
 
-[“Integrar las Humanidades Digitales en una Universidad Hemisférica.”][Integrar] Humanidades Digitales Contrucciones locales en contextos globales. I Congreso Internacional de la Asociación Argentina de Humanidades Digitales, Buenos Aires (Argentina), 7-9 November 2016 (Panel organization). [Presentacion](http://susannalles.github.io/conferences/Integrar-HD.html)
+[“Integrar las Humanidades Digitales en una Universidad Hemisférica.”][Integrar] Humanidades Digitales Contrucciones locales en contextos globales. I Congreso Internacional de la Asociación Argentina de Humanidades Digitales, Buenos Aires (Argentina), 7-9 November 2016 (Panel organization). [Presentacion](/talks/Integrar-HD.html)
 
 [“Minimal Editions in the Classroom: a pedagogical proposal”][Minimal], Digital Humanities Conference, Kraków, 12-16 July 2016. 
 
@@ -19,7 +19,7 @@ permalink: /talks
 
 [“Integrating DH skills, methods or tools in the Language Curriculum?”][Hartford], Panel: Digital Humanities in the Modern Language Curriculum: Beyond the Language vs Content Divide. 47th Annual Convention Northeast Modern Language Association, Hartford (Conneticut), 17-20 March 2016 (Panel participation). 
 
-“Text-Rewired: Editing the Past in the Digital Way” Department of Hispanic Studies, University of Houston, 22 February 2016 (Talk)
+[“Text-Rewired: Editing the Past in the Digital Way”][Text-Rewired] Department of Hispanic Studies, University of Houston, 22 February 2016 (Talk)
 
 [“Digital Editions, Translations, and the Challenge of Representation.”][MLA] Modern Language Association Annual Convention, Austin (Texas), 7-19 January 2016 (Invited panel participation)
 
@@ -100,26 +100,4 @@ Workshop “Estudis medievals: algunes tecnologies aplicades”, IMF - CSIC, Bar
 
 International Congress Lo Zibaldone di Leopardi come ipertesto, University of Barcelona, 26-27 October 2012 (Organizing Committee)
 
-[Brown-colloquium]: /materials/papers/Brown-colloquium/
-[Digitus]: http://www.aacademica.org/aahd.congreso/tabs/program?session=110&block=27&vs=294
-[Integrar]: http://www.aacademica.org/aahd.congreso/tabs/program?session=79&block=12&vs=215
-[Minimal]: http://dh2016.adho.org/abstracts/412
-[Palencia Lyon]: http://ciham.ish-lyon.cnrs.fr/en/alfonso-palencia
-[NeMLA]: https://www.cfplist.com/nemla/Home/S/15828
-[Hartford]: /materials/papers/Hartford/
-[MLA]: https://apps.mla.org/conv_listings_detail?prog_id=473&year=2016
-[Brown]: http://library.brown.edu/create/dh/conference-scholarly-networks/
-[TEI 2014]: http://tei.northwestern.edu/
-[Las Palmas]: https://sites.google.com/site/ichll2014/
-[Montpellier]: https://cilir2013.wordpress.com/
-[ARDIT]: http://arditcongress.weebly.com/program.html
-[ADEMEC]: http://ademec.com/en/actus/2012/11/journee-annuelle-ademec
-[Congreso Zibaldone]: http://www.ub.edu/zibal/
-[Intro TEI]: http://extension.uned.es/actividad/idactividad/9408
-[COST Workshop]: http://www.glossaria.eu/minorque/
-[Budapest]: http://ars-metrica.germ-ling.uni-bamberg.de/wp-content/uploads/2013/10/Budapest-MC-meeting_Program.pdf
-[Workshop Bcn]: http://gmlc.imf.csic.es/2013/Workshop/index.php
-[Workshop Krakow]: http://scriptores.pl/aktualnosci/workshop/
-[Text-Rewired]: /materials/papers/Text-Rewired/#/
-[TEI2017]: http://hcmc.uvic.ca/tei2017/abstracts/t_123_torrentetal_teionlinetraining.html
-[SeminarioUAB]: http://susannalles.com/public/PDF/SeminarioUAB2018.pdf
+[ADEMEC]: http://ademec.com/en/actus/2012/11/journee-annuelle-ademec[ARDIT]: http://arditcongress.weebly.com/program.html[Brown-colloquium]: /talks/Brown-colloquium/[Brown]: http://library.brown.edu/create/dh/conference-scholarly-networks/[Budapest]: http://ars-metrica.germ-ling.uni-bamberg.de/wp-content/uploads/2013/10/Budapest-MC-meeting_Program.pdf[Congreso Zibaldone]: http://www.ub.edu/zibal/[COST Workshop]: http://www.glossaria.eu/minorque/[Digitus]: http://www.aacademica.org/aahd.congreso/tabs/program?session=110&block=27&vs=294[Hartford]: /talks/Hartford/[Integrar]: http://www.aacademica.org/aahd.congreso/tabs/program?session=79&block=12&vs=215[Intro TEI]: http://extension.uned.es/actividad/idactividad/9408[Las Palmas]: https://sites.google.com/site/ichll2014/[Minimal]: http://dh2016.adho.org/abstracts/412[MLA]: https://apps.mla.org/conv_listings_detail?prog_id=473&year=2016[Montpellier]: https://cilir2013.wordpress.com/[NeMLA]: https://www.cfplist.com/nemla/Home/S/15828[Palencia Lyon]: http://ciham.ish-lyon.cnrs.fr/en/alfonso-palencia[SeminarioUAB]: http://susannalles.com/public/PDF/SeminarioUAB2018.pdf[TEI 2014]: http://tei.northwestern.edu/[TEI2017]: http://hcmc.uvic.ca/tei2017/abstracts/t_123_torrentetal_teionlinetraining.html[Text-Rewired]: /talks/Text-Rewired/[Workshop Bcn]: http://gmlc.imf.csic.es/2013/Workshop/index.php[Workshop Krakow]: http://scriptores.pl/aktualnosci/workshop/
