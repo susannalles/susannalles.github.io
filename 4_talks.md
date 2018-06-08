@@ -17,7 +17,7 @@ permalink: /talks
 
 “Editar Alfonso de Palencia digitalmente”, [Journée d’étude Alfonso de Palencia. Séminaire des Hispnistes du CIHAM][Palencia Lyon], ENS de Lyon, 9-10 June 2016 (Invated talk)
 
-“Integrating DH skills, methods or tools in the Language Curriculum?”][Hartford], [Panel: Digital Humanities in the Modern Language Curriculum: Beyond the Language vs Content Divide. 47th Annual Convention Northeast Modern Language Association, Hartford (Conneticut), 17-20 March 2016 (Invited panel participation). 
+[“Integrating DH skills, methods or tools in the Language Curriculum?”][Hartford], [Panel: Digital Humanities in the Modern Language Curriculum: Beyond the Language vs Content Divide. 47th Annual Convention Northeast Modern Language Association, Hartford (Conneticut), 17-20 March 2016 (Invited panel participation). 
 
 “Text-Rewired: Editing the Past in the Digital Way” Department of Hispanic Studies, University of Houston, 22 February 2016 (Talk)
 
@@ -106,7 +106,7 @@ International Congress Lo Zibaldone di Leopardi come ipertesto, University of Ba
 [Minimal]: http://dh2016.adho.org/abstracts/412
 [Palencia Lyon]: http://ciham.ish-lyon.cnrs.fr/en/alfonso-palencia
 [NeMLA]: https://www.cfplist.com/nemla/Home/S/15828
-[Hartford]: /materials/papers/Hartford/#/
+[Hartford]: /materials/papers/Hartford/
 [MLA]: https://apps.mla.org/conv_listings_detail?prog_id=473&year=2016
 [Brown]: http://library.brown.edu/create/dh/conference-scholarly-networks/
 [TEI 2014]: http://tei.northwestern.edu/

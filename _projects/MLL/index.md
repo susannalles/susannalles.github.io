@@ -31,3 +31,7 @@ Specialized corpora:
 
 ## Época colonial 
 * [Digging into Early Colonial Mexico](https://diggingintodata.org/awards/2016/project/digging-early-colonial-mexico): study Relaciones Geográficas, a 16th century compilation ordered by the Spanish crown that gathered vast amounts of information about the New World through multiple records, both in Spanish and indigenous languages.
+* [Mesolore: A Research and Teaching Tool](http://www.mesolore.org/). Mesolore is a bilingual resource for scholars and students of Mesoamerica. 
+* [Lienzo de Quauhquechollan: A Chronicle of Conquest](https://lienzo.ufm.edu/en/), created by the Universidad Francisco Marroquín (Guatemala). 
+* [FAMSI (Foundation for the Advancement of Mesoamerican Studies) Web site](www.famsi.org)
+* [The Maya Codices Database Project](http://www.mayacodices.org/project.asp)
