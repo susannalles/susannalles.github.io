@@ -11,13 +11,13 @@ permalink: /talks
 
 [“Integrar las Humanidades Digitales en una Universidad Hemisférica.”][Integrar] Humanidades Digitales Contrucciones locales en contextos globales. I Congreso Internacional de la Asociación Argentina de Humanidades Digitales, Buenos Aires (Argentina), 7-9 November 2016 (Panel organization). [Presentacion](http://susannalles.github.io/conferences/Integrar-HD.html)
 
- [“Minimal Editions in the Classroom: a pedagogical proposal”][Minimal], Digital Humanities Conference, Kraków, 12-16 July 2016. 
+[“Minimal Editions in the Classroom: a pedagogical proposal”][Minimal], Digital Humanities Conference, Kraków, 12-16 July 2016. 
 
 “Translating the Life of Cicero and stylistics disagreement: Iacopo Angeli vs Leonardo Bruni.” International Medieval Congress, Leeds (UK), 4-7 July 2016 (Panel participation).
 
 “Editar Alfonso de Palencia digitalmente”, [Journée d’étude Alfonso de Palencia. Séminaire des Hispnistes du CIHAM][Palencia Lyon], ENS de Lyon, 9-10 June 2016 (Invated talk)
 
-[“Integrating DH skills, methods or tools in the Language Curriculum?”][Hartford], [Panel: Digital Humanities in the Modern Language Curriculum: Beyond the Language vs Content Divide. 47th Annual Convention Northeast Modern Language Association, Hartford (Conneticut), 17-20 March 2016 (Invited panel participation). 
+[“Integrating DH skills, methods or tools in the Language Curriculum?”][Hartford], Panel: Digital Humanities in the Modern Language Curriculum: Beyond the Language vs Content Divide. 47th Annual Convention Northeast Modern Language Association, Hartford (Conneticut), 17-20 March 2016 (Panel participation). 
 
 “Text-Rewired: Editing the Past in the Digital Way” Department of Hispanic Studies, University of Houston, 22 February 2016 (Talk)
 
