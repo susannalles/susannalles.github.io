@@ -177,8 +177,9 @@ Conceptos esenciales y útiles:
 {% highlight ruby %}
 ~ $ gem install jekyll bundler
 ~ $ jekyll new mipagina
-~ $ cd mipaginapersonal
-~/mipagina $ bundle exec jekyll serve
+~ $ cd mipaginapersonal 
+~ $ bundle exec jekyll serve
+
 # => Navega en to http://127.0.0.1:4000/ #
 {% endhighlight %}
 
