@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:rights="http://www.loc.gov/rights/"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:lc="http://www.loc.gov/mets/profiles"
+    xmlns:bib="http://www.loc.gov/mets/profiles/bibRecord" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OBJID="loc.afc.afc9999005.1153"
+    xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd"
+    PROFILE="lc:bibRecord">
+    <!-- HTML view: http://memory.loc.gov/diglib/ihas/loc.afc.afc9999005.1153/default.html -->
+    <mets:dmdSec ID="dmd1">
+        <mets:mdWrap MDTYPE="MODS">
+            <mets:xmlData>
+                <mods:mods ID="mods1">
+                    <mods:titleInfo>
+                        <mods:title>Alabama blues</mods:title>
+                    </mods:titleInfo>
+                    <mods:name type="personal">
+                        <mods:namePart>Lomax, Alan</mods:namePart>
+                        <mods:namePart type="date">1915-2002</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm type="text">Recordist</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                    <mods:name type="personal">
+                        <mods:namePart>Hurston, Zora Neale</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm type="text">Recordist</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                    <mods:name type="personal">
+                        <mods:namePart>Barnicle, Mary Elizabeth</mods:namePart>
+                        <mods:namePart type="date">1891-1978</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm type="text">Recordist</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                    <mods:name type="personal">
+                        <mods:namePart>Sapps, Booker T.</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm type="text">Performer</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                    <mods:name type="personal">
+                        <mods:namePart>Matthews, Roger</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm type="text">Performer</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                    <mods:name type="personal">
+                        <mods:namePart>Flowers, Willy</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm type="text">Performer</mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                    <mods:typeOfResource>sound recording</mods:typeOfResource>
+                    <mods:language>
+                        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+                    </mods:language>
+                    <mods:physicalDescription>
+                        <mods:form authority="gmd">sound recording</mods:form>
+                    </mods:physicalDescription>
+                    <mods:note type="statement of responsibility">Sung by Booker T. Sapps with harmonica, with harmonica by Roger Matthews, and guitar by Willy Flowers.</mods:note>
+                    <mods:note type="instrument">Harmonica (mouth organ)</mods:note>
+                    <mods:note type="instrument">Harmonica (mouth organ)</mods:note>
+                    <mods:note type="instrument">Guitar</mods:note>
+                    <mods:subject>
+                        <mods:hierarchicalGeographic>
+                            <mods:country>United States of America</mods:country>
+                            <mods:state>Florida</mods:state>
+                            <mods:city>Belle Glade</mods:city>
+                        </mods:hierarchicalGeographic>
+                    </mods:subject>
+                    <mods:relatedItem type="host">
+                        <mods:titleInfo>
+                            <mods:title>A. Lomax Z.N. Hurston and Barnicle Expedition</mods:title>
+                        </mods:titleInfo>
+                        <mods:identifier type="lccn">2008700301</mods:identifier>
+                    </mods:relatedItem>
+                    <mods:identifier type="AFC Number">AFC 1935/001</mods:identifier>
+                    <mods:identifier type="AFS Number">AFS 00368 A</mods:identifier>
+                    <mods:identifier type="AFS Number">AFS 00368 B</mods:identifier>
+                    <mods:identifier type="afsNum">368</mods:identifier>
+                    <mods:identifier type="afsNum">368</mods:identifier>
+                    <mods:identifier type="index">afc9999005</mods:identifier>
+                    <mods:location>
+                        <mods:physicalLocation>American Folklife Center, Library of Congress</mods:physicalLocation>
+                    </mods:location>
+                    <mods:location>
+                        <mods:physicalLocation authority="marcorg">DLC</mods:physicalLocation>
+                    </mods:location>
+                    <mods:recordInfo>
+                        <mods:recordContentSource>IHAS</mods:recordContentSource>
+                        <mods:recordChangeDate encoding="marc">111123</mods:recordChangeDate>
+                        <mods:recordIdentifier source="IHAS">loc.afc.afc9999005.1153</mods:recordIdentifier>
+                    </mods:recordInfo>
+                </mods:mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="MASTER">
+            <mets:file MIMETYPE="image/tiff" GROUPID="G1" ID="f0178m">
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="http://lcweb4.loc.gov/natlib/ihas/warehouse/afc9999005/AFS_300_A-734_B/0178.tif"
+                />
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="SERVICE">
+            <mets:file MIMETYPE="image/jpeg" GROUPID="G1" ID="f0178s">
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="http://lcweb4.loc.gov/natlib/ihas/service/afc9999005/AFS_300_A-734_B/0178v.jpg"
+                />
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap>
+        <mets:div DMDID="mods1" TYPE="bib:bibRecord">
+            <mets:div TYPE="bib:card">
+                <mets:div TYPE="lc:image">
+                    <mets:fptr FILEID="f0178m"/>
+                    <mets:fptr FILEID="f0178s"/>
+                </mets:div>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

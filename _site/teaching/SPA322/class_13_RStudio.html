@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SPA 322</title>
+  <meta name="description" content="Miércoles 11 de octubre de 2017">
+
+ <!--<link rel="stylesheet" href="/css/main.css">-->
+  <link rel="stylesheet" href="http://localhost:4000/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/teaching/SPA322/class_13_RStudio.html">
+  <link rel="canonical" href="http://localhost:4000/teaching/SPA322/class_13_RStudio.html">
+  <link rel="alternate" type="application/rss+xml" title="Susanna Allés Torrent" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Susanna Allés Torrent</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        <!--Aquí posar el menú fixe que vull -->
+      
+          
+          <a class="page-link" href="/cv.html">CV</a>
+          
+        
+          
+          <a class="page-link" href="/publications.html">Publications</a>
+          
+        
+          
+          <a class="page-link" href="/talks.html">Talks</a>
+          
+        
+          
+          <a class="page-link" href="/teaching.html">Teaching</a>
+          
+        
+          
+          <a class="page-link" href="/research.html">Research</a>
+          
+        
+          
+          <a class="page-link" href="/notes.html">Notes</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">SPA 322</h1>
+  </header>
+
+  <div class="post-content">
+    
+    <p>Miércoles 11 de octubre de 2017</p>
+
+<h2 id="r-studio">R Studio</h2>
+
+<p>Estilometría: para descubrir el género de un texto, la fecha de un texto o la autoria (la atribución).</p>
+
+<p>¿Qué define el estilo de un autor? 
+Palabras funcionales, vacías de contenido (de, a, por, así, …)
+ <a href="https://www.mrc-cbu.cam.ac.uk/people/matt.davis/cmabridge/">https://www.mrc-cbu.cam.ac.uk/people/matt.davis/cmabridge/</a></p>
+
+<p>Pasos previos:</p>
+
+<ul>
+  <li>Crear un corpus en texto plano en UTF-8</li>
+  <li>Asignar nombres de los ficheros de manera clara (sin espacios, ni acentos, etc.)</li>
+  <li>Tokenización (reconocimiento de los caracteres o palabras individualmente). Quitar puntuación, caracteres numéricos.</li>
+  <li>A continuación podemos empezar a jugar con las palabras, calculando la distancia mínima entre ellas.</li>
+</ul>
+
+<h1 id="parte-1-mircoles-11-octubre-2017">Parte 1 (Miércoles 11 Octubre 2017)</h1>
+
+<h2 id="instalacin">Instalación:</h2>
+<ul>
+  <li>Instalar <a href="https://www.rstudio.com/products/rstudio/download/">https://www.rstudio.com/products/rstudio/download/</a></li>
+  <li>Stylo <a href="https://sites.google.com/site/computationalstylistics/stylo">https://sites.google.com/site/computationalstylistics/stylo</a> es un paquete que puede instalarse en R.</li>
+</ul>
+
+<h2 id="pasos-a-seguir">Pasos a seguir:</h2>
+
+<ul>
+  <li>Abrid R Studio</li>
+</ul>
+
+<p><img src="img/RStudio1.png" alt="RStudio1" /></p>
+
+<ul>
+  <li>En el cuadro superior izquierdo escribid: <code class="highlighter-rouge">install.packages("stylo")</code>. Esto deberéis hacerlo sólo la primera vez que lo utilicéis.</li>
+</ul>
+
+<p><img src="img/RStudio2.png" alt="RStudio2" /></p>
+
+<ul>
+  <li>A continuación debes importar el paquete Stylo para poder trabajar con él: <code class="highlighter-rouge">library(stylo)</code></li>
+</ul>
+
+<p><img src="img/RStudio3.png" alt="RStudio3" /></p>
+
+<ul>
+  <li>Ahora tenemos que establecer nuestro directorio de trabajo para que el programa sepa dónde están los archivos de texto: Session &gt; “Set the working directory” &gt; Choose directory &gt; Elegid vuestra carpeta que debe contener a su vez la carpeta “corpus”. Es muy importante que todos los archivos estén en una carpeta llamada “corpus” sino no funcionará. También puede escribirse en la consola <code class="highlighter-rouge">setwd("~/Dropbox/MIAMI/Courses Miami/SPA322_Intro_DH/Lorca_Corpus")</code> (aquí es donde lo tengo yo).</li>
+</ul>
+
+<p><img src="img/RStudio4.png" alt="RStudio4" /></p>
+
+<ul>
+  <li>Para asegurarnos que estamos en la carpeta correcta podemos escribir en la consola <code class="highlighter-rouge">getwd()</code> y veremos el path o dirección local donde estamos trabajando. En mi caso, veo: [1] “/Users/susannalles/Dropbox/MIAMI/Courses Miami/SPA322_Intro_DH/Lorca_Corpus”</li>
+</ul>
+
+<p><img src="img/RStudio4.1.png" alt="RStudio4.1" /></p>
+
+<ul>
+  <li>Ahora para empezar a visualizar los textos clicad en <code class="highlighter-rouge">stylo()</code>. Se os abrirá una ventana emergente y podéis clicar en “OK”, entonces os aparecerá el primer gráfico.</li>
+</ul>
+
+<p><img src="img/RStudio5.png" alt="RStudio5" /></p>
+
+<p><img src="img/RStudio5.1.png" alt="RStudio5.1" /></p>
+
+<ul>
+  <li>Ahora volved a correr <code class="highlighter-rouge">stylo()</code>, e id a ‘Features &gt; MFW Settings, miniminum and max to 3000`, y generad el gráfico graph2.png. “MFW” significa “Most Frequent Words”.</li>
+</ul>
+
+<p><img src="img/RStudio6.png" alt="RStudio6" /></p>
+
+<h1 id="parte-ii-viernes-13-octubre-2017">PARTE II (Viernes 13 Octubre 2017)</h1>
+<ol>
+  <li>Experimentad ahora cambiando el número de palabras más frecuentes que toma en consideración el programa: <code class="highlighter-rouge">stylo()</code> &gt; <code class="highlighter-rouge">Features</code> &gt; <code class="highlighter-rouge">MFW Settings</code>, cambiad los valores de Minimo y Máximo: 30, 50, 1000, 5000…  y comentadlo.</li>
+  <li>Ahora provad con <code class="highlighter-rouge">stylo()</code> &gt; <code class="highlighter-rouge">statistics</code>&gt; <code class="highlighter-rouge">Cluster Analysis</code>&gt; <code class="highlighter-rouge">Consensus Tree</code> &gt; <code class="highlighter-rouge">Consensus strength</code> con un valor de 0,5.</li>
+  <li>Puedes probar qué pasa si al corpus se le añaden otros textos que no son de Lorca, por ejemplo, autores realistas: <a href="https://github.com/cligs/textbox/blob/master/spanish/novela-espanola/novela-espanola.zip">https://github.com/cligs/textbox/blob/master/spanish/novela-espanola/novela-espanola.zip</a> Para ello, arrastra todos los textos en tu carpeta “corpus” y vuelve a correr los mismos comandos.</li>
+  <li>Puedes intentar utilizar en “MFW Settings” un mínimo y máximo de 100, y modificar el output para que salga la letra (“font”) más pequeña y el espacio entre líneas sea menor.</li>
+</ol>
+
+<p><img src="img/RStudio9.png" alt="RStudio9" /></p>
+
+<h2 id="casos-de-autora">Casos de autoría:</h2>
+<ul>
+  <li>Robert Galbraith, <em>The Cuckoo’s Calling</em> by Jude Callegari = J. K. Rowling. El caso fue resuelto por dos forenses lingüísticos de la empresa Juola Associates.</li>
+  <li>Autenticidad de una obra de Julio César <a href="http://dl.acm.org/citation.cfm?id=2989636">http://dl.acm.org/citation.cfm?id=2989636</a></li>
+</ul>
+
+<h2 id="libro-imprescindible-para-introducirse-a-rstudio">Libro imprescindible para introducirse a RStudio:</h2>
+
+<ul>
+  <li>Jockers, Matthew. Text Analysis with R for Students of Literature. Cham: Springer, 2014. Disponible en línea: <a href="http://link.springer.com/book/10.1007%2F978-3-319-03164-4">http://link.springer.com/book/10.1007%2F978-3-319-03164-4</a></li>
+</ul>
+
+<h2 id="otro-libro-algo-ms-avanzado-es">Otro libro algo más avanzado es:</h2>
+
+<ul>
+  <li>Taylor, Arnold, y Lauren Tilton. Humanities Data in R. Exploring Networks, Geospatial Data, Images, and Texts. Cham: Springer, 2015. Disponible en: <a href="http://link.springer.com/book/10.1007%2F978-3-319-20702-5">http://link.springer.com/book/10.1007%2F978-3-319-20702-5</a></li>
+</ul>
+
+<p>Caso de estudio con herramientas de estilometría: <a href="https://vimeo.com/70881172">https://vimeo.com/70881172</a></p>
+
+
+    
+  </div>
+
+</article>
+      
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!--<h2 class="footer-heading">Susanna Allés Torrent</h2>-->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Susanna Allés Torrent
+            
+            </li>
+            
+            <li><a href="mailto:susanna_alles@miami.edu">susanna_alles@miami.edu</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/susannalles"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">susannalles</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/sallesto"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">sallesto</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

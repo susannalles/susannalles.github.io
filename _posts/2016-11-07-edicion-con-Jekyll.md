@@ -290,6 +290,7 @@ b) Hay diferentes maneras de hacer el siguiente paso. Yo os propongo que os desc
 * Arrastrad la carpeta en vuestra carpeta de GitHub (este paso es sólo para estar organizados). 
 
 c) Desde el terminal, situaros al interno de la carpeta `ed:
+
  		`$ cd ed`
 
 B) Siempre en esa carpeta debemos:  
@@ -299,14 +300,24 @@ B) Siempre en esa carpeta debemos:
 		`$ \curl -sSL https://get.rvm.io | bash -s stable`
  
 [Nota: este comando no le funcionaba a todos. Se puede probar de instalar: https://gpgtools.org/ . O bien consultar esta discusión: [ruby discusion][ruby discusion]
+		
 		`$ ruby -v`
+		
 		`$ gem install rails -v=4.2`
+		
 		`$ \curl -sSL https://get.rvm.io | bash -s stable`
-		`$ rvm install 2.3.1`
-		`$ rvm use 2.3.1 --default`
-		`$ rvm use 2.3.1`
+		
+		`$ rvm install 2.5.1`
+		
+		`$ rvm use 2.5.1 --default`
+		
+		`$ rvm use 2.5.1`
+		
 		`$ ruby -v`
-    	 `--2.3.1`
+		
+    	 `--2.5.1`
+
+[Nota: las versiones van subiendo de número así que quizás el terminal os indique que existe un "update", y en ese caso es mejor instalarla. ]
 
 * Al final debería aparecer este mensaje: 
 
@@ -321,8 +332,8 @@ ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-darwin15]
 Debería aparecer un mensaje así: 
 
 {% highlight ruby %}
-ed $ rvm --version 
-rvm 1.27.0 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ed $ $ ruby -v
+ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-darwin17]
 {% endhighlight %}
 
 

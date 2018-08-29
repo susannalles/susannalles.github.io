@@ -56,6 +56,10 @@
           
         
           
+          <a class="page-link" href="/research">Research</a>
+          
+        
+          
           <a class="page-link" href="/notes">Notes</a>
           
         
@@ -300,9 +304,10 @@ A continuación esto: <code class="highlighter-rouge">$ gem install rubygems-upd
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">~</span> <span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span> <span class="n">bundler</span>
 <span class="o">~</span> <span class="err">$</span> <span class="n">jekyll</span> <span class="kp">new</span> <span class="n">mipagina</span>
-<span class="o">~</span> <span class="err">$</span> <span class="n">cd</span> <span class="n">mipaginapersonal</span>
-<span class="o">~</span><span class="sr">/mipagina $ bundle exec jekyll serve
-# =&gt; Navega en to http:/</span><span class="o">/</span><span class="mi">127</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">1</span><span class="p">:</span><span class="mi">4000</span><span class="o">/</span> <span class="c1">#</span></code></pre></figure>
+<span class="o">~</span> <span class="err">$</span> <span class="n">cd</span> <span class="n">mipaginapersonal</span> 
+<span class="o">~</span> <span class="err">$</span> <span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span>
+
+<span class="c1"># =&gt; Navega en to http://127.0.0.1:4000/ #</span></code></pre></figure>
 
 <h2 id="paso-2-personalizarlo">2. Paso 2: Personalizarlo</h2>
 <p>Abrid el fichero <code class="highlighter-rouge">_config</code> y cambiad las informaciones básicas: el nombre del sitio, el autor y la descripción.</p>
@@ -431,8 +436,9 @@ Debería ser <code class="highlighter-rouge">git version 2.10.0</code></p>
   <li>Arrastrad la carpeta en vuestra carpeta de GitHub (este paso es sólo para estar organizados).</li>
 </ul>
 
-<p>c) Desde el terminal, situaros al interno de la carpeta <code class="highlighter-rouge">ed:
- 		</code>$ cd ed`</p>
+<p>c) Desde el terminal, situaros al interno de la carpeta `ed:</p>
+
+ 		<code class="highlighter-rouge">$ cd ed</code>
 
 <p>B) Siempre en esa carpeta debemos:</p>
 
@@ -442,15 +448,27 @@ Debería ser <code class="highlighter-rouge">git version 2.10.0</code></p>
       <code class="highlighter-rouge">$ \curl -sSL https://get.rvm.io | bash -s stable</code></li>
 </ul>
 
-<p>[Nota: este comando no le funcionaba a todos. Se puede probar de instalar: https://gpgtools.org/ . O bien consultar esta discusión: <a href="https://stackoverflow.com/questions/39857035/rails-isnt-seeing-proper-dir-of-ruby">ruby discusion</a>
-		<code class="highlighter-rouge">$ ruby -v</code>
-		<code class="highlighter-rouge">$ gem install rails -v=4.2</code>
-		<code class="highlighter-rouge">$ \curl -sSL https://get.rvm.io | bash -s stable</code>
-		<code class="highlighter-rouge">$ rvm install 2.3.1</code>
-		<code class="highlighter-rouge">$ rvm use 2.3.1 --default</code>
-		<code class="highlighter-rouge">$ rvm use 2.3.1</code>
-		<code class="highlighter-rouge">$ ruby -v</code>
-    	 <code class="highlighter-rouge">--2.3.1</code></p>
+<p>[Nota: este comando no le funcionaba a todos. Se puede probar de instalar: https://gpgtools.org/ . O bien consultar esta discusión: <a href="https://stackoverflow.com/questions/39857035/rails-isnt-seeing-proper-dir-of-ruby">ruby discusion</a></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>	`$ ruby -v`
+	
+	`$ gem install rails -v=4.2`
+	
+	`$ \curl -sSL https://get.rvm.io | bash -s stable`
+	
+	`$ rvm install 2.5.1`
+	
+	`$ rvm use 2.5.1 --default`
+	
+	`$ rvm use 2.5.1`
+	
+	`$ ruby -v`
+	
+	 `--2.5.1`
+</code></pre>
+</div>
+
+<p>[Nota: las versiones van subiendo de número así que quizás el terminal os indique que existe un “update”, y en ese caso es mejor instalarla. ]</p>
 
 <ul>
   <li>Al final debería aparecer este mensaje:</li>
@@ -466,8 +484,8 @@ Debería ser <code class="highlighter-rouge">git version 2.10.0</code></p>
 
 <p>Debería aparecer un mensaje así:</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">ed</span> <span class="err">$</span> <span class="n">rvm</span> <span class="o">--</span><span class="n">version</span> 
-<span class="n">rvm</span> <span class="mi">1</span><span class="o">.</span><span class="mi">27</span><span class="o">.</span><span class="mi">0</span> <span class="p">(</span><span class="n">latest</span><span class="p">)</span> <span class="n">by</span> <span class="no">Wayne</span> <span class="no">E</span><span class="o">.</span> <span class="no">Seguin</span> <span class="o">&lt;</span><span class="n">wayneeseguin</span><span class="vi">@gmail</span><span class="p">.</span><span class="nf">com</span><span class="o">&gt;</span><span class="p">,</span> <span class="no">Michal</span> <span class="no">Papis</span> <span class="o">&lt;</span><span class="n">mpapis</span><span class="vi">@gmail</span><span class="p">.</span><span class="nf">com</span><span class="o">&gt;</span> <span class="p">[</span><span class="n">https</span><span class="ss">:/</span><span class="o">/</span><span class="n">rvm</span><span class="p">.</span><span class="nf">io</span><span class="o">/</span><span class="p">]</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">ed</span> <span class="err">$</span> <span class="err">$</span> <span class="n">ruby</span> <span class="o">-</span><span class="n">v</span>
+<span class="n">ruby</span> <span class="mi">2</span><span class="o">.</span><span class="mi">5</span><span class="o">.</span><span class="mi">1</span><span class="n">p57</span> <span class="p">(</span><span class="mi">2018</span><span class="o">-</span><span class="mo">03</span><span class="o">-</span><span class="mi">29</span> <span class="n">revision</span> <span class="mi">63029</span><span class="p">)</span> <span class="p">[</span><span class="n">x86_64</span><span class="o">-</span><span class="n">darwin17</span><span class="p">]</span></code></pre></figure>
 
 <p>c) Crear un set de gemas: 
 		<code class="highlighter-rouge">$ rvm gemset create ed</code>

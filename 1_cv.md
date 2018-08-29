@@ -30,7 +30,8 @@ Postdoctoral Fellow, Spanish National Research Council (CSIC), 2012 - 2014
 
 Adjunct Professor, University of Barcelona, 2010 -2013
 
-## Fellowships											 
+## Fellowships	
+- **Summer Writing Institute (SWI)**, University of Miami, May 15-18, 2018.										 
 - **NEH Institute for Advanced Topics in the Digital Humanities**, “Make_Your_Edition: Models and Methods for Digital Textual Scholarship”, Pittsburgh, July 10-29, 2017. 
 - **Columbia University**. Ministerio de Asuntos Exteriores & Fundación Rafael del Pino. Lectureship, New York, 2014-2016
 - **Institut de Recherche et Histoire des Textes**, Comité Du Cange. Short Term Scientific Mission. Paris (France), September 2014. Funding: COST Action Medioevo Europeo
@@ -72,7 +73,13 @@ Adjunct Professor, University of Barcelona, 2010 -2013
 
 ## Affiliations and Professional Activities 
 
-- Member of professional organizations: Modern Language Association; Association for Computers in the Humanities
+Member of: 
+- Modern Language Association
+- Alliance of Digital Humanities Organizations
+- Renaissance Society of America
+- Text Encoding Initiative
+
+Editorial Board: *[Revista de Humanidades Digitales](http://revistas.uned.es/index.php/RHD/index)*
 
 ## Languages 
 
@@ -84,17 +91,10 @@ Adjunct Professor, University of Barcelona, 2010 -2013
 ## Technical Skills
 
 **Markup Languages**: XML, TEI-XML, HTML, CSS 
-
 **Metadata standards**:MARC, EAD, Dublin Core
-
 **Programming Languages**: XSL, XPath, PHP, Python, Javascript 
-
 **Frameworks and CMS**: WordPress, Jekyll, Drupal, Omeka
-
 **Database**: MYSQL, eXist
-
 **Data visualisation**: Gephi, D3.js 
-
 **Text edition**: Markdown, Pandoc, Latex, Classical Text Editor
-
 **Others**: version control (GitHub); GitHub Pages; electronic text analysis (TXM, Antconc); stylometrics (R, R Studio)

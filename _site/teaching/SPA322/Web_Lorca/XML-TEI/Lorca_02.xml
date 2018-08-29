@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Carta de Federico García Lorca a José María Chacón y Calvo, December 25, 1925</title>
+        <editor xml:id="GAD">Gabriela Díaz </editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>Proyecto Lorca en Cuba. SPA 322</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Coral Gables, Florida</settlement>
+            <repository>Library Digital Collections, University of Miami</repository>
+            <collection corresp="http://merrick.library.miami.edu/cubanHeritage/chc5324/">Federico
+              García Lorca Papers</collection>
+            <idno
+              corresp="http://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/47/rec/21"
+              >chc5324000002</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <docAuthor><forename>Federico</forename><surname>García Lorca</surname></docAuthor>
+              <docTitle>
+                <titlePart>Tarjeta postal de Federico García Lorca a José María Chacón y Calvo, 25
+                  de diciembre de 1925</titlePart>
+              </docTitle>
+              <docImprint>
+                <pubPlace>Granada (España)</pubPlace>
+              </docImprint>
+              <docDate when="1925">25 de diciembre de 1925</docDate>
+              <note type="correspondencia">
+                <persName type="emisor">Federico García Lorca</persName>
+                <persName type="destinatario">José María Chacón y Calvo</persName>
+              </note>
+              <note type="contenido">
+                <p>En esta postal escrita por Lorca durante las Navidades de 1925, Lorca manda a
+                  Chacón sus mejores deseos, le describe su casa adornada para la época navideña y le comenta
+                  con quien va a pasar las fiestas, como por ejemplo con Falla (EpComp 692; Ripoll 19: 64).</p>
+              </note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="postal">
+              <supportDesc>
+                <extent><dimensions>
+                    <height>9cm</height>
+                    <width>14cm</width>
+                  </dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="postal">
+        
+        <div type="recto">
+          <pb facs="../images/Richter/02_1.jpg" n="recto"/>
+          <ab>39 - <placeName>Granada</placeName> - 
+            Vista del Generalife y Rio Dauro</ab>
+        </div>
+
+      <div type="verso">
+        <pb facs="../images/Richter/02_2.jpg" n="recto"/>
+        <div type="mensaje">
+          <opener>
+            <salute>Un abrazo muy grande con motivo de la divina fiesta <lb/> de Navidad. </salute>
+          </opener>
+          <p> En mi casa está el nacimiento (¡oh sensibilidad <lb/> mediterránea!) lleno de
+            lumbrecitas rojas y naranjas de cera. </p>
+          <p>El niño resplandece en el portal. Falla comerá con <lb/> nosotros y cantará como todos
+            los años hecho un muchacho con <lb/> su pandereta. </p>
+
+          <closer>
+            <salute> Quisiera mandarte una coronita de azahar y como no <lb/> puedo te mando mi
+              abrazo más tierno. </salute>
+            <signed>Tu: <hi rend="underline">Federico</hi>
+            </signed>
+          </closer>
+        </div>
+
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -3,10 +3,9 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 @font-face {
-  font-family: "futura-pt";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-weight: 400;
-  src: url("https://use.typekit.net/af/3489f3/000000000000000000013365/27/l?subset_id=2&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/3489f3/000000000000000000013365/27/d?subset_id=2&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/3489f3/000000000000000000013365/27/a?subset_id=2&fvd=n4&v=3") format("opentype"); }
+  font-weight: 300; }
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -17,9 +16,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  /*font: $base-font-weight 16px/1.3 $base-font-family;*/
-  font-size: 20px;
-  font-family: 'futura-pt', serif;
+  font: 400 16px/1.3 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;

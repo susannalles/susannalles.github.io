@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta de Federico García Lorca a José María Chacón y Calvo</title>
+                <editor xml:id="TDA"> Trent D' Alessio </editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Proyecto Lorca en Cuba. SPA 322</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Coral Gables, Florida</settlement>
+                        <repository>Library Digital Collections, University of Miami</repository>
+                        <collection
+                            corresp="http://merrick.library.miami.edu/cubanHeritage/chc5324/"
+                            >Federico García Lorca Papers</collection>
+                        <idno
+                            corresp="http://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/16/rec/24"
+                            > chc5324000008</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <docAuthor><forename>Federico</forename><surname>García
+                                Lorca</surname></docAuthor>
+                            <docTitle>
+                                <titlePart>Carta de Federico García Lorca a a José María Chacón y
+                                    Calvo</titlePart>
+                            </docTitle>
+                            <docImprint>
+                                <pubPlace> Toledo (España)</pubPlace>
+                            </docImprint>
+                            <docDate when="1925"/>
+                            <note type="correspondencia">
+                                <persName type="emisor">Federico García Lorca</persName>
+                                <persName type="destinatario">José María Chacón y Calvo</persName>
+                            </note>
+                            <note type="contenido">
+                                <p> En esta postal Federico García Lorca escribe un breve mensaje a
+                                    José María Calvo. En la postal explica que se encuentra en
+                                    Toledo con Pepín, quien le ayuda a superar dificultades
+                                    personales (EpComp 261; Ripoll 9: 58).</p>
+                            </note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="postal">
+                            <supportDesc>
+                                <extent><dimensions>
+                                        <height>10cm</height>
+                                        <width>15cm</width>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="postal">
+
+                <div type="recto">
+                    <pb facs="../images/Richter/08_1.jpg"/>
+                </div>
+
+                <div type="verso">
+                    <pb facs="../images/Richter/08_2.jpg"/>
+                    <div type="mensaje">
+                        <p> Un abrazo desde Toledo <lb/> Pepin y yo te saludamos <lb/> con efusion.
+                            Estoy un poco <lb/> mejor de esta batalla <lb/> interior que atravieso
+                            en la <lb/> cual esta encantador <lb/> Pepin me ayuda. Te <lb/> mando
+                            este dibujito que <lb/> representa el hombre <lb/> tranquilo en la plaza
+                            <lb/> de la ciudad donde se <lb/> se ama con pasion eterna. <lb/> Los
+                            arbolillos tiemblan <lb/> con una larga cadencia de <lb/> de brisa y
+                            agua oculta. Pero <lb/> sobre una bandeja de marfil mi <lb/> corazon
+                            salta como un pez <lb/> fuera de las olas. Adios Jose Maria <lb/> Te
+                            debo cien pesatas y quiero que <lb/> consten de ese documento lirico...
+                            <lb/> !No te mi disgustes! Pero asi es <lb/> mejor y quedo tranquilo
+                            Federico <lb/>
+                        </p>
+
+                        <closer>
+                            <signed>
+                                <hi rend="underline"> Un abrazao de su buen amigo </hi>
+                            </signed>
+                            <signed>
+                                <hi rend="underline">Pepín </hi>
+                            </signed>
+                        </closer>
+
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
