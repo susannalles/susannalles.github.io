@@ -65,7 +65,6 @@
       <div type="postal">
         <div type="recto">
           <pb facs="../images/Richter/06_1.jpg" n="recto"/>
-          
             <ab>
               <placeName>Bayona</placeName> (<placeName>Galicia</placeName>)
               - Vista General</ab>
@@ -87,7 +86,6 @@
               </closer>
             </div>
           </div>
-          
       </div>
     </body>
   </text>
