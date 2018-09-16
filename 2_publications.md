@@ -12,6 +12,8 @@ permalink: /publications
 
 #### ARTICLES IN PEER-REVIEWED JOURNALS:
 
+["Notas para una edición digital de Alfonso de Palencia"][Atalaya], *Atalaya* 17 (2017)
+
 [“Tiempos hay de acometer y tiempos de retirar: literatura áurea y edición digital”][StudiaAurea], *Studia Aurea* 11 (2017): 13-30
 
 ["Pedro Mexía y las varias lecciones de Plutarco"][QuadernsItalia], *Quaderns d'italià* 22 (2017): 123-132
@@ -29,6 +31,8 @@ permalink: /publications
 [“Alfonso de Palencia y la traducción de las Vidas de Plutarco (nuevos datos en torno al texto de partida).”][CFC] *Cuadernos de Filología Clásica. Estudios latino*s 28. 2 (2008): 99-124
 	
 #### CHAPTERS IN BOOKS (PEER-REVIEWED):
+
+& Gimena del Rio Riande, “[Enseñar edición digital con TEI en español. Aprendizaje situado y transculturación][Baires2016].” *Humanidades Digitales: construcciones locales en contextos globales*. Actas del I Congreso Internacional de la Asociación Argentina de Humanidades Digitales (AAHD), Buenos Aires: Editorial de la Facultad de Filosofía y Letras Universidad de Buenos Aires
 
 “Humanistas y descubrimientos de códices clásicos: la dimensión épica.” [*Secrets and Discovery in the Middle Ages*. Proceedings of the 5th European Congress of the Fédération Internationale des Instituts d’Études Médiévales (Porto, 24 to 29 June 2013)](http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503577456-1). Ed. J. Meirinhos, C. López, J. Rebalde. Barcelona - Madrid: Brepols, 2017. 467-477.
 
@@ -67,7 +71,8 @@ Criterios para la reseña de ediciones digitales académicas (EDA), versión 1.1
 
 Leonardo Bruni, [*Vides de Dante i de Petrarca*][Traduccio Bruni], Martorell: Adesiara, 2014 (From Italian into Catalan)
 
-
+[Baires2016]: https://www.aacademica.org/aahd.congreso/36.pdf
+[Atalaya]: https://journals.openedition.org/atalaya/2462
 [VHS]: http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503556062-1
 [Insula]: http://academiccommons.columbia.edu/catalog/ac%3A189047
 [AEM]: http://academiccommons.columbia.edu/catalog/ac%3A189050
