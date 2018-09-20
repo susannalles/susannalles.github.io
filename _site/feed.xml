@@ -1,4 +1,775 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-16T09:06:58-04:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-07T00:00:00-05:00</published><updated>2016-11-07T00:00:00-05:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-20T17:19:06-04:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">SPA 322</title><link href="http://localhost:4000/teaching/SPA322/CommandLine.html" rel="alternate" type="text/html" title="SPA 322" /><published>2017-09-07T00:00:00-04:00</published><updated>2017-09-07T00:00:00-04:00</updated><id>http://localhost:4000/teaching/SPA322/CommandLine</id><content type="html" xml:base="http://localhost:4000/teaching/SPA322/CommandLine.html">&lt;p&gt;Miércoles 30 de agosto de 2017&lt;/p&gt;
+
+&lt;h2 id=&quot;tecnologas-web&quot;&gt;2. Tecnologías web&lt;/h2&gt;
+
+&lt;h3 id=&quot;de-la-lnea-de-comandos-al-web&quot;&gt;2.2. De la línea de comandos al web&lt;/h3&gt;
+
+&lt;p&gt;Línea de comandos es una interfaz de texto en la que pueden escribirse reglas o comandos que el ordenador debe llevar a cabo. Muchas de las tareas que realizamos cotidianamente son realmente más eficaces si las realizamos con el terminal, especialmente en relación a los derechos de los archivos.&lt;/p&gt;
+
+&lt;p&gt;Desde el terminar podemos realizar diferentes tareas, como listar tus documento, navegar a través de tus ficheros, crear nuevos archivos y carpetas, ejecutar programas, escribir scripts de complejidad variable, etc.&lt;/p&gt;
+
+&lt;p&gt;En el MAC, el terminal se sitúa en Applicaciones &amp;gt; Utilities &amp;gt; Terminal.&lt;/p&gt;
+
+&lt;p&gt;(N.B. Si no os gusta el color negro, podéis personalizarlo a vuestro gusto).&lt;/p&gt;
+
+&lt;p&gt;El símbolo $ (shell prompt) indica que el terminal está listo para recibir órdenes y que ya puedes escribir en la interfaz.&lt;/p&gt;
+
+&lt;h4 id=&quot;sistema-de-ficheros-filesystem&quot;&gt;Sistema de ficheros (filesystem)&lt;/h4&gt;
+
+&lt;p&gt;Antes de nada, es preciso que conozcas el funcionamiento del sistema de ficheros (file system) de tu máquina, es decir, como organiza las directorios (o carpetas) y los archivos (documentos, files).&lt;/p&gt;
+
+&lt;p&gt;La estructura es siempre arbórea: hay un directorio raíz (root directory) y, a partir de él, encontramos los descendientes (child). &lt;a href=&quot;https://s3.amazonaws.com/codecademy-content/courses/learn-the-command-line/img/LCL-fileTrees-01.png&quot;&gt;Ejemplo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Para navegar a través de tus directorios y ficheros, hay una serie de comandos necesarios:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pwd&lt;/code&gt; - print working directory - indica en qué directorio te encuentras&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; - list - lista los directorios y archivos de tu ubicación&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; - change directory -  se utiliza para cambiar de directorio
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd nombre_del_directorio&lt;/code&gt; - navega hacia un directorio descendiente&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ../&lt;/code&gt; - sube un directorio&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ../../&lt;/code&gt; - sube dos directorios&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd /&lt;/code&gt; - va al directorio raíz de tu ordenador&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mkdir&lt;/code&gt; - make directory - crea un directorio&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;touch&lt;/code&gt; - crea un nuevo file en el directorio donde te encuentras (acordaros de poner siempre la extensión)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Veamos ahora la lista de comandos para manipular los ficheros (mover, cortar, borrar)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ls -a&lt;/code&gt; - lista todos los ficheros, incluso los que están ocultos que empiezan por un .&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ls -l&lt;/code&gt; - lista todos los ficheros de un directorio en un formato largo.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ls -t&lt;/code&gt; - ordena ficheros y directorios según su fecha de modificación&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ls -alt&lt;/code&gt; - lista todos los contenidos, incluso los ficheros ocultos y directorios, en formato largo, ordenados por la fecha de la última modificación.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cp&lt;/code&gt; - copy - copia directorios y archivos. En primer lugar se señala el nombre del archivo cuyo contenido se desea copiar y a continuación el documento donde se quiere pegar:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cp fichero_origen.txt fichero_destino.txt&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cp fichero_origen.txt directorio_destino/&lt;/code&gt; copia un fichero en un directorio de destino.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cp fichero_origen.txt fichero_destino.txt directorio/&lt;/code&gt; cambia los dos ficheros a un directorio de destino.&lt;/li&gt;
+      &lt;li&gt;N.B. Si deseáramos copiar diferentes ficheros en un directorio, deberíamos indicar en primer lugar todos los ficheros y en último lugar el directorio o archivo de destino.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pueden utilizarse expresiones regulares para señalar los archivos que queremos copiar:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cp *.txt&lt;/code&gt; - Este comando copiaría todos los ficheros que tuvieran format .txt.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cp t*.txt&lt;/code&gt; - Este copiaría sólo los ficheros que empezaran por la letra t.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cp * Directorio_Destino&lt;/code&gt; - Copiaría todo el contenido del directorio donde nos encontramos y lo pegaría al directorio de destino.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Utilizaremos el mismo procedimiento para mover archivos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mv fichero.txt Directorio_Destino&lt;/code&gt; - Moverá el fichero.txt al directorio de destino indicado.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mv fichero.txt fichero.txt Directorio_Destino&lt;/code&gt; - Moverá los ficheros al directorio de destino indicado.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pero atención, si lo que deseamos es cambiar el nombre a un archivo, lo debemos indicar también con el comando &lt;code class=&quot;highlighter-rouge&quot;&gt;mv&lt;/code&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mv fichero_nombre_antiguo.txt fichero_nombre_moderno.txt&lt;/code&gt; - Renombra los ficheros.
+Finalmente, para eliminar archivos o ficheros, utilizamos rm:&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm fichero.txt&lt;/code&gt; - elimina un archivo&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm -r directorio&lt;/code&gt; - elimina el directorio y todo lo que contiene.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En fin, es también básico aprender a crear y editar ficheros a partir del terminal. Hay diferentes métodos, pero el más usual es el uso del editor nano o pico.&lt;/p&gt;
+
+&lt;p&gt;Para crear un documento no tenemos más que escribir:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pico fichero.txt&lt;/code&gt; - Creará un nuevo documento y lo abrirá en el editor&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl O&lt;/code&gt; - Guarda el fichero (como Output)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Crt X&lt;/code&gt; - Sale del programa (eXit)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl G&lt;/code&gt; - Abre el menú de ayuda&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Clear&lt;/code&gt; - limpia la pantalla&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;tutoriales&quot;&gt;Tutoriales:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;CodeCademy, &lt;a href=&quot;https://www.codecademy.com/learn/learn-the-command-line&quot;&gt;Learn the Command Line&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La gestión de los ficheros puede hacerse también a través de programas creados para tal propósito:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://filezilla-project.org/&quot;&gt;Filezilla&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cyberduck.io/?l=en&quot;&gt;Cyberduck&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Susanna Allés Torrent</name></author><summary type="html">Miércoles 30 de agosto de 2017</summary></entry><entry><title type="html">Cómo funciona internet</title><link href="http://localhost:4000/teaching/BasicPrinciples.html" rel="alternate" type="text/html" title="Cómo funciona internet" /><published>2017-09-05T00:00:00-04:00</published><updated>2017-09-05T00:00:00-04:00</updated><id>http://localhost:4000/teaching/BasicPrinciples</id><content type="html" xml:base="http://localhost:4000/teaching/BasicPrinciples.html">&lt;h2 id=&quot;creacin-y-tecnologas-web&quot;&gt;2. Creación y tecnologías web&lt;/h2&gt;
+
+&lt;h2 id=&quot;cmo-funciona-la-red&quot;&gt;2.1. ¿Cómo funciona la red?&lt;/h2&gt;
+
+&lt;p&gt;Es preciso, sin entrar en muchos detalles, entender algunos conceptos básicos sobre cómo funciona internet y qué elementos entran en juego a la hora de publicar nuestra página web o proyecto en línea:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dirección IP&lt;/li&gt;
+  &lt;li&gt;Servidor - Cliente&lt;/li&gt;
+  &lt;li&gt;Navegador&lt;/li&gt;
+  &lt;li&gt;URL&lt;/li&gt;
+  &lt;li&gt;Dominio&lt;/li&gt;
+  &lt;li&gt;Hospedaje web&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Internet es una red global interconectada de ordenadores (&lt;strong&gt;inter&lt;/strong&gt;connected &lt;strong&gt;net&lt;/strong&gt;work) que se comunican entre sí a partir de cables de fibra óptica (&lt;em&gt;fiberoptic cables&lt;/em&gt;), y al interior de los cuales “viajan” los datos.&lt;/p&gt;
+
+&lt;p&gt;Para que esta comunicación pueda establecerse se asigna a cada uno de los ordenadores una dirección IP (&lt;em&gt;Internet Protocol address&lt;/em&gt;) que permite identificarlo de manera inequívoca a escala global. Vuestro ordernador, cada vez que se conecta a internet, tiene una dirección IP que lo identifica de manera única y que normalmente está relacionada con la red que se está usando. Imaginaros que se trata de una especie de Documento de Identidad que permite a un individuo, en este caso un ordenador, formar parte de la sociedad y poder desarrolar sus actividades diarias.&lt;/p&gt;
+
+&lt;p&gt;Las IP o direcciones de internet tienen una forma concreta: &lt;strong&gt;nnn.nnn.nnn.nnn&lt;/strong&gt;, donde “nnn” puede ser cualquier número entre 0 y 255. Estas son las llamadas &lt;a href=&quot;https://es.wikipedia.org/wiki/IPv4&quot;&gt;IPv4&lt;/a&gt;; hoy en día ya han aparecido las &lt;a href=&quot;https://es.wikipedia.org/wiki/IPv6&quot;&gt;IPv6&lt;/a&gt; que tienen un formato de ocho grupos de cuatro dígitos hexadecimeales, por ejemplo &lt;code class=&quot;highlighter-rouge&quot;&gt;2001:0db8:85a3:08d3:1319:8a2e:0370:7334&lt;/code&gt;. Para consultar vuestra IP podéis acceder a servicios en línea como &lt;a href=&quot;http://whatismyipaddress.com/&quot;&gt;http://whatismyipaddress.com/&lt;/a&gt; o escribir &lt;code class=&quot;highlighter-rouge&quot;&gt;ifconfig&lt;/code&gt; en la línea de comandos.&lt;/p&gt;
+
+&lt;p&gt;Algunos de estos ordenadores son a su vez o funcionan como &lt;a href=&quot;https://es.wikipedia.org/wiki/Servidor_web&quot;&gt;servidores web&lt;/a&gt; mientras que otros son clientes, es decir, los primeros contienen y sirven contenidos (páginas web), y los otros son dispositivos clientes que solicitan información y que pueden ser ordenadores, tabletas, móbiles, etc. En muchos casos un ordenador funciona a su vez como servidor. Debéis imaginar los servidores como máquinas que albergan datos.&lt;/p&gt;
+
+&lt;p&gt;Cada ordenador pues tiene una IP única, así como también cada servidor que alberga las páginas web tiene la suya. Pongamos por caso que queremos saber la dirección IP del servidor que alberga la página web de la University of Miami. Hay muchos servicios que nos la pueden proporcionar, como &lt;a href=&quot;https://www.iplocation.net/&quot;&gt;IP Location&lt;/a&gt;, donde se nos dice que es 129.171.32.100. En la línea de comandos, podemos utilizar el comando &lt;code class=&quot;highlighter-rouge&quot;&gt;PING&lt;/code&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;PING www.miami.edu&lt;/code&gt; que nos dará la IP del servidor en el que se hospeda: 129.171.32.100. Y de hecho, si visitáis desde vuestro navegador la IP &lt;a href=&quot;http://129.171.32.100/&quot;&gt;http://129.171.32.100/&lt;/a&gt; veréis el mismo contenido o algo similar a la URL que ya conocéis &lt;a href=&quot;http://www.miami.edu&quot;&gt;http://www.miami.edu&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;La red que usamos la proporciona un proveedor de servicios de internet (&lt;em&gt;Internet Service Providers&lt;/em&gt;) y esta es lo que nos permite funcionar tanto como cliente como servidor.&lt;/p&gt;
+
+&lt;p&gt;Una vez se ha establecido la conexión a internet, entra en juego el navegador (&lt;em&gt;browser&lt;/em&gt;) que es una aplicación o programa del lado cliente que permite interrogar páginas web y recibir datos bajo forma de página web.&lt;/p&gt;
+
+&lt;p&gt;Cuando nosotros escribimos una dirección &lt;a href=&quot;https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme&quot;&gt;URL&lt;/a&gt; (&lt;em&gt;Uniform Resource Locator&lt;/em&gt; o Localizador de recursos uniforme) en nuestro navegador, en realidad estamos apuntando a una dirección IP. Entonces, una vez se ha localizado la dirección IP, el navegador abre una conexión para intentar conectarse al servidor web. Se abre así la comunicación entre el navegador y el servidor, y podemos consultar las páginas en cuestión. Para ver la ruta que los paquetes de información toman, podemos utilizar en la línea de comandos &lt;code class=&quot;highlighter-rouge&quot;&gt;traceroute&lt;/code&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;traceroute www.miami.edu&lt;/code&gt;, veremos por dónde y hacia dónde viajan los datos.&lt;/p&gt;
+
+&lt;p&gt;En este punto del proceso, entendemos pues que los ordenadores o servidores se comunican a partir de su IP. Estas IP, generalmente, están asociadas a un nombre de dominio. Para asegurar que cada IP corresponde al dominio escogido existe el  &lt;strong&gt;DNS&lt;/strong&gt; (&lt;em&gt;Domain Name Service&lt;/em&gt;), un servicio que empareja (&lt;em&gt;match&lt;/em&gt;) las direcciones IP con los nombres de dominio, una especie de guía telefónica con los nombres y los números de teléfono.&lt;/p&gt;
+
+&lt;p&gt;A continuación, para que la consulta pueda mandarse a través de la conexión internet, debe seguir unas reglas y un protocolo. ¡Deben hablar una misma lengua para entenderse! El protocolo es el de transfernecia de hipertexto conocido como &lt;a href=&quot;https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto&quot;&gt;HTTP&lt;/a&gt; (&lt;em&gt;Hypertext Transfer Protocol&lt;/em&gt;) y las reglas &lt;a href=&quot;https://es.wikipedia.org/wiki/Modelo_TCP/IP&quot;&gt;TCP/IP&lt;/a&gt;. HTTP es el protocolo que los navegadores web y los servidores web utilizan para comunicarse unos con otros en internet.&lt;/p&gt;
+
+&lt;p&gt;En el medio del camino están también los ruteadores o routers que adminstran el tráfico de una conexión a internet, abriendo y cerrando los &lt;a href=&quot;https://es.wikipedia.org/wiki/Puerto_de_red&quot;&gt;puertos&lt;/a&gt; de entrada hacia las diferentes IP.&lt;/p&gt;
+
+&lt;p&gt;¿Os habéis preguntado cuántos puertos tiene vuestro ordenador? Para saber cuántos puertos existen podéis escribir en vuestro terminal &lt;code class=&quot;highlighter-rouge&quot;&gt;grep -v '^#' /etc/services | wc -l&lt;/code&gt; y para una descripción de los mismos: &lt;code class=&quot;highlighter-rouge&quot;&gt;less /etc/services&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cuando se reciben los paquetes de datos necesarios que necesita el cliente para visualizar los contenidos, estos llegan en forma de HTML, CSS, Javascript y imágenes. Así es cómo finalmente vemos la página web que hemos solicitado.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dominios&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Al tener cada máquina o servidor una IP, sería algo fastidioso navegar por internet a través de estos números, además de complicar la memorización de las páginas que queremos visitar. Es más fácil recordar &lt;a href=&quot;http://www.miami.edu&quot;&gt;http://www.miami.edu&lt;/a&gt; que &lt;a href=&quot;http://129.171.32.100&quot;&gt;http://129.171.32.100&lt;/a&gt;. Por ello, existen los dominios web, nombres únicos que sirven para identificar el sitio web en internet. Y como hemos dicho, lo que conecta una IP con un nombre de dominio son los DNS.&lt;/p&gt;
+
+&lt;p&gt;Hay que distinguir entre una URL (Uniform Resource Locator) y el nombre del domnio propiamente:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;URL: http://www.miami.edu&lt;/li&gt;
+  &lt;li&gt;Nombre del dominio: www.miami.edu&lt;/li&gt;
+  &lt;li&gt;Nombre de dominio registrado: miami.edu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Existe una institución oficial que se encarga de mantener el registro de todos los dominios, llamada ICANN (Internet Corporation for Assigned Names and Numbers o Corporación de Internet para la Asignación de nombres y números de Dominios), pero en general nosotros como usuarios lo hacemos a través de compañías conocidas como Registrars, como &lt;a href=&quot;https://www.godaddy.com/&quot;&gt;GoDdady&lt;/a&gt;, &lt;a href=&quot;https://www.dynadot.com/&quot;&gt;dynadot&lt;/a&gt;, &lt;a href=&quot;https://www.name.com/&quot;&gt;name.com&lt;/a&gt;, &lt;a href=&quot;https://www.1and1.com/&quot;&gt;1and1.com&lt;/a&gt;, &lt;a href=&quot;https://domains.google/#/&quot;&gt;Google Domains&lt;/a&gt;, que también ofrecen servicio de hospedaje (&lt;em&gt;hosting&lt;/em&gt;). ICANN tiene &lt;a href=&quot;https://www.icann.org/registrar-reports/accredited-list.html&quot;&gt;aquí&lt;/a&gt; una lista de todos los Registrars oficiales.&lt;/p&gt;
+
+&lt;p&gt;Comprar un dominio y comprar hospedaje web son dos cosas diferentes pues, y ambas de pago. El hospedaje web nos permitirá subir y almacenar nuestra página web o cualquier tipo de datos en un servidor con una IP específica. Todas estas compañías ofrecen además el servicio del DNS y se encargan por tanto de unir el domnio que hemos elegido con la IP asignada por la compañía Registrar.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Servicio de hospedaje web&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;En general, para subir los ficheros que deseamos a la web utilizaremos una aplicación FTP (&lt;em&gt;File Transfer Protocol&lt;/em&gt;), como por ejemplo &lt;a href=&quot;https://filezilla-project.org/&quot;&gt;Filezilla&lt;/a&gt; o &lt;a href=&quot;https://cyberduck.io/?l=en&quot;&gt;Cyberduck&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Para conocer quien es que hospeda una página, podemos consultar en la línea de comandos &lt;code class=&quot;highlighter-rouge&quot;&gt;host www.example.com&lt;/code&gt; y conocer la dirección IP de un domnio.&lt;/p&gt;
+
+&lt;p&gt;En los últimos años, la plataforma &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; ha revolucionado en parte el mundo del hospedaje web permitiendo que publiquemos en línea de manera gratuita a través de &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Provad vosotros mismos los comandos:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dig&lt;/code&gt; - Domain Information Groper sirve para interrogar los servidores nombres DNS.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ping&lt;/code&gt;- Comprueba que el dominio está en línea y qué dirección tiene&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;host&lt;/code&gt;- realiza una búsqueda del DNS y su correspondiente IP.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Servidor local&lt;/strong&gt;
+Aunque parezca una obviedad decirlo, no todo lo que aparece en un navegador web procede o se encuentra en internet. Cualquier fichero HTML se nos abrirá y lo podremos visualizar en nuestro navegador, ya sea que esté en internet o sólo en nuestro ordenador. Por eso es muy importante que diferenciéis entre un servidor web y un servidor local, como trabajar en línea o trabajar en local.&lt;/p&gt;
+
+&lt;p&gt;Antes de subir nuestra página a internet, lo más normal es que la creemos en local, es decir, que sólo exista en nuestro ordenador.&lt;/p&gt;
+
+&lt;p&gt;Para ello, os será muy útil activaros vuestro &lt;code class=&quot;highlighter-rouge&quot;&gt;localhost&lt;/code&gt; y trabajar desde aquí. Para los que trabajáis con MAC, podéis seguir este tutorial: &lt;a href=&quot;https://discussions.apple.com/docs/DOC-11238&quot;&gt;https://discussions.apple.com/docs/DOC-11238&lt;/a&gt; para activar el sevidor &lt;a href=&quot;http://localhost/~username/&quot;&gt;http://localhost/~username/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Trabajar con un servidor local es imprescindible si se usan tecnologías algo más sofisticadas, como PHP, Java, etc. o si utilizamos CMS como &lt;a href=&quot;https://wordpress.org/&quot;&gt;Wordpress&lt;/a&gt;, &lt;a href=&quot;https://www.drupal.org/&quot;&gt;Drupal&lt;/a&gt;, &lt;a href=&quot;https://omeka.org/&quot;&gt;Omeka&lt;/a&gt; o generadores dinámicos de páginas web como &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;entender-una-pgina-web&quot;&gt;2.2. Entender una página web&lt;/h2&gt;
+
+&lt;p&gt;¿Y qué hay detrás de una página web? En el artículo &lt;a href=&quot;https://programminghistorian.org/es/lecciones/ver-archivos-html&quot;&gt;Para entender páginas web y HTML&lt;/a&gt; habéis visto cómo visualizar el código fuente de una página web, el HTML.&lt;/p&gt;
+
+&lt;p&gt;En Firefox:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Herramientas&lt;/code&gt; &amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Desarrollador web&lt;/code&gt;&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Código&lt;/code&gt; o bien 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Tools&lt;/code&gt;&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Web Developer&lt;/code&gt; &amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Page source&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;En Chrome, es suficiente hacer click derecho en &lt;code class=&quot;highlighter-rouge&quot;&gt;View page source&lt;/code&gt; para ver todo el código completo de la página.&lt;/p&gt;
+
+&lt;p&gt;Una página web, como habéis visto, puede ser en su expresión mínima un sólo fichero con la extensión &lt;code class=&quot;highlighter-rouge&quot;&gt;.html&lt;/code&gt;. A partir del ejemplo &lt;code class=&quot;highlighter-rouge&quot;&gt;hola-mundo.html&lt;/code&gt; que habéis realizado, podéis comprobar como se visualiza la página en vuestro navegador:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;dir=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ltr&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;es-ES&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Content-Type&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/html; charset=utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Inserta aquí el título --&amp;gt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Inserta aquí el contenido --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Una vez guardado el fichero, si hacéis doble click se os abrirá por defecto en vuestro navegador. Si no, podéis abrirlo desde el mismo navegador, &lt;code class=&quot;highlighter-rouge&quot;&gt;Archivo&lt;/code&gt;&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Abrir archivo&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;File&lt;/code&gt;&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Open File&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;Podéis empezar a practicar HTML en los tutoriales siguientes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.w3schools.com/html/default.asp&quot;&gt;W3Schools HTML tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.w3schools.com/html/html5_intro.asp&quot;&gt;W3Schools HTML5 tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Otras referencias sobre el funcionamiento de internet:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rus Shuler, &lt;a href=&quot;https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm&quot;&gt;How Does the Internet Work?&lt;/a&gt;, Pomeroy IT Solutions, 2002.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.internetsociety.org/es/c%C3%B3mo-funciona&quot;&gt;Cómo funciona Internet&lt;/a&gt;, Internet Society&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.areatecnologia.com/informatica/como-funciona-internet.html&quot;&gt;Cómo funciona internet&lt;/a&gt;, Area Tecnología.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Susanna Allés Torrent</name></author><summary type="html">2. Creación y tecnologías web</summary></entry><entry><title type="html">El lenguaje de la web HTML y CSS</title><link href="http://localhost:4000/2017/08/25/HTML.html" rel="alternate" type="text/html" title="El lenguaje de la web HTML y CSS" /><published>2017-08-25T00:00:00-04:00</published><updated>2017-08-25T00:00:00-04:00</updated><id>http://localhost:4000/2017/08/25/HTML</id><content type="html" xml:base="http://localhost:4000/2017/08/25/HTML.html">&lt;p&gt;El lenguaje de marcado con el que se crean las páginas web es el HTML HyperText Markup Language. Se llama hipertexto porqué es simplemente un texto que contiene links. Cuando abrís vuestro navegador, en realidad estáis viendo el resultado del código en el que está escrito la página. Las secciones, los títulos, los menús, los colores no existen como tal, como en un documento impreso, sino que es código.&lt;/p&gt;
+
+&lt;p&gt;El HTML es lo que determina la estructura de la página, mientras que el diseño se delega a otro lenguaje: CSS que corresponde a Cascading Style Sheet.&lt;/p&gt;
+
+&lt;p&gt;Para empezar podemos crear una página de prueba. Podéis hacerlo de la siguiente manera:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Abrid el terminal&lt;/li&gt;
+  &lt;li&gt;Cread una nueva carpeta llamada, por ejemplo, HTML: &lt;code class=&quot;highlighter-rouge&quot;&gt;mkdir HTML&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Cread un nuevo documento html: &lt;code class=&quot;highlighter-rouge&quot;&gt;touch prueba1.html&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para manipular el fichero HTML necesitaremos un editor de texto, os podéis bajar Bbedit o Notepad++, por ejemplo.&lt;/p&gt;
+
+&lt;p&gt;Una página web estática es un conjunto de archivos HTML que están ubicados en un servidor. Por lo general se estructura con carpetas diferentes, una para cada tipo de archivo y/o sección. Por ejemplo,&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/html1.png&quot; alt=&quot;Estructura página HTML&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Imaginemos que tenemos una página que se llama “cursos” y que en su interior tenemos una página de bienvenida (&lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;, que abre el navegador por defecto), y tres diferentes links que nos llevan a tres carpetas diferentes. Imaginemos ahora que navegando llegamos a la página &lt;code class=&quot;highlighter-rouge&quot;&gt;emperadores.html&lt;/code&gt;; en el navegador aparecerá:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/html2.png&quot; alt=&quot;Estructura página HTML&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;El funcionamiento es exactamente el mismo que cuando navegamos por nuestro Finder, de manera que si queremos modificar una página en concreto, deberemos abrir y manipular ese archivo, en este caso &lt;code class=&quot;highlighter-rouge&quot;&gt;emperadores.html&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;html&quot;&gt;HTML&lt;/h3&gt;
+
+&lt;p&gt;El lenguaje HTML tiene su propia sintaxis, donde el elemento principal son las etiquetas (tags) que se componen de una etiqueta de inicio &amp;lt;&amp;gt; (opening tag) y una etiqueta de cierre &amp;lt;/&amp;gt; (closing tag). Las etiquetas se anidan unas dentro de las otras, como si fueran un árbol genealógico. Recordad: todo lo que se abre se cierra.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;etiqueta1&amp;gt;
+    &amp;lt;etqueta2&amp;gt;
+       &amp;lt;etiqueta3&amp;gt;Esto es el contenido&amp;lt;/etiqueta3&amp;gt;
+    &amp;lt;/etqueta2&amp;gt;
+&amp;lt;/etiqueta1&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Hay algunos conceptos preliminares a retener:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Una etiqueta se compone del elemento (o nombre), y a veces de un atributo que conlleva obligatoriamente un valor:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;elemento atributo=“valor”&amp;gt;contenido&amp;lt;/elemento&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A veces una etiqueta puede estar vacía, es decir, no tener contenido y se señala así: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;etiqueta/&amp;gt;&lt;/code&gt;. En HTML es el caso, por ejemplo, de los saltos de línea &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br/&amp;gt;&lt;/code&gt; o de las imágenes &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img/&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;El documento HTML se compone de diversas secciones obligatorias:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;&lt;/code&gt; Indica al navegador que el tipo de documento es html&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;&lt;/code&gt; es la etiqueta que englobará todo el contenido, tanto el - &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; como el &amp;lt;body&amp;gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; comprende todas las informaciones del fichero que no aparecerán en el navegador&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&lt;/code&gt; es el título que aparece en la pestaña del navegador&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; es propiamente el cuerpo de la página, lo que sí veremos, por tanto, en el navegador.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La estructura de cualquier documento es la siguiente:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+   	 &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Título de mi página&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;estructuras-y-elementos-html-bsicos&quot;&gt;Estructuras y elementos HTML básicos:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; se utiliza para crear párrafos&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h2&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h3&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h4&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h5&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; sirven para señalar los títulos, de mayor a menor&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a href= “www.enlace.html”&amp;gt;el link&amp;lt;/a&amp;gt;&lt;/code&gt; La etiqueta &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; sirve para crear todo tipo de enlaces&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img scr=“localizacionURL”&amp;gt;&lt;/code&gt; para inserir imágenes al interno de la página. Este elemento debe contener un atributo scr que debe contener la localización del fichero de la imagen.
+Si quisiéramos convertir nuestra imagen en un link, no tendríamos más que anidar la imagen al interno de una etiqueta &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt;: 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a href=&quot;http://www.direccion.com&quot;&amp;gt;&amp;lt;img src=&quot;imagen.png&quot;/&amp;gt;&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;para-crear-listas&quot;&gt;Para crear listas:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ol&amp;gt;&lt;/code&gt; ordered lists, creará una lista numérica; en su interior se anidaran los ítems&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ul&amp;gt;&lt;/code&gt; unordered list,  creará una lista; en su interior se anidaran los ítems&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;li&amp;gt;&lt;/code&gt; list item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Las listas se pueden anidar unas dentro de las otras, por ejemplo:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;ol&amp;gt;
+      &amp;lt;li&amp;gt;item&amp;lt;/li&amp;gt;
+          &amp;lt;ul&amp;gt;
+             &amp;lt;li&amp;gt;subitem&amp;lt;/li&amp;gt;
+          &amp;lt;/ul&amp;gt;
+      &amp;lt;li&amp;gt;item&amp;lt;/li&amp;gt;
+      &amp;lt;li&amp;gt;item&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Comentar el código es siempre muy importante, para ello podemos utilizar una etiqueta especial que no nos aparecerá en el navegador: 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!-- comentario --&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;typografas-simples&quot;&gt;Typografías simples&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&lt;/code&gt; - negrita&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;em&amp;gt;&lt;/code&gt; - cursiva&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;i&amp;gt;&lt;/code&gt; - cursiva&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;tablas&quot;&gt;Tablas&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;table&amp;gt;&lt;/code&gt;
+	&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;tr&amp;gt;&lt;/code&gt; (table row) corresponde a las  filas 
+	&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;td&amp;gt;&lt;/code&gt; (table data) corresponde a las columnas&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;table border=&quot;1px&quot;&amp;gt;
+        	&amp;lt;tr&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 1: Columna 1&amp;lt;/td&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 1: Columna 2&amp;lt;/td&amp;gt;	 
+        	&amp;lt;/tr&amp;gt;
+       	 
+        	&amp;lt;tr&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 2: Columna 1&amp;lt;/td&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 2: Columna 2&amp;lt;/td&amp;gt;
+           	 
+        	&amp;lt;/tr&amp;gt;
+       	 
+        	&amp;lt;tr&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 3: Columna 1&amp;lt;/td&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 3: Columna 2&amp;lt;/td&amp;gt;
+           	 
+        	&amp;lt;/tr&amp;gt;
+ &amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Opcionalmente podemos utilizar:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;thead&amp;gt;&lt;/code&gt; Para el título, que contiene &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;tr&amp;gt;&lt;/code&gt; y &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;th&amp;gt;&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;tbody&amp;gt;&lt;/code&gt; Para los datos de la tabla&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;table border=&quot;1px&quot;&amp;gt;
+      &amp;lt;thead&amp;gt;
+           &amp;lt;tr&amp;gt;
+			&amp;lt;th&amp;gt;Título columna 1&amp;lt;/th&amp;gt;
+			&amp;lt;th&amp;gt;Título columna 2&amp;lt;/th&amp;gt;
+ 	&amp;lt;/tr&amp;gt; 
+      &amp;lt;/thead&amp;gt;
+      &amp;lt;tbody&amp;gt;
+        	&amp;lt;tr&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 1: Columna 1&amp;lt;/td&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 1: Columna 2&amp;lt;/td&amp;gt;	 
+        	&amp;lt;/tr&amp;gt;
+       	 
+        	&amp;lt;tr&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 2: Columna 1&amp;lt;/td&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 2: Columna 2&amp;lt;/td&amp;gt;
+           	 
+        	&amp;lt;/tr&amp;gt;
+       	 
+        	&amp;lt;tr&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 3: Columna 1&amp;lt;/td&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 3: Columna 2&amp;lt;/td&amp;gt;
+           	 
+        	&amp;lt;/tr&amp;gt;
+       &amp;lt;/tbody&amp;gt;
+ &amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Si queremos combinar celdas usaremos &lt;code class=&quot;highlighter-rouge&quot;&gt;colspan&lt;/code&gt; seguido del signo &lt;code class=&quot;highlighter-rouge&quot;&gt;=&lt;/code&gt; y entre comillas el número de celdas a combinar:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;thead&amp;gt;
+	&amp;lt;tr&amp;gt;
+		&amp;lt;th colspan=”2”&amp;gt;Título columna 1&amp;lt;/th&amp;gt;
+	&amp;lt;/tr&amp;gt; 
+&amp;lt;/thead&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;divisiones&quot;&gt;Divisiones&lt;/h4&gt;
+&lt;p&gt;Las divisiones es uno de los elementos más importantes y se utiliza para crear divisiones en la página: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Podéis realizar una primera prueba añadiendo ancho y alto de la división, y también color:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div style=&quot;width:50px; height:50px; background-color:red&quot;&amp;gt;&amp;lt;/div&amp;gt;
+
+&amp;lt;div style=&quot;width:50px; height:50px; background-color:blue&quot;&amp;gt;&amp;lt;/div&amp;gt;
+
+&amp;lt;div style=&quot;width:50px; height:50px; background-color:green&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;span&quot;&gt;Span&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&lt;/code&gt; Para dar estilo a pequeñas partes de la página (por ej. palabras o grupo de palabras).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;algunos-tutoriales-tiles&quot;&gt;Algunos tutoriales útiles:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/tracks/web&quot;&gt;Codecademy: HTML &amp;amp; CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.w3schools.com/html/&quot;&gt;W3Schools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;css-estilo&quot;&gt;CSS: Estilo&lt;/h3&gt;
+
+&lt;p&gt;Para dar estilo a una página podemos proceder de tres maneras distintas:&lt;/p&gt;
+
+&lt;p&gt;I. Inserir la orden de diseño al interno de las etiquetas. 
+Ej. &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p style=“font-size:12px”&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;II. Añadir dentro del &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; el código CSS, de la siguiente manera:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;head&amp;gt;
+	&amp;lt;title&amp;gt;Título de la página&amp;lt;/title&amp;gt;
+	&amp;lt;style type= “text/css”&amp;gt;
+	(...)
+	&amp;lt;/style&amp;gt;
+&amp;lt;/head&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;III. Crear un fichero diferente que contenga todas las instrucciones CSS: &lt;code class=&quot;highlighter-rouge&quot;&gt;fichero.css&lt;/code&gt; que se señalará en el &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; del documento HTML:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;hoja_estilo.css&quot; /&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;La opción más utilizada es la III, pues si creamos, pongamos por caso, un sitio web estático no deberemos cambiar las órdenes cada vez que creemos una página o fichero HTML, sino que todas las instrucciones estarán en un fichero separado y lo deberemos cambiar una sola vez.&lt;/p&gt;
+
+&lt;p&gt;La sintaxis de las CSS es sencillo pero puede llegar a complicarse bastante. La estructura básica de una regla CSS es la siguiente:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;selector{
+propiedad: valor; 
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;El selector puede ser cualquier etiqueta o elemento HTML o bien cualquier clase o identificador. La propiedad es la característica que quiere modificarse, como el color de fondo o de la fuente, el tamaño y familia de la fuente, etc. Mientras que el valor es propiamente el aspecto particular que queremos dar a ese o esos elementos HTML.&lt;/p&gt;
+
+&lt;p&gt;Los comentarios al interno de las CSS se señalan así: 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;/* Comentario */&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Veamos qué comandos son los más básicos:&lt;/p&gt;
+
+&lt;h4 id=&quot;fuentes-de-letras&quot;&gt;Fuentes de letras:&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;font-size: Xpx;&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Familias de fuente (Arial, Verdana, Impact, … ):
+&lt;code class=&quot;highlighter-rouge&quot;&gt;font-family: Arial;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hay diferentes tipos de letras: serif, sans-serif, cursive… cada ordenador tiene las suyas. Normalmente se opta por ofrecer diversas fuentes, en caso que la máquina no tenga la primera, pasa a la segunda:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;font-family: Tahoma, Verdana, sans-serif;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Las medidas pueden darse en píxeles &lt;code class=&quot;highlighter-rouge&quot;&gt;px&lt;/code&gt; (ej. &lt;code class=&quot;highlighter-rouge&quot;&gt;font-size:15px;&lt;/code&gt;) y establecer un tamaño fijo, o bien en em que otorga un tamaño relativo a la pantalla: &lt;code class=&quot;highlighter-rouge&quot;&gt;1em&lt;/code&gt; corresponde al tamaño por defecto, &lt;code class=&quot;highlighter-rouge&quot;&gt;0.5em&lt;/code&gt; a la mitad del tamaño, y &lt;code class=&quot;highlighter-rouge&quot;&gt;2em&lt;/code&gt; al doble.&lt;/p&gt;
+
+&lt;h4 id=&quot;colores&quot;&gt;Colores:&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;color: green;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Los colores pueden expresarse de diferentes formas:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;colores sencillos con sus nombres: &lt;code class=&quot;highlighter-rouge&quot;&gt;black&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;pink&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;violet&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;green&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;yellow&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;con valores hexadecimales (# y 6 dígitos). Vid. &lt;a href=&quot;https://www.w3schools.com/colors/colors_picker.asp&quot;&gt;HTML Color Picker&lt;/a&gt;.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;background-color: red;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;justificacin-del-texto&quot;&gt;Justificación del texto:&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;text-align:center;&lt;/code&gt;
+center, right, left&lt;/p&gt;
+
+&lt;h4 id=&quot;tamaos&quot;&gt;Tamaños:&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;height:&lt;/code&gt; la altura se expresa en píxeles
+&lt;code class=&quot;highlighter-rouge&quot;&gt;width:&lt;/code&gt; el ancho también se expresa en píxeles&lt;/p&gt;
+
+&lt;p&gt;Es útil especialmente para las div:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;div{
+	background-color:#cc0000;
+	height:100px;
+	width:100px;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;decoracin-del-texto&quot;&gt;Decoración del texto:&lt;/h4&gt;
+
+&lt;p&gt;Podemos dar un tipo especial a determinados elementos. Por ejemplo, en el caso de los links, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt;, podemos señalar de qué color lo queremos y si debe ir subrayado o no:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a{
+	text-decoration: none;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;bordes&quot;&gt;Bordes:&lt;/h4&gt;
+&lt;p&gt;Especialmente en las tablas, aunque también en los elementos &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt;,  es útil utilizar los bordes. Por ejemplo, si tenemos una tabla:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;selector{
+	border: 1px solid black;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;border-radius:&lt;/code&gt; para redondear los bordes&lt;/p&gt;
+
+&lt;p&gt;Las reglas CSS pueden y deben darse de manera general, sin necesidad de añadir el atributo style a cada etiqueta. Para ello utilizaremos los atributos &lt;code class=&quot;highlighter-rouge&quot;&gt;@class&lt;/code&gt; y &lt;code class=&quot;highlighter-rouge&quot;&gt;@id&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;@class&lt;/code&gt; sirve para dar estilo a una clase de elementos que comparten una serie de características.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;@id&lt;/code&gt; sirve para dar un identifador único y por tanto otorogar una serie de características propias.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Por ejemplo:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div class=“texto”&amp;gt;&lt;/code&gt; suponemos que hay más de una &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; que queremos con las mismas características. En la CSS deberíamos señalarlo así, por ejemplo:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.texto{
+	font-size:15px;
+	font-family:Arial;
+	color:blue;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Mientras que una &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div id= “contenedor”&amp;gt;&lt;/code&gt; señala que es la única en todo el documento que habrá unas características concretas. En la CSS se reflejaría con el símbolo &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#contenedor{
+	background-color: yellow;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;pseudo-selectores&quot;&gt;Pseudo-selectores&lt;/h4&gt;
+&lt;p&gt;Muy utilizado cuando queremos modificar parcialmente el comportamiento de un elemento, como en los links. Hay tres tipos diferentes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;a:link:&lt;/code&gt; link que no se ha todavía consultado&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;a:visited:&lt;/code&gt; link consultado&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;a:hover:&lt;/code&gt; cuando pasamos el cursor por encima.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;selector:pseudo-class-selector{
+	propiedad:valor}
+
+a:hover {
+    color: #cc0000;
+    font-weight: bold;
+    text-decoration: none;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;posicin-de-los-elementos-div&quot;&gt;Posición de los elementos &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Apariencia:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;display&lt;/code&gt; puede contener 5 valores:&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;block&lt;/code&gt;: los sitúa en bloque&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;inline-block&lt;/code&gt;: los sitúa en bloque sin sus medidas originales&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;inline&lt;/code&gt;:los sitúa en bloque sin sus medidas originales&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;none&lt;/code&gt;: desaparecen&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Margen:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;margin&lt;/code&gt;: espacio que hay fuera del elemento&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;margin-top: /*some value*/&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;margin-right: /*some value*/&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;margin-bottom: /*some value*/&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;margin-left: /*some-value*/&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pueden marcarse todos a la vez empezando por el de arriba: &lt;code class=&quot;highlighter-rouge&quot;&gt;margin: 1px 2px 3px 4px;&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;border&lt;/code&gt;: el borde es lo que delimita el elemento propiamente dicho&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;padding&lt;/code&gt;: es el espacio entre el contenido y el borde&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Floatting:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;float:right&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;float:left;&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Position: Hay cuatro tipos de posición:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;absolute&lt;/code&gt;: se posiciona en relación al primer elemento padre que no tiene &lt;code class=&quot;highlighter-rouge&quot;&gt;position:static&lt;/code&gt;; si no hay tal elemento, el elemento con posición absoluta se coloca en relación al elemento &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;&lt;/code&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;: La posición por defecto es &lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;relative&lt;/code&gt;: es la más utilizada&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fixed&lt;/code&gt;: para fijar un elemento en la pantalla (los menús por ejemplo)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Actualmente existen diferentes opciones para construir un sitio web estático. &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt; y &lt;a href=&quot;http://foundation.zurb.com/&quot;&gt;Foundation&lt;/a&gt; son dos de ellos, así como &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;</content><author><name>Susanna Allés Torrent</name></author><summary type="html">El lenguaje de marcado con el que se crean las páginas web es el HTML HyperText Markup Language. Se llama hipertexto porqué es simplemente un texto que contiene links. Cuando abrís vuestro navegador, en realidad estáis viendo el resultado del código en el que está escrito la página. Las secciones, los títulos, los menús, los colores no existen como tal, como en un documento impreso, sino que es código.
+
+El HTML es lo que determina la estructura de la página, mientras que el diseño se delega a otro lenguaje: CSS que corresponde a Cascading Style Sheet.
+
+Para empezar podemos crear una página de prueba. Podéis hacerlo de la siguiente manera:
+
+
+  Abrid el terminal
+  Cread una nueva carpeta llamada, por ejemplo, HTML: mkdir HTML
+  Cread un nuevo documento html: touch prueba1.html
+
+
+Para manipular el fichero HTML necesitaremos un editor de texto, os podéis bajar Bbedit o Notepad++, por ejemplo.
+
+Una página web estática es un conjunto de archivos HTML que están ubicados en un servidor. Por lo general se estructura con carpetas diferentes, una para cada tipo de archivo y/o sección. Por ejemplo,
+
+
+
+Imaginemos que tenemos una página que se llama “cursos” y que en su interior tenemos una página de bienvenida (index.html, que abre el navegador por defecto), y tres diferentes links que nos llevan a tres carpetas diferentes. Imaginemos ahora que navegando llegamos a la página emperadores.html; en el navegador aparecerá:
+
+
+
+El funcionamiento es exactamente el mismo que cuando navegamos por nuestro Finder, de manera que si queremos modificar una página en concreto, deberemos abrir y manipular ese archivo, en este caso emperadores.html.
+
+HTML
+
+El lenguaje HTML tiene su propia sintaxis, donde el elemento principal son las etiquetas (tags) que se componen de una etiqueta de inicio &amp;lt;&amp;gt; (opening tag) y una etiqueta de cierre &amp;lt;/&amp;gt; (closing tag). Las etiquetas se anidan unas dentro de las otras, como si fueran un árbol genealógico. Recordad: todo lo que se abre se cierra.
+
+&amp;lt;etiqueta1&amp;gt;
+    &amp;lt;etqueta2&amp;gt;
+       &amp;lt;etiqueta3&amp;gt;Esto es el contenido&amp;lt;/etiqueta3&amp;gt;
+    &amp;lt;/etqueta2&amp;gt;
+&amp;lt;/etiqueta1&amp;gt;
+
+
+
+Hay algunos conceptos preliminares a retener:
+
+
+  Una etiqueta se compone del elemento (o nombre), y a veces de un atributo que conlleva obligatoriamente un valor:
+
+
+&amp;lt;elemento atributo=“valor”&amp;gt;contenido&amp;lt;/elemento&amp;gt;
+
+
+
+
+  A veces una etiqueta puede estar vacía, es decir, no tener contenido y se señala así: &amp;lt;etiqueta/&amp;gt;. En HTML es el caso, por ejemplo, de los saltos de línea &amp;lt;br/&amp;gt; o de las imágenes &amp;lt;img/&amp;gt;.
+
+
+El documento HTML se compone de diversas secciones obligatorias:
+
+
+  &amp;lt;!DOCTYPE html&amp;gt; Indica al navegador que el tipo de documento es html
+  &amp;lt;html&amp;gt; es la etiqueta que englobará todo el contenido, tanto el - &amp;lt;head&amp;gt; como el &amp;lt;body&amp;gt;
+  &amp;lt;head&amp;gt; comprende todas las informaciones del fichero que no aparecerán en el navegador
+  &amp;lt;title&amp;gt; es el título que aparece en la pestaña del navegador
+  &amp;lt;body&amp;gt; es propiamente el cuerpo de la página, lo que sí veremos, por tanto, en el navegador.
+
+
+La estructura de cualquier documento es la siguiente:
+
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+    &amp;lt;head&amp;gt;
+   	 &amp;lt;title&amp;gt;Título de mi página&amp;lt;/title&amp;gt;
+    &amp;lt;/head&amp;gt;
+    &amp;lt;body&amp;gt;
+    &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+
+
+Estructuras y elementos HTML básicos:
+
+
+  &amp;lt;p&amp;gt; se utiliza para crear párrafos
+  &amp;lt;h1&amp;gt;, &amp;lt;h2&amp;gt;, &amp;lt;h3&amp;gt;, &amp;lt;h4&amp;gt;, &amp;lt;h5&amp;gt;, &amp;lt;h6&amp;gt; sirven para señalar los títulos, de mayor a menor
+  &amp;lt;a href= “www.enlace.html”&amp;gt;el link&amp;lt;/a&amp;gt; La etiqueta &amp;lt;a&amp;gt; sirve para crear todo tipo de enlaces
+  &amp;lt;img scr=“localizacionURL”&amp;gt; para inserir imágenes al interno de la página. Este elemento debe contener un atributo scr que debe contener la localización del fichero de la imagen.
+Si quisiéramos convertir nuestra imagen en un link, no tendríamos más que anidar la imagen al interno de una etiqueta &amp;lt;a&amp;gt;: 
+&amp;lt;a href=&quot;http://www.direccion.com&quot;&amp;gt;&amp;lt;img src=&quot;imagen.png&quot;/&amp;gt;&amp;lt;/a&amp;gt;
+
+
+Para crear listas:
+
+  &amp;lt;ol&amp;gt; ordered lists, creará una lista numérica; en su interior se anidaran los ítems
+  &amp;lt;ul&amp;gt; unordered list,  creará una lista; en su interior se anidaran los ítems
+  &amp;lt;li&amp;gt; list item
+
+
+Las listas se pueden anidar unas dentro de las otras, por ejemplo:
+
+&amp;lt;ol&amp;gt;
+      &amp;lt;li&amp;gt;item&amp;lt;/li&amp;gt;
+          &amp;lt;ul&amp;gt;
+             &amp;lt;li&amp;gt;subitem&amp;lt;/li&amp;gt;
+          &amp;lt;/ul&amp;gt;
+      &amp;lt;li&amp;gt;item&amp;lt;/li&amp;gt;
+      &amp;lt;li&amp;gt;item&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+
+
+
+Comentar el código es siempre muy importante, para ello podemos utilizar una etiqueta especial que no nos aparecerá en el navegador: 
+&amp;lt;!-- comentario --&amp;gt;
+
+Typografías simples
+
+  &amp;lt;strong&amp;gt; - negrita
+  &amp;lt;em&amp;gt; - cursiva
+  &amp;lt;i&amp;gt; - cursiva
+
+
+Tablas
+
+&amp;lt;table&amp;gt;
+	&amp;lt;tr&amp;gt; (table row) corresponde a las  filas 
+	&amp;lt;td&amp;gt; (table data) corresponde a las columnas
+
+&amp;lt;table border=&quot;1px&quot;&amp;gt;
+        	&amp;lt;tr&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 1: Columna 1&amp;lt;/td&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 1: Columna 2&amp;lt;/td&amp;gt;	 
+        	&amp;lt;/tr&amp;gt;
+       	 
+        	&amp;lt;tr&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 2: Columna 1&amp;lt;/td&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 2: Columna 2&amp;lt;/td&amp;gt;
+           	 
+        	&amp;lt;/tr&amp;gt;
+       	 
+        	&amp;lt;tr&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 3: Columna 1&amp;lt;/td&amp;gt;
+            	&amp;lt;td&amp;gt;Fila 3: Columna 2&amp;lt;/td&amp;gt;
+           	 
+        	&amp;lt;/tr&amp;gt;
+ &amp;lt;/table&amp;gt;
+
+
+
+Opcionalmente podemos utilizar:</summary></entry><entry><title type="html">Crear una edición mínima con Jekyll y GitHub Pages</title><link href="http://localhost:4000/workshops/edicion-con-Jekyll.html" rel="alternate" type="text/html" title="Crear una edición mínima con Jekyll y GitHub Pages" /><published>2016-11-07T00:00:00-05:00</published><updated>2016-11-07T00:00:00-05:00</updated><id>http://localhost:4000/workshops/edicion-con-Jekyll</id><content type="html" xml:base="http://localhost:4000/workshops/edicion-con-Jekyll.html">&lt;p&gt;&lt;a href=&quot;http://www.aacademica.org/aahd.congreso/tabs/program?session=58&amp;amp;block=15&amp;amp;vs=814&quot;&gt;Taller&lt;/a&gt;, Martes 8 de noviembre de 2016. Laboratorio 2 (CCGSM). Horario 9:00-11:00hs. 
 En: &lt;a href=&quot;http://www.aacademica.org/aahd.congreso&quot;&gt;I Congreso Internacional. Humanidades Digitales. Construcciones locales en contextos globales&lt;/a&gt;. 7-9 noviembre 2016&lt;/p&gt;
 
 &lt;p&gt;El taller se divide en 4 partes diferentes:&lt;/p&gt;
