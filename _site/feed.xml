@@ -1,4 +1,155 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-20T17:19:06-04:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">SPA 322</title><link href="http://localhost:4000/teaching/SPA322/CommandLine.html" rel="alternate" type="text/html" title="SPA 322" /><published>2017-09-07T00:00:00-04:00</published><updated>2017-09-07T00:00:00-04:00</updated><id>http://localhost:4000/teaching/SPA322/CommandLine</id><content type="html" xml:base="http://localhost:4000/teaching/SPA322/CommandLine.html">&lt;p&gt;Miércoles 30 de agosto de 2017&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-24T21:35:11-04:00</updated><id>http://localhost:4000//</id><title type="html">Susanna Allés Torrent</title><subtitle></subtitle><author><name>Susanna Allés Torrent</name></author><entry><title type="html">Install and Work with Zotero</title><link href="http://localhost:4000/workshops/Zotero.html" rel="alternate" type="text/html" title="Install and Work with Zotero" /><published>2018-09-24T00:00:00-04:00</published><updated>2018-09-24T00:00:00-04:00</updated><id>http://localhost:4000/workshops/Zotero</id><content type="html" xml:base="http://localhost:4000/workshops/Zotero.html">&lt;p&gt;Zotero is a citation managment tool. It is free and multiplatform (Windows, Linux, Mac).&lt;/p&gt;
+
+&lt;p&gt;The last version, Zotero 5.0, is used as an standalone software and it works with Firefox as its primary platform (It can be used with Chrome and Safari but the plugin extension is not completely developed).&lt;/p&gt;
+
+&lt;p&gt;Zotero helps you to “collect, organize, cite, and share research”.&lt;/p&gt;
+
+&lt;p&gt;Zotero works at two different levels:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;as an standalone software on your machines&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/01.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;as an extension for Firefox, connected with your account.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/02.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;frist-steps&quot;&gt;Frist Steps:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Download and Install &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/new/&quot;&gt;Firefox&lt;/a&gt;, if you don’t have it.&lt;/li&gt;
+  &lt;li&gt;Create a username: &lt;a href=&quot;https://www.zotero.org/user/register&quot;&gt;https://www.zotero.org/user/register&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/03.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you are logged in, you can manage your folders and all your items:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/04.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can try to create a folder collection&lt;/p&gt;
+
+&lt;h2 id=&quot;download-zotero&quot;&gt;Download Zotero&lt;/h2&gt;
+
+&lt;p&gt;The best way to use Zotero is an standalone app, as such you can use it even if you don’t have an internet connection:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zotero.org/download/&quot;&gt;Download Zotero 5.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now, you also have to download the Firefox Connector to be able to collect all items that you need for your bibliography:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zotero.org/download/&quot;&gt;Download Zotero Firefox Connector&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you have install the connector you will need to restart your browser, and you will see a litle icon on the top right corner:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/05.png&quot; alt=&quot;Image&quot; /&gt;
+&lt;img src=&quot;../public/img/zotero/06.png&quot; alt=&quot;Image&quot; /&gt;
+&lt;img src=&quot;../public/img/zotero/07.png&quot; alt=&quot;Image&quot; /&gt;
+&lt;img src=&quot;../public/img/zotero/08.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Open your Zotero app, login with your credentials, and start exporting articles, books, etc. that you whish.&lt;/p&gt;
+
+&lt;h2 id=&quot;zotero-is-syncornized&quot;&gt;Zotero is syncornized&lt;/h2&gt;
+&lt;p&gt;Zotero is syncronized with your app and with the online platform. Be sure at the very begining that you login with your credentials, at Zotero &amp;gt; Prefernces&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/09.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If sometimes you need to syncronize it faster or be sure that everything is up to date, click the sync botton in the top right corner of your app:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/10.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;create-a-collection&quot;&gt;Create a Collection&lt;/h2&gt;
+&lt;p&gt;You can create collections from the online platform or from your app.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To create a new collection: &lt;img src=&quot;../public/img/zotero/11.png&quot; alt=&quot;Image&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;collect-bibliographical-items&quot;&gt;Collect bibliographical items&lt;/h2&gt;
+&lt;p&gt;Go to UM catalog library and find some bibliography you need &lt;a href=&quot;https://www.library.miami.edu/&quot;&gt;https://www.library.miami.edu/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Download at least 4.&lt;/li&gt;
+  &lt;li&gt;Visualize in the list: title, Creator, Item Type, Date&lt;/li&gt;
+  &lt;li&gt;Explore the Metadata section: Infos, Notes, Tags, Related&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;add-notes-and-tags&quot;&gt;Add notes, and tags&lt;/h2&gt;
+&lt;p&gt;For each item, you can add personal notes, and also tags or keywords.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/13.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/14.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;collaborate-and-share-bibliography&quot;&gt;Collaborate and share bibliography&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To create a Group collection that will be shared with other people: &lt;img src=&quot;../public/img/zotero/12.png&quot; alt=&quot;Image&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;export-in-different-citation-styles&quot;&gt;Export in different citation styles&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Choose the items you want in your bibliography&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/15.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Choose the style you want (MLA, Chicago, etc.):&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/16.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Save it in rdf format or docx or pdf:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/17.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;And voilà:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/18.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;export-it-directly-to-microsoft-and-liberoffice&quot;&gt;Export it directly to Microsoft and LiberOffice&lt;/h2&gt;
+&lt;p&gt;Last versions of Microsoft Word have the Zotero plugin installed automatically when you install the app. So it is easy as open Word after the installation and you have it:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/19.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While you write, you can add and edit citations in your text. 
+&lt;img src=&quot;../public/img/zotero/20.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For which, a pop-up windwow will appear with all your items: 
+&lt;img src=&quot;../public/img/zotero/21.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And at the end you can create the full bibliography which will be created with the items that you have cited.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/22.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;timelines&quot;&gt;Timelines&lt;/h2&gt;
+&lt;p&gt;You can create a timeline of your bibliography, going to Tools &amp;gt; Create Timeline:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/23.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;and-the-coolest-thing-zotero-api&quot;&gt;And the coolest thing: Zotero API&lt;/h2&gt;
+&lt;p&gt;You can do many things with the API, one of which is to import your bibliography directly to your webpage with a line of code:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;h2&amp;gt;Diachronic Spanish Corpus Linguistics&amp;lt;/h2&amp;gt;
+
+&amp;lt;?php $URL='https://api.zotero.org/users/1167759/collections/GCNLKMRQ/items?format=bib&amp;amp;style=chicago-author-date'; $var=file_get_contents($URL); echo $var?&amp;gt;
+	
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;../public/img/zotero/24.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;</content><author><name>Susanna Allés Torrent</name></author><summary type="html">Zotero is a citation managment tool. It is free and multiplatform (Windows, Linux, Mac).</summary></entry><entry><title type="html">Primeros pasos en la línea de comandos</title><link href="http://localhost:4000/teaching/CommandLine.html" rel="alternate" type="text/html" title="Primeros pasos en la línea de comandos" /><published>2017-09-07T00:00:00-04:00</published><updated>2017-09-07T00:00:00-04:00</updated><id>http://localhost:4000/teaching/CommandLine</id><content type="html" xml:base="http://localhost:4000/teaching/CommandLine.html">&lt;p&gt;Miércoles 30 de agosto de 2017&lt;/p&gt;
 
 &lt;h2 id=&quot;tecnologas-web&quot;&gt;2. Tecnologías web&lt;/h2&gt;
 
