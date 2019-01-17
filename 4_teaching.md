@@ -6,6 +6,7 @@ permalink: /teaching
 
 2016-Present. **University of Miami**
 
+- MLL 726 [War, Love and Storytelling in Medieval and Early Modern Europe](/teaching/MLL726/)
 - MLL 774 [Digital Humanities Practicum](http://susannalles.com/DHPracticum/), Fall 2018
 - SPA 322 Cultural Topics: [Digital Lorca](/teaching/SPA322/), Fall 2017
 - SPA 302 The Culture of Spain, Spring 2017, Spring 2017, Fall 2018

@@ -65,29 +65,37 @@
       <div type="postal">
         <div type="recto">
           <pb facs="../images/Richter/06_1.jpg" n="recto"/>
-          
-            <ab>
-              <placeName>Bayona</placeName> (<placeName>Galicia</placeName>)
-              - Vista General</ab>
+
+          <ab>
+            <placeName>Bayona</placeName> (<placeName>Galicia</placeName>) - Vista General</ab>
         </div>
-          
-          <div type="verso">
-            <pb facs="../images/Richter/06_2.jpg" n="recto"/>
-            <div type="mensaje">
-              <opener>
-                <salute>Queridísimo José María. </salute>
-              </opener>
-              <p>Desde Galicia (Bayona) saludo al ilustre conde de este mar y este <lb/> caserío,
-                hoy con más motivo que nunca pues este título está ya en <lb/> pleno reino
-                poético.</p>
-              <closer>
-                <salute>Adiós José María. Aquí he venido con la Barraca.</salute>
-                <salute>Un abrazo muy fuerte de tu siempre </salute>
-                <signed>Federico</signed>
-              </closer>
-            </div>
+        
+        <div type="verso">
+          <pb facs="../images/Richter/06_2.jpg" n="recto"/>
+          <div type="mensaje">
+            <opener>
+              <salute>Queridísimo 
+                José María. </salute>
+            </opener>
+            <p>Desde Galicia (Bayona) 
+              saludo al ilustre conde 
+              de este mar y este <lb/> 
+              caserío, hoy con más 
+              motivo que nunca 
+              pues este título está 
+              ya en <lb/> pleno reino
+              poético.</p>
+            <closer>
+              <salute>Adiós José María.
+                Aquí he venido con 
+                la Barraca.</salute>
+              <salute>Un abrazo muy 
+                fuerte de tu siempre </salute>
+              <signed>Federico</signed>
+            </closer>
           </div>
-          
+        </div>
+
       </div>
     </body>
   </text>
