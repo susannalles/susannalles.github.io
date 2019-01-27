@@ -21,9 +21,9 @@ The Old French *Chanson de Roland* is one of the most famous epic poems from the
 
 ### Primary Texts: 
 
-* The Song of Roland, Oxford World’s Classics. Trans. Simon Gaunt and Karen Pratt. Oxford: Oxford University Press, 2017.
-* [*The Song of Roland*. Trans. with an introduction and notes by Glyn Burgess. London: Penguin Books, 1990](https://archive.org/details/songofroland00burg). 
-* Chrétien de Troyes, Arthurian Romances. Trans. William Kibler. NY: Penguin, 1991.  
+* [*The Song of Roland*. An Analytical Edition](https://corbio.net/pdfs/Chanson_Roland_Brault_1978.pdf). Trans. Gerard J. Brault. University Park and London: Pensilvania University Press, 1978.
+* [*The Song of Roland*. Trans. with an introduction and notes by Glyn Burgess. London: Penguin Books, 1990](https://archive.org/details/songofroland00burg).
+* *The Song of Roland*, Oxford World’s Classics. Trans. Simon Gaunt and Karen Pratt. Oxford: Oxford University Press, 2017.  
 
 ### Studies:
 
