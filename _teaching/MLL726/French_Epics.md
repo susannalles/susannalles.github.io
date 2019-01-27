@@ -33,7 +33,7 @@ The Old French *Chanson de Roland* is one of the most famous epic poems from the
 	- Chrétien de Troyes, pp. 133-135
 	- Song of Roland, pp. 594-596
 * Jane Gilbert. ["The Chanson de Roland."][2] In: Simon Gaunt & Sarah Kay (eds). [*The Cambridge Companion to Medieval French Literature.*][3] Cambridge: Cambridge University Press, 2008.
-* Michel Zink, [*Medieval French Literature: An Introduction*][4]. Trans. Jeff Rider. Binghamton, NY: Medieval & Renaissance Texts & Studies, 1995.  
+* Michel Zink, [*Medieval French Literature: An Introduction*](/teaching/MLL726/pdfs/Zink_1995.pdf). Trans. Jeff Rider. Binghamton, NY: Medieval & Renaissance Texts & Studies, 1995.  
 
 ## Extra readings: 
 * Joseph Wrisley, [Locating Medieval French, or Why We Collect and
