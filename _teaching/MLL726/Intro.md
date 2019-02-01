@@ -12,7 +12,7 @@ January 24, 2019
 
 
 
-## Intro / Discussion 
+## Discussion 
 * The concept of European Literature and of Romance Studies 
 * Genres in the Middle Ages 
 * Literary production in France - Italy - Iberian Peninsula 
@@ -34,10 +34,10 @@ January 24, 2019
 	13. Choose your prefered episode and share it with your fellows. 
 
 ## Studies: 
-* Ernst Robert Curtius. [“European Literature.”](pdfs/Curtius_2013_1_European_Literature.pdf) In: [*European Literature and the Latin Middle Ages*][1], Princeton University Press, 2013, pp. 1-16.
+* Ernst Robert Curtius. “European Literature.” In: [*European Literature and the Latin Middle Ages*][1], Princeton University Press, 2013, pp. 1-16.
 
-Extra reading (if you are interested):
-* Jacques Le Goff, [*Medieval Civilization*][2], Trans. by Julia Barrow, Blackwell: Oxford UK & Cambridge USA, 1988, pp. 255-324 ([8.Christian Society, pp. 255-324; 9. Mentalities, Sensibilities, and Attitudes, pp. 325-361](pdfs/LeGoff_1992.pdf)). 
+Extra reading:
+* Jacques Le Goff, [*Medieval Civilization*][2], Trans. by Julia Barrow, Blackwell: Oxford UK & Cambridge USA, 1988, pp. 255-324. 
  
 
 ## Film:

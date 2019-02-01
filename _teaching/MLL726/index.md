@@ -21,24 +21,24 @@ II. [France, la chançon de geste, and the *Song of Roland*](French_Epics.html) 
 
 III. [Iberian Peninsula and its heores: *Cantar de Mio Cid*](Iberian_Epics.html) (Feb. 7)
 
-IV. [From Boiardo to Ariosto](Italian_Epics.html) (Feb. 14)
+IV. From Boiardo to Ariosto <!--(Italian_Epics.html)--> (Feb. 14)
 
 *STORYTELLING*
 
-V. [Marie de France's *Lais*](French_Storytelling.html) (12th century) (Feb. 21)
+V. Marie de France's *Lais* <!--(French_Storytelling.html)--> (12th century) (Feb. 21)
 
-VI. [Giovanni Boccaccio's *Decameron*](Italian_Storytelling.html) (Feb. 28)
+VI. Giovanni Boccaccio's *Decameron* <!--(Italian_Storytelling.html)--> (Feb. 28)
 
-VII. [Don Juan Manuel, *El conde de Lucanor*](Iberian_Storytelling.html) (Mar. 7)
+VII. Don Juan Manuel, *El conde de Lucanor* <!--(Iberian_Storytelling.html)--> (Mar. 7)
 
 *LOVE*
 
-VIII. [French Troubadours and the Courtly Love](FrenchTroubadours.html) (Mar. 21)
+VIII. French Troubadours and the Courtly Love <!--(FrenchTroubadours.html)--> (Mar. 21)
 
-IX. [Italy, Dolce Stil Novo, Dante](Italian_poetry.html) (Mar. 28)
+IX. Italy, Dolce Stil Novo, Dante<!--(Italian_poetry.html)--> (Mar. 28)
 
-X. [The Standarization of Poetry and Petrarch](Italian_poetry2.html) (Apr. 4)
+X. The Standarization of Poetry and Petrarch <!--(Italian_poetry2.html)--> (Apr. 4)
 
-XI. [Chivalry Romances, Amadís de Gaula, Tirant Lo Blanch](chivalry.html) (Apr. 11)
+XI. Chivalry Romances, Amadís de Gaula, Tirant Lo Blanch <!--(chivalry.html)--> (Apr. 11)
 
-XII. [Quixote as anti-heroe](Quixote.html) (Apr. 14) 
+XII. Quixote as anti-heroe <!--(Quixote.html)--> (Apr. 14) 

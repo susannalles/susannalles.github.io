@@ -35,6 +35,10 @@ Optative:
 ## Digital resources to explore:
 * <http://romandelarose.blogspot.com/p/medieval-tiwtterature.html>
 * <http://users.clas.ufl.edu/jshoaf/Marie/>
+* <http://www.wwnorton.com/college/english/nael/middleages/topic_2/chretien.htm>
+* [Roman de la Rose](http://www.gutenberg.org/files/16816/16816-h/16816-h.htm) (Project Gutenberg) 
+* Lancelot <http://biblioteka.kijowski.pl/chretien%20de%20troyes/lancelot-wsp.pdf>
+* Aucassin et Nicolette <https://babel.hathitrust.org/cgi/pt?id=mdp.39015008974696;view=1up;seq=65;size=15>
 
 ## Films
 
