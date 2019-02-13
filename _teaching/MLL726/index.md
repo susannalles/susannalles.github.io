@@ -21,7 +21,7 @@ II. [France, la chançon de geste, and the *Song of Roland*](French_Epics.html) 
 
 III. [Iberian Peninsula and its heores: *Cantar de Mio Cid*](Iberian_Epics.html) (Feb. 7)
 
-IV. From Boiardo to Ariosto <!--(Italian_Epics.html)--> (Feb. 14)
+IV. [From Boiardo to Ariosto](Italian_Epics.html) (Feb. 14)
 
 *STORYTELLING*
 

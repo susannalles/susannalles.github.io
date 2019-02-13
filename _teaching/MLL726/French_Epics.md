@@ -11,7 +11,10 @@ collection: courses
 ## Discussion 
 
 - Birth of Romance Languages
+- Language of oïl / Language of oc 
+- Writing and Speaking
 - First texts in vernacular
+- Clerck vs Jongleur
 - Chanson de geste: origins, topics, trends, form and content
 
 
@@ -19,7 +22,8 @@ collection: courses
 
 -  Date (1098)
 -  Manuscripts 
--  Events
+-  Historical events
+-  Close reading
 -  Explore texts with [AntConc](http://www.laurenceanthony.net/software/antconc/)
 
 ## Readings: 
