@@ -18,22 +18,22 @@ collection: courses
 ### Boiardo, *Boiardo Innamorato*: 
 
 * Book I, Canto I, Octaves 1-3 
-* Book I, Canto I, octaves 20-35 
+* Book I, Canto I, Octaves 20-35 
 <!--* Book I, Canto V, octaves 56-83 -->
-* Book II, Canto I, octaves 1-4
-* Book II, Canto XVIII, octaves 1-3 
-* Book II, Canto XXV, ocatves 1-58
-* Book III, Canto IX, octaves 1-26 
+* Book II, Canto I, Octaves 1-4
+* Book II, Canto XVIII, Octaves 1-3 
+* Book II, Canto XXV, Ocatves 1-58
+* Book III, Canto IX, Octaves 1-26 
  		
 ### Ariosto, Orlando furioso
-* Canto I, octaves 1-23, 32-45, 48-71 
-* Canto XII octaves 4-22
+* Canto I, Octaves 1-23, 32-45, 48-71 
+* Canto XII Octaves 4-22
 <!-- * Canto XIII octaves 80-81-->
 <!--* Canto XVIII octaves 165-192-->
 <!--* Canto XIX octaves 1-42-->
-* Canto XXIII, octaves 100-136 
-* Canto XXIV, octaves 1-13
-* Canto XXXIV, octaves 70-87
+* Canto XXIII, Octaves 100-136 
+* Canto XXIV, Octaves 1-13
+* Canto XXXIV, Octaves 70-87
 * Canto XLVI 
 <!-- * Canto II octaves 29-30--> 
 <!-- * Canto VIII octaves 28-30, 71-87-->
