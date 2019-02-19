@@ -25,7 +25,7 @@ IV. [From Boiardo to Ariosto](Italian_Epics.html) (Feb. 14)
 
 *STORYTELLING*
 
-V. Marie de France's *Lais* <!--(French_Storytelling.html)--> (12th century) (Feb. 21)
+V. [Marie de France's *Lais*](French_Storytelling.html) (12th century) (Feb. 21)
 
 VI. Giovanni Boccaccio's *Decameron* <!--(Italian_Storytelling.html)--> (Feb. 28)
 

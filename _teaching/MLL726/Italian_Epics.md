@@ -39,8 +39,8 @@ collection: courses
 <!-- * Canto VIII octaves 28-30, 71-87-->
 
 ### Studies:
-*  Charles Peter Brand, *A preface to the Orlando Furioso*, Edinburgh University Press, 1974. <span style="color:red;">[Requested in Library]</span>
-* Jo Ann Cavallo, [*Boiardo’s Orlando Innamorato. An Ethics of Desire*](https://books.google.es/books?id=GUI0iPpJZlwC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=true), Rutheford-Madison-Teaneck, Fairleigh Dickinson University Press, London and Toronto: Associated University Presses, 1993, pp. [12-26](pdfs/Cavallo_1993_1.pdf) (1. Boiardo’s Narrator ) & [27-35](pdfs/Cavallo_1993_2.pdf) (2. Angelica) 
+*  Charles Peter Brand, *A preface to the Orlando Furioso*, Edinburgh University Press, 1974. 
+* Jo Ann Cavallo, [*Boiardo’s Orlando Innamorato. An Ethics of Desire*](https://books.google.es/books?id=GUI0iPpJZlwC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=true), Rutheford-Madison-Teaneck, Fairleigh Dickinson University Press, London and Toronto: Associated University Presses, 1993, pp. 12-26 (1. Boiardo’s Narrator ) & 27-35 (2. Angelica) 
 * Daniel Javitch. [Cantus Interruptus in the Orlando Furioso](https://www-jstor-org.access.library.miami.edu/stable/pdf/2906415.pdf?refreqid=excelsior%3A732ecea12ca9066de2b1a6badaa8c7f6). MLN, Vol. 95, No. 1, Italian Issue (Jan., 1980), pp. 66-80 
 
 ## Material culture to explore: 
