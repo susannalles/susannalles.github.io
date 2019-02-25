@@ -27,7 +27,7 @@ IV. [From Boiardo to Ariosto](Italian_Epics.html) (Feb. 14)
 
 V. [Marie de France's *Lais*](French_Storytelling.html) (12th century) (Feb. 21)
 
-VI. Giovanni Boccaccio's *Decameron* <!--(Italian_Storytelling.html)--> (Feb. 28)
+VI. [Giovanni Boccaccio's *Decameron*](Italian_Storytelling.html) (Feb. 28)
 
 VII. Don Juan Manuel, *El conde de Lucanor* <!--(Iberian_Storytelling.html)--> (Mar. 7)
 

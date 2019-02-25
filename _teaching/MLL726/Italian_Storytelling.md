@@ -11,8 +11,9 @@ collection: courses
 
 ## Intro
 
-## Readings:
-### Texts:
+
+## Texts:
+* [The Decameron Web.](http://www.brown.edu/Departments/Italian_Studies/dweb/texts/), Brown University. 
 * G. Boccaccio, *The Decameron. Selected Tales*. Eds. Don Beecher and Massimo Ciavolella, Broadview Press, 2017. Available for purchase in various formats (bound, PDF or ebook) at: <https://broadviewpress.com/product/the-decameron-selected-tales/#tab-table-of-contents>. 
 
 Selection: 
@@ -24,7 +25,7 @@ Selection:
 - IV, 9. Guiglielmo Rossiglione 
 - III, 5. Il Zima
 
-### Studies: 
+## Readings:
 * Barolini, Teodolinda. "[The Wheel of the Decameron.](pdfs/Barolini_2006.pdf)" *Dante and the Origins of Italian Literary Culture*. New York: Fordham University Press, 15 November 2006, pp. 224-244. 
 
 ## Material culture to explore:
