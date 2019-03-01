@@ -19,11 +19,16 @@ collection: courses
 Selection: 
 
 - Dedica
-- VII, 2. Peronella
-- III.1. Masetto da Lamporecchio 
+<!-- - II.7. Alatiel -->
+- III, 1. Masetto da Lamporecchio
+- III, 5. Il Zima 
 - IV, 5. Isabetta da Messina
 - IV, 9. Guiglielmo Rossiglione 
-- III, 5. Il Zima
+- <!-- - VI.9. Guido Cavalcanti -->
+- VII, 2. Peronella
+<!-- - IX.4. Cecco Angiolieri -->
+<!-- - IX.8. Cecco Angiolieri -->
+
 
 ## Readings:
 * Barolini, Teodolinda. "[The Wheel of the Decameron.](pdfs/Barolini_2006.pdf)" *Dante and the Origins of Italian Literary Culture*. New York: Fordham University Press, 15 November 2006, pp. 224-244. 
