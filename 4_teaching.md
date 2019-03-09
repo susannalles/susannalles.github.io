@@ -17,9 +17,9 @@ permalink: /teaching
 - Editorial Typologies and Book Apps, [M.A. in Digital Edition](http://estudios.uoc.edu/es/masters-posgrados-especializaciones/master/artes-humanidades/edicion-digital/presentacion). Online. [Blog](http://eah.uoc.edu/materials/edicio-digital/?lang=es). 
 
 2014-Present. **Universidad Nacional Española a Distancia (UNED)**
-
-- “Introduction to Digital Edition: TEI - XML”, [Título Experto Profesional en Humanidades Digitales](http://linhd.es/p/titulo-propio-experto-profesional-en-humanidades-digitales/). Online. 
-- “Marcado con TEI (Text Encoding Initiative)”, [Título Experto Profesional en Edición Digital Académica](http://linhd.es/p/titulo-propio-experto-en-edicion-digital-academica/). Online. 
+- "[Introducción a la edición digital de textos: marcado y etiquetado TEI](http://linhd.uned.es/p/edicion-digital-texto-marcado-tei-2019/)." [Master Universitario en Humanidades Digitales](http://linhd.uned.es/p/dh-master-humanidades-digitales-2019/) (2018-)
+- “Introduction to Digital Edition: TEI - XML.” Título Experto Profesional en Humanidades Digitales (2014-2018). Online. 
+- “Marcado con TEI (Text Encoding Initiative).” Título Experto Profesional en Edición Digital Académica (2015-2017). Online. 
 
 2014-2016. **Columbia University**
 

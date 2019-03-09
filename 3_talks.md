@@ -1,14 +1,16 @@
 ---
 layout: page
-title: Talks
+title: Talks & Organization
 permalink: /talks
 ---										
 
 #### CONFERENCES PAPERS:
 
-“Traducir ideas a datos.” [Congreso Internacional Humanidades Digitales: La Cultura de los Datos](https://www.aacademica.org/congreso.aahd2018), Rosario (Argentina), 7-9 November 2018 (Plenary Conference). 
+“Biographical Collections in Medieval and Early Modern Iberia: Exploring Literary Topics.” [Symposium Life-Writing Historicized: The Individual in Social and Cultural Context in Europe (1300-1800)](https://www.eventbrite.com/e/life-writing-historicized-the-individual-in-social-and-cultural-context-in-europe-1300-1800-tickets-50980411784), University of Miami, February 21 - 23, 2019
 
-& Mitsunori Ogihara (University of Miami), “Open Data as the Essentials of Teaching and Textual Research.” [Conference of the Japanese Association for the Digital Humanities](https://conf2018.jadh.org/#home), Tokyo (Japan),  9-13 September 2018 (Poster).
+“[Traducir ideas a datos](http://rephip.unr.edu.ar/xmlui/handle/2133/13833).” [Congreso Internacional Humanidades Digitales: La Cultura de los Datos](https://www.aacademica.org/congreso.aahd2018), Rosario (Argentina), 7-9 November 2018 (Plenary Conference). 
+
+& Mitsunori Ogihara (University of Miami), “[Open Data as the Essentials of Teaching and Textual Research](https://conf2018.jadh.org/files/Proceedings_JADH2018_rev0911.pdf).” [Conference of the Japanese Association for the Digital Humanities](https://conf2018.jadh.org/#home), Tokyo (Japan),  9-13 September 2018 (Poster).
 
 & Mitsunori Ogihara, “On Global, Formal Languages, and the Others.” [TEI2018 The 18th annual Conference and Members Meeting of the Text Encoding Initiative Consortium](https://tei2018.dhii.asia/, Tokyo (Japan)), 9-13 September 2018.
 
@@ -58,6 +60,9 @@ permalink: /talks
 
 
 #### SEMINARS AND WORKSHOPS: 
+
+“[Taller-Hackathon de edición digital de textos con TEI en español](https://tthub.io/noticias/2018/11/11/taller-hackathon-buenos-aires/).” Workshop Humanidades Digitales: ¿Para qué sirven? ¿Cómo funcionan?, coord. Gimena del Río. Instituto de Investigaciones Bibliográficas y Crítica Textual (CONICET), Buenos Aires, 12 November 2018
+
 “Hacia la publicación: XSL, transformación y plataformas de publicación.” [II Seminario Internacional ICREA Academia-PROLOPE][SeminarioUAB]. Texto Crítico y edición digital: modelos, codificación, alojamiento, publicación, coords. Gonzalo Pontón & Ramón Valdés, 11-12 January 2018
 
 “Digital Philology or When the Love for Words Becomes Computational.” [New Voices on DH@UM](http://humanities.miami.edu/humanities/publicprograms/lectures/past-lectures/dharchived/), 27 January 2017
@@ -95,18 +100,33 @@ ThatCamp. User generated “Unconference” on Digital Humanities, Paris, 25-26 
 “Alfonso de Palencia, traductor de Plutarc i de biografies humanístiques.” Seminari sobre cultura literària del Renaixement (1450-1600), organized by prof. Alejandro Coroleu, Autonomous University of Barcelona, Department of Catalan Philology, 7 April 2010 (Invited talk)
 
 
-#### ORGANIZED CONFERENCES											
+#### ORGANIZED SCIENTIFI EVENTS			
 
-II Congreso Internacional de Humanidades Digitales Hispánicas: Innovación, globalización e impacto, UNED, Madrid, 5-7 October 2015 (Scientific Board)
+Panel: “Big Data in Medieval Studies I: Creating Corpora” (Organizer) & "Big Data in Medieval Studies II: Corpus Exploration" (Presider). [54th International Congress on Medieval Studies](https://wmich.edu/sites/default/files/attachments/u434/2019/medieval-congress-program-2019.pdf), Western Michigan University, Kalamazoo, 9-12 May 2019 
+
+[Symposium Computational-Assisted Text Analysis for Resource-Scarce Literatures](http://susannalles.com/CATARSL/). University of Miami, April 24-25 (Organizer)
+
+[Digital Humanities Interdisciplinary Research Grup Seminar & Workshops Series](https://humanities.as.miami.edu/academic-programs/interdisciplinary-research-groups/digital-humanities/index.html), Center for the Humanities, University of Miami, March- April 2018 (Co-Organizer with Lindsay Thomas)
 
 Edición digital y tipologías editoriales, Columbia University, 29 April 2015 (Organizer)
 
-Training School Creation and use of Medieval Textual Corpora, Seminari di Ciutadella, Menorca, 16-24 September 2014 (Local organizer)
+[Training School Creation and use of Medieval Textual Corpora](http://www.glossaria.eu/minorque/), Seminari di Ciutadella, Menorca, 16-24 September 2014 (Local organizer)
 
-Workshop XML-TEI for Ancient and Medieval Lexicographical Works. Approaches, problems, markups and perspectives, IMF – CSIC, 15-17 May 2013 (Organizer)
+[Workshop XML-TEI for Ancient and Medieval Lexicographical Works](http://gmlc.imf.csic.es/2013/Workshop/), IMF – CSIC, 15-17 May 2013 (Organizer)
 
 Workshop “Estudis medievals: algunes tecnologies aplicades”, IMF - CSIC, Barcelona, 8 November 2012 (Organizer)
 
-International Congress Lo Zibaldone di Leopardi come ipertesto, University of Barcelona, 26-27 October 2012 (Organizing Committee)
+[International Congress Lo Zibaldone di Leopardi come ipertesto](http://www.ub.edu/zibal/), University of Barcelona, 26-27 October 2012 (Organizing Committee)
+
+#### Scientific Boards: 
+
+TEI Conference and Members’ Meeting 2019. “What is Text, really? TEI and beyond” Graz, Austria, 16-20 September 2019 (Program Committee)
+
+[III Congreso Internacional de la Asociación Argentina de Humanidades Digitales. La cultura de los datos](https://www.aacademica.org/congreso.aahd2018). Rosario (Argentina), 7-9 November 2018 
+
+[III Congreso Internacional de Humanidades Digitales Hispánicas: Sociedades, políticas, saberes](http://hdh2017.es/organization/?lang=en). Universidad de Málaga, 18-20 October 2017
+
+II Congreso Internacional de Humanidades Digitales Hispánicas: Innovación, globalización e impacto. UNED, Madrid, 5-7 October 2015
+
 
 [ADEMEC]: http://ademec.com/en/actus/2012/11/journee-annuelle-ademec[ARDIT]: http://arditcongress.weebly.com/program.html[Brown-colloquium]: /talks/Brown-colloquium/[Brown]: http://library.brown.edu/create/dh/conference-scholarly-networks/[Budapest]: http://ars-metrica.germ-ling.uni-bamberg.de/wp-content/uploads/2013/10/Budapest-MC-meeting_Program.pdf[Congreso Zibaldone]: http://www.ub.edu/zibal/[COST Workshop]: http://www.glossaria.eu/minorque/[Digitus]: http://www.aacademica.org/aahd.congreso/tabs/program?session=110&block=27&vs=294[Hartford]: /talks/Hartford/[Integrar]: http://www.aacademica.org/aahd.congreso/tabs/program?session=79&block=12&vs=215[Intro TEI]: http://extension.uned.es/actividad/idactividad/9408[Las Palmas]: https://sites.google.com/site/ichll2014/[Minimal]: http://dh2016.adho.org/abstracts/412[MLA]: https://apps.mla.org/conv_listings_detail?prog_id=473&year=2016[Montpellier]: https://cilir2013.wordpress.com/[NeMLA]: https://www.cfplist.com/nemla/Home/S/15828[Palencia Lyon]: http://ciham.ish-lyon.cnrs.fr/en/alfonso-palencia[SeminarioUAB]: http://susannalles.com/public/PDF/SeminarioUAB2018.pdf[TEI 2014]: http://tei.northwestern.edu/[TEI2017]: http://hcmc.uvic.ca/tei2017/abstracts/t_123_torrentetal_teionlinetraining.html[Text-Rewired]: /talks/Text-Rewired/[Workshop Bcn]: http://gmlc.imf.csic.es/2013/Workshop/index.php[Workshop Krakow]: http://scriptores.pl/aktualnosci/workshop/

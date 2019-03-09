@@ -10,7 +10,9 @@ permalink: /publications
 
 >> My first book offers a critical edition of the lives of Hannibal and Scipio written by Donato Acciaiuoli and translated by the Spaniard Alfonso de Palencia. My research explores the textual transmission of these two biographies, inserted around 1470 in the editio princeps of Plutarch’s Parallel Lives and, during many years, considered Plutarchean original works. Palencia, in fact, translated them beliving he was translating the author from Chaeronea. 
 
-#### ARTICLES IN PEER-REVIEWED JOURNALS:
+#### PEER-REVIEWED JOURNALS & BOOKS CHAPTERS:
+
+& Gimena del Rio Riande, “[Enseñar edición digital con TEI en español. Aprendizaje situado y transculturación][Baires2016].” *Humanidades Digitales: construcciones locales en contextos globales*. Actas del I Congreso Internacional de la Asociación Argentina de Humanidades Digitales (AAHD), Buenos Aires: Editorial de la Facultad de Filosofía y Letras Universidad de Buenos Aires, 2018
 
 ["Notas para una edición digital de Alfonso de Palencia"][Atalaya], *Atalaya* 17 (2017)
 
@@ -18,33 +20,30 @@ permalink: /publications
 
 ["Pedro Mexía y las varias lecciones de Plutarco"][QuadernsItalia], *Quaderns d'italià* 22 (2017): 123-132
 
+“Humanistas y descubrimientos de códices clásicos: la dimensión épica.” [*Secrets and Discovery in the Middle Ages*. Proceedings of the 5th European Congress of the Fédération Internationale des Instituts d’Études Médiévales (Porto, 24 to 29 June 2013)](http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503577456-1). Ed. J. Meirinhos, C. López, J. Rebalde. Barcelona - Madrid: Brepols, 2017. 467-477
+
+& Marta Punsola, and Pere J. Quetglas. [“Presentación de la edición digital del Glossarium Mediae Latinitatis Cataloniae (GMLC).”][ActasLatinMedieval] *Actas del IV Congreso Internacional de Latín Medieval Hispánico (20-23 noviembre 2013, La Núcia, Alicante)*, 2016. 423-432
+
+[“Glossarium Mediae Latinitatis Cataloniae: un projecte d’edició digital”][Omnia Mutantur], Omnia Mutantur. Canvi, transformació i pervivència en la cultura clàssica, en les seves llengües i en el seu llegat. Ed. E. Borrell Vidal, and O. de la Cruz Palma, Secció Catalana de la SEEC, Barcelona: Universitat de Barcelona, II, 2016. 231-239
+
  [“Edición digital y algunas tecnologías aliadas: codificación TEI y transformaciones XSLT.”][Insula] *Insula. Revista de Letras y Ciencias Humanas* 822 (June 2015): 18-21
 
 [“Implicaciones intelectuales y metodológicas en la selección de los autores y la terminología traductora castellana del siglo XV.”][AEM] *Anuario Estudios Medievales* 45.1 (January-June 2015): 1-30
 
 [“Latinismos, palabras patrimoniales y soluciones perifrásticas en la práctica traductora del siglo XV: el caso de Alfonso de Palencia.”][Recherches] *ReCherches. Culture et Histoire dans l’Espace Roman* 14 (2015): 85-104
 
+[“Le vite di Omero tradotte da Pellegrino degli Agli.”][Vite Omero] *Coexistence and Cooperation in the Middle Ages*. IV European Congress of Medieval Studies F.I.D.E.M. 23 - 27 June 2009, Palermo (Italy). Ed. A. Musco, and G. Musotto. Palermo: Officina di Studi Medievali, 2014. 149-161
+
 [“Il genero biografico degli umanisti e la ricezione nella Penisola Iberica nel Quattrocento: appunti per una revisione.”][Quaderns] *Quaderns d’Italià* 18 (2013): 203-214
 
 [“Alfonso de Palencia y el humanismo italiano.“][CFI] *Cuadernos de Filología Italiana* 19 (2013): 107-130
 
-[“Alfonso de Palencia y la traducción de las Vidas de Plutarco (nuevos datos en torno al texto de partida).”][CFC] *Cuadernos de Filología Clásica. Estudios latino*s 28. 2 (2008): 99-124
-	
-#### CHAPTERS IN BOOKS (PEER-REVIEWED):
-
-& Gimena del Rio Riande, “[Enseñar edición digital con TEI en español. Aprendizaje situado y transculturación][Baires2016].” *Humanidades Digitales: construcciones locales en contextos globales*. Actas del I Congreso Internacional de la Asociación Argentina de Humanidades Digitales (AAHD), Buenos Aires: Editorial de la Facultad de Filosofía y Letras Universidad de Buenos Aires
-
-“Humanistas y descubrimientos de códices clásicos: la dimensión épica.” [*Secrets and Discovery in the Middle Ages*. Proceedings of the 5th European Congress of the Fédération Internationale des Instituts d’Études Médiévales (Porto, 24 to 29 June 2013)](http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503577456-1). Ed. J. Meirinhos, C. López, J. Rebalde. Barcelona - Madrid: Brepols, 2017. 467-477.
-
-& Marta Punsola, and Pere J. Quetglas. [“Presentación de la edición digital del Glossarium Mediae Latinitatis Cataloniae (GMLC).”][ActasLatinMedieval] *Actas del IV Congreso Internacional de Latín Medieval Hispánico (20-23 noviembre 2013, La Núcia, Alicante)*, 2016. 423-432.
-
-[“Glossarium Mediae Latinitatis Cataloniae: un projecte d’edició digital”][Omnia Mutantur], Omnia Mutantur. Canvi, transformació i pervivència en la cultura clàssica, en les seves llengües i en el seu llegat. Ed. E. Borrell Vidal, and O. de la Cruz Palma, Secció Catalana de la SEEC, Barcelona: Universitat de Barcelona, II, 2016. pp. 231-239.
-
-[“Le vite di Omero tradotte da Pellegrino degli Agli.”][Vite Omero] *Coexistence and Cooperation in the Middle Ages*. IV European Congress of Medieval Studies F.I.D.E.M. 23 - 27 June 2009, Palermo (Italy). Ed. A. Musco, and G. Musotto. Palermo: Officina di Studi Medievali, 2014. 149-161
-
 & María de las Nieves Muñiz Muñiz. [“Per un’edizione ipertestuale bilingue dello Zibaldone.”][Zibaldone] *Lo Zibaldone di Leopardi come ipertesto*, Ed. M. N. Muñiz Muñiz. Florence: Leo Olschki, 2013. 343-357
 
 [“The Vita Caroli Magni of Donato Acciaiuoli, translated by Alfonso de Palencia (1491).”][Vita Caroli] *Humanism and Christian Letters in Early Modern Iberia (1480-1630)*. Ed. B. Taylor, and A. Coroleu. Newcastle: Cambridge Scholars Publishing, 2010. 61-71
+
+[“Alfonso de Palencia y la traducción de las Vidas de Plutarco (nuevos datos en torno al texto de partida).”][CFC] *Cuadernos de Filología Clásica. Estudios latino*s 28. 2 (2008): 99-124
+	
 
 #### BOOK REVIEWS:
 

@@ -21,7 +21,8 @@ permalink: /cv
 - Postdoctoral Fellow, Spanish National Research Council (CSIC), 2012 - 2014
 - Adjunct Professor, University of Barcelona, 2010 -2013
 
-## Fellowships	
+## Fellowships
+- **École Française de Rome**, Chercheur resident, January – June 2020
 - **Summer Writing Institute (SWI)**, University of Miami, May 15-18, 2018.										 
 - **NEH Institute for Advanced Topics in the Digital Humanities**, “Make_Your_Edition: Models and Methods for Digital Textual Scholarship”, Pittsburgh, July 10-29, 2017. 
 - **Columbia University**. Ministerio de Asuntos Exteriores & Fundación Rafael del Pino. Lectureship, New York, 2014-2016
@@ -35,8 +36,12 @@ permalink: /cv
 - **Università degli Studi di Firenze**. Predoctoral Fellowship (tutor: prof. Mariangela Regoliosi). Florence (Italy), March - April 2007. Funding: MEC
 - **Università degli Studi di Roma “La Sapienza”** Erasmus – Socrates Scholarship. Roma (Italy), September 2000- July 2001
 
-## Academic Awards and Grants									
-- College of Arts & Sciences, University of Miami, Funding for Pedagogy Workshop, 2017
+## Academic Awards and Grants
+
+- College of Arts & Sciences (CAS), University of Miami (UM), Fellowship in the Arts & Humanities Award for FY2020 (UM FAH 2020-843), June 1, 2019 - May 31, 2020 ($7,400)
+- CAS, UM, SEEDS You Choose Leadership Award ($2,500)
+- CAS, UM, Funding for Pedagogy Workshop, 2018 ($2,000)							
+- CAS, University of Miami, Funding for Pedagogy Workshop, 2017
 - Generalitat de Catalunya. Award for translation: Leonardo Bruni, *Vides de Dante i de Petarca*, 2014	
 - European Association for Digital Humanities. Small Grant for workshop and project support, 2013
 - Fundación Ana María Aldama Roy. III International Prize for a Doctoral Thesis, 2012
@@ -84,7 +89,7 @@ Editorial Board: *[Revista de Humanidades Digitales](http://revistas.uned.es/ind
 **Markup Languages**: XML, TEI-XML, HTML, CSS 
 **Metadata standards**:MARC, EAD, Dublin Core
 **Programming Languages**: XSL, XPath, PHP, Python, Javascript 
-**Frameworks and CMS**: WordPress, Jekyll, Drupal, Omeka
+**Frameworks and CMS**: WordPress, Jekyll, Drupal 7 and 8, Omeka
 **Database**: MYSQL, eXist
 **Data visualisation**: Gephi, D3.js 
 **Text edition**: Markdown, Pandoc, Latex, Classical Text Editor
