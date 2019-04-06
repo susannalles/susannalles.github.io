@@ -23,7 +23,7 @@ III. [Iberian Peninsula and its heores: *Cantar de Mio Cid*](Iberian_Epics.html)
 
 IV. [From Boiardo to Ariosto](Italian_Epics.html) (Feb. 14)
 
-*STORYTELLING*
+*STORYTELLING I*
 
 V. [Marie de France's *Lais*](French_Storytelling.html) (12th century) (Feb. 21)
 
@@ -37,8 +37,10 @@ VIII. [French Troubadours and the Courtly Love](FrenchTroubadours.html) (Mar. 21
 
 IX. [Italy, Dolce Stil Novo, Dante](Italian_poetry.html) (Mar. 28)
 
-X. [The Standarization of Poetry and Petrarch](Italian_poetry2.html) (Apr. 4)
+X. [Petrarch and the Standarization of Poetry](Italian_poetry2.html) (Apr. 4)
 
-XI. [Chivalry Romances, Amadís de Gaula, Tirant Lo Blanch] (chivalry.html) (Apr. 11)
+*STORYTELLING II*
+
+XI. [Chivalry Romances, and *Tirant Lo Blanch*](chivalry.html) (Apr. 11)
 
 XII. Quixote as anti-heroe <!--(Quixote.html)--> (Apr. 14) 
