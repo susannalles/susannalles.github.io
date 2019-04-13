@@ -11,10 +11,9 @@ collection: courses
 
 ## Readings: 
 ### Texts: 
-* Miguel De Cervantes. *Don Quijote de la Mancha*, ed. Francisco Rico. Madrid: Real Academia Española, 2004
-In translation:
+* Miguel De Cervantes. *Don Quijote de la Mancha*, ed. Francisco Rico. Madrid: Real Academia Española, 2004.
 * Miguel De Cervantes. *Don Quixote de la Mancha*. Translated by John Rutherford and introduction by Roberto González Echevarría. New York: Penguin, 2001.
-* Miguel de Cervantes, *Don Quixote*. A new translation by Edith Grossman. Introduction by Harold Bloom. New York: Harper Collins Publishers, 2005
+* Miguel de Cervantes, *Don Quixote*. A new translation by Edith Grossman. Introduction by Harold Bloom. New York: Harper Collins Publishers, 2005.
 
 ### Studies: 
 * Allen, John Jay. [*Don Quixote, Hero or Fool?*](https://miami-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=TN_mla1979205574&context=PC&vid=uml_new&search_scope=Everything&tab=everything&lang=en_US) Gainesville: UP of Florida, 1979. Excerpts. 
@@ -25,3 +24,4 @@ In translation:
 DC: Catholic U of America P, 2006.
 
 ## Films, series: 
+* [El Quijote](http://www.rtve.es/alacarta/videos/el-quijote/), RTVE 1992. 

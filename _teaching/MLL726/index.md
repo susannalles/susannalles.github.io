@@ -43,4 +43,4 @@ X. [Petrarch and the Standarization of Poetry](Italian_poetry2.html) (Apr. 4)
 
 XI. [Chivalry Romances, and *Tirant Lo Blanch*](chivalry.html) (Apr. 11)
 
-XII. Quixote as anti-heroe <!--(Quixote.html)--> (Apr. 14) 
+XII. [Quixote as anti-heroe](Quixote.html) (Apr. 14) 
