@@ -45,7 +45,7 @@ collections:
     output: true
   talks:
     output: true
-  caca:
+  lab:
     output: true
         
 categories:

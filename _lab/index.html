@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Removing Markers</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #floating-panel {
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        z-index: 5;
+       background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        text-align: left;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+		}
+		.titulo {
+        position: absolute;
+        top: 10px;
+       
+        z-index: 1;
+        
+        
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+			width: 100%;
+      }
+		.titulo h1 {
+			 background-color: #fff;
+			padding: 6px 10px;
+			text-align: center;
+			width: auto;
+			display: inline-block;
+			border-radius: 5px:
+			
+		}
+    </style>
+  </head>
+  <body>
+    <div id="floating-panel">
+      <span style="color: green; font-size: 28px; line-height: 32px;"><img src="http://maps.google.com/mapfiles/ms/icons/green-dot.png" alt=""/>Research</span><br>
+ <span style="color: orange; font-size: 28px; line-height: 32px;"><img src="http://maps.google.com/mapfiles/ms/icons/orange-dot.png" alt=""/>Teaching</span>
+    </div>
+	  
+  <div class="titulo">
+      <h1>Research and Teaching in MLL</h1>
+    </div>
+	  
+  <div id="map"></div>
+
+  <script>
+
+      function initialize() {
+    var locations = [
+		//orden,latitude,longitude,color,nombre uni,investigación,url inv,lengua,ciudad,país,investigador,url investigador
+        [1,41.50361,2.104722,"green","Universitat Autònoma de Barcelona","PROLOPE. Grupo de Investigación sobre Lope de Vega","http://prolope.uab.cat/","Spanish","Barcelona","Spain ","Susanna Allés Torrent","http://susannalles.com/"],
+		[2,40.436847,-3.735517,"orange","Universidad Nacional de Educación a Distancia ","MA in Digital Humanities","","Spanish","Madrid","Spain ","Susanna Allés Torrent","http://susannalles.com/"],
+		[3,41.406498,2.1945432,"orange","Universitat Oberta de Catalunya ","MA in Digital Editing ","","Catalan/Spanish","Barcelona","Spain ","Susanna Allés Torrent","http://susannalles.com/"],
+		[4,-34.5691173,-58.4173984,"green","IIBICRIT (Instituto de Investigaciones Bibliográficas y Crítica Textual)  - CONICET","Text Technologies Hub ","https://tthub.io/","Spanish","Buenos Aires","Argentina","Susanna Allés Torrent","http://susannalles.com/"],
+		[5,25.7823404,-80.3695441,"green","?????","Sites that Speak","http://scalar.usc.edu/hc/sites-that-speak/index","Spanish","Miami","United States","Lillian Manzor","https://people.miami.edu/profile/lmanzor@miami.edu#panelCareer"],
+		[6,23.0504398,-82.6131946,"green","Editorial Tablas/Alarcos","Sualos Book Series","","Spanish","Havana","Cuba","Lillian Manzor","https://people.miami.edu/profile/lmanzor@miami.edu#panelCareer"],
+		[7,23.0473087,-81.6583801,"green","Casa de la Memoria Escénica","Cuban Theater Digital Archive","http://cubantheater.org","Spanish","Matanzas","Cuba","Lillian Manzor","https://people.miami.edu/profile/lmanzor@miami.edu#panelCareer"],
+		[8,-33.4542205,-70.6692714,"green","Museo de la Solidaridad Salvador Allende","Nuestra América: Archivo, Escena, Territorio","https://mssa.cl/events/event/jornada-de-trabajo-nuestra-america-archivo-escena-y-territorio/","Spanish","Santiago","Chile","Lillian Manzor","https://people.miami.edu/profile/lmanzor@miami.edu#panelCareer"],
+		[9,19.3913855,-99.4238071,"blue","Universidad Nacional Autónoma de Mexico","???","","Spanish","CDMX","Mexico","Yolanda Martinez-San Miguel","http://www.yolandamartinez-sanmiguel.com/"],
+		[10,18.9873439,-99.1013289,"green","Tepoztlan Institute for the Americas","Annual Summer Institute Meeting","https://www.tepoztlaninstitute.org/","Spanish/English","Tepoztlan","Mexico","Yolanda Martinez-San Miguel","http://www.yolandamartinez-sanmiguel.com/"],
+		[11,40.4974643,-74.4493627,"blue","Rutgers University Press","???","","Spanish/English","New Jersey","USA","Yolanda Martinez-San Miguel","http://www.yolandamartinez-sanmiguel.com/"],
+		[12,40.4974643,-74.4493627,"green","Rutgers University Press","Rutgers Advanced Institute for Critical Caribbean Studies","https://criticalcaribbean.rutgers.edu","English","New Jersey","United States","Yolanda Martinez-San Miguel","http://www.yolandamartinez-sanmiguel.com/"],
+		[13,10.6415913,-61.4016597,"green","University of West Indies","Hemispheric Caribbean Studies","https://www.facebook.com/umhemisphericcaribbeanstudies/","English","Saint Augustine","Trinidad","Yolanda Martinez-San Miguel","http://www.yolandamartinez-sanmiguel.com/"],
+		[14,18.0029341,-76.7521253,"green","University of West Indies","Hemispheric Caribbean Studies","https://www.facebook.com/umhemisphericcaribbeanstudies/","English","Kingston","Jamaica","Yolanda Martinez-San Miguel","http://www.yolandamartinez-sanmiguel.com/"],
+		[15,23.1440545,-82.3977442,"green","Casa de las Americas","Hemispheric Caribbean Studies","https://www.facebook.com/umhemisphericcaribbeanstudies/","Spanish","La Habana","Cuba","Yolanda Martinez-San Miguel","http://www.yolandamartinez-sanmiguel.com/"],
+		[16,13.1346718,-59.6318914,"green","University of West Indies","Hemispheric Caribbean Studies","https://www.facebook.com/umhemisphericcaribbeanstudies/","English","Bridgetown","Barbados","Yolanda Martinez-San Miguel","http://www.yolandamartinez-sanmiguel.com/"],
+		[17,18.2310087,-66.7700746,"green","University of Puerto Rico","Hemispheric Caribbean Studies","https://www.facebook.com/umhemisphericcaribbeanstudies/","Spanish","San Juan ","Puerto Rico","Yolanda Martinez-San Miguel","http://www.yolandamartinez-sanmiguel.com/"],
+		[18,18.5405807,-72.339719,"green","Université d’État d’Haïti","Hemispheric Caribbean Studies","https://www.facebook.com/umhemisphericcaribbeanstudies/","Kreyol, French","Port-au-Prince","Haiti","Yolanda Martinez-San Miguel","http://www.yolandamartinez-sanmiguel.com/"],
+		[19,12.0528671,-61.7540046,"green","Grenada Community Library and Resource Centre","Hemispheric Caribbean Studies","https://www.facebook.com/umhemisphericcaribbeanstudies/","English","Saint George's","Grenada","Yolanda Martinez-San Miguel","http://www.yolandamartinez-sanmiguel.com/"],
+		[20,41.6147654,0.617428,"green","Universitat de Lleida, Centre Dona i Literatura","“Representaciones culturales de las sexualidades marginadas en España (1970-1995),”","http://www.ub.edu/cdona/es/projectes/representaciones-culturales-de-las-sexua","Spanish","Lleida","Spain","Gema Pérez-Sánchez","https://people.miami.edu/profile/gema@miami.edu#panelCareer"],
+		[21,42.4534531,-76.4756914,"green","Cornell University","Cornell University Library’s Human Sexuality Collection and the Phil Zwickler Charitable and Memorial Foundation","https://rare.library.cornell.edu/collections/HSC/zwickler","Spanish, Portuguese, French","Ithaca, NY","United States","Gema Pérez-Sánchez","https://people.miami.edu/profile/gema@miami.edu#panelCareer"],
+		[22,40.4235049,-3.6916211,"blue","Bilioteca Nacional de España","??","","Spanish","Madrid","Spain","Gema Pérez-Sánchez","https://people.miami.edu/profile/gema@miami.edu#panelCareer"],
+		[23,40.5466983,-3.6965506,"green","Universidad Autónoma de Madrid","World Pride 2017 Research","http://www.worldpridemadrid2017.com","Spanish, English","Madrid","Spain","Gema Pérez-Sánchez","https://people.miami.edu/profile/gema@miami.edu#panelCareer"],
+		[24,40.8091014,-73.9661519,"green","Barnard College, Barnard Center for Research on Women","Thinking Queer Activism Transnationally, S&F Online","http://sfonline.barnard.edu/thinking-queer-activism-transnationally/","Spanish, English","New York, NY","United States","Gema Pérez-Sánchez","https://people.miami.edu/profile/gema@miami.edu#panelCareer"],
+		[25,45.4231064,-75.6853216,"orange","University of Ottawa","Ph.D. dissertation, Javier Enrique García León, University of Ottawa, Canada. Spring 2018-Summer 2018. Dissertation topic: “¿Miedo a las trans? La representación de las personas transgénero en la industria cultural latinoamericana. El caso de Colombia y Venezuela.” ","","Spanish","Ottawa","Canada","Gema Pérez-Sánchez","https://people.miami.edu/profile/gema@miami.edu#panelCareer"],
+		[26,40.4179227,-3.7008434,"orange","Programa de Información y Asistencia a Homosexuales de la Comunidad de Madrid (PIAHT; Information and Assistance Program for Homosexuals of the Autonomous Community of Madrid),","Advisor, International internship at the Programa de Información y Asistencia a Homosexuales de la Comunidad de Madrid (PIAHT; Information and Assistance Program for Homosexuals of the Autonomous Community of Madrid),","","Spanish","Madrid","Spain","Gema Pérez-Sánchez","https://people.miami.edu/profile/gema@miami.edu#panelCareer"],
+		[27,45.1914198,5.7672724,"green","Universite de Grenoble-Alpes","Observatoire des litteratures francophones du Sud","http://stendhal.msh-alpes.fr/observatoire/map.html","French","Grenoble","France","Ralph Heyndels","https://people.miami.edu/profile/rheyndels@miami.edu"],
+		[28,33.9996049,-6.8461025,"green","Universite Mohammed V","Groupe de Recherche et d'Etudes du Genre","","French / Arab","Rabat","Morocco ","Ralph Heyndels","https://people.miami.edu/profile/rheyndels@miami.edu"],
+		[29,-23.4836472,-46.4928719,"green","University of São Paulo","LGBT Brazilian Immigration to US","","Portuguese","São Paulo","Brazil","Steven Butterman","https://people.miami.edu/profile/butterman@miami.edu#panelCareer"],
+		[30,-30.0593446,-51.1756799,"green","PUC-RGS","Book launch of (In)visibilidade vigilante","","Portuguese","Porto Alegre","Brazil","Steven Butterman","https://people.miami.edu/profile/butterman@miami.edu#panelCareer"],
+		[31,-9.5541807,-35.7774751,"blue","UFAL","??","","Portuguese","Maceió","Brazil","Steven Butterman","https://people.miami.edu/profile/butterman@miami.edu#panelCareer"],
+		[32,41.151137,-8.6346507,"green","Universidade do Porto","Queering Luso-Afro-Brazilian Studies","","Portuguese, English","Porto ","Portugal","Steven Butterman","https://people.miami.edu/profile/butterman@miami.edu#panelCareer"],
+		[33,29.9403477,-90.1229166,"green","Tulane University","Richard E. Greenleaf Chair & Visiting Scholar","","Portuguese, English","New Orleans, LA","USA","Steven Butterman","https://people.miami.edu/profile/butterman@miami.edu#panelCareer"],
+		[34,-26.2623548,-49.2752355,"blue","Univille","???","","Portuguese","Santa Catarina","Brazil","Steven Butterman","https://people.miami.edu/profile/butterman@miami.edu#panelCareer"],
+		[35,-22.8184343,-47.0669093,"blue","Unicamp","???","","Portuguese","Campinas","Brazil","Steven Butterman","https://people.miami.edu/profile/butterman@miami.edu#panelCareer"],
+		[36,15.7572329,-47.8848755,"blue","UniB","???","","Portuguese","Brasília","Brazil","Steven Butterman","https://people.miami.edu/profile/butterman@miami.edu#panelCareer"],
+		[37,-22.6481304,-50.4389663,"green","Unesp","Teletandem Brasil","","Portuguese","Assis","Brazil","Steven Butterman","https://people.miami.edu/profile/butterman@miami.edu#panelCareer"],
+		[38,-34.6156625,-58.5033375,"green","Buenos Aires Libre","Buenos Aires Libre","https://www.facebook.com/BuenosAiresLibre/","Spansih","Buenos Aires","Argentina","Allison Schifani, ams611@miami.edu","https://allison.schifani.com/"],
+		[39,41.497447,-81.8459438,"green","","SPEC ","https://cargocollective.com/speccities","English","Cleveland, OH","United States","Allison Schifani, ams611@miami.edu","https://allison.schifani.com/"],
+		[40,41.0470389,-73.7026076,"orange","Purchase College, SUNY","Spanish 2","","Spansih","Purchase, NY","United States","Ager Gondra","https://people.miami.edu/profile/axg1718@miami.edu#panelCareer"],
+		[41,-34.7064966,-58.2807187,"green","Universidad Nacional de Quilmes","Transformaciones de las industrias culturales en la era digital","http://www.unq.edu.ar/agenda/3627-jornadas-transformaciones-de-las-industrias-culturales-en-la-era-digital.php","Spansih","Buenos Aires","Argentina","George Yudice","https://people.miami.edu/profile/gyudice@miami.edu#panelCareer"],
+		[42,45.7308723,4.8299349,"green","Collegium de Lyon","Fellow, Collegium de Lyon","https://collegium.universite-lyon.fr","French and English","Lyon","France","Logan Connors ","https://people.miami.edu/profile/lxc888@miami.edu#panelCareer"],
+		[43,48.8587741,2.2069771,"orange","UParis","UParis (teaching)","","French and English","Paris","France","Logan Connors ","https://people.miami.edu/profile/lxc888@miami.edu#panelCareer"],
+		[44,40.9631132,-76.9104765,"green","Bucknell University Press","Book Series Editor","https://www.bucknell.edu/script/upress/series.asp?id=115","English","Lewisburg, PA","United States","Logan Connors ","https://people.miami.edu/profile/lxc888@miami.edu#panelCareer"],
+		[45,48.8587741,2.2069771,"green","Sorbonne Universités (Paris-Sorbonne)","Foreign Investigator, La Haine du théâtre (anti-theatrical discourse) ANR grant","http://obvil.sorbonne-universite.site/projets/la-haine-du-theatre","French","Paris","France","Logan Connors ","https://people.miami.edu/profile/lxc888@miami.edu#panelCareer"],
+		//orden,latitude,longitude,color,nombre uni,investigación,url inv,lengua,ciudad,país,investigador,url investigador
+		//[x,x,x,"x","x","x","x","x","x","x","x","x"],
+    ];
+
+    window.map = new google.maps.Map(document.getElementById('map'), {
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var bounds = new google.maps.LatLngBounds();
+
+    for (i = 0; i < locations.length; i++) {
+		color = locations[i][3];
+		let url = "http://maps.google.com/mapfiles/ms/icons/";
+		  url += color + "-dot.png";
+
+		
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map,
+			icon: {
+			  url: url
+			}
+        });
+
+        bounds.extend(marker.position);
+
+		if(locations[i][6].length > 2){
+			 estudio = '<a href="'+locations[i][6]+'" target="_blank">'+locations[i][5]+'</a>';
+		}else{
+			 estudio = locations[i][5];
+		}
+		
+		let info = '<h3 style="margin-bottom:4px;">'+locations[i][4]+'</h3><div>'+estudio+'<br>'+locations[i][7]+'<br>'+locations[i][8]+', '+locations[i][9]+'<br><a href="'+locations[i][11]+'" target="_blank">'+locations[i][10]+'</a></div>'
+
+        google.maps.event.addListener(marker, 'click', (function (marker, i) {
+            return function () {
+                infowindow.setContent(info);
+                infowindow.open(map, marker);
+            }
+        })(marker, i));
+    }
+
+    map.fitBounds(bounds);
+
+    var listener = google.maps.event.addListener(map, "idle", function () {
+        map.setZoom(3.5);
+        google.maps.event.removeListener(listener);
+    });
+}
+
+function loadScript() {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDFwXH6d1j-cjkQKjfE3eY6c8PfrdgEWrE&sensor=false&' + 'callback=initialize';
+    document.body.appendChild(script);
+}
+
+window.onload = loadScript;
+    </script>
+   
+</body>
+</html>
