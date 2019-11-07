@@ -42,7 +42,7 @@ ul, ol, dl, figure,
 img {
   max-width: 100%;
   vertical-align: middle;
-  border: 1px solid #021a40; }
+  /*border: 1px solid #021a40;*/ }
 
 /**
  * Figures
@@ -308,11 +308,12 @@ pre {
   /*SAT*/ }
   .post-content h1 {
     font-size: 22px;
-    color: #005030; }
+    color: #f47321;
+    text-transform: uppercase; }
   .post-content h2 {
     /* font-size: 32px;*/
     font-size: 20px;
-    color: #f47321; }
+    color: #005030; }
     @media screen and (max-width: 800px) {
       .post-content h2 {
         /*font-size: 28px;*/

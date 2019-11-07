@@ -1,4 +1,4 @@
-<footer class="site-footer">
+﻿<footer class="site-footer">
 
   <div class="wrapper">
 
@@ -7,37 +7,34 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
+          <li> {% if site.author %} {{ site.author | escape }} {% else %} {{ site.title | escape }}
+            {% endif %} </li> {% if site.email %} <li><a href="mailto:{{ site.email }}">{{
+              site.email }}</a></li> {% endif %} </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
+        <ul class="social-media-list"> {% if site.github_username %} <li> {% include
+            icon-github.html username=site.github_username %} </li> {% endif %} {% if
+          site.twitter_username %} <li> {% include icon-twitter.html username=site.twitter_username
+            %} </li> {% endif %}
+          <li><a href="https://orcid.org/0000-0002-3616-2285"><img src="public/img/orcid.png" style="width:18px;"/> orcid </a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+        <!--<p>{{ site.description | escape }}</p>-->
+        <ul class="social-media-list">
+          <li>
+            <a href="https://zenodo.org/communities/tei_espanol/?page=1&size=20">Zenodo</a>
+          </li>
+          <li>
+            <a href="https://hcommons.org/members/susannalles/">HC</a>
+          </li>
+          <li>
+            <a href="https://www.zotero.org/susannalles">Zotero</a>
+          </li>
+        </ul>
+
       </div>
     </div>
 

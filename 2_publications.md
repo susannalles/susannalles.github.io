@@ -12,6 +12,8 @@ permalink: /publications
 
 #### PEER-REVIEWED JOURNALS & BOOKS CHAPTERS:
 
+[Sobre la complejidad de los datos en Humanidades, o cómo traducir las ideas a datos](http://revistas.uned.es/index.php/RHD/article/view/24679). *Revista de Humanidades Digitales* 4 (2019): 1-28
+
 & Gimena del Rio Riande, “[Enseñar edición digital con TEI en español. Aprendizaje situado y transculturación][Baires2016].” *Humanidades Digitales: construcciones locales en contextos globales*. Actas del I Congreso Internacional de la Asociación Argentina de Humanidades Digitales (AAHD), Buenos Aires: Editorial de la Facultad de Filosofía y Letras Universidad de Buenos Aires, 2018
 
 ["Notas para una edición digital de Alfonso de Palencia"][Atalaya], *Atalaya* 17 (2017)

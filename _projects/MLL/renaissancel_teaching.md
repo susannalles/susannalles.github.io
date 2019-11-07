@@ -1,0 +1,89 @@
+---
+layout: materials
+title: Digital Tools for Teaching Spanish Golden Age
+permalink: /projects/Golden-Age.html
+---
+## Digital Tools for the Study of the Spanish Golden Age 
+
+## Databases 
+
+- [Bieses. Bibliografía de Escritoras Españolas](https://www.bieses.net/), by Nieves Baranda Leturio (UNED)
+- [Banco de imágenes del Quijote](http://www.qbi2005.com)
+- [BIDISIO](hMp://www.bidiso.es/index.htm) (dir. by Sagrario López Poza)
+- [Teatro del Siglo de Oro (TESO)](https://teso.chadwyck.com/), by María del Carmen Simón Palmer 
+- [CATCOM. Las comedias y sus representantes. Base de Datos de Comedias Mencionadas en la Documentación Teatral (1540-1700)](http://catcom.uv.es/consulta/)
+
+
+
+## Corpora- [CODEA. Corpus de Documentos Anteriores a 1800](http://corpuscodea.es/)- [CORDE. Corpus diacrónico del español. Real Academia Españolal](http://corpus.rae.es/cordenet.html)- [Celestina Early Editions
+Colección de ediciones tempranas de Celestina](https://textred.spanport.lss.wisc.edu/celestina/index.html), by Ivy Corfis (University of Wisconsin-Madison)
+- [Corpus Sonetos Siglo de Oro](https://github.com/bncolorado/CorpusSonetosSigloDeOro)
+
+
+## Translations
+
+- [Proyecto Boscán](http://www.ub.edu/boscan/)
+
+
+## Online Editions
+
+- [MiniLazarillo](http://minilazarillo.github.io/) (Project conceived as a pedagogical experiment at Columbia University (Spring 2016), led by Susanna Allés Torrent and Alex Gil) 
+- [La Entretenida, de Miguel de Cervantes](http://entretenida.outofthewings.org/index.html), ed. by John O’Neill
+- [Erótica en la poesía del Siglo de oro](http://www5.uva.es/ltleso/erotica/buscador.php), dir. by Javier Blasco Pascual
+
+### Quijote
+- [Don Quijote de la Manca](), ed. by Francisco Rico (Instituto Cervantes) (CD-Rom 1998; 2004)
+- [Edición Electrónica Virtual Vatiorum del Quijote (EEVV-DQ)](http://quijote.tamu.edu/index.htm), by Eduardo Urbina et al. 
+- [Quijote Interactivo](http://quijote.bne.es/libro.html), coord. by J. Lucía-Megías, Biblioteca Nacional de España (2009)
+- [Universo Cervantes](http://www.universocervantes.com/es)
+
+
+### La Celestina 
+- [Celestina Visual. 500 años de imágenes de La Celestina](http://celestinavisual.org/) (It is not a digital edition, but a gathering of illustrations, drawings, performing arts around La Celestina]
+- [La Celestina. Edición interactiva](https://webs.ucm.es/info/especulo/hipertul/celestina.html), by Miguel Garci-Gómez
+
+
+## Projects 
+ - [Proyecto Cervantes 2001](http://cervantes.tamu.edu/V2/index.html)
+ - [Proyecto Comedia](http://www.wordpress.comedias.org/)
+
+
+## Digital Libraries
+
+- [Biblioteca Digital del Patrimonio Iberoamericano](http://www.iberoamericadigital.net/es/Inicio/)- [Biblioteca Digital Dioscórides](https://webs.ucm.es/BUCM/atencion//24063.php) (Universidad Complutense de Madrid)- [Biblioteca Digital Hispánica](http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Inicio/index.html) (BNE)- [Biblioteca Digital. Bibliotecas de la Comunidad de Madrid](http://bibliotecavirtualmadrid.org/bvmadrid_publicacion/es/inicio/inicio.do)- [Biblioteca Virtual de Patrimonio Bibliográfico](https://bvpb.mcu.es/es/inicio/inicio.do)
+- [Biblioteca virtual Miguel de Cervantes](http://www.xn--cervantesvirtual-nva.com/). [Author from 11th to 15th century](http://www.cervantesvirtual.com/portales/literatura/autores_fundamentales/#siglo_11)
+- [Dialogyca. Biblioteca Digital de Diálogo Hispánico](http://www.dialogycabddh.es/), dir. by ana Vian Herrero
+- [Parnaseo. Servidor Web de Literatura Española](http://parnaseo.uv.es/)
+- [Portal Andrés de Poza](http://andresdepoza.com/), dir. by Carmen Isasi (Univ. de Deusto)- [Universia España](https://www.universia.es/bibliotecas-digitales/bibliotecas/at/1151902) (List of Digital Library)
+- [Teatro del Siglo de Oro](http://teatrosiglodeoro.bne.es/es/RecursosBibliograficos/indexEnlaces.html), Biblioteca Nacional de España
+- [LEMIR. Literatura Española Medieval y Renacimiento](http://parnaseo.uv.es/lemir.htm), by José Luis Canet, Marta Haro y Rafael Beltrán 
+- [BIDISIO. Biblioteca Digital Siglo de Oro](https://www.bidiso.es/index.htm)
+- [PHEBO. Poesía Hispánica del Bajo Barroco](http://www.uco.es/investigacion/proyectos/phebo/)
+- - [Dialogyca. Biblioteca Digital de Diálogo Hispánico](http://www.dialogycabddh.es/)- [IntraText. Digital Library](http://www.intratext.com/8/es/) 
+- [Parnaseo. Servidor Web de Literatura Española](http://parnaseo.uv.es/)
+	* [LEMIR. Literatura Española Medieval y Renacimiento](http://parnaseo.uv.es/lemir.htm) (Ed. by José Luis Canet, Marta Haro & Rafael Beltrán)
+- [Portal Andrés de Poza](http://andresdepoza.com/)- [Universia España](https://www.universia.es/bibliotecas-digitales/bibliotecas/at/1151902) (List of Digital Library)
+
+
+
+## Maps 
+
+- 
+## Associations
+
+
+## Congerences 
+
+
+## Publications 
+
+
+## Machine learning
+(Golden Age) 
+* [Who is the real author of The Life of Lazarillo de Tormes?](http://www.cultureplex.ca/project/the-life-of-lazarillo-de-tormes-and-of-his-machine-learning-adversities-non-traditional-authorship-attribution-techniques-in-the-context-of-the-lazarillo/)
+* [The Preliminares Project: Geography, Networks, and Publication in the Spanish Golden Age](http://www.cultureplex.ca/project/the-preliminares-project-geography-networks-and-publication-in-the-spanish-golden-age/)
+
+## Other syllabi 
+### Undergrad 
+
+### Graduate 

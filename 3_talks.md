@@ -5,7 +5,7 @@ permalink: /talks
 ---										
 
 #### CONFERENCES PAPERS:
-
+& Gimena del Rio Riande (CONICET), “TTHUB: Recursos sobre tecnologías del texto y edición digital.” IV Congreso Internacional de la Asociación de Humanidades digitales. “Humanidades Digitales & Patrimonio cultural”, Universidad Castilla La Mancha, Toledo (Spain), October 23-25, 2019. & Gimena del Rio Riande (CONICET), “[TTHUB: Text Technologies Hub for Extending TEI Training in Spanish.](https://zenodo.org/record/3514441#.XcSoQb97now)” TEI Conference and Members’ Meeting 2019 “What is Text, really? TEI and beyond.” Univesity of Graz (Austria), September 16-20, 2019 (Poster)
 “Biographical Collections in Medieval and Early Modern Iberia: Exploring Literary Topics.” [Symposium Life-Writing Historicized: The Individual in Social and Cultural Context in Europe (1300-1800)](https://www.eventbrite.com/e/life-writing-historicized-the-individual-in-social-and-cultural-context-in-europe-1300-1800-tickets-50980411784), University of Miami, February 21 - 23, 2019
 
 “[Traducir ideas a datos](http://rephip.unr.edu.ar/xmlui/handle/2133/13833).” [Congreso Internacional Humanidades Digitales: La Cultura de los Datos](https://www.aacademica.org/congreso.aahd2018), Rosario (Argentina), 7-9 November 2018 (Plenary Conference). 
@@ -60,6 +60,8 @@ permalink: /talks
 
 
 #### SEMINARS AND WORKSHOPS: 
+
+“CORBIO: CORpus of Medieval and Early Modern BIOgraphies.” Webaton OpenGLAM-AAHD “Digital Humanities, Cultural Heritage and Open Access.” 4 September 2019
 
 “[Taller-Hackathon de edición digital de textos con TEI en español](https://tthub.io/noticias/2018/11/11/taller-hackathon-buenos-aires/).” Workshop Humanidades Digitales: ¿Para qué sirven? ¿Cómo funcionan?, coord. Gimena del Río. Instituto de Investigaciones Bibliográficas y Crítica Textual (CONICET), Buenos Aires, 12 November 2018
 

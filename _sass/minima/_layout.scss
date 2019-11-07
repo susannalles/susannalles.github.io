@@ -211,15 +211,20 @@
   }
 }
 
+img{
+
+}
+
 .post-content {
   margin-bottom: $spacing-unit;
 /*SAT*/
-    h1{font-size:22px; color: #005030;}
+    h1{font-size:22px; color: #f47321; text-transform: uppercase;}
+
 /*SAT*/
   h2 {
    /* font-size: 32px;*/
     font-size: 20px;
-    color: #f47321;
+    color: #005030;
     
     
     @include media-query($on-laptop) {
