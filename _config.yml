@@ -14,7 +14,7 @@ title: Susanna Allés Torrent
 author: Susanna Allés Torrent
 email: susanna_alles@miami.edu
 description: > # this means to ignore newlines until "baseurl:"
- 
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://susannalles.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sallesto
@@ -49,10 +49,11 @@ collections:
     output: true
   projects:
     output: true
-        
+  Web-TEI:
+    output: true
+
 categories:
    workshops
    conferences
    syllabi
    projects
-   
