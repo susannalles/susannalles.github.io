@@ -13,4 +13,4 @@ collection: courses
 
 [Programa detallado](schedule.html)
 
-Check out the Student's project [HERE](http://susannalles.com/teaching/SPA322/Web_Lorca/)
+Check out the Student's project [HERE](https://susannalles.github.io/teaching/SPA322/Web_Lorca/)
