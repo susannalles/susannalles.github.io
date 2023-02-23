@@ -7,8 +7,6 @@ collection: teaching
 ---
 Miércoles 30 de agosto de 2017 
 
-[PDF](apuntes/clase4.pdf)
-
 ## 2. Creación y tecnologías web 
 
 ## 2.1. ¿Cómo funciona la red?
